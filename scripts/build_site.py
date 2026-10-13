@@ -101,7 +101,7 @@ def materialize(root, files, tracked):
             pattern = pattern.replace(char, '\\' + char)
         missing.append('/' + pattern)
     if missing:
-        subprocess.run(['git', 'sparse-checkout', 'add', '--no-cone', '--stdin'],
+        subprocess.run(['git', 'sparse-checkout', 'add', '--stdin'],
                        cwd=root, input=('\n'.join(missing) + '\n').encode(), check=True)
 
 
