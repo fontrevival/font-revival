@@ -29,8 +29,9 @@ Follow `docs/WORKFLOW.md` for both new families and revisions.
   fonts, family READMEs, checksums, `catalog.json`, or `index.html`.
 - Finish completed work with commit, push, and watch unless the user says otherwise.
   Push to the configured upstream and watch the `Publish gallery` GitHub Actions run
-  for that exact commit through completion. Confirm successful deployment and the
-  live gallery update before reporting publication; investigate and fix failures.
+  for that exact commit through completion when publication is triggered. Report
+  intentional skips for changes outside the site's inputs. Confirm successful deployment
+  and the live gallery update before reporting publication; investigate and fix failures.
   See `docs/WORKFLOW.md` for the publication steps and branch requirements.
 - Update the root collection list when adding a new family. Edit the gallery layout
   in `site/index.template.html`; family cards are generated automatically.

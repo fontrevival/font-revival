@@ -96,14 +96,25 @@ configured upstream. Documentation-only changes need a diff review and
 `git diff --check`; they do not require rebuilding unchanged fonts.
 
 The `Publish gallery` workflow (`.github/workflows/pages.yml`) publishes pushes
-to `main`. Find the run for the exact pushed commit with
+to `main` that change site inputs. Documentation-only and test-only pushes skip
+publication; report that intentional skip instead of waiting for a run. Otherwise,
+find the run for the exact pushed commit with
 `gh run list --workflow pages.yml --commit <commit-sha>`, then monitor it with
 `gh run watch <run-id> --exit-status`. If the run has not appeared yet, wait and
 retry the lookup; do not substitute an older deployment. Watch through completion,
 inspect failed logs and fix any failures, then verify the expected update on the
-[live gallery](https://haroldus-.github.io/font-revival/). Report the commit and
+[live gallery](https://font-revival.com/). Report the commit and
 deployment result with a link to the run. A push to another branch does not publish
 the gallery; report that explicitly rather than claiming deployment succeeded.
+
+Pages receives a complete site artifact. To keep preparation fast, the workflow
+starts with a sparse partial checkout and fetches only files the gallery embeds.
+Download links are checked against the committed Git tree without fetching the
+archival files. Packed ornament pages are cached by source content, helper path,
+and assembler version; unchanged pages reuse their lossless compressed artwork.
+The assembler still checks every referenced asset on cache hits. Gzip level 6 keeps
+cold builds faster without changing the decoded artwork. The cache is optional:
+`python3 scripts/build_site.py` still builds from a full local checkout.
 
 ## Repeatability
 
@@ -126,5 +137,5 @@ for byte-for-byte comparisons. Source files and outputs are committed together.
 > sources and rights basis. Preserve the distinctive forms and mark reconstructions.
 > Use the shared source format and build commands. For revisions, include a version
 > bump, changelog, and before/after proof. Inspect the results and finish with passing
-> checks, a focused commit, a push, and a successful Pages deployment verified on
-> the live gallery.
+> checks, a focused commit, a push, and, when site inputs change, a successful Pages
+> deployment verified on the live gallery.

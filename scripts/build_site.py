@@ -9,12 +9,14 @@ in GitHub Pages' 1 GB published-site allowance.
 import argparse
 import base64
 import gzip
+import hashlib
 from html.parser import HTMLParser
 import html
 import os
 from pathlib import Path
 import re
 import shutil
+import subprocess
 from urllib.parse import quote, unquote, urlsplit
 
 REPO = Path(__file__).resolve().parents[1]
@@ -22,6 +24,7 @@ SITE_BASE = 'https://haroldus-.github.io/font-revival/'
 DOWNLOAD_BASE = 'https://raw.githubusercontent.com/haroldus-/font-revival/main/'
 CSS_URL = re.compile(r'url\(\s*[\'"]?([^\s\)\'"]+)[\'"]?\s*\)')
 DETAIL_SVG = re.compile(r'(<svg\b[^>]*\bdata-icon-format="(multitone|monochrome)"[^>]*>)(.*?)(</svg>)', re.S)
+PACKING_VERSION = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 
 
 def pack_detail_artwork(content, helper_url, minimum=100_000):
@@ -44,7 +47,7 @@ def pack_detail_artwork(content, helper_url, minimum=100_000):
         if not download or not viewbox:
             return match.group()
         x, y, width, height = viewbox.group(1).split()
-        payload = base64.b64encode(gzip.compress(artwork.encode(), mtime=0)).decode('ascii')
+        payload = base64.b64encode(gzip.compress(artwork.encode(), compresslevel=6, mtime=0)).decode('ascii')
         if len(payload) >= len(artwork):
             return match.group()
         packed = True
@@ -57,6 +60,45 @@ def pack_detail_artwork(content, helper_url, minimum=100_000):
         script = f'<script defer src="{html.escape(helper_url, quote=True)}"></script>\n'
         content = content.replace('</body>', script + '</body>')
     return content
+
+
+def cached_artwork(content, helper_url, cache=None):
+    """Reuse losslessly packed pages; invalidate on input or assembler changes."""
+    if cache is None or len(content) < 100_000:
+        return pack_detail_artwork(content, helper_url)
+    key = hashlib.sha256('\0'.join((PACKING_VERSION, helper_url, content)).encode()).hexdigest()
+    cached = cache / (key + '.html')
+    if cached.is_file():
+        return cached.read_text()
+    packed = pack_detail_artwork(content, helper_url)
+    cache.mkdir(parents=True, exist_ok=True)
+    temporary = cached.with_suffix('.tmp')
+    temporary.write_text(packed)
+    temporary.replace(cached)
+    return packed
+
+
+def committed_files(root):
+    """Read path metadata without fetching archival blobs in a partial clone."""
+    listing = subprocess.check_output(['git', 'ls-tree', '-rz', '--name-only', 'HEAD'], cwd=root)
+    return {Path(os.fsdecode(name)) for name in listing.split(b'\0') if name}
+
+
+def materialize(root, files, tracked):
+    """Fetch missing inline dependencies together, leaving downloads on GitHub."""
+    missing = []
+    for file in sorted(files):
+        if file.is_file():
+            continue
+        relative = file.relative_to(root)
+        if relative not in tracked:
+            raise ValueError(f'Missing gallery asset: {relative}')
+        missing.append(os.fsencode(relative))
+    if missing:
+        subprocess.run(['git', '--literal-pathspecs', 'restore', '--source=HEAD', '--worktree',
+                        '--ignore-skip-worktree-bits', '--pathspec-from-file=-',
+                        '--pathspec-file-nul'], cwd=root,
+                       input=b'\0'.join(missing) + b'\0', check=True)
 
 
 class References(HTMLParser):
@@ -86,7 +128,7 @@ class References(HTMLParser):
                     self.inline_assets.add(value)
 
 
-def local_path(root, origin, url):
+def local_path(root, origin, url, tracked=None):
     # Social previews need absolute public URLs, but remain local dependencies.
     if url.startswith(SITE_BASE):
         url = '/' + url[len(SITE_BASE):]
@@ -96,64 +138,76 @@ def local_path(root, origin, url):
     target = ((root if parts.path.startswith('/') else origin.parent) /
               unquote(parts.path).lstrip('/')).resolve()
     target.relative_to(root.resolve())
-    if not target.is_file():
+    if not target.is_file() and (tracked is None or target.relative_to(root) not in tracked):
         raise ValueError(f'Missing gallery asset: {target.relative_to(root)}')
     return target
 
 
-def assemble(root, output, download_base=DOWNLOAD_BASE):
+def assemble(root, output, download_base=DOWNLOAD_BASE, cache=None, git_source=False):
     root, output = root.resolve(), output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     pending = [root / name for name in ('index.html', 'icons.html', 'catalog.json', 'icons.json', 'LICENSE')]
+    tracked = committed_files(root) if git_source else None
     written = set()
     while pending:
-        file = pending.pop()
-        relative = file.relative_to(root)
-        if relative in written or file.suffix.lower() in ('.pdf', '.zip'):
-            continue
-        destination = output / relative
-        destination.parent.mkdir(parents=True, exist_ok=True)
-        if file.suffix in ('.html', '.css'):
-            content = file.read_text()
-            if file.suffix == '.html' and '</body>' in content:
-                helper = os.path.relpath(root / 'site/unpack-art.js', file.parent)
-                content = pack_detail_artwork(content, Path(helper).as_posix())
-            references = set(CSS_URL.findall(content))
-            downloads, comparisons, inline = set(), set(), set(references)
-            if file.suffix == '.html':
-                parser = References(); parser.feed(content)
-                references.update(parser.urls)
-                downloads, comparisons = parser.downloads, parser.comparison_images
-                inline.update(parser.inline_assets)
-            for url in sorted(references):
-                target = local_path(root, file, url)
-                if target is None:
-                    continue
-                remote_asset = target.suffix.lower() in ('.pdf', '.zip') or url in downloads or url in comparisons
-                if remote_asset:
-                    remote = download_base + quote(target.relative_to(root).as_posix())
-                    fragment = urlsplit(url).fragment
-                    if fragment:
-                        remote += '#' + fragment
-                    if url in comparisons:
-                        content = content.replace('src="' + url + '"', 'src="' + remote + '"')
-                    if url in downloads or target.suffix.lower() in ('.pdf', '.zip'):
-                        content = content.replace('href="' + url + '"', 'href="' + remote + '"')
-                if not remote_asset or url in inline:
-                    pending.append(target)
-            destination.write_text(content)
-        else:
-            shutil.copyfile(file, destination)
-        written.add(relative)
+        batch = sorted({file for file in pending if file.relative_to(root) not in written
+                        and file.suffix.lower() not in ('.pdf', '.zip')})
+        pending = []
+        if git_source:
+            materialize(root, batch, tracked)
+        for file in batch:
+            relative = file.relative_to(root)
+            stage_file(root, output, file, pending, download_base, cache, tracked)
+            written.add(relative)
     total = sum((output / name).stat().st_size for name in written)
     if total > 1_000_000_000:
         raise ValueError(f'Published site exceeds 1 GB: {total:,} bytes')
     return total, len(written)
 
 
+def stage_file(root, output, file, pending, download_base, cache, tracked):
+    relative = file.relative_to(root)
+    destination = output / relative
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    if file.suffix in ('.html', '.css'):
+        content = file.read_text()
+        if file.suffix == '.html' and '</body>' in content:
+            helper = os.path.relpath(root / 'site/unpack-art.js', file.parent)
+            content = cached_artwork(content, Path(helper).as_posix(), cache)
+        references = set(CSS_URL.findall(content))
+        downloads, comparisons, inline = set(), set(), set(references)
+        if file.suffix == '.html':
+            parser = References(); parser.feed(content)
+            references.update(parser.urls)
+            downloads, comparisons = parser.downloads, parser.comparison_images
+            inline.update(parser.inline_assets)
+        for url in sorted(references):
+            target = local_path(root, file, url, tracked)
+            if target is None:
+                continue
+            remote_asset = target.suffix.lower() in ('.pdf', '.zip') or url in downloads or url in comparisons
+            if remote_asset:
+                remote = download_base + quote(target.relative_to(root).as_posix())
+                fragment = urlsplit(url).fragment
+                if fragment:
+                    remote += '#' + fragment
+                if url in comparisons:
+                    content = content.replace('src="' + url + '"', 'src="' + remote + '"')
+                if url in downloads or target.suffix.lower() in ('.pdf', '.zip'):
+                    content = content.replace('href="' + url + '"', 'href="' + remote + '"')
+            if not remote_asset or url in inline:
+                pending.append(target)
+        destination.write_text(content)
+    else:
+        shutil.copyfile(file, destination)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=REPO / '_site')
+    parser.add_argument('--cache', type=Path, help='Cache packed artwork between builds')
+    parser.add_argument('--git-source', action='store_true',
+                        help='Fetch missing inline assets from HEAD in a sparse checkout')
     args = parser.parse_args()
-    total, count = assemble(REPO, args.output)
+    total, count = assemble(REPO, args.output, cache=args.cache, git_source=args.git_source)
     print(f'Staged {count:,} files, {total / 1_000_000:.1f} MB, in {args.output}')

@@ -261,7 +261,9 @@ part into the same folder; complete assets are never split between archives.
 
 `python scripts/build_site.py --output workspace/published` stages the public
 HTML and its asset dependencies, including individual icon pages and font
-subsets. The Pages workflow uses this same command. Local gallery files keep relative download
+subsets. The Pages workflow adds `--git-source` to fetch only inline dependencies
+from a sparse checkout and `--cache` to reuse unchanged packed artwork; see the
+[publication steps](WORKFLOW.md#4-check-and-share). Local gallery files keep relative download
 links. The staged HTML links downloads and historical comparison PNGs to their
 committed files on GitHub, so these large assets are not duplicated in the
 published site. Interactive artwork and browsing fonts remain on the site. Editable

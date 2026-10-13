@@ -4,7 +4,9 @@ import gzip
 from pathlib import Path
 import tempfile
 import re
+import subprocess
 import unittest
+from unittest import mock
 
 SPEC = importlib.util.spec_from_file_location('build_site', Path(__file__).resolve().parents[1] / 'scripts/build_site.py')
 site = importlib.util.module_from_spec(SPEC)
@@ -12,6 +14,82 @@ SPEC.loader.exec_module(site)
 
 
 class PublicSiteTests(unittest.TestCase):
+    def test_cached_artwork_reuses_only_matching_inputs(self):
+        artwork = '<path d="' + 'M0 0H10V10Z' * 10000 + '"/>'
+        page = ('<body><svg data-icon-format="monochrome" viewBox="0 0 10 10">' +
+                artwork + '</svg><a download href="../collection/cuts/svg/a.svg">SVG</a></body>')
+        with tempfile.TemporaryDirectory() as temp:
+            cache = Path(temp)
+            packed = site.cached_artwork(page, '../site/unpack-art.js', cache)
+            with mock.patch.object(site, 'pack_detail_artwork', side_effect=AssertionError('cache miss')):
+                self.assertEqual(site.cached_artwork(page, '../site/unpack-art.js', cache), packed)
+            for changed, helper in ((page.replace('H10', 'H11'), '../site/unpack-art.js'),
+                                    (page, '../../site/unpack-art.js')):
+                with mock.patch.object(site, 'pack_detail_artwork', wraps=site.pack_detail_artwork) as pack:
+                    result = site.cached_artwork(changed, helper, cache)
+                    pack.assert_called_once()
+                    self.assertNotEqual(result, packed)
+            with mock.patch.object(site, 'PACKING_VERSION', 'new assembler'):
+                with mock.patch.object(site, 'pack_detail_artwork', wraps=site.pack_detail_artwork) as pack:
+                    self.assertEqual(site.cached_artwork(page, '../site/unpack-art.js', cache), packed)
+                    pack.assert_called_once()
+
+    def test_cached_pages_still_validate_downloads(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repository'; root.mkdir()
+            cache = Path(temp) / 'cache'
+            artwork = '<path d="' + 'M0 0H10V10Z' * 10000 + '"/>'
+            page = ('<body><svg data-icon-format="monochrome" viewBox="0 0 10 10">' +
+                    artwork + '</svg><a download href="collection/cuts/svg/a.svg">SVG</a></body>')
+            files = {'index.html': page, 'icons.html': '', 'catalog.json': '{}',
+                     'icons.json': '{}', 'LICENSE': 'MIT', 'site/unpack-art.js': 'unpack',
+                     'collection/cuts/svg/a.svg': '<svg/>'}
+            for name, content in files.items():
+                p = root / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
+            site.assemble(root, Path(temp) / 'cold', cache=cache)
+            site.assemble(root, Path(temp) / 'warm', cache=cache)
+            self.assertEqual((Path(temp) / 'cold/index.html').read_bytes(),
+                             (Path(temp) / 'warm/index.html').read_bytes())
+            (root / 'collection/cuts/svg/a.svg').unlink()
+            with self.assertRaisesRegex(ValueError, 'Missing gallery asset'):
+                site.assemble(root, Path(temp) / 'missing', cache=cache)
+
+    def test_sparse_assembly_fetches_transitive_inline_assets_and_validates_downloads(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repository'; root.mkdir()
+            files = {
+                'index.html': '<a href="icons/detail.html">Detail</a>',
+                'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                'icons/detail.html': '<link href="../site/font.css"><a download href="../archive/proof.pdf">Proof</a>',
+                'site/font.css': '@font-face{src:url(../collection/face/web/font.woff2)}',
+                'collection/face/web/font.woff2': 'font', 'archive/proof.pdf': 'large proof',
+                'archive/source.ttx': 'large master',
+            }
+            for name, content in files.items():
+                p = root / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
+            full = Path(temp) / 'full'
+            site.assemble(root, full)
+            def git(*args, **kwargs):
+                return subprocess.run(['git', *args], cwd=root, check=True,
+                                      stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs)
+            git('init', '--quiet')
+            git('add', '.')
+            git('-c', 'user.name=Site test', '-c', 'user.email=site@example.test',
+                '-c', 'commit.gpgsign=false', 'commit', '--quiet', '-m', 'Fixture')
+            git('sparse-checkout', 'set', '--no-cone', '--stdin', input=b'/*\n!/*/\n')
+            self.assertFalse((root / 'icons/detail.html').exists())
+            sparse = Path(temp) / 'sparse'
+            site.assemble(root, sparse, git_source=True)
+            expected = {p.relative_to(full): p.read_bytes() for p in full.rglob('*') if p.is_file()}
+            actual = {p.relative_to(sparse): p.read_bytes() for p in sparse.rglob('*') if p.is_file()}
+            self.assertEqual(actual, expected)
+            self.assertTrue((root / 'collection/face/web/font.woff2').is_file())
+            self.assertFalse((root / 'archive/proof.pdf').exists())
+            self.assertFalse((root / 'archive/source.ttx').exists())
+            (root / 'index.html').write_text('<a download href="archive/missing.pdf">Missing</a>')
+            with self.assertRaisesRegex(ValueError, 'Missing gallery asset'):
+                site.assemble(root, Path(temp) / 'missing', git_source=True)
+
     def test_social_images_are_published_from_absolute_metadata_urls(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / 'repository'; root.mkdir()
