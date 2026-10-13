@@ -90,6 +90,21 @@ character inventory), and any review proofs. Compare against the historical sour
 Check counters, overlaps, baseline, descenders, spacing, and words containing the changed
 forms. Commit the editable sources and regenerated outputs together.
 
+Finish with **commit → push → watch**, unless the user requests otherwise. After
+the applicable checks pass, make a focused commit and run `git push` to the
+configured upstream. Documentation-only changes need a diff review and
+`git diff --check`; they do not require rebuilding unchanged fonts.
+
+The `Publish gallery` workflow (`.github/workflows/pages.yml`) publishes pushes
+to `main`. Find the run for the exact pushed commit with
+`gh run list --workflow pages.yml --commit <commit-sha>`, then monitor it with
+`gh run watch <run-id> --exit-status`. If the run has not appeared yet, wait and
+retry the lookup; do not substitute an older deployment. Watch through completion,
+inspect failed logs and fix any failures, then verify the expected update on the
+[live gallery](https://haroldus-.github.io/font-revival/). Report the commit and
+deployment result with a link to the run. A push to another branch does not publish
+the gallery; report that explicitly rather than claiming deployment succeeded.
+
 ## Repeatability
 
 `build` discovers families automatically and derives OTF, TTF, WOFF, WOFF2, specimen
@@ -111,4 +126,5 @@ for byte-for-byte comparisons. Source files and outputs are committed together.
 > sources and rights basis. Preserve the distinctive forms and mark reconstructions.
 > Use the shared source format and build commands. For revisions, include a version
 > bump, changelog, and before/after proof. Inspect the results and finish with passing
-> checks and a focused commit.
+> checks, a focused commit, a push, and a successful Pages deployment verified on
+> the live gallery.
