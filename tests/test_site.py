@@ -1,6 +1,8 @@
 import importlib.util
 import base64
 import gzip
+import json
+import os
 from pathlib import Path
 import tempfile
 import re
@@ -14,6 +16,39 @@ SPEC.loader.exec_module(site)
 
 
 class PublicSiteTests(unittest.TestCase):
+    def test_partial_clone_fetches_inline_assets_in_one_batch(self):
+        with tempfile.TemporaryDirectory() as temp:
+            origin = Path(temp) / 'origin'; origin.mkdir()
+            names = [f'art/image-{i}.svg' for i in range(12)] + ['art/[old] image.svg']
+            files = {'index.html': ''.join(f'<img src="{name}">' for name in names),
+                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'archive/proof.pdf': 'large archive',
+                     **{name: f'<svg>{name}</svg>' for name in names}}
+            for name, content in files.items():
+                p = origin / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
+            def git(root, *args, **kwargs):
+                return subprocess.run(['git', *args], cwd=root, check=True,
+                                      stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs)
+            git(origin, 'init', '--quiet')
+            git(origin, 'add', '.')
+            git(origin, '-c', 'user.name=Site test', '-c', 'user.email=site@example.test',
+                '-c', 'commit.gpgsign=false', 'commit', '--quiet', '-m', 'Fixture')
+            git(origin, 'config', 'uploadpack.allowFilter', 'true')
+            git(origin, 'config', 'uploadpack.allowAnySHA1InWant', 'true')
+            clone = Path(temp) / 'clone'
+            git(origin, 'clone', '--quiet', '--filter=blob:none', '--no-checkout', origin.as_uri(), str(clone))
+            git(clone, 'sparse-checkout', 'set', '--no-cone', '--stdin', input=b'/*\n!/*/\n')
+            git(clone, 'checkout', '--quiet')
+            trace = Path(temp) / 'trace.jsonl'
+            with mock.patch.dict(os.environ, {'GIT_TRACE2_EVENT': str(trace)}):
+                site.assemble(clone, Path(temp) / 'published', git_source=True)
+            events = [json.loads(line) for line in trace.read_text().splitlines()]
+            fetches = [e for e in events if e.get('event') == 'child_start' and 'fetch' in e.get('argv', [])]
+            self.assertEqual(len(fetches), 1, fetches)
+            for name in names:
+                self.assertEqual((Path(temp) / 'published' / name).read_text(), files[name])
+            self.assertFalse((clone / 'archive/proof.pdf').exists())
+
     def test_cached_artwork_reuses_only_matching_inputs(self):
         artwork = '<path d="' + 'M0 0H10V10Z' * 10000 + '"/>'
         page = ('<body><svg data-icon-format="monochrome" viewBox="0 0 10 10">' +

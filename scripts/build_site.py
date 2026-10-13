@@ -93,12 +93,16 @@ def materialize(root, files, tracked):
         relative = file.relative_to(root)
         if relative not in tracked:
             raise ValueError(f'Missing gallery asset: {relative}')
-        missing.append(os.fsencode(relative))
+        # Non-cone sparse patterns are rooted and literal, even for names with
+        # glob characters or spaces. Updating the sparse checkout uses Git's
+        # bulk blob prefetch; restoring individual paths can fetch serially.
+        pattern = relative.as_posix()
+        for char in ('\\', '*', '?', '[', ' '):
+            pattern = pattern.replace(char, '\\' + char)
+        missing.append('/' + pattern)
     if missing:
-        subprocess.run(['git', '--literal-pathspecs', 'restore', '--source=HEAD', '--worktree',
-                        '--ignore-skip-worktree-bits', '--pathspec-from-file=-',
-                        '--pathspec-file-nul'], cwd=root,
-                       input=b'\0'.join(missing) + b'\0', check=True)
+        subprocess.run(['git', 'sparse-checkout', 'add', '--no-cone', '--stdin'],
+                       cwd=root, input=('\n'.join(missing) + '\n').encode(), check=True)
 
 
 class References(HTMLParser):
