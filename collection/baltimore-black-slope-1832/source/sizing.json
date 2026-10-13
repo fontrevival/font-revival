@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against the native English Black Slope crops and the mixed-case proofs. These ranges preserve historical case proportions and the backslant.",
+  "rules": [
+    {
+      "characters": "ABCDEFGHIJKLMNOPRSTUVWXYZ",
+      "y_min": [
+        -35,
+        35
+      ],
+      "y_max": [
+        675,
+        730
+      ],
+      "notes": "Observed capital body and explicit Y/Z companions; preserve the curl and backslant."
+    },
+    {
+      "characters": "Q",
+      "y_min": [
+        -200,
+        -145
+      ],
+      "y_max": [
+        675,
+        725
+      ],
+      "notes": "Observed curled Q tail retained below the baseline."
+    },
+    {
+      "characters": "0123456789",
+      "y_min": [
+        -35,
+        30
+      ],
+      "y_max": [
+        655,
+        750
+      ],
+      "notes": "Lining figures retain individual overshoot and printed variation."
+    },
+    {
+      "characters": "acemnorsuvwxzæ",
+      "y_min": [
+        -30,
+        30
+      ],
+      "y_max": [
+        400,
+        480
+      ],
+      "notes": "Observed lowercase x-height range; o and s are slightly shorter impressions. k/w/y/z companions are documented separately."
+    },
+    {
+      "characters": "bdfhikl",
+      "y_min": [
+        -25,
+        30
+      ],
+      "y_max": [
+        640,
+        725
+      ],
+      "notes": "Observed ascenders and dotted i; k derives from the observed l."
+    },
+    {
+      "characters": "t",
+      "y_min": [
+        -25,
+        30
+      ],
+      "y_max": [
+        620,
+        665
+      ],
+      "notes": "Observed t is shorter than the other ascenders."
+    },
+    {
+      "characters": "gpqy",
+      "y_min": [
+        -275,
+        -215
+      ],
+      "y_max": [
+        410,
+        480
+      ],
+      "notes": "Observed descenders and inferred y retain the approximately 250-unit descent."
+    },
+    {
+      "characters": "j",
+      "y_min": [
+        -275,
+        -225
+      ],
+      "y_max": [
+        675,
+        725
+      ],
+      "notes": "Retain both the observed j dot and its descending terminal."
+    },
+    {
+      "characters": "$",
+      "y_min": [
+        -345,
+        -300
+      ],
+      "y_max": [
+        740,
+        790
+      ],
+      "notes": "The historical dollar has a long lower stem; retain its measured range."
+    }
+  ]
+}

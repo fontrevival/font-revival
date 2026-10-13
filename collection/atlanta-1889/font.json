@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "atlanta-1889",
+  "name": "Atlanta 1889",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Atlanta1889-Regular",
+  "year": 1889,
+  "designer": "Unidentified in the consulted historical specimen",
+  "foundry": "Boston and Central Type Foundries",
+  "description": "Wide display capitals with flared terminals, pointed spurs and a low decorative M.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "FAIR SIGN",
+  "observed": "Directly sampled characters: 2458ABCDEFGHIKLMNOPQRSTUVXY. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts.",
+  "reconstructed": "Inferred alphabet and figure companions: JWZ013679. Explicit repairs of small observed impressions: VX. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
+  "sources": [
+    {
+      "title": "Specimen book from the Boston type foundry (1889), Atlanta; printed p. 187, one-based PDF page 193, Internet Archive leaf 193",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/n193/mode/1up",
+      "file": "reference/pdf-193.jp2",
+      "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    },
+    {
+      "title": "Specimen book from the Boston type foundry (1889), Victoria; printed p. 186, one-based PDF page 192, Internet Archive leaf 192; related historical design used only for explicitly inferred companions",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/n192/mode/1up",
+      "file": "reference/pdf-192.jp2",
+      "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. Explicit new companions are retained separately."
+  },
+  "character_style": "capitals-only"
+}

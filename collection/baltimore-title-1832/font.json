@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "baltimore-title-1832",
+  "name": "Baltimore Title 1832",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BaltimoreTitle1832-Regular",
+  "year": 1832,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+  "description": "Roman title capitals with flat serifs, moderate contrast and a curled Q tail.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "TITLE LETTER",
+  "observed": "Observed capitals ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ from Title Letter, Two Lines Brevier, one-based PDF page 77 of the unpaginated 1832 volume.",
+  "reconstructed": "Figures are companion adaptations of the observed Two Lines Brevier Roman figures on PDF page 73. Punctuation and other symbols are explicit new MIT project drawings. Lowercase input aliases capitals. Digital spacing is new. No lowercase or figures are claimed to be printed in this alphabet.",
+  "sources": [
+    {
+      "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Title Letter, Two Lines Brevier; unnumbered leaf, PDF page 77, Internet Archive leaf 76",
+      "url": "https://archive.org/details/ldpd_12198261_000/page/n76/mode/1up",
+      "file": "reference/pdf-077.jp2",
+      "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+      "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    },
+    {
+      "title": "Related Two Lines Brevier Roman figures, Baltimore 1832, PDF page 73, archive leaf 72",
+      "url": "https://archive.org/details/ldpd_12198261_000/page/n72/mode/1up",
+      "file": "reference/pdf-073.jp2",
+      "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+      "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+  },
+  "character_style": "capitals-only"
+}

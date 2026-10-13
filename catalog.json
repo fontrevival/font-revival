@@ -3,6 +3,292 @@
   "families": [
     {
       "schema_version": 1,
+      "id": "atlanta-1889",
+      "name": "Atlanta 1889",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Atlanta1889-Regular",
+      "year": 1889,
+      "designer": "Unidentified in the consulted historical specimen",
+      "foundry": "Boston and Central Type Foundries",
+      "description": "Wide display capitals with flared terminals, pointed spurs and a low decorative M.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "FAIR SIGN",
+      "observed": "Directly sampled characters: 2458ABCDEFGHIKLMNOPQRSTUVXY. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts.",
+      "reconstructed": "Inferred alphabet and figure companions: JWZ013679. Explicit repairs of small observed impressions: VX. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
+      "sources": [
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Atlanta; printed p. 187, one-based PDF page 193, Internet Archive leaf 193",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n193/mode/1up",
+          "file": "reference/pdf-193.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Victoria; printed p. 186, one-based PDF page 192, Internet Archive leaf 192; related historical design used only for explicitly inferred companions",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n192/mode/1up",
+          "file": "reference/pdf-192.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. Explicit new companions are retained separately."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "baltimore-antique-1832",
+      "name": "Baltimore Antique 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BaltimoreAntique1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+      "description": "Heavy slab-serif titling capitals from the Long Primer Antique specimen.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "CHAMBERS MANUFACTORY",
+      "observed": "Directly sampled characters: $&0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ. From Long Primer Antique, one-based PDF page 75 of the unpaginated 1832 volume.",
+      "reconstructed": "Punctuation and remaining symbols are explicit new MIT project companion drawings. Lowercase input uses the observed capitals. Digital spacing is new; the original relative widths, heavy strokes and Q tail are retained. The year dates this specimen, not a claimed first issue.",
+      "sources": [
+        {
+          "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Long Primer Antique; unnumbered leaf, PDF page 75, Internet Archive leaf 74",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n74/mode/1up",
+          "file": "reference/pdf-075.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact original JP2 leaf and the existing institutional evidence are retained locally. No modern digital typeface was used.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "baltimore-black-slope-1832",
+      "name": "Baltimore Black Slope 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BaltimoreBlackSlope1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+      "description": "Backslanted Roman display letters with curled capitals, ball terminals and a distinct historical lowercase.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "Quousque tandem abutere",
+      "observed": "Observed characters: $0123456789ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijlmnopqrstuvxæ. English Black Slope, one-based PDF page 81 (archive leaf 80), an unnumbered leaf of the 1832 Baltimore specimen. Both cases and the lining figures are sampled from this impression.",
+      "reconstructed": "Y and Z are new companion adaptations of the Title Letter on PDF page 77; k, w, y and z are inferred companions constructed from the observed l/v and the new Z. Punctuation other than $ is new MIT project work. Both the backslant and lowercase are retained. Digital spacing and correction of the tilted baseline are new; the historical word Black here is not a claim of blackletter.",
+      "sources": [
+        {
+          "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), English Black Slope; unnumbered PDF page 81, Internet Archive leaf 80",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+          "file": "reference/pdf-081.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        },
+        {
+          "title": "Related Title Letter, Baltimore 1832, PDF page 77, archive leaf 76; model for explicit Y/Z companions",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n76/mode/1up",
+          "file": "reference/pdf-077.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+      },
+      "characters": 105,
+      "glyphs": 105
+    },
+    {
+      "schema_version": 1,
+      "id": "baltimore-bold-1832",
+      "name": "Baltimore Bold 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BaltimoreBold1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+      "description": "Broad, high-contrast bold titling capitals from the Two Lines Pearl specimen.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "BALTIMORE TYPE FOUNDRY",
+      "observed": "Directly sampled characters: $&0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ. From Two Lines Pearl, one-based PDF page 71 of the unpaginated 1832 volume.",
+      "reconstructed": "Punctuation and remaining symbols are explicit new MIT project companion drawings. Lowercase input uses the observed capitals. Digital spacing is new; the original relative widths, heavy strokes and Q tail are retained. The year dates this specimen, not a claimed first issue.",
+      "sources": [
+        {
+          "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Two Lines Pearl; unnumbered leaf, PDF page 71, Internet Archive leaf 70",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n70/mode/1up",
+          "file": "reference/pdf-071.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact original JP2 leaf and the existing institutional evidence are retained locally. No modern digital typeface was used.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+      },
+      "character_style": "capitals-only",
+      "characters": 108,
+      "glyphs": 80
+    },
+    {
+      "schema_version": 1,
+      "id": "baltimore-title-1832",
+      "name": "Baltimore Title 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BaltimoreTitle1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+      "description": "Roman title capitals with flat serifs, moderate contrast and a curled Q tail.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "TITLE LETTER",
+      "observed": "Observed capitals ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ from Title Letter, Two Lines Brevier, one-based PDF page 77 of the unpaginated 1832 volume.",
+      "reconstructed": "Figures are companion adaptations of the observed Two Lines Brevier Roman figures on PDF page 73. Punctuation and other symbols are explicit new MIT project drawings. Lowercase input aliases capitals. Digital spacing is new. No lowercase or figures are claimed to be printed in this alphabet.",
+      "sources": [
+        {
+          "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Title Letter, Two Lines Brevier; unnumbered leaf, PDF page 77, Internet Archive leaf 76",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n76/mode/1up",
+          "file": "reference/pdf-077.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        },
+        {
+          "title": "Related Two Lines Brevier Roman figures, Baltimore 1832, PDF page 73, archive leaf 72",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n72/mode/1up",
+          "file": "reference/pdf-073.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+      },
+      "character_style": "capitals-only",
+      "characters": 108,
+      "glyphs": 80
+    },
+    {
+      "schema_version": 1,
+      "id": "baltimore-two-line-1832",
+      "name": "Baltimore Two Line 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BaltimoreTwoLine1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+      "description": "Roman display capitals with heavy vertical strokes, fine serifs and curled ball terminals.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "PRINTING TYPES",
+      "observed": "Directly sampled characters: 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ. From Two Lines Brevier, one-based PDF page 73 of the unpaginated 1832 volume.",
+      "reconstructed": "Punctuation and remaining symbols are explicit new MIT project companion drawings. Lowercase input uses the observed capitals. Digital spacing is new; the original relative widths, heavy strokes and Q tail are retained. The year dates this specimen, not a claimed first issue.",
+      "sources": [
+        {
+          "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Two Lines Brevier; unnumbered leaf, PDF page 73, Internet Archive leaf 72",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n72/mode/1up",
+          "file": "reference/pdf-073.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact original JP2 leaf and the existing institutional evidence are retained locally. No modern digital typeface was used.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+      },
+      "character_style": "capitals-only",
+      "characters": 108,
+      "glyphs": 80
+    },
+    {
+      "schema_version": 1,
+      "id": "baltimore-two-line-italic-1832",
+      "name": "Baltimore Two Line Italic 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BaltimoreTwoLineItalic1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+      "description": "Bold sloping display capitals with fine serifs and a curled Q tail.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "ITALIC PRINTING TYPES",
+      "observed": "Observed capitals ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ from Two Lines Minion Italic, one-based PDF page 73 of the unpaginated 1832 volume.",
+      "reconstructed": "Figures are companion adaptations of the observed Two Lines Brevier Roman figures on PDF page 73; sheared to accompany the italic capitals. Punctuation and other symbols are explicit new MIT project drawings. Lowercase input aliases capitals. Digital spacing is new. No lowercase or figures are claimed to be printed in this alphabet.",
+      "sources": [
+        {
+          "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Two Lines Minion Italic; unnumbered leaf, PDF page 73, Internet Archive leaf 72",
+          "url": "https://archive.org/details/ldpd_12198261_000/page/n72/mode/1up",
+          "file": "reference/pdf-073.jp2",
+          "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
+          "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+      },
+      "character_style": "capitals-only",
+      "characters": 108,
+      "glyphs": 80
+    },
+    {
+      "schema_version": 1,
       "id": "crusader-1894",
       "name": "Crusader 1894",
       "style": "Regular",
@@ -47,6 +333,44 @@
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "characters": 108,
       "glyphs": 82
+    },
+    {
+      "schema_version": 1,
+      "id": "epitaph-1889",
+      "name": "Epitaph 1889",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Epitaph1889-Regular",
+      "year": 1889,
+      "designer": "Unidentified in the consulted historical specimen",
+      "foundry": "Boston and Central Type Foundries",
+      "description": "Angular display capitals with rising crossbars, bowed M stems and sharply cut terminals.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "MODERN CASKETS",
+      "observed": "Directly sampled characters: 2345789ABCDEFGHIKLMNOPRSTUVWYZ. The source is printed page 172, PDF page 178. Larger sizes anchor the master and smaller impressions supply missing sorts.",
+      "reconstructed": "Inferred companion letters and figures: JQX016. Punctuation and remaining symbols are new project drawings. Lowercase input aliases capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+      "sources": [
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Epitaph; printed p. 172, one-based PDF page 178, Internet Archive leaf 178",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n178/mode/1up",
+          "file": "reference/pdf-178.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. Explicit new companions are retained separately."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
     },
     {
       "schema_version": 1,
@@ -635,6 +959,51 @@
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "characters": 104,
       "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "victoria-1889",
+      "name": "Victoria 1889",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Victoria1889-Regular",
+      "year": 1889,
+      "designer": "Unidentified in the consulted historical specimen",
+      "foundry": "Boston and Central Type Foundries",
+      "description": "Flared display capitals with pointed terminals, unusual bowls and a low decorative M.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "BAKED FRESH",
+      "observed": "Directly sampled characters: 0124568ABCDEFGHIKLMNOPQRSTUWX£. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts.",
+      "reconstructed": "Inferred alphabet and figure companions: JVYZ379. Explicit repairs of small observed impressions: W. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
+      "sources": [
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Victoria; printed p. 186, one-based PDF page 192, Internet Archive leaf 192",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n192/mode/1up",
+          "file": "reference/pdf-192.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Atlanta; printed p. 187, one-based PDF page 193, Internet Archive leaf 193; related historical design used only for explicitly inferred companions",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n193/mode/1up",
+          "file": "reference/pdf-193.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. Explicit new companions are retained separately."
+      },
+      "character_style": "capitals-only",
+      "characters": 105,
+      "glyphs": 79
     }
   ]
 }

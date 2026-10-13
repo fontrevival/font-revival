@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against the native crops, source comparison and multi-size word proofs. These limits guard body size without equalising historical widths.",
+  "rules": [
+    {
+      "characters": "ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnoprstuvwxyz",
+      "y_max": [
+        665,
+        735
+      ],
+      "y_min": [
+        -40,
+        40
+      ],
+      "notes": "Reviewed capital body range: retain moderate optical overshoot and impression irregularity. Lowercase aliases capitals."
+    },
+    {
+      "characters": "0123456789",
+      "y_max": [
+        660,
+        745
+      ],
+      "y_min": [
+        -45,
+        45
+      ],
+      "notes": "Reviewed lining figure range. The failed clipped numeral candidate in the working Boston survey is excluded; companions are explicit."
+    },
+    {
+      "characters": "Qq",
+      "y_max": [
+        665,
+        740
+      ],
+      "y_min": [
+        -240,
+        0
+      ],
+      "notes": "Retain the observed or explicitly inferred Q tail below the baseline rather than shrinking the full outline to cap height."
+    }
+  ]
+}

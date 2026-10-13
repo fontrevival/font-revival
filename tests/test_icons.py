@@ -356,6 +356,17 @@ class IconWorkflowTests(unittest.TestCase):
         self.assertNotIn("<use ", (self.root / "icons.html").read_text())
         self.assertIn('class="fr-primary"', (self.root / "icons/boston-1889-4202.html").read_text())
 
+    def test_global_artwork_reuse_fully_rebuilds_non_encoded_icons(self):
+        from unittest.mock import patch
+        revival.build_family(self.family)
+        revival.build_catalog()
+        self.assertNotEqual(revival.metadata(self.family).get('font_export_glyphs'), 'encoded')
+        with patch.object(revival, 'build_family', wraps=revival.build_family) as build:
+            revival.check(reuse_artwork=True)
+        self.assertFalse(build.call_args.kwargs['reuse_artwork'])
+        with self.assertRaisesRegex(ValueError, 'encoded-only'):
+            revival.check(self.family.name, reuse_artwork=True)
+
     def test_svg_and_sprite_follow_glyph_override(self):
         revival.export_glyph(Namespace(id=self.family.name, character="uniE000"))
         edit = self.family / "source/glyphs/uniE000.json"

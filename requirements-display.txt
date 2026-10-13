@@ -1,0 +1,4 @@
+# Optional reviewed row selection only; release builds do not import these.
+-r requirements-tracing.txt
+numpy==1.26.4
+scipy==1.11.4

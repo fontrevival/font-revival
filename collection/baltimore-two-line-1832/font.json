@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "baltimore-two-line-1832",
+  "name": "Baltimore Two Line 1832",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BaltimoreTwoLine1832-Regular",
+  "year": 1832,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+  "description": "Roman display capitals with heavy vertical strokes, fine serifs and curled ball terminals.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "PRINTING TYPES",
+  "observed": "Directly sampled characters: 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ. From Two Lines Brevier, one-based PDF page 73 of the unpaginated 1832 volume.",
+  "reconstructed": "Punctuation and remaining symbols are explicit new MIT project companion drawings. Lowercase input uses the observed capitals. Digital spacing is new; the original relative widths, heavy strokes and Q tail are retained. The year dates this specimen, not a claimed first issue.",
+  "sources": [
+    {
+      "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), Two Lines Brevier; unnumbered leaf, PDF page 73, Internet Archive leaf 72",
+      "url": "https://archive.org/details/ldpd_12198261_000/page/n72/mode/1up",
+      "file": "reference/pdf-073.jp2",
+      "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact original JP2 leaf and the existing institutional evidence are retained locally. No modern digital typeface was used.",
+      "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "See source/rows.json, tracing.json and METHOD.md for reviewed transcriptions, native crop coordinates, cleanup and metric choices."
+  },
+  "character_style": "capitals-only"
+}

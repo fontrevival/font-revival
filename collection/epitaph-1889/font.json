@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "epitaph-1889",
+  "name": "Epitaph 1889",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Epitaph1889-Regular",
+  "year": 1889,
+  "designer": "Unidentified in the consulted historical specimen",
+  "foundry": "Boston and Central Type Foundries",
+  "description": "Angular display capitals with rising crossbars, bowed M stems and sharply cut terminals.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "MODERN CASKETS",
+  "observed": "Directly sampled characters: 2345789ABCDEFGHIKLMNOPRSTUVWYZ. The source is printed page 172, PDF page 178. Larger sizes anchor the master and smaller impressions supply missing sorts.",
+  "reconstructed": "Inferred companion letters and figures: JQX016. Punctuation and remaining symbols are new project drawings. Lowercase input aliases capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+  "sources": [
+    {
+      "title": "Specimen book from the Boston type foundry (1889), Epitaph; printed p. 172, one-based PDF page 178, Internet Archive leaf 178",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/n178/mode/1up",
+      "file": "reference/pdf-178.jp2",
+      "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. Explicit new companions are retained separately."
+  },
+  "character_style": "capitals-only"
+}

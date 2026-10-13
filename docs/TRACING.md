@@ -60,6 +60,42 @@ The assembler carries fixed-pitch metadata into CFF and TrueType outputs.
 `ink_width` sets an explicit horizontal outline extent when preserving an
 existing glyph's proportions; it takes precedence over `width_scale`.
 
+## Reviewing display rows
+
+For a manually transcribed display specimen, the optional row selector records
+candidate crops and a contact sheet before tracing:
+
+```sh
+python -m pip install -r requirements-display.txt
+python scripts/select_display_rows.py collection/baltimore-bold-1832 \
+  --output workspace/baltimore-bold-row-review
+```
+
+The family's `source/rows.json` records each reference file, reading rotation,
+preview width, row rectangle and exact transcription. A `※` marks a separator
+excluded from the alphabet. A count mismatch rejects the entire row and writes
+a diagnostic image; it never guesses a character assignment. Count agreement
+still needs visual review, especially around disconnected strokes, dots and
+clipped characters. The selector preserves significant disconnected pieces when
+measuring bounds. The reviewed `tracing.json`, explicit `companions.json` and
+canonical TTX remain authoritative; candidate files do not overwrite them.
+
+Connected-sort selection (`components: true`) can isolate overlapping italic
+serif fragments. Only use it for visually confirmed connected letters. Explicit
+`merge_components` groups join zero-based component indices before assigning
+characters, for example the dot and stem of an i or two detached parts of an M.
+The tracing recipe retains the same number of components. Inspect the crop and
+the fitted outline: count agreement alone cannot identify a letter or a dot.
+Mixed-case rows require a measured `baseline` and cap height; an optional
+`baseline_slope` records page tilt relative to the row's left edge. These are
+measurements of the specimen, not automatic letter-size normalisation.
+`measure_advances` uses the next impression’s ink origin for advance widths;
+review this in words, especially for italic overhangs. The final sort in a row
+uses explicit bearings because it has no following origin to measure.
+
+`requirements-display.txt` pins NumPy 1.26.4 and SciPy 1.11.4 for this optional
+preparation step. Normal builds and checks do not require either package.
+
 ## Revising selected glyphs
 
 For an existing family, `scripts/trace_revisions.py` prepares individual glyph

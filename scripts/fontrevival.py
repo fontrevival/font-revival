@@ -575,6 +575,8 @@ def source_review(path, m):
                 if file not in images:
                     images[file] = Image.open(file).convert("RGB")
                 crop = images[file].crop(entry["box"])
+                if entry.get("rotation"):
+                    crop = crop.rotate(entry["rotation"], expand=True)
                 factor = min(80/crop.width, 52/crop.height)
                 c.drawImage(ImageReader(crop), x, y-62, crop.width*factor, crop.height*factor)
             else:
@@ -1996,7 +1998,13 @@ def check(slug=None, reuse_artwork=False):
         for path in selected:
             clone = Path(temp) / path.name
             shutil.copytree(path, clone, ignore=shutil.ignore_patterns('__pycache__', '*.pyc', '*.pyo'))
-            build_family(clone, reuse_artwork=reuse_artwork)
+            # A collection-wide check includes typefaces as well as icons.
+            # Artwork reuse is an icon-only optimisation; typefaces still get
+            # their ordinary complete rebuild when this flag is requested.
+            m = metadata(path)
+            reuse = (reuse_artwork and m.get('kind') == 'icons'
+                     and (slug is not None or m.get('font_export_glyphs') == 'encoded'))
+            build_family(clone, reuse_artwork=reuse)
             original = {p.relative_to(path): digest(p) for p in family_files(path)}
             rebuilt = {p.relative_to(clone): digest(p) for p in family_files(clone)}
             differences = sorted(str(p) for p in original.keys() | rebuilt.keys() if original.get(p) != rebuilt.get(p))

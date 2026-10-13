@@ -7,12 +7,14 @@ import json
 import shutil
 import tempfile
 import unittest
+from unittest.mock import patch
 from argparse import Namespace
 from html.parser import HTMLParser
 from pathlib import Path
 
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.ttLib import TTFont
+from PIL import Image
 
 REPO = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("fontrevival", REPO / "scripts/fontrevival.py")
@@ -67,6 +69,44 @@ class WorkflowTests(unittest.TestCase):
         revival.build_family(self.family)
         revival.build_catalog()
         revival.check()
+
+    def test_icon_artwork_reuse_does_not_skip_typeface_rebuilds(self):
+        revival.build_family(self.family)
+        revival.build_catalog()
+        with patch.object(revival, 'build_family', wraps=revival.build_family) as build:
+            revival.check(reuse_artwork=True)
+        self.assertEqual(build.call_count, 1)
+        self.assertFalse(build.call_args.kwargs['reuse_artwork'])
+        revival.export_glyph(Namespace(id='johnson-1892', character='j'))
+        edit = self.family / 'source/glyphs/j.json'
+        data = json.loads(edit.read_text())
+        data['advance_width'] += 20
+        revival.write_json(edit, data)
+        (self.family / 'SHA256SUMS.txt').write_text(revival.checksums(self.family))
+        with self.assertRaisesRegex(ValueError, 'rebuild differs'):
+            revival.check(reuse_artwork=True)
+
+    def test_source_proof_uses_the_tracing_orientation_without_cleanup(self):
+        image = Image.new('RGB', (2, 3), 'white')
+        image.putpixel((1, 0), (255, 0, 0))
+        image.save(self.family / 'reference/rotated-test.png')
+        revival.write_json(self.family / 'source/tracing.json', {
+            'review_characters': 'A',
+            'glyphs': {'A': {'file': 'reference/rotated-test.png',
+                             'box': [0, 0, 2, 3], 'rotation': 90,
+                             'erase': [[0, 0, 2, 3]]}},
+        })
+        revival.write_json(self.family / 'source/companions.json', {'glyphs': {}})
+        observed = []
+        reader = revival.ImageReader
+
+        def capture(crop):
+            observed.append((crop.size, crop.getpixel((0, 0))))
+            return reader(crop)
+
+        with patch.object(revival, 'ImageReader', side_effect=capture):
+            revival.source_review(self.family, revival.metadata(self.family))
+        self.assertEqual(observed, [((3, 2), (255, 0, 0))])
 
     def test_catalog_render_is_read_only(self):
         revival.build_catalog()

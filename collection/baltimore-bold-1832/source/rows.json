@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "notes": "Visual row transcription. Boxes use a 1000-pixel-wide upright preview. Original reference is rotated 90 degrees counterclockwise for reading. The final tracing recipe maps each rectangle back to native scan pixels.",
+  "rows": [
+    {
+      "file": "reference/pdf-071.jp2",
+      "rotation": 90,
+      "box": [
+        154,
+        232,
+        654,
+        259
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZŒÆ&"
+    },
+    {
+      "file": "reference/pdf-071.jp2",
+      "rotation": 90,
+      "box": [
+        667,
+        232,
+        803,
+        253
+      ],
+      "text": "$1234567890"
+    }
+  ]
+}

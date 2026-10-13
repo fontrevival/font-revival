@@ -182,6 +182,8 @@ for the canonical master, glyph edits and artwork files. It still rebuilds the
 fonts, font proofs, manifests, documentation, downloads and gallery. A changed
 master, glyph edit, artwork file or metadata requires the normal full build.
 The normal `check` continues to regenerate every output independently.
+For a whole-collection `check --reuse-artwork`, only eligible encoded-only icon
+families use this optimisation; other icons and all typefaces are rebuilt normally.
 
 SVG paths expose `--fr-primary-color`, `--fr-secondary-color`, `--fr-tertiary-color`
 and matching `--fr-…-opacity` custom properties. Each defaults to `currentColor`
