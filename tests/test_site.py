@@ -16,6 +16,28 @@ SPEC.loader.exec_module(site)
 
 
 class PublicSiteTests(unittest.TestCase):
+    def test_private_editor_distribution_includes_callback_and_not_source(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repository'; root.mkdir()
+            files = {'index.html': '<iframe src="editor/index.html?embed=1"></iframe>',
+                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'editor/index.html': '<script src="app.js"></script><link href="app.css">',
+                     **{f'editor/{name}': name for name in
+                        ('app.js', 'app.css', 'oauth.html', 'privacy.html', 'LICENSE.txt', 'THIRD-PARTY.txt')},
+                     'editor/app.js.map': 'private source map',
+                     '.editor-source/src/app.js': 'private source'}
+            for name, content in files.items():
+                p = root / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
+            output = Path(temp) / 'published'
+            site.assemble(root, output)
+            for name in ('oauth.html', 'privacy.html', 'LICENSE.txt', 'THIRD-PARTY.txt'):
+                self.assertTrue((output / 'editor' / name).is_file())
+            self.assertFalse((output / 'editor/app.js.map').exists())
+            self.assertFalse((output / '.editor-source').exists())
+            (root / 'editor/oauth.html').unlink()
+            with self.assertRaisesRegex(ValueError, 'Missing editor distribution file'):
+                site.assemble(root, Path(temp) / 'incomplete')
+
     def test_partial_clone_fetches_inline_assets_in_one_batch(self):
         with tempfile.TemporaryDirectory() as temp:
             origin = Path(temp) / 'origin'; origin.mkdir()

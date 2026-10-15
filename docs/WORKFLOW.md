@@ -118,6 +118,26 @@ cold builds faster without changing the decoded artwork. The cache is optional:
 
 ## Repeatability
 
+### Private editor distribution
+
+The collection lives in the `font-revival/` sibling checkout. The proprietary
+editor lives in the separate private `font-revival-editor/` checkout. Its source
+is never committed to this public repository. `site/editor-release.json` pins an
+exact private commit. Pages uses the read-only `EDITOR_DEPLOY_KEY` repository
+secret to build that commit and includes only its browser distribution at
+`editor/`. The distribution carries its own proprietary and third-party notices;
+the collection's MIT terms are unchanged.
+
+For local gallery assembly, first run `npm ci && npm run build` in the editor
+checkout, then copy its `dist/` to this checkout's ignored `editor/` directory.
+The editor's `npm run dev` previews both siblings without copying. Run the
+editor tests and browser review before changing its release pin. Push the private
+commit before publishing a pin that references it, then follow commit → push →
+watch above for the gallery. Public OAuth client IDs are optional repository
+variables `EDITOR_GOOGLE_CLIENT_ID`, `EDITOR_DROPBOX_CLIENT_ID`, and
+`EDITOR_MICROSOFT_CLIENT_ID`; configuration instructions live in the private repo.
+No provider secrets or editor source maps belong in the public artifact.
+
 `build` discovers families automatically and derives OTF, TTF, WOFF, WOFF2, specimen
 PDF/PNG, CSS, family README, checksums, and the gallery from committed inputs.
 TTF curves are derived from the cubic master with a maximum conversion error of
