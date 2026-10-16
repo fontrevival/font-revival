@@ -152,11 +152,12 @@ def assemble(root, output, download_base=DOWNLOAD_BASE, cache=None, git_source=F
     output.mkdir(parents=True, exist_ok=True)
     pending = [root / name for name in ('index.html', 'icons.html', 'catalog.json', 'icons.json', 'LICENSE')]
     # The private checkout is built before assembly. Include its complete,
-    # explicit browser distribution: OAuth and privacy routes are reached from
+    # explicit browser distribution: OAuth, privacy and agent routes are reached from
     # JavaScript and therefore are not discoverable by the HTML reference scan.
     # Never recursively copy the private source checkout or source maps.
     if (root / 'editor/index.html').is_file():
         for name in ('index.html', 'app.js', 'app.css', 'oauth.html', 'privacy.html',
+                     'agents.html', 'document-schema.json', 'agent-tools.json',
                      'LICENSE.txt', 'THIRD-PARTY.txt'):
             file = root / 'editor' / name
             if not file.is_file():

@@ -23,14 +23,16 @@ class PublicSiteTests(unittest.TestCase):
                      'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
                      'editor/index.html': '<script src="app.js"></script><link href="app.css">',
                      **{f'editor/{name}': name for name in
-                        ('app.js', 'app.css', 'oauth.html', 'privacy.html', 'LICENSE.txt', 'THIRD-PARTY.txt')},
+                        ('app.js', 'app.css', 'oauth.html', 'privacy.html', 'agents.html',
+                         'document-schema.json', 'agent-tools.json', 'LICENSE.txt', 'THIRD-PARTY.txt')},
                      'editor/app.js.map': 'private source map',
                      '.editor-source/src/app.js': 'private source'}
             for name, content in files.items():
                 p = root / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
             output = Path(temp) / 'published'
             site.assemble(root, output)
-            for name in ('oauth.html', 'privacy.html', 'LICENSE.txt', 'THIRD-PARTY.txt'):
+            for name in ('oauth.html', 'privacy.html', 'agents.html', 'document-schema.json',
+                         'agent-tools.json', 'LICENSE.txt', 'THIRD-PARTY.txt'):
                 self.assertTrue((output / 'editor' / name).is_file())
             self.assertFalse((output / 'editor/app.js.map').exists())
             self.assertFalse((output / '.editor-source').exists())
