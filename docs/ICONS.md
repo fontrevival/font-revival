@@ -305,3 +305,37 @@ and links to the four family inventories. Missing pages remain an explicit sourc
 gap. The ordinary calendar, text and numeral tables are excluded. Decorated
 initials and numbered components are included; assembled demonstrations are
 retained on the full reference pages, with duplicate and unobserved parts recorded.
+
+## Border layout recipes
+
+`site/icon-layout.json` supplies optional `layout` metadata in the generated root
+`icons.json`. It separates a complete `frame`, a `corner`, a `repeat` and an
+isolated `motif`. `inkBox` and optional `tile` are SVG viewBox rectangles
+`[x, y, width, height]`, with y downwards. They describe display fitting, without
+changing the font advance or the source frame.
+
+Continuous repeats use the `tile` rectangle edge to edge; page composition may
+turn the four runs and clip their corners at a mitre. `join: "spaced"` preserves
+whole isolated motifs and distributes them evenly. Complete frames should be
+fitted once, preserving their proportions. A complete strip usually includes
+end treatments: repeat a central measured span, not its entire specimen crop.
+
+`scripts/measure_icon_layout.py` proposes recipes using actual tonal outline
+bounds and autocorrelation of the primary strip's vertical ink projection.
+It selects an early strong period, then a whole number of periods near the
+strip's height. The measurements are retained in `site/icon-layout-measurements.json`.
+Run from the root with `requirements-display.txt`; it overwrites the recipe
+file and reapplies the reviewed selections in `site/icon-layout-overrides.json`.
+Those selections use clean impressions away from connected paper stains. New
+measurements still require visual review. Inspect repeated proofs at useful display and
+print sizes, including the seam. Do not accept a numerical period as evidence
+that the source crop is clean: caption fragments and paper stains also repeat.
+The 2026 border review surveyed 608 border/frame/corner assets and 283 repeat
+recipes. Suspicious boundaries were compared with native scans, and joins were
+examined in enlarged repeat proofs. See the families'
+`source/border-cleanup.json`, Baltimore's `source/strip-cleanup.json` and their
+retained specimen proofs for the measured outline corrections.
+
+`python scripts/proof_icon_layout.py` writes a common-height proof of every
+repeat to `docs/border-repeat-review.pdf` and PNG contact sheets to the ignored
+workspace. This is a source and join review, independent of any page editor.

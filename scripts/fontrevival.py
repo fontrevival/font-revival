@@ -1679,6 +1679,7 @@ def icon_detail(m, r, sections):
 
 def icon_catalog_outputs(collections, brand_styles=()):
     taxonomy = json.loads((ROOT / 'site/icon-taxonomy.json').read_text())
+    layouts = json.loads((ROOT / 'site/icon-layout.json').read_text())['icons']
     outputs = icon_browse_fonts(collections)
     tiles, icons, seen = [], [], set()
     sections_used = {}
@@ -1694,6 +1695,8 @@ def icon_catalog_outputs(collections, brand_styles=()):
             category, sections = icon_navigation(m, r, taxonomy)
             sections_used.update({s['id']: s for s in sections})
             public = public_icon(r)
+            if r['id'] in layouts:
+                public['layout'] = layouts[r['id']]
             if r['tones']:
                 public['multitone'] = {'svg': f'{base}/svg/multitone/{r["id"]}.svg',
                                        'png': f'{base}/png/multitone/{r["id"]}.png',

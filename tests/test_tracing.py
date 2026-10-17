@@ -1,6 +1,7 @@
 """Source-preparation invariants, without requiring Potrace in release CI."""
 
 import json
+import importlib.util
 import io
 import string
 import sys
@@ -22,6 +23,22 @@ import trace_specimen as tracing
 
 
 class TracingTests(unittest.TestCase):
+    def test_border_cleanup_preserves_shared_joins_unless_clipping_is_explicit(self):
+        # A detached neighbour and a crossing shared stroke. Removing a whole
+        # neighbour must not accidentally trim the surviving ornament.
+        original = 'M0 0H100V100H0Z M110 20H120V30H110Z'
+        result, removed = tracing.clean_border_regions(original, [[90, 10, 130, 40]])
+        self.assertEqual(removed, 1)
+        bounds = BoundsPen(None); parse_path(result, bounds)
+        self.assertEqual(bounds.bounds, (0, 0, 100, 100))
+
+    @unittest.skipUnless(importlib.util.find_spec('pathops'), 'optional source-preparation dependency')
+    def test_explicit_border_clip_trims_a_connected_neighbour(self):
+        original = 'M0 0H100V100H0Z M110 20H120V30H110Z'
+        clipped, _ = tracing.clean_border_regions(original, [[90, -10, 130, 110]], clip=True)
+        bounds = BoundsPen(None); parse_path(clipped, bounds)
+        self.assertEqual(bounds.bounds, (0, 0, 90, 100))
+
     def test_retrace_rotation_matches_initial_cff_line_specialization(self):
         import math
         angle = math.radians(.571)

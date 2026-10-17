@@ -1,0 +1,97 @@
+{
+  "method": "Native source crop and rendered border survey; remove recorded neighbouring contours and isolated paper flecks. Do not reconstruct worn or intentionally shared joins. Regions are applied after the existing alignment matrix.",
+  "review": [
+    {
+      "icon": "boston-1889-p269-corner-119-left",
+      "source": "reference/boston-269.jp2",
+      "source_box": [
+        1114,
+        3161,
+        1356,
+        3373
+      ],
+      "regions": [
+        [
+          1800,
+          -200,
+          2000,
+          2000
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE1F8",
+          "removed_whole_contours": 1,
+          "before_sha256": "778dcda1b9ecb06b2b9239aae7282624317bff433dac533411f70ae3a85d64ee",
+          "after_sha256": "ff5c26b23083e9525944d7754776ff4b95dd8a00c4bf155e64e0b1238abc4e23",
+          "before_bounds": [
+            64.0,
+            152.0,
+            1864.0,
+            1648.2428827904462
+          ],
+          "after_bounds": [
+            64.0,
+            152.0,
+            1558.484020822629,
+            1648.2428827904462
+          ]
+        },
+        {
+          "glyph": "uniE1F8.primary",
+          "removed_whole_contours": 1,
+          "before_sha256": "f80d64087d1af6508fd00647c1d29910ac78819e0cc9145896372b841ca8e56e",
+          "after_sha256": "6f6e129fc5e1a6d5afd413188cad797976c69beb351528641eae2cdfb782f437",
+          "before_bounds": [
+            72.37092775750759,
+            159.0,
+            1864.0,
+            1645.0
+          ],
+          "after_bounds": [
+            72.37092775750759,
+            159.0,
+            1548.6170447970362,
+            1645.0
+          ]
+        },
+        {
+          "glyph": "uniE1F8.secondary",
+          "removed_whole_contours": 2,
+          "before_sha256": "2bb5364dd3f36970792d5c304e275070880333e00f5bf7e1f09cf969db1f06ed",
+          "after_sha256": "3f6e5efa87b48aef4f0aaea5c18ac868bc5fbf41c96d66c09206dcfc75c24710",
+          "before_bounds": [
+            69.58578643762691,
+            155.0,
+            1864.0,
+            1645.0
+          ],
+          "after_bounds": [
+            69.58578643762691,
+            155.0,
+            1556.6381598545456,
+            1645.0
+          ]
+        },
+        {
+          "glyph": "uniE1F8.tertiary",
+          "removed_whole_contours": 2,
+          "before_sha256": "e5b861c343aba48610703e35a7462205b4541073d0d1bdb6e73aa0258ae666b3",
+          "after_sha256": "90047f10ee837b94e751513f8922d70b956130cb595d44cf16b2e1ee6e591ef1",
+          "before_bounds": [
+            64.0,
+            152.0,
+            1864.0,
+            1648.2428827904462
+          ],
+          "after_bounds": [
+            64.0,
+            152.0,
+            1558.484020822629,
+            1648.2428827904462
+          ]
+        }
+      ]
+    }
+  ]
+}

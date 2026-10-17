@@ -338,6 +338,28 @@ def transform_drawing(drawing, matrix):
                       'preserve_commands': True}
 
 
+def clean_border_regions(svg, rectangles, clip=False):
+    """Remove reviewed edge contamination after alignment, in font coordinates.
+
+    Most remnants are whole disconnected contours. A pale scan bridge can
+    connect a neighbour to the ornament; only then intersect the affected path.
+    Curves outside the measured regions retain their coordinates.
+    """
+    svg, removed = erase_disconnected_contours(svg, rectangles)
+    if not clip:
+        return svg, removed
+    from outline_geometry import _path, _svg, boolean_op
+    import pathops
+    shape = _path(svg)
+    for x0, y0, x1, y1 in rectangles:
+        mask = _path(f'M{x0} {y0}H{x1}V{y1}H{x0}Z')
+        overlap = boolean_op(shape, mask, pathops.PathOp.INTERSECTION)
+        if overlap.area:
+            shape = boolean_op(shape, mask, pathops.PathOp.DIFFERENCE)
+            svg = _svg(shape)
+    return svg, removed
+
+
 def transform_traced_drawing(drawing, matrix):
     """Rotate the same canonical CFF geometry produced by the initial import.
 
@@ -371,6 +393,9 @@ def prepare_entry(task):
             result['solid'] = transform_traced_drawing(result['solid'], matrix)
             result['tones'] = {name: transform_traced_drawing(drawing, matrix)
                                for name, drawing in result['tones'].items()}
+        if entry.get('post_trace_clean_border_regions'):
+            for drawing in [result['solid'], *result['tones'].values()]:
+                drawing['path'], _ = clean_border_regions(drawing['path'], entry['post_trace_clean_border_regions'], entry.get('post_trace_clip_border_regions', False))
     except Exception as exc:
         raise ValueError(f'Tracing {label}: {exc}') from exc
     if cached:

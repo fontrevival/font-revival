@@ -1,5 +1,11 @@
 # Changes
 
+## 1.004
+
+- Remove documented neighbouring-cut fragments and isolated paper marks from 6 border pieces, preserving advances and historical contours elsewhere.
+- Remove isolated caption fragments and paper remnants outside the reviewed ornament bands of 136 complete border strips, in monochrome and all three tones. Preserve the retained contours and advances.
+- Retain source measurements, three-tone comparison sheets and before/after font proofs in the border review.
+
 ## 1.003
 
 - Remove a sliver of the neighbouring cut from the right of the Diagonal acanthus corner (PDF page 91), in monochrome and all three tones.

@@ -4,7 +4,7 @@ Word ornaments, floral details, border components and corners from the Boston Ty
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**715 icon(s) · Version 1.000 · MIT**
+**715 icon(s) · Version 1.001 · MIT**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonOrnaments1889-Regular.otf) · [TTF](fonts/BostonOrnaments1889-Regular.ttf) · [WOFF2](web/BostonOrnaments1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 

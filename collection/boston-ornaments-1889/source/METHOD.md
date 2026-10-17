@@ -11,3 +11,13 @@ Uniform scaling retains source aspect ratios, fits the longest ink dimension wit
 Prepare with scripts/trace_specimen.py boston-ornaments-1889 --jobs 4 --cache workspace/boston-expansion/trace-cache, then import and build through scripts/fontrevival.py.
 
 The 715 exports cover printed pp. 258–270. Complete frames and separable printing components retain their distinct uses. Connected repeats that cannot be isolated without slicing artwork are recorded in inventory.json and preserved in the complete frame. Recorded threshold overrides preserve thin K-series curls, fine corner lines and engraved counters. The repeated publisher emblem is exported once from p. 258.
+
+## Border boundary review
+
+`border-cleanup.json` records native source crops and measured cleanup regions.
+They remove neighbouring-cut fragments or isolated paper flecks after the existing
+alignment transform, without changing the normalisation or advance. This revision
+removes only complete disconnected contours from the right edge of Corner 119; the corner itself is unchanged. Historical worn impressions
+and shared joins are retained. `specimens/border-review.pdf` records before/after
+proofs. Layout recipes in `site/icon-layout.json` distinguish printing components
+from complete frames and strips.

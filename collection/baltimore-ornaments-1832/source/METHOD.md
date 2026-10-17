@@ -156,3 +156,21 @@ compares the previous and compatible font drawings at normal display sizes.
 
 References: [FreeType 2.13 outline limits](https://github.com/freetype/freetype/blob/VER-2-13-2/include/freetype/ftimage.h)
 and [TrueType phantom points](https://github.com/freetype/freetype/blob/VER-2-13-2/src/truetype/ttgload.c).
+
+## Border boundary review
+
+`border-cleanup.json` records native source crops and measured cleanup regions.
+They remove neighbouring-cut fragments or isolated paper flecks after the existing
+alignment transform, without changing the normalisation or advance. A faint
+tertiary bridge on the Brevier 13 corner is clipped at the measured paper gap;
+other changes remove complete disconnected contours. Historical worn impressions
+and shared joins are retained. `specimens/border-review.pdf` records before/after
+proofs. Layout recipes in `site/icon-layout.json` distinguish printing components
+from complete frames and strips.
+
+The companion `strip-cleanup.json` records 136 complete strips reviewed against
+the native scans. Only whole disconnected contours in measured outside bands
+are removed: catalogue numbers, foundry captions and isolated paper marks.
+Connected stains and the historical impression remain. Canonical, tonal and
+compact-font drawings receive the same region test; advances do not change.
+`specimens/border-strips-review.pdf` retains the enlarged comparisons.

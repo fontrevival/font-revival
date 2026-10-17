@@ -1,0 +1,557 @@
+{
+  "method": "Native source crop and rendered border survey; remove recorded neighbouring contours and isolated paper flecks. Do not reconstruct worn or intentionally shared joins. Regions are applied after the existing alignment matrix.",
+  "review": [
+    {
+      "icon": "baltimore-1832-p101-double-small-pica-4",
+      "source": "reference/pdf-101.png",
+      "source_box": [
+        1175,
+        1236,
+        1346,
+        1449
+      ],
+      "regions": [
+        [
+          0,
+          -200,
+          200,
+          120
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE06E",
+          "removed_whole_contours": 0,
+          "before_sha256": "be8778bf0cba829786289c0d47df234ce14cebd9db01595f8bb12433b38229d1",
+          "after_sha256": "c263a3096adecdd2ae6bd0386d2d2e753121e2516d2012658f0fbf3da3ade8e3",
+          "before_bounds": [
+            63.73559111554972,
+            234.9882736094077,
+            1597.0,
+            1792.1334668082834
+          ],
+          "after_bounds": [
+            63.73559111554972,
+            234.9882736094077,
+            1597.0,
+            1792.1334668082834
+          ]
+        },
+        {
+          "glyph": "uniE06E.primary",
+          "removed_whole_contours": 0,
+          "before_sha256": "061f4d228a42aa78b4d6a88640018415ed4fe4d631c077ced0cd2af40c441085",
+          "after_sha256": "f930af9bbd92c9e47f659470c00ad650ec60ce85a17b9f28b4c074eec73e21c5",
+          "before_bounds": [
+            63.81500226001708,
+            241.703125,
+            1597.0,
+            1782.0
+          ],
+          "after_bounds": [
+            63.81500226001708,
+            241.703125,
+            1597.0,
+            1782.0
+          ]
+        },
+        {
+          "glyph": "uniE06E.secondary",
+          "removed_whole_contours": 0,
+          "before_sha256": "306bb170f1918590eb3c9fe88e48e035a714e24e51f6e71925a9f28ba793afa8",
+          "after_sha256": "34f69afcc4796543170ed889f9dd01ad7a83126b5bbc64ce2c15892e754836c0",
+          "before_bounds": [
+            63.8125,
+            234.9882736094077,
+            1597.0,
+            1792.1334668082834
+          ],
+          "after_bounds": [
+            63.8125,
+            234.9882736094077,
+            1597.0,
+            1792.1334668082834
+          ]
+        },
+        {
+          "glyph": "uniE06E.tertiary",
+          "removed_whole_contours": 1,
+          "before_sha256": "e1868880167e805185ecea742ffa77dd2f1855d88ded5b2aa062bc0f2d6e2dd6",
+          "after_sha256": "fb75a8078b53c9cffcdcbb597ec6f007adc6459861f89723158d7f918f4f9d11",
+          "before_bounds": [
+            64.0,
+            0.30512084569554077,
+            1597.0,
+            1800.032323243342
+          ],
+          "after_bounds": [
+            64.0,
+            234.33333333333334,
+            1597.0,
+            1800.032323243342
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "baltimore-1832-p101-double-small-pica-7",
+      "source": "reference/pdf-101.png",
+      "source_box": [
+        1235,
+        2139,
+        1409,
+        2347
+      ],
+      "regions": [
+        [
+          300,
+          -200,
+          520,
+          140
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE071",
+          "removed_whole_contours": 0,
+          "before_sha256": "4a6457b3b8de5b07229935da12a2e6924f9869fbe3add2252eab3f3c2acfa913",
+          "after_sha256": "41ba1f8b9830739fea4607c3d7637332e69620589c796c3d64701280d3d55ad8",
+          "before_bounds": [
+            64.0,
+            249.97687528250214,
+            1643.3856002116945,
+            1799.5341380123987
+          ],
+          "after_bounds": [
+            64.0,
+            249.97687528250214,
+            1643.3856002116945,
+            1799.5341380123987
+          ]
+        },
+        {
+          "glyph": "uniE071.primary",
+          "removed_whole_contours": 0,
+          "before_sha256": "96007095043db7135a1450bf695f2078c52997fd9dea363675faa247b340ddf0",
+          "after_sha256": "3c4ee8ac0817bc717e64e90380f585ff52a6947547a5bee5c04fdedbf58086e1",
+          "before_bounds": [
+            64.0,
+            256.0,
+            1644.0,
+            1789.8527569654686
+          ],
+          "after_bounds": [
+            64.0,
+            256.0,
+            1644.0,
+            1789.8527569654686
+          ]
+        },
+        {
+          "glyph": "uniE071.secondary",
+          "removed_whole_contours": 0,
+          "before_sha256": "8e0620baf2a66b5752f280f4ea7cb6e5a9d89e4fc957c2b06de132ed79f008c1",
+          "after_sha256": "4dde4a8d2961876c391ccf374ed79884dca41dbc95ef08be2a2ddb5a0d2d08cb",
+          "before_bounds": [
+            64.0,
+            249.97687528250214,
+            1644.0,
+            1799.5341380123987
+          ],
+          "after_bounds": [
+            64.0,
+            249.97687528250214,
+            1644.0,
+            1799.5341380123987
+          ]
+        },
+        {
+          "glyph": "uniE071.tertiary",
+          "removed_whole_contours": 1,
+          "before_sha256": "747291308d3e07589e370e65661fd2e0d5c6502b1636637aa96bb270143aa7bb",
+          "after_sha256": "ed8ae1f9860b474148887da63d55a8abdb9212dbc61d7841e08851e4e2e7015f",
+          "before_bounds": [
+            64.0,
+            0.0,
+            1643.4444444444443,
+            1800.0
+          ],
+          "after_bounds": [
+            64.0,
+            247.0,
+            1643.4444444444443,
+            1800.0
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "baltimore-1832-p109-nonpareil-13-piece",
+      "source": "reference/pdf-109.png",
+      "source_box": [
+        724,
+        3032,
+        786,
+        3135
+      ],
+      "regions": [
+        [
+          900,
+          -200,
+          1100,
+          200
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE0FF",
+          "removed_whole_contours": 0,
+          "before_sha256": "a7861925ccd1254eeb2b6a3d9c471dd7c3d7e19467ccc38b2851aa65bf66b078",
+          "after_sha256": "a7861925ccd1254eeb2b6a3d9c471dd7c3d7e19467ccc38b2851aa65bf66b078",
+          "before_bounds": [
+            63.525985285833514,
+            733.7742918986684,
+            1701.2755382516666,
+            1780.001124944865
+          ],
+          "after_bounds": [
+            63.525985285833514,
+            733.7742918986684,
+            1701.2755382516666,
+            1780.001124944865
+          ]
+        },
+        {
+          "glyph": "uniE0FF.primary",
+          "removed_whole_contours": 0,
+          "before_sha256": "d13a60ab724a3797b48f111dec9e6af5c2a8558ca5cae179a73a362ad3b39eb3",
+          "after_sha256": "d13a60ab724a3797b48f111dec9e6af5c2a8558ca5cae179a73a362ad3b39eb3",
+          "before_bounds": [
+            63.52897400678058,
+            745.4445545964811,
+            1701.0379078333865,
+            1762.4072243419255
+          ],
+          "after_bounds": [
+            63.52897400678058,
+            745.4445545964811,
+            1701.0379078333865,
+            1762.4072243419255
+          ]
+        },
+        {
+          "glyph": "uniE0FF.secondary",
+          "removed_whole_contours": 0,
+          "before_sha256": "bf6b3cc8a650f8b27fd47b58f5eef451811de8dbefe3d6b37f0c9350530fcdbb",
+          "after_sha256": "bf6b3cc8a650f8b27fd47b58f5eef451811de8dbefe3d6b37f0c9350530fcdbb",
+          "before_bounds": [
+            63.525985285833514,
+            733.7742918986684,
+            1701.28125,
+            1780.001124944865
+          ],
+          "after_bounds": [
+            63.525985285833514,
+            733.7742918986684,
+            1701.28125,
+            1780.001124944865
+          ]
+        },
+        {
+          "glyph": "uniE0FF.tertiary",
+          "removed_whole_contours": 1,
+          "before_sha256": "fa2e1e58b61d973cf9db5c36ce9eb5bbf490684e603890bb8298edee8c39049a",
+          "after_sha256": "f21713561d04fedca4ca7c3a622bf262138a18e3999861ec52e1ffa242cff12b",
+          "before_bounds": [
+            62.96875,
+            -0.943130028154167,
+            1697.03125,
+            1795.7560003527417
+          ],
+          "after_bounds": [
+            62.96875,
+            707.7568121512123,
+            1697.03125,
+            1795.7560003527417
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "baltimore-1832-p111-small-pica-9-star",
+      "source": "reference/pdf-111.png",
+      "source_box": [
+        473,
+        1587,
+        583,
+        1706
+      ],
+      "regions": [
+        [
+          1650,
+          670,
+          2000,
+          1100
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE162",
+          "removed_whole_contours": 2,
+          "before_sha256": "004c271a8d086eb906daadf9abb16c3383ada45b97012227e13adf62d3b3f67e",
+          "after_sha256": "801f9d1f59bb73020f5edcf3999bb74eb0438f2b711960cdc804c0245a772cd5",
+          "before_bounds": [
+            74.65230248543142,
+            96.94663839732739,
+            1868.4618394239183,
+            1693.5374355971414
+          ],
+          "after_bounds": [
+            74.65230248543142,
+            96.94663839732739,
+            1669.0,
+            1693.5374355971414
+          ]
+        },
+        {
+          "glyph": "uniE162.primary",
+          "removed_whole_contours": 1,
+          "before_sha256": "23fb629c270d4fb368e94640c39eab551824a08a915a1c7a20a91b6061566403",
+          "after_sha256": "f04b8ba0c6c24f8464fc86bb53ac1b7358ad85c73365c32880a2899ca8ff7ead",
+          "before_bounds": [
+            87.19334017621608,
+            108.72681604749923,
+            1868.6715340360488,
+            1693.0
+          ],
+          "after_bounds": [
+            87.19334017621608,
+            108.72681604749923,
+            1666.446579501327,
+            1693.0
+          ]
+        },
+        {
+          "glyph": "uniE162.secondary",
+          "removed_whole_contours": 3,
+          "before_sha256": "fb7c320430472097d5b59b80cc2bb9daf67e34b1c0c7b5e192febfc6c2aebaec",
+          "after_sha256": "61f9ca9e7ea56326792db78bee27f152b7c8af4ce042b50c8e22445900456c14",
+          "before_bounds": [
+            74.65230248543142,
+            96.94663839732739,
+            1868.6308442049258,
+            1693.5192307692307
+          ],
+          "after_bounds": [
+            74.65230248543142,
+            96.94663839732739,
+            1669.0,
+            1693.5192307692307
+          ]
+        },
+        {
+          "glyph": "uniE162.tertiary",
+          "removed_whole_contours": 2,
+          "before_sha256": "798793acab11d08098b7dde9a8be9eef38bc4f54c9d16fab114f112d70821176",
+          "after_sha256": "d7f051648cfb5ea82f026b1aca9fe21db1c0fc578b215dd2e316afb8ac9fb40e",
+          "before_bounds": [
+            64.0,
+            89.0,
+            1863.0,
+            1711.4821279468333
+          ],
+          "after_bounds": [
+            64.0,
+            89.0,
+            1683.7968307889143,
+            1711.4821279468333
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "baltimore-1832-p115-brevier-13-corner",
+      "source": "reference/pdf-115.png",
+      "source_box": [
+        488,
+        2064,
+        567,
+        2161
+      ],
+      "regions": [
+        [
+          1680,
+          -200,
+          2000,
+          2000
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE164",
+          "removed_whole_contours": 2,
+          "before_sha256": "4e65e7286553dedfbe6986232b5b8e49fda93b2604598e8c1d95db399b6b2c42",
+          "after_sha256": "88561e6da2c1e5f74f2f458db32f2d4e8320b8ffd78a90fbfd8000a830900689",
+          "before_bounds": [
+            88.88293143667921,
+            116.35456778698942,
+            1865.1211216324746,
+            1696.0
+          ],
+          "after_bounds": [
+            88.88293143667921,
+            138.91344122850015,
+            1646.0,
+            1696.0
+          ]
+        },
+        {
+          "glyph": "uniE164.primary",
+          "removed_whole_contours": 3,
+          "before_sha256": "62dd34a0e88ebfd067a71602f3d036db96bfb50c9e42c25690896957dba2242b",
+          "after_sha256": "5ab59b3cd1aa66832564fd79e9bc9c6e3fe15281ff64c63d1bed4db310d6da14",
+          "before_bounds": [
+            90.04978657280128,
+            142.75084555535227,
+            1864.298050335364,
+            1666.0
+          ],
+          "after_bounds": [
+            90.04978657280128,
+            144.97310258935744,
+            1629.0,
+            1666.0
+          ]
+        },
+        {
+          "glyph": "uniE164.secondary",
+          "removed_whole_contours": 3,
+          "before_sha256": "be193e06f0b99e6b1fc8f01591d7791452ccd52a3d75d45c6974edef9a76f2eb",
+          "after_sha256": "6316f7b28951be0756625026fde975e9c21cd1ce09f28ed47cb28da243fbe0db",
+          "before_bounds": [
+            89.0342546121812,
+            116.5958444872134,
+            1865.1211216324746,
+            1696.0
+          ],
+          "after_bounds": [
+            89.0342546121812,
+            138.91344122850015,
+            1646.0,
+            1696.0
+          ]
+        },
+        {
+          "glyph": "uniE164.tertiary",
+          "removed_whole_contours": 5,
+          "before_sha256": "0e0ed562183fa797b33e456b2709622e1c4e9fd8b6deb5cfb5ba8696d1af5679",
+          "after_sha256": "b1febfdaa863ccc948929280282e48ff1ae9cda2035c2b1cd9d3c2c2693c7f2d",
+          "before_bounds": [
+            64.10764289723525,
+            116.0,
+            1864.0,
+            1684.0
+          ],
+          "after_bounds": [
+            64.10764289723525,
+            125.21514026504445,
+            1680.0,
+            1684.0
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "baltimore-1832-p117-english-14-corner",
+      "source": "reference/pdf-117.png",
+      "source_box": [
+        448,
+        4016,
+        573,
+        4167
+      ],
+      "regions": [
+        [
+          1770,
+          -200,
+          2000,
+          2000
+        ]
+      ],
+      "glyphs": [
+        {
+          "glyph": "uniE167",
+          "removed_whole_contours": 4,
+          "before_sha256": "23d0e935b9c1bf464d6d7fb0a25407c750c84a090abe81e18d9d518e64d5035e",
+          "after_sha256": "3f72ba9e5d171f6baafeb16d1faa0bbd36b0248755edf53e525662207836b10a",
+          "before_bounds": [
+            64.25857066883262,
+            31.670976662249704,
+            1874.8658245934912,
+            1771.036380961946
+          ],
+          "after_bounds": [
+            64.25857066883262,
+            31.670976662249704,
+            1750.09375,
+            1771.036380961946
+          ]
+        },
+        {
+          "glyph": "uniE167.primary",
+          "removed_whole_contours": 3,
+          "before_sha256": "bb9b35b09ce0def977ff3281d041d410eb5b8a5fa675db12c1ffc7a60df00dab",
+          "after_sha256": "aaf7e2860c8d2e74fa7870c7eb865630aefdf3a63a24a46e9a7ae7e295073e4b",
+          "before_bounds": [
+            75.43340929666402,
+            83.05920590852813,
+            1874.6521371846131,
+            1761.0687038411313
+          ],
+          "after_bounds": [
+            75.43340929666402,
+            83.05920590852813,
+            1749.734375,
+            1761.0687038411313
+          ]
+        },
+        {
+          "glyph": "uniE167.secondary",
+          "removed_whole_contours": 5,
+          "before_sha256": "412e1f4046e4b0d6e198c1f642a7717433778f688c4f475dc8282dcfaca8415f",
+          "after_sha256": "8f80f54c735e966540cbf2fc116d60b341eef2b6dfd29aaa366f4be66b029692",
+          "before_bounds": [
+            64.25857066883262,
+            31.670976662249704,
+            1874.8658245934912,
+            1771.036380961946
+          ],
+          "after_bounds": [
+            64.25857066883262,
+            31.670976662249704,
+            1750.09375,
+            1771.036380961946
+          ]
+        },
+        {
+          "glyph": "uniE167.tertiary",
+          "removed_whole_contours": 7,
+          "before_sha256": "cab15a79843a18778d839556c78a484a25c5e3b07ac1e49c67e07a1b428547d2",
+          "after_sha256": "d36e12319303307f176d9a04956d0325d2b6d755ee1a8ec46fc5a553859bae0d",
+          "before_bounds": [
+            57.21555645427603,
+            17.48092913484129,
+            1874.921875,
+            1788.1038437330908
+          ],
+          "after_bounds": [
+            57.21555645427603,
+            17.48092913484129,
+            1760.3459848148966,
+            1788.1038437330908
+          ]
+        }
+      ]
+    }
+  ]
+}

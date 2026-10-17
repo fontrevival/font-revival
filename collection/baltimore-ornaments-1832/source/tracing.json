@@ -4405,7 +4405,16 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          0,
+          -200,
+          200,
+          120
+        ]
+      ],
+      "post_trace_clip_border_regions": false
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -4504,7 +4513,16 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          300,
+          -200,
+          520,
+          140
+        ]
+      ],
+      "post_trace_clip_border_regions": false
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -5206,7 +5224,21 @@
         -18.728864352188378,
         20.488783943571207
       ],
-      "straightening_note": "-1.206 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.206 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          811.5
+        ],
+        [
+          -10000,
+          1021.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-085.png",
@@ -5257,7 +5289,21 @@
         -20.89028809794894,
         22.909856166232316
       ],
-      "straightening_note": "-1.347 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.347 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          808.5
+        ],
+        [
+          -10000,
+          994.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-085.png",
@@ -5316,7 +5362,21 @@
         -23.50358480441369,
         25.853175949010165
       ],
-      "straightening_note": "-1.518 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.518 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          808.0
+        ],
+        [
+          -10000,
+          996.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-087.png",
@@ -5358,7 +5418,21 @@
         -17.146189516128967,
         18.723565050114303
       ],
-      "straightening_note": "-1.103 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.103 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          722.5
+        ],
+        [
+          -10000,
+          1079.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-087.png",
@@ -5400,7 +5474,21 @@
         -19.18924061665265,
         21.00346011167369
       ],
-      "straightening_note": "-1.236 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.236 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          800.0
+        ],
+        [
+          -10000,
+          1002.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-087.png",
@@ -5450,7 +5538,21 @@
         -23.244176757225546,
         25.560216219007998
       ],
-      "straightening_note": "-1.501 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.501 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          807.5
+        ],
+        [
+          -10000,
+          993.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-089.png",
@@ -5492,7 +5594,21 @@
         -13.569723280112662,
         14.757978784307966
       ],
-      "straightening_note": "-0.871 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.871 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          819.5
+        ],
+        [
+          -10000,
+          997.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-089.png",
@@ -5534,7 +5650,21 @@
         -13.090618191540237,
         14.229192261297158
       ],
-      "straightening_note": "-0.840 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.840 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          809.5
+        ],
+        [
+          -10000,
+          991.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-089.png",
@@ -5576,7 +5706,21 @@
         -12.874154386906076,
         13.990470428863205
       ],
-      "straightening_note": "-0.826 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.826 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          811.5
+        ],
+        [
+          -10000,
+          997.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-091.png",
@@ -5609,7 +5753,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          816.0
+        ],
+        [
+          -10000,
+          987.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-091.png",
@@ -5642,7 +5800,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          805.0
+        ],
+        [
+          -10000,
+          986.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-091.png",
@@ -5675,7 +5847,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          814.0
+        ],
+        [
+          -10000,
+          987.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-091.png",
@@ -5708,7 +5894,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          806.0
+        ],
+        [
+          -10000,
+          991.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-093.png",
@@ -5741,7 +5941,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          778.5
+        ],
+        [
+          -10000,
+          1020.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-093.png",
@@ -5783,7 +5997,21 @@
         -10.985359689542914,
         11.912420765241905
       ],
-      "straightening_note": "-0.704 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.704 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          791.0
+        ],
+        [
+          -10000,
+          1018.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-093.png",
@@ -5825,7 +6053,21 @@
         -11.32628895844522,
         12.286853726640288
       ],
-      "straightening_note": "-0.726 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.726 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          791.5
+        ],
+        [
+          -10000,
+          1019.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-095.png",
@@ -5858,7 +6100,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          765.0
+        ],
+        [
+          -10000,
+          1033.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-095.png",
@@ -5891,7 +6147,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          771.0
+        ],
+        [
+          -10000,
+          1042.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-095.png",
@@ -5924,7 +6194,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          775
+        ],
+        [
+          -10000,
+          1036.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-097.png",
@@ -5966,7 +6250,21 @@
         -6.509046368750288,
         7.022849723231161
       ],
-      "straightening_note": "-0.416 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.416 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          848.0
+        ],
+        [
+          -10000,
+          956.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-097.png",
@@ -6008,7 +6306,21 @@
         -7.023203284401402,
         7.5819708884741885
       ],
-      "straightening_note": "-0.449 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.449 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          847.0
+        ],
+        [
+          -10000,
+          952.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-097.png",
@@ -6050,7 +6362,21 @@
         -7.614863730879324,
         8.226174090523841
       ],
-      "straightening_note": "-0.487 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.487 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          851.0
+        ],
+        [
+          -10000,
+          951.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-097.png",
@@ -6092,7 +6418,21 @@
         -8.734732319750286,
         9.447845132681891
       ],
-      "straightening_note": "-0.559 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.559 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          849.5
+        ],
+        [
+          -10000,
+          954.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-099.png",
@@ -6125,7 +6465,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          800.5
+        ],
+        [
+          -10000,
+          1002.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-099.png",
@@ -6158,7 +6512,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          858.0
+        ],
+        [
+          -10000,
+          929.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-099.png",
@@ -6191,7 +6559,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          865.0
+        ],
+        [
+          -10000,
+          942.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-099.png",
@@ -6233,7 +6615,21 @@
         -6.851853428089959,
         7.3955642641908526
       ],
-      "straightening_note": "-0.438 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.438 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          861
+        ],
+        [
+          -10000,
+          947.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -6266,7 +6662,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          857.0
+        ],
+        [
+          -10000,
+          943.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -6299,7 +6709,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          859.0
+        ],
+        [
+          -10000,
+          942.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -6332,7 +6756,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          859.5
+        ],
+        [
+          -10000,
+          942.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -6365,7 +6803,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          861.5
+        ],
+        [
+          -10000,
+          931.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -6398,7 +6850,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          860.0
+        ],
+        [
+          -10000,
+          940.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-101.png",
@@ -6431,7 +6897,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          860.5
+        ],
+        [
+          -10000,
+          940.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-103.png",
@@ -6464,7 +6944,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          864.0
+        ],
+        [
+          -10000,
+          933.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-103.png",
@@ -6497,7 +6991,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          863.5
+        ],
+        [
+          -10000,
+          932.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-103.png",
@@ -6530,7 +7038,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          869.0
+        ],
+        [
+          -10000,
+          935.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-103.png",
@@ -6563,7 +7085,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          867.5
+        ],
+        [
+          -10000,
+          933.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-103.png",
@@ -6596,7 +7132,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          864.0
+        ],
+        [
+          -10000,
+          931.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-105.png",
@@ -6638,7 +7188,21 @@
         -7.163372000515692,
         7.734509865708333
       ],
-      "straightening_note": "-0.458 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.458 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          872.5
+        ],
+        [
+          -10000,
+          940.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-105.png",
@@ -6680,7 +7244,21 @@
         -9.63573167040039,
         10.432991835553594
       ],
-      "straightening_note": "-0.617 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.617 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          874.0
+        ],
+        [
+          -10000,
+          942.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-105.png",
@@ -6722,7 +7300,21 @@
         -9.915149336578718,
         10.73891241508295
       ],
-      "straightening_note": "-0.635 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.635 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          872.0
+        ],
+        [
+          -10000,
+          932.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-105.png",
@@ -6764,7 +7356,21 @@
         -10.209985925841467,
         11.06192379762922
       ],
-      "straightening_note": "-0.654 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.654 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          874.0
+        ],
+        [
+          -10000,
+          942.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-105.png",
@@ -6806,7 +7412,21 @@
         -13.662420247500854,
         14.860354500037488
       ],
-      "straightening_note": "-0.877 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.877 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          836.5
+        ],
+        [
+          -10000,
+          964.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-107.png",
@@ -6848,7 +7468,21 @@
         12.43677872621263,
         -13.139329959592146
       ],
-      "straightening_note": "+0.786 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.786 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          863.0
+        ],
+        [
+          -10000,
+          929.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-107.png",
@@ -6890,7 +7524,21 @@
         11.449224189260049,
         -12.109105043008299
       ],
-      "straightening_note": "+0.724 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.724 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          867.5
+        ],
+        [
+          -10000,
+          933.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-107.png",
@@ -6932,7 +7580,21 @@
         10.63771699611367,
         -11.260861304608852
       ],
-      "straightening_note": "+0.673 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.673 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          864.5
+        ],
+        [
+          -10000,
+          930.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-107.png",
@@ -6974,7 +7636,21 @@
         9.048719619571113,
         -9.595543139795382
       ],
-      "straightening_note": "+0.573 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.573 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          858.5
+        ],
+        [
+          -10000,
+          923.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-107.png",
@@ -7016,7 +7692,21 @@
         9.55688251814778,
         -10.128746657044758
       ],
-      "straightening_note": "+0.605 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.605 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          829.5
+        ],
+        [
+          -10000,
+          974,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7058,7 +7748,21 @@
         -4.995873313786641,
         5.381088115810144
       ],
-      "straightening_note": "-0.319 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.319 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          862.0
+        ],
+        [
+          -10000,
+          933.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7133,7 +7837,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          863.5
+        ],
+        [
+          -10000,
+          936.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7199,7 +7917,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          867.5
+        ],
+        [
+          -10000,
+          952.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7274,7 +8006,21 @@
         -4.746010805879197,
         5.1105283065984395
       ],
-      "straightening_note": "-0.303 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.303 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          867.0
+        ],
+        [
+          -10000,
+          939.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7358,7 +8104,21 @@
         -5.245660257400876,
         5.651717689246539
       ],
-      "straightening_note": "-0.335 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.335 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          873.5
+        ],
+        [
+          -10000,
+          951.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7442,7 +8202,21 @@
         -5.526580221769101,
         5.9562593231349865
       ],
-      "straightening_note": "-0.353 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.353 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          870.0
+        ],
+        [
+          -10000,
+          950.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7517,7 +8291,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          876.5
+        ],
+        [
+          -10000,
+          953.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7583,7 +8371,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          862.0
+        ],
+        [
+          -10000,
+          942.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7649,7 +8451,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          866.5
+        ],
+        [
+          -10000,
+          946.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7715,7 +8531,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          867.0
+        ],
+        [
+          -10000,
+          948.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7781,7 +8611,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          869.0
+        ],
+        [
+          -10000,
+          945.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -7856,7 +8700,21 @@
         -5.339310875861007,
         5.753221761067152
       ],
-      "straightening_note": "-0.341 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.341 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          863.5
+        ],
+        [
+          -10000,
+          940.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -8024,7 +8882,21 @@
         -10.566750037236092,
         11.45306836281327
       ],
-      "straightening_note": "-0.677 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.677 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          884.5
+        ],
+        [
+          -10000,
+          943.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -8108,7 +8980,21 @@
         -17.084662423544767,
         18.655070271985323
       ],
-      "straightening_note": "-1.099 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.099 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          887.0
+        ],
+        [
+          -10000,
+          950.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -8150,7 +9036,21 @@
         -12.193459929462518,
         13.240546263562578
       ],
-      "straightening_note": "-0.782 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.782 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          876.5
+        ],
+        [
+          -10000,
+          938.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -8225,7 +9125,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          879.0
+        ],
+        [
+          -10000,
+          934.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8291,7 +9205,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          887.5
+        ],
+        [
+          -10000,
+          936.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8357,7 +9285,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          877.0
+        ],
+        [
+          -10000,
+          930.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8423,7 +9365,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          886.0
+        ],
+        [
+          -10000,
+          940.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8456,7 +9412,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          895.0
+        ],
+        [
+          -10000,
+          946.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8522,7 +9492,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          893.5
+        ],
+        [
+          -10000,
+          944.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8588,7 +9572,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          892.5
+        ],
+        [
+          -10000,
+          945.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8654,7 +9652,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          887.0
+        ],
+        [
+          -10000,
+          941.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8720,7 +9732,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          888.0
+        ],
+        [
+          -10000,
+          941.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -8828,7 +9854,21 @@
         8.50912292740166,
         -9.02870352428181
       ],
-      "straightening_note": "+0.539 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.539 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          850.0
+        ],
+        [
+          -10000,
+          937.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -8912,7 +9952,21 @@
         8.953472233316006,
         -9.495535888329869
       ],
-      "straightening_note": "+0.567 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.567 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          861.5
+        ],
+        [
+          -10000,
+          943.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -8996,7 +10050,21 @@
         12.086228549189219,
         -12.77388860675319
       ],
-      "straightening_note": "+0.764 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.764 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          864.0
+        ],
+        [
+          -10000,
+          944.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -9080,7 +10148,21 @@
         11.258213398187932,
         -11.909583271711767
       ],
-      "straightening_note": "+0.712 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.712 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          853.0
+        ],
+        [
+          -10000,
+          937.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -9155,7 +10237,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          873.0
+        ],
+        [
+          -10000,
+          918.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9353,7 +10449,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          871.0
+        ],
+        [
+          -10000,
+          907.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9452,7 +10562,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          883.0
+        ],
+        [
+          -10000,
+          931.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9518,7 +10642,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          894.0
+        ],
+        [
+          -10000,
+          920.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9584,7 +10722,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          886.5
+        ],
+        [
+          -10000,
+          933.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9650,7 +10802,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          874.0
+        ],
+        [
+          -10000,
+          922.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9716,7 +10882,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          751.5
+        ],
+        [
+          -10000,
+          1054.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9758,7 +10938,21 @@
         -4.792865781089128,
         5.161252955782743
       ],
-      "straightening_note": "-0.306 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.306 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          887.5
+        ],
+        [
+          -10000,
+          930.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9800,7 +10994,16 @@
         -4.794056620051672,
         4.7153059985819255
       ],
-      "straightening_note": "-0.306 degrees; horizontal axis of its containing printed strip; see straightening.json."
+      "straightening_note": "-0.306 degrees; horizontal axis of its containing printed strip; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          900,
+          -200,
+          1100,
+          200
+        ]
+      ],
+      "post_trace_clip_border_regions": false
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9842,7 +11045,21 @@
         -4.714772680246768,
         5.076713236794831
       ],
-      "straightening_note": "-0.301 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.301 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          874.5
+        ],
+        [
+          -10000,
+          921.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-109.png",
@@ -9926,7 +11143,21 @@
         -7.210089581058882,
         7.785361084031933
       ],
-      "straightening_note": "-0.461 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.461 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          869.0
+        ],
+        [
+          -10000,
+          950.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -9968,7 +11199,21 @@
         -9.045534396312421,
         9.787447857875463
       ],
-      "straightening_note": "-0.579 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.579 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          830.0
+        ],
+        [
+          -10000,
+          991.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -10052,7 +11297,21 @@
         -8.688101784578324,
         9.39691408197234
       ],
-      "straightening_note": "-0.556 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.556 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          851.5
+        ],
+        [
+          -10000,
+          934.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -10136,7 +11395,21 @@
         -7.272375546562542,
         7.853166513416909
       ],
-      "straightening_note": "-0.465 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.465 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          866.5
+        ],
+        [
+          -10000,
+          950.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -10169,7 +11442,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          862.0
+        ],
+        [
+          -10000,
+          949.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-111.png",
@@ -10244,7 +11531,21 @@
         -5.838601287128188,
         6.294742404730528
       ],
-      "straightening_note": "-0.373 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.373 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          859.5
+        ],
+        [
+          -10000,
+          944.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10286,7 +11587,21 @@
         -12.45652378267792,
         13.530227722203449
       ],
-      "straightening_note": "-0.799 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.799 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          871.5
+        ],
+        [
+          -10000,
+          944.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10328,7 +11643,21 @@
         -14.44991149652354,
         15.7309398760774
       ],
-      "straightening_note": "-0.928 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.928 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          869.0
+        ],
+        [
+          -10000,
+          948.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10412,7 +11741,21 @@
         -16.39215321442497,
         17.884800088115867
       ],
-      "straightening_note": "-1.054 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.054 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          869.5
+        ],
+        [
+          -10000,
+          947.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10454,7 +11797,21 @@
         -15.83771040291266,
         17.268975693967263
       ],
-      "straightening_note": "-1.018 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-1.018 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          868.5
+        ],
+        [
+          -10000,
+          942.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10496,7 +11853,21 @@
         -13.276112164345758,
         14.433853067462223
       ],
-      "straightening_note": "-0.852 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.852 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          871.0
+        ],
+        [
+          -10000,
+          944.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10664,7 +12035,21 @@
         -12.25536503905139,
         13.30869958453502
       ],
-      "straightening_note": "-0.786 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.786 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          870.5
+        ],
+        [
+          -10000,
+          946.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10706,7 +12091,21 @@
         -14.635090914233837,
         15.93588533902755
       ],
-      "straightening_note": "-0.940 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.940 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          866.0
+        ],
+        [
+          -10000,
+          939.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10790,7 +12189,21 @@
         -14.66594997720816,
         15.970046686647265
       ],
-      "straightening_note": "-0.942 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.942 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          869.5
+        ],
+        [
+          -10000,
+          939.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10874,7 +12287,21 @@
         -14.233814597473256,
         15.49188586080436
       ],
-      "straightening_note": "-0.914 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.914 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          828.5
+        ],
+        [
+          -10000,
+          975.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -10958,7 +12385,21 @@
         -12.85869045462529,
         13.973420893439311
       ],
-      "straightening_note": "-0.825 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.825 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          868.0
+        ],
+        [
+          -10000,
+          945.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -11033,7 +12474,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          858.5
+        ],
+        [
+          -10000,
+          947.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -11099,7 +12554,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          861.0
+        ],
+        [
+          -10000,
+          951.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -11231,7 +12700,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          877.0
+        ],
+        [
+          -10000,
+          943.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11297,7 +12780,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          875.0
+        ],
+        [
+          -10000,
+          936.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11363,7 +12860,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          877.5
+        ],
+        [
+          -10000,
+          940.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11396,7 +12907,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          874.5
+        ],
+        [
+          -10000,
+          939.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11462,7 +12987,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          865.0
+        ],
+        [
+          -10000,
+          930.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11495,7 +13034,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          880.5
+        ],
+        [
+          -10000,
+          942.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11528,7 +13081,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          873.0
+        ],
+        [
+          -10000,
+          936.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11594,7 +13161,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          881.0
+        ],
+        [
+          -10000,
+          946.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11735,7 +13316,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          871.0
+        ],
+        [
+          -10000,
+          933.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-115.png",
@@ -11818,7 +13413,21 @@
         12.118090948486616,
         -12.807116109666595
       ],
-      "straightening_note": "+0.766 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.766 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          846.0
+        ],
+        [
+          -10000,
+          951.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -11986,7 +13595,21 @@
         10.240195202732924,
         -10.844791802137252
       ],
-      "straightening_note": "+0.648 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.648 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          847.5
+        ],
+        [
+          -10000,
+          954.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12070,7 +13693,21 @@
         11.290045628042135,
         -11.94283967833303
       ],
-      "straightening_note": "+0.714 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.714 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          852.0
+        ],
+        [
+          -10000,
+          959.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12154,7 +13791,21 @@
         13.632890211475699,
         -14.38414062810989
       ],
-      "straightening_note": "+0.861 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.861 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          842.0
+        ],
+        [
+          -10000,
+          948.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12196,7 +13847,21 @@
         13.505227364782687,
         -14.251435433998495
       ],
-      "straightening_note": "+0.853 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.853 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          858.0
+        ],
+        [
+          -10000,
+          957.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12280,7 +13945,21 @@
         12.357095910411639,
         -13.056286926460189
       ],
-      "straightening_note": "+0.781 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.781 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          855.0
+        ],
+        [
+          -10000,
+          946.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12364,7 +14043,21 @@
         11.5129037385985,
         -12.175603409521045
       ],
-      "straightening_note": "+0.728 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.728 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          853.0
+        ],
+        [
+          -10000,
+          964.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12406,7 +14099,21 @@
         11.17863790251782,
         -11.826437394035338
       ],
-      "straightening_note": "+0.707 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.707 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          804.0
+        ],
+        [
+          -10000,
+          1023.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12490,7 +14197,21 @@
         11.353713570256183,
         -12.009349158010878
       ],
-      "straightening_note": "+0.718 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.718 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          807.0
+        ],
+        [
+          -10000,
+          1019.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12582,7 +14303,21 @@
         11.592509703478784,
         -12.25872011567094
       ],
-      "straightening_note": "+0.733 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.733 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          852.5
+        ],
+        [
+          -10000,
+          960.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12666,7 +14401,21 @@
         12.118090948486616,
         -12.807116109666595
       ],
-      "straightening_note": "+0.766 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.766 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          858.5
+        ],
+        [
+          -10000,
+          966.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12750,7 +14499,21 @@
         12.21368510525901,
         -12.906791944878023
       ],
-      "straightening_note": "+0.772 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.772 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          848.0
+        ],
+        [
+          -10000,
+          955.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12792,7 +14555,21 @@
         11.17863790251782,
         -11.826437394035338
       ],
-      "straightening_note": "+0.707 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.707 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          855.5
+        ],
+        [
+          -10000,
+          964.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -12951,7 +14728,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          849.0
+        ],
+        [
+          -10000,
+          949.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13035,7 +14826,21 @@
         -6.056945722865467,
         6.531745356990541
       ],
-      "straightening_note": "-0.387 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "-0.387 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          857.0
+        ],
+        [
+          -10000,
+          954.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13068,7 +14873,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          855.5
+        ],
+        [
+          -10000,
+          957.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13134,7 +14953,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          842.0
+        ],
+        [
+          -10000,
+          939.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13200,7 +15033,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          862.0
+        ],
+        [
+          -10000,
+          955.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13266,7 +15113,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          843.0
+        ],
+        [
+          -10000,
+          941.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13299,7 +15160,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          846.0
+        ],
+        [
+          -10000,
+          946.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13332,7 +15207,21 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          860.0
+        ],
+        [
+          -10000,
+          960.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13407,7 +15296,21 @@
         4.8203620388096144,
         -5.135582175753257
       ],
-      "straightening_note": "+0.306 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.306 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          850.5
+        ],
+        [
+          -10000,
+          950.5,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13449,7 +15352,21 @@
         5.990183820630835,
         -6.373649277146114
       ],
-      "straightening_note": "+0.380 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.380 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          845.0
+        ],
+        [
+          -10000,
+          941.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13533,7 +15450,21 @@
         7.510171471754124,
         -7.977537124133278
       ],
-      "straightening_note": "+0.476 degrees; mean of upper and lower horizontal edges; see straightening.json."
+      "straightening_note": "+0.476 degrees; mean of upper and lower horizontal edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          -10000,
+          -10000,
+          10000,
+          850.0
+        ],
+        [
+          -10000,
+          936.0,
+          10000,
+          10000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-119.png",
@@ -13641,7 +15572,16 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          1650,
+          670,
+          2000,
+          1100
+        ]
+      ],
+      "post_trace_clip_border_regions": false
     },
     "": {
       "file": "reference/pdf-113.png",
@@ -13716,7 +15656,16 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_clean_border_regions": [
+        [
+          1680,
+          -200,
+          2000,
+          2000
+        ]
+      ],
+      "post_trace_clip_border_regions": true
     },
     "": {
       "file": "reference/pdf-117.png",
@@ -13842,7 +15791,16 @@
         -12.286315809558506,
         13.342777865651897
       ],
-      "straightening_note": "-0.788 degrees; mean of local upper and lower edges; see straightening.json."
+      "straightening_note": "-0.788 degrees; mean of local upper and lower edges; see straightening.json.",
+      "post_trace_clean_border_regions": [
+        [
+          1770,
+          -200,
+          2000,
+          2000
+        ]
+      ],
+      "post_trace_clip_border_regions": false
     },
     "": {
       "file": "reference/pdf-119.png",
