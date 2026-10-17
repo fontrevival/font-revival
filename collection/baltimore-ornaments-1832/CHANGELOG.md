@@ -1,5 +1,11 @@
 # Changes
 
+## 1.003
+
+- Remove a sliver of the neighbouring cut from the right of the Diagonal acanthus corner (PDF page 91), in monochrome and all three tones.
+- Preserve every retained contour, the original advance and the flat lower edge visible in the source scan. The bottom was not cropped prematurely.
+- Record the measured cleanup and unchanged-contour verification in `source/acanthus-cleanup.json`; retain a before/after proof.
+
 ## 1.002
 
 - Repair 20 downloadable ornament drawings that exceed signed 16-bit renderer point counts.

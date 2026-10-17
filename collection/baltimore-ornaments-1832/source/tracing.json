@@ -3624,7 +3624,7 @@
       "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+      "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength. After tracing in the unchanged frame, remove disconnected neighbouring-cut fragments in the recorded font-space rectangle. The original flat bottom edge is complete; see acanthus-cleanup.json.",
       "multitone": {
         "thresholds": {
           "primary": 135,
@@ -3632,7 +3632,15 @@
           "tertiary": 200
         },
         "round_inputs": false
-      }
+      },
+      "post_trace_remove_contours": [
+        [
+          1825,
+          -200,
+          1930,
+          2000
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-091.png",

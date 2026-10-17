@@ -126,6 +126,23 @@ The reusable authoring helpers are `../../baltimore-cuts-1832/source/straighten.
 
 After the alignment revision, the ornament web bundle uses numbered ordinary ZIP parts below 90 MB. Extract every part into the same folder; complete assets are never split between archives. The generated bundle manifest lists the complete set.
 
+## Acanthus corner boundary correction (1.003)
+
+The native crop on PDF page 91 includes a disconnected sliver of the next
+ornament at its right edge. `acanthus-cleanup.json` records the measured font-space
+rectangle, removed contour counts, hashes and bounds. Standard glyph overrides
+remove only complete contours within that rectangle from `uniE059` and its three
+tone layers. Every retained curve command and the 1928-unit advance are unchanged.
+The tracing recipe applies the same `post_trace_remove_contours` operation after
+fitting in the original frame, so retracing preserves the scale and position.
+
+The scan has clear paper below the motif within the retained crop: the flat
+bottom edge and partial flower are part of the printed corner, not a truncated
+extraction. No missing drawing has been invented. The focused
+`specimens/acanthus-corner-review.pdf` compares the previous and corrected font;
+the accompanying PNG compares the three-tone artwork. Its pixel difference is
+confined to the removed fragments, with no change elsewhere in the drawing.
+
 ## Font renderer compatibility
 
 FreeType 2.13 uses signed 16-bit outline counts, so drawings that fit the

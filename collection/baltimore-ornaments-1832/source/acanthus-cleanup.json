@@ -1,0 +1,112 @@
+{
+  "icon": "baltimore-1832-p91-four-line-pica-12-corner",
+  "source": "reference/pdf-091.png",
+  "source_box": [
+    644,
+    1645,
+    1069,
+    2064
+  ],
+  "font_rectangles": [
+    [
+      1825,
+      -200,
+      1930,
+      2000
+    ]
+  ],
+  "method": "Remove only complete disconnected contours belonging to the adjacent cut. Retain every other curve, advance and coordinate.",
+  "bottom_review": "The original impression ends above native y=2064 with a visible paper margin. Its flat lower edge and partial flower are historical; no extension is warranted.",
+  "glyphs": [
+    {
+      "glyph": "uniE059",
+      "removed_contours": 8,
+      "before_sha256": "f1f0534fcb805f2b0b7a1df57a6ece84765656c13857e6954fa77cebff76ec68",
+      "after_sha256": "a7ae1045acaee47ddbd618e92d8432d479cbad26d01d6741486ed18825b6fcca",
+      "retained_curve_commands_identical": true,
+      "advance_width": 1928,
+      "before_bounds": [
+        66.72044410113556,
+        51.48516283298893,
+        1864.0,
+        1751.25
+      ],
+      "after_bounds": [
+        66.72044410113556,
+        51.48516283298893,
+        1817.0,
+        1751.25
+      ]
+    },
+    {
+      "glyph": "uniE059.primary",
+      "removed_contours": 2,
+      "before_sha256": "1e8f68334f9b76a6b089661e13ca40f4153045ac52e9f2d08f6e61894f0dfd1e",
+      "after_sha256": "be293d8a2092112739632bb95a5968638f552782967c8f41ff2b40e5ca5bf277",
+      "retained_curve_commands_identical": true,
+      "advance_width": 1928,
+      "before_bounds": [
+        71.0,
+        53.687623522128675,
+        1864.0,
+        1751.0234988956038
+      ],
+      "after_bounds": [
+        71.0,
+        53.687623522128675,
+        1815.0170159682991,
+        1751.0234988956038
+      ]
+    },
+    {
+      "glyph": "uniE059.secondary",
+      "removed_contours": 8,
+      "before_sha256": "3b2d2ab582f32ce1c4923536bbe45d3abe494c6958097ee050885fc6bf1837f8",
+      "after_sha256": "866f3c6d25f39db03d930a5ff1f127b80c15afa6c1255b0e9f21ddb6a11595d8",
+      "retained_curve_commands_identical": true,
+      "advance_width": 1928,
+      "before_bounds": [
+        66.72044410113556,
+        51.48516283298893,
+        1864.0,
+        1751.25
+      ],
+      "after_bounds": [
+        66.72044410113556,
+        51.48516283298893,
+        1817.0,
+        1751.25
+      ]
+    },
+    {
+      "glyph": "uniE059.tertiary",
+      "removed_contours": 13,
+      "before_sha256": "a615b05ec04c09c7141455d019cc1499b23be2f9d3c2abc969aeb82ae9323951",
+      "after_sha256": "ab2e4baee0ecfafc79bd4f97a80dd1fc41871c5c8ef14bf28de438935be5524c",
+      "retained_curve_commands_identical": true,
+      "advance_width": 1928,
+      "before_bounds": [
+        63.959481645095735,
+        45.0,
+        1864.0,
+        1755.0947501931112
+      ],
+      "after_bounds": [
+        63.959481645095735,
+        45.0,
+        1820.495233768197,
+        1755.0947501931112
+      ]
+    }
+  ],
+  "raster_validation": {
+    "format": "1024-pixel-high generated three-tone PNG composited on #fffaf0",
+    "changed_pixel_rectangle": [
+      914,
+      109,
+      932,
+      752
+    ],
+    "max_pixel_delta_outside_right_hand_fragments": 0
+  }
+}

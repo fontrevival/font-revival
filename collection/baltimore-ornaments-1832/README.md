@@ -4,7 +4,7 @@ Historical ornaments from A specimen of printing types and ornaments from the Ba
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**396 icon(s) · Version 1.002 · MIT**
+**396 icon(s) · Version 1.003 · MIT**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreOrnaments1832-Regular.otf) · [TTF](fonts/BaltimoreOrnaments1832-Regular.ttf) · [WOFF2](web/BaltimoreOrnaments1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
