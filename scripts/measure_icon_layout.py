@@ -14,8 +14,10 @@ from outline_raster import rasterize
 from PIL import Image,ImageDraw
 import numpy as np
 icons=json.load(open('icons.json'))['icons'];layout={};measurements=[]
+card_cuts={'baltimore-1832-p199-330','baltimore-1832-p193-310','baltimore-1832-p191-306',
+           'boston-1889-p274-4126','boston-1889-p274-4127'}
 for it in icons:
- tags=it['tags'];key=it['id'];border=it['type']=='ornaments' and any(t in tags for t in ['border','corner','repeat','frame']);extra=('p255-11pt-' in key or 'shipped' in it['name'].lower() or key in ['baltimore-1832-p127-62','baltimore-1832-p127-63','baltimore-1832-p67-eight-line-pica-oak-leaf-a','boston-1889-p237-art72-a'])
+ tags=it['tags'];key=it['id'];border=it['type']=='ornaments' and any(t in tags for t in ['border','corner','repeat','frame']);extra=('p255-11pt-' in key or 'p271-card-' in key or key in card_cuts or 'shipped' in it['name'].lower() or key in ['baltimore-1832-p127-62','baltimore-1832-p127-63','baltimore-1832-p67-eight-line-pica-oak-leaf-a','boston-1889-p237-art72-a'])
  if not (border or extra):continue
  f=Path('collection')/it['collection'];paths=[];boxes=[]
  for j,el in enumerate(ET.parse(it['multitone']['svg']).iter('{http://www.w3.org/2000/svg}path')):
