@@ -373,6 +373,43 @@
     },
     {
       "schema_version": 1,
+      "id": "doric-1889",
+      "name": "Doric 1889",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Doric1889-Regular",
+      "year": 1889,
+      "designer": "Unidentified in the consulted historical specimen",
+      "foundry": "Boston and Central Type Foundries",
+      "description": "Heavy display letters with bracketed slab serifs, rounded bowls and a substantial historical lowercase.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "Comical Tenors",
+      "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOQRSTUVYacdehiklmnoqrstuv. Printed page 138, PDF page 144. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
+      "reconstructed": "Inferred companion letters and figures: JKXZbfgjpwxyz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: PW; see companions.json for the construction of each.",
+      "sources": [
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Doric; printed p. 138, one-based PDF page 144, Internet Archive leaf 144",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n144/mode/1up",
+          "file": "reference/pdf-144.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. New companions are recorded separately with construction notes. Ordinary cap bodies and baseline slope are measured independently for each row. Optical-size differences are retained and reconstructions are explicitly labelled."
+      },
+      "characters": 104,
+      "glyphs": 104
+    },
+    {
+      "schema_version": 1,
       "id": "epitaph-1889",
       "name": "Epitaph 1889",
       "style": "Regular",
@@ -795,6 +832,43 @@
     },
     {
       "schema_version": 1,
+      "id": "latin-antique-1889",
+      "name": "Latin Antique 1889",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "LatinAntique1889-Regular",
+      "year": 1889,
+      "designer": "Unidentified in the consulted historical specimen",
+      "foundry": "Boston and Central Type Foundries",
+      "description": "Broad display letters with tapered serifs, open round bowls and a lightly contrasted historical lowercase.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "Model Productions",
+      "observed": "Directly traced characters: 012345679ABCDEFGHIJKLMNOPQRSTUXacdefgiklmnorstuvwy. Printed page 139, PDF page 145. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
+      "reconstructed": "Inferred companion letters and figures: Zbjqxz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 8VWYhp; see companions.json for the construction of each.",
+      "sources": [
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Latin Antique; printed p. 139, one-based PDF page 145, Internet Archive leaf 145",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n145/mode/1up",
+          "file": "reference/pdf-145.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. New companions are recorded separately with construction notes. Ordinary cap bodies and baseline slope are measured independently for each row. Optical-size differences are retained and reconstructions are explicitly labelled."
+      },
+      "characters": 104,
+      "glyphs": 104
+    },
+    {
+      "schema_version": 1,
       "id": "london-1889",
       "name": "London 1889",
       "style": "Regular",
@@ -875,6 +949,43 @@
       },
       "character_style": "mixed-case",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "characters": 104,
+      "glyphs": 104
+    },
+    {
+      "schema_version": 1,
+      "id": "modern-antique-1889",
+      "name": "Modern Antique 1889",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "ModernAntique1889-Regular",
+      "year": 1889,
+      "designer": "Unidentified in the consulted historical specimen",
+      "foundry": "Boston and Central Type Foundries",
+      "description": "Condensed display letters with sharp wedge serifs, narrow bowls and a compact historical lowercase.",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "Fine Steamboat",
+      "observed": "Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
+      "reconstructed": "Inferred companion letters and figures: JZfjqz79. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.",
+      "sources": [
+        {
+          "title": "Specimen book from the Boston type foundry (1889), Modern Antique; printed p. 141, one-based PDF page 147, Internet Archive leaf 147",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n147/mode/1up",
+          "file": "reference/pdf-147.jp2",
+          "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. New companions are recorded separately with construction notes. Ordinary cap bodies and baseline slope are measured independently for each row. Optical-size differences are retained and reconstructions are explicitly labelled."
+      },
       "characters": 104,
       "glyphs": 104
     },

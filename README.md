@@ -71,6 +71,9 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 
 | Family | Character | Downloads and proofs |
 | --- | --- | --- |
+| [Doric 1889](collection/doric-1889/) | Heavy display letters with bracketed slab serifs, rounded bowls and a substantial historical lowercase. | [OTF](collection/doric-1889/fonts/Doric1889-Regular.otf) · [TTF](collection/doric-1889/fonts/Doric1889-Regular.ttf) · [Preview](collection/doric-1889/specimens/preview.png) · [PDF](collection/doric-1889/specimens/specimen.pdf) |
+| [Latin Antique 1889](collection/latin-antique-1889/) | Broad display letters with tapered serifs, open round bowls and a lightly contrasted historical lowercase. | [OTF](collection/latin-antique-1889/fonts/LatinAntique1889-Regular.otf) · [TTF](collection/latin-antique-1889/fonts/LatinAntique1889-Regular.ttf) · [Preview](collection/latin-antique-1889/specimens/preview.png) · [PDF](collection/latin-antique-1889/specimens/specimen.pdf) |
+| [Modern Antique 1889](collection/modern-antique-1889/) | Condensed display letters with sharp wedge serifs, narrow bowls and a compact historical lowercase. | [OTF](collection/modern-antique-1889/fonts/ModernAntique1889-Regular.otf) · [TTF](collection/modern-antique-1889/fonts/ModernAntique1889-Regular.ttf) · [Preview](collection/modern-antique-1889/specimens/preview.png) · [PDF](collection/modern-antique-1889/specimens/specimen.pdf) |
 | [Lafayette 1889](collection/lafayette-1889/) | Tall condensed display letters with fine crossbars, triangular serifs and a distinct historical lowercase. | [OTF](collection/lafayette-1889/fonts/Lafayette1889-Regular.otf) · [TTF](collection/lafayette-1889/fonts/Lafayette1889-Regular.ttf) · [Preview](collection/lafayette-1889/specimens/preview.png) · [PDF](collection/lafayette-1889/specimens/specimen.pdf) |
 | [London 1889](collection/london-1889/) | Ornamental capitals with swelling strokes, flared terminals and selectively descending stems. Lowercase input uses capitals. | [OTF](collection/london-1889/fonts/London1889-Regular.otf) · [TTF](collection/london-1889/fonts/London1889-Regular.ttf) · [Preview](collection/london-1889/specimens/preview.png) · [PDF](collection/london-1889/specimens/specimen.pdf) |
 | [Washington 1889](collection/washington-1889/) | Broad high-contrast display letters with triangular entry serifs and a lively historical lowercase. | [OTF](collection/washington-1889/fonts/Washington1889-Regular.otf) · [TTF](collection/washington-1889/fonts/Washington1889-Regular.ttf) · [Preview](collection/washington-1889/specimens/preview.png) · [PDF](collection/washington-1889/specimens/specimen.pdf) |
@@ -101,8 +104,8 @@ Erebus and Hades form a registered pair; see their [overprint proof](collection/
 Each family records its historical sources, reconstructed characters and evidence
 limits in `font.json` and `source/METHOD.md`. The Baltimore 1832 and Boston
 1889 display families include full Basic Latin coverage and source comparison
-proofs. Capital-only designs use documented lowercase aliases; Altona, Washington, Lafayette,
-and Baltimore Black Slope retain historical lowercase.
+proofs. Capital-only designs use documented lowercase aliases; mixed-case
+designs retain their documented historical lowercase and inferred companions.
 
 ## Ornaments and cuts
 

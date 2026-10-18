@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against native source crops, full inventories and words. The limits guard body size while preserving optical differences, overshoot and distinct serif shapes.",
+  "rules": [
+    {
+      "characters": "ABCDEFGHIJKLMNOPRSTUVWXYZ",
+      "y_min": [
+        -40,
+        30
+      ],
+      "y_max": [
+        670,
+        750
+      ],
+      "notes": "Reviewed ordinary cap bodies, round overshoot and optical-size variation; preserve the source widths and serif treatment."
+    },
+    {
+      "characters": "Q",
+      "y_min": [
+        -155,
+        -80
+      ],
+      "y_max": [
+        675,
+        750
+      ],
+      "notes": "Observed or separately labelled reconstructed Q tail extends below the cap baseline."
+    },
+    {
+      "characters": "0123456789",
+      "y_min": [
+        -60,
+        30
+      ],
+      "y_max": [
+        645,
+        740
+      ],
+      "notes": "Reviewed lining figures from several optical sizes. Smaller cuts have modestly lower tops and deeper rounded feet; do not equalise them merely to match a nominal box."
+    },
+    {
+      "characters": "acemnorsuvwxz",
+      "y_min": [
+        -35,
+        30
+      ],
+      "y_max": [
+        440,
+        535
+      ],
+      "notes": "Historical lowercase bodies with optical-size differences; inferred x/z/w follow the documented source vocabulary."
+    },
+    {
+      "characters": "bdhikl",
+      "y_min": [
+        -35,
+        30
+      ],
+      "y_max": [
+        670,
+        740
+      ],
+      "notes": "Observed or reconstructed ascenders and i dot align with the ordinary cap region."
+    },
+    {
+      "characters": "f",
+      "y_min": [
+        -20,
+        30
+      ],
+      "y_max": [
+        690,
+        765
+      ],
+      "notes": "Observed or new f rises above the lowercase body; curved hooks may overshoot ordinary ascenders."
+    },
+    {
+      "characters": "j",
+      "y_min": [
+        -280,
+        -225
+      ],
+      "y_max": [
+        670,
+        740
+      ],
+      "notes": "New j preserves the observed i dot and uses a separately drawn descending hook."
+    },
+    {
+      "characters": "pq",
+      "y_min": [
+        -240,
+        -175
+      ],
+      "y_max": [
+        460,
+        525
+      ],
+      "notes": "Observed q/p or explicit derivatives retain the lowercase bowl and descending stem."
+    },
+    {
+      "characters": "y",
+      "y_min": [
+        -280,
+        -170
+      ],
+      "y_max": [
+        435,
+        535
+      ],
+      "notes": "Observed or inferred y retains a descending diagonal hook independently of the body height."
+    },
+    {
+      "characters": "t",
+      "y_min": [
+        -35,
+        25
+      ],
+      "y_max": [
+        630,
+        695
+      ],
+      "notes": "Observed t rises above the lowercase body and below the capital line."
+    },
+    {
+      "characters": "g",
+      "y_min": [
+        -280,
+        -230
+      ],
+      "y_max": [
+        505,
+        555
+      ],
+      "notes": "New double-storey g has a deep lower bowl and an ear above the main body; no historical g impression is claimed."
+    }
+  ]
+}
