@@ -38,8 +38,8 @@ tracing scripts and measurements can live alongside it under `source/`.
 
 For sources suitable for crop-based tracing, the optional [repeatable tracing
 tool](TRACING.md) records measurements and explicit companion drawings, then prepares
-the OTF for `import`. It also enables a generated historical-source comparison proof.
-It does not replace visual review or change the canonical TTX workflow.
+the OTF for `import`. The build uses those records to generate a historical-source
+comparison proof for visual review.
 
 ## 3. Improve an existing family
 

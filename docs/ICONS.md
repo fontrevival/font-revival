@@ -1,6 +1,6 @@
 # Ornaments and cuts
 
-The icon collection uses the existing family workflow with `kind: "icons"` in
+The icon collection uses the shared family workflow with `kind: "icons"` in
 `font.json`. Families live under `collection/<name-year>/`. The Boston 1889 range
 is divided into Cuts (478), Ornaments (715), Initials (312) and Symbols (460),
 keeping fonts and download packages manageable. The 1,965 icons have global IDs
@@ -11,8 +11,8 @@ The Baltimore 1832 volume adds Cuts (381), Ornaments (396), Initials (38) and
 Symbols (4). Its complete 238-page inventory is retained with Baltimore Cuts.
 All 368 catalogue numbers are represented; No. 357 contains 25 separate panels.
 The unpaginated leaves use `printed_page: null` and one-based `pdf_page` citations.
-Baltimore historical sections use `pdf_pages` selectors; Boston retains its
-documented `printed_pages`. Neither field is inferred from the other.
+Baltimore historical sections use `pdf_pages` selectors; Boston uses
+`printed_pages`. Neither field is inferred from the other.
 
 ## Delivery and use
 
@@ -23,7 +23,7 @@ monochrome font grid with search and collection, type and category filters.
 Each tile links to `icons/<icon-id>.html`, with three-tone and monochrome previews,
 size and colour controls, downloads, HTML examples and source comparison.
 `icons.json` is its generated catalogue, including detail-page paths and filters.
-Typeface cards and their existing `catalog.json` stay in the font gallery.
+The font gallery uses `catalog.json` for typeface cards.
 
 Icons with two or three recorded tone regions also produce SVGs in `svg/multitone/`,
 a separate `web/icons-multitone.svg` sprite, and transparent 1024-pixel-high PNGs
@@ -61,8 +61,7 @@ icon IDs, subject tags and historical sections. Conditions within a selector com
 with AND, and alternative selectors combine with OR. Scope tag matches by type where
 needed: a border's historical “Great Primer” size does not make it an educational cut.
 The original headings and page references remain searchable source context.
-The existing `section` URL parameter and catalogue field carry category IDs so
-existing links to retained categories continue to work. Choices
+The `section` URL parameter and catalogue field carry category IDs. Choices
 within each filter group combine with OR; groups and search combine with AND.
 The query string preserves selections, icon size and expanded result count.
 Edit layout in `site/icons.template.html` and `site/icon.template.html`, behaviour
@@ -129,7 +128,7 @@ family README contain complete examples with that icon's paths and proportions.
 
 ## Source, manifest and stable names
 
-The canonical master remains `source/font.ttx`, static CFF OpenType XML.
+The canonical master is `source/font.ttx`, static CFF OpenType XML.
 Individual revisions use `source/glyphs/<glyph-name>.json`, exactly as typefaces
 do. Both font and SVG outputs are derived after those overrides are applied.
 Generated SVGs, manifests and CSS are not separate editable masters.
@@ -138,7 +137,7 @@ For multi-tone artwork, unencoded `.primary`, `.secondary` and optional `.tertia
 glyphs in the same master hold the separate regions. `font.json` stores ordered
 `multitone_layers`, roles and default opacity. The preparation recipe records
 thresholds and cleanup. Potrace traces each threshold in the solid icon's frame;
-the already pinned skia-pathops 0.9.0 subtracts darker regions to make the regions
+skia-pathops 0.9.0 subtracts darker regions to make the regions
 disjoint. Normal builds use the committed contours and need no tracing tools.
 Export a layer by glyph name to refine it, then review both versions.
 
@@ -178,10 +177,10 @@ For a revision limited to downloadable font approximations, `build FAMILY
 --reuse-artwork` and `check FAMILY --reuse-artwork` reuse the previous SVGs,
 sprites and tonal PNGs. This mode requires encoded-only icon delivery, unchanged
 artwork metadata (apart from the family version), and matching saved checksums
-for the canonical master, glyph edits and artwork files. It still rebuilds the
+for the canonical master, glyph edits and artwork files. This mode rebuilds the
 fonts, font proofs, manifests, documentation, downloads and gallery. A changed
 master, glyph edit, artwork file or metadata requires the normal full build.
-The normal `check` continues to regenerate every output independently.
+Without `--reuse-artwork`, `check` regenerates every output independently.
 For a whole-collection `check --reuse-artwork`, only eligible encoded-only icon
 families use this optimisation; other icons and all typefaces are rebuilt normally.
 
@@ -212,7 +211,7 @@ as reservations in the source inventory rather than reusing them. Do not silentl
 delete outputs or change historical names. Split exceptionally large collections
 into documented families if they exceed the BMP Private Use area or font limits.
 Font validation requires exact agreement with the icon manifest plus a blank
-space. Text families retain the printable Basic Latin requirement.
+space. Text families require printable Basic Latin coverage.
 
 `source/tracing.json` records every reference crop, cleanup decision, scale and
 bearing. `source/METHOD.md` explains the evidence, algorithm and interventions.

@@ -1,13 +1,22 @@
 # Repeatable specimen tracing
 
-The release build still uses `source/font.ttx`. The optional
-`scripts/trace_specimen.py` prepares an **initial** CFF master from documented
-historical crops. It never downloads images or replaces a master automatically.
+`scripts/trace_specimen.py` converts documented crops of historical specimens
+into a static OpenType/CFF font. It reads local reference images and writes an
+OTF plus a `.paths.json` file for inspecting the traced outlines. Import the
+reviewed OTF as `source/font.ttx`, the editable master used by release builds.
+
+## Requirements
 
 Use Python 3.12, the pinned `requirements.txt`, and **Potrace 1.16**. The reference
 Linux tool packages are Ubuntu 24.04 `potrace=1.16-2build1` and
-`libpotrace0=1.16-2build1`. They are source-preparation dependencies only; normal
-`build`, `check`, and CI do not need them. The script checks the Potrace version.
+`libpotrace0=1.16-2build1`. Potrace is required for tracing; release builds and
+checks use the committed master without retracing. The script checks the
+Potrace version. Use `--potrace /path/to/potrace` to select an installation.
+
+## Prepare a master
+
+Prepare the font in `workspace/`, inspect the OTF and its adjacent `.paths.json`,
+then import it and build the release formats:
 
 ```sh
 python scripts/trace_specimen.py trinal-1888 --output workspace/Trinal1888-Regular.otf
@@ -15,13 +24,14 @@ python scripts/fontrevival.py import trinal-1888 workspace/Trinal1888-Regular.ot
 python scripts/fontrevival.py build trinal-1888
 ```
 
-Use `--potrace /path/to/potrace` for a local installation. For an existing master,
-first inspect the prepared OTF and its adjacent `.paths.json` audit export. Only
-use `import --replace` deliberately: it replaces the master and its features,
-while existing `source/glyphs/` edits continue to apply. Later TTX edits are not
-automatically fed back into the historical tracing recipe.
+To replace a family's master, use `import --replace`. This replaces the outlines
+and OpenType features in `source/font.ttx`; the build applies `source/glyphs/`
+overrides to the imported master. Review those overrides when replacing it.
+Edits to the TTX master do not update the tracing recipe.
 
-Each participating family keeps:
+## Recipe files
+
+Each family prepared with the tracer keeps:
 
 - `source/tracing.json`: exact reference filenames and crop boxes `[left, top,
   right, bottom]` in original image pixels, with y down and right/bottom exclusive.
@@ -31,11 +41,14 @@ Each participating family keeps:
   or 270 degrees), applied after cropping and before cleanup. Erasure rectangles
   use coordinates in that rotated crop. Historical comparison proofs show the
   same upright orientation without applying the tracing cleanup to the scan.
-- `source/companions.json`: explicit SVG paths in font units with y up, or named
-  transforms of earlier drawings. These supply new companions and documented
-  repairs. An entry with the same character replaces its initial trace.
+- `source/companions.json`: explicit SVG paths in font units with y up, or
+  transforms referencing a traced character or preceding companion. These supply
+  companion characters and documented repairs. An entry for a traced character
+  replaces that trace.
 - `source/features.fea`: optional OpenType features for the prepared master.
 - `reference/`: exact local scans plus acquisition and rights evidence.
+
+## Crop cleanup and outline fitting
 
 The tracer caches each decoded image, works on small crops, blurs by 0.55 pixels,
 thresholds at 135, retains the largest connected ink component, and fills enclosed
@@ -49,16 +62,16 @@ component selection; use it only to compensate for documented impression spread.
 Potrace fits cubic outlines with `alphamax=1`, `opttolerance=0.35`, `turdsize=0`
 and `unit=10`. The script reads its y-up paths, scales uniformly to the documented
 height, moves them to the recorded baseline and sidebearing, and rounds to font
-units. No modern font is used to supply missing characters. Missing companions
-must be drawn explicitly and described honestly in `font.json`.
+units. Draw missing characters explicitly and identify them as reconstructions
+in `font.json`, following the [source policy](SOURCES.md).
 
 An entry may set `advance_width` and `center` for a fixed-width cell. The recipe's
 `font_metrics` can set `cap_height`, `x_height`, `win_ascent`, `win_descent` and
-`monospaced`; fixed-pitch masters
-must give every drawing the same advance, including spaces and punctuation.
+`monospaced`; fixed-pitch masters must give every drawing the same advance,
+including spaces and punctuation.
 The assembler carries fixed-pitch metadata into CFF and TrueType outputs.
-`ink_width` sets an explicit horizontal outline extent when preserving an
-existing glyph's proportions; it takes precedence over `width_scale`.
+`ink_width` sets an explicit horizontal outline extent and takes precedence over
+`width_scale`.
 
 ## Reviewing display rows
 
@@ -74,17 +87,17 @@ python scripts/select_display_rows.py collection/baltimore-bold-1832 \
 The family's `source/rows.json` records each reference file, reading rotation,
 preview width, row rectangle and exact transcription. A `※` marks a separator
 excluded from the alphabet. A count mismatch rejects the entire row and writes
-a diagnostic image; it never guesses a character assignment. Count agreement
-still needs visual review, especially around disconnected strokes, dots and
-clipped characters. The selector preserves significant disconnected pieces when
-measuring bounds. The reviewed `tracing.json`, explicit `companions.json` and
-canonical TTX remain authoritative; candidate files do not overwrite them.
+a diagnostic image. Review character assignments even when counts agree,
+especially around disconnected strokes, dots and clipped characters. The
+selector preserves significant disconnected pieces when measuring bounds.
+Its output consists of candidate crops and review images; it does not modify
+`tracing.json`, `companions.json` or the TTX master.
 
 Connected-sort selection (`components: true`) can isolate overlapping italic
 serif fragments. Only use it for visually confirmed connected letters. Explicit
 `merge_components` groups join zero-based component indices before assigning
 characters, for example the dot and stem of an i or two detached parts of an M.
-The tracing recipe retains the same number of components. Inspect the crop and
+The generated candidate records how many components to keep. Inspect the crop and
 the fitted outline: count agreement alone cannot identify a letter or a dot.
 Mixed-case rows require a measured `baseline` and cap height; an optional
 `baseline_slope` records page tilt relative to the row's left edge. These are
@@ -98,8 +111,8 @@ preparation step. Normal builds and checks do not require either package.
 
 ## Revising selected glyphs
 
-For an existing family, `scripts/trace_revisions.py` prepares individual glyph
-JSON files rather than a replacement font. Set `mode` to `glyph-revision` in
+`scripts/trace_revisions.py` prepares candidate glyph overrides for an existing
+family. Set `mode` to `glyph-revision` in
 `source/tracing.json`, record the selected crops and `notes`, and use
 `review_characters`/`review_words` to focus the historical proof.
 
@@ -107,7 +120,7 @@ JSON files rather than a replacement font. Set `mode` to `glyph-revision` in
 python scripts/trace_revisions.py nero-1888 --output workspace/nero-edits
 ```
 
-This command reads the original CFF master without applying existing overrides,
+This command reads `source/font.ttx` without applying glyph overrides,
 preserves its glyph names and advances, and writes candidate edits only to the
 specified directory. It rejects a recipe that changes an advance. Review and
 copy the desired files into `source/glyphs/`, following the version, changelog,
@@ -119,9 +132,9 @@ equivalent explicit/implicit closing lines), replaces them with the new drawing,
 and keeps all other contours in place. A mismatch fails preparation. This is
 appropriate for flattened CFF accents sharing the same original body; translated
 or otherwise altered bases require separate reviewed edits. Revision recipes
-do not require a `companions.json`, and they do not assemble a new master.
+do not require `companions.json`; their output is a set of glyph override files.
 
-## Vector construction and review
+## Vector construction
 
 Optional vector construction uses `requirements-tracing.txt`, which additionally
 pins skia-pathops 0.9.0. `scripts/outline_geometry.py` resolves contour overlaps and
@@ -129,64 +142,72 @@ constructs translated silhouette differences without a raster step. The Hades
 family's `source/derive.py` uses it to prepare a registered companion to Erebus.
 These tools are not required by normal builds or checks.
 
-`build` also generates `specimens/source-review.pdf` for these families. It pairs
-each capital and figure with its historical crop (or labels an inferred drawing),
-then shows words at four sizes. Mixed-case families also compare lowercase.
-Recipes may override `review_characters` and `review_words`. The normal specimen includes the full encoded
-inventory. Review both, including punctuation and spacing, before accepting a
-master. Lowercase aliases are permitted for documented capitals-only designs;
-they must be visible in the metadata, README and gallery.
+## Comparison proofs
 
-## Larger icon inventories
+For typeface families with `source/tracing.json`, `build` generates
+`specimens/source-review.pdf`. It pairs capitals and figures with their
+historical crops, labels inferred drawings, and shows words at four sizes.
+Mixed-case families include lowercase comparisons. Recipes can select the
+characters and words with `review_characters` and `review_words`.
+
+`specimens/specimen.pdf` contains the full encoded character inventory. Review
+both proofs, including punctuation and spacing, before accepting a master.
+Document lowercase aliases for capitals-only designs in the metadata, README
+and gallery.
+
+## Icon tracing
+
+See [ICONS.md](ICONS.md) for icon manifests, tone layers and delivery formats.
 
 `--jobs 4` prepares independent crops in parallel while preserving manifest order.
 `--cache workspace/trace-cache` reuses prepared paths only when the source bytes,
-recipe, layer metadata and preparation code match. The cache is disposable;
-committed CFF masters remain authoritative for release builds.
+recipe, layer metadata and preparation code match. The cache can be discarded
+without affecting the committed master or release builds.
 
 Icon recipes may set `max_ink_dimension` and `center_vertical` to fit wide or tall
 artwork uniformly in a common frame. `frame_threshold` uses the lightest retained
 trace to measure that frame before applying the same transform to solid and tonal
 paths. It prevents pale extremities from clipping without stretching the drawing.
-Dense boolean operations are checked on a deterministic 64 × 64 point grid against
-the operands' fill rules. This catches silent malformed contours as well as
-reported PathOps failures. Failed results are retried in exact rotated or reflected
-coordinate frames; inverse transforms restore the artwork. The initial boundary
-tolerance is 0.05 font units. If every frame fails that strict check, boundary-only
-differences within one unit may pass, matching final integer drawing precision.
-If those sweeps fail, each Bezier is subdivided into halves, then quarters, and
-the same checked operations are repeated. Subdivision retains the same curves;
-it does not flatten, smooth or redraw the engraving. This sampled check
-complements, rather than replaces, source-proof review.
 
-If no checked sweep succeeds, tone preparation repeats the separation using the
-original fitted curves before integer rounding. Premature rounding can create
-artificial tangencies between threshold contours. Only the finished regions are
-then rounded; the source masks, scaling and final coordinate precision are unchanged.
-If cubic intersections still fail, the final fallback uses quadratic curves with
-a maximum error of 0.05 font units, ten times finer than release TTF conversion.
-This remains vector artwork and passes the same fill checks before CFF import.
+### Tonal region separation
 
-For nested threshold contours that repeatedly create artificial tangencies,
-`multitone.round_inputs: false` selects the unrounded-curve operation first.
-The other representation and quadratic fallback remain available; finished
-regions still use integer font coordinates. Baltimore uses this option and
-direct grayscale thresholds so broad printed solids remain intact.
+Multi-tone tracing fits contours at each recorded grayscale threshold and uses
+vector subtraction to separate the tone regions. The boolean-operation helper
+checks results against the operands' fill rules on a deterministic 64 × 64 point
+grid. It retries failed operations in rotated or reflected coordinate frames
+and with subdivided Bezier curves. Boundary tolerances range from 0.05 to one
+font unit. See [the geometry implementation](../scripts/outline_geometry.py)
+for the retry sequence. These sampled checks require visual confirmation in
+the source proofs.
 
-For pathological dense engravings, `multitone.separation: "native-mask-bands"`
-partitions the original threshold masks before fitting their contours. It keeps
-native resolution and the common coordinate frame; no resampling is involved.
-The raster bands are disjoint; fitting and final coordinate rounding can make
-adjacent edges meet. Record the reason and inspect the result. The default remains
-checked vector subtraction. Baltimore No. 363 documents this exceptional case.
+By default, tone separation starts with integer-rounded input contours. On
+failure it retries with unrounded contours, then quadratic curves with a maximum
+conversion error of 0.05 font units. Finished regions are rounded to integer
+font coordinates. Two recipe options control this process:
 
-Dense outlines that exceed FreeType’s glyph limits use the pinned system Cairo
-1.18.0 renderer (`libcairo2` on Ubuntu 24.04) for full-detail transparent PNGs.
-It rasterizes the master’s vector contours with nonzero winding and antialiasing,
-without going through a limited font outline buffer. Other families retain their
-existing rasterizer and output bytes.
+- `multitone.round_inputs: false` tries unrounded contours first. This can avoid
+  artificial tangencies caused by rounding nested threshold contours. Baltimore
+  recipes use this setting with direct grayscale thresholds.
+- `multitone.separation: "native-mask-bands"` separates the threshold masks at
+  native resolution before fitting contours. Use it for engravings whose vector
+  intersections cannot be resolved, and document the reason. The raster bands
+  are disjoint, but fitted and rounded edges can meet. Baltimore No. 363 is an
+  example of this method.
 
-For isolated caption remnants, an optional `post_trace_remove_contours` list records rectangles in font coordinates after fitting. Preparation removes only complete contours whose control bounds lie inside a rectangle. Review these measured regions against the source and retain their evidence; this preserves the established coordinate frame and cannot clip a contour crossing the rectangle.
+### PNG rendering
+
+Icon families with `font_export_glyphs: "encoded"` or a
+`source/truetype-glyphs/` directory use Cairo 1.18.0 (`libcairo2` on Ubuntu 24.04)
+for full-detail tonal PNGs. Cairo renders the master's vector contours with
+nonzero winding and antialiasing, supporting outlines that exceed font-renderer
+limits. Other icon families use FreeType.
+
+### Caption cleanup and orientation
+
+`post_trace_remove_contours` lists rectangles in font coordinates. After fitting,
+preparation removes complete contours whose control bounds lie inside a
+rectangle. Contours crossing a rectangle are preserved. Review these measured
+regions against the source and retain the evidence for each removal.
 
 For a reviewed orientation correction, `post_trace_transform` contains six affine
 coefficients in positive-up font coordinates. It runs after fitting and caption

@@ -7,6 +7,8 @@ Follow `docs/WORKFLOW.md` for both new families and revisions.
 - Write public documentation for repository readers and contributors. Keep task
   requests, planning ledgers, progress reports, reusable prompts and local setup
   notes in the ignored `workspace/`, not in public docs or the collection README.
+  Describe current behaviour directly; avoid rollout recaps and wording that
+  assumes knowledge of earlier conversations or implementation changes.
 - Read the family's `font.json`, `CHANGELOG.md`, and historical references.
 - Record source URLs, page numbers, and rights evidence. Use documented public-domain
   historical sources; never trace a modern digital font or invent a citation.

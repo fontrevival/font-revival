@@ -59,17 +59,16 @@ room for curve conversion, rounding and appropriate optical overshoot. Give
 intentional exceptions their own ranges; do not widen a whole group to hide a defect.
 
 Rule violations fail `sizecheck`, `check` and packaging. `check` measures all four
-release formats, so enforcement is part of existing CI. A family without a profile
-gets only heuristic warnings. The initial reviewed profile covers Remington's
-alphabet, figures and fixed advances; other families can adopt their own limits
-as they are reviewed. JSON reports include how many characters have at least one
-reviewed rule; this does not imply every dimension of those characters is covered.
+release formats and runs in CI. A family without a profile gets only heuristic
+warnings. Remington's [sizing profile](../collection/remington-1888/source/sizing.json)
+provides an example covering letters, figures and fixed advances.
+JSON reports include how many characters have at least one reviewed rule; this
+does not imply every dimension of those characters is covered.
 
-## Visual review remains necessary
+## Visual review
 
 Bounds cannot judge stroke weight, counters, perceived size, or the body beneath
-an accent. The original Remington `e` was near its peers numerically but benefited
-from a small optical enlargement; its reviewed width and overshoot limits now
-protect that decision. Inspect words at several sizes, full character inventories,
-PNG/PDF specimens and the gallery. Review accented derivatives and related forms
-whenever their base changes. Save a before/after PDF with `compare`.
+an accent. A letter can fit the numerical limits and need an optical adjustment.
+Inspect words at several sizes, full character inventories, PNG/PDF specimens
+and the gallery. Review accented derivatives and related forms whenever their
+base changes. Save a before/after PDF with `compare`.
