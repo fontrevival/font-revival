@@ -1,5 +1,16 @@
 # Changes
 
+## 1.002
+
+- Replace the inferred `JQZjq` with impressions from the complete Washington
+  alphabets in the 1897 Government Printing Office specimen, printed p. 49.
+- Restore the upturned J hook, crossing Q tail, flared Z, curled j descender
+  and pointed q foot. Use the same page for observed `fvz` replacements.
+- Preserve the source proportions and provide adequate sidebearings for `Zjz`.
+  Apply documented optical weight corrections to `QZjvz`; retain all 104 characters.
+- Retain the original scan, measured baselines, reproducible tracing settings,
+  and an alphabet-restoration before/after proof.
+
 ## 1.001
 
 - Use additional Washington specimens from Central/Boston 1892 and ATF

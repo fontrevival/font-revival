@@ -6,7 +6,7 @@
       "id": "altona-1889",
       "name": "Altona 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Altona1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -15,8 +15,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Morning Rambles",
-      "observed": "Directly sampled characters: 24789ABCDEFGHIKLMNOPRSTUWXYabcdefghiklmnopqrstuvy. Printed page 170, PDF page 176. Larger impressions anchor the master; smaller sizes supply additional characters.",
-      "reconstructed": "Inferred companion letters and figures: JQVZjwxz01356. Punctuation and remaining symbols are new project drawings. Both cases are retained. The specimen mixes descending and plain terminal variants of several letters; this master selects one observed variant per character, without claiming a complete alternate set. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+      "observed": "Directly sampled characters: 24789ABCDEFGHIKLMNOPRSTUWXYabcdefghiklmnopqrstuvy. Printed page 170, PDF page 176. Larger impressions anchor the master; smaller sizes supply additional characters. Additional directly traced impressions supply 56Vw. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: JQZjxz013. Punctuation and remaining symbols are new project drawings. Both cases are retained. The specimen mixes descending and plain terminal variants of several letters; this master selects one observed variant per character, without claiming a complete alternate set. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Altona; printed p. 170, one-based PDF page 176, Internet Archive leaf 176",
@@ -24,6 +24,13 @@
           "file": "reference/pdf-176.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 327",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n327/mode/1up",
+          "file": "reference/atf1898-leaf-327.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -43,7 +50,7 @@
       "id": "atlanta-1889",
       "name": "Atlanta 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Atlanta1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -52,8 +59,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "FAIR SIGN",
-      "observed": "Directly sampled characters: 2458ABCDEFGHIKLMNOPQRSTUVXY. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts.",
-      "reconstructed": "Inferred alphabet and figure companions: JWZ013679. Explicit repairs of small observed impressions: VX. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
+      "observed": "Directly sampled characters: 2458ABCDEFGHIKLMNOPQRSTUVXY. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts. Additional directly traced impressions supply 3679W. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred alphabet and figure companions: JZ01. Explicit repairs of small observed impressions: VX. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Atlanta; printed p. 187, one-based PDF page 193, Internet Archive leaf 193",
@@ -68,6 +75,13 @@
           "file": "reference/pdf-192.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 439",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n439/mode/1up",
+          "file": "reference/atf1898-leaf-439.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -126,7 +140,7 @@
       "id": "baltimore-black-slope-1832",
       "name": "Baltimore Black Slope 1832",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "BaltimoreBlackSlope1832-Regular",
       "year": 1832,
       "designer": "Unidentified in the historical specimen",
@@ -135,8 +149,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Quousque tandem abutere",
-      "observed": "Observed characters: $0123456789ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijlmnopqrstuvxæ. English Black Slope, one-based PDF page 81 (archive leaf 80), an unnumbered leaf of the 1832 Baltimore specimen. Both cases and the lining figures are sampled from this impression.",
-      "reconstructed": "Y and Z are new companion adaptations of the Title Letter on PDF page 77; k, w, y and z are inferred companions constructed from the observed l/v and the new Z. Punctuation other than $ is new MIT project work. Both the backslant and lowercase are retained. Digital spacing and correction of the tilted baseline are new; the historical word Black here is not a claim of blackletter.",
+      "observed": "Observed characters: $0123456789ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijlmnopqrstuvxæ. English Black Slope, one-based PDF page 81 (archive leaf 80), an unnumbered leaf of the 1832 Baltimore specimen. Both cases and the lining figures are sampled from this impression. Additional directly traced impressions supply YZkwyz. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "All letters and figures are observed across the Baltimore and Boston 1832 showings. Punctuation other than $ is new MIT project work. Both the backslant and lowercase are retained. Digital spacing and correction of the tilted baseline are new; the historical word Black here is not a claim of blackletter.",
       "sources": [
         {
           "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), English Black Slope; unnumbered PDF page 81, Internet Archive leaf 80",
@@ -151,6 +165,13 @@
           "file": "reference/pdf-077.jp2",
           "rights": "1832 US publication, public domain by age. Columbia University Libraries scan; the DPLA catalogue records Public domain. Exact native JP2 and institutional evidence retained locally.",
           "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+        },
+        {
+          "title": "Boston specimen 1832, English Back Slope, unnumbered leaf 95",
+          "url": "https://archive.org/details/specimenofprinti00bost/page/n95/mode/1up",
+          "file": "reference/boston1832-leaf-95.jp2",
+          "rights": "1832 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/specimenofprinti00bost"
         }
       ],
       "revival": {
@@ -431,7 +452,7 @@
       "id": "doric-1889",
       "name": "Doric 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Doric1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -440,8 +461,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Comical Tenors",
-      "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOQRSTUVYacdehiklmnoqrstuv. Printed page 138, PDF page 144. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
-      "reconstructed": "Inferred companion letters and figures: JKXZbfgjpwxyz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: PW; see companions.json for the construction of each.",
+      "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOQRSTUVYacdehiklmnoqrstuv. Printed page 138, PDF page 144. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply JKbfgj. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: XZpwxyz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: PW; see companions.json for the construction of each.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Doric; printed p. 138, one-based PDF page 144, Internet Archive leaf 144",
@@ -449,6 +470,27 @@
           "file": "reference/pdf-144.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "GPO Job Division 1897, printed p. 75, leaf 157",
+          "url": "https://archive.org/details/specimensofjobdi00unit/page/n157/mode/1up",
+          "file": "reference/gpo1897-leaf-157.jp2",
+          "rights": "1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+        },
+        {
+          "title": "ATF 1898, leaf 226",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n226/mode/1up",
+          "file": "reference/atf1898-leaf-226.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        },
+        {
+          "title": "ATF 1898, leaf 227",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n227/mode/1up",
+          "file": "reference/atf1898-leaf-227.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -468,7 +510,7 @@
       "id": "epitaph-1889",
       "name": "Epitaph 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Epitaph1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -477,8 +519,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "MODERN CASKETS",
-      "observed": "Directly sampled characters: 2345789ABCDEFGHIKLMNOPRSTUVWYZ. The source is printed page 172, PDF page 178. Larger sizes anchor the master and smaller impressions supply missing sorts.",
-      "reconstructed": "Inferred companion letters and figures: JQX016. Punctuation and remaining symbols are new project drawings. Lowercase input aliases capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+      "observed": "Directly sampled characters: 2345789ABCDEFGHIKLMNOPRSTUVWYZ. The source is printed page 172, PDF page 178. Larger sizes anchor the master and smaller impressions supply missing sorts. Additional directly traced impressions supply 016JX. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: Q. Punctuation and remaining symbols are new project drawings. Lowercase input aliases capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Epitaph; printed p. 172, one-based PDF page 178, Internet Archive leaf 178",
@@ -486,6 +528,20 @@
           "file": "reference/pdf-178.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 424",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n424/mode/1up",
+          "file": "reference/atf1898-leaf-424.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        },
+        {
+          "title": "ATF 1897, leaf 226",
+          "url": "https://archive.org/details/cu31924014559730/page/n226/mode/1up",
+          "file": "reference/atf1897-handy-leaf-226.jp2",
+          "rights": "1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/cu31924014559730"
         }
       ],
       "revival": {
@@ -506,7 +562,7 @@
       "id": "erebus-1894",
       "name": "Erebus 1894",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Erebus1894-Regular",
       "year": 1894,
       "designer": "Unidentified in the consulted primary specimens",
@@ -514,8 +570,8 @@
       "description": "Backslanted solid capitals with irregular extended strokes, coordinated with Hades 1894.",
       "license": "MIT",
       "sample_text": "WALNUT GROVES",
-      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPQRSTUVWXY12356789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-      "reconstructed": "Inferred alphabet/figures: JZ04. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. The year identifies the specimen, not a claimed first release.",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPQRSTUVWXY12356789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 04J. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred alphabet/figures: Z. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. The year identifies the specimen, not a claimed first release.",
       "sources": [
         {
           "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 76",
@@ -530,6 +586,20 @@
           "file": "reference/atf-erebus-full.png",
           "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
           "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        },
+        {
+          "title": "Central and Boston 1892, Erebus, unnumbered leaf 110",
+          "url": "https://archive.org/details/CentralBoston1892Specimen/page/n110/mode/1up",
+          "file": "reference/central1892-leaf-110.jp2",
+          "rights": "1892 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/CentralBoston1892Specimen"
+        },
+        {
+          "title": "Boston specimen 1889, printed p. 174, leaf 180",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/n180/mode/1up",
+          "file": "reference/boston1889-leaf-180.jp2",
+          "rights": "1889 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
         }
       ],
       "revival": {
@@ -553,7 +623,7 @@
       "id": "facade-1889",
       "name": "Facade 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Facade1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -562,8 +632,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "SUMMER MORNING",
-      "observed": "Directly sampled characters: 12356789ABCDEFGHILMNOPQRSTUVWXY. Printed page 191, PDF page 197. Larger impressions anchor the master; smaller sizes supply additional characters. The tiny K impression informs a separately documented reconstruction.",
-      "reconstructed": "Inferred companion letters and figures: JZ04. K is redrawn from its tiny impression, using the larger I to restore stem weight and flared terminals. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+      "observed": "Directly sampled characters: 12356789ABCDEFGHILMNOPQRSTUVWXY. Printed page 191, PDF page 197. Larger impressions anchor the master; smaller sizes supply additional characters. The tiny K impression informs a separately documented reconstruction. Additional directly traced impressions supply 4. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: JZ0. K is redrawn from its tiny impression, using the larger I to restore stem weight and flared terminals. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Facade; printed p. 191, one-based PDF page 197, Internet Archive leaf 197",
@@ -571,6 +641,13 @@
           "file": "reference/pdf-197.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 346",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n346/mode/1up",
+          "file": "reference/atf1898-leaf-346.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -591,7 +668,7 @@
       "id": "grady-1894",
       "name": "Grady 1894",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Grady1894-Regular",
       "year": 1894,
       "designer": "Unidentified in the consulted primary specimens",
@@ -599,8 +676,8 @@
       "description": "Narrow, dark display letters with angular counters, curled terminals and true lowercase.",
       "license": "MIT",
       "sample_text": "Summer Festivities",
-      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-      "reconstructed": "Inferred alphabet/figures: JQZjqwxz01. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 0w. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred alphabet/figures: JQZjqxz1. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
       "sources": [
         {
           "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 133",
@@ -615,6 +692,13 @@
           "file": "reference/atf-grady-full.png",
           "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
           "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        },
+        {
+          "title": "ATF 1898, leaf 420",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n420/mode/1up",
+          "file": "reference/atf1898-leaf-420.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -685,7 +769,7 @@
       "id": "hades-1894",
       "name": "Hades 1894",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Hades1894-Regular",
       "year": 1894,
       "designer": "Unidentified in the consulted primary specimens",
@@ -693,7 +777,7 @@
       "description": "Open shadow contours for overprinting with Erebus 1894, with matching advances and kerning.",
       "license": "MIT",
       "sample_text": "WALNUT GROVES",
-      "observed": "The historical Hades specimens establish the open lower-left shadow construction and its pairing with Erebus. Retained comparison crops show BASKET, HOLDER, WALNUT and GROVES, plus figures 7 and 8. See Erebus 1894 for the underlying observed letterforms.",
+      "observed": "The historical Hades specimens establish the open lower-left shadow construction and its pairing with Erebus. Retained comparison crops show BASKET, HOLDER, WALNUT and GROVES, plus figures 7 and 8. See Erebus 1894 for the underlying observed letterforms. The underlying J/0/4 follow the additional 1889/1892 Erebus specimens retained with that family.",
       "reconstructed": "Every outline is a new registered reconstruction: Erebus 1894 shifted 28 units left and down, minus its original silhouette. The offset is an optical interpretation of the historical edge weight, not a measured metal-type registration. Rare sorts follow Erebus’s documented inferences. Advances, character map and kerning match Erebus exactly; lowercase aliases capitals. Place both fonts at the same origin, size, tracking and line height. The source year does not assert a first release.",
       "sources": [
         {
@@ -732,7 +816,7 @@
       "id": "jagged-1888",
       "name": "Jagged 1888",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Jagged1888-Regular",
       "year": 1888,
       "designer": "Unidentified in the consulted primary specimens",
@@ -740,8 +824,8 @@
       "description": "Angular, lightly drawn display capitals following the historical No. 39 cut.",
       "license": "MIT",
       "sample_text": "PHILOSOPHY GRADE",
-      "observed": "Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-      "reconstructed": "Inferred alphabet/figures: FJKVXZ01379. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.",
+      "observed": "Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 01379FKVX. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred alphabet/figures: JZ. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.",
       "sources": [
         {
           "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 121",
@@ -770,6 +854,20 @@
           "file": "reference/desk-486.png",
           "rights": "Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference.",
           "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        },
+        {
+          "title": "ATF Pacific Coast Blue Book 1896, printed p. 358, leaf 362",
+          "url": "https://archive.org/details/pacificcoastblue00amerrich/page/n362/mode/1up",
+          "file": "reference/atf1896-pacific-leaf-362.jp2",
+          "rights": "1896 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/pacificcoastblue00amerrich"
+        },
+        {
+          "title": "ATF Desk Book 1898 (NYPL), printed p. 386, leaf 399",
+          "url": "https://archive.org/details/ATF1898DeskBook/page/n399/mode/1up",
+          "file": "reference/atf1898-nypl-leaf-399.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/ATF1898DeskBook"
         }
       ],
       "revival": {
@@ -853,7 +951,7 @@
       "id": "lafayette-1889",
       "name": "Lafayette 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Lafayette1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -862,8 +960,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Mechanical Emporium",
-      "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOPQRSTUWXYacdeghiklmnoprstuvy. Printed page 185, PDF page 191. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions.",
-      "reconstructed": "Inferred companion letters and figures: JKZbjqwz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse small-size traces: Vfx; see companions.json for the construction of each.",
+      "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOPQRSTUWXYacdeghiklmnoprstuvy. Printed page 185, PDF page 191. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions. Additional directly traced impressions supply KVbfw. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: JZjqz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse small-size traces: x; see companions.json for the construction of each.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Lafayette; printed p. 185, one-based PDF page 191, Internet Archive leaf 191",
@@ -871,6 +969,20 @@
           "file": "reference/pdf-191.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1897, leaf 241",
+          "url": "https://archive.org/details/cu31924014559730/page/n241/mode/1up",
+          "file": "reference/atf1897-handy-leaf-241.jp2",
+          "rights": "1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/cu31924014559730"
+        },
+        {
+          "title": "ATF Desk Book 1898, printed p. 449, leaf 451",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n451/mode/1up",
+          "file": "reference/atf1898-leaf-451.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -890,7 +1002,7 @@
       "id": "latin-antique-1889",
       "name": "Latin Antique 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "LatinAntique1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -899,8 +1011,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Model Productions",
-      "observed": "Directly traced characters: 012345679ABCDEFGHIJKLMNOPQRSTUXacdefgiklmnorstuvwy. Printed page 139, PDF page 145. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
-      "reconstructed": "Inferred companion letters and figures: Zbjqxz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 8VWYhp; see companions.json for the construction of each.",
+      "observed": "Directly traced characters: 012345679ABCDEFGHIJKLMNOPQRSTUXacdefgiklmnorstuvwy. Printed page 139, PDF page 145. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply 8VWYZbhjpqxz. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "All letters and figures are observed. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Latin Antique; printed p. 139, one-based PDF page 145, Internet Archive leaf 145",
@@ -908,6 +1020,27 @@
           "file": "reference/pdf-145.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "GPO Job Division 1897, printed p. 38, leaf 85",
+          "url": "https://archive.org/details/specimensofjobdi00unit/page/n85/mode/1up",
+          "file": "reference/gpo1897-leaf-85.jp2",
+          "rights": "1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+        },
+        {
+          "title": "GPO Job Division 1897, printed p. 39, leaf 87",
+          "url": "https://archive.org/details/specimensofjobdi00unit/page/n87/mode/1up",
+          "file": "reference/gpo1897-leaf-87.jp2",
+          "rights": "1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+        },
+        {
+          "title": "ATF 1898, leaf 260",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n260/mode/1up",
+          "file": "reference/atf1898-leaf-260.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -927,7 +1060,7 @@
       "id": "london-1889",
       "name": "London 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "London1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -936,8 +1069,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "MORNING REPORTS",
-      "observed": "Directly traced characters: 5678ACDEFGHIKLMNOPRSTUVW. Printed page 179, PDF page 185. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions.",
-      "reconstructed": "Inferred companion letters and figures: BJQXYZ012349. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+      "observed": "Directly traced characters: 5678ACDEFGHIKLMNOPRSTUVW. Printed page 179, PDF page 185. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions. Additional directly traced impressions supply 4QY. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: BJXZ01239. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), London; printed p. 179, one-based PDF page 185, Internet Archive leaf 185",
@@ -945,6 +1078,13 @@
           "file": "reference/pdf-185.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 444",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n444/mode/1up",
+          "file": "reference/atf1898-leaf-444.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -1012,7 +1152,7 @@
       "id": "modern-antique-1889",
       "name": "Modern Antique 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "ModernAntique1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -1021,8 +1161,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Fine Steamboat",
-      "observed": "Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
-      "reconstructed": "Inferred companion letters and figures: JZfjqz79. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.",
+      "observed": "Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply 79. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: JZfjqz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Modern Antique; printed p. 141, one-based PDF page 147, Internet Archive leaf 147",
@@ -1030,6 +1170,20 @@
           "file": "reference/pdf-147.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 262",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n262/mode/1up",
+          "file": "reference/atf1898-leaf-262.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        },
+        {
+          "title": "ATF 1898, leaf 263",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n263/mode/1up",
+          "file": "reference/atf1898-leaf-263.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -1049,7 +1203,7 @@
       "id": "mural-1889",
       "name": "Mural 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Mural1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -1058,8 +1212,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "EMBOSSED PHOTOGRAPHS",
-      "observed": "Directly sampled characters: 35689ABCDEFGHIKLMNOPQRSTUVW. Printed page 190, PDF page 196. Larger impressions anchor the master; smaller sizes supply additional characters. Small 0/X/Y impressions inform the separately documented reconstructions.",
-      "reconstructed": "Inferred companion letters and figures: JZ1247. Zero is rebuilt from the larger O at the observed figure width. X and Y are redrawn from tiny impressions with stroke contrast matched to larger letters. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+      "observed": "Directly sampled characters: 35689ABCDEFGHIKLMNOPQRSTUVW. Printed page 190, PDF page 196. Larger impressions anchor the master; smaller sizes supply additional characters. Small 0/X/Y impressions inform the separately documented reconstructions. Additional directly traced impressions supply 1247J. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred companion letters and figures: Z. Zero is rebuilt from the larger O at the observed figure width. X and Y are redrawn from tiny impressions with stroke contrast matched to larger letters. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Mural; printed p. 190, one-based PDF page 196, Internet Archive leaf 196",
@@ -1067,6 +1221,20 @@
           "file": "reference/pdf-196.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 344",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n344/mode/1up",
+          "file": "reference/atf1898-leaf-344.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        },
+        {
+          "title": "ATF 1898, leaf 345",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n345/mode/1up",
+          "file": "reference/atf1898-leaf-345.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -1180,7 +1348,7 @@
       "id": "quaint-gothic-1894",
       "name": "Quaint Gothic 1894",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "QuaintGothic1894-Regular",
       "year": 1894,
       "designer": "Unidentified in the consulted historical specimen",
@@ -1188,8 +1356,8 @@
       "description": "Contrasting sans-serif capitals with narrow hairlines and long descending strokes, revived from Ryan’s 1894 specimen.",
       "license": "MIT",
       "sample_text": "HISTORY OF AUSTRALIA",
-      "observed": "Capitals A–P and R–Y; figures 1, 2, 4, 5, 6, 9 and dollar sign on page 148. The 24–48-point impressions anchor the master; smaller impressions supply B, J, K, M, P and X.",
-      "reconstructed": "Q and Z; figures 0, 3, 7 and 8; punctuation and remaining symbols. Lowercase input aliases capitals, as this historical specimen shows a capitals-only face. Spacing, kerning and harmonisation between optical sizes are new. The 1894 suffix dates the source, not a claimed first release.",
+      "observed": "Capitals A–P and R–Y; figures 1, 2, 4, 5, 6, 9 and dollar sign on page 148. The 24–48-point impressions anchor the master; smaller impressions supply B, J, K, M, P and X. Additional directly traced impressions supply 0378. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Q and Z; punctuation and remaining symbols. All figures are observed. Lowercase input aliases capitals, as this historical specimen shows a capitals-only face. Spacing, kerning and harmonisation between optical sizes are new. The 1894 suffix dates the source, not a claimed first release.",
       "sources": [
         {
           "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), p. 148",
@@ -1197,6 +1365,20 @@
           "file": "reference/ryan-1894-p148.png",
           "rights": "1894 US publication, beyond the 95-year maximum term. Library of Congress scan; Archive metadata states that the Library of Congress is unaware of copyright restrictions. Metadata evidence retained in reference/ryan-rights.json.",
           "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "ATF Desk Book 1898 (NYPL), printed p. 377, leaf 390",
+          "url": "https://archive.org/details/ATF1898DeskBook/page/n390/mode/1up",
+          "file": "reference/atf1898-nypl-leaf-390.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/ATF1898DeskBook"
+        },
+        {
+          "title": "Central and Boston 1892, Quaint Gothic, unnumbered leaf 89",
+          "url": "https://archive.org/details/CentralBoston1892Specimen/page/n89/mode/1up",
+          "file": "reference/central1892-leaf-89.jp2",
+          "rights": "1892 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/CentralBoston1892Specimen"
         }
       ],
       "revival": {
@@ -1219,7 +1401,7 @@
       "id": "remington-1888",
       "name": "Remington 1888",
       "style": "Regular",
-      "version": "1.002",
+      "version": "1.003",
       "postscript_name": "Remington1888-Regular",
       "year": 1888,
       "designer": "Unidentified in the consulted primary specimens",
@@ -1227,8 +1409,8 @@
       "description": "A monospaced metal-type imitation of typewriting, following the 12-point No. 2 cut.",
       "license": "MIT",
       "sample_text": "Paris, Ill., May 6th, 1887.",
-      "observed": "Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-      "reconstructed": "Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release. Version 1.002 restores the observed ascender-height t and gives e a new optical width/overshoot adjustment; see source/METHOD.md and source/glyphs/. No accented derivatives are encoded.",
+      "observed": "Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 345W. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred alphabet/figures: EFKOQUVXYZj9. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release. Version 1.002 restores the observed ascender-height t and gives e a new optical width/overshoot adjustment; see source/METHOD.md and source/glyphs/. No accented derivatives are encoded.",
       "sources": [
         {
           "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 137",
@@ -1236,6 +1418,13 @@
           "file": "reference/printer-137.png",
           "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
           "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+        },
+        {
+          "title": "GPO Specimens of Job Room Type 1904, printed p. 115, PDF page 131",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f/pdf/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f.pdf",
+          "file": "reference/gpo1904-page-131.png",
+          "rights": "1904 US publication, public domain by age. Historical Government Printing Office scan hosted by govinfo; no modern digital font used. Lossless 350-dpi grayscale rendering of PDF page 131, composing its native scanned foreground and background.",
+          "rights_url": "https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f"
         }
       ],
       "revival": {
@@ -1319,7 +1508,7 @@
       "id": "victoria-1889",
       "name": "Victoria 1889",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "Victoria1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -1328,8 +1517,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "BAKED FRESH",
-      "observed": "Directly sampled characters: 0124568ABCDEFGHIKLMNOPQRSTUWX£. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts.",
-      "reconstructed": "Inferred alphabet and figure companions: JVYZ379. Explicit repairs of small observed impressions: W. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
+      "observed": "Directly sampled characters: 0124568ABCDEFGHIKLMNOPQRSTUWX£. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts. Additional directly traced impressions supply 379Y. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+      "reconstructed": "Inferred alphabet and figure companions: JVZ. Explicit repairs of small observed impressions: W. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Victoria; printed p. 186, one-based PDF page 192, Internet Archive leaf 192",
@@ -1344,6 +1533,13 @@
           "file": "reference/pdf-193.jp2",
           "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
           "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+        },
+        {
+          "title": "ATF 1898, leaf 438",
+          "url": "https://archive.org/details/deskbookofprinti00amer/page/n438/mode/1up",
+          "file": "reference/atf1898-leaf-438.jp2",
+          "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
         }
       ],
       "revival": {
@@ -1364,7 +1560,7 @@
       "id": "washington-1889",
       "name": "Washington 1889",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Washington1889-Regular",
       "year": 1889,
       "designer": "Unidentified in the consulted historical specimen",
@@ -1373,8 +1569,8 @@
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "Musical Academy",
-      "observed": "The 1889 Boston page anchors the face. Larger Washington impressions in Central/Boston 1892 and ATF 1896/1898 supply 4579VWbghkmpuwy, including the continuous curved y, flared k terminal, and uncial m/u/w. Exact crops and transcribed rows distinguish observed forms from reconstruction. Source-derived 457Vbgmpw receive documented display-weight corrections against the larger d/o/n.",
-      "reconstructed": "Inferred companions without a located impression: JQZjq. The small observed 0fvz are redrawn; v uses the newly observed V at lowercase scale with its own weight correction, and q reflects the refined p. Punctuation and remaining symbols are project drawings. Spacing and weight harmonisation are digital work; h/k/m/w have wider advances to fit their observed outlines. The 1889 suffix dates the principal source, not a claim of first release.",
+      "observed": "The 1889 Boston page anchors the face. Central/Boston 1892 and ATF 1896/1898 supply larger 4579VWbghkmpuwy impressions. The complete Washington alphabets in the 1897 GPO Job Division specimen, p. 49, establish JQZjq and replace the smaller f/v/z reconstructions. All A–Z and a–z now have located historical impressions. Exact crops and measured baselines distinguish source forms from digital weight harmonisation.",
+      "reconstructed": "The small observed zero remains redrawn. Punctuation and remaining symbols are project drawings. Spacing and weight harmonisation are digital work; h/k/m/w and Z/j/z have wider advances to fit their observed outlines. J/Q/Z/j/q use actual Washington impressions, including the crossing Q tail and curled j descender. The 1889 suffix dates the principal source, not a claim of first release.",
       "sources": [
         {
           "title": "Specimen book from the Boston type foundry (1889), Washington; printed p. 184, one-based PDF page 190, Internet Archive leaf 190",
@@ -1403,6 +1599,13 @@
           "file": "reference/atf1898-leaf-446.jp2",
           "rights": "1898 US publication, public domain by age. Library of Congress copy digitized by the Internet Archive; original native JP2 leaves and institutional metadata retained. No modern digital font used.",
           "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        },
+        {
+          "title": "Specimens of the job division type, Government Printing Office (1897), Washington, printed p. 49; Internet Archive leaf 107",
+          "url": "https://archive.org/details/specimensofjobdi00unit/page/n107/mode/1up",
+          "file": "reference/gpo1897-leaf-107.jp2",
+          "rights": "1897 US government publication, public domain by age. Library of Congress copy digitized by Internet Archive. Retained archive metadata states that the Library is unaware of copyright restrictions. Native JPEG 2000 page; no modern digital font used.",
+          "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
         }
       ],
       "revival": {
@@ -1413,7 +1616,7 @@
           "fontTools 4.64.0",
           "skia-pathops 0.9.0"
         ],
-        "notes": "The canonical master and glyph overrides retain the complete 104-character encoding. Original and supplemental row records document the historical impressions. prepare_revisions.py and weight-refinement.json reproduce the source tracing and display-weight corrections; companions.json retains explicit refined paths. Only h/k/m/w advances expand for usable sidebearings. Source-review and weight-and-forms-review PDFs show provenance and the revision in context."
+        "notes": "The canonical master and glyph overrides retain the complete 104-character encoding. Original and supplemental row records document the historical impressions. prepare_revisions.py and weight-refinement.json reproduce source tracing and display-weight corrections. JQZfjqvz are measured from the 1897 full alphabet page. Advances expand only when required by the observed outline; source and before/after proofs show the resulting forms."
       },
       "characters": 104,
       "glyphs": 104

@@ -45,5 +45,20 @@ small-size outlines are replaced by explicit drawings. Each entry in
 letters and figures as redrawn. Missing letters are inferred separately.
 
 The figure 1 has closed ink-break pinholes in its stem. The tracing recipe fills
-those small regions; the source sort has no intentional counter there. The g
-is a new double-storey companion with an ear above its main lowercase body.
+those small regions; the source sort has no intentional counter there. The observed GPO 48-point g has a double-storey construction, a flat lower
+terminal and an ear just above the main lowercase body.
+
+## Additional specimen impressions
+
+`JKbfgj` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

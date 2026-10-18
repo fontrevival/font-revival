@@ -4,7 +4,7 @@ Angular, lightly drawn display capitals following the historical No. 39 cut.
 
 ![Jagged 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.001 · 104 characters · Capitals only · MIT**
+**1888 · Regular · Version 1.002 · 104 characters · Capitals only · MIT**
 
 [OTF](fonts/Jagged1888-Regular.otf) · [TTF](fonts/Jagged1888-Regular.ttf) · [WOFF2](web/Jagged1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,9 +19,9 @@ and use `font-family: "Jagged 1888"`. Designed for display sizes.
 
 **Foundry:** Dickinson Type Foundery, Boston
 
-**Observed:** Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.
+**Observed:** Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 01379FKVX. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.
 
-**Reconstructed:** Inferred alphabet/figures: FJKVXZ01379. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.
+**Reconstructed:** Inferred alphabet/figures: JZ. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.
 
 ## Sources
 
@@ -29,6 +29,8 @@ and use `font-family: "Jagged 1888"`. Designed for display sizes.
 2. [American Type Founders, Collective Specimen Book (1895/96), printed p. 345](https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-227-the-jagged-series-and-the-moxon-series-dickinson-type-foundery-publicdomain.pdf) — Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF. [Rights basis](https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html).
 3. [The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 147](https://archive.org/details/sim_american-printer_1888-11_6_2/page/n58/mode/1up) — 1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
 4. [American Type Founders, Desk Book of Printing Types (1898), printed p. 493; JP2 member 0487](https://archive.org/details/deskbookofprinti00amer) — Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference. [Rights basis](https://archive.org/metadata/deskbookofprinti00amer).
+5. [ATF Pacific Coast Blue Book 1896, printed p. 358, leaf 362](https://archive.org/details/pacificcoastblue00amerrich/page/n362/mode/1up) — 1896 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/pacificcoastblue00amerrich).
+6. [ATF Desk Book 1898 (NYPL), printed p. 386, leaf 399](https://archive.org/details/ATF1898DeskBook/page/n399/mode/1up) — 1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/ATF1898DeskBook).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

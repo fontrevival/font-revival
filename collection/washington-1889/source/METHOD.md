@@ -33,32 +33,49 @@ introductory material. `tracing.json` selects the exact individual impressions
 and records cleanup, height, baseline, and advance. The new entries refer to
 zero-based row numbers in `supplemental-rows.json`.
 
-The larger `g` and `p` impressions establish the contours and stroke contrast. The
-new `q` reflects the refined `p`; its terminals remain inferred. The small 1889 `v`
-establishes the fork and foot, while its display-size reconstruction uses the
-newly observed `V` at 72% scale. The larger `y` corroborates the flared right
-entry. The lowercase `v` has its own weight correction. The `y` itself is traced from the 48-point impression, including its
-continuous descending curve, rather than composed from separate branches.
+The larger `g` and `p` impressions establish the contours and stroke contrast.
+The `y` is traced from the 48-point impression, including its continuous
+descending curve. The `q` and `v` use their own impressions from the full
+1897 alphabet described below.
 
 Uniform scaling establishes the proportions of each new trace. Advances are
-retained except for `hkmw`: their former reconstructed cells were too narrow
-for the observed outlines. These four receive 35-unit sidebearings. No accents
+retained except for `hkmw` and the full-alphabet replacements `Zjz`: their former
+reconstructed cells were too narrow for the observed outlines. These receive
+35-unit sidebearings. No accents
 in this family's character map depend on these bases; encoding and OpenType
 features are retained.
+
+## Complete alphabet evidence
+
+The Government Printing Office's *Specimens of the job division type* (1897),
+printed p. 49, Internet Archive leaf 107, identifies Washington and Central Type
+Foundry explicitly. It supplies complete alphabets through 18 point and partial
+alphabets at 24 and 30 point. The original native page and institutional metadata
+are retained as `reference/gpo1897-leaf-107.jp2` and `gpo1897-metadata.json`.
+
+`JQfjqv` use the 30-point impressions; `Zz` use the 18-point impressions. The
+ordinary capital I measures 89 pixels and 53 pixels respectively. Uniform
+scaling sets that body to 700 font units. Each lowercase row has its own measured
+baseline. `reference/gpo1897-source.json` records these measurements, and
+`tracing.json` records the individual crops and cleanup. Detached dots are
+retained in the j. Its closed descender curl, the Q's crossing tail, and the
+J's upturned hook are source features. These forms replace inferred geometry.
 
 ## Display weight
 
 The smaller optical sizes are heavier than the 60-point anchor letters even
 when their scans are clean. `weight-refinement.json` records the individual
-corrections to `457Vbgmpw`: a narrow band around the traced boundary is removed
+corrections to `457Vbgmpw` and `QZjvz`: a narrow band around the traced boundary is removed
 using vector operations, and the original measured bounds are restored. The
 insets range from 2 to 17 font units; they were reviewed against the larger
 `d`, `o`, and `n`, in words and at several sizes. These are modern weight
 adjustments to observed forms. The source proof labels them as redrawn.
 
-The `q` inherits the refined `p`. The `v` uses a separate correction before
-lowercase scaling, so thinning the capital `V` does not over-lighten its
-lowercase companion. Additional blur in the 1892 `kmu` crops smooths the
+The 30-point v receives a separate 10-unit correction to retain the lighter
+diagonal weight established in the display alphabet. The Q, Z, j and z receive
+3-, 5-, 2- and 3-unit corrections respectively. The observed q is already lighter
+than the former mirrored-p construction and needs no additional inset.
+Additional blur in the 1892 `kmu` crops smooths the
 enlarged scan's pixel steps before fitting curves. It does not change the
 historical construction.
 
@@ -73,7 +90,8 @@ python collection/washington-1889/source/prepare_revisions.py \
 `source/glyphs/` contains the release overrides over the original CFF master.
 The trace recipe and companion paths also describe the revised drawings, so
 re-preparing a master does not restore the superseded forms. The before/after
-proof is `specimens/weight-and-forms-review.pdf`.
+proofs are `specimens/weight-and-forms-review.pdf` and
+`specimens/alphabet-restoration-review.pdf`.
 
 `companions.json` separates inferred letters and figures from observed crops.
 Each companion records its construction. Explicit font-unit paths are sufficient
@@ -94,17 +112,15 @@ Inspect source comparisons, the full inventory and words at several sizes.
 
 ## Remaining reconstructions
 
-The following original crops are retained for comparison, but their enlarged
-scan outlines are replaced with explicit drawings: `0fvz`. Each entry
-in `companions.json` explains its source relationships and inferred details.
+The original zero crop is retained for comparison, but its enlarged scan
+outline is replaced with an explicit drawing. Its entry in `companions.json`
+explains the source relationship and inferred details.
 The source-comparison proof labels these as redrawn, as it does the documented
 display-weight refinements above.
 
-The consulted Washington pages do not supply `JQZjq`. Those forms remain
-inferred; a complete historical alphabet is not claimed. The initial-alphabet
-books from Bruce (1828), Howe (1830), Boston (1832), Figgins (1834), and Caslon
-(1841) supplied no additional Washington evidence. The later Lindsay (1890)
-and Ryan (1894) specimen searches also supplied no selected Washington forms.
+Every A–Z and a–z character now has a located Washington impression. Punctuation
+and additional symbols remain project drawings. The 1897 full alphabet supplies
+evidence for these letters independently of the other specimen pages.
 
 The existing vertical font metrics retain sufficient room for the descenders.
 The `g`, `p`, and `y` depths follow the selected larger impressions.

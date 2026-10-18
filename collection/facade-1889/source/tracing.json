@@ -717,6 +717,29 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 10, sort 40. Pixel measurements retained in source/rows.json."
+    },
+    "4": {
+      "file": "reference/atf1898-leaf-346.jp2",
+      "box": [
+        1746,
+        3145,
+        1838,
+        3446
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 324,
+      "center": true,
+      "height": 703,
+      "y_min": -6,
+      "notes": "Observed 36-point 4; ATF 1898, leaf 346. Row: BRINGPICTURE54. Uniform scale from 223-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

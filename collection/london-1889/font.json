@@ -3,7 +3,7 @@
   "id": "london-1889",
   "name": "London 1889",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "London1889-Regular",
   "year": 1889,
   "designer": "Unidentified in the consulted historical specimen",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "MORNING REPORTS",
-  "observed": "Directly traced characters: 5678ACDEFGHIKLMNOPRSTUVW. Printed page 179, PDF page 185. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions.",
-  "reconstructed": "Inferred companion letters and figures: BJQXYZ012349. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+  "observed": "Directly traced characters: 5678ACDEFGHIKLMNOPRSTUVW. Printed page 179, PDF page 185. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions. Additional directly traced impressions supply 4QY. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+  "reconstructed": "Inferred companion letters and figures: BJXZ01239. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
   "sources": [
     {
       "title": "Specimen book from the Boston type foundry (1889), London; printed p. 179, one-based PDF page 185, Internet Archive leaf 185",
@@ -21,6 +21,13 @@
       "file": "reference/pdf-185.jp2",
       "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
       "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    },
+    {
+      "title": "ATF 1898, leaf 444",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n444/mode/1up",
+      "file": "reference/atf1898-leaf-444.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
     }
   ],
   "revival": {

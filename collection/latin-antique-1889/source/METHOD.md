@@ -39,11 +39,17 @@ page slope preserve the position of lowercase descenders and the Q tail. The
 exact row settings and selected native crops are retained for independent review.
 Differences in width and contrast between metal sizes remain visible.
 
-The original crops for `8VWYhp` are retained as evidence, but their coarse
-small-size outlines are replaced by explicit drawings. Each entry in
-`companions.json` explains its construction. Source comparisons label these
-letters and figures as redrawn. Missing letters are inferred separately.
+## Additional specimen impressions
 
-The small capital V/W/Y impressions do not resolve the tapering serif tips.
-Their explicit reconstructions use the clearer lowercase v/w and the large X/I
-as construction references; they are not labelled as direct capital traces.
+`8VWYZbhjpqxz` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

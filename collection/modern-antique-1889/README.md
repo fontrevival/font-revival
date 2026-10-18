@@ -4,7 +4,7 @@ Condensed display letters with sharp wedge serifs, narrow bowls and a compact hi
 
 ![Modern Antique 1889 specimen](specimens/preview.png)
 
-**1889 · Regular · Version 1.000 · 104 characters · MIT**
+**1889 · Regular · Version 1.001 · 104 characters · MIT**
 
 [OTF](fonts/ModernAntique1889-Regular.otf) · [TTF](fonts/ModernAntique1889-Regular.ttf) · [WOFF2](web/ModernAntique1889-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,13 +19,15 @@ and use `font-family: "Modern Antique 1889"`. Designed for display sizes.
 
 **Foundry:** Boston and Central Type Foundries
 
-**Observed:** Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.
+**Observed:** Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply 79. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.
 
-**Reconstructed:** Inferred companion letters and figures: JZfjqz79. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.
+**Reconstructed:** Inferred companion letters and figures: JZfjqz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.
 
 ## Sources
 
 1. [Specimen book from the Boston type foundry (1889), Modern Antique; printed p. 141, one-based PDF page 147, Internet Archive leaf 147](https://archive.org/details/specimenbookfrom00unse/page/n147/mode/1up) — 1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used. [Rights basis](https://archive.org/metadata/specimenbookfrom00unse).
+2. [ATF 1898, leaf 262](https://archive.org/details/deskbookofprinti00amer/page/n262/mode/1up) — 1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/deskbookofprinti00amer).
+3. [ATF 1898, leaf 263](https://archive.org/details/deskbookofprinti00amer/page/n263/mode/1up) — 1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/deskbookofprinti00amer).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

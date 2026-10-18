@@ -3,7 +3,7 @@
   "id": "grady-1894",
   "name": "Grady 1894",
   "style": "Regular",
-  "version": "1.001",
+  "version": "1.002",
   "postscript_name": "Grady1894-Regular",
   "year": 1894,
   "designer": "Unidentified in the consulted primary specimens",
@@ -11,8 +11,8 @@
   "description": "Narrow, dark display letters with angular counters, curled terminals and true lowercase.",
   "license": "MIT",
   "sample_text": "Summer Festivities",
-  "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-  "reconstructed": "Inferred alphabet/figures: JQZjqwxz01. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
+  "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 0w. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+  "reconstructed": "Inferred alphabet/figures: JQZjqxz1. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
   "sources": [
     {
       "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 133",
@@ -27,6 +27,13 @@
       "file": "reference/atf-grady-full.png",
       "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
       "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+    },
+    {
+      "title": "ATF 1898, leaf 420",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n420/mode/1up",
+      "file": "reference/atf1898-leaf-420.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
     }
   ],
   "revival": {

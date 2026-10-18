@@ -39,7 +39,7 @@ def proof():
                             ('Overprint', 174, [('solid', '#be7950'), ('shadow', '#24251f')])]:
         c.setFillColor(HexColor('#68675c'));c.setFont('Helvetica', 10);c.drawString(36, y+69, label)
         for face, colour in faces:
-            c.setFillColor(HexColor(colour));c.setFont(face, 66);c.drawString(36, y, 'WALNUT GROVES 87')
+            c.setFillColor(HexColor(colour));c.setFont(face, 66);c.drawString(36, y, 'JOYFUL GROVES 04')
     c.setFillColor(HexColor('#68675c'));c.setFont('Helvetica', 9)
     c.drawString(36, 114, 'Smaller overprint / 24 pt')
     for face, colour in [('solid', '#be7950'), ('shadow', '#24251f')]:

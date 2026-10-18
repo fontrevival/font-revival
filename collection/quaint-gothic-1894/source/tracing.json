@@ -500,6 +500,99 @@
         42
       ],
       "notes": "Historical impression; candidate row 1, character 3. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "3": {
+      "file": "reference/atf1898-nypl-leaf-390.jp2",
+      "box": [
+        6073,
+        6093,
+        6346,
+        6699
+      ],
+      "threshold": 135,
+      "blur": 4,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 510,
+      "center": true,
+      "height": 655,
+      "y_min": 0,
+      "notes": "Observed 18-point 3; ATF Desk Book 1898 (NYPL), printed p. 377, leaf 390. 638CORNERS. Uniform scale from 388 native pixels in the same line; original digital advance retained. Four-pixel prefilter smooths the enlarged binary scan steps without changing its scale."
+    },
+    "8": {
+      "file": "reference/atf1898-nypl-leaf-390.jp2",
+      "box": [
+        6411,
+        6093,
+        6702,
+        6699
+      ],
+      "threshold": 135,
+      "blur": 4,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 560,
+      "center": true,
+      "height": 655,
+      "y_min": 0,
+      "notes": "Observed 18-point 8; ATF Desk Book 1898 (NYPL), printed p. 377, leaf 390. 638CORNERS. Uniform scale from 388 native pixels in the same line; original digital advance retained. Four-pixel prefilter smooths the enlarged binary scan steps without changing its scale."
+    },
+    "0": {
+      "file": "reference/central1892-leaf-89.jp2",
+      "box": [
+        954,
+        1682,
+        995,
+        1740
+      ],
+      "ink_erosion": 1,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 620,
+      "center": true,
+      "height": 648,
+      "y_min": 18,
+      "notes": "Observed 12-point 0; Central and Boston 1892, Quaint Gothic, unnumbered leaf 89. $10. Uniform scale from 40 native pixels in the same line; original digital advance retained. Ink spread reduced by 1 native pixels to match the lighter core impressions."
+    },
+    "7": {
+      "file": "reference/central1892-leaf-89.jp2",
+      "box": [
+        895,
+        1901,
+        925,
+        1952
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 560,
+      "center": true,
+      "height": 603,
+      "y_min": 0,
+      "notes": "Observed 10-point 7; Central and Boston 1892, Quaint Gothic, unnumbered leaf 89. 795. Uniform scale from 36 native pixels in the same line; original digital advance retained."
     }
   }
 }

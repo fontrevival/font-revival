@@ -10,10 +10,10 @@
     "win_descent": 350
   },
   "review_words": [
-    "Pig, quiver, voyage, Monday",
-    "Buckles, Luminous, Washers",
-    "Quiet voyages by moonlight",
-    "abcdefghijklmnopqrstuvwxyz 0123456789"
+    "Jupiter, Quiet, ZANY, jazz",
+    "Jeffrey’s Quiet Voyage",
+    "Quiz, jovial, fizz, quiver",
+    "Pig, voyage, Monday, 457 Vv"
   ],
   "glyphs": {
     "F": {
@@ -973,26 +973,27 @@
       "keep_components": 1
     },
     "v": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/gpo1897-leaf-107.jp2",
       "box": [
-        2097,
-        2726,
-        2133,
-        2757
+        1993,
+        3155,
+        2090,
+        3320
       ],
-      "rotation": 0,
-      "height": 544,
-      "y_min": -2,
+      "height": 598,
+      "y_min": 0,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 11, sort 9. Pixel measurements retained in source/rows.json."
+      "advance_width": 744,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 30-point v, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters."
     },
     "g": {
       "file": "reference/atf1896-washington-middle.png",
@@ -1091,26 +1092,27 @@
       "keep_components": 1
     },
     "f": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/gpo1897-leaf-107.jp2",
       "box": [
-        2116,
-        3021,
-        2132,
-        3048
+        766,
+        3155,
+        817,
+        3320
       ],
-      "rotation": 0,
-      "height": 759,
-      "y_min": 13,
+      "height": 747,
+      "y_min": -16,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 16, sort 9. Pixel measurements retained in source/rows.json."
+      "advance_width": 479,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 30-point f, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters."
     },
     "b": {
       "file": "reference/atf1898-leaf-447.jp2",
@@ -1185,26 +1187,27 @@
       "keep_components": 1
     },
     "z": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/gpo1897-leaf-107.jp2",
       "box": [
-        2402,
-        3099,
-        2425,
-        3118
+        1875,
+        2140,
+        1928,
+        2245
       ],
-      "rotation": 0,
-      "height": 495,
+      "height": 515,
       "y_min": 0,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 17, sort 24. Pixel measurements retained in source/rows.json."
+      "advance_width": 683,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 18-point z, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters. The former inferred advance is too narrow; provide 35-unit sidebearings around the source-proportioned outline."
     },
     "0": {
       "file": "reference/pdf-190.jp2",
@@ -1299,6 +1302,121 @@
       "advance_width": 744,
       "center": true,
       "keep_components": 1
+    },
+    "J": {
+      "file": "reference/gpo1897-leaf-107.jp2",
+      "box": [
+        1185,
+        2985,
+        1263,
+        3135
+      ],
+      "height": 708,
+      "y_min": -8,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 589,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 30-point J, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters."
+    },
+    "Q": {
+      "file": "reference/gpo1897-leaf-107.jp2",
+      "box": [
+        1871,
+        2985,
+        1960,
+        3135
+      ],
+      "height": 928,
+      "y_min": -212,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 677,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 30-point Q, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters."
+    },
+    "Z": {
+      "file": "reference/gpo1897-leaf-107.jp2",
+      "box": [
+        1890,
+        2005,
+        1954,
+        2110
+      ],
+      "height": 713,
+      "y_min": -13,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 776,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 18-point Z, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters. The former inferred advance is too narrow; provide 35-unit sidebearings around the source-proportioned outline."
+    },
+    "j": {
+      "file": "reference/gpo1897-leaf-107.jp2",
+      "box": [
+        1041,
+        3155,
+        1092,
+        3320
+      ],
+      "height": 1070,
+      "y_min": -315,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 382,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 2,
+      "tolerance": 0.3,
+      "notes": "Observed 30-point j, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters. The former inferred advance is too narrow; provide 35-unit sidebearings around the source-proportioned outline."
+    },
+    "q": {
+      "file": "reference/gpo1897-leaf-107.jp2",
+      "box": [
+        1626,
+        3155,
+        1713,
+        3320
+      ],
+      "height": 842,
+      "y_min": -291,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 695,
+      "center": true,
+      "blur": 0.65,
+      "threshold": 135,
+      "fill_holes": 4,
+      "keep_components": 1,
+      "tolerance": 0.3,
+      "notes": "Observed 30-point q, GPO Job Division specimen (1897), printed p. 49, leaf 107. Uniform scale from the ordinary cap I (89 pixels at 30 point, 53 pixels at 18 point); independent baselines for uppercase and lowercase rows. Preserve historical terminals and counters."
     }
   }
 }

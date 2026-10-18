@@ -3,7 +3,7 @@
   "id": "doric-1889",
   "name": "Doric 1889",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "Doric1889-Regular",
   "year": 1889,
   "designer": "Unidentified in the consulted historical specimen",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "Comical Tenors",
-  "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOQRSTUVYacdehiklmnoqrstuv. Printed page 138, PDF page 144. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
-  "reconstructed": "Inferred companion letters and figures: JKXZbfgjpwxyz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: PW; see companions.json for the construction of each.",
+  "observed": "Directly traced characters: 0123456789ABCDEFGHILMNOQRSTUVYacdehiklmnoqrstuv. Printed page 138, PDF page 144. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply JKbfgj. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+  "reconstructed": "Inferred companion letters and figures: XZpwxyz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: PW; see companions.json for the construction of each.",
   "sources": [
     {
       "title": "Specimen book from the Boston type foundry (1889), Doric; printed p. 138, one-based PDF page 144, Internet Archive leaf 144",
@@ -21,6 +21,27 @@
       "file": "reference/pdf-144.jp2",
       "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
       "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    },
+    {
+      "title": "GPO Job Division 1897, printed p. 75, leaf 157",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n157/mode/1up",
+      "file": "reference/gpo1897-leaf-157.jp2",
+      "rights": "1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+    },
+    {
+      "title": "ATF 1898, leaf 226",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n226/mode/1up",
+      "file": "reference/atf1898-leaf-226.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+    },
+    {
+      "title": "ATF 1898, leaf 227",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n227/mode/1up",
+      "file": "reference/atf1898-leaf-227.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
     }
   ],
   "revival": {

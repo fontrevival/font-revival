@@ -673,6 +673,98 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 16, sort 10. Pixel measurements retained in source/rows.json."
+    },
+    "3": {
+      "file": "reference/atf1898-leaf-438.jp2",
+      "box": [
+        247,
+        1142,
+        447,
+        1458
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 610,
+      "center": true,
+      "height": 705,
+      "y_min": -8,
+      "notes": "Observed 42-point 3; ATF 1898, leaf 438. Row: 3BRAIN. Uniform scale from 255-pixel ordinary cap body; original digital advance retained."
+    },
+    "9": {
+      "file": "reference/atf1898-leaf-438.jp2",
+      "box": [
+        237,
+        2778,
+        331,
+        2951
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 646,
+      "center": true,
+      "height": 718,
+      "y_min": -12,
+      "notes": "Observed 18-point 9; ATF 1898, leaf 438. Row: 9. Uniform scale from 115-pixel ordinary cap body; original digital advance retained."
+    },
+    "7": {
+      "file": "reference/atf1898-leaf-438.jp2",
+      "box": [
+        1638,
+        2796,
+        1719,
+        2940
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 707,
+      "center": true,
+      "height": 709,
+      "y_min": 0,
+      "notes": "Observed 14-point 7; ATF 1898, leaf 438. Row: PRINTS79. Uniform scale from 82-pixel ordinary cap body; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
+    },
+    "Y": {
+      "file": "reference/atf1898-leaf-438.jp2",
+      "box": [
+        690,
+        3069,
+        763,
+        3188
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 787,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 12-point Y; ATF 1898, leaf 438. Row: INSANITY23. Uniform scale from 67-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

@@ -1097,48 +1097,50 @@
       "notes": "Observed impression; transcribed row 9, sort 33. Pixel measurements retained in source/rows.json."
     },
     "Y": {
-      "file": "reference/pdf-145.jp2",
+      "file": "reference/atf1898-leaf-260.jp2",
       "box": [
-        596,
-        3192,
-        643,
-        3243
+        1734,
+        3242,
+        1855,
+        3425
       ],
-      "rotation": 0,
-      "height": 700,
-      "y_min": -8,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 10, sort 8. Pixel measurements retained in source/rows.json."
+      "advance_width": 745,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 24-point Y; ATF 1898, leaf 260. Row: HARVARDSTUDY. Uniform scale from 120-pixel ordinary cap body; original digital advance retained."
     },
     "V": {
-      "file": "reference/pdf-145.jp2",
+      "file": "reference/atf1898-leaf-260.jp2",
       "box": [
-        947,
-        3190,
-        995,
-        3241
+        664,
+        3242,
+        787,
+        3425
       ],
-      "rotation": 0,
-      "height": 700,
-      "y_min": -14,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 10, sort 14. Pixel measurements retained in source/rows.json."
+      "advance_width": 745,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 24-point V; ATF 1898, leaf 260. Row: HARVARDSTUDY. Uniform scale from 120-pixel ordinary cap body; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
     },
     "g": {
       "file": "reference/pdf-145.jp2",
@@ -1163,92 +1165,242 @@
       "notes": "Observed impression; transcribed row 11, sort 8. Pixel measurements retained in source/rows.json."
     },
     "p": {
-      "file": "reference/pdf-145.jp2",
+      "file": "reference/gpo1897-leaf-87.jp2",
       "box": [
-        844,
-        3292,
-        881,
-        3338
+        1901,
+        2180,
+        2004,
+        2427
       ],
-      "rotation": 0,
-      "height": 632,
-      "y_min": -141,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 11, sort 14. Pixel measurements retained in source/rows.json."
+      "advance_width": 547,
+      "center": true,
+      "height": 656,
+      "y_min": -182,
+      "notes": "Observed 40-point p; GPO Job Division 1897, printed p. 39, leaf 87. Row: abcdefghijklmnopq. Uniform scale from 142-pixel ordinary cap body; original digital advance retained."
     },
     "W": {
-      "file": "reference/pdf-145.jp2",
+      "file": "reference/atf1898-leaf-260.jp2",
       "box": [
-        1678,
-        3277,
-        1740,
-        3319
+        313,
+        1818,
+        628,
+        2070
       ],
-      "rotation": 0,
-      "height": 719,
-      "y_min": -17,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 13, sort 4. Pixel measurements retained in source/rows.json."
+      "advance_width": 1116,
+      "center": true,
+      "height": 697,
+      "y_min": -3,
+      "notes": "Observed 36-point W; ATF 1898, leaf 260. Row: WARMING. Uniform scale from 203-pixel ordinary cap body; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
     },
     "h": {
-      "file": "reference/pdf-145.jp2",
+      "file": "reference/gpo1897-leaf-87.jp2",
       "box": [
-        2126,
-        3277,
-        2158,
-        3319
+        1371,
+        3024,
+        1518,
+        3332
       ],
-      "rotation": 0,
-      "height": 719,
-      "y_min": -20,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 13, sort 16. Pixel measurements retained in source/rows.json."
+      "advance_width": 539,
+      "center": true,
+      "height": 693,
+      "y_min": 4,
+      "notes": "Observed 48-point h; GPO Job Division 1897, printed p. 39, leaf 87. Row: abcdefghijklm. Uniform scale from 193-pixel ordinary cap body; original digital advance retained."
     },
     "8": {
-      "file": "reference/pdf-145.jp2",
+      "file": "reference/atf1898-leaf-260.jp2",
       "box": [
-        1125,
-        3559,
-        1154,
-        3592
+        1615,
+        538,
+        1824,
+        872
       ],
-      "rotation": 0,
-      "height": 688,
-      "y_min": -3,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
+      "advance_width": 620,
+      "center": true,
+      "height": 697,
+      "y_min": 5,
+      "notes": "Observed 48-point 8; ATF 1898, leaf 260. Row: Honest8. Uniform scale from 270-pixel ordinary cap body; original digital advance retained."
+    },
+    "Z": {
+      "file": "reference/gpo1897-leaf-85.jp2",
+      "box": [
+        1755,
+        2355,
+        1796,
+        2448
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
       "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 15, sort 1. Pixel measurements retained in source/rows.json."
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 708,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 12-point Z; GPO Job Division 1897, printed p. 38, leaf 85. Row: ABCDEFGHIJKLMNOPQRSTUVWXYZ. Uniform scale from 47-pixel ordinary cap body; original digital advance retained."
+    },
+    "b": {
+      "file": "reference/gpo1897-leaf-87.jp2",
+      "box": [
+        534,
+        3024,
+        677,
+        3332
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 547,
+      "center": true,
+      "height": 707,
+      "y_min": -15,
+      "notes": "Observed 48-point b; GPO Job Division 1897, printed p. 39, leaf 87. Row: abcdefghijklm. Uniform scale from 193-pixel ordinary cap body; original digital advance retained."
+    },
+    "j": {
+      "file": "reference/gpo1897-leaf-87.jp2",
+      "box": [
+        1571,
+        3049,
+        1648,
+        3315
+      ],
+      "keep_components": 2,
+      "erase": [
+        [
+          0,
+          0,
+          12,
+          212
+        ]
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 293,
+      "center": true,
+      "height": 885,
+      "y_min": -174,
+      "notes": "Observed 48-point j; GPO Job Division 1897, printed p. 39, leaf 87. Row: abcdefghijklm. Uniform scale from 193-pixel ordinary cap body; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
+    },
+    "q": {
+      "file": "reference/gpo1897-leaf-87.jp2",
+      "box": [
+        2012,
+        2180,
+        2120,
+        2427
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 547,
+      "center": true,
+      "height": 656,
+      "y_min": -182,
+      "notes": "Observed 40-point q; GPO Job Division 1897, printed p. 39, leaf 87. Row: abcdefghijklmnopq. Uniform scale from 142-pixel ordinary cap body; original digital advance retained."
+    },
+    "x": {
+      "file": "reference/gpo1897-leaf-85.jp2",
+      "box": [
+        1808,
+        3168,
+        1860,
+        3301
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 620,
+      "center": true,
+      "height": 500,
+      "y_min": 11,
+      "notes": "Observed 18-point x; GPO Job Division 1897, printed p. 38, leaf 85. Row: abcdefghijklmnopqrstuvwxyz. Uniform scale from 63-pixel ordinary cap body; original digital advance retained."
+    },
+    "z": {
+      "file": "reference/gpo1897-leaf-85.jp2",
+      "box": [
+        1920,
+        3168,
+        1967,
+        3301
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 560,
+      "center": true,
+      "height": 500,
+      "y_min": 0,
+      "notes": "Observed 18-point z; GPO Job Division 1897, printed p. 38, leaf 85. Row: abcdefghijklmnopqrstuvwxyz. Uniform scale from 63-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

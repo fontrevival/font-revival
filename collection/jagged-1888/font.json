@@ -3,7 +3,7 @@
   "id": "jagged-1888",
   "name": "Jagged 1888",
   "style": "Regular",
-  "version": "1.001",
+  "version": "1.002",
   "postscript_name": "Jagged1888-Regular",
   "year": 1888,
   "designer": "Unidentified in the consulted primary specimens",
@@ -11,8 +11,8 @@
   "description": "Angular, lightly drawn display capitals following the historical No. 39 cut.",
   "license": "MIT",
   "sample_text": "PHILOSOPHY GRADE",
-  "observed": "Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-  "reconstructed": "Inferred alphabet/figures: FJKVXZ01379. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.",
+  "observed": "Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 01379FKVX. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+  "reconstructed": "Inferred alphabet/figures: JZ. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.",
   "sources": [
     {
       "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 121",
@@ -41,6 +41,20 @@
       "file": "reference/desk-486.png",
       "rights": "Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference.",
       "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+    },
+    {
+      "title": "ATF Pacific Coast Blue Book 1896, printed p. 358, leaf 362",
+      "url": "https://archive.org/details/pacificcoastblue00amerrich/page/n362/mode/1up",
+      "file": "reference/atf1896-pacific-leaf-362.jp2",
+      "rights": "1896 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/pacificcoastblue00amerrich"
+    },
+    {
+      "title": "ATF Desk Book 1898 (NYPL), printed p. 386, leaf 399",
+      "url": "https://archive.org/details/ATF1898DeskBook/page/n399/mode/1up",
+      "file": "reference/atf1898-nypl-leaf-399.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/ATF1898DeskBook"
     }
   ],
   "revival": {

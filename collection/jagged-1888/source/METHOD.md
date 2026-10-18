@@ -1,6 +1,8 @@
 # Jagged 1888: source and method
 
-Only No. 39 is used. Ryan supplies the lighter core alphabet; the ATF No. 39 rows supply Q, U, W, dollar, 6 and 8. Two pixels of ink erosion compensate for spread in that facsimile. The 1898 Desk Book No. 39 supplies B and 4. Nos. 40, 41 and the adjacent Outing and Moxon designs are excluded. Weight and spacing have been harmonised across these impressions.
+Only No. 39 is used. Ryan supplies the lighter core alphabet; the ATF No. 39 rows supply Q, U, W, dollar, 6 and 8. Two pixels of ink erosion compensate for spread in that facsimile. The 1898 Desk Book No. 39 supplies B, 4 and X; its New York Public Library
+copy supplies X with a three-pixel ink-spread correction. The Pacific Coast
+Blue Book (1896), No. 39, supplies F/K/V/0/1/3/7/9 with a one-pixel correction. Nos. 40, 41 and the adjacent Outing and Moxon designs are excluded. Weight and spacing have been harmonised across these impressions.
 
 ## Evidence and rights
 
@@ -42,3 +44,18 @@ Review the raw crops against `specimens/source-review.pdf`, including the full
 alphabet/figures and words at four sizes. `specimens/specimen.pdf` includes every
 encoded character. Check `preview.png` and the desktop/mobile gallery for clipping
 and spacing. The source year is a specimen date, not a claim of first release.
+
+## Additional specimen impressions
+
+`01379FKVX` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

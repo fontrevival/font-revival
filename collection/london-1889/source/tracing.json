@@ -543,6 +543,75 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 4, sort 31. Pixel measurements retained in source/rows.json. Local baseline correction of 30 font units at the curled right end of the row; the common linear slope undershoots the numeral baseline."
+    },
+    "Q": {
+      "file": "reference/atf1898-leaf-444.jp2",
+      "box": [
+        285,
+        943,
+        378,
+        1152
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 526,
+      "center": true,
+      "height": 822,
+      "y_min": -122,
+      "notes": "Observed 24-point Q; ATF 1898, leaf 444. Row: QUAKER8HEARTS. Uniform scale from 138-pixel ordinary cap body; original digital advance retained."
+    },
+    "4": {
+      "file": "reference/atf1898-leaf-444.jp2",
+      "box": [
+        1014,
+        549,
+        1138,
+        786
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 513,
+      "center": true,
+      "height": 692,
+      "y_min": 0,
+      "notes": "Observed 36-point 4; ATF 1898, leaf 444. Row: COAST4LINES. Uniform scale from 183-pixel ordinary cap body; original digital advance retained."
+    },
+    "Y": {
+      "file": "reference/atf1898-leaf-444.jp2",
+      "box": [
+        1633,
+        1292,
+        1703,
+        1441
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 612,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 18-point Y; ATF 1898, leaf 444. Row: 6COUNTRY. Uniform scale from 94-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

@@ -1141,48 +1141,50 @@
       "notes": "Observed impression; transcribed row 11, sort 24. Pixel measurements retained in source/rows.json."
     },
     "V": {
-      "file": "reference/pdf-191.jp2",
+      "file": "reference/atf1898-leaf-451.jp2",
       "box": [
-        1397,
-        3209,
-        1423,
-        3248
+        1084,
+        2837,
+        1136,
+        2988
       ],
-      "rotation": 0,
-      "height": 699,
-      "y_min": 29,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 12, sort 23. Pixel measurements retained in source/rows.json."
+      "advance_width": 495,
+      "center": true,
+      "height": 793,
+      "y_min": 0,
+      "notes": "Observed 18-point V; ATF Desk Book 1898, printed p. 449, leaf 451. YACHTRACINGTHEFAVORITEPASTIME. Uniform scale from 75 native pixels in the same line; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
     },
     "f": {
-      "file": "reference/pdf-191.jp2",
+      "file": "reference/atf1897-handy-leaf-241.jp2",
       "box": [
-        1646,
-        3285,
-        1663,
-        3325
+        1187,
+        909,
+        1256,
+        1079
       ],
-      "rotation": 0,
-      "height": 719,
-      "y_min": 27,
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 13, sort 33. Pixel measurements retained in source/rows.json."
+      "advance_width": 274,
+      "center": true,
+      "height": 695,
+      "y_min": 9,
+      "notes": "Observed 54-point f; ATF 1897, leaf 241. Row: Butterfly. Uniform scale from 151-pixel ordinary cap body; original digital advance retained."
     },
     "x": {
       "file": "reference/pdf-191.jp2",
@@ -1205,6 +1207,75 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 14, sort 14. Pixel measurements retained in source/rows.json."
+    },
+    "K": {
+      "file": "reference/atf1897-handy-leaf-241.jp2",
+      "box": [
+        293,
+        1504,
+        359,
+        1674
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 438,
+      "center": true,
+      "height": 827,
+      "y_min": -127,
+      "notes": "Observed 42-point K; ATF 1897, leaf 241. Row: DARK. Uniform scale from 110-pixel ordinary cap body; original digital advance retained."
+    },
+    "b": {
+      "file": "reference/atf1897-handy-leaf-241.jp2",
+      "box": [
+        992,
+        1771,
+        1027,
+        1875
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 344,
+      "center": true,
+      "height": 731,
+      "y_min": -31,
+      "notes": "Observed 24-point b; ATF 1897, leaf 241. Row: Favorable. Uniform scale from 68-pixel ordinary cap body; original digital advance retained."
+    },
+    "w": {
+      "file": "reference/atf1898-leaf-451.jp2",
+      "box": [
+        343,
+        2035,
+        425,
+        2187
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 541,
+      "center": true,
+      "height": 593,
+      "y_min": -47,
+      "notes": "Observed 24-point w; ATF Desk Book 1898, printed p. 449, leaf 451. Growing Prosperous Rapidly 567. Uniform scale from 105 native pixels in the same line; original digital advance retained."
     }
   }
 }

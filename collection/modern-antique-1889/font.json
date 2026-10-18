@@ -3,7 +3,7 @@
   "id": "modern-antique-1889",
   "name": "Modern Antique 1889",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "ModernAntique1889-Regular",
   "year": 1889,
   "designer": "Unidentified in the consulted historical specimen",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "Fine Steamboat",
-  "observed": "Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.",
-  "reconstructed": "Inferred companion letters and figures: JZfjqz79. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.",
+  "observed": "Directly traced characters: 124568ABCDEFGHIKLMNOPRSTUVWXYabcdeghiklmnorstuvwxy. Printed page 141, PDF page 147. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply 79. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+  "reconstructed": "Inferred companion letters and figures: JZfjqz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 03Qp; see companions.json for the construction of each.",
   "sources": [
     {
       "title": "Specimen book from the Boston type foundry (1889), Modern Antique; printed p. 141, one-based PDF page 147, Internet Archive leaf 147",
@@ -21,6 +21,20 @@
       "file": "reference/pdf-147.jp2",
       "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
       "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    },
+    {
+      "title": "ATF 1898, leaf 262",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n262/mode/1up",
+      "file": "reference/atf1898-leaf-262.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+    },
+    {
+      "title": "ATF 1898, leaf 263",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n263/mode/1up",
+      "file": "reference/atf1898-leaf-263.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
     }
   ],
   "revival": {

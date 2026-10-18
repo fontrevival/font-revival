@@ -36,10 +36,25 @@ Inspect source comparisons, the full inventory and words at several sizes.
 ## Small-source reconstructions
 
 The following original crops are retained for comparison, but their enlarged
-scan outlines are replaced with explicit drawings: `Vfx`. Each entry
+scan outlines are replaced with explicit drawings: `x`. Each entry
 in `companions.json` explains its source relationships and inferred details.
 The source-comparison proof labels these as redrawn.
 
-The uncial capital W is an observed historical form, not a lowercase alias. Its
-explicitly inferred lowercase companion preserves that double-bowl construction.
+The uncial capital W is an observed historical form, not a lowercase alias. The
+observed 24-point lowercase w preserves that double-bowl construction.
 The dotted i/j are shorter than the spurred h/k/l ascenders in the large source.
+
+## Additional specimen impressions
+
+`KVbfw` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

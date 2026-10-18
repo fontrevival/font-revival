@@ -607,6 +607,121 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 17, sort 25. Pixel measurements retained in source/rows.json."
+    },
+    "3": {
+      "file": "reference/atf1898-leaf-439.jp2",
+      "box": [
+        235,
+        957,
+        537,
+        1265
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 848,
+      "center": true,
+      "height": 708,
+      "y_min": 3,
+      "notes": "Observed 42-point 3; ATF 1898, leaf 439. Row: 3SEN. Uniform scale from 257-pixel ordinary cap body; original digital advance retained."
+    },
+    "W": {
+      "file": "reference/atf1898-leaf-439.jp2",
+      "box": [
+        602,
+        1737,
+        934,
+        1981
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 1415,
+      "center": true,
+      "height": 700,
+      "y_min": 4,
+      "notes": "Observed 30-point W; ATF 1898, leaf 439. Row: 5WORK. Uniform scale from 187-pixel ordinary cap body; original digital advance retained."
+    },
+    "6": {
+      "file": "reference/atf1898-leaf-439.jp2",
+      "box": [
+        1606,
+        2079,
+        1785,
+        2285
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 900,
+      "center": true,
+      "height": 731,
+      "y_min": -27,
+      "notes": "Observed 24-point 6; ATF 1898, leaf 439. Row: 6. Uniform scale from 158-pixel ordinary cap body; original digital advance retained."
+    },
+    "7": {
+      "file": "reference/atf1898-leaf-439.jp2",
+      "box": [
+        218,
+        2382,
+        351,
+        2544
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 856,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 18-point 7; ATF 1898, leaf 439. Row: 7. Uniform scale from 113-pixel ordinary cap body; original digital advance retained."
+    },
+    "9": {
+      "file": "reference/atf1898-leaf-439.jp2",
+      "box": [
+        209,
+        2884,
+        290,
+        2984
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 900,
+      "center": true,
+      "height": 730,
+      "y_min": -10,
+      "notes": "Observed 12-point 9; ATF 1898, leaf 439. Row: 9. Uniform scale from 70-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

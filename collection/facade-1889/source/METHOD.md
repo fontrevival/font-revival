@@ -31,3 +31,18 @@ python scripts/fontrevival.py build facade-1889
 
 Normal release builds use the canonical `font.ttx`, not the tracing recipe.
 Inspect source comparisons, the full inventory and words at several sizes.
+
+## Additional specimen impressions
+
+`4` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

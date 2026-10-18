@@ -1095,6 +1095,152 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 17, sort 6. Pixel measurements retained in source/rows.json."
+    },
+    "b": {
+      "file": "reference/gpo1897-leaf-157.jp2",
+      "box": [
+        574,
+        884,
+        733,
+        1203
+      ],
+      "blur": 0.7,
+      "threshold": 155,
+      "fill_holes": 12,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 625,
+      "center": true,
+      "height": 711,
+      "y_min": 0,
+      "notes": "Observed 48-point b; GPO Job Division 1897, printed p. 75, leaf 157. Row: abcdefghijkl. Uniform scale from 193-pixel ordinary cap body; original digital advance retained."
+    },
+    "f": {
+      "file": "reference/gpo1897-leaf-157.jp2",
+      "box": [
+        1178,
+        915,
+        1297,
+        1124
+      ],
+      "blur": 0.7,
+      "threshold": 155,
+      "fill_holes": 12,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 521,
+      "center": true,
+      "height": 696,
+      "y_min": 7,
+      "notes": "Observed 48-point f; GPO Job Division 1897, printed p. 75, leaf 157. Row: abcdefghijkl. Uniform scale from 193-pixel ordinary cap body; original digital advance retained."
+    },
+    "g": {
+      "file": "reference/gpo1897-leaf-157.jp2",
+      "box": [
+        1268,
+        974,
+        1452,
+        1184
+      ],
+      "blur": 0.7,
+      "threshold": 155,
+      "fill_holes": 12,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 662,
+      "center": true,
+      "height": 700,
+      "y_min": -221,
+      "notes": "Observed 48-point g; GPO Job Division 1897, printed p. 75, leaf 157. Row: abcdefghijkl. Uniform scale from 193-pixel ordinary cap body; original digital advance retained."
+    },
+    "j": {
+      "file": "reference/gpo1897-leaf-157.jp2",
+      "box": [
+        1680,
+        919,
+        1797,
+        1190
+      ],
+      "keep_components": 2,
+      "erase": [
+        [
+          0,
+          0,
+          29,
+          205
+        ]
+      ],
+      "blur": 0.7,
+      "threshold": 155,
+      "fill_holes": 12,
+      "tolerance": 0.25,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 412,
+      "center": true,
+      "height": 925,
+      "y_min": -228,
+      "notes": "Observed 48-point j; GPO Job Division 1897, printed p. 75, leaf 157. Row: abcdefghijkl. Uniform scale from 193-pixel ordinary cap body; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
+    },
+    "K": {
+      "file": "reference/atf1898-leaf-226.jp2",
+      "box": [
+        869,
+        2768,
+        1028,
+        2951
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 937,
+      "center": true,
+      "height": 694,
+      "y_min": 11,
+      "notes": "Observed 20-point K; ATF 1898, leaf 226. Row: WRECKBRAIN. Uniform scale from 122-pixel ordinary cap body; Advance widened to leave 25-unit sidebearings around the source-proportioned outline."
+    },
+    "J": {
+      "file": "reference/atf1898-leaf-227.jp2",
+      "box": [
+        1412,
+        1069,
+        1462,
+        1176
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 673,
+      "center": true,
+      "height": 673,
+      "y_min": 0,
+      "notes": "Observed 10-point J; ATF 1898, leaf 227. Row: 45IntelligentandCriticalJudge. Uniform scale from 52-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

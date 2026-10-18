@@ -4,7 +4,7 @@ Open shadow contours for overprinting with Erebus 1894, with matching advances a
 
 ![Hades 1894 specimen](specimens/preview.png)
 
-**1894 · Regular · Version 1.001 · 104 characters · Capitals only · MIT**
+**1894 · Regular · Version 1.002 · 104 characters · Capitals only · MIT**
 
 [OTF](fonts/Hades1894-Regular.otf) · [TTF](fonts/Hades1894-Regular.ttf) · [WOFF2](web/Hades1894-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,7 +19,7 @@ and use `font-family: "Hades 1894"`. Designed for display sizes.
 
 **Foundry:** Central Type Foundry, St. Louis
 
-**Observed:** The historical Hades specimens establish the open lower-left shadow construction and its pairing with Erebus. Retained comparison crops show BASKET, HOLDER, WALNUT and GROVES, plus figures 7 and 8. See Erebus 1894 for the underlying observed letterforms.
+**Observed:** The historical Hades specimens establish the open lower-left shadow construction and its pairing with Erebus. Retained comparison crops show BASKET, HOLDER, WALNUT and GROVES, plus figures 7 and 8. See Erebus 1894 for the underlying observed letterforms. The underlying J/0/4 follow the additional 1889/1892 Erebus specimens retained with that family.
 
 **Reconstructed:** Every outline is a new registered reconstruction: Erebus 1894 shifted 28 units left and down, minus its original silhouette. The offset is an optical interpretation of the historical edge weight, not a measured metal-type registration. Rare sorts follow Erebus’s documented inferences. Advances, character map and kerning match Erebus exactly; lowercase aliases capitals. Place both fonts at the same origin, size, tracking and line height. The source year does not assert a first release.
 

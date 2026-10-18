@@ -4,7 +4,7 @@ Broad display letters with tapered serifs, open round bowls and a lightly contra
 
 ![Latin Antique 1889 specimen](specimens/preview.png)
 
-**1889 · Regular · Version 1.000 · 104 characters · MIT**
+**1889 · Regular · Version 1.001 · 104 characters · MIT**
 
 [OTF](fonts/LatinAntique1889-Regular.otf) · [TTF](fonts/LatinAntique1889-Regular.ttf) · [WOFF2](web/LatinAntique1889-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,13 +19,16 @@ and use `font-family: "Latin Antique 1889"`. Designed for display sizes.
 
 **Foundry:** Boston and Central Type Foundries
 
-**Observed:** Directly traced characters: 012345679ABCDEFGHIJKLMNOPQRSTUXacdefgiklmnorstuvwy. Printed page 139, PDF page 145. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well.
+**Observed:** Directly traced characters: 012345679ABCDEFGHIJKLMNOPQRSTUXacdefgiklmnorstuvwy. Printed page 139, PDF page 145. Larger impressions anchor the master; smaller optical sizes supply additional characters. Crops are retained for separately labelled small-source reconstructions as well. Additional directly traced impressions supply 8VWYZbhjpqxz. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.
 
-**Reconstructed:** Inferred companion letters and figures: Zbjqxz. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release. Characters redrawn in place of coarse smaller-size traces: 8VWYhp; see companions.json for the construction of each.
+**Reconstructed:** All letters and figures are observed. Punctuation and remaining symbols are new project drawings. Both historical cases are retained. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.
 
 ## Sources
 
 1. [Specimen book from the Boston type foundry (1889), Latin Antique; printed p. 139, one-based PDF page 145, Internet Archive leaf 145](https://archive.org/details/specimenbookfrom00unse/page/n145/mode/1up) — 1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used. [Rights basis](https://archive.org/metadata/specimenbookfrom00unse).
+2. [GPO Job Division 1897, printed p. 38, leaf 85](https://archive.org/details/specimensofjobdi00unit/page/n85/mode/1up) — 1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/specimensofjobdi00unit).
+3. [GPO Job Division 1897, printed p. 39, leaf 87](https://archive.org/details/specimensofjobdi00unit/page/n87/mode/1up) — 1897 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/specimensofjobdi00unit).
+4. [ATF 1898, leaf 260](https://archive.org/details/deskbookofprinti00amer/page/n260/mode/1up) — 1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/deskbookofprinti00amer).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

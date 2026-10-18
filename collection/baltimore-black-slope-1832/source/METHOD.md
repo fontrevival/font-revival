@@ -19,10 +19,10 @@ adjustments where changed neighbours would collide. `review_spacing.py` retains
 the measurement method; its output is a candidate for visual review, not a
 normal build step. These are new digital adjustments, not historical kerning.
 
-The source supplies capitals A–X, lining figures, $, æ and all lowercase except
-k/w/y/z. Y/Z are new companions adapted from the repository's traced Title Letter
-on PDF page 77, fitted and backslanted. Lowercase companions derive from the
-observed l/v and the new Z. Punctuation is new MIT project work. Each drawing
+The Baltimore source supplies capitals A–X, lining figures, $, æ and all lowercase
+except k/w/y/z. Boston's 1832 English Back Slope supplies Y/Z/k/w/y/z, completing
+the observed alphabet. The matching Latin passage, backslant, capital curls and
+figure forms establish the connection between these differently titled showings. Punctuation is new MIT project work. Each drawing
 and its rationale is explicit in `companions.json`. No capital aliases substitute
 for the lowercase.
 
@@ -38,3 +38,18 @@ python scripts/fontrevival.py build baltimore-black-slope-1832
 
 Normal builds use `font.ttx`. Inspect the source comparison, lowercase words,
 complete character inventory and gallery when revising these forms.
+
+## Additional specimen impressions
+
+`YZkwyz` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

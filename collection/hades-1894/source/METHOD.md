@@ -51,3 +51,7 @@ After building both fonts, run `python collection/hades-1894/source/proof.py`, t
 build Hades again to include `specimens/pairing.pdf` in its checksums. The proof
 shows each layer separately and overprinted at the same origin, size and spacing.
 Keep tracking, shaping, line height and alignment identical in applications.
+
+J/0/4 are registered against the additional 1889/1892 Erebus impressions.
+Their editable shadow paths and matching advances are retained in `glyphs/`
+and `companions.json`. `registration.json` pins Erebus 1.002.

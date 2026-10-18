@@ -4,7 +4,7 @@ Narrow, dark display letters with angular counters, curled terminals and true lo
 
 ![Grady 1894 specimen](specimens/preview.png)
 
-**1894 · Regular · Version 1.001 · 104 characters · MIT**
+**1894 · Regular · Version 1.002 · 104 characters · MIT**
 
 [OTF](fonts/Grady1894-Regular.otf) · [TTF](fonts/Grady1894-Regular.ttf) · [WOFF2](web/Grady1894-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,14 +19,15 @@ and use `font-family: "Grady 1894"`. Designed for display sizes.
 
 **Foundry:** Dickinson Type Foundery, Boston
 
-**Observed:** Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.
+**Observed:** Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 0w. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.
 
-**Reconstructed:** Inferred alphabet/figures: JQZjqwxz01. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.
+**Reconstructed:** Inferred alphabet/figures: JQZjqxz1. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.
 
 ## Sources
 
 1. [John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 133](https://archive.org/details/lateststandardfa00ryan/page/133/mode/1up) — 1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json. [Rights basis](https://archive.org/metadata/lateststandardfa00ryan).
 2. [American Type Founders, Collective Specimen Book (1895/96), printed p. 463](https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-326-grady-series-dickinson-type-foundery-publicdomain.pdf) — Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF. [Rights basis](https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html).
+3. [ATF 1898, leaf 420](https://archive.org/details/deskbookofprinti00amer/page/n420/mode/1up) — 1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page. [Rights basis](https://archive.org/metadata/deskbookofprinti00amer).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

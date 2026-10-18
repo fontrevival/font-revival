@@ -603,6 +603,75 @@
       "blur": 0.55,
       "fill_holes": 4,
       "notes": "Observed impression, measured row 3, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "0": {
+      "file": "reference/central1892-leaf-110.jp2",
+      "box": [
+        3727,
+        5867,
+        4015,
+        6430
+      ],
+      "blur": 1.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 531,
+      "center": true,
+      "height": 710,
+      "y_min": -5,
+      "notes": "Observed 36-point 0; Central and Boston 1892, Erebus, unnumbered leaf 110. PASTORATE90. Uniform scale from 417 native pixels in the same line; original digital advance retained."
+    },
+    "J": {
+      "file": "reference/central1892-leaf-110.jp2",
+      "box": [
+        868,
+        7343,
+        1035,
+        7746
+      ],
+      "blur": 1.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 580,
+      "center": true,
+      "height": 695,
+      "y_min": 0,
+      "notes": "Observed 24-point J; Central and Boston 1892, Erebus, unnumbered leaf 110. ENJOYEDLUNCHES36. Uniform scale from 263 native pixels in the same line; original digital advance retained."
+    },
+    "4": {
+      "file": "reference/boston1889-leaf-180.jp2",
+      "box": [
+        2493,
+        2516,
+        2575,
+        2681
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 641,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 36-point 4; Boston specimen 1889, printed p. 174, leaf 180. 24. Uniform scale from 114 native pixels in the same line; original digital advance retained."
     }
   }
 }

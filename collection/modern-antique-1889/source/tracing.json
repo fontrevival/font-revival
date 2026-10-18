@@ -1205,6 +1205,52 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 18, sort 32. Pixel measurements retained in source/rows.json."
+    },
+    "7": {
+      "file": "reference/atf1898-leaf-262.jp2",
+      "box": [
+        1654,
+        1131,
+        1837,
+        1521
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 546,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 60-point 7; ATF 1898, leaf 262. Row: Corner7. Uniform scale from 310-pixel ordinary cap body; original digital advance retained."
+    },
+    "9": {
+      "file": "reference/atf1898-leaf-263.jp2",
+      "box": [
+        677,
+        1620,
+        735,
+        1765
+      ],
+      "blur": 0.5,
+      "threshold": 135,
+      "fill_holes": 4,
+      "tolerance": 0.25,
+      "keep_components": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "advance_width": 499,
+      "center": true,
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed 18-point 9; ATF 1898, leaf 263. Row: Produce9DistributingAgents. Uniform scale from 87-pixel ordinary cap body; original digital advance retained."
     }
   }
 }

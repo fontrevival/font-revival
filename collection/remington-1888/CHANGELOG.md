@@ -1,5 +1,10 @@
 # Changes
 
+## 1.003
+
+- Restore `345W` from additional historical specimen impressions, replacing inferred forms or coarse earlier traces.
+- Retain exact source pages, repeatable crops and a before/after proof; fit advances where needed to preserve source proportions.
+
 ## 1.002
 
 - Restore lowercase t from the erroneous 480-unit x-height to the observed

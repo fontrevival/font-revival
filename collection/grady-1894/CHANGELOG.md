@@ -1,5 +1,10 @@
 # Changes
 
+## 1.002
+
+- Restore `0w` from additional historical specimen impressions, replacing inferred forms or coarse earlier traces.
+- Retain exact source pages, repeatable crops and a before/after proof; fit advances where needed to preserve source proportions.
+
 ## 1.001
 
 - Update copyright and release metadata to Harold Lehmann; retain the MIT license.

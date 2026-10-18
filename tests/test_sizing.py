@@ -35,11 +35,12 @@ class SizingTests(unittest.TestCase):
     def current(self):
         return revival.load_source(FAMILY, revival.metadata(FAMILY))
 
-    def test_original_remington_exposes_t_and_e_despite_correct_advances(self):
+    def test_original_remington_exposes_superseded_shapes_despite_correct_advances(self):
         with TTFont() as font:
             font.importXML(FAMILY / "source/font.ttx")
             report = revival.sizing_report(font, self.profile)
-            self.assertEqual({"t", "e"}, {v["character"] for v in report["violations"]})
+            self.assertEqual({"t", "e", "3", "4", "W"},
+                             {v["character"] for v in report["violations"]})
             self.assertIn("t", {v["character"] for v in report["warnings"]})
             self.assertEqual(600, report["measurements"]["t"]["advance_width"])
             self.assertEqual(600, report["measurements"]["e"]["advance_width"])
@@ -52,7 +53,7 @@ class SizingTests(unittest.TestCase):
                 self.assertFalse(report["warnings"])
                 self.assertTrue(all(row["advance_width"] == 600 for row in report["measurements"].values()))
 
-    def test_revision_changes_only_e_and_t_and_preserves_font_contracts(self):
+    def test_revisions_change_only_reviewed_glyphs_and_preserve_font_contracts(self):
         with TTFont() as before, self.current() as after:
             before.importXML(FAMILY / "source/font.ttx")
             self.assertEqual(before.getBestCmap(), after.getBestCmap())
@@ -66,7 +67,7 @@ class SizingTests(unittest.TestCase):
                 after.getGlyphSet()[name].draw(new)
                 if old.value != new.value:
                     changed.add(name)
-            self.assertEqual({"e", "t"}, changed)
+            self.assertEqual({"e", "t", "W", "three", "four", "five"}, changed)
             for tag in ("GPOS", "GSUB", "kern"):
                 self.assertEqual(tag in before, tag in after)
                 if tag in before:

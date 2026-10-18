@@ -1,5 +1,10 @@
 # Changes
 
+## 1.001
+
+- Restore `79` from additional historical specimen impressions, replacing inferred forms or coarse earlier traces.
+- Retain exact source pages, repeatable crops and a before/after proof; fit advances where needed to preserve source proportions.
+
 ## 1.000
 
 - Revive the display face from the 1889 Boston specimen.

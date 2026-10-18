@@ -4,7 +4,7 @@ A monospaced metal-type imitation of typewriting, following the 12-point No. 2 c
 
 ![Remington 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.002 · 104 characters · MIT**
+**1888 · Regular · Version 1.003 · 104 characters · MIT**
 
 [OTF](fonts/Remington1888-Regular.otf) · [TTF](fonts/Remington1888-Regular.ttf) · [WOFF2](web/Remington1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,13 +19,14 @@ and use `font-family: "Remington 1888"`. Designed for display sizes.
 
 **Foundry:** Barnhart Brothers & Spindler, Chicago
 
-**Observed:** Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.
+**Observed:** Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json. Additional directly traced impressions supply 345W. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.
 
-**Reconstructed:** Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release. Version 1.002 restores the observed ascender-height t and gives e a new optical width/overshoot adjustment; see source/METHOD.md and source/glyphs/. No accented derivatives are encoded.
+**Reconstructed:** Inferred alphabet/figures: EFKOQUVXYZj9. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release. Version 1.002 restores the observed ascender-height t and gives e a new optical width/overshoot adjustment; see source/METHOD.md and source/glyphs/. No accented derivatives are encoded.
 
 ## Sources
 
 1. [The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 137](https://archive.org/details/sim_american-printer_1888-11_6_2/page/n48/mode/1up) — 1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+2. [GPO Specimens of Job Room Type 1904, printed p. 115, PDF page 131](https://www.govinfo.gov/content/pkg/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f/pdf/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f.pdf) — 1904 US publication, public domain by age. Historical Government Printing Office scan hosted by govinfo; no modern digital font used. Lossless 350-dpi grayscale rendering of PDF page 131, composing its native scanned foreground and background. [Rights basis](https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

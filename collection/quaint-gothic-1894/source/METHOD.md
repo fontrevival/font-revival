@@ -1,6 +1,6 @@
 # Quaint Gothic 1894: evidence and method
 
-The sole drawing source is the page headed **QUAINT GOTHIC**, printed p. 148 of
+The principal drawing source is the page headed **QUAINT GOTHIC**, printed p. 148 of
 the John Ryan Foundry's September 1894 catalogue. The year in the revival name
 dates this source; it is not a claim about the design's first appearance.
 The catalogue does not identify the designer or original maker. Ryan is credited
@@ -17,9 +17,10 @@ the baseline, not scanning or alignment errors. The font retains them.
 
 The source supplies A–P, R–Y, 1, 2, 4, 5, 6, 9 and $. Smaller impressions supply
 B, J, K, M, P and X. Their proportions are harmonised with the larger letters;
-this is a single display master, not an optical-size family. Q and Z and figures
-0, 3, 7 and 8 are inferred. Q follows O and the long R leg; 0 is a smaller O;
-the remaining forms use the observed stroke contrast. All other punctuation and
+this is a single display master, not an optical-size family. Q and Z remain inferred. Q follows O and the long R leg. Figures 3/8 follow
+the 18-point ATF 1898 showing; 0/7 follow the Central/Boston 1892 12/10-point
+showings. A one-pixel ink-spread correction on 0 harmonises its small optical
+size with the larger core letters. All other punctuation and
 symbols are new companions.
 
 This is a capitals-only face. Lowercase input maps to the capitals. The 104 encoded
@@ -61,3 +62,18 @@ and its URL are preserved in `reference/ryan-rights.json`. This nineteenth-centu
 US publication is also beyond the maximum 95-year copyright term described in
 US Copyright Office Circular 15A. `font.json` records the source and rights links.
 No modern digital font or later commercial specimen supplied outlines.
+
+## Additional specimen impressions
+
+`0378` follow the additional historical impressions listed in `font.json`.
+Their native crops, row transcriptions, cap-body scale anchors, baseline positions
+and cleanup are recorded in `tracing.json`. Each crop uses a uniform scale;
+small optical-size differences remain visible. These forms replace companion
+drawings or coarser traces. The corresponding entries are removed from
+`companions.json`; editable final paths are in `glyphs/`. Normal builds apply
+those paths over `font.ttx`.
+
+Digital advances are retained except where the source-proportioned outline
+needs additional sidebearings, as recorded per glyph. Compare the retained
+source crops with `../specimens/source-review.pdf` and the revision with
+`../specimens/specimen-restoration-review.pdf`.

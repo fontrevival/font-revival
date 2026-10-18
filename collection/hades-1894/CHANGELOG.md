@@ -1,5 +1,10 @@
 # Changes
 
+## 1.002
+
+- Derive J/0/4 from the specimen-traced Erebus 1.002 outlines, preserving registration and matching advances.
+- Retain editable shadow paths and a before/after proof.
+
 ## 1.001
 
 - Update copyright and release metadata to Harold Lehmann; retain the MIT license.

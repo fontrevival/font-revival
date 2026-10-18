@@ -78,27 +78,8 @@ def prepare(output, potrace):
                 images[entry['file']] = image.convert('L')
         drawings[ch] = trace(images[entry['file']], entry, potrace) | {
             'glyph': glyph_name(ch), 'notes': entry['notes']}
-    raw_v = drawings['V'].copy()
     for ch, radius in settings['inset_radius'].items():
         drawings[ch] = refine(drawings[ch], radius)
-    v = settings['v']
-    source = refine(raw_v, v['source_inset_radius'])
-    scale = v['scale']
-    drawings['v'] = {
-        'glyph': 'v', 'advance_width': v['advance_width'],
-        'path': transform(source['path'], (scale, 0, 0, scale,
-                          (v['advance_width'] - raw_v['advance_width'] * scale) / 2,
-                          v['y_shift'])),
-        'notes': 'Display-size reconstruction from the observed V at 72% scale, '
-                 'with a separate 12-unit capital-scale weight correction to match '
-                 'the lowercase. The small 1889 v establishes the fork and foot; '
-                 'the larger y corroborates the flared right entry. Preserve the original advance.'}
-    width = settings['q']['advance_width']
-    drawings['q'] = {
-        'glyph': 'q', 'advance_width': width,
-        'path': transform(drawings['p']['path'], (-1, 0, 0, 1, width, 0)),
-        'notes': 'Inferred q reflects the weight-refined 48-point p bowl and stem. '
-                 'No q impression has been located; the reflected entry and exit terminals remain reconstructed.'}
     output.mkdir(parents=True, exist_ok=True)
     for drawing in drawings.values():
         (output / (drawing['glyph'] + '.json')).write_text(json.dumps(drawing, indent=2) + '\n')

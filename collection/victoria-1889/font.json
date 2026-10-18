@@ -3,7 +3,7 @@
   "id": "victoria-1889",
   "name": "Victoria 1889",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "Victoria1889-Regular",
   "year": 1889,
   "designer": "Unidentified in the consulted historical specimen",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "BAKED FRESH",
-  "observed": "Directly sampled characters: 0124568ABCDEFGHIKLMNOPQRSTUWX£. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts.",
-  "reconstructed": "Inferred alphabet and figure companions: JVYZ379. Explicit repairs of small observed impressions: W. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
+  "observed": "Directly sampled characters: 0124568ABCDEFGHIKLMNOPQRSTUWX£. See source/tracing.json for individual native crops; larger impressions anchor the master and smaller ones supply missing sorts. Additional directly traced impressions supply 379Y. Exact editions, pages, crops, scale anchors and cleanup are recorded in source/tracing.json and reference/specimen-restoration-sources.json.",
+  "reconstructed": "Inferred alphabet and figure companions: JVZ. Explicit repairs of small observed impressions: W. Details and construction bases are recorded per glyph in source/companions.json. Some missing forms are adapted from the adjacent related historical design, with that page retained as a secondary source. Punctuation and remaining symbols are new MIT project drawings. Lowercase aliases capitals. Spacing and optical-size harmonisation are modern choices; 1889 dates the specimen, not a claimed first issue.",
   "sources": [
     {
       "title": "Specimen book from the Boston type foundry (1889), Victoria; printed p. 186, one-based PDF page 192, Internet Archive leaf 192",
@@ -28,6 +28,13 @@
       "file": "reference/pdf-193.jp2",
       "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
       "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    },
+    {
+      "title": "ATF 1898, leaf 438",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n438/mode/1up",
+      "file": "reference/atf1898-leaf-438.jp2",
+      "rights": "1898 US publication, public domain by age. Historical scan and institutional metadata retained; no modern digital font used. Native JP2 page.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
     }
   ],
   "revival": {
