@@ -3,7 +3,7 @@
   "notes": "Reviewed against native crops, source comparison proofs, complete inventories and words. Rules preserve optical-size differences and distinguish ornamental extensions from the body.",
   "rules": [
     {
-      "characters": "ACEGIJLOSTVWZ",
+      "characters": "ACEGIJLOSTZ",
       "y_min": [
         -35,
         20
@@ -72,10 +72,10 @@
         650,
         745
       ],
-      "notes": "Reviewed lining figures, including the lower optical top and tapered foot of the 24-point 7."
+      "notes": "Reviewed lining figures, including the lower optical top and tapered foot of the 48-point 7."
     },
     {
-      "characters": "cemnorsuvwxz",
+      "characters": "cemnorsvwxz",
       "y_min": [
         -30,
         25
@@ -108,7 +108,7 @@
         735,
         785
       ],
-      "notes": "Observed d and reconstructed b retain the descending exit spur and raised ascender."
+      "notes": "Observed b and d retain the descending exit spur and raised ascender."
     },
     {
       "characters": "fhikl",
@@ -137,26 +137,26 @@
     {
       "characters": "g",
       "y_min": [
-        -350,
-        -305
+        -300,
+        -260
       ],
       "y_max": [
-        495,
-        545
+        520,
+        560
       ],
-      "notes": "The 12-point g has a deep lower bowl; preserve it without shrinking the body."
+      "notes": "Observed 42-point g: pointed lower terminal, lighter bowl and measured descender from ATF 1896 p. 460."
     },
     {
-      "characters": "pqy",
+      "characters": "pq",
       "y_min": [
-        -275,
-        -225
+        -290,
+        -250
       ],
       "y_max": [
-        515,
-        570
+        525,
+        565
       ],
-      "notes": "Observed p and inferred q/y preserve lowercase descender depth."
+      "notes": "Observed 48-point p and reflected inferred q retain the larger source’s stem and descender."
     },
     {
       "characters": "t",
@@ -169,6 +169,42 @@
         700
       ],
       "notes": "Observed t rises above the lowercase body but below ascender tips."
+    },
+    {
+      "characters": "VW",
+      "y_min": [
+        -15,
+        20
+      ],
+      "y_max": [
+        755,
+        800
+      ],
+      "notes": "Observed flared upper-right terminals rise above the ordinary cap body in ATF 1896/1898."
+    },
+    {
+      "characters": "u",
+      "y_min": [
+        -65,
+        -25
+      ],
+      "y_max": [
+        480,
+        525
+      ],
+      "notes": "The 42-point u has an exit spur below its rounded body, matching the 1892 impression."
+    },
+    {
+      "characters": "y",
+      "y_min": [
+        -290,
+        -250
+      ],
+      "y_max": [
+        570,
+        610
+      ],
+      "notes": "Observed 48-point y from Monday, ATF 1898 p. 444: raised right entry and curved descending tail."
     }
   ]
 }

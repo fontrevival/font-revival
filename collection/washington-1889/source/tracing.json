@@ -10,12 +10,10 @@
     "win_descent": 350
   },
   "review_words": [
-    "Musical Academy",
-    "QUICK BROWN FOX",
-    "JAZZ VEXES WALTZ",
-    "0123456789",
-    "Quiet jazz by moonlight",
-    "abcdefghijklmnopqrstuvwxyz"
+    "Pig, quiver, voyage, Monday",
+    "Buckles, Luminous, Washers",
+    "Quiet voyages by moonlight",
+    "abcdefghijklmnopqrstuvwxyz 0123456789"
   ],
   "glyphs": {
     "F": {
@@ -855,114 +853,124 @@
       "notes": "Observed impression; transcribed row 7, sort 5. Pixel measurements retained in source/rows.json."
     },
     "7": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1896-washington-middle.png",
       "box": [
-        2484,
-        2312,
-        2549,
-        2391
+        3079,
+        126,
+        3304,
+        395
       ],
       "rotation": 0,
-      "height": 714,
-      "y_min": -46,
+      "height": 711,
+      "y_min": -22,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 7, sort 12. Pixel measurements retained in source/rows.json."
+      "blur": 0.6,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed 7: supplemental-rows.json row 8; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 655,
+      "center": true,
+      "keep_components": 1
     },
     "4": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1898-leaf-446.jp2",
       "box": [
-        2553,
-        2310,
-        2620,
-        2387
+        1644,
+        2053,
+        1841,
+        2272
       ],
       "rotation": 0,
-      "height": 695,
+      "height": 699,
+      "y_min": 8,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.6,
+      "threshold": 150,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed 4: supplemental-rows.json row 1; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 684,
+      "center": true,
+      "keep_components": 1
+    },
+    "p": {
+      "file": "reference/atf1896-washington-middle.png",
+      "box": [
+        3844,
+        179,
+        4064,
+        489
+      ],
+      "rotation": 0,
+      "height": 821,
+      "y_min": -274,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.6,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed p: supplemental-rows.json row 8; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 695,
+      "center": true,
+      "keep_components": 1
+    },
+    "5": {
+      "file": "reference/atf1896-washington-middle.png",
+      "box": [
+        905,
+        105,
+        1161,
+        409
+      ],
+      "rotation": 0,
+      "height": 719,
       "y_min": -6,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 7, sort 13. Pixel measurements retained in source/rows.json."
-    },
-    "p": {
-      "file": "reference/pdf-190.jp2",
-      "box": [
-        659,
-        2718,
-        710,
-        2781
-      ],
-      "rotation": 0,
-      "height": 790,
-      "y_min": -247,
-      "bearings": [
-        35,
-        35
-      ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 9, sort 2. Pixel measurements retained in source/rows.json."
-    },
-    "5": {
-      "file": "reference/pdf-190.jp2",
-      "box": [
-        1242,
-        2706,
-        1292,
-        2764
-      ],
-      "rotation": 0,
-      "height": 723,
-      "y_min": -19,
-      "bearings": [
-        35,
-        35
-      ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 9, sort 13. Pixel measurements retained in source/rows.json."
+      "blur": 0.6,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed 5: supplemental-rows.json row 13; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 683,
+      "center": true,
+      "keep_components": 1
     },
     "W": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1898-leaf-446.jp2",
       "box": [
-        2532,
-        2608,
-        2588,
-        2650
+        268,
+        2900,
+        513,
+        3111
       ],
       "rotation": 0,
-      "height": 765,
-      "y_min": 10,
+      "height": 773,
+      "y_min": 4,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
+      "blur": 0.6,
       "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 10, sort 21. Pixel measurements retained in source/rows.json."
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed W: supplemental-rows.json row 2; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 1080,
+      "center": true,
+      "keep_components": 1
     },
     "v": {
       "file": "reference/pdf-190.jp2",
@@ -987,92 +995,100 @@
       "notes": "Observed impression; transcribed row 11, sort 9. Pixel measurements retained in source/rows.json."
     },
     "g": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1896-washington-middle.png",
       "box": [
-        2331,
-        2728,
-        2367,
-        2774
+        441,
+        1202,
+        637,
+        1476
       ],
       "rotation": 0,
-      "height": 846,
-      "y_min": -326,
+      "height": 823,
+      "y_min": -282,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 11, sort 15. Pixel measurements retained in source/rows.json."
+      "blur": 0.6,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed g: supplemental-rows.json row 9; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 698,
+      "center": true,
+      "keep_components": 1
     },
     "u": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/central1892-leaf-78.jp2",
       "box": [
-        798,
-        3027,
-        831,
-        3052
+        1135,
+        7714,
+        1573,
+        8106
       ],
       "rotation": 0,
-      "height": 510,
-      "y_min": 8,
+      "height": 548,
+      "y_min": -45,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
+      "blur": 2.0,
       "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 13, sort 6. Pixel measurements retained in source/rows.json."
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed u: supplemental-rows.json row 5; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 651,
+      "center": true,
+      "keep_components": 1
     },
     "9": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1898-leaf-447.jp2",
       "box": [
-        1286,
-        3085,
-        1316,
-        3120
+        1665,
+        1290,
+        1773,
+        1423
       ],
       "rotation": 0,
-      "height": 753,
-      "y_min": 4,
+      "height": 695,
+      "y_min": -26,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
+      "blur": 0.6,
       "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 14, sort 24. Pixel measurements retained in source/rows.json."
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed 9: supplemental-rows.json row 3; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 618,
+      "center": true,
+      "keep_components": 1
     },
     "m": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/central1892-leaf-79.jp2",
       "box": [
-        2013,
-        3026,
-        2052,
-        3047
+        1519,
+        2477,
+        2075,
+        2779
       ],
       "rotation": 0,
-      "height": 561,
-      "y_min": 31,
+      "height": 527,
+      "y_min": 7,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
+      "blur": 3.0,
       "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 16, sort 6. Pixel measurements retained in source/rows.json."
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed m: supplemental-rows.json row 6. Uniform scaling preserves the larger impression’s stroke weight and proportions. Set 35-unit sidebearings; the former reconstructed cell was too narrow for this observed outline.",
+      "advance_width": 1053,
+      "center": true,
+      "keep_components": 1
     },
     "f": {
       "file": "reference/pdf-190.jp2",
@@ -1097,70 +1113,76 @@
       "notes": "Observed impression; transcribed row 16, sort 9. Pixel measurements retained in source/rows.json."
     },
     "b": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1898-leaf-447.jp2",
       "box": [
-        1788,
-        3089,
-        1810,
-        3116
+        356,
+        1276,
+        469,
+        1425
       ],
       "rotation": 0,
-      "height": 759,
-      "y_min": -35,
+      "height": 781,
+      "y_min": -37,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
+      "blur": 0.6,
       "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 17, sort 2. Pixel measurements retained in source/rows.json."
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed b: supplemental-rows.json row 3; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 669,
+      "center": true,
+      "keep_components": 1
     },
     "h": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1898-leaf-446.jp2",
       "box": [
-        1865,
-        3089,
-        1890,
-        3115
+        1605,
+        1135,
+        1834,
+        1406
       ],
       "rotation": 0,
-      "height": 726,
-      "y_min": 11,
+      "height": 748,
+      "y_min": 0,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
+      "blur": 0.6,
       "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 17, sort 6. Pixel measurements retained in source/rows.json."
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed h: supplemental-rows.json row 0. Uniform scaling preserves the larger impression’s stroke weight and proportions. Set 35-unit sidebearings; the former reconstructed cell was too narrow for this observed outline.",
+      "advance_width": 702,
+      "center": true,
+      "keep_components": 1
     },
     "w": {
-      "file": "reference/pdf-190.jp2",
+      "file": "reference/atf1896-washington-middle.png",
       "box": [
-        1963,
-        3096,
-        2003,
-        3117
+        518,
+        2143,
+        747,
+        2272
       ],
       "rotation": 0,
-      "height": 561,
-      "y_min": -38,
+      "height": 562,
+      "y_min": -22,
       "bearings": [
         35,
         35
       ],
-      "blur": 0.45,
-      "threshold": 150,
-      "fill_holes": 12,
-      "component_min_area": 4,
-      "tolerance": 0.25,
-      "notes": "Observed impression; transcribed row 17, sort 9. Pixel measurements retained in source/rows.json."
+      "blur": 0.6,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed w: supplemental-rows.json row 11. Uniform scaling preserves the larger impression’s stroke weight and proportions. Set 35-unit sidebearings; the former reconstructed cell was too narrow for this observed outline.",
+      "advance_width": 1082,
+      "center": true,
+      "keep_components": 1
     },
     "z": {
       "file": "reference/pdf-190.jp2",
@@ -1205,6 +1227,78 @@
       "component_min_area": 4,
       "tolerance": 0.25,
       "notes": "Observed impression; transcribed row 17, sort 31. Pixel measurements retained in source/rows.json."
+    },
+    "V": {
+      "file": "reference/atf1896-washington-middle.png",
+      "box": [
+        2284,
+        2124,
+        2441,
+        2274
+      ],
+      "rotation": 0,
+      "height": 772,
+      "y_min": 4,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.6,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed V: supplemental-rows.json row 12; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 844,
+      "center": true,
+      "keep_components": 1
+    },
+    "k": {
+      "file": "reference/central1892-leaf-78.jp2",
+      "box": [
+        2644,
+        3806,
+        3223,
+        4481
+      ],
+      "rotation": 0,
+      "height": 762,
+      "y_min": -1,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 2.5,
+      "threshold": 150,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed k: supplemental-rows.json row 4. Uniform scaling preserves the larger impression’s stroke weight and proportions. Set 35-unit sidebearings; the former reconstructed cell was too narrow for this observed outline.",
+      "advance_width": 718,
+      "center": true,
+      "keep_components": 1
+    },
+    "y": {
+      "file": "reference/atf1898-leaf-446.jp2",
+      "box": [
+        1363,
+        2088,
+        1586,
+        2358
+      ],
+      "rotation": 0,
+      "height": 864,
+      "y_min": -272,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.6,
+      "threshold": 150,
+      "fill_holes": 8,
+      "tolerance": 0.45,
+      "notes": "Observed y: supplemental-rows.json row 1; larger historical impression, uniformly scaled from the measured cap and baseline. Preserve the existing advance; centre the new outline in its cell.",
+      "advance_width": 744,
+      "center": true,
+      "keep_components": 1
     }
   }
 }

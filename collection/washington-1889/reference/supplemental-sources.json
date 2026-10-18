@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "files": [
+        "central1892-leaf-78.jp2",
+        "central1892-leaf-79.jp2"
+      ],
+      "archive_identifier": "CentralBoston1892Specimen",
+      "archive_zip": "central-boston-1892-hathi-mdp-39015063770823-png_jp2.zip",
+      "native_leaves": [
+        78,
+        79
+      ],
+      "metadata": "central1892-metadata.json"
+    },
+    {
+      "files": [
+        "atf1898-leaf-446.jp2",
+        "atf1898-leaf-447.jp2"
+      ],
+      "archive_identifier": "deskbookofprinti00amer",
+      "archive_zip": "deskbookofprinti00amer_jp2.zip",
+      "native_leaves": [
+        446,
+        447
+      ],
+      "printed_pages": [
+        444,
+        445
+      ],
+      "metadata": "atf1898-metadata.json"
+    },
+    {
+      "files": [
+        "atf1896-washington-middle.png"
+      ],
+      "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-323-washington-series-central-type-foundry-publicdomain.pdf",
+      "printed_page": 460,
+      "pdf_image_dimensions": [
+        5080,
+        7007
+      ],
+      "native_crop": [
+        800,
+        2270,
+        5080,
+        4820
+      ],
+      "operation": "pdfimages -j extracts the embedded JPEG without resampling; Pillow crops decoded pixels to lossless PNG. No tone editing.",
+      "pdf_sha256": "52c2d06ab31835b783d942bfdba610db642cdb0c26f572f720a310cc4ed653a3",
+      "embedded_jpeg_sha256": "2efe08e819944a22e323ce816c0405bea3393550d147b5d167289eed159493f0",
+      "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html",
+      "rights_statement": "The 1895/6 material from the ATF \"Collective Specimen Book\" is in the public domain."
+    }
+  ]
+}
