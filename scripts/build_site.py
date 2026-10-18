@@ -20,8 +20,8 @@ import subprocess
 from urllib.parse import quote, unquote, urlsplit
 
 REPO = Path(__file__).resolve().parents[1]
-SITE_BASE = 'https://haroldus-.github.io/font-revival/'
-DOWNLOAD_BASE = 'https://raw.githubusercontent.com/haroldus-/font-revival/main/'
+SITE_BASE = 'https://font-revival.com/'
+DOWNLOAD_BASE = 'https://raw.githubusercontent.com/fontrevival/font-revival/main/'
 CSS_URL = re.compile(r'url\(\s*[\'"]?([^\s\)\'"]+)[\'"]?\s*\)')
 DETAIL_SVG = re.compile(r'(<svg\b[^>]*\bdata-icon-format="(multitone|monochrome)"[^>]*>)(.*?)(</svg>)', re.S)
 PACKING_VERSION = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()

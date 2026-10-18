@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
-    if: github.repository == 'haroldus-/font-revival'
+    if: github.repository == 'fontrevival/font-revival'
     runs-on: ubuntu-24.04
     environment:
       name: github-pages
@@ -43,7 +43,7 @@ jobs:
           import json, os, re
           from pathlib import Path
           release = json.loads(Path('site/editor-release.json').read_text())
-          assert release['repository'] == 'haroldus-/font-revival-editor'
+          assert release['repository'] == 'fontrevival/font-revival-editor'
           assert re.fullmatch(r'[0-9a-f]{40}', release['commit'])
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
               print('commit=' + release['commit'], file=output)
@@ -51,7 +51,7 @@ jobs:
       - name: Check out private editor source
         uses: actions/checkout@v4
         with:
-          repository: haroldus-/font-revival-editor
+          repository: fontrevival/font-revival-editor
           ref: ${{ steps.editor.outputs.commit }}
           ssh-key: ${{ secrets.EDITOR_DEPLOY_KEY }}
           persist-credentials: false

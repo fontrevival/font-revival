@@ -1535,7 +1535,7 @@ def catalog_outputs():
   <p class="description">{e["description"]}</p>
   <div class="type-sample" style="font-family:'{m["id"]}',serif" data-default="{e["sample_text"]}">{e["sample_text"]}</div>
   <p class="coverage">{m["characters"]} characters{ ' · Capitals only' if m.get('character_style') == 'capitals-only' else ''} · Regular · v{e["version"]}</p>
-  <div class="downloads">{links}<a href="{base}/specimens/specimen.pdf">Specimen PDF ↗</a><a href="https://github.com/haroldus-/font-revival/tree/main/{base}">Sources ↗</a></div>
+  <div class="downloads">{links}<a href="{base}/specimens/specimen.pdf">Specimen PDF ↗</a><a href="https://github.com/fontrevival/font-revival/tree/main/{base}">Sources ↗</a></div>
 </article>''')
     catalog = json.dumps({"schema_version": 1, "families": entries}, indent=2, ensure_ascii=False) + "\n"
     template = (ROOT / "site" / "index.template.html").read_text()

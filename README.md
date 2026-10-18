@@ -5,8 +5,8 @@
 An open collection of historical typefaces, revived as usable digital fonts.
 Download them, study their sources, and use them in your own work.
 
-[Browse & try the fonts](https://haroldus-.github.io/font-revival/) ·
-[Download releases](https://github.com/haroldus-/font-revival/releases) ·
+[Browse & try the fonts](https://font-revival.com/) ·
+[Download releases](https://github.com/fontrevival/font-revival/releases) ·
 [MIT License](LICENSE)
 
 ## The collection
@@ -120,7 +120,7 @@ for its three-tone previews, downloads and HTML examples.
 
 [![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)
 
-[Browse the icons](https://haroldus-.github.io/font-revival/icons.html) ·
+[Browse the icons](https://font-revival.com/icons.html) ·
 [SVG](collection/boston-cuts-1889/svg/boston-1889-4202.svg) ·
 [Three-tone SVG](collection/boston-cuts-1889/svg/multitone/boston-1889-4202.svg) ·
 [Icon fonts & usage](collection/boston-cuts-1889/) ·
@@ -156,7 +156,7 @@ permitted under the MIT license. Keep the license with redistributed font files.
 Use Python 3.12. After installing the pinned dependencies, builds run offline.
 
 ```sh
-git clone https://github.com/haroldus-/font-revival.git
+git clone https://github.com/fontrevival/font-revival.git
 cd font-revival
 python3 -m venv .venv
 source .venv/bin/activate
