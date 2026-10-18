@@ -4,17 +4,17 @@
   "kind": "icons",
   "name": "Baltimore Initials 1832",
   "style": "Regular",
-  "version": "1.001",
+  "version": "1.002",
   "postscript_name": "BaltimoreInitials1832-Regular",
   "year": 1832,
   "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
   "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
-  "description": "Historical initials from A specimen of printing types and ornaments from the Baltimore Type Foundry (1832).",
+  "description": "Historical decorated initials from Baltimore 1832, with matching impressions from Boston 1832, Howe 1830 and Bruce 1828, plus the leafy-descender Oak Leaf R from the complete alphabet sheet.",
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "",
-  "observed": "Impressions from the 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.",
-  "reconstructed": "No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks. Version 1.001 applies reviewed rigid rotations to 22 icons to level measured horizontal references, preserving every contour, original scale and advance; source/straightening.json records the evidence and matrices.",
+  "observed": "38 original Baltimore impressions plus 27 matching period impressions (21 letters and six punctuation marks), and the complete-sheet Oak Leaf R: 66 items. Both R forms are retained separately. All letters and punctuation of the Boston MINT! GOLD. specimen are included, alongside the original Baltimore PRINT LUCAS letters. Every item has an exact scan crop and source citation; the standalone sheet uses an explicit location instead of a PDF page.",
+  "reconstructed": "No inferred letters or new pictorial content. Thresholding, crop cleanup, cubic curve fitting and font-unit rounding interpret the observed impressions. Source identifiers, Private Use assignments, uniform scale and bearings are digital metadata and metrics. Original 38 items retain their existing monochrome and three-tone drawings, including reviewed 1.001 alignment. The 28 supplementary impressions are monochrome.",
   "sources": [
     {
       "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 59, Internet Archive leaf 58",
@@ -43,6 +43,55 @@
       "file": "reference/pdf-069.jp2",
       "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
       "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    },
+    {
+      "title": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 133, archive leaf 133",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n133/mode/1up",
+      "file": "reference/boston1832-133.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated; PDF page 133, archive leaf 133",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n133/mode/1up",
+      "file": "reference/howe1830-133.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 145, archive leaf 145",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n145/mode/1up",
+      "file": "reference/boston1832-145.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    },
+    {
+      "title": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136",
+      "url": "https://archive.org/details/bub_gb_C41QAAAAYAAJ/page/n136/mode/1up",
+      "file": "reference/bruce1828-136.jp2",
+      "rights": "1828 US publication; Internet Archive marks this Google Books scan Public Domain Mark 1.0. The archive contributor field does not identify the holding library.",
+      "rights_url": "https://archive.org/details/bub_gb_C41QAAAAYAAJ"
+    },
+    {
+      "title": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n139/mode/1up",
+      "file": "reference/boston1832-139.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    },
+    {
+      "title": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 141, archive leaf 141",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n141/mode/1up",
+      "file": "reference/boston1832-141.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    },
+    {
+      "title": "Oak Leaf complete alphabet sheet, hosted by Luc Devroye; attributed to Baltimore Type Foundry, 1832",
+      "url": "https://luc.devroye.org/BaltimoreTypeFoundry--OakLeaf-1832.png",
+      "file": "reference/oak-leaf-complete.png",
+      "rights": "The underlying Oak Leaf design is documented in the 1832 Baltimore specimen and is public domain by age. The complete reproduction is hosted by Luc Devroye; its intermediate publication and reproduction history are unidentified. The attribution is the working basis for this revival. The project MIT license covers original digital work and does not assert ownership of the reference sheet.",
+      "rights_url": "https://archive.org/details/ldpd_12198261_000/page/n66/mode/1up"
     }
   ],
   "icons": [
@@ -1567,6 +1616,624 @@
           "opacity": 0.25
         }
       ]
+    },
+    {
+      "id": "boston-1832-p133-six-line-pica-ornamented-f",
+      "name": "Six Line Pica Ornamented letter F",
+      "specimen_number": "six-line-pica-ornamented-f",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "letter",
+        "F",
+        "f",
+        "initial",
+        "decorated",
+        "six-line-pica-ornamented",
+        "ornamented",
+        "boston1832"
+      ],
+      "codepoint": "E026",
+      "glyph": "uniE026",
+      "source_index": 4,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 133, archive leaf 133"
+    },
+    {
+      "id": "boston-1832-p133-six-line-pica-ornamented-y",
+      "name": "Six Line Pica Ornamented letter Y",
+      "specimen_number": "six-line-pica-ornamented-y",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "letter",
+        "Y",
+        "y",
+        "initial",
+        "decorated",
+        "six-line-pica-ornamented",
+        "ornamented",
+        "boston1832"
+      ],
+      "codepoint": "E027",
+      "glyph": "uniE027",
+      "source_index": 4,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 133, archive leaf 133"
+    },
+    {
+      "id": "boston-1832-p133-six-line-pica-ornamented-period",
+      "name": "Six Line Pica Ornamented punctuation .",
+      "specimen_number": "six-line-pica-ornamented-period",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "punctuation",
+        ".",
+        "period",
+        "initial",
+        "decorated",
+        "six-line-pica-ornamented",
+        "ornamented",
+        "boston1832"
+      ],
+      "codepoint": "E028",
+      "glyph": "uniE028",
+      "source_index": 4,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 133, archive leaf 133"
+    },
+    {
+      "id": "howe-1830-p133-six-line-pica-ornamented-t",
+      "name": "Six Line Pica Ornamented letter T",
+      "specimen_number": "six-line-pica-ornamented-t",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "letter",
+        "T",
+        "t",
+        "initial",
+        "decorated",
+        "six-line-pica-ornamented",
+        "ornamented",
+        "howe1830"
+      ],
+      "codepoint": "E029",
+      "glyph": "uniE029",
+      "source_index": 5,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated; PDF page 133, archive leaf 133"
+    },
+    {
+      "id": "howe-1830-p133-six-line-pica-ornamented-w",
+      "name": "Six Line Pica Ornamented letter W",
+      "specimen_number": "six-line-pica-ornamented-w",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "letter",
+        "W",
+        "w",
+        "initial",
+        "decorated",
+        "six-line-pica-ornamented",
+        "ornamented",
+        "howe1830"
+      ],
+      "codepoint": "E02A",
+      "glyph": "uniE02A",
+      "source_index": 5,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated; PDF page 133, archive leaf 133"
+    },
+    {
+      "id": "boston-1832-p145-eight-line-pica-fluted-d",
+      "name": "Eight Line Pica Fluted letter D",
+      "specimen_number": "eight-line-pica-fluted-d",
+      "printed_page": null,
+      "pdf_page": 145,
+      "tags": [
+        "letter",
+        "D",
+        "d",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "boston1832"
+      ],
+      "codepoint": "E02B",
+      "glyph": "uniE02B",
+      "source_index": 6,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 145, archive leaf 145"
+    },
+    {
+      "id": "boston-1832-p145-eight-line-pica-fluted-k",
+      "name": "Eight Line Pica Fluted letter K",
+      "specimen_number": "eight-line-pica-fluted-k",
+      "printed_page": null,
+      "pdf_page": 145,
+      "tags": [
+        "letter",
+        "K",
+        "k",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "boston1832"
+      ],
+      "codepoint": "E02C",
+      "glyph": "uniE02C",
+      "source_index": 6,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 145, archive leaf 145"
+    },
+    {
+      "id": "boston-1832-p145-eight-line-pica-fluted-comma",
+      "name": "Eight Line Pica Fluted punctuation ,",
+      "specimen_number": "eight-line-pica-fluted-comma",
+      "printed_page": null,
+      "pdf_page": 145,
+      "tags": [
+        "punctuation",
+        ",",
+        "comma",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "boston1832"
+      ],
+      "codepoint": "E02D",
+      "glyph": "uniE02D",
+      "source_index": 6,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 145, archive leaf 145"
+    },
+    {
+      "id": "boston-1832-p145-eight-line-pica-fluted-period",
+      "name": "Eight Line Pica Fluted punctuation .",
+      "specimen_number": "eight-line-pica-fluted-period",
+      "printed_page": null,
+      "pdf_page": 145,
+      "tags": [
+        "punctuation",
+        ".",
+        "period",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "boston1832"
+      ],
+      "codepoint": "E02E",
+      "glyph": "uniE02E",
+      "source_index": 6,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 145, archive leaf 145"
+    },
+    {
+      "id": "bruce-1828-p137-eight-line-pica-fluted-i",
+      "name": "Eight Line Pica Fluted letter I",
+      "specimen_number": "eight-line-pica-fluted-i",
+      "printed_page": null,
+      "pdf_page": 137,
+      "tags": [
+        "letter",
+        "I",
+        "i",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "bruce1828"
+      ],
+      "codepoint": "E02F",
+      "glyph": "uniE02F",
+      "source_index": 7,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+    },
+    {
+      "id": "bruce-1828-p137-eight-line-pica-fluted-l",
+      "name": "Eight Line Pica Fluted letter L",
+      "specimen_number": "eight-line-pica-fluted-l",
+      "printed_page": null,
+      "pdf_page": 137,
+      "tags": [
+        "letter",
+        "L",
+        "l",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "bruce1828"
+      ],
+      "codepoint": "E030",
+      "glyph": "uniE030",
+      "source_index": 7,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+    },
+    {
+      "id": "bruce-1828-p137-eight-line-pica-fluted-y",
+      "name": "Eight Line Pica Fluted letter Y",
+      "specimen_number": "eight-line-pica-fluted-y",
+      "printed_page": null,
+      "pdf_page": 137,
+      "tags": [
+        "letter",
+        "Y",
+        "y",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "bruce1828"
+      ],
+      "codepoint": "E031",
+      "glyph": "uniE031",
+      "source_index": 7,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+    },
+    {
+      "id": "bruce-1828-p137-eight-line-pica-fluted-a",
+      "name": "Eight Line Pica Fluted letter A",
+      "specimen_number": "eight-line-pica-fluted-a",
+      "printed_page": null,
+      "pdf_page": 137,
+      "tags": [
+        "letter",
+        "A",
+        "a",
+        "initial",
+        "decorated",
+        "eight-line-pica-fluted",
+        "fluted",
+        "bruce1828"
+      ],
+      "codepoint": "E032",
+      "glyph": "uniE032",
+      "source_index": 7,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-m",
+      "name": "Eight Line Pica Oak Leaf letter M",
+      "specimen_number": "eight-line-pica-oak-leaf-m",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "M",
+        "m",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E033",
+      "glyph": "uniE033",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-g",
+      "name": "Eight Line Pica Oak Leaf letter G",
+      "specimen_number": "eight-line-pica-oak-leaf-g",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "G",
+        "g",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E034",
+      "glyph": "uniE034",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-o",
+      "name": "Eight Line Pica Oak Leaf letter O",
+      "specimen_number": "eight-line-pica-oak-leaf-o",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "O",
+        "o",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E035",
+      "glyph": "uniE035",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-d",
+      "name": "Eight Line Pica Oak Leaf letter D",
+      "specimen_number": "eight-line-pica-oak-leaf-d",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "D",
+        "d",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E036",
+      "glyph": "uniE036",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-exclamation",
+      "name": "Eight Line Pica Oak Leaf punctuation !",
+      "specimen_number": "eight-line-pica-oak-leaf-exclamation",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "punctuation",
+        "!",
+        "exclamation",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E037",
+      "glyph": "uniE037",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-period",
+      "name": "Eight Line Pica Oak Leaf punctuation .",
+      "specimen_number": "eight-line-pica-oak-leaf-period",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "punctuation",
+        ".",
+        "period",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E038",
+      "glyph": "uniE038",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p141-eight-line-pica-ornamented-italic-h",
+      "name": "Eight Line Pica Ornamented Italic letter H",
+      "specimen_number": "eight-line-pica-ornamented-italic-h",
+      "printed_page": null,
+      "pdf_page": 141,
+      "tags": [
+        "letter",
+        "H",
+        "h",
+        "initial",
+        "decorated",
+        "eight-line-pica-ornamented-italic",
+        "ornamented-italic",
+        "boston1832"
+      ],
+      "codepoint": "E039",
+      "glyph": "uniE039",
+      "source_index": 9,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 141, archive leaf 141"
+    },
+    {
+      "id": "boston-1832-p141-eight-line-pica-ornamented-italic-i",
+      "name": "Eight Line Pica Ornamented Italic letter i",
+      "specimen_number": "eight-line-pica-ornamented-italic-i",
+      "printed_page": null,
+      "pdf_page": 141,
+      "tags": [
+        "letter",
+        "i",
+        "i",
+        "initial",
+        "decorated",
+        "eight-line-pica-ornamented-italic",
+        "ornamented-italic",
+        "boston1832"
+      ],
+      "codepoint": "E03A",
+      "glyph": "uniE03A",
+      "source_index": 9,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 141, archive leaf 141"
+    },
+    {
+      "id": "boston-1832-p141-eight-line-pica-ornamented-italic-e",
+      "name": "Eight Line Pica Ornamented Italic letter e",
+      "specimen_number": "eight-line-pica-ornamented-italic-e",
+      "printed_page": null,
+      "pdf_page": 141,
+      "tags": [
+        "letter",
+        "e",
+        "e",
+        "initial",
+        "decorated",
+        "eight-line-pica-ornamented-italic",
+        "ornamented-italic",
+        "boston1832"
+      ],
+      "codepoint": "E03B",
+      "glyph": "uniE03B",
+      "source_index": 9,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 141, archive leaf 141"
+    },
+    {
+      "id": "boston-1832-p141-eight-line-pica-ornamented-italic-period",
+      "name": "Eight Line Pica Ornamented Italic punctuation .",
+      "specimen_number": "eight-line-pica-ornamented-italic-period",
+      "printed_page": null,
+      "pdf_page": 141,
+      "tags": [
+        "punctuation",
+        ".",
+        "period",
+        "initial",
+        "decorated",
+        "eight-line-pica-ornamented-italic",
+        "ornamented-italic",
+        "boston1832"
+      ],
+      "codepoint": "E03C",
+      "glyph": "uniE03C",
+      "source_index": 9,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 141, archive leaf 141"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-i",
+      "name": "Eight Line Pica Oak Leaf letter I",
+      "specimen_number": "eight-line-pica-oak-leaf-i",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "I",
+        "i",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E03D",
+      "glyph": "uniE03D",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-n",
+      "name": "Eight Line Pica Oak Leaf letter N",
+      "specimen_number": "eight-line-pica-oak-leaf-n",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "N",
+        "n",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E03E",
+      "glyph": "uniE03E",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-t",
+      "name": "Eight Line Pica Oak Leaf letter T",
+      "specimen_number": "eight-line-pica-oak-leaf-t",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "T",
+        "t",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E03F",
+      "glyph": "uniE03F",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "boston-1832-p139-eight-line-pica-oak-leaf-l",
+      "name": "Eight Line Pica Oak Leaf letter L",
+      "specimen_number": "eight-line-pica-oak-leaf-l",
+      "printed_page": null,
+      "pdf_page": 139,
+      "tags": [
+        "letter",
+        "L",
+        "l",
+        "initial",
+        "decorated",
+        "eight-line-pica-oak-leaf",
+        "oak-leaf",
+        "boston1832"
+      ],
+      "codepoint": "E040",
+      "glyph": "uniE040",
+      "source_index": 8,
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139"
+    },
+    {
+      "id": "oak-leaf-complete-sheet-r",
+      "name": "Oak Leaf R with leafy descender (complete sheet)",
+      "specimen_number": "oak-leaf-complete-sheet-r",
+      "printed_page": null,
+      "pdf_page": null,
+      "source_location": "Complete alphabet sheet, third row, sixth letter",
+      "tags": [
+        "letter",
+        "R",
+        "r",
+        "initial",
+        "decorated",
+        "oak-leaf",
+        "alternate",
+        "leafy descender",
+        "complete sheet"
+      ],
+      "codepoint": "E041",
+      "glyph": "uniE041",
+      "source_index": 10,
+      "recommended_min_px": 64,
+      "source_label": "Oak Leaf complete alphabet sheet, hosted by Luc Devroye; attributed to Baltimore Type Foundry, 1832"
     }
   ],
   "revival": {
@@ -1579,7 +2246,7 @@
       "NumPy 1.26.4 (optional exact mask preparation)",
       "SciPy 1.11.4 (optional exact mask preparation)"
     ],
-    "notes": "Full-book survey, individual impressions, duplicates and exclusions are recorded in source/inventory.json and the central Baltimore Cuts inventory."
+    "notes": "Original full-book inventory and stable assignments are retained. Supplementary source records and exact crops are recorded separately in source/supplemental-tracing.json and reference/supplemental-acquisition.json."
   },
   "cff_charstring_chunk_bytes": 60000
 }

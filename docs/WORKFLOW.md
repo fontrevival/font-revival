@@ -36,6 +36,14 @@ The imported XML master preserves the outlines, character map, spacing, kerning,
 and OpenType features. It is the common source for every release format. Additional
 tracing scripts and measurements can live alongside it under `source/`.
 
+For an intentionally limited revival, `font.json` may instead declare the exact
+encoded characters in `character_set`, with an explanation in
+`character_set_notes`. Include spaces and aliases explicitly. Preparation and
+validation reject both missing and extra characters; ordinary text families
+still require printable Basic Latin. Omit unsupported figures and symbols when
+the revival is limited to observed source forms. Generated specimens show only
+supported characters.
+
 For sources suitable for crop-based tracing, the optional [repeatable tracing
 tool](TRACING.md) records measurements and explicit companion drawings, then prepares
 the OTF for `import`. The build uses those records to generate a historical-source

@@ -515,6 +515,32 @@ class IconWorkflowTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 revival.validate_icon_metadata(self.family, m)
 
+    def test_non_pdf_sheet_has_explicit_location_and_source_link(self):
+        m = revival.metadata(self.family)
+        icon = m['icons'][0]
+        icon.update(printed_page=None, pdf_page=None,
+                    source_location='Complete alphabet sheet, third row, sixth letter',
+                    source_label='Complete sheet <attribution>')
+        revival.write_json(self.family / 'font.json', m)
+        revival.metadata(self.family)
+        revival.build_family(self.family)
+        with TTFont(self.family / 'fonts' / (m['postscript_name'] + '.otf')) as font:
+            record = revival.icon_records(m, font)[0]
+        page = revival.icon_detail(m, record, [])
+        self.assertIn(icon['source_location'], page)
+        self.assertIn('Complete sheet &lt;attribution&gt;', page)
+        self.assertIn(m['sources'][icon['source_index']]['url'], page)
+        self.assertNotIn('PDF page None', page)
+        # A null PDF page never silently stands for a missing book citation.
+        for invalid in (None, '', ' ', 1):
+            icon['source_location'] = invalid
+            with self.assertRaisesRegex(ValueError, 'source_location'):
+                revival.validate_icon_metadata(self.family, m)
+        icon['source_location'] = 'Sheet, third row'
+        icon['printed_page'] = 1
+        with self.assertRaisesRegex(ValueError, 'null printed_page'):
+            revival.validate_icon_metadata(self.family, m)
+
     def test_web_bundle_resolves_copyable_html_and_stylesheet_assets(self):
         archive = self.family / "downloads/boston-cuts-1889-web.zip"
         extracted = self.root / "downloaded"

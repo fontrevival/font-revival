@@ -71,6 +71,7 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 
 | Family | Character | Downloads and proofs |
 | --- | --- | --- |
+| [Baltimore Oak Leaf 1832](collection/baltimore-oak-leaf-1832/) | Complete shaded oak-leaf capitals from the full reference sheet, including its leafy R. A–Z, ampersand and punctuation; no inferred letters or figures. | [OTF](collection/baltimore-oak-leaf-1832/fonts/BaltimoreOakLeaf1832-Regular.otf) · [TTF](collection/baltimore-oak-leaf-1832/fonts/BaltimoreOakLeaf1832-Regular.ttf) · [Preview](collection/baltimore-oak-leaf-1832/specimens/preview.png) · [PDF](collection/baltimore-oak-leaf-1832/specimens/specimen.pdf) |
 | [Doric 1889](collection/doric-1889/) | Heavy display letters with bracketed slab serifs, rounded bowls and a substantial historical lowercase. | [OTF](collection/doric-1889/fonts/Doric1889-Regular.otf) · [TTF](collection/doric-1889/fonts/Doric1889-Regular.ttf) · [Preview](collection/doric-1889/specimens/preview.png) · [PDF](collection/doric-1889/specimens/specimen.pdf) |
 | [Latin Antique 1889](collection/latin-antique-1889/) | Broad display letters with tapered serifs, open round bowls and a lightly contrasted historical lowercase. | [OTF](collection/latin-antique-1889/fonts/LatinAntique1889-Regular.otf) · [TTF](collection/latin-antique-1889/fonts/LatinAntique1889-Regular.ttf) · [Preview](collection/latin-antique-1889/specimens/preview.png) · [PDF](collection/latin-antique-1889/specimens/specimen.pdf) |
 | [Modern Antique 1889](collection/modern-antique-1889/) | Condensed display letters with sharp wedge serifs, narrow bowls and a compact historical lowercase. | [OTF](collection/modern-antique-1889/fonts/ModernAntique1889-Regular.otf) · [TTF](collection/modern-antique-1889/fonts/ModernAntique1889-Regular.ttf) · [Preview](collection/modern-antique-1889/specimens/preview.png) · [PDF](collection/modern-antique-1889/specimens/specimen.pdf) |
@@ -124,7 +125,7 @@ for its three-tone previews, downloads and HTML examples.
 | [Boston Symbols 1889](collection/boston-symbols-1889/) | 460 | [ZIP](collection/boston-symbols-1889/downloads/boston-symbols-1889-web.zip) |
 | [Baltimore Cuts 1832](collection/baltimore-cuts-1832/) | 381 | [ZIP parts](collection/baltimore-cuts-1832/README.md#web-bundle-parts) |
 | [Baltimore Ornaments 1832](collection/baltimore-ornaments-1832/) | 396 | [ZIP parts](collection/baltimore-ornaments-1832/README.md#web-bundle-parts) |
-| [Baltimore Initials 1832](collection/baltimore-initials-1832/) | 38 | [ZIP](collection/baltimore-initials-1832/downloads/baltimore-initials-1832-web.zip) |
+| [Baltimore Initials 1832](collection/baltimore-initials-1832/) | 66 | [ZIP](collection/baltimore-initials-1832/downloads/baltimore-initials-1832-web.zip) |
 | [Baltimore Symbols 1832](collection/baltimore-symbols-1832/) | 4 | [ZIP](collection/baltimore-symbols-1832/downloads/baltimore-symbols-1832-web.zip) |
 
 [![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)

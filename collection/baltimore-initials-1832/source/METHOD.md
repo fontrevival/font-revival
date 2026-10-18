@@ -1,7 +1,9 @@
 # Baltimore Initials 1832
 
 This family contains 38 observed historical impressions from the 1832 Baltimore
-Type Foundry specimen, held by Columbia University Libraries. The four Baltimore
+Type Foundry specimen, held by Columbia University Libraries, plus 27 supplementary
+period impressions (21 letters and six punctuation marks) and the complete-sheet
+Oak Leaf R with its leafy descender, for 66 items. The four Baltimore
 families share the Boston classification: Cuts, Ornaments, Initials and Symbols.
 The complete 238-page audit is in `../../baltimore-cuts-1832/source/book-inventory.json`.
 
@@ -93,3 +95,45 @@ Downloadable CFF programs longer than 60,000 bytes are losslessly split at compl
 All 38 icons were surveyed; 22 receive reviewed rigid rotations. `straightening.json` retains each decision, measured references, matrices and before/after contour counts and hashes. Clear local baselines and frame edges take precedence over containing-strip measurements; opposite tips establish the axis of rules and dashes. Pieces cropped from the same printed strip can share its axis where they lack a clear local horizontal. Uneven edges and intentional letter slants remain. Every contour and original advance is retained. The same matrix applies to all three tones and any compact font drawing, on a 1/64-unit coordinate grid.
 
 The reusable authoring helpers are `../../baltimore-cuts-1832/source/straighten.py` (`--family collection/baltimore-initials-1832`) and `compare_straightening.py` (`--family collection/baltimore-initials-1832 --workspace workspace/baltimore-extraction/straighten-initials`). Backups retain the prior fonts and canonical drawings. Normal builds apply the standard glyph overrides; retracing applies `post_trace_transform` after caption cleanup. The comparison PDF shows all changed full-detail drawings at 48, 96, 192 and 384 pixels.
+
+## Supplementary impressions (1.002)
+
+Boston 1832 supplies Ornamented F/Y/period, Fluted D/K/comma/period,
+Oak Leaf M/I/N/T/G/O/L/D/exclamation/period and Ornamented Italic H/i/e/period.
+Howe 1830 supplies upright Ornamented T/W. Bruce 1828 supplies Fluted I/L/Y/A,
+labelled Open Antique in that book. Shared letter silhouettes and engraved
+motifs identify matching designs. These 27 period items are monochrome observations;
+no inferred companion drawings are included. All original 38 drawings and
+their three-tone layers remain unchanged, including the Baltimore Oak Leaf R.
+
+Source indices identify the actual supplying book. PDF pages and archive leaves
+are both recorded in `reference/supplemental-acquisition.json`: Boston and Howe
+have two excluded access-format leaves, so their PDF page equals archive leaf;
+Bruce's PDF page is archive leaf plus one. Native JP2s and upright PNGs are
+retained. Each crop in `supplemental-tracing.json` uses the already reviewed
+threshold, component cleanup and exclusion of adjacent letters. Howe T/W use
+recorded rigid rotations. Every drawing fits an 1800-unit maximum dimension,
+centred vertically in the original 2048-unit em with 64-unit bearings.
+
+To retrace only the supplementary impressions while preserving original master
+glyphs and layers, then import the resulting complete OTF:
+
+```sh
+python collection/baltimore-initials-1832/source/prepare-supplement.py \
+  --output workspace/BaltimoreInitials1832-Regular.otf --potrace /path/to/potrace
+python scripts/fontrevival.py import baltimore-initials-1832 \
+  workspace/BaltimoreInitials1832-Regular.otf --replace
+```
+
+Normal builds apply the original glyph overrides exactly as before. The new
+Private Use assignments run from U+E026 to U+E041 and are permanent.
+
+The complete-sheet R is a separate alternate, U+E041. Its retained PNG and
+acquisition record match the source of the Oak Leaf text font. The intermediate
+publication and page remain unidentified; the record cites the sheet's third
+row, sixth letter without inventing a PDF page. Its trace uses threshold 160,
+0.25-pixel blur, a two-pixel minimum component, no filled holes and tolerance
+0.15, fitted into the same icon frame. Both this leafy-descender R and the
+original Baltimore PRINT R remain available as independently named initials.
+The additional Boston I/N/T/L impressions retain that complete MINT! GOLD.
+specimen even where Baltimore already supplies the same letter.

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "baltimore-oak-leaf-1832",
+  "name": "Baltimore Oak Leaf 1832",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BaltimoreOakLeaf1832-Regular",
+  "year": 1832,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+  "description": "A complete alphabet of shaded oak-leaf capitals, traced from the full reference sheet, including its leafy R. Capitals, ampersand and three punctuation marks; lowercase keys use capitals. No figures.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "OAK LEAF & RARE PRINTS!",
+  "observed": "All 26 capitals and & . , ! are direct traces of the complete Oak Leaf sheet hosted by Luc Devroye. The R follows that sheet, including its leafy lower leg. The retained Baltimore and Boston period specimens document the historical design and related impressions; they are not substituted for letters on the complete sheet.",
+  "reconstructed": "No inferred letterforms, figures or additional symbols. Thresholding and cubic curve fitting interpret the sheet. Uniform glyph scaling, sidebearings and punctuation baseline placement are new digital metrics. Lowercase keys alias capitals. The intermediate publication of the complete sheet is unidentified; its historical attribution is accepted as the working source, not independently proven for every sort.",
+  "sources": [
+    {
+      "title": "Oak Leaf complete alphabet sheet, hosted by Luc Devroye; attributed to Baltimore Type Foundry, 1832",
+      "url": "https://luc.devroye.org/BaltimoreTypeFoundry--OakLeaf-1832.png",
+      "file": "reference/oak-leaf-complete.png",
+      "rights": "The underlying Oak Leaf design is documented in the 1832 Baltimore specimen and is public domain by age. The complete reproduction is hosted by Luc Devroye; its intermediate publication and reproduction history are unidentified. The attribution is the working basis for this revival. The project MIT license covers original digital work and does not assert ownership of the reference sheet.",
+      "rights_url": "https://archive.org/details/ldpd_12198261_000/page/n66/mode/1up"
+    },
+    {
+      "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 67, Internet Archive leaf 66",
+      "url": "https://archive.org/details/ldpd_12198261_000/page/n66/mode/1up",
+      "file": "reference/pdf-067.jp2",
+      "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No external modern digital typeface or modern reference drawing was used; inferred companions are original project drawings. The MIT license applies to original project work, not ownership of the historical design.",
+      "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    },
+    {
+      "title": "Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n139/mode/1up",
+      "file": "reference/boston1832-139.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Potrace 1.16",
+      "Pillow 12.3.0",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Every visible encoded form has a measured crop in source/tracing.json. Normal builds use the canonical CFF master; optional preparation retraces the retained complete sheet."
+  },
+  "cff_charstring_chunk_bytes": 60000,
+  "character_style": "capitals-only",
+  "character_set": " !&,.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ",
+  "character_set_notes": "The complete reference sheet supplies A-Z and & . , ! only. Lowercase aliases the capitals; ordinary and nonbreaking spaces are blank. Figures and all other symbols are deliberately absent."
+}

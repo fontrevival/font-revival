@@ -1,5 +1,16 @@
 # Changes
 
+## 1.002
+
+- Add 21 observed letters and six punctuation marks from matching Boston 1832,
+  Howe 1830 and Bruce 1828 specimens, with individual source citations.
+- Preserve all 38 existing identifiers, codepoints, outlines, tone layers and
+  advances, including the original Baltimore Oak Leaf R.
+- Add the complete-sheet Oak Leaf R with its leafy descender as a separate
+  alternate. Include every letter and mark from the Boston Oak Leaf specimen.
+- Append monochrome SVGs, fonts, source proofs and gallery records. No inferred
+  alphabet drawings are included.
+
 ## 1.001
 
 - Review the complete family and straighten 22 icons using measured baselines, frames, opposing tips or containing strip axes.

@@ -13,6 +13,13 @@ All 368 catalogue numbers are represented; No. 357 contains 25 separate panels.
 The unpaginated leaves use `printed_page: null` and one-based `pdf_page` citations.
 Baltimore historical sections use `pdf_pages` selectors; Boston uses
 `printed_pages`. Neither field is inferred from the other.
+Baltimore Initials also includes 27 matching period impressions from Boston 1832,
+Howe 1830 and Bruce 1828 (21 letters and six punctuation marks), plus the
+complete-sheet Oak Leaf R with its leafy descender, for 66 items.
+Both R variants and the entire Boston MINT! GOLD. specimen are retained.
+Source indices and page citations identify the supplying book. A standalone
+image uses `pdf_page: null`, `printed_page: null` and a nonempty `source_location`
+that identifies its position on the sheet; it never borrows a book page number.
 
 ## Delivery and use
 
@@ -211,7 +218,8 @@ as reservations in the source inventory rather than reusing them. Do not silentl
 delete outputs or change historical names. Split exceptionally large collections
 into documented families if they exceed the BMP Private Use area or font limits.
 Font validation requires exact agreement with the icon manifest plus a blank
-space. Text families require printable Basic Latin coverage.
+space. Text families require printable Basic Latin coverage unless an explicit
+`character_set` declares an intentionally limited revival; see the shared workflow.
 
 `source/tracing.json` records every reference crop, cleanup decision, scale and
 bearing. `source/METHOD.md` explains the evidence, algorithm and interventions.

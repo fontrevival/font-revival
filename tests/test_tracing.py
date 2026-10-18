@@ -311,6 +311,23 @@ class TracingTests(unittest.TestCase):
                     self.assertTrue(0 <= left < right <= image.width)
                     self.assertTrue(0 <= top < bottom <= image.height)
 
+    def test_limited_master_requires_exact_declared_letters_and_aliases(self):
+        family = REPO / 'collection/trinal-1888'
+        m = tracing.fontrevival.metadata(family)
+        m.update(character_set=' Aa', character_set_notes='Observed capital and its alias.')
+        drawings = {' ': {'path': '', 'advance_width': 300},
+                    'A': {'path': 'M40 0H540V700H40Z', 'advance_width': 600}}
+        with tempfile.TemporaryDirectory() as temp, patch.object(tracing.fontrevival, 'metadata', return_value=m):
+            output = Path(temp) / 'limited.otf'
+            tracing.assemble(family, drawings, {'a': 'A'}, output)
+            with TTFont(output) as font:
+                self.assertEqual(set(font.getBestCmap()), {32, 65, 97})
+                self.assertEqual(font.getBestCmap()[65], font.getBestCmap()[97])
+            with self.assertRaisesRegex(ValueError, 'coverage differs'):
+                tracing.assemble(family, drawings, {}, output)
+            with self.assertRaisesRegex(ValueError, 'coverage differs'):
+                tracing.assemble(family, drawings | {'B': drawings['A']}, {'a': 'A'}, output)
+
 
 if __name__ == '__main__':
     unittest.main()

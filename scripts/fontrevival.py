@@ -121,7 +121,26 @@ def metadata(path):
         raise ValueError("font.json kind must be typeface or icons.")
     if m.get("kind") == "icons":
         validate_icon_metadata(path, m)
+    if "character_set" in m:
+        characters = m["character_set"]
+        if (m.get("kind") == "icons" or not isinstance(characters, str)
+                or " " not in characters or not characters.strip()
+                or len(set(characters)) != len(characters)
+                or any(ord(ch) < 32 or 0x7f <= ord(ch) < 0xa0
+                       or 0xd800 <= ord(ch) <= 0xdfff for ch in characters)):
+            raise ValueError("character_set must list unique printable text characters including space.")
+        if not isinstance(m.get("character_set_notes"), str) or not m["character_set_notes"].strip():
+            raise ValueError("Document limited character coverage in character_set_notes.")
     return m
+
+
+def validate_text_coverage(m, cmap):
+    """Default to Basic Latin; explicitly limited revivals promise an exact set."""
+    if "character_set" in m:
+        if set(cmap) != {ord(ch) for ch in m["character_set"]}:
+            raise ValueError("text coverage differs from the declared character_set.")
+    elif not set(range(32, 127)).issubset(cmap):
+        raise ValueError("missing printable Basic Latin characters.")
 
 
 def validate_icon_metadata(path, m):
@@ -147,7 +166,14 @@ def validate_icon_metadata(path, m):
         if "printed_page" not in icon or (icon["printed_page"] is not None and
                 (type(icon["printed_page"]) is not int or icon["printed_page"] < 1)):
             raise ValueError("Icon needs a positive printed_page or null for an unnumbered leaf.")
-        for key in ("pdf_page", "recommended_min_px"):
+        if 'pdf_page' in icon and icon['pdf_page'] is None:
+            if (icon['printed_page'] is not None or
+                    not isinstance(icon.get('source_location'), str) or
+                    not icon['source_location'].strip()):
+                raise ValueError("A non-PDF icon needs source_location and null printed_page.")
+        elif type(icon.get('pdf_page')) is not int or icon['pdf_page'] < 1:
+            raise ValueError("Icon needs a positive pdf_page or null with source_location.")
+        for key in ("recommended_min_px",):
             if type(icon.get(key)) is not int or icon[key] < 1:
                 raise ValueError(f"Icon needs a positive {key}.")
         index = icon.get("source_index")
@@ -492,6 +518,11 @@ def specimen(path, m):
     folder = path / "specimens"
     folder.mkdir(exist_ok=True)
     ttf = path / "fonts" / f'{m["postscript_name"]}.ttf'
+    with TTFont(ttf) as font:
+        codepoints = sorted(font.getBestCmap())
+    def supported(text):
+        return (''.join(ch for ch in text if ord(ch) in codepoints).strip()
+                if "character_set" in m else text)
     pdfname = m["id"]
     register_pdf_font(pdfname, ttf)
     c = canvas.Canvas(str(folder / "specimen.pdf"), pagesize=(842, 595), invariant=1, pageCompression=1)
@@ -501,19 +532,19 @@ def specimen(path, m):
     c.setFillColor(HexColor(ACCENT)); c.setFont("Helvetica", 10)
     c.drawString(42, 550, f'FONT REVIVAL     /     {m["year"]}     /     {m["version"]}')
     c.setFillColor(HexColor(INK))
-    fit_pdf(c, m["name"], pdfname, 82, 42, 431, 758)
+    fit_pdf(c, supported(m["name"]), pdfname, 82, 42, 431, 758)
     fit_pdf(c, m["sample_text"], pdfname, 43, 42, 339, 758)
     for line, y in [("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 253), ("abcdefghijklmnopqrstuvwxyz", 200),
                     ("0123456789  & ! ? @ $ % ( )", 147)]:
-        fit_pdf(c, line, pdfname, 34, 42, y, 758)
+        if "character_set" in m and y == 147:
+            line = ''.join(chr(cp) for cp in codepoints if not chr(cp).isalnum() and not chr(cp).isspace())
+        fit_pdf(c, supported(line), pdfname, 34, 42, y, 758)
     c.setStrokeColor(HexColor(ACCENT)); c.line(42, 96, 800, 96)
     c.setFont("Helvetica", 10)
     c.drawString(42, 68, "Regular  /  MIT License  /  Desktop + web")
     c.drawRightString(800, 68, "Historical forms. Shared futures.")
     c.showPage()
     # Every encoded character is printed, so additions and regressions are visible.
-    with TTFont(ttf) as font:
-        codepoints = sorted(font.getBestCmap())
     for start in range(0, len(codepoints), 120):
         c.setFillColor(HexColor(PAPER)); c.rect(0, 0, 842, 595, fill=1, stroke=0)
         c.setFillColor(HexColor(INK)); c.setFont("Helvetica", 11)
@@ -531,6 +562,7 @@ def specimen(path, m):
     for text, y, size in [(m["name"], 260, 155), (m["sample_text"], 422, 92),
                            ("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 561, 64),
                            ("abcdefghijklmnopqrstuvwxyz 0123456789", 681, 64)]:
+        text = supported(text)
         font = ImageFont.truetype(str(ttf), size)
         width = draw.textlength(text, font=font)
         if width > 1460:
@@ -902,7 +934,11 @@ def icon_proofs(path, m, font):
             c.drawString(36, 553, title)
         c.setFont("Helvetica", 10)
         page_label = (f'printed p. {icon["printed_page"]}' if icon['printed_page'] is not None else 'unnumbered leaf')
-        c.drawString(36, 529, f'{m["name"]} · {page_label} · PDF page {icon["pdf_page"]}')
+        location = (icon['source_location'] if icon['pdf_page'] is None
+                    else f'{page_label} · PDF page {icon["pdf_page"]}')
+        fit_pdf(c, f'{m["name"]} · {location}', 'Helvetica', 10, 36, 529, 770)
+        if icon.get('source_label'):
+            fit_pdf(c, icon['source_label'], 'Helvetica', 10, 36, 508, 770)
         c.drawString(36, 481, "Historical scan")
         mono_x = 566 if gray is not None else 442
         panel_width = 230 if gray is not None else 340
@@ -920,7 +956,9 @@ def icon_proofs(path, m, font):
         scale = min(panel_width / (x1-x0), 300 / (y1-y0))
         draw_icon(mono_x - x0 * scale, 145 - y0 * scale, font["head"].unitsPerEm * scale)
         c.setFont("Helvetica", 10)
-        c.drawString(36, 102, "Three distinct ink tones interpret the engraving; the solid version remains available. Proportions are retained.")
+        c.drawString(36, 102, ("Observed monochrome impression; no inferred letterform. Proportions are retained."
+                              if icon.get('source_label') and gray is None else
+                              "Three distinct ink tones interpret the engraving; the solid version remains available. Proportions are retained."))
         c.drawString(36, 83, "Paper, specimen number and price are excluded. See source/METHOD.md for measured cleanup settings.")
         c.showPage()
         if gray is not None:
@@ -965,7 +1003,12 @@ def icon_proofs(path, m, font):
         # One PNG comparison per icon, and the first as the collection preview.
         im = Image.new("RGB", (1700 if gray is not None else 1200, 690), PAPER)
         draw = ImageDraw.Draw(im); label = ImageFont.load_default(size=22)
-        draw.text((40, 24), f'{icon["name"]} / No. {icon["specimen_number"]} / {m["year"]}', font=label, fill=INK)
+        if icon.get('source_label'):
+            draw.text((40, 24), f'{icon["name"]} / U+{icon["codepoint"]}', font=label, fill=INK)
+            source_label = ImageFont.load_default(size=14)
+            draw.text((40, 52), icon['source_label'], font=source_label, fill=INK)
+        else:
+            draw.text((40, 24), f'{icon["name"]} / No. {icon["specimen_number"]} / {m["year"]}', font=label, fill=INK)
         draw.text((40, 76), "Historical scan", font=label, fill=ACCENT)
         mono_x = 1160 if gray is not None else 650
         draw.text((mono_x, 76), "Monochrome vector", font=label, fill=ACCENT)
@@ -979,7 +1022,9 @@ def icon_proofs(path, m, font):
         pixel_scale = min(470/(x1-x0), 440/(y1-y0))
         face = ImageFont.truetype(str(file), round(font["head"].unitsPerEm*pixel_scale))
         draw.text((mono_x-x0*pixel_scale, 126+y1*pixel_scale), ch, font=face, fill=INK, anchor="ls")
-        page_label = (f'Printed p. {icon["printed_page"]}' if icon['printed_page'] is not None else f'PDF page {icon["pdf_page"]} (unnumbered)')
+        page_label = (icon['source_location'] if icon['pdf_page'] is None else
+                      f'Printed p. {icon["printed_page"]}' if icon['printed_page'] is not None
+                      else f'PDF page {icon["pdf_page"]} (unnumbered)')
         draw.text((40, 624), f'{page_label} / source detail retained / MIT digital revival', font=label, fill=ACCENT)
         im.save(path / "specimens" / f'{icon["id"]}.png')
         if i == 0:
@@ -1634,8 +1679,13 @@ def icon_detail(m, r, sections):
     image_title = 'Three-tone image' if r['tones'] else 'Monochrome image'
     image_description = ('This displays all three tones with a transparent background.' if r['tones'] else 'This displays the monochrome artwork with a transparent background.')
     delivery_note = (f'  <p>{html.escape(m["font_delivery_note"])}</p>\n' if m.get('font_delivery_note') else '')
-    source_page = (f'  <p>Specimen PDF page {r["pdf_page"]} (unnumbered leaf).</p>\n'
+    source_page = (f'  <p>{html.escape(r["source_location"])}.</p>\n' if r['pdf_page'] is None else
+                   f'  <p>Specimen PDF page {r["pdf_page"]} (unnumbered leaf).</p>\n'
                    if r['printed_page'] is None else '')
+    if r.get('source_label'):
+        source = m['sources'][r['source_index']]
+        source_page += (f'  <p class="source-citation"><a href="{html.escape(source["url"], quote=True)}">'
+                        f'{html.escape(r["source_label"])}</a></p>\n')
     bundle_links = f'<a download href="{base}/downloads/{m["id"]}-web.zip">Download web bundle (ZIP)</a>'
     bundle_instruction = f'<a download href="{base}/downloads/{m["id"]}-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license.'
     if len(m.get('web_bundle_parts', [])) > 1:
@@ -1654,7 +1704,7 @@ def icon_detail(m, r, sections):
     <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
   </div>
   <div class="renderings" role="group" aria-label="Formats for {title}">
-    {tone_preview}
+{('    ' + tone_preview) if tone_preview else ''}
     <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="{title}" viewBox="{r['viewBox']}" style="width:{r['aspect_ratio']:.6f}em;height:1em">{icon_artwork(r)}</svg></div><figcaption>Monochrome SVG</figcaption></figure>
     <figure><div class="art" role="img" aria-label="{title}">{icon_font_span(m, r)}</div><figcaption>Monochrome icon font</figcaption></figure>
   </div>
@@ -1926,8 +1976,11 @@ def validate_family(path):
                         elif any(abs(a - b) > max(2, approximations.get(icon['glyph'], {}).get('max_bound_delta', 0)) for a, b in zip(
                                 pen.bounds, expected_icon_bounds[icon["glyph"]])):
                             raise ValueError(f"{file}: icon layer changed position during conversion: {icon['glyph']}.")
-            elif not set(range(32, 127)).issubset(cmap):
-                raise ValueError(f"{file}: missing printable Basic Latin characters.")
+            else:
+                try:
+                    validate_text_coverage(m, cmap)
+                except ValueError as exc:
+                    raise ValueError(f"{file}: {exc}") from exc
             if font["OS/2"].fsType != 0:
                 raise ValueError(f"{file}: embedding must be unrestricted.")
             if font["head"].yMax > font["OS/2"].usWinAscent or -font["head"].yMin > font["OS/2"].usWinDescent:

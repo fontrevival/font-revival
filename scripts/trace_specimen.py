@@ -236,9 +236,13 @@ def assemble(family, drawings, aliases, output, features='', metrics=None, extra
     cmap = {ord(ch): glyph_name(ch) for ch in drawings}
     for ch, target in aliases.items():
         cmap[ord(ch)] = glyph_name(target)
-    missing = set(range(32, 127)) - cmap.keys()
-    if missing and m.get('kind') != 'icons':
-        raise ValueError('Missing Basic Latin: ' + ''.join(chr(cp) for cp in sorted(missing)))
+    if m.get('kind') != 'icons':
+        if 'character_set' in m:
+            fontrevival.validate_text_coverage(m, cmap)
+        else:
+            missing = set(range(32, 127)) - cmap.keys()
+            if missing:
+                raise ValueError('Missing Basic Latin: ' + ''.join(chr(cp) for cp in sorted(missing)))
     fixed_width = None
     if settings.get('monospaced'):
         widths = {data['advance_width'] for data in drawings.values()}

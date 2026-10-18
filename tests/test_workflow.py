@@ -70,6 +70,46 @@ class WorkflowTests(unittest.TestCase):
         revival.build_catalog()
         revival.check()
 
+    def test_limited_revival_enforces_exact_declared_coverage_in_all_formats(self):
+        from fontTools import subset
+        m = revival.metadata(self.family)
+        m.update(character_set=' ABCabc', character_set_notes='Only the surviving letters.',
+                 sample_text='ABC abc')
+        revival.write_json(self.family / 'font.json', m)
+        with TTFont(self.family / 'fonts/Johnson1892-Regular.otf') as font:
+            selection = subset.Subsetter()
+            selection.populate(unicodes=[ord(ch) for ch in m['character_set']])
+            selection.subset(font)
+            font.saveXML(self.family / 'source/font.ttx')
+        sizing = self.family / 'source/sizing.json'
+        if sizing.exists():
+            sizing.unlink()
+        shutil.rmtree(self.family / 'source/glyphs', ignore_errors=True)
+        # The release font already contains the old edits. Their original
+        # tracing recipe belongs to the full alphabet, not this subset fixture.
+        tracing = self.family / 'source/tracing.json'
+        if tracing.exists():
+            tracing.unlink()
+        revival.build_family(self.family)
+        revival.validate_family(self.family)
+        for characters in (' ABCabcD', ' ABab'):
+            m['character_set'] = characters
+            revival.write_json(self.family / 'font.json', m)
+            with self.assertRaisesRegex(ValueError, 'coverage differs'):
+                revival.validate_family(self.family)
+
+    def test_limited_coverage_requires_a_valid_explicit_inventory_and_reason(self):
+        original = revival.metadata(self.family)
+        for characters in ('', 'AA ', 'ABC', ' A\n', ' A\ud800', [' ', 'A']):
+            with self.subTest(characters=repr(characters)):
+                (self.family / 'font.json').write_text(json.dumps(original | {
+                    'character_set': characters, 'character_set_notes': 'Surviving forms.'}))
+                with self.assertRaisesRegex(ValueError, 'character_set'):
+                    revival.metadata(self.family)
+        revival.write_json(self.family / 'font.json', original | {'character_set': ' ABC'})
+        with self.assertRaisesRegex(ValueError, 'character_set_notes'):
+            revival.metadata(self.family)
+
     def test_icon_artwork_reuse_does_not_skip_typeface_rebuilds(self):
         revival.build_family(self.family)
         revival.build_catalog()

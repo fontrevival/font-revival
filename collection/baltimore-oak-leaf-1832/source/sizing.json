@@ -1,0 +1,1398 @@
+{
+  "schema_version": 1,
+  "notes": "Complete-sheet proportions reviewed against every crop. Capitals retain their aspect ratios; Q and comma descend. Lowercase aliases capitals.",
+  "rules": [
+    {
+      "characters": " ",
+      "notes": "Blank word space.",
+      "y_min": [
+        0,
+        0
+      ],
+      "y_max": [
+        0,
+        0
+      ],
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        320,
+        320
+      ]
+    },
+    {
+      "characters": "!",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        3
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        320,
+        325
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        402,
+        402
+      ]
+    },
+    {
+      "characters": "&",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        858,
+        863
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        941,
+        941
+      ]
+    },
+    {
+      "characters": ",",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -128,
+        -123
+      ],
+      "y_max": [
+        323,
+        328
+      ],
+      "ink_width": [
+        357,
+        362
+      ],
+      "ink_height": [
+        448,
+        453
+      ],
+      "advance_width": [
+        439,
+        439
+      ]
+    },
+    {
+      "characters": ".",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        319,
+        324
+      ],
+      "ink_width": [
+        321,
+        326
+      ],
+      "ink_height": [
+        319,
+        324
+      ],
+      "advance_width": [
+        403,
+        403
+      ]
+    },
+    {
+      "characters": "A",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        1043,
+        1047
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        1125,
+        1125
+      ]
+    },
+    {
+      "characters": "B",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        3
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        894,
+        899
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        976,
+        976
+      ]
+    },
+    {
+      "characters": "C",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        744,
+        749
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        826,
+        826
+      ]
+    },
+    {
+      "characters": "D",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        893,
+        898
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        975,
+        975
+      ]
+    },
+    {
+      "characters": "E",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        871,
+        876
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        953,
+        953
+      ]
+    },
+    {
+      "characters": "F",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        830,
+        834
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        912,
+        912
+      ]
+    },
+    {
+      "characters": "G",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        860,
+        865
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        942,
+        942
+      ]
+    },
+    {
+      "characters": "H",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1005,
+        1009
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        1087,
+        1087
+      ]
+    },
+    {
+      "characters": "I",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        590,
+        594
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        672,
+        672
+      ]
+    },
+    {
+      "characters": "J",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        754,
+        758
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        836,
+        836
+      ]
+    },
+    {
+      "characters": "K",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1088,
+        1093
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1171,
+        1171
+      ]
+    },
+    {
+      "characters": "L",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        864,
+        869
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        947,
+        947
+      ]
+    },
+    {
+      "characters": "M",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1101,
+        1106
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1183,
+        1183
+      ]
+    },
+    {
+      "characters": "N",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        972,
+        977
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1054,
+        1054
+      ]
+    },
+    {
+      "characters": "O",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        784,
+        789
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        866,
+        866
+      ]
+    },
+    {
+      "characters": "P",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        835,
+        839
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        917,
+        917
+      ]
+    },
+    {
+      "characters": "Q",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -70,
+        -65
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        836,
+        841
+      ],
+      "ink_height": [
+        765,
+        770
+      ],
+      "advance_width": [
+        918,
+        918
+      ]
+    },
+    {
+      "characters": "R",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1016,
+        1021
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1098,
+        1098
+      ]
+    },
+    {
+      "characters": "S",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        679,
+        684
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        761,
+        761
+      ]
+    },
+    {
+      "characters": "T",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        907,
+        911
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        989,
+        989
+      ]
+    },
+    {
+      "characters": "U",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        939,
+        944
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        1021,
+        1021
+      ]
+    },
+    {
+      "characters": "V",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        994,
+        998
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        1076,
+        1076
+      ]
+    },
+    {
+      "characters": "W",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        1430,
+        1435
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        1512,
+        1512
+      ]
+    },
+    {
+      "characters": "X",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1078,
+        1083
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1160,
+        1160
+      ]
+    },
+    {
+      "characters": "Y",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1049,
+        1054
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1132,
+        1132
+      ]
+    },
+    {
+      "characters": "Z",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        828,
+        832
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        910,
+        910
+      ]
+    },
+    {
+      "characters": "a",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        1043,
+        1047
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        1125,
+        1125
+      ]
+    },
+    {
+      "characters": "b",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        3
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        894,
+        899
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        976,
+        976
+      ]
+    },
+    {
+      "characters": "c",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        744,
+        749
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        826,
+        826
+      ]
+    },
+    {
+      "characters": "d",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        893,
+        898
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        975,
+        975
+      ]
+    },
+    {
+      "characters": "e",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        871,
+        876
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        953,
+        953
+      ]
+    },
+    {
+      "characters": "f",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        830,
+        834
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        912,
+        912
+      ]
+    },
+    {
+      "characters": "g",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        860,
+        865
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        942,
+        942
+      ]
+    },
+    {
+      "characters": "h",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1005,
+        1009
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        1087,
+        1087
+      ]
+    },
+    {
+      "characters": "i",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        590,
+        594
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        672,
+        672
+      ]
+    },
+    {
+      "characters": "j",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        754,
+        758
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        836,
+        836
+      ]
+    },
+    {
+      "characters": "k",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1088,
+        1093
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1171,
+        1171
+      ]
+    },
+    {
+      "characters": "l",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        864,
+        869
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        947,
+        947
+      ]
+    },
+    {
+      "characters": "m",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1101,
+        1106
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1183,
+        1183
+      ]
+    },
+    {
+      "characters": "n",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        972,
+        977
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1054,
+        1054
+      ]
+    },
+    {
+      "characters": "o",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        784,
+        789
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        866,
+        866
+      ]
+    },
+    {
+      "characters": "p",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        835,
+        839
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        917,
+        917
+      ]
+    },
+    {
+      "characters": "q",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -70,
+        -65
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        836,
+        841
+      ],
+      "ink_height": [
+        765,
+        770
+      ],
+      "advance_width": [
+        918,
+        918
+      ]
+    },
+    {
+      "characters": "r",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1016,
+        1021
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1098,
+        1098
+      ]
+    },
+    {
+      "characters": "s",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        679,
+        684
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        761,
+        761
+      ]
+    },
+    {
+      "characters": "t",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        907,
+        911
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        989,
+        989
+      ]
+    },
+    {
+      "characters": "u",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        697,
+        702
+      ],
+      "ink_width": [
+        939,
+        944
+      ],
+      "ink_height": [
+        697,
+        702
+      ],
+      "advance_width": [
+        1021,
+        1021
+      ]
+    },
+    {
+      "characters": "v",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -3,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        994,
+        998
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        1076,
+        1076
+      ]
+    },
+    {
+      "characters": "w",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        703
+      ],
+      "ink_width": [
+        1430,
+        1435
+      ],
+      "ink_height": [
+        698,
+        703
+      ],
+      "advance_width": [
+        1512,
+        1512
+      ]
+    },
+    {
+      "characters": "x",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1078,
+        1083
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1160,
+        1160
+      ]
+    },
+    {
+      "characters": "y",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        1049,
+        1054
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        1132,
+        1132
+      ]
+    },
+    {
+      "characters": "z",
+      "notes": "Observed source trace; reviewed ink bounds and advance. No inferred form.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        698,
+        702
+      ],
+      "ink_width": [
+        828,
+        832
+      ],
+      "ink_height": [
+        698,
+        702
+      ],
+      "advance_width": [
+        910,
+        910
+      ]
+    },
+    {
+      "characters": " ",
+      "notes": "Blank word space.",
+      "y_min": [
+        0,
+        0
+      ],
+      "y_max": [
+        0,
+        0
+      ],
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        320,
+        320
+      ]
+    }
+  ]
+}
