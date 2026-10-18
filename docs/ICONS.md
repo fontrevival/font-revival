@@ -28,9 +28,9 @@ Typeface cards and their existing `catalog.json` stay in the font gallery.
 Icons with two or three recorded tone regions also produce SVGs in `svg/multitone/`,
 a separate `web/icons-multitone.svg` sprite, and transparent 1024-pixel-high PNGs
 in `png/multitone/`. Those SVGs contain vector contours with opacity, not embedded
-scan bitmaps. The pilot has primary, secondary and tertiary regions at 100%,
-55% and 25% opacity. Standard icon fonts remain monochrome. Both versions keep
-the same coordinate frame. The continuous-grayscale experiment is superseded.
+scan bitmaps. The Father Christmas cut has primary, secondary and tertiary regions
+at 100%, 55% and 25% opacity. Standard icon fonts remain monochrome. Both versions
+keep the same coordinate frame.
 
 Use `fr-icon fr-boston-1889-4202` after including the collection's `web/icons.css`.
 Distribute that entire `web/` directory and the license. `font-size` sets the size;
@@ -38,7 +38,7 @@ Distribute that entire `web/` directory and the license. `font-size` sets the si
 own font. Give decorative spans `aria-hidden="true"`; put an accessible name on
 meaningful icons, or label their containing button/link. A Private Use character
 is not a semantic label. Desktop applications can insert the manifest's character
-after installing the OTF or TTF. The pilot uses U+E000.
+after installing the OTF or TTF. Father Christmas uses U+E000 in Boston Cuts 1889.
 
 SVG files and sprite symbols use the same em box and advance as the font, with
 positive-up master coordinates flipped for SVG. This preserves aspect ratio and
@@ -278,27 +278,26 @@ The assembler checks missing dependencies and the published size against
 [GitHub Pages' 1 GB limit](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
 Use an empty output directory when staging a new release.
 
-## Coverage and remaining sources
+## Source coverage
 
-The Boston expansion covers printed pp. 217–276 inclusive. The Baltimore
+The Boston collection covers printed pp. 217–276 inclusive. The Baltimore
 extraction covers the entire book (`ldpd_12198261_000.pdf`), including decorative
-material before PDF page 121. Both supplied PDFs
-are retained in `workspace/icon-pilot/`. The Boston archive record says printed
-pp. 217–218 are missing. The survey records this gap; the archive, Wikimedia copy
-and library catalogue search did not reveal a second digital copy supplying them.
+material before PDF page 121. Each family's `font.json` cites its sources, with
+the reference pages retained in its `reference/` directory. Boston's printed
+pp. 217–218 are missing from the historical scan and remain a documented source gap.
 The Baltimore book has no printed page numbers; its inventory cites PDF positions
 and records all 238 leaves, including blank versos.
 
 All 62 available Boston leaves in the range have been surveyed. Decorative
-initials and pictorial symbols are included by user approval; ordinary text and
-numerals are excluded. The inventory records
-each impression, page, catalogue number, crop, status and reason for any exclusion.
+initials and pictorial symbols are included; ordinary text and numerals are
+excluded. The inventory records each impression, page, catalogue number, crop,
+status and reason for any exclusion.
 For unnumbered specimens, use a page-and-position ID. Catalogue repeating border
 pieces and corners individually, retain composed examples as reference, and
 record duplicate impressions explicitly. Lettered ornaments and complex cuts
 remain faithful illustrated forms. No omitted specimen should disappear from
 the inventory merely because it is difficult to trace or too detailed for small
-sizes. Missing pages and uncertain separations remain visible pending work.
+sizes. Record missing pages and uncertain separations explicitly.
 
 The central `collection/boston-cuts-1889/source/inventory.json` records page counts
 and links to the four family inventories. Missing pages remain an explicit source
@@ -330,12 +329,11 @@ Those selections use clean impressions away from connected paper stains. New
 measurements still require visual review. Inspect repeated proofs at useful display and
 print sizes, including the seam. Do not accept a numerical period as evidence
 that the source crop is clean: caption fragments and paper stains also repeat.
-The 2026 border review surveyed 608 border/frame/corner assets and 283 repeat
-recipes. Suspicious boundaries were compared with native scans, and joins were
-examined in enlarged repeat proofs. See the families'
-`source/border-cleanup.json`, Baltimore's `source/strip-cleanup.json` and their
-retained specimen proofs for the measured outline corrections.
+See the families' `source/border-cleanup.json`, Baltimore's
+`source/strip-cleanup.json` and their retained specimen proofs for the measured
+outline corrections.
 
-`python scripts/proof_icon_layout.py` writes a common-height proof of every
-repeat to `docs/border-repeat-review.pdf` and PNG contact sheets to the ignored
-workspace. This is a source and join review, independent of any page editor.
+`python scripts/proof_icon_layout.py` writes `border-repeat-review.pdf` and PNG
+contact sheets to the ignored `workspace/border-review/` directory. Pass a
+directory as the first argument to choose another output location. Use these
+proofs to inspect source fidelity and joins between repeated tiles.

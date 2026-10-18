@@ -10,7 +10,7 @@ copyright ownership.
 
 ## 1. Start from evidence
 
-Put the supplied scans, images, or PDFs in `workspace/`. Identify the typeface,
+Put working scans, images, or PDFs in `workspace/`. Identify the typeface,
 date, designer, foundry, and useful specimen pages. Record a public-domain rights
 basis using the [source policy](SOURCES.md). Keep the exact reference images used
 in `collection/<id>/reference/` so future work does not depend on live websites.
@@ -90,53 +90,37 @@ character inventory), and any review proofs. Compare against the historical sour
 Check counters, overlaps, baseline, descenders, spacing, and words containing the changed
 forms. Commit the editable sources and regenerated outputs together.
 
-Finish with **commit → push → watch**, unless the user requests otherwise. After
-the applicable checks pass, make a focused commit and run `git push` to the
-configured upstream. Documentation-only changes need a diff review and
-`git diff --check`; they do not require rebuilding unchanged fonts.
+Documentation-only changes need a diff review and `git diff --check`; they do
+not require rebuilding unchanged fonts.
+
+### Gallery publication
 
 The `Publish gallery` workflow (`.github/workflows/pages.yml`) publishes pushes
 to `main` that change site inputs. Documentation-only and test-only pushes skip
-publication; report that intentional skip instead of waiting for a run. Otherwise,
-find the run for the exact pushed commit with
-`gh run list --workflow pages.yml --commit <commit-sha>`, then monitor it with
-`gh run watch <run-id> --exit-status`. If the run has not appeared yet, wait and
-retry the lookup; do not substitute an older deployment. Watch through completion,
-inspect failed logs and fix any failures, then verify the expected update on the
-[live gallery](https://font-revival.com/). Report the commit and
-deployment result with a link to the run. A push to another branch does not publish
-the gallery; report that explicitly rather than claiming deployment succeeded.
+publication. Pushes to other branches do not publish the gallery.
+
+After pushing a site change to `main`, find the run for that commit with
+`gh run list --workflow pages.yml --commit <commit-sha>` and monitor it with
+`gh run watch <run-id> --exit-status`. Retry the lookup if the run has not appeared
+yet. Check failed logs before retrying a deployment, and verify the expected
+update on the [live gallery](https://font-revival.com/) after a successful run.
 
 Pages receives a complete site artifact. To keep preparation fast, the workflow
 starts with a sparse partial checkout and fetches only files the gallery embeds.
 Download links are checked against the committed Git tree without fetching the
-archival files. Packed ornament pages are cached by source content, helper path,
-and assembler version; unchanged pages reuse their lossless compressed artwork.
-The assembler still checks every referenced asset on cache hits. Gzip level 6 keeps
-cold builds faster without changing the decoded artwork. The cache is optional:
-`python3 scripts/build_site.py` still builds from a full local checkout.
+archival files. Unchanged packed artwork is cached between deployments. Local
+assembly with `python3 scripts/build_site.py` uses the full checkout and needs
+no cache.
+
+### Editor distribution
+
+The published site includes a proprietary editor built from the separate private
+repository pinned in `site/editor-release.json`. Only its compiled browser assets
+and proprietary and third-party notices are distributed with the site. The
+collection's MIT license applies to this repository's work; it does not license
+the editor. Editor source and build configuration are maintained separately.
 
 ## Repeatability
-
-### Private editor distribution
-
-The collection lives in the `font-revival/` sibling checkout. The proprietary
-editor lives in the separate private `font-revival-editor/` checkout. Its source
-is never committed to this public repository. `site/editor-release.json` pins an
-exact private commit. Pages uses the read-only `EDITOR_DEPLOY_KEY` repository
-secret to build that commit and includes only its browser distribution at
-`editor/`. The distribution carries its own proprietary and third-party notices;
-the collection's MIT terms are unchanged.
-
-For local gallery assembly, first run `npm ci && npm run build` in the editor
-checkout, then copy its `dist/` to this checkout's ignored `editor/` directory.
-The editor's `npm run dev` previews both siblings without copying. Run the
-editor tests and browser review before changing its release pin. Push the private
-commit before publishing a pin that references it, then follow commit → push →
-watch above for the gallery. Public OAuth client IDs are optional repository
-variables `EDITOR_GOOGLE_CLIENT_ID`, `EDITOR_DROPBOX_CLIENT_ID`, and
-`EDITOR_MICROSOFT_CLIENT_ID`; configuration instructions live in the private repo.
-No provider secrets or editor source maps belong in the public artifact.
 
 `build` discovers families automatically and derives OTF, TTF, WOFF, WOFF2, specimen
 PDF/PNG, CSS, family README, checksums, and the gallery from committed inputs.
@@ -149,13 +133,3 @@ in a temporary directory. It also prints advisory size outliers for visual revie
 Python 3.12 and `requirements.txt` define the reference environment used by CI.
 Rendering may differ with platform font rasterizers; use the Linux CI environment
 for byte-for-byte comparisons. Source files and outputs are committed together.
-
-## A prompt to reuse
-
-> Read AGENTS.md and docs/WORKFLOW.md. Using the samples in workspace/, add a new
-> revival or improve the specified family. Research and record the historical
-> sources and rights basis. Preserve the distinctive forms and mark reconstructions.
-> Use the shared source format and build commands. For revisions, include a version
-> bump, changelog, and before/after proof. Inspect the results and finish with passing
-> checks, a focused commit, a push, and, when site inputs change, a successful Pages
-> deployment verified on the live gallery.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Proof every catalogue repeat at a common height, retaining a review PDF.
 
-Run from the repository root. Optional first argument is the PNG output folder.
+Run from the repository root. Optional first argument is the PDF and PNG output folder.
 """
 import json,sys,xml.etree.ElementTree as ET,math
 from pathlib import Path
@@ -23,11 +23,12 @@ for key,e in layouts.items():
  row=Image.new('RGB',(460,95),'#fffaf0');d=ImageDraw.Draw(row);d.text((5,3),key.replace('baltimore-1832-','').replace('boston-1889-',''),fill='black')
  for x in range(4,455,tw):row.paste(tile,(x,25),tile)
  rows.append(row)
-pdf=Canvas("docs/border-repeat-review.pdf",pagesize=(828,798),invariant=1)
+pdf_path=out/'border-repeat-review.pdf'
+pdf=Canvas(str(pdf_path),pagesize=(828,798),invariant=1)
 for start in range(0,len(rows),42):
  chunk=rows[start:start+42];sheet=Image.new('RGB',(1380,math.ceil(len(chunk)/3)*95),'#fffaf0')
  for j,row in enumerate(chunk):sheet.paste(row,((j%3)*460,(j//3)*95))
  sheet.save(out/f'joins-{start//42+1}.png')
  pdf.drawImage(ImageReader(sheet),0,798-sheet.height*.6,width=828,height=sheet.height*.6);pdf.showPage()
 pdf.save()
-print(len(rows),'repeat previews; docs/border-repeat-review.pdf')
+print(len(rows),'repeat previews;',pdf_path)

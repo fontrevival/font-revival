@@ -91,9 +91,12 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 | [Remington 1888](collection/remington-1888/) | A monospaced metal-type imitation of typewriting, following the 12-point No. 2 cut. | [OTF](collection/remington-1888/fonts/Remington1888-Regular.otf) · [TTF](collection/remington-1888/fonts/Remington1888-Regular.ttf) · [Preview](collection/remington-1888/specimens/preview.png) · [PDF](collection/remington-1888/specimens/specimen.pdf) |
 
 Erebus and Hades form a registered pair; see their [overprint proof](collection/hades-1894/specimens/pairing.pdf).
-The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records the selections, supplementary sources and evidence limits.
 
-The [Baltimore 1832 / Boston 1889 display inventory](docs/display-revival-inventory.json) tracks the wider revival project, including pending scripts, poster faces and blackletter. The nine initial display families from these books include full Basic Latin coverage and source comparison proofs. Eight use documented capital aliases; Black Slope retains its historical lowercase. The complete requested range remains in progress.
+Each family records its historical sources, reconstructed characters and evidence
+limits in `font.json` and `source/METHOD.md`. The nine Baltimore 1832 and Boston
+1889 display families include full Basic Latin coverage and source comparison
+proofs. Eight use documented capital aliases; Black Slope retains its historical
+lowercase.
 
 ## Ornaments and cuts
 
@@ -169,8 +172,7 @@ Preview the collection with `python -m http.server 8000`, then open
 
 ## Editable sources
 
-Give your LLM historical scans or PDFs in `workspace/` and ask it to follow
-[AGENTS.md](AGENTS.md) and the [shared workflow](docs/WORKFLOW.md).
+To add or revise a family, follow the [shared workflow](docs/WORKFLOW.md).
 
 Each family has one editable OpenType XML master, optional individual glyph
 edits, a source record, and a changelog. The shared build produces OTF, TTF,

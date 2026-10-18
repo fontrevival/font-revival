@@ -4,6 +4,9 @@ This repository revives historical typefaces as MIT-licensed digital fonts.
 Follow `docs/WORKFLOW.md` for both new families and revisions.
 
 - Inspect the supplied specimens before drawing. Keep incoming work in `workspace/`.
+- Write public documentation for repository readers and contributors. Keep task
+  requests, planning ledgers, progress reports, reusable prompts and local setup
+  notes in the ignored `workspace/`, not in public docs or the collection README.
 - Read the family's `font.json`, `CHANGELOG.md`, and historical references.
 - Record source URLs, page numbers, and rights evidence. Use documented public-domain
   historical sources; never trace a modern digital font or invent a citation.
