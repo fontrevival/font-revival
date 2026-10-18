@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against native crops, source comparison proofs, complete inventories and words. Rules preserve optical-size differences and distinguish ornamental extensions from the body.",
+  "rules": [
+    {
+      "characters": "ACEGIJLOSTVWZ",
+      "y_min": [
+        -35,
+        20
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Ordinary cap bodies and round overshoots; Q is reviewed separately for its tail."
+    },
+    {
+      "characters": "BDPUXY",
+      "y_min": [
+        -30,
+        20
+      ],
+      "y_max": [
+        745,
+        795
+      ],
+      "notes": "Raised triangular entry spurs extend above the ordinary cap body."
+    },
+    {
+      "characters": "FKM",
+      "y_min": [
+        -210,
+        -150
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Observed descending capital stems with ordinary cap tops."
+    },
+    {
+      "characters": "HNR",
+      "y_min": [
+        -215,
+        -150
+      ],
+      "y_max": [
+        745,
+        800
+      ],
+      "notes": "Observed capitals with both raised entry spurs and descending terminals."
+    },
+    {
+      "characters": "Q",
+      "y_min": [
+        -185,
+        -145
+      ],
+      "y_max": [
+        690,
+        735
+      ],
+      "notes": "Inferred Q tail follows the descending capital vocabulary."
+    },
+    {
+      "characters": "0123456789",
+      "y_min": [
+        -60,
+        25
+      ],
+      "y_max": [
+        650,
+        745
+      ],
+      "notes": "Reviewed lining figures, including the lower optical top and tapered foot of the 24-point 7."
+    },
+    {
+      "characters": "cemnorsuvwxz",
+      "y_min": [
+        -30,
+        25
+      ],
+      "y_max": [
+        455,
+        575
+      ],
+      "notes": "Observed lowercase bodies retain optical-size differences and raised shoulder/diagonal entries."
+    },
+    {
+      "characters": "a",
+      "y_min": [
+        -85,
+        -40
+      ],
+      "y_max": [
+        455,
+        505
+      ],
+      "notes": "Observed a has a descending exit spur below its round body."
+    },
+    {
+      "characters": "bd",
+      "y_min": [
+        -65,
+        -25
+      ],
+      "y_max": [
+        735,
+        785
+      ],
+      "notes": "Observed d and reconstructed b retain the descending exit spur and raised ascender."
+    },
+    {
+      "characters": "fhikl",
+      "y_min": [
+        -20,
+        25
+      ],
+      "y_max": [
+        720,
+        790
+      ],
+      "notes": "Ascenders and dotted i retain their measured cap-related height."
+    },
+    {
+      "characters": "j",
+      "y_min": [
+        -280,
+        -240
+      ],
+      "y_max": [
+        720,
+        780
+      ],
+      "notes": "New j preserves the observed i dot and has an explicitly drawn hook."
+    },
+    {
+      "characters": "g",
+      "y_min": [
+        -350,
+        -305
+      ],
+      "y_max": [
+        495,
+        545
+      ],
+      "notes": "The 12-point g has a deep lower bowl; preserve it without shrinking the body."
+    },
+    {
+      "characters": "pqy",
+      "y_min": [
+        -275,
+        -225
+      ],
+      "y_max": [
+        515,
+        570
+      ],
+      "notes": "Observed p and inferred q/y preserve lowercase descender depth."
+    },
+    {
+      "characters": "t",
+      "y_min": [
+        -30,
+        10
+      ],
+      "y_max": [
+        645,
+        700
+      ],
+      "notes": "Observed t rises above the lowercase body but below ascender tips."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against native crops, source comparison proofs, complete inventories and words. Rules preserve optical-size differences and distinguish ornamental extensions from the body.",
+  "rules": [
+    {
+      "characters": "ABCEGIJLOSTZ",
+      "y_min": [
+        -35,
+        25
+      ],
+      "y_max": [
+        675,
+        750
+      ],
+      "notes": "Ordinary capital bodies and round overshoots; B comes from the wider 18-point optical cut."
+    },
+    {
+      "characters": "DPUVXY",
+      "y_min": [
+        -30,
+        30
+      ],
+      "y_max": [
+        715,
+        800
+      ],
+      "notes": "Observed or reconstructed triangular entries rise above the nominal cap line."
+    },
+    {
+      "characters": "FKM",
+      "y_min": [
+        -200,
+        -105
+      ],
+      "y_max": [
+        670,
+        735
+      ],
+      "notes": "Descending capital terminals, including the explicitly inferred K."
+    },
+    {
+      "characters": "HNR",
+      "y_min": [
+        -170,
+        -110
+      ],
+      "y_max": [
+        730,
+        795
+      ],
+      "notes": "Raised entry spurs and descending terminals belong to the observed capital forms."
+    },
+    {
+      "characters": "Q",
+      "y_min": [
+        -240,
+        -190
+      ],
+      "y_max": [
+        670,
+        725
+      ],
+      "notes": "Observed Q has a descending diagonal tail."
+    },
+    {
+      "characters": "W",
+      "y_min": [
+        -120,
+        -75
+      ],
+      "y_max": [
+        720,
+        780
+      ],
+      "notes": "Observed uncial W has a rounded body and a descending exit spur."
+    },
+    {
+      "characters": "023456789",
+      "y_min": [
+        -35,
+        30
+      ],
+      "y_max": [
+        675,
+        740
+      ],
+      "notes": "Observed lining figures retain optical-size width variation."
+    },
+    {
+      "characters": "1",
+      "y_min": [
+        -45,
+        -10
+      ],
+      "y_max": [
+        640,
+        680
+      ],
+      "notes": "The 18-point figure 1 is shorter than the larger-size figures; the source confirms this optical difference."
+    },
+    {
+      "characters": "cemnorsvxz",
+      "y_min": [
+        -30,
+        30
+      ],
+      "y_max": [
+        510,
+        650
+      ],
+      "notes": "Lowercase bodies retain raised n/m/r/v entries and optical-size differences."
+    },
+    {
+      "characters": "auw",
+      "y_min": [
+        -95,
+        -30
+      ],
+      "y_max": [
+        505,
+        615
+      ],
+      "notes": "Descending lowercase exit spurs are retained independently of the body height."
+    },
+    {
+      "characters": "bd",
+      "y_min": [
+        -85,
+        -35
+      ],
+      "y_max": [
+        715,
+        770
+      ],
+      "notes": "Observed d and reconstructed b share an entry spur and descending exit."
+    },
+    {
+      "characters": "fhkl",
+      "y_min": [
+        -25,
+        30
+      ],
+      "y_max": [
+        715,
+        795
+      ],
+      "notes": "Observed and reconstructed ascenders preserve their raised entry tips."
+    },
+    {
+      "characters": "it",
+      "y_min": [
+        -30,
+        25
+      ],
+      "y_max": [
+        660,
+        715
+      ],
+      "notes": "Observed dotted i and t are lower than the spurred h/k/l ascenders."
+    },
+    {
+      "characters": "j",
+      "y_min": [
+        -275,
+        -230
+      ],
+      "y_max": [
+        660,
+        715
+      ],
+      "notes": "New j retains the source i dot height and an inferred descending hook."
+    },
+    {
+      "characters": "gpq",
+      "y_min": [
+        -275,
+        -210
+      ],
+      "y_max": [
+        490,
+        575
+      ],
+      "notes": "Observed g/p and inferred q preserve their descenders and varying optical body heights."
+    },
+    {
+      "characters": "y",
+      "y_min": [
+        -305,
+        -265
+      ],
+      "y_max": [
+        505,
+        560
+      ],
+      "notes": "Observed y has a deep diagonal descender from the 24-point cut."
+    }
+  ]
+}

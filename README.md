@@ -71,6 +71,9 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 
 | Family | Character | Downloads and proofs |
 | --- | --- | --- |
+| [Lafayette 1889](collection/lafayette-1889/) | Tall condensed display letters with fine crossbars, triangular serifs and a distinct historical lowercase. | [OTF](collection/lafayette-1889/fonts/Lafayette1889-Regular.otf) · [TTF](collection/lafayette-1889/fonts/Lafayette1889-Regular.ttf) · [Preview](collection/lafayette-1889/specimens/preview.png) · [PDF](collection/lafayette-1889/specimens/specimen.pdf) |
+| [London 1889](collection/london-1889/) | Ornamental capitals with swelling strokes, flared terminals and selectively descending stems. Lowercase input uses capitals. | [OTF](collection/london-1889/fonts/London1889-Regular.otf) · [TTF](collection/london-1889/fonts/London1889-Regular.ttf) · [Preview](collection/london-1889/specimens/preview.png) · [PDF](collection/london-1889/specimens/specimen.pdf) |
+| [Washington 1889](collection/washington-1889/) | Broad high-contrast display letters with triangular entry serifs and a lively historical lowercase. | [OTF](collection/washington-1889/fonts/Washington1889-Regular.otf) · [TTF](collection/washington-1889/fonts/Washington1889-Regular.ttf) · [Preview](collection/washington-1889/specimens/preview.png) · [PDF](collection/washington-1889/specimens/specimen.pdf) |
 | [Altona 1889](collection/altona-1889/) | Heavy condensed display letters with sloping crossbars, alternating descending terminals and a distinct historical lowercase. | [OTF](collection/altona-1889/fonts/Altona1889-Regular.otf) · [TTF](collection/altona-1889/fonts/Altona1889-Regular.ttf) · [Preview](collection/altona-1889/specimens/preview.png) · [PDF](collection/altona-1889/specimens/specimen.pdf) |
 | [Facade 1889](collection/facade-1889/) | Tall condensed display capitals with rising crossbars, fine serifs and narrow oval bowls. Lowercase input uses capitals. | [OTF](collection/facade-1889/fonts/Facade1889-Regular.otf) · [TTF](collection/facade-1889/fonts/Facade1889-Regular.ttf) · [Preview](collection/facade-1889/specimens/preview.png) · [PDF](collection/facade-1889/specimens/specimen.pdf) |
 | [Mural 1889](collection/mural-1889/) | Light display capitals with broad proportions, rising crossbars and flared serif terminals. Lowercase input uses capitals. | [OTF](collection/mural-1889/fonts/Mural1889-Regular.otf) · [TTF](collection/mural-1889/fonts/Mural1889-Regular.ttf) · [Preview](collection/mural-1889/specimens/preview.png) · [PDF](collection/mural-1889/specimens/specimen.pdf) |
@@ -98,8 +101,8 @@ Erebus and Hades form a registered pair; see their [overprint proof](collection/
 Each family records its historical sources, reconstructed characters and evidence
 limits in `font.json` and `source/METHOD.md`. The Baltimore 1832 and Boston
 1889 display families include full Basic Latin coverage and source comparison
-proofs. Capital-only designs use documented lowercase aliases; Altona and
-Baltimore Black Slope retain historical lowercase.
+proofs. Capital-only designs use documented lowercase aliases; Altona, Washington, Lafayette,
+and Baltimore Black Slope retain historical lowercase.
 
 ## Ornaments and cuts
 

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against native crops, source comparison proofs, complete inventories and words. Rules preserve optical-size differences and distinguish ornamental extensions from the body.",
+  "rules": [
+    {
+      "characters": "ACDEGIJLORSTUVWXYZ",
+      "y_min": [
+        -35,
+        35
+      ],
+      "y_max": [
+        675,
+        750
+      ],
+      "notes": "Ordinary capital bodies with historical curved terminals and optical overshoot."
+    },
+    {
+      "characters": "BFHKMNPQ",
+      "y_min": [
+        -165,
+        -95
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Observed or explicitly reconstructed descending stems and Q tail; preserve the cap body above these extensions."
+    },
+    {
+      "characters": "0123456789",
+      "y_min": [
+        -35,
+        30
+      ],
+      "y_max": [
+        675,
+        750
+      ],
+      "notes": "Lining figures; preserve the larger-size bowls and the corrected local baseline of 6/7."
+    },
+    {
+      "characters": "acdegijlorstuvwxyz",
+      "y_min": [
+        -35,
+        35
+      ],
+      "y_max": [
+        675,
+        750
+      ],
+      "notes": "Lowercase input aliases the reviewed capitals."
+    },
+    {
+      "characters": "bfhkmnpq",
+      "y_min": [
+        -165,
+        -95
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Lowercase input aliases the reviewed capitals."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "london-1889",
+  "name": "London 1889",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "London1889-Regular",
+  "year": 1889,
+  "designer": "Unidentified in the consulted historical specimen",
+  "foundry": "Boston and Central Type Foundries",
+  "description": "Ornamental capitals with swelling strokes, flared terminals and selectively descending stems.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "MORNING REPORTS",
+  "observed": "Directly traced characters: 5678ACDEFGHIKLMNOPRSTUVW. Printed page 179, PDF page 185. Larger impressions anchor the master; smaller sizes supply additional characters. Original crops are also retained for separately labelled reconstructions.",
+  "reconstructed": "Inferred companion letters and figures: BJQXYZ012349. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+  "sources": [
+    {
+      "title": "Specimen book from the Boston type foundry (1889), London; printed p. 179, one-based PDF page 185, Internet Archive leaf 185",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/n185/mode/1up",
+      "file": "reference/pdf-185.jp2",
+      "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. New companions are recorded separately with construction notes. Measured baselines include page slope. Optical-size differences and ornamental spurs are retained; small-source replacements are explicitly labelled."
+  },
+  "character_style": "capitals-only"
+}
