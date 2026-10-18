@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "facade-1889",
+  "name": "Facade 1889",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Facade1889-Regular",
+  "year": 1889,
+  "designer": "Unidentified in the consulted historical specimen",
+  "foundry": "Boston and Central Type Foundries",
+  "description": "Tall condensed display capitals with rising crossbars, fine serifs and narrow oval bowls.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "SUMMER MORNING",
+  "observed": "Directly sampled characters: 12356789ABCDEFGHILMNOPQRSTUVWXY. Printed page 191, PDF page 197. Larger impressions anchor the master; smaller sizes supply additional characters. The tiny K impression informs a separately documented reconstruction.",
+  "reconstructed": "Inferred companion letters and figures: JZ04. K is redrawn from its tiny impression, using the larger I to restore stem weight and flared terminals. Punctuation and remaining symbols are new project drawings. Lowercase input aliases the capitals. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+  "sources": [
+    {
+      "title": "Specimen book from the Boston type foundry (1889), Facade; printed p. 191, one-based PDF page 197, Internet Archive leaf 197",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/n197/mode/1up",
+      "file": "reference/pdf-197.jp2",
+      "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. New companions are recorded separately with construction notes."
+  },
+  "character_style": "capitals-only"
+}

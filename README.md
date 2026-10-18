@@ -71,6 +71,9 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 
 | Family | Character | Downloads and proofs |
 | --- | --- | --- |
+| [Altona 1889](collection/altona-1889/) | Heavy condensed display letters with sloping crossbars, alternating descending terminals and a distinct historical lowercase. | [OTF](collection/altona-1889/fonts/Altona1889-Regular.otf) · [TTF](collection/altona-1889/fonts/Altona1889-Regular.ttf) · [Preview](collection/altona-1889/specimens/preview.png) · [PDF](collection/altona-1889/specimens/specimen.pdf) |
+| [Facade 1889](collection/facade-1889/) | Tall condensed display capitals with rising crossbars, fine serifs and narrow oval bowls. Lowercase input uses capitals. | [OTF](collection/facade-1889/fonts/Facade1889-Regular.otf) · [TTF](collection/facade-1889/fonts/Facade1889-Regular.ttf) · [Preview](collection/facade-1889/specimens/preview.png) · [PDF](collection/facade-1889/specimens/specimen.pdf) |
+| [Mural 1889](collection/mural-1889/) | Light display capitals with broad proportions, rising crossbars and flared serif terminals. Lowercase input uses capitals. | [OTF](collection/mural-1889/fonts/Mural1889-Regular.otf) · [TTF](collection/mural-1889/fonts/Mural1889-Regular.ttf) · [Preview](collection/mural-1889/specimens/preview.png) · [PDF](collection/mural-1889/specimens/specimen.pdf) |
 | [Atlanta 1889](collection/atlanta-1889/) | Wide display capitals with flared terminals, pointed spurs and a low decorative M. Lowercase input uses capitals. | [OTF](collection/atlanta-1889/fonts/Atlanta1889-Regular.otf) · [TTF](collection/atlanta-1889/fonts/Atlanta1889-Regular.ttf) · [Preview](collection/atlanta-1889/specimens/preview.png) · [PDF](collection/atlanta-1889/specimens/specimen.pdf) |
 | [Baltimore Antique 1832](collection/baltimore-antique-1832/) | Heavy slab-serif titling capitals from the Long Primer Antique specimen. Lowercase input uses capitals. | [OTF](collection/baltimore-antique-1832/fonts/BaltimoreAntique1832-Regular.otf) · [TTF](collection/baltimore-antique-1832/fonts/BaltimoreAntique1832-Regular.ttf) · [Preview](collection/baltimore-antique-1832/specimens/preview.png) · [PDF](collection/baltimore-antique-1832/specimens/specimen.pdf) |
 | [Baltimore Black Slope 1832](collection/baltimore-black-slope-1832/) | Backslanted Roman with curled capitals and historical lowercase. | [OTF](collection/baltimore-black-slope-1832/fonts/BaltimoreBlackSlope1832-Regular.otf) · [TTF](collection/baltimore-black-slope-1832/fonts/BaltimoreBlackSlope1832-Regular.ttf) · [Preview](collection/baltimore-black-slope-1832/specimens/preview.png) · [PDF](collection/baltimore-black-slope-1832/specimens/specimen.pdf) |
@@ -93,10 +96,10 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 Erebus and Hades form a registered pair; see their [overprint proof](collection/hades-1894/specimens/pairing.pdf).
 
 Each family records its historical sources, reconstructed characters and evidence
-limits in `font.json` and `source/METHOD.md`. The nine Baltimore 1832 and Boston
+limits in `font.json` and `source/METHOD.md`. The Baltimore 1832 and Boston
 1889 display families include full Basic Latin coverage and source comparison
-proofs. Eight use documented capital aliases; Black Slope retains its historical
-lowercase.
+proofs. Capital-only designs use documented lowercase aliases; Altona and
+Baltimore Black Slope retain historical lowercase.
 
 ## Ornaments and cuts
 

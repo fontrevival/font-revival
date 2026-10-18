@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against the retained native crops, full character inventory and word proofs. Ranges guard body size without equalising historical widths.",
+  "rules": [
+    {
+      "characters": "ABCDEFGIJLNOPRTUVWXYZ",
+      "y_min": [
+        -30,
+        20
+      ],
+      "y_max": [
+        675,
+        730
+      ],
+      "notes": "Reviewed capital bodies: preserve the source’s narrow large-size cuts and the wider supplementary smaller sizes."
+    },
+    {
+      "characters": "HKMS",
+      "y_min": [
+        -175,
+        -100
+      ],
+      "y_max": [
+        675,
+        730
+      ],
+      "notes": "Observed descending capital terminals; do not shrink extensions into the cap body."
+    },
+    {
+      "characters": "Q",
+      "y_min": [
+        -175,
+        -140
+      ],
+      "y_max": [
+        675,
+        730
+      ],
+      "notes": "Explicit inferred Q tail follows the observed capital descender depth."
+    },
+    {
+      "characters": "0123456789",
+      "y_min": [
+        -30,
+        20
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Lining figures: source impressions and separately labelled inferred companions."
+    },
+    {
+      "characters": "acemnorsuvwxz",
+      "y_min": [
+        -40,
+        25
+      ],
+      "y_max": [
+        480,
+        540
+      ],
+      "notes": "Lowercase bodies retain the observed x-height and optical overshoot."
+    },
+    {
+      "characters": "gpqy",
+      "y_min": [
+        -165,
+        -90
+      ],
+      "y_max": [
+        480,
+        540
+      ],
+      "notes": "Observed lowercase descenders; q comes from the smaller optical cut."
+    },
+    {
+      "characters": "bdhikl",
+      "y_min": [
+        -35,
+        25
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Observed ascenders, including the detached square i dot."
+    },
+    {
+      "characters": "fj",
+      "y_min": [
+        -170,
+        -120
+      ],
+      "y_max": [
+        675,
+        735
+      ],
+      "notes": "Observed descending f and explicit new j with its square dot."
+    },
+    {
+      "characters": "t",
+      "y_min": [
+        -30,
+        15
+      ],
+      "y_max": [
+        590,
+        640
+      ],
+      "notes": "Observed t ascends above the lowercase body with a rising crossbar."
+    },
+    {
+      "characters": "o",
+      "ink_width": [
+        260,
+        282
+      ],
+      "notes": "The 36-point o is wider than the 48-point c/e. The source comparison confirms this optical-size difference; retain it rather than condensing the outline to satisfy the advisory heuristic."
+    }
+  ]
+}

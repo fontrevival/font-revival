@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against the retained native crops, full character inventory and word proofs. Ranges guard body size without equalising historical widths.",
+  "rules": [
+    {
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "y_min": [
+        -40,
+        30
+      ],
+      "y_max": [
+        670,
+        740
+      ],
+      "notes": "Reviewed cap bodies and shallow Q tail; lowercase aliases capitals. Preserve the source’s varied widths and optical overshoot."
+    },
+    {
+      "characters": "0123456789",
+      "y_min": [
+        -40,
+        30
+      ],
+      "y_max": [
+        670,
+        745
+      ],
+      "notes": "Reviewed lining figures from source impressions and explicit companions."
+    }
+  ]
+}

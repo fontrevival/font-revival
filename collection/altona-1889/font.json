@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "altona-1889",
+  "name": "Altona 1889",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Altona1889-Regular",
+  "year": 1889,
+  "designer": "Unidentified in the consulted historical specimen",
+  "foundry": "Boston and Central Type Foundries",
+  "description": "Heavy condensed display letters with sloping crossbars, alternating descending terminals and a distinct historical lowercase.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "Morning Rambles",
+  "observed": "Directly sampled characters: 24789ABCDEFGHIKLMNOPRSTUWXYabcdefghiklmnopqrstuvy. Printed page 170, PDF page 176. Larger impressions anchor the master; smaller sizes supply additional characters.",
+  "reconstructed": "Inferred companion letters and figures: JQVZjwxz01356. Punctuation and remaining symbols are new project drawings. Both cases are retained. The specimen mixes descending and plain terminal variants of several letters; this master selects one observed variant per character, without claiming a complete alternate set. Spacing and harmonisation of optical sizes are modern choices. The 1889 suffix dates the source, not a claim of first release.",
+  "sources": [
+    {
+      "title": "Specimen book from the Boston type foundry (1889), Altona; printed p. 170, one-based PDF page 176, Internet Archive leaf 176",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/n176/mode/1up",
+      "file": "reference/pdf-176.jp2",
+      "rights": "1889 US publication, public domain under the maximum historical 95-year term. Library of Congress scan hosted by Internet Archive; retained institutional metadata says the Library is unaware of copyright restrictions. Original native JP2 leaf; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/specimenbookfrom00unse"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Reviewed transcriptions and exact native crops are retained in source/rows.json, selections.json and tracing.json. New companions are recorded separately with construction notes."
+  }
+}
