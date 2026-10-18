@@ -21,6 +21,15 @@ Source indices and page citations identify the supplying book. A standalone
 image uses `pdf_page: null`, `printed_page: null` and a nonempty `source_location`
 that identifies its position on the sheet; it never borrows a book page number.
 
+Boston Cuts 1832 contains 391 distinct cuts and ornaments from PDF pages 199–391
+of *Specimen of printing types from the Boston Type & Stereotype Foundry*.
+Its inventory accounts for 757 impressions, with 364 references to existing
+collection items and two repeated impressions of new artwork. Main specimen
+numbers run through 606; the inventory distinguishes missing printed numbers
+from unnumbered impressions and records all separate set members. References
+to existing icons preserve their artwork, IDs and codepoints. These Boston
+1832 leaves use `printed_page: null` and one-based `pdf_page` citations.
+
 ## Delivery and use
 
 `build` produces individual transparent SVGs, an SVG symbol sprite, OTF and TTF

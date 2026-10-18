@@ -112,7 +112,8 @@ designs retain their documented historical lowercase and inferred companions.
 
 The icon collection revives historical artwork as three-tone SVGs and transparent
 PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The Boston 1889
-revival contains **1,965 icons**, joined by **819 Baltimore 1832 icons**. The **Father Christmas, No. 4202** cut
+revival contains **1,965 icons**, joined by **847 Baltimore 1832 icons** and
+**391 Boston 1832 cuts and ornaments**. The **Father Christmas, No. 4202** cut
 retains its engraving, proportions and character assignment. Browse the compact
 monochrome grid by subject, collection, type or specimen section; open an icon
 for its three-tone previews, downloads and HTML examples.
@@ -127,6 +128,7 @@ for its three-tone previews, downloads and HTML examples.
 | [Baltimore Ornaments 1832](collection/baltimore-ornaments-1832/) | 396 | [ZIP parts](collection/baltimore-ornaments-1832/README.md#web-bundle-parts) |
 | [Baltimore Initials 1832](collection/baltimore-initials-1832/) | 66 | [ZIP](collection/baltimore-initials-1832/downloads/baltimore-initials-1832-web.zip) |
 | [Baltimore Symbols 1832](collection/baltimore-symbols-1832/) | 4 | [ZIP](collection/baltimore-symbols-1832/downloads/baltimore-symbols-1832-web.zip) |
+| [Boston Cuts 1832](collection/boston-cuts-1832/) | 391 | [Downloads](collection/boston-cuts-1832/README.md) |
 
 [![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)
 
@@ -146,6 +148,13 @@ not be revived. The Baltimore survey covers all 238 PDF pages of the unpaginated
 border strips and repeat pieces, dashes, rules, decorated letters and geography
 diagrams. Its [book inventory](collection/baltimore-cuts-1832/source/book-inventory.json)
 records every leaf, repeats and exclusions; source citations use PDF page numbers.
+
+The Boston 1832 [cut inventory](collection/boston-cuts-1832/source/inventory.json)
+covers newspaper ornaments and the numbered sequence through No. 606 on PDF
+pages 199–391. It identifies individual set members, gaps in the original
+numbering, repeated impressions and designs already represented elsewhere in
+the collection. The separate Boston family contains only distinct additions,
+including 83 Primer pictures and 12 almanac panels.
 
 ## Use the fonts
 
