@@ -30,6 +30,23 @@ revival = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(revival)
 
 
+class CommittedIconProofTests(unittest.TestCase):
+    def test_small_collection_proofs_match_committed_outputs(self):
+        # Most icon tests build their fixture first. Keep a committed family as
+        # a reference so shared proof changes cannot silently stale old releases.
+        original = REPO / 'collection/baltimore-symbols-1832'
+        with tempfile.TemporaryDirectory() as temp:
+            family = Path(temp) / original.name
+            shutil.copytree(original, family)
+            m = revival.metadata(family)
+            with revival.load_source(family, m) as font:
+                revival.icon_proofs(family, m, font)
+            for file in sorted((family / 'specimens').iterdir()):
+                with self.subTest(file=file.name):
+                    self.assertEqual(revival.digest(original / 'specimens' / file.name),
+                                     revival.digest(file))
+
+
 class IconWorkflowTests(unittest.TestCase):
     def test_font_only_revision_reuses_verified_artwork_and_matches_full_build(self):
         m = revival.metadata(self.family) | {'font_export_glyphs': 'encoded',

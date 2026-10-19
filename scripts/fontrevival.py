@@ -542,7 +542,7 @@ def specimen(path, m):
     c.setStrokeColor(HexColor(ACCENT)); c.line(42, 96, 800, 96)
     c.setFont("Helvetica", 10)
     c.drawString(42, 68, "Regular  /  MIT License  /  Desktop + web")
-    c.drawRightString(800, 68, "Historical forms. Shared futures.")
+    c.drawRightString(800, 68, "Preserve the character. Keep the types.")
     c.showPage()
     # Every encoded character is printed, so additions and regressions are visible.
     for start in range(0, len(codepoints), 120):
@@ -569,7 +569,7 @@ def specimen(path, m):
             font = ImageFont.truetype(str(ttf), int(size * 1460 / width))
         draw.text((70, y), text, font=font, fill=INK, anchor="ls")
     draw.line((70, 754, 1530, 754), fill=ACCENT, width=2)
-    draw.text((70, 779), "HISTORICAL FORMS. SHARED FUTURES.", font=label, fill=ACCENT)
+    draw.text((70, 779), "PRESERVE THE CHARACTER. KEEP THE TYPES.", font=label, fill=ACCENT)
     image.save(folder / "preview.png", optimize=False)
 
 
@@ -932,7 +932,6 @@ def icon_proofs(path, m, font):
             fit_pdf(c, title, "Helvetica", 18, 36, 553, 770)
         else:
             c.drawString(36, 553, title)
-        c.setFont("Helvetica", 10)
         page_label = (f'printed p. {icon["printed_page"]}' if icon['printed_page'] is not None else 'unnumbered leaf')
         location = (icon['source_location'] if icon['pdf_page'] is None
                     else f'{page_label} · PDF page {icon["pdf_page"]}')
