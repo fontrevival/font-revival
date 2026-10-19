@@ -64,6 +64,7 @@ jobs:
       - name: Build proprietary editor distribution
         working-directory: .editor-source
         env:
+          FONT_REVIVAL_CATALOGUE: ..
           GOOGLE_CLIENT_ID: ${{ vars.EDITOR_GOOGLE_CLIENT_ID }}
           DROPBOX_CLIENT_ID: ${{ vars.EDITOR_DROPBOX_CLIENT_ID }}
           MICROSOFT_CLIENT_ID: ${{ vars.EDITOR_MICROSOFT_CLIENT_ID }}
