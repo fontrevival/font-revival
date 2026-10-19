@@ -68,6 +68,8 @@ def family_dir(slug):
 
 
 def families(slug=None):
+    if isinstance(slug, (list, tuple)):
+        return [path for item in dict.fromkeys(slug) for path in families(item)]
     if slug:
         paths = [family_dir(slug)]
     else:
@@ -2043,7 +2045,7 @@ def validate_family(path):
     print(f"Validated {path.name}: formats, coverage, outlines, sizing, licensing and checksums")
 
 
-def check(slug=None, reuse_artwork=False):
+def check(slug=None, reuse_artwork=False, *, check_catalog=True):
     selected = families(slug)
     for path in selected:
         validate_family(path)
@@ -2065,12 +2067,14 @@ def check(slug=None, reuse_artwork=False):
             differences = sorted(str(p) for p in original.keys() | rebuilt.keys() if original.get(p) != rebuilt.get(p))
             if differences:
                 raise ValueError(f'{path.name}: rebuild differs: {", ".join(differences)}. Run build with requirements.txt.')
+            shutil.rmtree(clone)
     # Check all cards even when checking one family. Rendering in memory avoids
     # copying large historical scans and temporarily mutating the global ROOT.
-    for file, content in catalog_outputs().items():
-        if (ROOT / file).read_bytes() != output_bytes(content):
-            raise ValueError(f"{file} is stale. Run build.")
-    print("Rebuild matches every committed output." +
+    if check_catalog:
+        for file, content in catalog_outputs().items():
+            if (ROOT / file).read_bytes() != output_bytes(content):
+                raise ValueError(f"{file} is stale. Run build.")
+    print("Rebuild matches every selected output." +
           (" Unchanged icon artwork was verified by checksum and reused." if reuse_artwork else ""))
 
 
@@ -2165,8 +2169,8 @@ def comparison(args):
     print(f"Wrote {output}")
 
 
-def package(slug=None):
-    check(slug)
+def package(slug=None, *, check_catalog=True):
+    check(slug, check_catalog=check_catalog)
     out = ROOT / "dist"
     out.mkdir(exist_ok=True)
     for path in families(slug):

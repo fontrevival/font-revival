@@ -16,6 +16,72 @@ SPEC.loader.exec_module(site)
 
 
 class PublicSiteTests(unittest.TestCase):
+    def test_staged_cache_reuses_pages_and_refreshes_changed_dependencies(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repo'; root.mkdir()
+            cache = Path(temp) / 'cache'
+            files = {'index.html': '<img src="image.svg"><a download href="proof.pdf">Proof</a>',
+                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'image.svg': '<svg>first</svg>', 'proof.pdf': 'old proof'}
+            for name, content in files.items():
+                (root / name).write_text(content)
+            cold = Path(temp) / 'cold'
+            site.assemble(root, cold, cache=cache)
+            before = (cache / 'candidate.json').read_bytes()
+            (root / 'proof.pdf').write_text('new externally hosted proof')
+            with mock.patch.object(site, 'stage_file', side_effect=AssertionError('Unchanged page rebuilt')):
+                site.assemble(root, Path(temp) / 'warm', cache=cache)
+            self.assertEqual(before, (cache / 'candidate.json').read_bytes())
+            (root / 'image.svg').write_text('<svg>changed</svg>')
+            with mock.patch.object(site, 'stage_file', wraps=site.stage_file) as stage:
+                site.assemble(root, Path(temp) / 'changed', cache=cache)
+            self.assertEqual([call.args[2].name for call in stage.call_args_list], ['image.svg'])
+            self.assertEqual((Path(temp) / 'changed/image.svg').read_text(), '<svg>changed</svg>')
+            self.assertNotEqual(before, (cache / 'candidate.json').read_bytes())
+            (root / 'proof.pdf').unlink()
+            with self.assertRaisesRegex(ValueError, 'Missing gallery asset'):
+                site.assemble(root, Path(temp) / 'missing', cache=cache)
+
+    def test_staged_cache_tracks_configuration_and_repairs_corrupt_entries(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repo'; root.mkdir()
+            cache = Path(temp) / 'cache'
+            for name, content in {'index.html': '<a download href="proof.pdf">Proof</a>',
+                                  'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}',
+                                  'LICENSE': 'MIT', 'proof.pdf': 'proof'}.items():
+                (root / name).write_text(content)
+            site.assemble(root, Path(temp) / 'first', cache=cache)
+            for entry in (cache / 'staged').glob('*.bin'):
+                entry.write_bytes(b'corrupt')
+            repaired = Path(temp) / 'repaired'
+            site.assemble(root, repaired, cache=cache)
+            self.assertEqual((repaired / 'index.html').read_bytes(), (Path(temp) / 'first/index.html').read_bytes())
+            changed = Path(temp) / 'changed'
+            site.assemble(root, changed, download_base='https://example.test/new/', cache=cache)
+            self.assertIn('https://example.test/new/proof.pdf', (changed / 'index.html').read_text())
+
+    def test_warm_sparse_cache_does_not_fetch_unchanged_pages(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repo'; root.mkdir()
+            files = {'index.html': '<a href="pages/detail.html">Detail</a>', 'icons.html': '',
+                     'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'pages/detail.html': '<img src="image.svg">', 'pages/image.svg': '<svg/>'}
+            for name, content in files.items():
+                path = root / name; path.parent.mkdir(parents=True, exist_ok=True); path.write_text(content)
+            def git(*args):
+                return subprocess.run(['git', *args], cwd=root, check=True, capture_output=True)
+            git('init', '--quiet'); git('add', '.')
+            git('-c', 'user.name=Test', '-c', 'user.email=test@example.test',
+                '-c', 'commit.gpgsign=false', 'commit', '-qm', 'Fixture')
+            cache = Path(temp) / 'cache'
+            site.assemble(root, Path(temp) / 'cold', cache=cache, git_source=True)
+            git('sparse-checkout', 'set', '--no-cone', '/*', '!/*/')
+            self.assertFalse((root / 'pages/detail.html').exists())
+            with mock.patch.object(site, 'materialize', side_effect=AssertionError('Unchanged blob fetched')):
+                site.assemble(root, Path(temp) / 'warm', cache=cache, git_source=True)
+            self.assertEqual((Path(temp) / 'warm/pages/detail.html').read_text(), files['pages/detail.html'])
+            self.assertFalse((root / 'pages/detail.html').exists())
+
     def test_private_editor_distribution_includes_callback_and_not_source(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / 'repository'; root.mkdir()

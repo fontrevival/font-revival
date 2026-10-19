@@ -12,6 +12,7 @@ import gzip
 import hashlib
 from html.parser import HTMLParser
 import html
+import json
 import os
 from pathlib import Path
 import re
@@ -80,8 +81,63 @@ def cached_artwork(content, helper_url, cache=None):
 
 def committed_files(root):
     """Read path metadata without fetching archival blobs in a partial clone."""
-    listing = subprocess.check_output(['git', 'ls-tree', '-rz', '--name-only', 'HEAD'], cwd=root)
-    return {Path(os.fsdecode(name)) for name in listing.split(b'\0') if name}
+    listing = subprocess.check_output(['git', 'ls-tree', '-rz', 'HEAD'], cwd=root)
+    result = {}
+    for entry in listing.split(b'\0'):
+        if entry:
+            info, name = entry.split(b'\t', 1)
+            result[Path(os.fsdecode(name))] = info.split()[2].decode()
+    return result
+
+
+def stage_cache_key(root, file, download_base, tracked):
+    relative = file.relative_to(root)
+    fingerprint = tracked.get(relative) if tracked is not None else None
+    if file.is_file():
+        # Match Git's blob ID, including for locally modified files. Missing
+        # sparse-checkout files can use their committed ID without a download.
+        data = file.read_bytes()
+        algorithm = hashlib.sha256 if fingerprint and len(fingerprint) == 64 else hashlib.sha1
+        fingerprint = algorithm(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+    if fingerprint is None:
+        return None
+    return hashlib.sha256('\0'.join((PACKING_VERSION, download_base,
+                                    relative.as_posix(), fingerprint)).encode()).hexdigest()
+
+
+def restore_staged(root, output, file, cache, key, tracked):
+    if key is None:
+        return None
+    entry = cache / 'staged' / key
+    try:
+        record = json.loads(entry.with_suffix('.json').read_text())
+        data = entry.with_suffix('.bin').read_bytes()
+        if hashlib.sha256(data).hexdigest() != record['sha256']:
+            return None
+        references, dependencies = record['references'], record['dependencies']
+    except (OSError, ValueError, KeyError):
+        return None
+    # Cached HTML must still reject deleted downloads and inline dependencies.
+    for name in references:
+        local_path(root, root / 'index.html', '/' + name, tracked)
+    destination = output / file.relative_to(root)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_bytes(data)
+    return [local_path(root, root / 'index.html', '/' + name, tracked) for name in dependencies]
+
+
+def save_staged(root, output, file, cache, key, references, dependencies):
+    if key is None:
+        return
+    entry = cache / 'staged' / key
+    entry.parent.mkdir(parents=True, exist_ok=True)
+    data = (output / file.relative_to(root)).read_bytes()
+    record = {'sha256': hashlib.sha256(data).hexdigest(), 'references': sorted(references),
+              'dependencies': sorted({p.relative_to(root).as_posix() for p in dependencies})}
+    for suffix, content in (('.bin', data), ('.json', json.dumps(record).encode())):
+        temporary = entry.with_suffix(suffix + '.tmp')
+        temporary.write_bytes(content)
+        temporary.replace(entry.with_suffix(suffix))
 
 
 def materialize(root, files, tracked):
@@ -165,19 +221,42 @@ def assemble(root, output, download_base=DOWNLOAD_BASE, cache=None, git_source=F
             pending.append(file)
     tracked = committed_files(root) if git_source else None
     written = set()
+    reused = 0
     while pending:
         batch = sorted({file for file in pending if file.relative_to(root) not in written
                         and file.suffix.lower() not in ('.pdf', '.zip')})
         pending = []
-        if git_source:
-            materialize(root, batch, tracked)
+        missing = []
         for file in batch:
+            key = stage_cache_key(root, file, download_base, tracked) if cache else None
+            dependencies = restore_staged(root, output, file, cache, key, tracked) if cache else None
+            if dependencies is None:
+                missing.append((file, key))
+            else:
+                pending.extend(dependencies)
+                written.add(file.relative_to(root))
+                reused += 1
+        if git_source and missing:
+            materialize(root, [file for file, _ in missing], tracked)
+        for file, key in missing:
             relative = file.relative_to(root)
-            stage_file(root, output, file, pending, download_base, cache, tracked)
+            dependencies = []
+            references = stage_file(root, output, file, dependencies, download_base, cache, tracked)
+            if cache:
+                save_staged(root, output, file, cache, key, references, dependencies)
+            pending.extend(dependencies)
             written.add(relative)
     total = sum((output / name).stat().st_size for name in written)
     if total > 1_000_000_000:
         raise ValueError(f'Published site exceeds 1 GB: {total:,} bytes')
+    if cache:
+        signature = hashlib.sha256()
+        for name in sorted(written):
+            signature.update(name.as_posix().encode() + b'\0')
+            signature.update(hashlib.sha256((output / name).read_bytes()).digest())
+        cache.mkdir(parents=True, exist_ok=True)
+        (cache / 'candidate.json').write_text(json.dumps({'sha256': signature.hexdigest()}) + '\n')
+        print(f'Reused {reused:,} staged files; prepared {len(written) - reused:,} changed or uncached files.')
     return total, len(written)
 
 
@@ -185,11 +264,13 @@ def stage_file(root, output, file, pending, download_base, cache, tracked):
     relative = file.relative_to(root)
     destination = output / relative
     destination.parent.mkdir(parents=True, exist_ok=True)
+    referenced = set()
     if file.suffix in ('.html', '.css'):
         content = file.read_text()
         if file.suffix == '.html' and '</body>' in content:
             helper = os.path.relpath(root / 'site/unpack-art.js', file.parent)
-            content = cached_artwork(content, Path(helper).as_posix(), cache)
+            # The outer staged-file cache also stores the packed artwork.
+            content = pack_detail_artwork(content, Path(helper).as_posix())
         references = set(CSS_URL.findall(content))
         downloads, comparisons, inline = set(), set(), set(references)
         if file.suffix == '.html':
@@ -201,6 +282,7 @@ def stage_file(root, output, file, pending, download_base, cache, tracked):
             target = local_path(root, file, url, tracked)
             if target is None:
                 continue
+            referenced.add(target.relative_to(root).as_posix())
             remote_asset = target.suffix.lower() in ('.pdf', '.zip') or url in downloads or url in comparisons
             if remote_asset:
                 remote = download_base + quote(target.relative_to(root).as_posix())
@@ -216,14 +298,20 @@ def stage_file(root, output, file, pending, download_base, cache, tracked):
         destination.write_text(content)
     else:
         shutil.copyfile(file, destination)
+    return referenced
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=REPO / '_site')
-    parser.add_argument('--cache', type=Path, help='Cache packed artwork between builds')
+    parser.add_argument('--cache', type=Path, help='Reuse prepared site files between builds')
     parser.add_argument('--git-source', action='store_true',
                         help='Fetch missing inline assets from HEAD in a sparse checkout')
     args = parser.parse_args()
     total, count = assemble(REPO, args.output, cache=args.cache, git_source=args.git_source)
     print(f'Staged {count:,} files, {total / 1_000_000:.1f} MB, in {args.output}')
+    if args.cache and os.environ.get('GITHUB_OUTPUT'):
+        published = args.cache / 'published.json'
+        changed = not published.is_file() or published.read_bytes() != (args.cache / 'candidate.json').read_bytes()
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+            print(f'changed={str(changed).lower()}', file=output)

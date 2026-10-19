@@ -36,19 +36,36 @@ jobs:
             !/*/
             /scripts/build_site.py
             /site/editor-release.json
+            /.github/workflows/pages.yml
       - name: Read pinned private editor release
         id: editor
+        env:
+          GOOGLE_CLIENT_ID: ${{ vars.EDITOR_GOOGLE_CLIENT_ID }}
+          DROPBOX_CLIENT_ID: ${{ vars.EDITOR_DROPBOX_CLIENT_ID }}
+          MICROSOFT_CLIENT_ID: ${{ vars.EDITOR_MICROSOFT_CLIENT_ID }}
         run: |
           python3 - <<'PY'
-          import json, os, re
+          import hashlib, json, os, re
           from pathlib import Path
           release = json.loads(Path('site/editor-release.json').read_text())
           assert release['repository'] == 'fontrevival/font-revival-editor'
           assert re.fullmatch(r'[0-9a-f]{40}', release['commit'])
+          inputs = [release['commit'], *[os.environ.get(key, '') for key in
+                    ('GOOGLE_CLIENT_ID', 'DROPBOX_CLIENT_ID', 'MICROSOFT_CLIENT_ID')]]
+          inputs += [hashlib.sha256(Path(name).read_bytes()).hexdigest() for name in
+                     ('catalog.json', 'icons.json', '.github/workflows/pages.yml')]
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
               print('commit=' + release['commit'], file=output)
+              print('cache-key=' + hashlib.sha256(json.dumps(inputs).encode()).hexdigest(), file=output)
           PY
+      - name: Restore compiled editor
+        id: editor-cache
+        uses: actions/cache@v4
+        with:
+          path: editor
+          key: pages-editor-${{ runner.os }}-${{ steps.editor.outputs.cache-key }}
       - name: Check out private editor source
+        if: steps.editor-cache.outputs.cache-hit != 'true'
         uses: actions/checkout@v4
         with:
           repository: fontrevival/font-revival-editor
@@ -57,11 +74,13 @@ jobs:
           persist-credentials: false
           path: .editor-source
       - uses: actions/setup-node@v4
+        if: steps.editor-cache.outputs.cache-hit != 'true'
         with:
           node-version: '22'
           cache: npm
           cache-dependency-path: .editor-source/package-lock.json
       - name: Build proprietary editor distribution
+        if: steps.editor-cache.outputs.cache-hit != 'true'
         working-directory: .editor-source
         env:
           FONT_REVIVAL_CATALOGUE: ..
@@ -73,7 +92,7 @@ jobs:
           npm test
           npm run build
           cp -R dist ../editor
-      - name: Restore packed artwork cache
+      - name: Restore prepared site files
         uses: actions/cache@v4
         with:
           path: ${{ runner.temp }}/font-revival-pages-cache
@@ -82,9 +101,15 @@ jobs:
             pages-artwork-${{ runner.os }}-${{ hashFiles('scripts/build_site.py') }}-
       - uses: actions/configure-pages@v5
       - name: Assemble static gallery
+        id: site
         run: python3 scripts/build_site.py --git-source --cache "$RUNNER_TEMP/font-revival-pages-cache"
       - uses: actions/upload-pages-artifact@v3
+        if: steps.site.outputs.changed == 'true'
         with:
           path: _site
       - uses: actions/deploy-pages@v4
+        if: steps.site.outputs.changed == 'true'
         id: deployment
+      - name: Record successfully published site
+        if: steps.deployment.outcome == 'success'
+        run: cp "$RUNNER_TEMP/font-revival-pages-cache/candidate.json" "$RUNNER_TEMP/font-revival-pages-cache/published.json"

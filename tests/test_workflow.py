@@ -70,6 +70,18 @@ class WorkflowTests(unittest.TestCase):
         revival.build_catalog()
         revival.check()
 
+    def test_selected_check_ignores_unrelated_families_but_detects_stale_outputs(self):
+        revival.build_family(self.family)
+        unrelated = self.root / 'collection/unrelated-1890'
+        unrelated.mkdir()
+        (unrelated / 'font.json').write_text('invalid metadata')
+        with patch.object(revival, 'catalog_outputs', side_effect=AssertionError('Unchanged gallery')):
+            revival.check(['johnson-1892'], check_catalog=False)
+            (self.family / 'specimens/specimen.pdf').write_bytes(b'stale proof')
+            (self.family / 'SHA256SUMS.txt').write_text(revival.checksums(self.family))
+            with self.assertRaisesRegex(ValueError, 'rebuild differs'):
+                revival.check(['johnson-1892'], check_catalog=False)
+
     def test_limited_revival_enforces_exact_declared_coverage_in_all_formats(self):
         from fontTools import subset
         m = revival.metadata(self.family)

@@ -101,6 +101,15 @@ forms. Commit the editable sources and regenerated outputs together.
 Documentation-only changes need a diff review and `git diff --check`; they do
 not require rebuilding unchanged fonts.
 
+The `Check collection` workflow compares each push or pull request with the last
+successful check on its target branch. It validates and packages affected
+families, checks generated gallery files when their inputs change, and runs the
+tests for code or collection changes. Shared build tools, pinned dependencies,
+the license, or the checking workflow trigger a full audit. A manual workflow
+run also audits the complete collection; a missing successful baseline defaults
+to that full audit. Each selected family is rebuilt once before packaging.
+The uploaded packages contain only the families selected for that run.
+
 ### Gallery publication
 
 The `Publish gallery` workflow (`.github/workflows/pages.yml`) publishes pushes
@@ -116,9 +125,14 @@ update on the [live gallery](https://font-revival.com/) after a successful run.
 Pages receives a complete site artifact. To keep preparation fast, the workflow
 starts with a sparse partial checkout and fetches only files the gallery embeds.
 Download links are checked against the committed Git tree without fetching the
-archival files. Unchanged packed artwork is cached between deployments. Local
-assembly with `python3 scripts/build_site.py` uses the full checkout and needs
-no cache.
+archival files. Prepared pages and their dependencies are cached by their Git
+blob IDs and assembler configuration. Unchanged pages can be reused without
+fetching their large source files. The compiled editor is reused when its pinned
+commit, configuration and catalogue inputs match. Pages receives a complete
+snapshot assembled from cached and changed files; an unchanged snapshot skips
+the upload and deployment. Changes only to externally hosted downloads therefore
+need no new Pages deployment. Local assembly with `python3 scripts/build_site.py`
+uses the full checkout and needs no cache.
 
 ### Editor distribution
 

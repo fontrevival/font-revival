@@ -6,21 +6,50 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   check:
     runs-on: ubuntu-24.04
+    env:
+      PYTHONUNBUFFERED: '1'
     steps:
       - uses: actions/checkout@v4
+      - name: Plan validation since the last successful check
+        id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VALIDATION_BRANCH: ${{ github.base_ref || github.ref_name }}
+        run: |
+          base=$(gh api --method GET "repos/$GITHUB_REPOSITORY/actions/workflows/check.yml/runs" \
+            -f branch="$VALIDATION_BRANCH" -f status=success -f per_page=100 \
+            --jq '[.workflow_runs[] | select(.event == "push" or .event == "workflow_dispatch")][0].head_sha // ""')
+          if [ -n "$base" ]; then
+            if ! git fetch --no-tags --depth=1 --filter=blob:none origin "$base"; then
+              base=""
+            fi
+          fi
+          python3 scripts/ci_collection.py plan --base "$base" --output "$RUNNER_TEMP/collection-plan.json"
       - uses: actions/setup-python@v5
+        if: steps.plan.outputs.tests == 'true'
         with:
           python-version: '3.12'
           cache: pip
       - run: sudo apt-get update && sudo apt-get install -y libcairo2
+        if: steps.plan.outputs.tests == 'true'
       - run: python -m pip install -r requirements.txt
+        if: steps.plan.outputs.tests == 'true'
       - run: python -m unittest discover -s tests
-      - run: python scripts/fontrevival.py check
-      - run: python scripts/fontrevival.py package
+        if: steps.plan.outputs.tests == 'true'
+      - name: Validate affected families and build their release packages
+        if: steps.plan.outputs.validate == 'true'
+        run: python scripts/ci_collection.py run "$RUNNER_TEMP/collection-plan.json"
       - uses: actions/upload-artifact@v4
+        if: steps.plan.outputs.packages == 'true'
         with:
           name: font-revival-packages
           path: dist/
+          # Release ZIPs are already compressed.
+          compression-level: 0
