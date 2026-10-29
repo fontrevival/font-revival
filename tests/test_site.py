@@ -13,15 +13,34 @@ from unittest import mock
 SPEC = importlib.util.spec_from_file_location('build_site', Path(__file__).resolve().parents[1] / 'scripts/build_site.py')
 site = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(site)
+LICENSE_FIXTURE = {'LICENSE': 'MIT', 'OFL.txt': 'OFL', 'FONT-LICENSES.txt': 'MIT OR OFL-1.1'}
 
 
 class PublicSiteTests(unittest.TestCase):
+    def test_license_notices_are_published_and_refresh_cached_site(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repo'; root.mkdir()
+            cache = Path(temp) / 'cache'
+            for name, content in {'index.html': '', 'icons.html': '', 'catalog.json': '{}',
+                                  'icons.json': '{}', **LICENSE_FIXTURE}.items():
+                (root / name).write_text(content)
+            output = Path(temp) / 'published'
+            site.assemble(root, output, cache=cache)
+            for name, content in LICENSE_FIXTURE.items():
+                self.assertEqual((output / name).read_text(), content)
+            (root / 'OFL.txt').write_text('Updated OFL header')
+            site.assemble(root, output, cache=cache)
+            self.assertEqual((output / 'OFL.txt').read_text(), 'Updated OFL header')
+            (root / 'FONT-LICENSES.txt').unlink()
+            with self.assertRaises((FileNotFoundError, ValueError)):
+                site.assemble(root, Path(temp) / 'incomplete', cache=cache)
+
     def test_staged_cache_reuses_pages_and_refreshes_changed_dependencies(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / 'repo'; root.mkdir()
             cache = Path(temp) / 'cache'
             files = {'index.html': '<img src="image.svg"><a download href="proof.pdf">Proof</a>',
-                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                      'image.svg': '<svg>first</svg>', 'proof.pdf': 'old proof'}
             for name, content in files.items():
                 (root / name).write_text(content)
@@ -48,7 +67,7 @@ class PublicSiteTests(unittest.TestCase):
             cache = Path(temp) / 'cache'
             for name, content in {'index.html': '<a download href="proof.pdf">Proof</a>',
                                   'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}',
-                                  'LICENSE': 'MIT', 'proof.pdf': 'proof'}.items():
+                                  **LICENSE_FIXTURE, 'proof.pdf': 'proof'}.items():
                 (root / name).write_text(content)
             site.assemble(root, Path(temp) / 'first', cache=cache)
             for entry in (cache / 'staged').glob('*.bin'):
@@ -64,7 +83,7 @@ class PublicSiteTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / 'repo'; root.mkdir()
             files = {'index.html': '<a href="pages/detail.html">Detail</a>', 'icons.html': '',
-                     'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                      'pages/detail.html': '<img src="image.svg">', 'pages/image.svg': '<svg/>'}
             for name, content in files.items():
                 path = root / name; path.parent.mkdir(parents=True, exist_ok=True); path.write_text(content)
@@ -86,7 +105,7 @@ class PublicSiteTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / 'repository'; root.mkdir()
             files = {'index.html': '<iframe src="editor/index.html?embed=1"></iframe>',
-                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                      'editor/index.html': '<script src="app.js"></script><link href="app.css">',
                      **{f'editor/{name}': name for name in
                         ('app.js', 'app.css', 'oauth.html', 'privacy.html', 'agents.html',
@@ -111,7 +130,7 @@ class PublicSiteTests(unittest.TestCase):
             origin = Path(temp) / 'origin'; origin.mkdir()
             names = [f'art/image-{i}.svg' for i in range(12)] + ['art/[old] image.svg']
             files = {'index.html': ''.join(f'<img src="{name}">' for name in names),
-                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                      'archive/proof.pdf': 'large archive',
                      **{name: f'<svg>{name}</svg>' for name in names}}
             for name, content in files.items():
@@ -167,7 +186,7 @@ class PublicSiteTests(unittest.TestCase):
             page = ('<body><svg data-icon-format="monochrome" viewBox="0 0 10 10">' +
                     artwork + '</svg><a download href="collection/cuts/svg/a.svg">SVG</a></body>')
             files = {'index.html': page, 'icons.html': '', 'catalog.json': '{}',
-                     'icons.json': '{}', 'LICENSE': 'MIT', 'site/unpack-art.js': 'unpack',
+                     'icons.json': '{}', **LICENSE_FIXTURE, 'site/unpack-art.js': 'unpack',
                      'collection/cuts/svg/a.svg': '<svg/>'}
             for name, content in files.items():
                 p = root / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
@@ -184,7 +203,7 @@ class PublicSiteTests(unittest.TestCase):
             root = Path(temp) / 'repository'; root.mkdir()
             files = {
                 'index.html': '<a href="icons/detail.html">Detail</a>',
-                'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                'icons.html': '', 'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                 'icons/detail.html': '<link href="../site/font.css"><a download href="../archive/proof.pdf">Proof</a>',
                 'site/font.css': '@font-face{src:url(../collection/face/web/font.woff2)}',
                 'collection/face/web/font.woff2': 'font', 'archive/proof.pdf': 'large proof',
@@ -224,7 +243,7 @@ class PublicSiteTests(unittest.TestCase):
                 'index.html': f'<meta property="og:image" content="{image_url}">',
                 'icons.html': f'<meta name="twitter:image" content="{image_url}">',
                 'site/preview.png': 'preview',
-                'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
             }
             for name, content in files.items():
                 file = root / name; file.parent.mkdir(parents=True, exist_ok=True); file.write_text(content)
@@ -267,7 +286,7 @@ class PublicSiteTests(unittest.TestCase):
                      'icons.html': '<a href="icons/example.html">Example</a>',
                      'icons/example.html': page, 'site/unpack-art.js': 'unpack',
                      'collection/cuts/svg/example.svg': '<svg/>',
-                     'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT'}
+                     'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE}
             for name, content in files.items():
                 file = root / name; file.parent.mkdir(parents=True, exist_ok=True); file.write_text(content)
             site.assemble(root, output, 'https://example.test/repository/')
@@ -284,7 +303,7 @@ class PublicSiteTests(unittest.TestCase):
             output = Path(temp) / 'published'
             files = {'index.html': '<a href="icons.html">Icons</a>',
                      'icons.html': '<svg><path d="M0 0H10V10Z"/></svg><a download href="art.svg">SVG</a><img class="comparison" src="comparison.png"><a download href="thumb.png">PNG</a><img src="thumb.png">',
-                     'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                     'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                      'art.svg': '<svg/>', 'comparison.png': 'large proof', 'thumb.png': 'thumbnail'}
             for name, content in files.items():
                 (root / name).write_text(content)
@@ -305,7 +324,7 @@ class PublicSiteTests(unittest.TestCase):
             files = {
                 'index.html': '<a href="icons.html">Icons</a>',
                 'icons.html': '<link href="web/icons.css"><article data-art-chunk="art/1.js"><img src="proof.png"><a href="proof.pdf#page=2">Proof</a><a download href="bundle.zip">Download</a></article>',
-                'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
                 'web/icons.css': '@import url("font.css");',
                 'web/font.css': '@font-face{src:url(../fonts/icons.woff2)}',
                 'fonts/icons.woff2': 'font', 'art/1.js': 'artwork',
@@ -316,7 +335,7 @@ class PublicSiteTests(unittest.TestCase):
                 file = root / name; file.parent.mkdir(parents=True, exist_ok=True); file.write_text(text)
             size, count = site.assemble(root, output, 'https://example.test/repository/')
             self.assertGreater(size, 0)
-            self.assertEqual(count, 10)
+            self.assertEqual(count, 12)
             self.assertEqual((root / 'icons.html').read_text(), files['icons.html'])
             public = (output / 'icons.html').read_text()
             self.assertIn('https://example.test/repository/proof.pdf#page=2', public)
@@ -338,12 +357,12 @@ class PublicSiteTests(unittest.TestCase):
                 'site/icon-fonts/cuts-000.woff2': 'subset',
                 'site/icon-detail.js': 'controls',
                 'collection/cuts/downloads/web.zip': 'bundle',
-                'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+                'catalog.json': '{}', 'icons.json': '{}', **LICENSE_FIXTURE,
             }
             for name, text in files.items():
                 file = root / name; file.parent.mkdir(parents=True, exist_ok=True); file.write_text(text)
             _, count = site.assemble(root, output, 'https://example.test/repository/')
-            self.assertEqual(count, 9)
+            self.assertEqual(count, 11)
             public = (output / 'icons/father-christmas.html').read_text()
             self.assertIn('../icons.html?section=holiday-cuts#collection', public)
             self.assertIn('https://example.test/repository/collection/cuts/downloads/web.zip', public)

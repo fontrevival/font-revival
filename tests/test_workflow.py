@@ -7,6 +7,7 @@ import json
 import shutil
 import tempfile
 import unittest
+import zipfile
 from unittest.mock import patch
 from argparse import Namespace
 from html.parser import HTMLParser
@@ -26,7 +27,8 @@ class WorkflowTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)
-        shutil.copyfile(REPO / "LICENSE", self.root / "LICENSE")
+        for notice in revival.LICENSE_FILES:
+            shutil.copyfile(REPO / notice, self.root / notice)
         shutil.copytree(REPO / "site", self.root / "site")
         self.family = self.root / "collection" / "johnson-1892"
         shutil.copytree(REPO / "collection" / "johnson-1892", self.family)
@@ -53,6 +55,7 @@ class WorkflowTests(unittest.TestCase):
     def test_new_family_requires_provenance_then_can_import_and_build(self):
         revival.new_family(Namespace(id="example-1890", name="Example 1890", year=1890))
         path = self.root / "collection/example-1890"
+        self.assertEqual(json.loads((path / 'font.json').read_text())['license'], 'MIT OR OFL-1.1')
         with self.assertRaisesRegex(ValueError, "fill in"):
             revival.metadata(path)
         m = json.loads((self.family / "font.json").read_text())
@@ -64,6 +67,56 @@ class WorkflowTests(unittest.TestCase):
         revival.validate_family(path)
         with self.assertRaisesRegex(ValueError, "Source exists"):
             revival.import_font(Namespace(id=m["id"], font=path / "fonts/Example1890-Regular.otf", replace=False))
+
+    def test_license_choice_reaches_every_font_format_source_and_release(self):
+        with TTFont(self.family / 'fonts/Johnson1892-Regular.otf') as original:
+            original_tables = {tag: original[tag].compile(original) for tag in
+                               ('CFF ', 'cmap', 'hmtx', 'GPOS', 'GSUB') if tag in original}
+        revival.build_family(self.family)
+        for folder, ext in (('fonts', 'otf'), ('fonts', 'ttf'), ('web', 'woff'), ('web', 'woff2')):
+            with self.subTest(format=ext), TTFont(self.family / folder / f'Johnson1892-Regular.{ext}') as font:
+                notice = font['name'].getDebugName(13)
+                self.assertIn('SPDX-License-Identifier: MIT OR OFL-1.1', notice)
+                for name in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt'):
+                    self.assertIn((REPO / name).read_text().strip(), notice)
+                self.assertEqual(font['name'].getDebugName(14), 'https://font-revival.com/FONT-LICENSES.txt')
+                self.assertEqual(font['OS/2'].fsType, 0)
+                if ext == 'otf':
+                    self.assertEqual(original_tables, {tag: font[tag].compile(font) for tag in original_tables})
+        # Check the stored master independently of normalize(), which repairs metadata.
+        with TTFont() as source:
+            source.importXML(self.family / 'source/font.ttx')
+            self.assertEqual(source['name'].getDebugName(13), notice)
+            self.assertEqual(source['name'].getDebugName(14), revival.FONT_LICENSE_URL)
+        revival.package(['johnson-1892'], check_catalog=False)
+        archive = next((self.root / 'dist').glob('johnson-1892-*.zip'))
+        with zipfile.ZipFile(archive) as bundle:
+            for name in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt'):
+                self.assertEqual(bundle.read(f'johnson-1892/{name}'), (REPO / name).read_bytes())
+            self.assertIn(b'MIT OR OFL-1.1', bundle.read('johnson-1892/README.md'))
+
+    def test_validation_rejects_stale_license_metadata_and_missing_notices(self):
+        revival.build_family(self.family)
+        path = self.family / 'fonts/Johnson1892-Regular.otf'
+        original = path.read_bytes()
+        for name_id, old_value in ((13, (REPO / 'LICENSE').read_text().strip()),
+                                   (14, 'https://opensource.org/license/mit')):
+            with self.subTest(name_id=name_id):
+                with TTFont(io.BytesIO(original), recalcTimestamp=False) as font:
+                    font['name'].setName(old_value, name_id, 3, 1, 0x409)
+                    font.save(path)
+                with self.assertRaisesRegex(ValueError, 'missing MIT OR OFL-1.1 metadata'):
+                    revival.validate_family(self.family)
+        path.write_bytes(original)
+        for name in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt'):
+            with self.subTest(missing=name):
+                (self.family / name).unlink()
+                with self.assertRaisesRegex(ValueError, 'missing or stale'):
+                    revival.validate_family(self.family)
+                shutil.copyfile(REPO / name, self.family / name)
+        (self.family / 'README.md').write_text('MIT only')
+        with self.assertRaisesRegex(ValueError, 'README must explain'):
+            revival.validate_family(self.family)
 
     def test_clean_rebuild_is_identical(self):
         revival.build_family(self.family)
@@ -183,6 +236,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(self.root, revival.ROOT)
 
     def test_source_change_requires_rebuilt_outputs(self):
+        revival.build_family(self.family)
         revival.build_catalog()
         revival.export_glyph(Namespace(id="johnson-1892", character="j"))
         path = self.family / "source/glyphs/j.json"

@@ -41,6 +41,9 @@ ROOT = Path(__file__).resolve().parents[1]
 EPOCH = 3850070400  # 2026-01-01 UTC in OpenType's 1904 epoch; fixed for builds.
 COPYRIGHT_HOLDER = "Harold Lehmann"
 COPYRIGHT_NOTICE = f"Copyright (c) 2026 {COPYRIGHT_HOLDER}"
+FONT_LICENSE = "MIT OR OFL-1.1"
+FONT_LICENSE_URL = "https://font-revival.com/FONT-LICENSES.txt"
+LICENSE_FILES = ("LICENSE", "OFL.txt", "FONT-LICENSES.txt")
 PAPER, INK, ACCENT = "#f4f0e7", "#24251f", "#a5422c"
 # FreeType before 2.14 stores outline point counts in a signed short. Keep
 # downloadable fonts compatible with those renderers, not just the file format.
@@ -56,6 +59,21 @@ def write_json(path, data):
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def font_license_text():
+    """Keep the choice, scope and both unmodified license texts in each font."""
+    return "\n\n".join((ROOT / name).read_text().strip()
+                       for name in ("FONT-LICENSES.txt", "LICENSE", "OFL.txt"))
+
+
+def font_license_readme():
+    return ("The fonts and editable font source data are available under your choice of "
+            "the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) "
+            "(`MIT OR OFL-1.1`), with no Reserved Font Names. "
+            "See [font licensing](FONT-LICENSES.txt) for the scope and notices. "
+            "Other original project files, including standalone artwork, code and "
+            "documentation, use MIT.")
 
 
 def family_dir(slug):
@@ -87,8 +105,8 @@ def metadata(path):
             raise ValueError(f"{path.name}: fill in {key} in font.json.")
     if m["id"] != path.name or not SLUG.fullmatch(m["id"]):
         raise ValueError(f"{path}: font.json id must match its directory.")
-    if m.get("schema_version") != 1 or m.get("license") != "MIT":
-        raise ValueError(f"{path.name}: schema_version must be 1 and license MIT.")
+    if m.get("schema_version") != 1 or m.get("license") != FONT_LICENSE:
+        raise ValueError(f"{path.name}: schema_version must be 1 and license {FONT_LICENSE}.")
     if m.get("copyright") != COPYRIGHT_NOTICE:
         raise ValueError(f"{path.name}: copyright must be {COPYRIGHT_NOTICE}.")
     if m["style"] != "Regular":
@@ -236,8 +254,8 @@ def normalize(font, m):
         4: f'{m["name"]} {m["style"]}', 5: "Version " + m["version"],
         6: m["postscript_name"], 8: COPYRIGHT_HOLDER, 9: m["designer"],
         10: m["description"], 11: "https://github.com/haroldus-/font-revival",
-        13: (ROOT / "LICENSE").read_text().strip(),
-        14: "https://opensource.org/license/mit",
+        13: font_license_text(),
+        14: FONT_LICENSE_URL,
         16: m["name"], 17: m["style"],
     }
     for name_id, value in names.items():
@@ -543,7 +561,7 @@ def specimen(path, m):
         fit_pdf(c, supported(line), pdfname, 34, 42, y, 758)
     c.setStrokeColor(HexColor(ACCENT)); c.line(42, 96, 800, 96)
     c.setFont("Helvetica", 10)
-    c.drawString(42, 68, "Regular  /  MIT License  /  Desktop + web")
+    c.drawString(42, 68, "Regular  /  MIT or SIL OFL 1.1  /  Desktop + web")
     c.drawRightString(800, 68, "Preserve the character. Keep the types.")
     c.showPage()
     # Every encoded character is printed, so additions and regressions are visible.
@@ -560,7 +578,7 @@ def specimen(path, m):
     image = Image.new("RGB", (1600, 820), PAPER)
     draw = ImageDraw.Draw(image)
     label = ImageFont.load_default(size=21)
-    draw.text((70, 42), f'FONT REVIVAL   /   {m["year"]}   /   MIT', font=label, fill=ACCENT)
+    draw.text((70, 42), f'FONT REVIVAL   /   {m["year"]}   /   MIT or SIL OFL 1.1', font=label, fill=ACCENT)
     for text, y, size in [(m["name"], 260, 155), (m["sample_text"], 422, 92),
                            ("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 561, 64),
                            ("abcdefghijklmnopqrstuvwxyz 0123456789", 681, 64)]:
@@ -642,7 +660,7 @@ def family_readme(m, stats):
 
 ![{m["name"]} specimen](specimens/preview.png)
 
-**{m["year"]} · {m["style"]} · Version {m["version"]} · {stats["characters"]} characters{ ' · Capitals only' if m.get('character_style') == 'capitals-only' else ''} · MIT**
+**{m["year"]} · {m["style"]} · Version {m["version"]} · {stats["characters"]} characters{ ' · Capitals only' if m.get('character_style') == 'capitals-only' else ''} · MIT or SIL OFL 1.1**
 
 [OTF](fonts/{ps}.otf) · [TTF](fonts/{ps}.ttf) · [WOFF2](web/{ps}.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -667,7 +685,7 @@ and use `font-family: "{m["name"]}"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-{m["copyright"]}. The digital revival is released under the included [MIT License](LICENSE).
+{m["copyright"]}. {font_license_readme()}
 
 ## Build or improve
 
@@ -1143,7 +1161,7 @@ def icon_family_readme(m, records):
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**{len(records)} icon(s) · Version {m["version"]} · MIT**
+**{len(records)} icon(s) · Version {m["version"]} · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/{ps}.otf) · [TTF](fonts/{ps}.ttf) · [WOFF2](web/{ps}.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -1155,7 +1173,7 @@ def icon_family_readme(m, records):
 the extracted `collection` folder beside your HTML file. Keep its subfolders
 together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
-and the license. No JavaScript or font installation is needed for SVG use.
+and license notices. No JavaScript or font installation is needed for SVG use.
 
 ### Three-tone image — works from disk too
 
@@ -1209,6 +1227,8 @@ text characters; IDs and codepoints are permanent within this collection.
 The example above uses U+{first["codepoint"]} and is recommended from
 {first["recommended_min_px"]} px. The 16–192 pt proofs show how detail holds up at different sizes.
 Keep the included LICENSE with redistributed assets.
+
+{font_license_readme()}
 
 ## Evidence and editing
 
@@ -1301,7 +1321,10 @@ opacity independently. Use matching secondary and tertiary values for two tones.
 
 The font uses the solid artwork. SVG provides the three-tone version.
 Keep `collection/{m["id"]}/LICENSE` with the assets when redistributing them.
-{m["copyright"]}. MIT licensed.
+{m["copyright"]}. Artwork and CSS use MIT. Fonts are available under your choice
+of MIT or SIL OFL 1.1 (`MIT OR OFL-1.1`), with no Reserved Font Names.
+The license texts and scope are in `collection/{m["id"]}/LICENSE`,
+`collection/{m["id"]}/OFL.txt` and `collection/{m["id"]}/FONT-LICENSES.txt`.
 '''
     if m.get('font_delivery_note'):
         readme += '\n' + m['font_delivery_note'] + '\n'
@@ -1310,7 +1333,7 @@ Keep `collection/{m["id"]}/LICENSE` with the assets when redistributing them.
         for file in sorted((path / folder).rglob("*")):
             if file.is_file():
                 files[f'{base}/{file.relative_to(path).as_posix()}'] = file
-    for name in ("LICENSE", "icons.json"):
+    for name in (*LICENSE_FILES, "icons.json"):
         files[f"{base}/{name}"] = path / name
     archive = path / "downloads" / f'{m["id"]}-web.zip'
     archive.parent.mkdir(exist_ok=True)
@@ -1318,7 +1341,8 @@ Keep `collection/{m["id"]}/LICENSE` with the assets when redistributing them.
     if limit:
         files['README.md'] = ('Download every numbered ZIP part and extract them into the same folder. '
                               'Together they form the complete web bundle.\n\n' + readme).encode()
-        common = {key: files.pop(key) for key in ['README.md', f'{base}/LICENSE', f'{base}/icons.json']}
+        common = {key: files.pop(key) for key in
+                  ['README.md', *[f'{base}/{name}' for name in LICENSE_FILES], f'{base}/icons.json']}
         # Reserve more than the uncompressed common entries and ZIP headers.
         overhead = sum(len(v.read_bytes() if isinstance(v, Path) else v) + 1024 for v in common.values())
         groups = [common | group for group in partition_zip_files(files, limit - overhead)]
@@ -1419,7 +1443,8 @@ def write_family_documents(path, m, readme, has_approximations=False):
                    '`source/truetype-glyphs/`; see `source/METHOD.md` for display-size review.\n')
         if m.get('font_delivery_note'):
             readme += '\n' + m['font_delivery_note'] + '\n'
-    shutil.copyfile(ROOT / "LICENSE", path / "LICENSE")
+    for name in LICENSE_FILES:
+        shutil.copyfile(ROOT / name, path / name)
     if m.get("kind") == "icons":
         parts = build_icon_download(path, m)
         if len(parts) > 1:
@@ -1632,7 +1657,7 @@ def icon_navigation(m, record, taxonomy):
 def icon_browse_fonts(collections):
     """Subset only encoded monochrome art, with lazy Unicode ranges per 96 icons."""
     from fontTools import subset
-    outputs, css = {}, [f'/* {COPYRIGHT_NOTICE}; MIT. Generated monochrome browsing fonts. */']
+    outputs, css = {}, [f'/* {COPYRIGHT_NOTICE}; CSS: MIT. Browsing fonts: {FONT_LICENSE}. See {FONT_LICENSE_URL}. */']
     for m, records in collections:
         source = ROOT / 'collection' / m['id'] / 'fonts' / f'{m["postscript_name"]}.ttf'
         for start in range(0, len(records), 96):
@@ -1646,7 +1671,9 @@ def icon_browse_fonts(collections):
                 upm = font['head'].unitsPerEm
                 ascent = 100 * font['hhea'].ascent / upm
                 descent = -100 * font['hhea'].descent / upm
-                selected = subset.Subsetter()
+                options = subset.Options()
+                options.name_IDs += [13, 14]
+                selected = subset.Subsetter(options=options)
                 selected.populate(unicodes=codepoints)
                 selected.subset(font)
                 font.flavor = 'woff2'
@@ -1688,13 +1715,13 @@ def icon_detail(m, r, sections):
         source_page += (f'  <p class="source-citation"><a href="{html.escape(source["url"], quote=True)}">'
                         f'{html.escape(r["source_label"])}</a></p>\n')
     bundle_links = f'<a download href="{base}/downloads/{m["id"]}-web.zip">Download web bundle (ZIP)</a>'
-    bundle_instruction = f'<a download href="{base}/downloads/{m["id"]}-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license.'
+    bundle_instruction = f'<a download href="{base}/downloads/{m["id"]}-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.'
     if len(m.get('web_bundle_parts', [])) > 1:
         bundle_links = ' '.join(f'<a download href="{base}/downloads/{part["file"]}">Web bundle ZIP {i} of {len(m["web_bundle_parts"])}</a>'
                                 for i, part in enumerate(m['web_bundle_parts'], 1))
         bundle_instruction = ('Download every part: ' + bundle_links + '. Extract all parts into the same folder, then place the '
                               '<code>collection</code> folder beside your HTML file. Together the parts include all SVGs, PNGs, '
-                              'fonts, CSS, instructions and the license. Keep the subfolders together for these examples.')
+                              'fonts, CSS, instructions and license notices. Keep the subfolders together for these examples.')
     return f'''<article class="icon-card" id="{r['id']}">
   <p class="card-meta"><a href="../icons.html?collection={m['id']}#collection">{html.escape(m['name'])}</a><span>No. {html.escape(r['specimen_number'])}</span></p>
   <h1>{title}</h1>
@@ -2001,8 +2028,9 @@ def validate_family(path):
                             raise ValueError(f'{file}: CFF drawing program exceeds 65,535 bytes.')
                 if top.Notice != expected_notice or top.Copyright != COPYRIGHT_NOTICE:
                     raise ValueError(f"{file}: CFF copyright metadata mismatch.")
-            if font['name'].getDebugName(13) != (ROOT / 'LICENSE').read_text().strip():
-                raise ValueError(f"{file}: missing MIT license metadata.")
+            if (font['name'].getDebugName(13) != font_license_text()
+                    or font['name'].getDebugName(14) != FONT_LICENSE_URL):
+                raise ValueError(f"{file}: missing {FONT_LICENSE} metadata. Run build.")
             if font['name'].getDebugName(1) != m['name'] or font['name'].getDebugName(5) != 'Version ' + m['version']:
                 raise ValueError(f"{file}: family/version metadata mismatch.")
             # Registered icon layers have format-specific control-point LSBs;
@@ -2040,6 +2068,20 @@ def validate_family(path):
             if ext == "otf":
                 for item in sizes["warnings"]:
                     print(f"Review sizing {path.name}: {sizing_message(item)}")
+    for name in LICENSE_FILES:
+        if not (path / name).is_file() or (path / name).read_bytes() != (ROOT / name).read_bytes():
+            raise ValueError(f"{path.name}: missing or stale {name}. Run build.")
+    if FONT_LICENSE not in (path / 'README.md').read_text():
+        raise ValueError(f"{path.name}: README must explain {FONT_LICENSE}. Run build.")
+    if m.get('kind') == 'icons':
+        for archive in (path / 'downloads').glob(f'{m["id"]}-web*.zip'):
+            with zipfile.ZipFile(archive) as bundle:
+                for name in LICENSE_FILES:
+                    member = f'collection/{m["id"]}/{name}'
+                    if member not in bundle.namelist() or bundle.read(member) != (ROOT / name).read_bytes():
+                        raise ValueError(f"{archive}: missing or stale {name}. Run build.")
+                if 'README.md' not in bundle.namelist() or FONT_LICENSE.encode() not in bundle.read('README.md'):
+                    raise ValueError(f"{archive}: README must explain {FONT_LICENSE}. Run build.")
     if (path / "SHA256SUMS.txt").read_text() != checksums(path):
         raise ValueError(f"{path.name}: stale checksums. Run build.")
     print(f"Validated {path.name}: formats, coverage, outlines, sizing, licensing and checksums")
@@ -2090,7 +2132,7 @@ def new_family(args):
         "postscript_name": re.sub(r"[^A-Za-z0-9]", "", args.name) + "-Regular",
         "year": args.year, "designer": "TODO: historical designer or documented attribution",
         "foundry": "TODO: historical foundry", "description": "TODO: one sentence describing this revival",
-        "license": "MIT", "copyright": COPYRIGHT_NOTICE, "sample_text": "The quick brown fox jumps over the lazy dog",
+        "license": FONT_LICENSE, "copyright": COPYRIGHT_NOTICE, "sample_text": "The quick brown fox jumps over the lazy dog",
         "observed": "TODO: characters directly evidenced by the historical sources",
         "reconstructed": "TODO: inferred or newly drawn characters; use None if all are observed",
         "sources": [{"title": "TODO", "url": "TODO", "rights": "TODO", "rights_url": "TODO", "file": "reference/TODO.png"}],

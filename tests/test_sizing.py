@@ -140,7 +140,8 @@ class SizingTests(unittest.TestCase):
             root = Path(tmp)
             family = root / "collection/remington-1888"
             shutil.copytree(FAMILY, family)
-            shutil.copyfile(ROOT / "LICENSE", root / "LICENSE")
+            for notice in revival.LICENSE_FILES:
+                shutil.copyfile(ROOT / notice, root / notice)
             edit = family / "source/glyphs/t.json"
             data = json.loads(edit.read_text())
             data["path"] = "M150 0H450V480H150Z"
@@ -160,6 +161,7 @@ class SizingTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             family = Path(tmp) / "remington-1888"
             shutil.copytree(FAMILY, family)
+            revival.build_family(family)
             file = family / "fonts/Remington1888-Regular.otf"
             with TTFont(file) as font:
                 transform(font, "t", (1, 0, 0, .65, 0, 0))

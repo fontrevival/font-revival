@@ -34,7 +34,7 @@ to existing icons preserve their artwork, IDs and codepoints. These Boston
 
 `build` produces individual transparent SVGs, an SVG symbol sprite, OTF and TTF
 desktop fonts, WOFF and WOFF2 webfonts, named CSS classes, JSON manifests, PNG/PDF
-proofs, a family README, license and checksums. The root `icons.html` is a generated,
+proofs, a family README, license notices and checksums. The root `icons.html` is a generated,
 monochrome font grid with search and collection, type and category filters.
 Each tile links to `icons/<icon-id>.html`, with three-tone and monochrome previews,
 size and colour controls, downloads, HTML examples and source comparison.
@@ -49,8 +49,11 @@ at 100%, 55% and 25% opacity. Standard icon fonts remain monochrome. Both versio
 keep the same coordinate frame.
 
 Use `fr-icon fr-boston-1889-4202` after including the collection's `web/icons.css`.
-Distribute that entire `web/` directory and the license. `font-size` sets the size;
-`color` sets the ink colour. Icon classes use CSS pseudo-elements and the book's
+Distribute that entire `web/` directory with `LICENSE`, `OFL.txt` and
+`FONT-LICENSES.txt`. Artwork and CSS use MIT; fonts and editable font source
+data offer the choice `MIT OR OFL-1.1`, with no Reserved Font Names.
+`font-size` sets the size; `color` sets the ink colour.
+Icon classes use CSS pseudo-elements and the book's
 own font. Give decorative spans `aria-hidden="true"`; put an accessible name on
 meaningful icons, or label their containing button/link. A Private Use character
 is not a semantic label. Desktop applications can insert the manifest's character
@@ -95,7 +98,7 @@ Download the [web bundle ZIP](../collection/boston-cuts-1889/downloads/boston-cu
 and unzip it. Place the extracted `collection` folder beside your HTML file,
 keeping its subfolders together. The examples below then work as written; adjust
 the paths if you put the folder elsewhere. The ZIP includes SVGs, PNGs, fonts,
-CSS, instructions and the license. The simplest use needs no CSS or JavaScript
+CSS, instructions and license notices. The simplest use needs no CSS or JavaScript
 and works both on a website and when opening the HTML directly from disk:
 
 ```html
@@ -260,18 +263,20 @@ so the proof enters the checksums. Review each icon at several sizes, beside
 ordinary text, in the SVG and font browser renderings, and against its source.
 Run the shared checks and commit sources and regenerated outputs together.
 
-The checks validate manifest coverage, nonempty outlines, embedding and MIT
+The checks validate manifest coverage, nonempty outlines, embedding and dual-license
 metadata, clipping, spacing across all font formats, reviewed sizing limits,
 checksums and an isolated byte-for-byte rebuild including SVGs, sprite, CSS,
 JSON and proofs. Gallery outputs are also checked for staleness. `package` makes
 the same deterministic ZIP releases used for typeface families.
 Icon builds also generate a smaller, deterministic web bundle in the family's
-`downloads/` folder. It contains the public assets and license under `collection/`
+`downloads/` folder. It contains the public assets and license notices under `collection/`
 so the gallery's HTML examples match the extracted paths. The gallery links to
 this committed ZIP, which is included in release rebuild checks.
 For very large collections, `web_bundle_max_bytes` produces ordinary numbered
 ZIP parts with a generated `downloads/bundles.json`. Download and extract every
 part into the same folder; complete assets are never split between archives.
+Each part includes `LICENSE`, `OFL.txt`, `FONT-LICENSES.txt` and a README
+explaining the font license choice.
 
 ### Publish the gallery
 

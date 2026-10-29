@@ -5,8 +5,10 @@ the same CFF master and maintenance commands, with Private Use coverage and
 generated SVG, sprite and CSS delivery alongside the desktop and web fonts.
 
 Original project work uses Harold Lehmann's copyright notice and the repository
-MIT license. Keep historical designer credits and source rights distinct from
-copyright ownership.
+MIT license. Fonts and editable font source data also offer SIL OFL 1.1 under
+the choice `MIT OR OFL-1.1`, with no Reserved Font Names. See
+[font licensing](../FONT-LICENSES.txt) for the exact scope. Keep historical
+designer credits and source rights distinct from copyright ownership.
 
 ## 1. Start from evidence
 
@@ -21,7 +23,9 @@ in `collection/<id>/reference/` so future work does not depend on live websites.
 python scripts/fontrevival.py new example-1890 --name "Example 1890" --year 1890
 ```
 
-Complete the generated `font.json`. Trace the historical forms, clean scan damage,
+Complete the generated `font.json`, retaining `"license": "MIT OR OFL-1.1"`.
+Font contributions must permit both options as described in the
+[source policy](SOURCES.md). Trace the historical forms, clean scan damage,
 set consistent metrics and spacing, and draw any missing companions. Record which
 forms are reconstructed. Build or export a static OpenType/CFF master with at
 least printable Basic Latin, then import it:
@@ -105,8 +109,9 @@ The `Check collection` workflow compares each push or pull request with the last
 successful check on its target branch. It validates and packages affected
 families, checks generated gallery files when their inputs change, and runs the
 tests for code or collection changes. Shared build tools, pinned dependencies,
-the license, or the checking workflow trigger a full audit. A manual workflow
-run also audits the complete collection; a missing successful baseline defaults
+any of `LICENSE`, `OFL.txt` or `FONT-LICENSES.txt`, or the checking workflow
+trigger a full audit. A manual workflow run also audits the complete collection;
+a missing successful baseline defaults
 to that full audit. Each selected family is rebuilt once before packaging.
 The uploaded packages contain only the families selected for that run.
 
@@ -147,7 +152,10 @@ the editor. Editor source and build configuration are maintained separately.
 `build` discovers families automatically and derives OTF, TTF, WOFF, WOFF2, specimen
 PDF/PNG, CSS, family README, checksums, and the gallery from committed inputs.
 TTF curves are derived from the cubic master with a maximum conversion error of
-0.5 font units. The build applies the MIT metadata and unrestricted embedding.
+0.5 font units. The build embeds the license choice, scope and both complete
+license texts, with unrestricted embedding. Family directories and download
+bundles include `LICENSE`, `OFL.txt` and `FONT-LICENSES.txt`; each part of a
+split web bundle carries all three notices.
 
 `check` verifies character coverage, nonempty outlines, spacing across formats,
 reviewed character sizing limits, license metadata, checksums, and a clean rebuild

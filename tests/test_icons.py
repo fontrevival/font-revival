@@ -306,7 +306,8 @@ class IconWorkflowTests(unittest.TestCase):
         original = REPO / "collection/boston-cuts-1889"
         family = cls.fixture_root / "collection/boston-cuts-1889"
         family.mkdir(parents=True)
-        shutil.copyfile(REPO / "LICENSE", cls.fixture_root / "LICENSE")
+        for notice in revival.LICENSE_FILES:
+            shutil.copyfile(REPO / notice, cls.fixture_root / notice)
         shutil.copyfile(original / "CHANGELOG.md", family / "CHANGELOG.md")
         m = json.loads((original / "font.json").read_text())
         pilot = next(icon for icon in m["icons"] if icon["id"] == "boston-1889-4202")
@@ -350,7 +351,8 @@ class IconWorkflowTests(unittest.TestCase):
         self.family = self.root / "collection/boston-cuts-1889"
         shutil.copytree(self.fixture_root / "collection/boston-cuts-1889", self.family)
         shutil.copytree(REPO / "site", self.root / "site")
-        shutil.copyfile(REPO / "LICENSE", self.root / "LICENSE")
+        for notice in revival.LICENSE_FILES:
+            shutil.copyfile(REPO / notice, self.root / notice)
         revival.ROOT = self.root
         self.output = contextlib.redirect_stdout(io.StringIO())
         self.output.__enter__()
@@ -451,6 +453,9 @@ class IconWorkflowTests(unittest.TestCase):
         output = revival.icon_browse_fonts([(m, records)])
         data = output['site/icon-fonts/boston-cuts-1889-000.woff2']
         with TTFont(io.BytesIO(data)) as browse:
+            self.assertIn('SPDX-License-Identifier: MIT OR OFL-1.1', browse['name'].getDebugName(13))
+            self.assertIn((REPO / 'OFL.txt').read_text().strip(), browse['name'].getDebugName(13))
+            self.assertEqual(browse['name'].getDebugName(14), revival.FONT_LICENSE_URL)
             self.assertEqual(set(browse.getBestCmap()), {32, 0xE000})
             self.assertEqual(len(browse.getGlyphOrder()), 3)
             self.assertEqual(browse['glyf'][browse.getBestCmap()[32]].numberOfContours, 0)
@@ -565,7 +570,9 @@ class IconWorkflowTests(unittest.TestCase):
             self.assertIsNone(bundle.testzip())
             bundle.extractall(extracted)
         base = extracted / "collection/boston-cuts-1889"
-        self.assertEqual((base / "LICENSE").read_bytes(), (REPO / "LICENSE").read_bytes())
+        for name in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt'):
+            self.assertEqual((base / name).read_bytes(), (REPO / name).read_bytes())
+        self.assertIn('MIT OR OFL-1.1', (extracted / 'README.md').read_text())
         self.assertIn("place the extracted `collection` folder beside your HTML", (extracted / "README.md").read_text())
         with TTFont(self.family / "fonts/BostonCuts1889-Regular.otf") as font:
             record = revival.icon_records(revival.metadata(self.family), font)[0]
@@ -578,6 +585,30 @@ class IconWorkflowTests(unittest.TestCase):
                 self.assertTrue((base / "web" / reference).is_file(), reference)
         self.assertTrue((base / "png/multitone/boston-1889-4202.png").is_file())
         self.assertTrue((base / "fonts/BostonCuts1889-Regular.otf").is_file())
+
+    def test_every_split_web_bundle_carries_both_licenses_and_the_choice(self):
+        # Incompressible extra assets force multiple ordinary ZIPs without a full collection.
+        for i in range(3):
+            (self.family / 'png' / f'fixture-{i}.bin').write_bytes(random.Random(i).randbytes(400000))
+        m = revival.metadata(self.family) | {'web_bundle_max_bytes': 900000}
+        revival.write_json(self.family / 'font.json', m)
+        parts = revival.build_icon_download(self.family, m)
+        self.assertGreater(len(parts), 1)
+        for part in parts:
+            with zipfile.ZipFile(self.family / 'downloads' / part['file']) as bundle:
+                for name in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt'):
+                    self.assertEqual(bundle.read(f'collection/{m["id"]}/{name}'), (REPO / name).read_bytes())
+                self.assertIn(b'MIT OR OFL-1.1', bundle.read('README.md'))
+        # A checksum refresh cannot conceal a missing license in a later part.
+        archive = self.family / 'downloads' / parts[-1]['file']
+        with zipfile.ZipFile(archive) as bundle:
+            entries = {name: bundle.read(name) for name in bundle.namelist() if not name.endswith('/OFL.txt')}
+        with zipfile.ZipFile(archive, 'w') as bundle:
+            for name, content in entries.items():
+                bundle.writestr(name, content)
+        (self.family / 'SHA256SUMS.txt').write_text(revival.checksums(self.family))
+        with self.assertRaisesRegex(ValueError, 'missing or stale OFL.txt'):
+            revival.validate_family(self.family)
 
     def test_icon_coverage_exception_does_not_weaken_text_fonts(self):
         revival.validate_family(self.family)

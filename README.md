@@ -7,7 +7,7 @@ Download them, study their sources, and use them in your own work.
 
 [Browse & try the fonts](https://font-revival.com/) ·
 [Download releases](https://github.com/fontrevival/font-revival/releases) ·
-[MIT License](LICENSE)
+[MIT License](LICENSE) · [Font licensing: MIT or SIL OFL 1.1](FONT-LICENSES.txt)
 
 ## The collection
 
@@ -167,8 +167,11 @@ Install either the OTF or TTF for desktop use. For a website, copy a family's
 <h1 style="font-family: 'Nero 1888', serif">Old forms. New life.</h1>
 ```
 
-Personal and commercial use, modification, embedding, and redistribution are
-permitted under the MIT license. Keep the license with redistributed font files.
+Fonts and editable font source data are available under your choice of the
+[MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt)
+(`MIT OR OFL-1.1`), with no Reserved Font Names. Keep the notices required by
+your chosen license when redistributing fonts. See [font licensing](FONT-LICENSES.txt)
+for the scope of this choice; standalone artwork, CSS, code and documentation use MIT.
 
 ## Build the collection
 
@@ -206,7 +209,8 @@ normal check command catch size regressions in every release format.
 Use historical material with a documented public-domain basis. Trace historical
 sources directly and record which forms are observed and which are reconstructed.
 Each family's `font.json` records its sources and rights basis; historical
-reference material retains that status. Project code, documentation, and digital
-fonts are [MIT licensed](LICENSE). Copyright (c) 2026 Harold Lehmann.
+reference material retains that status. Original project work is
+[MIT licensed](LICENSE), with the companion [SIL OFL 1.1](OFL.txt) available
+for fonts and editable font source data. Copyright (c) 2026 Harold Lehmann.
 Historical public-domain designs and reference material retain their existing
 rights status. See [source policy](docs/SOURCES.md).

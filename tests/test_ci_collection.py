@@ -20,7 +20,7 @@ class CollectionSelectionTests(unittest.TestCase):
 
     def test_shared_tools_and_manual_audits_select_every_family(self):
         for path in ('scripts/fontrevival.py', 'scripts/svg_paths.py', 'requirements.txt',
-                     'LICENSE', '.github/workflows/check.yml'):
+                     'LICENSE', 'OFL.txt', 'FONT-LICENSES.txt', '.github/workflows/check.yml'):
             with self.subTest(path=path):
                 plan = ci.select_checks([path], self.families)
                 self.assertTrue(plan['full'])
