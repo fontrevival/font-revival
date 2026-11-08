@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Interlaced ellipses with inset stars: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Interlaced ellipses with inset stars — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="../site/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+    .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
+    @media(max-width:780px){.editor-preview{height:713px}}
+    @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="../editor/index.html">Editor ↗</a><a href="https://github.com/fontrevival/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="bruce-1828-p203-paragon-3-repeat">
+  <p class="card-meta"><a href="../icons.html?collection=bruce-ornaments-1828#collection">Bruce Ornaments 1828</a><span>No. Paragon 3 repeat</span></p>
+  <h1>Interlaced ellipses with inset stars</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>border</li><li>repeat</li></ul>
+  <div class="section-links"><a href="../icons.html?section=borders-and-frames#collection">Borders and frames</a></div>
+  <p>Specimen PDF page 203 (unnumbered leaf).</p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Interlaced ellipses with inset stars">
+
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Interlaced ellipses with inset stars" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M64 1312V1286L236 1284C330 1282 412 1281 417 1281C422 1281 493 1282 576 1282C740 1285 835 1285 943 1284C1019 1284 1157 1285 1167 1285C1220 1289 1547 1289 1590 1285C1640 1280 1682 1279 1770 1281C1778 1281 1802 1279 1825 1277L1864 1273V1338H64V1312ZM880 1264C879 1262 854 1260 825 1259C723 1254 611 1237 578 1223C568 1218 553 1215 546 1215C539 1215 527 1209 519 1203C510 1196 495 1191 482 1191H461L476 1199C496 1209 566 1232 579 1232C589 1232 590 1241 582 1247C579 1249 510 1252 428 1253C346 1255 230 1257 171 1259L64 1261V1179C64 1099 65 1097 78 1088C86 1083 108 1065 126 1048C159 1017 160 1015 153 999C142 971 95 959 75 978C65 986 64 985 64 930V872L94 898C110 911 131 931 139 942C148 953 158 962 162 962C168 962 206 989 261 1034C271 1042 296 1058 317 1069C338 1080 366 1096 380 1105C394 1114 406 1121 408 1121C410 1121 426 1127 442 1135C512 1167 548 1180 602 1191C622 1195 652 1202 670 1206C729 1221 809 1228 886 1224C928 1221 968 1219 976 1219C1039 1219 1237 1167 1303 1134C1315 1128 1335 1118 1346 1112C1446 1062 1473 1046 1494 1026C1523 999 1522 988 1483 962L1456 944L1420 959C1400 968 1356 990 1320 1008C1285 1027 1233 1049 1205 1058C1178 1068 1153 1077 1150 1080C1146 1083 1139 1085 1132 1085C1125 1085 1107 1091 1090 1096C1058 1109 987 1118 890 1124C749 1131 600 1099 458 1030C400 1002 379 990 302 941C286 931 261 915 247 906C233 897 199 868 172 841C144 814 109 780 93 765C67 742 64 737 64 714C64 690 64 689 76 700C85 709 88 709 88 702C88 697 82 688 76 682C66 673 64 664 64 615V559L303 560C436 561 549 563 556 565L570 568L557 582C549 592 536 598 519 601C505 602 492 606 490 609C488 612 481 615 474 615C467 615 450 621 438 629C425 637 411 644 408 644C399 644 336 682 318 697C310 704 302 709 299 709C296 709 276 722 253 738C209 771 185 776 167 756C161 749 154 744 150 744C148 744 137 738 128 729C118 721 108 715 106 717C102 722 133 762 158 784C169 794 183 802 190 803C203 803 236 784 261 762C281 744 332 715 343 715C348 715 362 706 375 695C403 672 430 656 458 646C480 638 483 636 535 613C620 575 669 565 815 555C918 549 952 551 1004 565C1020 569 1049 578 1066 582C1082 587 1110 592 1126 595L1155 599L1143 585C1123 562 1138 559 1259 561C1438 563 1694 562 1738 559C1760 556 1798 554 1822 552L1864 549V594C1864 618 1862 638 1859 638C1856 638 1841 624 1826 608C1808 587 1799 580 1799 587C1799 602 1815 625 1842 651C1860 668 1864 676 1864 694C1864 718 1862 717 1833 679C1825 668 1809 652 1797 644C1786 636 1773 622 1769 613C1762 596 1759 595 1744 601C1732 605 1732 618 1743 623C1770 633 1734 688 1660 751C1641 766 1619 786 1610 794C1600 802 1593 814 1593 822C1593 841 1635 882 1650 877C1656 875 1680 849 1702 821C1725 792 1746 768 1750 768C1753 768 1762 773 1768 779C1775 785 1782 789 1783 787C1793 778 1816 794 1833 821C1844 836 1855 850 1858 850C1862 850 1864 862 1864 878V905L1852 892C1845 885 1838 880 1836 882C1832 886 1853 928 1860 931C1862 932 1864 945 1864 958C1864 981 1861 986 1830 1016C1798 1047 1795 1048 1772 1045C1749 1042 1740 1035 1683 973C1616 901 1580 867 1546 844C1535 836 1523 827 1520 823C1506 808 1442 763 1400 741C1375 728 1348 712 1338 707C1302 688 1166 634 1142 629C1129 628 1115 622 1110 617C1106 612 1093 609 1075 609C1060 609 1045 606 1043 603C1042 600 1027 598 1012 598C996 598 980 597 977 595C974 593 937 590 896 588C788 584 635 605 582 632C570 638 545 648 526 653C506 659 468 676 440 692C412 708 386 721 382 721C367 721 336 741 302 774C283 792 261 809 254 811C240 816 232 832 238 846C243 860 290 885 310 885C322 885 346 872 385 846C418 825 458 801 476 793C493 785 525 770 546 759C599 732 708 699 763 692C818 686 945 688 1002 695C1032 699 1078 711 1105 721C1133 731 1179 748 1208 758C1238 769 1279 788 1302 801C1323 814 1355 831 1372 840C1436 876 1496 923 1590 1011C1662 1078 1688 1104 1736 1156L1769 1193L1816 1144L1863 1094L1864 1172V1250H1844C1833 1250 1818 1245 1809 1238C1795 1227 1790 1226 1776 1232C1766 1236 1758 1244 1757 1249C1755 1258 1729 1259 1461 1259C1299 1260 1165 1259 1163 1258C1155 1254 1165 1238 1175 1238C1180 1238 1192 1235 1200 1230C1208 1226 1223 1221 1232 1218C1272 1209 1359 1171 1393 1149C1413 1136 1442 1121 1457 1114C1472 1106 1496 1094 1511 1085C1553 1059 1561 1059 1586 1078C1598 1086 1627 1114 1650 1137C1687 1174 1705 1187 1705 1176C1705 1174 1690 1159 1672 1142C1653 1124 1630 1099 1620 1086C1610 1074 1591 1057 1578 1049C1549 1034 1545 1035 1499 1071C1485 1082 1469 1093 1464 1095C1459 1097 1448 1104 1439 1110C1431 1116 1421 1121 1418 1121C1414 1121 1398 1126 1380 1134C1363 1142 1338 1153 1323 1159C1308 1165 1292 1174 1287 1178C1282 1182 1276 1185 1273 1185C1270 1185 1252 1192 1231 1200C1211 1208 1185 1216 1173 1217C1162 1219 1145 1224 1135 1229C1126 1234 1108 1238 1095 1238C1083 1238 1061 1242 1047 1247C1033 1252 993 1258 959 1259C925 1261 893 1264 889 1265C886 1266 882 1266 880 1264ZM1735 1218C1735 1216 1733 1215 1732 1215C1730 1215 1729 1216 1729 1218C1729 1219 1730 1221 1732 1221C1733 1221 1735 1219 1735 1218ZM446 1177C438 1173 410 1158 385 1144C359 1130 335 1116 332 1114C329 1111 322 1109 318 1109C312 1109 293 1097 274 1083C255 1069 231 1052 220 1046C200 1036 200 1036 180 1051C142 1082 79 1144 83 1148C86 1150 94 1147 102 1141C165 1091 186 1075 198 1071C212 1066 258 1087 258 1097C258 1101 263 1103 269 1103C284 1103 328 1125 346 1143C355 1150 368 1158 376 1159C384 1161 400 1168 411 1174C422 1180 438 1185 446 1185H461L446 1177ZM908 1044C913 1031 920 1019 925 1017C930 1015 946 1024 961 1035C976 1046 993 1056 1000 1056C1010 1056 1010 1055 999 1026C972 958 999 928 1042 979C1064 1005 1078 1001 1080 969C1083 940 1096 929 1109 947C1118 959 1143 974 1156 974C1161 974 1164 966 1164 953C1164 939 1168 930 1176 925C1182 921 1188 916 1188 914C1188 912 1164 908 1135 906C1099 903 1082 899 1079 894C1076 884 1092 881 1163 877C1213 875 1245 880 1253 892C1260 904 1253 908 1223 912C1206 915 1193 918 1193 919C1193 926 1213 944 1220 944C1224 944 1229 940 1231 935C1235 925 1261 924 1267 932C1273 942 1287 939 1303 927C1310 921 1322 917 1328 918C1342 922 1355 912 1350 901C1348 894 1339 891 1326 891C1309 891 1304 888 1299 876C1293 862 1292 861 1268 864C1246 868 1240 866 1233 856C1227 847 1219 845 1199 846C1175 847 1173 846 1171 831C1169 810 1151 809 1133 829C1126 836 1113 844 1105 845C1092 847 1090 844 1087 824C1083 802 1068 782 1058 789C1055 791 1048 801 1043 812C1032 835 1009 845 989 836C972 829 972 810 990 785C999 774 1005 763 1005 761C1005 751 985 756 961 771C948 778 932 785 925 785C913 785 910 781 905 759C896 724 884 721 860 746L841 768L815 758C793 749 786 749 780 755C775 760 775 765 779 772C799 803 792 836 767 838C741 841 735 837 723 815C716 802 707 791 703 791C698 791 690 798 685 806C679 815 670 821 662 821C650 821 647 825 644 842C640 862 639 862 616 861C593 859 591 860 587 875C585 884 585 892 588 894C590 896 626 897 666 896C719 895 742 897 749 903C754 907 757 912 755 914C750 919 670 926 580 929C505 931 505 931 499 917C495 906 489 903 477 903C468 903 456 906 450 911C425 929 466 951 520 949C546 947 550 948 557 964C566 981 569 982 590 972C603 966 609 967 626 976C642 985 648 986 653 981C658 976 666 974 673 974C683 974 688 978 690 991C693 1005 698 1009 709 1009C716 1009 723 1005 723 1001C723 989 741 975 761 971C791 965 803 982 790 1013C780 1038 788 1042 818 1032C845 1023 857 1028 869 1052C880 1075 896 1072 908 1044ZM1786 1002C1788 994 1765 976 1759 982C1758 984 1759 992 1763 1001C1770 1016 1783 1017 1786 1002ZM1699 899C1699 895 1697 892 1693 894C1690 896 1688 900 1688 904C1688 906 1690 909 1693 909C1697 909 1699 905 1699 899ZM1790 845C1793 839 1780 809 1775 809C1772 809 1765 816 1758 825C1746 840 1746 841 1756 845C1771 851 1786 851 1790 845ZM1588 769C1603 754 1622 735 1629 729C1662 699 1713 644 1709 641C1704 635 1682 649 1672 665C1666 674 1648 692 1629 705C1611 719 1589 738 1580 746C1556 769 1543 774 1525 770L1508 766L1522 782C1530 790 1542 797 1548 797C1555 797 1572 785 1588 769ZM1505 763C1505 755 1492 744 1482 744C1476 744 1476 746 1485 756C1496 768 1505 771 1505 763ZM1470 738C1470 735 1466 732 1461 732C1456 732 1452 730 1452 728C1452 722 1408 697 1398 697C1395 697 1395 701 1399 706C1403 711 1410 715 1415 715C1420 715 1432 721 1442 729C1460 745 1470 748 1470 738ZM1385 685C1383 682 1379 679 1375 679C1372 679 1370 682 1370 685C1370 689 1374 691 1379 691C1384 691 1386 689 1385 685ZM1355 671C1349 666 1341 662 1339 662C1336 662 1330 658 1325 654C1321 649 1303 641 1286 635C1269 630 1238 619 1215 611C1193 602 1174 597 1172 599C1166 605 1179 613 1217 625C1235 631 1261 642 1276 651C1300 665 1337 677 1358 679C1363 679 1363 676 1355 671ZM1723 629C1723 628 1722 626 1720 626C1718 626 1717 628 1717 629C1717 631 1718 632 1720 632C1722 632 1723 631 1723 629ZM849 995C839 991 823 976 814 964C799 945 796 936 796 908C797 867 809 848 847 828C867 817 878 815 896 818C923 822 962 851 971 873C979 894 977 944 968 959C958 974 899 1003 880 1003C873 1002 859 999 849 995ZM920 941C936 926 939 899 929 879C922 867 889 858 871 864C858 868 846 891 846 911C846 919 852 932 859 941C875 961 900 961 920 941ZM363 522 64 521V462H1864V516L1815 514C1782 511 1763 512 1758 517C1752 524 1113 526 363 522Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Interlaced ellipses with inset stars"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-bruce-ornaments-1828'">&#xE075;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/bruce-ornaments-1828/downloads/bruce-ornaments-1828-web.zip">Download web bundle (ZIP)</a><a download href="../collection/bruce-ornaments-1828/svg/bruce-1828-p203-paragon-3-repeat.svg">Monochrome SVG</a><a download href="../collection/bruce-ornaments-1828/web/icons.svg">Monochrome sprite</a><a download href="../collection/bruce-ornaments-1828/fonts/BruceOrnaments1828-Regular.otf">OTF</a> <a download href="../collection/bruce-ornaments-1828/fonts/BruceOrnaments1828-Regular.ttf">TTF</a> <a download href="../collection/bruce-ornaments-1828/web/BruceOrnaments1828-Regular.woff2">WOFF2</a><a href="../collection/bruce-ornaments-1828/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/bruce-ornaments-1828/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/bruce-ornaments-1828/downloads/bruce-ornaments-1828-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.</p>
+    <h3>Monochrome image</h3>
+    <p>This displays the monochrome artwork with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/bruce-ornaments-1828/svg/bruce-1828-p203-paragon-3-repeat.svg&quot;
+     alt=&quot;Interlaced ellipses with inset stars&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>SVG with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Interlaced ellipses with inset stars&quot;&gt;
+  &lt;use href=&quot;collection/bruce-ornaments-1828/web/icons.svg#bruce-1828-p203-paragon-3-repeat&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/bruce-ornaments-1828/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-bruce-1828-p203-paragon-3-repeat&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Interlaced ellipses with inset stars&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/bruce-ornaments-1828/specimens/bruce-1828-p203-paragon-3-repeat.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="../LICENSE">Artwork: MIT</a> · <a href="../FONT-LICENSES.txt">Fonts: MIT or SIL OFL 1.1</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

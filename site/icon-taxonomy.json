@@ -34,6 +34,18 @@
     },
     "baltimore-symbols-1832": {
       "type": "symbols"
+    },
+    "gpo-cuts-1904": {
+      "type": "cuts"
+    },
+    "bruce-ornaments-1828": {
+      "type": "ornaments"
+    },
+    "bruce-cuts-1828": {
+      "type": "cuts"
+    },
+    "gpo-cuts-1897": {
+      "type": "cuts"
     }
   },
   "sections": [
@@ -1903,6 +1915,182 @@
       "tags_any": [
         "boston1832"
       ]
+    },
+    {
+      "id": "gpo-1904-vessels",
+      "label": "GPO steam and sailing vessels",
+      "historical_heading": "Steam and Sailing Vessels",
+      "collection": "gpo-cuts-1904",
+      "printed_pages": [
+        174,
+        175,
+        176,
+        177
+      ]
+    },
+    {
+      "id": "bruce-1828-lottery-figures",
+      "label": "Bruce 1828: Lottery figures",
+      "historical_heading": "LOTTERY FIGURES.",
+      "collection": "baltimore-initials-1832",
+      "pdf_pages": [
+        133
+      ],
+      "icons": [
+        "bruce-1828-p133-lottery-3",
+        "bruce-1828-p133-lottery-4",
+        "bruce-1828-p133-lottery-5",
+        "bruce-1828-p133-lottery-comma"
+      ]
+    },
+    {
+      "id": "bruce-1828-hatched-italic",
+      "label": "Bruce 1828: Hatched ornamented letters",
+      "historical_heading": "EIGHT LINES PICA, ORNAMENTED.",
+      "collection": "baltimore-initials-1832",
+      "pdf_pages": [
+        135
+      ],
+      "icons": [
+        "bruce-1828-p135-ornamented-capital-o",
+        "bruce-1828-p135-ornamented-capital-d",
+        "bruce-1828-p135-ornamented-capital-a",
+        "bruce-1828-p135-ornamented-lowercase-w",
+        "bruce-1828-p135-ornamented-lowercase-t",
+        "bruce-1828-p135-ornamented-lowercase-r",
+        "bruce-1828-p135-ornamented-period",
+        "bruce-1828-p135-ornamented-capital-s",
+        "bruce-1828-p135-ornamented-lowercase-a",
+        "bruce-1828-p135-ornamented-lowercase-e"
+      ]
+    },
+    {
+      "id": "bruce-1828-ornamental-dashes",
+      "label": "Bruce dashes and masks",
+      "historical_heading": "Ornamental Dashes; Ornaments",
+      "collection": "bruce-ornaments-1828",
+      "pdf_pages": [
+        169,
+        171,
+        173,
+        307
+      ]
+    },
+    {
+      "id": "bruce-1828-flowers-borders",
+      "label": "Bruce flowers and borders",
+      "historical_heading": "Flowers and Borders",
+      "collection": "bruce-ornaments-1828",
+      "pdf_pages": [
+        177,
+        181,
+        183,
+        185,
+        187,
+        189,
+        191,
+        193,
+        195,
+        197,
+        199,
+        201,
+        203,
+        205,
+        207,
+        209,
+        211,
+        213,
+        215,
+        217,
+        233,
+        235
+      ]
+    },
+    {
+      "id": "bruce-1828-numbered-cuts",
+      "label": "Bruce numbered cuts",
+      "historical_heading": "Numbered cuts",
+      "collection": "bruce-cuts-1828",
+      "pdf_pages": [
+        237,
+        239,
+        241,
+        243,
+        245,
+        247,
+        249,
+        251,
+        253,
+        255,
+        257,
+        259,
+        261,
+        263,
+        265,
+        267,
+        269,
+        271,
+        273,
+        275,
+        277,
+        279,
+        281,
+        283,
+        285,
+        287,
+        289,
+        291,
+        293,
+        297,
+        307,
+        309,
+        311,
+        313,
+        315,
+        317,
+        319,
+        323,
+        333,
+        335,
+        337,
+        339,
+        341,
+        343,
+        345,
+        347,
+        349,
+        351,
+        353,
+        355,
+        357,
+        359,
+        361,
+        363,
+        365,
+        367,
+        369,
+        371,
+        373,
+        375,
+        377,
+        379,
+        383,
+        385,
+        387,
+        393
+      ]
+    },
+    {
+      "id": "gpo-1897-seals",
+      "label": "GPO 1897 seals",
+      "historical_heading": "Seals",
+      "collection": "gpo-cuts-1897",
+      "printed_pages": [
+        91,
+        92,
+        93,
+        94
+      ]
     }
   ],
   "categories": [
@@ -1964,6 +2152,22 @@
           "types": [
             "cuts"
           ]
+        },
+        {
+          "tags_any": [
+            "zodiac"
+          ],
+          "types": [
+            "cuts"
+          ]
+        },
+        {
+          "types": [
+            "cuts"
+          ],
+          "tags_any": [
+            "astronomical"
+          ]
         }
       ]
     },
@@ -1974,6 +2178,12 @@
         {
           "sections": [
             "prescription-signs"
+          ]
+        },
+        {
+          "icons": [
+            "gpo-1904-sign-prescription-wide",
+            "gpo-1904-sign-prescription-narrow"
           ]
         }
       ]
@@ -2007,6 +2217,17 @@
         {
           "sections": [
             "check-ornaments"
+          ]
+        },
+        {
+          "icons": [
+            "gpo-1904-check-j1",
+            "gpo-1904-check-j2",
+            "gpo-1904-check-v1",
+            "gpo-1904-check-v2",
+            "gpo-1904-check-e1",
+            "gpo-1904-check-e2",
+            "gpo-1904-check-f1"
           ]
         }
       ]
@@ -2048,6 +2269,12 @@
           ],
           "types": [
             "cuts"
+          ]
+        },
+        {
+          "icons": [
+            "gpo-1904-flag-3",
+            "gpo-1904-flag-6"
           ]
         }
       ]
@@ -2107,6 +2334,11 @@
         {
           "tags_any": [
             "skaters"
+          ]
+        },
+        {
+          "icons": [
+            "bruce-1828-p175-eight-line-pica-1-mask"
           ]
         }
       ]
@@ -2324,6 +2556,14 @@
           "types": [
             "cuts"
           ]
+        },
+        {
+          "tags_any": [
+            "shellfish"
+          ],
+          "types": [
+            "cuts"
+          ]
         }
       ]
     },
@@ -2451,7 +2691,7 @@
     },
     {
       "id": "carriages-and-wagons",
-      "label": "Carriages and wagons",
+      "label": "Carriages, wagons and sleds",
       "selectors": [
         {
           "sections": [
@@ -2478,6 +2718,14 @@
         {
           "tags_any": [
             "carts"
+          ]
+        },
+        {
+          "tags_any": [
+            "sled"
+          ],
+          "types": [
+            "cuts"
           ]
         }
       ]
@@ -2608,7 +2856,7 @@
     },
     {
       "id": "art-initials",
-      "label": "Decorated initials",
+      "label": "Decorated letters and figures",
       "selectors": [
         {
           "types": [
@@ -2616,6 +2864,11 @@
           ],
           "tags_any": [
             "initial"
+          ]
+        },
+        {
+          "sections": [
+            "bruce-1828-lottery-figures"
           ]
         }
       ]
@@ -2755,6 +3008,29 @@
           "types": [
             "ornaments"
           ]
+        },
+        {
+          "icons": [
+            "gpo-1904-art-ornament-1",
+            "gpo-1904-art-ornament-5",
+            "gpo-1904-art-ornament-13",
+            "gpo-1904-art-ornament-18",
+            "gpo-1904-art-ornament-20",
+            "gpo-1904-wave-ornament-22",
+            "gpo-1904-capital-ornament-13",
+            "gpo-1904-protean-ornament-14-left",
+            "gpo-1904-unique-border-59",
+            "gpo-1904-unique-border-173",
+            "gpo-1904-flame-border-corner",
+            "gpo-1904-elzevir-105-corner",
+            "gpo-1904-round-rule-tight-quarter",
+            "gpo-1904-round-rule-curved-junction",
+            "gpo-1904-round-rule-4pt-quarter",
+            "gpo-1904-round-rule-2pt-quarter",
+            "gpo-1904-binding-meander-corner",
+            "gpo-1904-half-blunt-rule-corner",
+            "gpo-1904-single-rule-corner"
+          ]
         }
       ]
     },
@@ -2809,6 +3085,92 @@
         {
           "icons": [
             "boston-1832-p229-102"
+          ]
+        },
+        {
+          "icons": [
+            "gpo-1904-art-ornament-6",
+            "gpo-1904-wave-ornament-1",
+            "gpo-1904-wave-ornament-5",
+            "gpo-1904-wave-ornament-6",
+            "gpo-1904-wave-ornament-7",
+            "gpo-1904-wave-ornament-8",
+            "gpo-1904-wave-ornament-9-left",
+            "gpo-1904-wave-ornament-10-left",
+            "gpo-1904-wave-ornament-17-left",
+            "gpo-1904-wave-ornament-18-left",
+            "gpo-1904-wave-ornament-19",
+            "gpo-1904-wave-ornament-20",
+            "gpo-1904-wave-ornament-21",
+            "gpo-1904-wave-ornament-22",
+            "gpo-1904-capital-ornament-1",
+            "gpo-1904-capital-ornament-2",
+            "gpo-1904-capital-ornament-5",
+            "gpo-1904-capital-ornament-6",
+            "gpo-1904-capital-ornament-7",
+            "gpo-1904-capital-ornament-8",
+            "gpo-1904-capital-ornament-9",
+            "gpo-1904-capital-ornament-10",
+            "gpo-1904-capital-ornament-11",
+            "gpo-1904-capital-ornament-12-left",
+            "gpo-1904-capital-ornament-17",
+            "gpo-1904-capital-ornament-18",
+            "gpo-1904-capital-ornament-19",
+            "gpo-1904-capital-ornament-20",
+            "gpo-1904-capital-ornament-21",
+            "gpo-1904-capital-ornament-22-right",
+            "gpo-1904-capital-ornament-23-left",
+            "gpo-1904-protean-ornament-7",
+            "gpo-1904-protean-ornament-8",
+            "gpo-1904-protean-ornament-15",
+            "gpo-1904-round-rule-tight-quarter",
+            "gpo-1904-round-rule-curved-junction",
+            "gpo-1904-round-rule-4pt-quarter",
+            "gpo-1904-round-rule-2pt-quarter",
+            "gpo-1904-brass-circle-double-1",
+            "gpo-1904-brass-circle-double-2",
+            "gpo-1904-brass-circle-double-3",
+            "gpo-1904-brass-circle-double-4",
+            "gpo-1904-brass-circle-double-5",
+            "gpo-1904-brass-circle-single-1",
+            "gpo-1904-brass-circle-single-2",
+            "gpo-1904-brass-circle-single-3",
+            "gpo-1904-brass-circle-single-4",
+            "gpo-1904-brass-circle-single-5",
+            "gpo-1904-brass-circle-half-blunt-1",
+            "gpo-1904-brass-circle-half-blunt-2",
+            "gpo-1904-brass-circle-half-blunt-3",
+            "gpo-1904-brass-circle-half-blunt-4",
+            "gpo-1904-brass-circle-half-blunt-5",
+            "gpo-1904-brass-circle-parallel-1",
+            "gpo-1904-brass-circle-parallel-2",
+            "gpo-1904-brass-circle-parallel-3",
+            "gpo-1904-brass-circle-parallel-4",
+            "gpo-1904-brass-circle-parallel-5",
+            "gpo-1904-brass-brace-1",
+            "gpo-1904-brass-brace-2",
+            "gpo-1904-brass-brace-3",
+            "gpo-1904-brass-brace-4",
+            "gpo-1904-brass-brace-5",
+            "gpo-1904-brass-brace-6",
+            "gpo-1904-brass-brace-7",
+            "gpo-1904-brass-brace-8",
+            "gpo-1904-brass-brace-9",
+            "gpo-1904-brass-brace-10",
+            "gpo-1904-brass-brace-11-left",
+            "gpo-1904-brass-brace-11-right",
+            "gpo-1904-brass-brace-12",
+            "gpo-1904-two-point-waved-rule",
+            "gpo-1904-double-rule-4point",
+            "gpo-1904-double-rule-6point",
+            "gpo-1904-double-rule-10point",
+            "gpo-1904-double-rule-12point",
+            "gpo-1904-fine-dot-leader",
+            "gpo-1904-balanced-hyphen-rule",
+            "gpo-1904-close-hyphen-leader",
+            "gpo-1904-spaced-hyphen-leader",
+            "gpo-1904-half-blunt-rule-corner",
+            "gpo-1904-single-rule-corner"
           ]
         }
       ]
@@ -2868,6 +3230,28 @@
             "boston-1889-p255-11pt-29",
             "boston-1889-p255-11pt-30"
           ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-1",
+            "boston-1889-p255-6pt-2",
+            "boston-1889-p255-6pt-3",
+            "boston-1889-p255-6pt-4",
+            "boston-1889-p255-6pt-5",
+            "boston-1889-p255-6pt-7",
+            "boston-1889-p255-6pt-9",
+            "boston-1889-p255-6pt-10",
+            "boston-1889-p255-6pt-11",
+            "boston-1889-p255-6pt-12",
+            "boston-1889-p255-6pt-13",
+            "boston-1889-p255-6pt-15",
+            "boston-1889-p255-6pt-16",
+            "boston-1889-p255-6pt-18",
+            "boston-1889-p255-6pt-19",
+            "boston-1889-p255-6pt-20",
+            "boston-1889-p255-6pt-21",
+            "gpo-1904-sign-triangle-tall"
+          ]
         }
       ]
     },
@@ -2889,6 +3273,41 @@
             "boston-1889-p255-9pt-47",
             "boston-1889-p255-10pt-49",
             "boston-1889-p255-11pt-39"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-7pt-38",
+            "boston-1889-p255-9pt-28",
+            "boston-1889-p255-10pt-39",
+            "boston-1889-p255-10pt-75",
+            "gpo-1904-sign-versicle-upright",
+            "gpo-1904-sign-radical-raised-three-12pt",
+            "gpo-1904-sign-algebraic-curled-12pt",
+            "gpo-1904-sign-greater-bracket",
+            "gpo-1904-sign-less-bracket",
+            "gpo-1904-sign-difference-curved",
+            "gpo-1904-sign-integration-curved",
+            "gpo-1904-sign-equivalence-curved",
+            "gpo-1904-sign-difference-excess",
+            "gpo-1904-sign-because-three-dots",
+            "gpo-1904-sign-seconds-double-prime",
+            "gpo-1904-sign-proportion-wide-6pt",
+            "gpo-1904-sign-proportion-close-8pt",
+            "gpo-1904-sign-proportion-10-12pt",
+            "gpo-1904-sign-proportion-fine",
+            "gpo-1904-sign-radical-upright",
+            "gpo-1904-sign-radical-high-wedge",
+            "gpo-1904-sign-algebraic-angle-zigzag",
+            "gpo-1904-sign-algebraic-angle-flared",
+            "gpo-1904-sign-geometrical-proportion-balanced",
+            "gpo-1904-sign-geometrical-proportion-close",
+            "gpo-1904-sign-geometrical-proportion-wide",
+            "gpo-1904-sign-triangle-tall",
+            "gpo-1904-sign-equality-wide",
+            "gpo-1904-sign-greater-broad",
+            "gpo-1904-sign-plus-minus-detached",
+            "gpo-1904-sign-acute-angle-narrow"
           ]
         }
       ]
@@ -2928,6 +3347,17 @@
             "boston-1889-p255-commercial5-6",
             "boston-1889-p255-commercial5half-1"
           ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-63",
+            "boston-1889-p255-7pt-65",
+            "boston-1889-p255-10pt-61",
+            "boston-1889-p255-10pt-67",
+            "boston-1889-p255-commercial5half-2",
+            "gpo-1904-sign-account-stacked",
+            "gpo-1904-sign-percent-narrow"
+          ]
         }
       ]
     },
@@ -2938,6 +3368,18 @@
         {
           "sections": [
             "medical-symbols"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-63",
+            "boston-1889-p255-7pt-65",
+            "boston-1889-p255-10pt-67",
+            "gpo-1904-sign-prescription-wide",
+            "gpo-1904-sign-prescription-narrow",
+            "gpo-1904-sign-ounce-narrow",
+            "gpo-1904-sign-drachm-narrow",
+            "gpo-1904-sign-scruple-open"
           ]
         }
       ]
@@ -2981,6 +3423,22 @@
             "boston-1889-p255-11pt-44",
             "boston-1889-p255-11pt-45",
             "boston-1889-p255-commercial5-2"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-7pt-38",
+            "boston-1889-p255-9pt-28",
+            "boston-1889-p255-10pt-39",
+            "boston-1889-p255-10pt-75",
+            "gpo-1904-sign-geometrical-proportion-balanced",
+            "gpo-1904-sign-geometrical-proportion-close",
+            "gpo-1904-sign-geometrical-proportion-wide",
+            "gpo-1904-sign-triangle-tall",
+            "gpo-1904-sign-equality-wide",
+            "gpo-1904-sign-greater-broad",
+            "gpo-1904-sign-plus-minus-detached",
+            "gpo-1904-sign-acute-angle-narrow"
           ]
         }
       ]
@@ -3037,6 +3495,59 @@
             "baltimore-title",
             "baltimore-card-borders"
           ]
+        },
+        {
+          "icons": [
+            "gpo-1904-art-ornament-19",
+            "gpo-1904-unique-border-152",
+            "gpo-1904-unique-border-59",
+            "gpo-1904-unique-border-145",
+            "gpo-1904-unique-border-111",
+            "gpo-1904-unique-border-92",
+            "gpo-1904-unique-border-173",
+            "gpo-1904-unique-border-184",
+            "gpo-1904-unique-border-160",
+            "gpo-1904-unique-border-180",
+            "gpo-1904-unique-border-151",
+            "gpo-1904-unique-border-153",
+            "gpo-1904-unique-border-201",
+            "gpo-1904-unique-border-500",
+            "gpo-1904-flame-border-repeat",
+            "gpo-1904-flame-border-corner",
+            "gpo-1904-art-border-open",
+            "gpo-1904-art-border-tint",
+            "gpo-1904-old-english-25-triangles",
+            "gpo-1904-elzevir-105-repeat",
+            "gpo-1904-elzevir-105-corner",
+            "gpo-1904-round-rule-tight-quarter",
+            "gpo-1904-round-rule-curved-junction",
+            "gpo-1904-round-rule-4pt-quarter",
+            "gpo-1904-round-rule-2pt-quarter",
+            "gpo-1904-binding-meander-corner",
+            "gpo-1904-brass-circle-double-1",
+            "gpo-1904-brass-circle-double-2",
+            "gpo-1904-brass-circle-double-3",
+            "gpo-1904-brass-circle-double-4",
+            "gpo-1904-brass-circle-double-5",
+            "gpo-1904-brass-circle-single-1",
+            "gpo-1904-brass-circle-single-2",
+            "gpo-1904-brass-circle-single-3",
+            "gpo-1904-brass-circle-single-4",
+            "gpo-1904-brass-circle-single-5",
+            "gpo-1904-brass-circle-half-blunt-1",
+            "gpo-1904-brass-circle-half-blunt-2",
+            "gpo-1904-brass-circle-half-blunt-3",
+            "gpo-1904-brass-circle-half-blunt-4",
+            "gpo-1904-brass-circle-half-blunt-5",
+            "gpo-1904-brass-circle-parallel-1",
+            "gpo-1904-brass-circle-parallel-2",
+            "gpo-1904-brass-circle-parallel-3",
+            "gpo-1904-brass-circle-parallel-4",
+            "gpo-1904-brass-circle-parallel-5",
+            "gpo-1904-two-point-waved-rule",
+            "gpo-1904-half-blunt-rule-corner",
+            "gpo-1904-single-rule-corner"
+          ]
         }
       ]
     },
@@ -3091,6 +3602,14 @@
             "rabbit",
             "rhinoceros",
             "leopard"
+          ]
+        },
+        {
+          "tags_any": [
+            "wild"
+          ],
+          "types": [
+            "cuts"
           ]
         }
       ]
@@ -3212,6 +3731,14 @@
             "leaf",
             "breadfruit"
           ]
+        },
+        {
+          "icons": [
+            "gpo-1904-post-18",
+            "gpo-1904-post-39",
+            "gpo-1904-post-43",
+            "gpo-1904-round-rule-curved-junction"
+          ]
         }
       ]
     },
@@ -3310,7 +3837,11 @@
             "fan",
             "bath",
             "bathing",
-            "smoking"
+            "smoking",
+            "bowl",
+            "dish",
+            "drapery",
+            "cloth"
           ],
           "types": [
             "cuts"
@@ -3562,6 +4093,13 @@
           "types": [
             "cuts"
           ]
+        },
+        {
+          "icons": [
+            "gpo-1904-sign-versicle-upright",
+            "gpo-1904-sign-cross-outlined",
+            "gpo-1904-sign-prescription-wide"
+          ]
         }
       ]
     },
@@ -3736,6 +4274,149 @@
             "comb",
             "combs",
             "buckle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decorative-ornaments",
+      "label": "Decorative ornaments",
+      "selectors": [
+        {
+          "icons": [
+            "gpo-1904-art-strokes-1-17",
+            "gpo-1904-art-strokes-1-18",
+            "gpo-1904-art-strokes-2-1",
+            "gpo-1904-art-strokes-2-2",
+            "gpo-1904-art-strokes-2-3",
+            "gpo-1904-art-strokes-2-4",
+            "gpo-1904-art-strokes-2-5",
+            "gpo-1904-art-strokes-2-6",
+            "gpo-1904-art-strokes-2-7",
+            "gpo-1904-art-strokes-2-8",
+            "gpo-1904-art-strokes-2-9",
+            "gpo-1904-art-strokes-2-10",
+            "gpo-1904-art-strokes-2-11",
+            "gpo-1904-art-strokes-2-12",
+            "gpo-1904-art-strokes-2-13",
+            "gpo-1904-art-strokes-2-14",
+            "gpo-1904-art-strokes-2-15",
+            "gpo-1904-art-strokes-2-16",
+            "gpo-1904-art-strokes-2-17",
+            "gpo-1904-art-strokes-2-18",
+            "gpo-1904-art-strokes-2-19",
+            "gpo-1904-art-strokes-2-20",
+            "gpo-1904-art-strokes-2-21",
+            "gpo-1904-art-strokes-2-22",
+            "gpo-1904-marker-11",
+            "gpo-1904-marker-12",
+            "gpo-1904-marker-13",
+            "gpo-1904-marker-14",
+            "gpo-1904-marker-15",
+            "gpo-1904-marker-16",
+            "gpo-1904-marker-19",
+            "gpo-1904-marker-20",
+            "gpo-1904-embellisher-1",
+            "gpo-1904-embellisher-3",
+            "gpo-1904-embellisher-4",
+            "gpo-1904-embellisher-5",
+            "gpo-1904-embellisher-6",
+            "gpo-1904-embellisher-7",
+            "gpo-1904-embellisher-8",
+            "gpo-1904-embellisher-9",
+            "gpo-1904-embellisher-10",
+            "gpo-1904-embellisher-11",
+            "gpo-1904-embellisher-12",
+            "gpo-1904-embellisher-14",
+            "gpo-1904-embellisher-15",
+            "gpo-1904-embellisher-16",
+            "gpo-1904-embellisher-17",
+            "gpo-1904-embellisher-18",
+            "gpo-1904-embellisher-19",
+            "gpo-1904-art-ornament-2",
+            "gpo-1904-art-ornament-3",
+            "gpo-1904-art-ornament-4",
+            "gpo-1904-art-ornament-7",
+            "gpo-1904-art-ornament-8",
+            "gpo-1904-art-ornament-9",
+            "gpo-1904-art-ornament-12",
+            "gpo-1904-art-ornament-14",
+            "gpo-1904-art-ornament-16",
+            "gpo-1904-art-ornament-17",
+            "gpo-1904-wave-ornament-23",
+            "gpo-1904-capital-ornament-3-component-1",
+            "gpo-1904-capital-ornament-4",
+            "gpo-1904-capital-ornament-14",
+            "gpo-1904-capital-ornament-16-right",
+            "gpo-1904-capital-ornament-24-right",
+            "gpo-1904-protean-ornament-3",
+            "gpo-1904-protean-ornament-5",
+            "gpo-1904-protean-ornament-9",
+            "gpo-1904-protean-ornament-10",
+            "gpo-1904-protean-ornament-11",
+            "gpo-1904-protean-ornament-12",
+            "gpo-1904-protean-ornament-13",
+            "gpo-1904-protean-ornament-16",
+            "gpo-1904-protean-ornament-17",
+            "gpo-1904-job-ornament-1",
+            "gpo-1904-job-ornament-3",
+            "gpo-1904-job-ornament-4",
+            "gpo-1904-job-ornament-5",
+            "gpo-1904-job-ornament-6",
+            "gpo-1904-job-ornament-9",
+            "gpo-1904-word-ornament-2",
+            "gpo-1904-word-ornament-5",
+            "gpo-1904-word-ornament-8",
+            "gpo-1904-word-ornament-9",
+            "gpo-1904-word-ornament-10",
+            "gpo-1904-word-ornament-11",
+            "gpo-1904-word-ornament-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-animals",
+      "label": "Other animals",
+      "selectors": [
+        {
+          "icons": [
+            "bruce-1828-p241-cut-244",
+            "bruce-1828-p263-cut-537"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faces-and-masks",
+      "label": "Faces and masks",
+      "selectors": [
+        {
+          "tags_any": [
+            "mask"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landscapes-and-waterways",
+      "label": "Landscapes and waterways",
+      "selectors": [
+        {
+          "types": [
+            "cuts"
+          ],
+          "tags_any": [
+            "landscape",
+            "waterfall",
+            "river",
+            "lake",
+            "mountain",
+            "volcano",
+            "canal"
           ]
         }
       ]

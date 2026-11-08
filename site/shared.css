@@ -30,3 +30,6 @@
     .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
     @media(max-width:780px){.editor-preview{height:713px}}
     @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}

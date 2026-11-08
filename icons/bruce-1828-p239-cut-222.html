@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dagger with a trefoil guard: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Dagger with a trefoil guard — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="../site/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+    .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
+    @media(max-width:780px){.editor-preview{height:713px}}
+    @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="../editor/index.html">Editor ↗</a><a href="https://github.com/fontrevival/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="bruce-1828-p239-cut-222">
+  <p class="card-meta"><a href="../icons.html?collection=bruce-cuts-1828#collection">Bruce Cuts 1828</a><span>No. 222</span></p>
+  <h1>Dagger with a trefoil guard</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>cut</li><li>weapon</li><li>dagger</li></ul>
+  <div class="section-links"><a href="../icons.html?section=weapons-and-military#collection">Weapons and military</a></div>
+  <p>Specimen PDF page 239 (unnumbered leaf).</p>
+  <p class="source-citation"><a href="https://hdl.handle.net/2027/nyp.33433006349736">George Bruce, 1828 / No. 222 / unnumbered PDF page 239</a></p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Dagger with a trefoil guard">
+
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Dagger with a trefoil guard" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M1812 1286C1808 1284 1804 1280 1802 1278C1800 1276 1797 1275 1794 1276C1792 1277 1785 1278 1779 1279C1765 1281 1759 1279 1731 1262C1718 1255 1707 1250 1699 1249C1692 1248 1684 1245 1681 1242C1676 1237 1672 1237 1649 1237C1627 1237 1620 1236 1605 1230C1595 1227 1582 1221 1575 1217C1568 1213 1554 1206 1543 1200C1523 1191 1520 1189 1499 1178C1457 1157 1454 1157 1424 1166C1411 1170 1397 1175 1394 1178C1391 1180 1386 1188 1383 1195C1376 1210 1359 1233 1349 1240C1334 1252 1296 1265 1280 1265C1270 1265 1240 1258 1235 1254C1233 1252 1227 1248 1221 1245C1215 1242 1203 1233 1195 1224C1182 1210 1179 1206 1176 1194C1174 1184 1174 1173 1175 1163L1177 1147H1167C1160 1147 1153 1144 1143 1137C1135 1132 1128 1126 1128 1122C1125 1114 1116 1108 1104 1106C1093 1104 1081 1099 1043 1080C1030 1073 1016 1067 1013 1067C1009 1066 1002 1062 997 1059C992 1055 982 1050 975 1047C968 1045 959 1040 956 1036C952 1033 945 1030 941 1029C936 1028 920 1021 904 1013C888 1005 873 998 872 998C871 998 866 996 862 993C857 991 848 986 842 982C836 979 821 971 808 965C795 958 762 942 734 929C707 915 684 904 683 904C682 904 679 903 677 901C675 899 659 891 641 883C613 871 505 819 493 813C491 812 483 808 476 804C469 800 461 796 459 795C457 794 448 789 439 785C420 777 419 776 404 768C391 760 387 758 374 752C368 749 360 745 355 742C345 736 327 727 280 704C259 694 238 683 232 680C225 677 211 670 199 663C177 652 168 643 162 626C161 621 157 617 155 616C152 615 144 611 138 606C130 601 120 595 113 592C107 590 94 582 85 576C72 567 68 563 66 556C63 548 63 544 66 535C68 528 71 521 74 519C82 512 96 509 117 510C133 512 139 513 149 519C156 524 166 529 172 532C182 536 183 537 190 533C211 523 219 521 236 519C251 518 258 519 268 522C274 524 284 527 288 528C306 533 332 540 345 546C353 549 363 552 369 553C374 554 390 559 403 564C441 578 463 585 486 590C498 593 527 602 551 610C576 618 597 625 599 625C601 625 612 629 624 635C636 640 648 645 651 645C654 645 664 647 672 651C687 656 705 662 731 671C737 673 747 677 752 679C757 682 768 685 774 687C788 690 810 698 821 704C825 707 831 709 834 709C837 709 846 712 855 716C864 720 885 728 902 734C919 740 935 746 939 747C943 749 953 753 960 756C968 758 982 764 992 768C1002 772 1016 777 1024 779C1032 782 1044 786 1050 789C1057 793 1065 795 1068 795C1071 795 1080 798 1086 801C1093 805 1104 809 1112 810C1119 812 1133 817 1143 822C1153 826 1164 831 1168 832C1173 833 1177 834 1178 835C1178 836 1181 837 1184 837C1187 837 1192 841 1197 846C1205 856 1209 857 1216 851C1219 848 1227 846 1236 846C1249 845 1254 845 1262 850C1268 853 1273 856 1273 858C1273 862 1286 875 1290 875C1291 875 1301 869 1311 862C1335 846 1352 841 1375 843C1408 846 1421 850 1432 859C1438 864 1446 871 1450 874C1454 877 1462 888 1468 898C1474 907 1480 919 1483 924C1488 931 1489 936 1489 952C1489 962 1488 971 1487 971C1486 971 1485 973 1485 975C1485 980 1469 1008 1461 1015C1454 1021 1455 1025 1463 1029C1474 1035 1480 1042 1481 1052C1483 1064 1492 1073 1509 1078C1516 1080 1530 1085 1542 1088C1554 1092 1566 1096 1570 1098C1575 1100 1586 1104 1595 1108C1604 1112 1612 1116 1613 1117C1613 1118 1616 1119 1619 1119C1626 1119 1654 1133 1678 1149C1695 1160 1697 1161 1707 1160C1714 1159 1722 1160 1731 1163C1742 1166 1745 1168 1746 1173C1748 1185 1751 1187 1762 1189C1771 1190 1796 1200 1841 1223C1846 1225 1853 1232 1858 1238C1865 1250 1865 1250 1862 1264C1860 1276 1858 1280 1851 1284C1841 1291 1821 1292 1812 1286ZM1834 1260C1839 1257 1840 1250 1836 1250C1831 1250 1826 1255 1826 1260C1826 1263 1828 1263 1834 1260ZM1790 1239C1793 1231 1792 1228 1781 1222C1769 1215 1756 1214 1744 1219L1736 1222L1745 1228C1750 1231 1756 1233 1758 1233C1759 1233 1765 1235 1771 1238C1782 1244 1788 1244 1790 1239ZM1722 1205C1726 1201 1726 1196 1721 1196C1715 1196 1710 1200 1710 1205C1710 1209 1718 1209 1722 1205ZM1678 1193C1678 1188 1661 1168 1654 1163C1633 1150 1592 1133 1575 1130C1570 1129 1560 1125 1553 1121C1543 1115 1538 1113 1527 1113C1514 1113 1514 1114 1513 1120C1512 1128 1518 1133 1536 1137C1556 1143 1585 1153 1592 1157C1595 1159 1603 1162 1609 1164C1619 1167 1630 1171 1659 1187C1671 1193 1678 1195 1678 1193ZM1303 1179C1313 1170 1316 1161 1313 1156C1312 1154 1311 1149 1312 1145C1312 1141 1311 1133 1308 1126C1306 1121 1303 1106 1302 1095C1300 1079 1300 1073 1303 1068C1305 1064 1307 1057 1308 1053C1310 1046 1315 1039 1329 1026C1341 1015 1350 1008 1355 1007C1359 1006 1365 1004 1368 1002C1370 1000 1376 998 1380 997C1384 996 1392 991 1398 986C1409 974 1411 967 1405 952C1402 943 1387 926 1379 922C1376 920 1364 919 1352 919H1330L1326 928C1324 933 1320 942 1317 946C1314 951 1312 960 1312 967C1312 973 1311 981 1310 985C1307 991 1306 991 1295 990C1285 990 1283 989 1274 977C1269 970 1262 959 1259 952C1253 939 1253 939 1242 939C1234 939 1226 937 1219 933C1203 924 1199 921 1198 914C1197 908 1196 908 1173 906C1155 905 1146 903 1140 899C1136 897 1130 894 1126 894C1123 894 1118 893 1114 891C1111 889 1106 887 1103 887C1099 887 1090 883 1082 879C1065 871 1061 870 1023 856C1010 852 992 845 982 841C957 832 957 832 952 836C945 843 937 840 936 830C935 827 932 823 929 821C906 810 893 805 873 798C851 790 819 778 799 768C794 766 785 762 780 760C776 758 766 754 759 752C753 750 741 746 734 742C727 739 719 736 716 736C712 736 702 733 693 730C683 726 667 721 657 718C632 710 609 701 605 697C603 696 597 694 593 693C588 692 577 688 569 684C560 680 551 677 549 677C547 677 540 674 532 671C525 667 516 664 512 664C508 664 502 662 498 659C495 656 483 652 472 649C450 642 422 630 413 622C409 620 404 617 400 617C397 617 385 614 373 610C361 606 344 602 334 600C317 597 289 589 285 585C283 584 275 582 266 580C253 576 249 576 238 579C232 581 224 584 221 587C217 591 217 592 222 602C225 608 231 616 236 619C244 626 277 642 297 651C310 656 347 674 380 691C387 694 393 697 395 697C397 697 404 699 411 702C417 706 430 712 439 715C448 719 459 724 464 727C476 735 500 746 505 746C506 746 509 747 510 748C512 752 550 771 563 775C570 777 581 782 588 787C595 791 601 795 603 795C604 795 612 799 621 804C630 809 639 813 641 813C643 813 654 818 664 824C674 830 691 838 701 842C719 850 752 865 761 870C770 874 775 877 814 896C836 906 856 917 859 919C863 922 867 924 868 924C870 924 882 929 895 935C907 942 930 952 945 958C960 964 976 970 981 972C985 974 1002 982 1017 990C1032 997 1050 1005 1058 1008C1065 1011 1078 1017 1086 1022C1093 1026 1103 1031 1108 1032C1113 1033 1119 1035 1122 1037C1144 1052 1144 1052 1154 1050C1162 1048 1166 1049 1179 1054C1199 1062 1200 1064 1202 1074C1203 1079 1205 1083 1206 1084C1207 1084 1213 1082 1218 1079C1226 1073 1242 1067 1250 1067C1254 1067 1260 1082 1258 1087C1258 1089 1253 1095 1249 1100C1236 1114 1228 1128 1228 1138C1228 1160 1236 1175 1251 1183C1272 1194 1289 1192 1303 1179ZM1497 1110C1497 1108 1482 1097 1479 1097C1478 1097 1480 1101 1484 1106C1490 1114 1495 1116 1497 1110ZM1179 1085C1179 1082 1176 1080 1173 1081C1171 1083 1173 1087 1176 1087C1178 1087 1179 1086 1179 1085ZM1085 1053C1085 1051 1084 1050 1082 1049C1081 1048 1080 1049 1080 1051C1080 1053 1081 1055 1082 1055C1084 1055 1085 1054 1085 1053ZM1068 1042C1064 1037 1012 1012 1002 1009C999 1008 995 1007 994 1005C993 1004 989 1003 985 1003H978L988 1011C1007 1025 1050 1044 1065 1045C1069 1045 1070 1044 1068 1042ZM968 996C968 994 966 993 963 993C960 993 959 994 960 996C960 997 963 998 965 998C967 998 968 997 968 996ZM950 986C942 981 927 977 925 979C923 981 944 991 951 991C957 991 957 991 950 986ZM905 967C903 965 899 964 897 964C896 964 890 961 886 959C876 953 872 952 876 956C881 961 900 971 905 971C910 971 910 971 905 967ZM867 949C864 949 859 946 856 944C851 940 848 942 852 947C854 950 859 951 864 951C871 951 872 950 867 949ZM847 943C847 939 833 931 831 933C831 935 832 938 834 941C838 947 847 948 847 943ZM787 910C786 909 784 909 782 910C780 911 781 911 784 911C787 912 788 911 787 910ZM776 904C771 901 768 901 768 904C768 906 771 907 774 907C778 907 778 906 776 904ZM1435 900C1434 899 1432 899 1431 900C1431 901 1431 902 1433 902C1435 902 1436 901 1435 900ZM1415 885C1414 885 1412 884 1410 885C1408 886 1409 887 1412 887C1415 887 1416 886 1415 885ZM1400 880C1400 880 1397 879 1396 880C1394 881 1394 882 1397 882C1400 882 1401 881 1400 880ZM1164 861C1164 858 1134 841 1118 836C1109 832 1100 829 1098 827C1097 826 1093 825 1090 825C1086 825 1080 824 1077 822C1073 820 1067 818 1062 817C1054 815 1053 815 1054 820C1055 823 1058 825 1061 825C1063 825 1067 827 1069 829C1070 832 1075 833 1081 834C1092 834 1108 840 1115 846C1117 848 1125 852 1133 854C1141 856 1149 858 1150 860C1152 862 1164 863 1164 861ZM658 849C655 847 652 845 650 845C647 845 647 846 649 849C651 851 655 852 658 852C663 852 663 852 658 849ZM644 845C644 842 635 835 630 835C627 835 624 834 623 833C623 831 620 830 618 830C612 830 616 834 630 841C642 847 644 848 644 845ZM607 826C607 826 607 825 606 825C605 825 605 826 605 826C605 827 605 828 606 828C607 828 607 827 607 826ZM1029 804C1028 802 1025 800 1023 800C1020 800 1014 798 1009 796C1003 793 995 790 991 788C974 782 933 771 929 771C923 771 938 780 947 782C951 783 956 785 958 786C960 787 967 790 973 792C979 795 986 798 988 798C990 798 994 799 997 801C1002 805 1006 805 1026 807C1029 808 1029 807 1029 804ZM549 794C546 792 541 791 539 791C536 792 536 792 540 793C543 793 546 794 546 795C546 797 548 798 550 798C553 798 553 797 549 794ZM533 787C533 786 533 786 532 786C531 786 531 786 531 787C531 787 531 788 532 788C533 788 533 787 533 787ZM911 764C911 761 871 744 819 725C805 720 790 714 785 713C781 711 772 709 766 708C757 707 755 707 757 709C761 712 782 721 793 723C796 724 802 726 805 729C809 731 822 736 836 741C850 745 865 750 869 753C892 763 911 768 911 764ZM471 757C470 756 468 756 467 757C466 758 467 758 469 758C471 758 471 758 471 757ZM748 703C748 701 726 692 722 692C720 692 713 689 708 687C694 680 667 673 665 675C663 677 663 677 680 685C688 688 700 692 705 693C711 694 718 697 723 699C729 703 748 706 748 703ZM639 668C638 667 636 667 635 668C635 669 635 669 637 669C639 669 640 669 639 668ZM629 663C628 662 626 662 624 663C622 663 623 664 626 664C628 664 630 664 629 663ZM620 660C620 657 608 652 602 652C599 652 598 653 599 655C602 660 620 664 620 660ZM574 643C573 642 572 642 571 643C570 644 571 645 573 645C574 645 575 644 574 643ZM505 618C504 617 503 617 502 618C501 619 502 620 504 620C505 620 506 619 505 618ZM199 584C199 584 198 582 197 582C196 581 194 581 194 583C194 584 196 585 197 585C198 585 199 585 199 584Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Dagger with a trefoil guard"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-bruce-cuts-1828'">&#xE012;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/bruce-cuts-1828/downloads/bruce-cuts-1828-web.zip">Download web bundle (ZIP)</a><a download href="../collection/bruce-cuts-1828/svg/bruce-1828-p239-cut-222.svg">Monochrome SVG</a><a download href="../collection/bruce-cuts-1828/web/icons.svg">Monochrome sprite</a><a download href="../collection/bruce-cuts-1828/fonts/BruceCuts1828-Regular.otf">OTF</a> <a download href="../collection/bruce-cuts-1828/fonts/BruceCuts1828-Regular.ttf">TTF</a> <a download href="../collection/bruce-cuts-1828/web/BruceCuts1828-Regular.woff2">WOFF2</a><a href="../collection/bruce-cuts-1828/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/bruce-cuts-1828/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/bruce-cuts-1828/downloads/bruce-cuts-1828-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.</p>
+    <h3>Monochrome image</h3>
+    <p>This displays the monochrome artwork with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/bruce-cuts-1828/svg/bruce-1828-p239-cut-222.svg&quot;
+     alt=&quot;Dagger with a trefoil guard&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>SVG with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Dagger with a trefoil guard&quot;&gt;
+  &lt;use href=&quot;collection/bruce-cuts-1828/web/icons.svg#bruce-1828-p239-cut-222&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/bruce-cuts-1828/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-bruce-1828-p239-cut-222&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Dagger with a trefoil guard&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/bruce-cuts-1828/specimens/bruce-1828-p239-cut-222.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="../LICENSE">Artwork: MIT</a> · <a href="../FONT-LICENSES.txt">Fonts: MIT or SIL OFL 1.1</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

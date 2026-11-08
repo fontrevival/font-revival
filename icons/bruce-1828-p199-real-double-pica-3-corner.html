@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Radiant corner with curled inset: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Radiant corner with curled inset — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="../site/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+    .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
+    @media(max-width:780px){.editor-preview{height:713px}}
+    @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="../editor/index.html">Editor ↗</a><a href="https://github.com/fontrevival/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="bruce-1828-p199-real-double-pica-3-corner">
+  <p class="card-meta"><a href="../icons.html?collection=bruce-ornaments-1828#collection">Bruce Ornaments 1828</a><span>No. Real Double Pica 3 corner</span></p>
+  <h1>Radiant corner with curled inset</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>border</li><li>corner</li><li>radiant</li></ul>
+  <div class="section-links"><a href="../icons.html?section=ornamental-corners#collection">Ornamental corners</a><a href="../icons.html?section=borders-and-frames#collection">Borders and frames</a></div>
+  <p>Specimen PDF page 199 (unnumbered leaf).</p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Radiant corner with curled inset">
+
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Radiant corner with curled inset" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M979 1790C970 1783 968 1766 971 1713C974 1675 981 1636 985 1626C997 1605 1042 1488 1042 1478C1042 1471 1078 1395 1114 1322C1126 1298 1174 1202 1222 1109C1307 939 1338 873 1338 856C1338 845 1294 827 1282 833C1279 836 1272 852 1270 869C1266 886 1256 907 1246 916C1235 926 1227 938 1227 944C1227 950 1219 962 1210 971C1199 980 1188 998 1185 1011C1176 1043 1176 1041 1163 1073C1150 1108 1080 1246 1070 1258C1066 1263 1058 1286 1052 1309C1035 1373 1008 1426 970 1468C950 1490 931 1517 927 1530C923 1542 911 1564 900 1579C889 1594 864 1637 843 1676C804 1749 759 1792 731 1782C710 1774 722 1714 761 1634C778 1597 793 1562 793 1557C793 1538 905 1322 947 1261C971 1226 1000 1183 1010 1166C1020 1149 1043 1113 1062 1085C1127 989 1227 811 1227 792C1227 786 1216 782 1202 782C1185 782 1172 790 1162 805C1155 818 1129 855 1106 890C900 1197 802 1355 802 1383C802 1391 783 1418 759 1442C704 1503 543 1693 525 1720C502 1755 465 1779 434 1779C408 1779 406 1777 406 1753C406 1738 422 1699 442 1665C463 1632 479 1601 479 1597C479 1593 491 1577 506 1562C521 1547 542 1514 554 1489C581 1430 603 1398 657 1339C682 1313 701 1286 701 1279C701 1273 718 1251 738 1230C757 1210 791 1170 814 1142C836 1113 878 1059 909 1023C939 986 977 940 992 921C1007 902 1042 857 1071 822C1099 788 1125 752 1128 744C1136 722 1127 699 1112 699C1105 699 1046 758 982 830C916 903 852 974 839 986C826 999 805 1027 790 1047C777 1068 754 1096 740 1111C711 1142 664 1203 664 1211C664 1214 645 1236 622 1262C573 1315 526 1375 526 1385C526 1395 394 1521 385 1521C382 1521 378 1525 378 1530C378 1539 334 1586 326 1586C322 1586 299 1604 274 1627C249 1650 225 1669 220 1669C215 1669 212 1674 212 1681C212 1688 191 1703 166 1715C128 1732 118 1734 106 1724C86 1708 88 1694 112 1663C124 1649 142 1621 152 1601C163 1582 193 1537 221 1502C274 1433 550 1154 733 981C946 781 1070 656 1070 641C1070 614 1044 614 1013 642C996 657 958 691 927 718C897 746 865 774 858 782C850 791 817 821 784 851C723 905 502 1114 403 1210C372 1238 342 1262 334 1262C322 1262 254 1305 184 1357C171 1366 139 1376 112 1380C70 1384 64 1382 64 1370C64 1361 94 1324 130 1287C167 1250 207 1210 217 1195C228 1181 262 1154 291 1134C322 1115 383 1070 429 1034C475 998 532 952 557 933C582 914 619 883 640 865C660 846 696 819 719 806C742 792 776 767 794 751C813 735 839 713 854 701C869 690 899 666 921 649C943 631 965 616 969 616C973 616 985 604 996 589C1016 562 1015 524 995 524C987 524 924 569 862 621C799 673 750 710 724 725C709 734 670 766 639 796C548 885 531 900 500 915C483 924 464 941 455 953C447 966 415 989 383 1005C353 1021 321 1039 313 1046C306 1052 287 1061 272 1065C257 1069 240 1077 235 1082C230 1089 207 1101 184 1109C147 1123 139 1123 106 1111L69 1098L133 1034C169 999 231 949 272 922C312 894 347 869 350 865C353 860 375 848 399 838C442 818 539 763 647 695C676 677 702 662 706 662C708 662 735 644 765 622C793 600 831 575 849 567C866 560 906 530 936 502C988 454 990 449 976 434C961 421 958 421 927 437C910 446 895 458 895 461C895 466 891 469 887 469C880 469 757 541 683 589C623 627 512 703 507 710C494 724 399 782 387 782C380 782 358 792 341 803C310 822 296 829 214 861C163 880 122 878 110 856C94 827 107 803 150 782C171 770 196 755 205 747C225 730 274 703 358 662C391 647 422 628 430 622C436 614 469 601 502 590C536 579 597 552 637 529C679 506 714 487 717 487C731 487 932 379 952 360C994 321 984 280 942 311C919 327 892 340 724 418C683 436 629 468 602 488C575 507 549 524 542 524C536 524 516 539 498 555C466 587 462 588 379 593C332 596 286 602 276 607C258 617 191 609 182 595C177 585 234 533 251 533C257 533 274 523 289 511C326 483 429 432 447 432C454 432 468 428 478 423C503 410 558 395 577 395C587 395 604 388 614 381C623 374 645 367 660 367C676 367 700 359 713 349C726 338 743 330 753 330C762 330 786 323 806 313C827 303 864 290 888 283C932 270 969 246 969 229C969 223 957 219 941 219C917 219 913 216 913 194C913 177 923 158 941 141C957 126 969 111 969 108C969 100 824 104 736 114C706 118 676 117 667 113C658 109 645 105 637 103C630 102 618 94 610 86C598 74 598 70 609 60C616 52 646 39 674 31C718 18 773 14 982 13C1122 11 1238 8 1241 6C1246 0 1579 6 1589 13C1599 19 1590 149 1577 194C1572 211 1569 229 1569 234C1569 254 1616 257 1666 242C1730 222 1778 230 1790 262C1796 275 1799 306 1799 332C1799 362 1805 386 1814 396C1827 410 1827 414 1811 437C1797 460 1795 483 1796 650C1797 826 1798 837 1816 861C1834 883 1834 889 1823 902C1806 923 1799 956 1795 1058C1789 1178 1762 1241 1719 1233C1706 1231 1700 1212 1688 1147C1673 1068 1673 1063 1691 1004C1702 971 1710 932 1711 916C1712 893 1708 889 1688 886C1655 882 1652 895 1646 1007C1643 1057 1638 1107 1633 1120C1629 1132 1618 1171 1610 1205C1602 1239 1585 1283 1572 1302C1559 1322 1547 1348 1546 1362C1544 1382 1507 1459 1489 1482C1488 1484 1478 1483 1467 1479C1450 1474 1448 1468 1452 1421C1456 1392 1462 1334 1466 1290C1471 1241 1483 1190 1498 1152C1540 1052 1567 974 1573 934C1579 898 1578 895 1553 890C1521 884 1504 898 1504 929C1504 943 1500 958 1496 962C1492 968 1481 1011 1472 1059C1463 1107 1446 1179 1434 1219C1422 1259 1405 1321 1398 1357C1379 1447 1282 1675 1255 1692C1249 1695 1236 1691 1226 1682C1210 1667 1209 1658 1213 1604C1217 1571 1227 1517 1237 1484C1246 1451 1257 1407 1260 1387C1263 1367 1274 1335 1283 1316C1293 1298 1301 1278 1301 1273C1301 1268 1319 1226 1342 1178C1363 1130 1387 1075 1393 1055C1400 1034 1413 1001 1422 981C1431 961 1440 929 1441 912C1444 885 1440 878 1425 877C1412 875 1399 884 1381 910C1367 929 1356 954 1356 966C1356 977 1352 996 1345 1007C1340 1018 1332 1039 1328 1055C1321 1083 1263 1243 1239 1298C1232 1316 1224 1345 1222 1361C1220 1379 1195 1442 1168 1501C1140 1560 1108 1634 1097 1666C1086 1699 1063 1739 1042 1761C1006 1800 1000 1802 979 1790ZM1679 698C1720 689 1735 678 1735 654C1735 645 1715 642 1641 645C1588 647 1527 645 1504 640C1452 631 1398 601 1335 545C1284 500 1273 483 1226 381C1198 320 1197 309 1194 196L1191 76L1164 74C1134 71 1137 65 1116 181C1108 224 1108 255 1116 303C1123 338 1131 369 1136 373C1140 375 1144 386 1144 398C1144 410 1159 448 1176 484C1198 530 1225 565 1266 602C1377 705 1506 735 1679 698ZM1689 586C1720 575 1721 573 1727 515C1733 458 1730 381 1720 333C1718 321 1709 312 1700 312C1691 312 1672 305 1658 298C1634 286 1628 286 1592 302C1570 313 1549 325 1546 329C1538 342 1565 364 1603 376C1656 394 1679 420 1679 462C1679 541 1621 556 1557 497C1535 477 1505 458 1490 454C1474 450 1454 442 1444 435C1434 428 1417 422 1407 422C1397 422 1381 416 1372 410C1357 398 1357 395 1370 364C1378 346 1384 318 1384 303C1384 279 1378 272 1347 256C1297 230 1289 212 1307 166C1317 141 1330 124 1347 118C1391 99 1418 125 1438 206C1444 226 1454 251 1462 261C1473 276 1478 278 1492 269C1506 261 1510 244 1511 174C1514 91 1513 90 1490 81C1464 71 1384 79 1384 91C1384 102 1350 101 1342 90C1334 77 1268 79 1257 92C1252 98 1246 145 1244 194C1240 266 1242 294 1254 324C1279 386 1303 422 1356 480C1438 568 1498 597 1596 597C1630 597 1671 592 1689 586ZM1827 644C1827 633 1849 607 1859 607C1863 607 1864 616 1862 627C1859 649 1827 663 1827 644ZM500 360C468 348 455 347 432 355C400 367 356 356 361 337C367 322 466 271 549 242C584 229 621 211 630 203C643 191 673 185 745 182C805 177 850 179 863 184C881 193 883 197 874 216C869 228 860 238 855 238C847 238 697 307 644 336C631 343 613 349 606 349C598 349 587 355 581 362C567 380 550 379 500 360ZM1654 166C1648 162 1642 130 1641 90C1638 25 1639 21 1661 12C1675 5 1719 2 1774 5L1864 9V140L1838 115C1824 101 1810 90 1806 90C1802 90 1799 102 1799 117C1799 169 1794 173 1726 173C1693 173 1661 170 1654 166Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Radiant corner with curled inset"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-bruce-ornaments-1828'">&#xE065;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/bruce-ornaments-1828/downloads/bruce-ornaments-1828-web.zip">Download web bundle (ZIP)</a><a download href="../collection/bruce-ornaments-1828/svg/bruce-1828-p199-real-double-pica-3-corner.svg">Monochrome SVG</a><a download href="../collection/bruce-ornaments-1828/web/icons.svg">Monochrome sprite</a><a download href="../collection/bruce-ornaments-1828/fonts/BruceOrnaments1828-Regular.otf">OTF</a> <a download href="../collection/bruce-ornaments-1828/fonts/BruceOrnaments1828-Regular.ttf">TTF</a> <a download href="../collection/bruce-ornaments-1828/web/BruceOrnaments1828-Regular.woff2">WOFF2</a><a href="../collection/bruce-ornaments-1828/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/bruce-ornaments-1828/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/bruce-ornaments-1828/downloads/bruce-ornaments-1828-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.</p>
+    <h3>Monochrome image</h3>
+    <p>This displays the monochrome artwork with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/bruce-ornaments-1828/svg/bruce-1828-p199-real-double-pica-3-corner.svg&quot;
+     alt=&quot;Radiant corner with curled inset&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>SVG with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Radiant corner with curled inset&quot;&gt;
+  &lt;use href=&quot;collection/bruce-ornaments-1828/web/icons.svg#bruce-1828-p199-real-double-pica-3-corner&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/bruce-ornaments-1828/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-bruce-1828-p199-real-double-pica-3-corner&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Radiant corner with curled inset&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/bruce-ornaments-1828/specimens/bruce-1828-p199-real-double-pica-3-corner.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="../LICENSE">Artwork: MIT</a> · <a href="../FONT-LICENSES.txt">Fonts: MIT or SIL OFL 1.1</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

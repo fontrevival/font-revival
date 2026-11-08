@@ -543,6 +543,10 @@ def specimen(path, m):
     def supported(text):
         return (''.join(ch for ch in text if ord(ch) in codepoints).strip()
                 if "character_set" in m else text)
+    title = m["name"]
+    if ("character_set" in m and m.get("character_style") == "capitals-only"
+            and not any(ord(ch) in codepoints for ch in "abcdefghijklmnopqrstuvwxyz")):
+        title = title.upper()
     pdfname = m["id"]
     register_pdf_font(pdfname, ttf)
     c = canvas.Canvas(str(folder / "specimen.pdf"), pagesize=(842, 595), invariant=1, pageCompression=1)
@@ -552,12 +556,13 @@ def specimen(path, m):
     c.setFillColor(HexColor(ACCENT)); c.setFont("Helvetica", 10)
     c.drawString(42, 550, f'FONT REVIVAL     /     {m["year"]}     /     {m["version"]}')
     c.setFillColor(HexColor(INK))
-    fit_pdf(c, supported(m["name"]), pdfname, 82, 42, 431, 758)
+    fit_pdf(c, supported(title), pdfname, 82, 42, 431, 758)
     fit_pdf(c, m["sample_text"], pdfname, 43, 42, 339, 758)
     for line, y in [("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 253), ("abcdefghijklmnopqrstuvwxyz", 200),
                     ("0123456789  & ! ? @ $ % ( )", 147)]:
         if "character_set" in m and y == 147:
-            line = ''.join(chr(cp) for cp in codepoints if not chr(cp).isalnum() and not chr(cp).isspace())
+            line = "0123456789 " + ''.join(chr(cp) for cp in codepoints
+                                        if not chr(cp).isalnum() and not chr(cp).isspace())
         fit_pdf(c, supported(line), pdfname, 34, 42, y, 758)
     c.setStrokeColor(HexColor(ACCENT)); c.line(42, 96, 800, 96)
     c.setFont("Helvetica", 10)
@@ -579,7 +584,7 @@ def specimen(path, m):
     draw = ImageDraw.Draw(image)
     label = ImageFont.load_default(size=21)
     draw.text((70, 42), f'FONT REVIVAL   /   {m["year"]}   /   MIT or SIL OFL 1.1', font=label, fill=ACCENT)
-    for text, y, size in [(m["name"], 260, 155), (m["sample_text"], 422, 92),
+    for text, y, size in [(title, 260, 155), (m["sample_text"], 422, 92),
                            ("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 561, 64),
                            ("abcdefghijklmnopqrstuvwxyz 0123456789", 681, 64)]:
         text = supported(text)
@@ -616,11 +621,18 @@ def source_review(path, m):
         c.setFont("Helvetica", 14)
         c.drawString(36, 565, m["name"] + " / Source above, revival below")
         c.setFont("Helvetica", 8)
-        c.drawString(36, 549, "Compare forms, not scale. Crops retain scan damage; drawings repair it. Coordinates: source/tracing.json.")
+        c.drawString(36, 549, "Native specimen crops and revived outlines. Source selection and preparation: source/tracing.json.")
         for i, ch in enumerate(chars[start:start+24]):
             x, y = 36 + (i % 8)*97, 516 - (i // 8)*164
             c.setFont("Helvetica", 9)
-            c.drawString(x, y, ch + (" / redrawn" if ch in drawings else " / traced"))
+            # The label font uses WinAnsi; fractions and other Unicode forms
+            # outside that encoding need a readable codepoint label.
+            try:
+                ch.encode("cp1252")
+                label = ch
+            except UnicodeEncodeError:
+                label = f"U+{ord(ch):04X}"
+            c.drawString(x, y, label + (" / redrawn" if ch in drawings else " / traced"))
             entry = entries.get(ch)
             if entry:
                 file = path / entry["file"]
@@ -2201,7 +2213,7 @@ def comparison(args):
     c.setTitle(m["name"] + " | Revision comparison")
     c.setAuthor(COPYRIGHT_HOLDER)
     for index, (label, file) in enumerate((("Before", args.before), ("After", after))):
-        name = f"comparison-{index}"
+        name = f"comparison-{index}-{digest(Path(file))[:12]}"
         register_pdf_font(name, file)
         top = 550 - index * 280
         c.setFont("Helvetica", 11); c.drawString(40, top, m["name"] + " / " + label)
@@ -2219,7 +2231,7 @@ def package(slug=None, *, check_catalog=True):
         m = metadata(path)
         archive = out / f'{m["id"]}-{m["version"]}.zip'
         with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as z:
-            for file in sorted(p for p in path.rglob("*") if p.is_file()):
+            for file in family_files(path):
                 info = zipfile.ZipInfo(f'{path.name}/{file.relative_to(path).as_posix()}', (2026, 1, 1, 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.external_attr = 0o100644 << 16
