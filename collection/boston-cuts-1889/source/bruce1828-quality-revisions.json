@@ -1,0 +1,65 @@
+{
+  "revisions": [
+    {
+      "id": "boston-1889-p275-2562",
+      "revision": "1.005",
+      "previous_witness": {
+        "source_index": 2,
+        "pdf_page": 283,
+        "printed_page": 275,
+        "specimen_number": "2562"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 251,
+        "archive_leaf": 250,
+        "specimen_number": "392",
+        "source_index": 8
+      },
+      "source_file": "reference/bruce1828-hathi-p251.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1213,
+        320,
+        1554,
+        580
+      ],
+      "output": "reference/crops/bruce-1828-p251-cut-392-upgrade.png",
+      "crop_sha256": "3fbca22d5a5d89172c6e5f991d396b7fce283e05e4e31bb57aa80bc491c7749c",
+      "reason": "Sharper continuous shell rims and observed hatching in the centre of the right shell. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p251-cut-392-upgrade.png",
+        "box": [
+          0,
+          0,
+          341,
+          260
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF251 No392 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving.",
+        "frame_threshold": 165,
+        "multitone": {
+          "thresholds": {
+            "primary": 105,
+            "secondary": 135,
+            "tertiary": 165
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        }
+      }
+    }
+  ]
+}

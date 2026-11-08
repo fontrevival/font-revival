@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "notes": "Visually transcribed setting. Measurements use1000-pixel-wide preview of the retained deskewed image. Crop includes complete glyphs and punctuation; no heading letters are donors.",
+  "rows": [
+    {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        157,
+        336,
+        633,
+        365
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "baseline": 356,
+      "cap_height": 16.2,
+      "fill_holes": 1,
+      "component_min_area": 5,
+      "single_component": false,
+      "threshold": 135,
+      "cuts": [
+        157,
+        179.157,
+        195.885,
+        213.7,
+        232.35,
+        248.829,
+        264.553,
+        284.5433,
+        305.704,
+        316.075,
+        329.541,
+        348.277,
+        365.005,
+        390.515,
+        413.098,
+        429.909,
+        447.139,
+        467.3804,
+        485.112,
+        498.661,
+        514.47,
+        534.9615,
+        554.7006,
+        578.6216,
+        598.528,
+        617.514,
+        631.65
+      ]
+    },
+    {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        631.5,
+        336,
+        833,
+        365
+      ],
+      "text": ",’;:.-!$1234567890",
+      "baseline": 356,
+      "cap_height": 16.2,
+      "fill_holes": 1,
+      "component_min_area": 5,
+      "single_component": false,
+      "threshold": 135,
+      "cuts": [
+        631.5,
+        639.2,
+        646.75,
+        654.3,
+        661.17,
+        667.445,
+        676.06,
+        683.255,
+        698.225,
+        710.94,
+        724.155,
+        736.785,
+        751,
+        763.8,
+        777.8,
+        790.315,
+        803.785,
+        816.91,
+        830.0
+      ]
+    }
+  ]
+}

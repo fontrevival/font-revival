@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "gpo-job-1897:type-sample:de-vinne-18pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 109,
+      "pdf_page": 109,
+      "printed_page": 50,
+      "point_size": 18,
+      "design": "De Vinne",
+      "source_label": "18 Point, DeVinne. Caps, lower case, and figures.",
+      "case": null,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 2",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz2",
+      "missing_alphanumeric_in_this_sample": "013456789",
+      "observed_punctuation": "",
+      "status": "source-local-transcription-reviewed;selected-eighteen-point-cut",
+      "scope_warning": "This source-local sample is not a complete font inventory by itself. The selected matching sources together support the complete eighteen-point alphabet; printed labels and other sizes are not glyph evidence.",
+      "notes": "Left stock marks read Keystone—10 for6–18 andKeystone—6 for24. These marks are retained as printed evidence; no unverified designer or matrix attribution."
+    },
+    {
+      "id": "gpo-census-1900:type-sample:de-vinne-18pt-case29",
+      "book": "gpo-census-1900",
+      "archive_leaf": 37,
+      "pdf_page": 37,
+      "printed_page": 18,
+      "point_size": 18,
+      "design": "De Vinne",
+      "source_label": "18-point De Vinne",
+      "case": 29,
+      "sample_transcription": "ABCDEFGHIJ / abcdefghji / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJabcdefghij0123456789",
+      "missing_alphanumeric_in_this_sample": "KLMNOPQRSTUVWXYZklmnopqrstuvwxyz",
+      "observed_punctuation": "",
+      "status": "source-local-transcription-reviewed;selected-eighteen-point-cut",
+      "scope_warning": "This source-local sample is not a complete font inventory by itself. The selected matching sources together support the complete eighteen-point alphabet; printed labels and other sizes are not glyph evidence.",
+      "notes": "Native eighteen-point row transposes j and i. Its tall zero differs from the short zero in the matching Job1904 eighteen-point sample; preserve this source distinction."
+    },
+    {
+      "id": "atf-handy-1897:type-sample:de-vinne-18pt-poster-p338",
+      "book": "atf-handy-1897",
+      "archive_leaf": 357,
+      "printed_page": 338,
+      "point_size": 18,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 18 Point",
+      "sample_transcription": "GRAND CLEARING SALE / Several lots of Madras Shirt Waists / are to be closed out at about half of / their regular price. These goods are / 12345 67890",
+      "transcribed_rows": [
+        "GRAND CLEARING SALE",
+        "Several lots of Madras Shirt Waists",
+        "are to be closed out at about half of",
+        "their regular price. These goods are",
+        "12345 67890"
+      ],
+      "observed_alphanumeric": "ACDEGILMNRSTWabcdefghiloprstuv0123456789",
+      "missing_alphanumeric_in_this_sample": "BFHJKOPQUVXYZjkmnqwxyz",
+      "observed_punctuation": ".",
+      "observed_companions": "",
+      "status": "common-capitals-compared;tall-zero-selected",
+      "native_source": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/atf-handy-1897-leaf-357.jp2",
+      "native_sha256": "46263f24bb656432f058aa2f02ae763e2e665fadf7c9d0cf86cef510a48e25f9",
+      "native_context_box": [
+        90,
+        1605,
+        1390,
+        2025
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "context": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/regular-handy-review/leaf-357-18pt.png",
+      "scope_warning": "Only sample text, figures and punctuation transcribed. Labels, prices and advertised counts excluded. Repeated labels do not prove identical cuts. Double-bar printed hyphens transcribed semantically as hyphens; no equals-sign alias.",
+      "source_cross_reference": "Pages188/189 wrongly refer to330/331 for posters and fractions. Native regular posters are338/339; fraction chart is40. No fractions actually appear in these poster settings.",
+      "repeated_text_group": "de-vinne-18-42ea5f8987dc",
+      "evidence": [
+        "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/regular-handy-review/checkpoint.json"
+      ],
+      "decision": "Ten common capitals support a single isotropic scale. The intact tall zero is selected as zero.tall; other figure-position variants remain distinct source evidence."
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-18pt-poster-p120",
+      "book": "gpo-jobroom-1904",
+      "design": "De Vinne",
+      "point_size": 18,
+      "archive_leaf": 136,
+      "printed_page": 120,
+      "sample_kind": "poster",
+      "source_label": "18 Point, Poster De Vinne",
+      "sample_transcription": "A WARNING TO WHITEY AND OTHERS / I said to my lunch: Oh, lunch, late lunch, will / you lie on my stomach to-night; will you nestle / there, or rear and tear in a huge nightmarish / fright? Will you thrill me with aching pain; / will your fits and jerks bust my stomach / works so I never can lunch again? Will / you throb like a stone-bruised toe; will you / double me up like a poisoned pup, and fill me / with grief and woe? And my lunch gave a / dyspeptic hump, and answered me fair and / true: I’m on to my job, and I’ll jump and throb / till the air with your cussing is blue 12345678",
+      "transcribed_rows": [
+        "A WARNING TO WHITEY AND OTHERS",
+        "I said to my lunch: Oh, lunch, late lunch, will",
+        "you lie on my stomach to-night; will you nestle",
+        "there, or rear and tear in a huge nightmarish",
+        "fright? Will you thrill me with aching pain;",
+        "will your fits and jerks bust my stomach",
+        "works so I never can lunch again? Will",
+        "you throb like a stone-bruised toe; will you",
+        "double me up like a poisoned pup, and fill me",
+        "with grief and woe? And my lunch gave a",
+        "dyspeptic hump, and answered me fair and",
+        "true: I’m on to my job, and I’ll jump and throb",
+        "till the air with your cussing is blue 12345678"
+      ],
+      "observed_alphanumeric": "ADEGHINORSTWYabcdefghijklmnoprstuvwy12345678",
+      "missing_alphanumeric_in_this_sample": "BCFJKLMPQUVXZqxz09",
+      "observed_punctuation": ",-:;?’",
+      "observed_companions": "",
+      "native_source": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/gpo-jobroom-1904-leaf-136.jp2",
+      "native_context_box": [
+        380,
+        2070,
+        2420,
+        3560
+      ],
+      "native_rotation_clockwise": 0,
+      "native_sha256": "493ce92bcf89a7616e9cb5c3855e29da4d1953cda6100b873e1c7e9123a89da7",
+      "context": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/gpo-poster-figure-review/leaf-136-18pt-poster.png",
+      "status": "native-folio-label-and-text-reviewed;cut-comparison-pending",
+      "scope_warning": "Only the named setting is inventoried. Labels, weights, case numbers and page furniture are excluded. Figure fonts are separate companions until their relation to the alphabet cut is compared; a matching point label is not cut identity.",
+      "notes": "Printed double-bar hyphens are transcribed as hyphen-minus; no equals alias. The 18pt passage retains right apostrophes in I’m and I’ll.",
+      "evidence": [
+        "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/gpo-poster-figure-review/checkpoint.json"
+      ]
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-18pt-figure-font-p124",
+      "book": "gpo-jobroom-1904",
+      "design": "De Vinne",
+      "point_size": 18,
+      "archive_leaf": 140,
+      "printed_page": 124,
+      "sample_kind": "figure-font",
+      "source_label": "18 Point, De Vinne figure fonts",
+      "sample_transcription": "123 1234567890 890 / 1 2 3 4 5 6 7 8 9 0",
+      "transcribed_rows": [
+        "123 1234567890 890",
+        "1 2 3 4 5 6 7 8 9 0"
+      ],
+      "observed_alphanumeric": "0123456789",
+      "missing_alphanumeric_in_this_sample": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+      "observed_punctuation": "",
+      "observed_companions": "",
+      "native_source": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/gpo-jobroom-1904-leaf-140.jp2",
+      "native_context_box": [
+        1660,
+        3290,
+        2630,
+        3625
+      ],
+      "native_rotation_clockwise": 0,
+      "native_sha256": "6e4f32d1198c7359dd7e4b074d80d0032554d52c605ae7d2cac0aa8f977b2c43",
+      "context": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/gpo-poster-figure-review/leaf-140-18pt-figure-font.png",
+      "status": "native-folio-label-and-text-reviewed;cut-comparison-pending",
+      "scope_warning": "Only the named setting is inventoried. Labels, weights, case numbers and page furniture are excluded. Figure fonts are separate companions until their relation to the alphabet cut is compared; a matching point label is not cut identity.",
+      "figure_form_observation": "All visible figures stand at a common height and baseline. Eighteen-point has repeated close and spaced settings; thirty-six-point stops at 9.",
+      "evidence": [
+        "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/gpo-poster-figure-review/checkpoint.json"
+      ]
+    },
+    {
+      "id": "atf-handy-1897:type-sample:de-vinne-18pt-fractions-p40",
+      "book": "atf-handy-1897",
+      "archive_leaf": 59,
+      "printed_page": 40,
+      "point_size": 18,
+      "design": "De Vinne",
+      "source_label": "18 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-new-york-1897:type-sample:de-vinne-18pt-fractions-p436",
+      "book": "atf-new-york-1897",
+      "archive_leaf": 506,
+      "printed_page": 436,
+      "point_size": 18,
+      "design": "De Vinne",
+      "source_label": "18 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-18pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 18,
+      "design": "De Vinne",
+      "source_label": "18 Point, De Vinne Fractions",
+      "sample_transcription": "⅔ ⅛ ⅜ ⅝ ⅞",
+      "observed_companions": "⅔⅛⅜⅝⅞",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-desk-nypl-1898:type-sample:de-vinne-18pt-poster-p523",
+      "book": "atf-desk-nypl-1898",
+      "archive_leaf": 540,
+      "printed_page": 523,
+      "point_size": 18,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 18 Point",
+      "sample_transcription": "DECLARE OUR INDEPENDENCE / When, in the course of time, it will / be found necessary for one people to / dissolve the bands which have con- / nected them with another, and 234",
+      "transcribed_rows": [
+        "DECLARE OUR INDEPENDENCE",
+        "When, in the course of time, it will",
+        "be found necessary for one people to",
+        "dissolve the bands which have con-",
+        "nected them with another, and 234"
+      ],
+      "observed_alphanumeric": "ACDEILNOPRUWabcdefhilmnoprstuvwy234",
+      "missing_alphanumeric_in_this_sample": "BFGHJKMQSTVXYZgjkqxz0156789",
+      "observed_punctuation": ",-",
+      "observed_companions": "",
+      "status": "overview-reviewed;native-context-review-pending;cut-identity-unassigned",
+      "native_source": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/atf-desk-1898-leaf-540.jp2",
+      "native_sha256": "4344c5cf10061616ab6a3c543628b8061a4597f84bfebd1f7fdfb7372b84e72b",
+      "native_context_box": [
+        652,
+        1512,
+        5695,
+        3055
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "context": "/home/harold/font-revival/font-revival/workspace/revival-ledger/type-inventory/de-vinne/regular-poster-review/atf-desk-nypl-1898-540-18pt-context.png",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts."
+    }
+  ],
+  "job_room_rows": [
+    {
+      "id": "regular-18-job-00",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2190,
+        1540,
+        2290
+      ],
+      "text": "VALUEOFMICA760",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-01",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2330,
+        1540,
+        2425
+      ],
+      "text": "Micaisoneofthemost",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-02",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2432,
+        1540,
+        2535
+      ],
+      "text": "refractoryofthevarious",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-03",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2535,
+        1540,
+        2640
+      ],
+      "text": "groupsofminerals.Its",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-04",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2637,
+        1540,
+        2745
+      ],
+      "text": "heat-resistingqualities",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155,
+      "note": "Both bars belong to the historical double-bar hyphen; semantic hyphen in heat-resisting, fusing-point, pre-cisely. Not an equals operator."
+    },
+    {
+      "id": "regular-18-job-05",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2740,
+        1540,
+        2843
+      ],
+      "text": "inrelationtofusibility",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-06",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2843,
+        1540,
+        2945
+      ],
+      "text": "aregreat.Theexact",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-07",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        2945,
+        1540,
+        3048
+      ],
+      "text": "fusing-pointisnotpre-",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155,
+      "note": "Both bars belong to the historical double-bar hyphen; semantic hyphen in heat-resisting, fusing-point, pre-cisely. Not an equals operator."
+    },
+    {
+      "id": "regular-18-job-08",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        3048,
+        1540,
+        3150
+      ],
+      "text": "ciselyknown,owingto",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-18-job-09",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        390,
+        3150,
+        1540,
+        3250
+      ],
+      "text": "theunsatisfactorystate",
+      "point_size": 18,
+      "design": "De Vinne",
+      "threshold": 155
+    }
+  ],
+  "notes": "Exact native transcriptions. The census lowercase row is abcdefghji. Hyphens in job-room row text are drawn as two horizontal bars. Source labels and surrounding type are not additional glyph evidence."
+}

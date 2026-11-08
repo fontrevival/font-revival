@@ -1,0 +1,23 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+feature ss01 {
+ featureNames { name "Tall zero"; };
+ sub zero by zero.tall;
+} ss01;
+feature lnum {
+ sub zero by zero.tall;
+ sub one by one.lining;
+ sub two by two.lining;
+ sub five by five.lining;
+ sub seven by seven.lining;
+ sub nine by nine.lining;
+} lnum;
+feature onum {
+ sub three by three.oldstyle;
+ sub four by four.oldstyle;
+} onum;
+feature ss02 {
+ featureNames { name "Descending three and four"; };
+ sub three by three.oldstyle;
+ sub four by four.oldstyle;
+} ss02;

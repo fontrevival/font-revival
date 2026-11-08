@@ -4,7 +4,7 @@ Astronomical, mathematical, medical, commercial, crochet and map symbols from th
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**460 icon(s) · Version 1.000 · MIT**
+**460 icon(s) · Version 1.002 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonSymbols1889-Regular.otf) · [TTF](fonts/BostonSymbols1889-Regular.ttf) · [WOFF2](web/BostonSymbols1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -16,7 +16,7 @@ Astronomical, mathematical, medical, commercial, crochet and map symbols from th
 the extracted `collection` folder beside your HTML file. Keep its subfolders
 together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
-and the license. No JavaScript or font installation is needed for SVG use.
+and license notices. No JavaScript or font installation is needed for SVG use.
 
 ### Three-tone image — works from disk too
 
@@ -92,6 +92,8 @@ The example above uses U+E000 and is recommended from
 64 px. The 16–192 pt proofs show how detail holds up at different sizes.
 Keep the included LICENSE with redistributed assets.
 
+The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
+
 ## Evidence and editing
 
 **Foundry:** Boston Type Foundry
@@ -104,6 +106,7 @@ Keep the included LICENSE with redistributed assets.
 
 - [Specimen book from the Boston type foundry (1889), printed p. 255; PDF page 263, Internet Archive leaf 263](https://archive.org/details/specimenbookfrom00unse/page/255/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
 - [Specimen book from the Boston type foundry (1889), printed p. 257; PDF page 265, Internet Archive leaf 265](https://archive.org/details/specimenbookfrom00unse/page/257/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Job room type faces (Government Printing Office, 1904), signs and explanatory legends, printed page 18; PDF page 34, Internet Archive leaf 34](https://archive.org/details/123459_1904/page/n34/mode/1up) — 1904 United States historical publication, public domain by age. Scan contributed and sponsored by the U.S. Government Printing Office. The archive metadata note about a title-page copyright is retained; no copyright claim is inferred to survive for this 1904 publication. No modern digital artwork was traced. [Rights basis](https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and

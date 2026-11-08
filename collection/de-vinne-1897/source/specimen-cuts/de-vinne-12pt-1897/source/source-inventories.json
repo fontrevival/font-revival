@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "gpo-job-1897:type-sample:de-vinne-12pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 109,
+      "pdf_page": 109,
+      "printed_page": 50,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12 Point, DeVinne. Caps, lower case, and figures.",
+      "case": null,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Left stock marks read Keystone—10 for6–18 andKeystone—6 for24. These marks are retained as printed evidence; no unverified designer or matrix attribution.",
+      "canonical_family": "de-vinne-12pt-1897"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:de-vinne-12pt-case27",
+      "book": "gpo-census-1900",
+      "archive_leaf": 37,
+      "pdf_page": 37,
+      "printed_page": 18,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12-point De Vinne",
+      "case": 27,
+      "sample_transcription": "ABCDEFGHIJKLMNOP / abddefghijklmnop / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPabdefghijklmnop0123456789",
+      "missing_alphanumeric_in_this_sample": "QRSTUVWXYZcqrstuvwxyz",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Native scan review confirms lowercase d is printed twice, replacing expected c in the third slot. Census M has a shallow central join. Retain actual shapes, not assumed alphabet order.",
+      "canonical_family": "de-vinne-12pt-1897"
+    },
+    {
+      "id": "gpo-document-1904:type-sample:de-vinne-12pt",
+      "book": "gpo-document-1904",
+      "archive_leaf": 65,
+      "pdf_page": 65,
+      "printed_page": 30,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12-point De Vinne. (American.)",
+      "case": null,
+      "sample_transcription": "IN A LIBRARY AT ROUEN, FRANCE, / Is a missal 3 feet high, on which an old illuminator / spent 30 years of labor.",
+      "observed_alphanumeric": "ABCEFILNORTUYabcdefghilmnoprstuwy03",
+      "missing_alphanumeric_in_this_sample": "DGHJKMPQSVWXZjkqvxz12456789",
+      "observed_punctuation": ",.",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Case 261. Three native text rows reviewed, including the separate r stem/terminal in years. Matching lining figures 3/0 and letterforms provide comparison evidence; no outline was selected from this page. MacFarland and Roycroft rows are separate designs.",
+      "canonical_family": "de-vinne-12pt-1897",
+      "role": "comparison-only;no-selected-outline"
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-12pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 84,
+      "pdf_page": 84,
+      "printed_page": 68,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12 Point De Vinne",
+      "sample_transcription": "HEATING OF BUILDINGS 462 / There is ample evidence to prove / that the rational heating of build- / ings was an art well understood / several thousand years ago. In the / palmy days of Pompeii’s early exist- / ence, before its burial under volcanic / ashes, the old Roman baths in that / town were heated by steam, and in a / better and far more scientific man- / ner than is followed at the present / time. The walls of the buildings / were double, and the steam, at / atmospheric pressure, no doubt, was",
+      "observed_alphanumeric": "ABDEFGHILNOPRSTUabcdefghilmnoprstuvwxy246",
+      "missing_alphanumeric_in_this_sample": "CJKMQVWXYZjkqz0135789",
+      "observed_punctuation": ",.-’",
+      "notes": "All three line-end hyphens have two bars. The third impression in man- has separated bars and supplies the encoded hyphen. Pompeii’s contains an observed right single quotation mark. Figures 2/4 are distinct named alternatives.",
+      "scope_warning": "This paragraph is not a complete alphabet by itself. The complete revival combines reviewed matching twelve-point witnesses; no other point size supplies a glyph.",
+      "status": "reviewed-complete-family-witness",
+      "canonical_family": "de-vinne-12pt-1897"
+    },
+    {
+      "id": "atf-new-york-1897:type-sample:de-vinne-12pt-fractions-p436",
+      "book": "atf-new-york-1897",
+      "archive_leaf": 506,
+      "printed_page": 436,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-12pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12 Point, De Vinne Fractions",
+      "sample_transcription": "⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-american-line-1906:type-sample:de-vinne-12pt-fractions-p698",
+      "book": "atf-american-line-1906",
+      "archive_leaf": 646,
+      "printed_page": 698,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12 Point, De Vinne Fractions",
+      "sample_transcription": "½ ¼ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ % ¢",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-desk-1898:type-sample:de-vinne-12pt-fractions-p771",
+      "book": "atf-desk-1898",
+      "archive_leaf": 755,
+      "printed_page": 771,
+      "point_size": 12,
+      "design": "De Vinne",
+      "source_label": "12 Point; De Vinne Fractions",
+      "sample_transcription": "⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-12pt-poster-p598",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 600,
+      "printed_page": 598,
+      "point_size": 12,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 12 Point",
+      "sample_transcription": "EXECUTOR’S SALE / The undersigned, Executor of the es- / tate of Smith Brown, deceased, will / offer for sale at public vendue to the / highest bidder for cash, at the east",
+      "transcribed_rows": [
+        "EXECUTOR’S SALE",
+        "The undersigned, Executor of the es-",
+        "tate of Smith Brown, deceased, will",
+        "offer for sale at public vendue to the",
+        "highest bidder for cash, at the east"
+      ],
+      "observed_alphanumeric": "ABCELORSTUXabcdefghilmnoprstuvwx",
+      "missing_alphanumeric_in_this_sample": "DFGHIJKMNPQVWYZjkqyz0123456789",
+      "observed_punctuation": ",-’",
+      "observed_companions": "",
+      "status": "common-capital-scale-and-both-S-forms-reviewed",
+      "native_sha256": "22201f58253c6024f7b8ddb3ef25c14271077b59f76732076f10daa99e11ae91",
+      "native_context_box": [
+        412,
+        741,
+        2556,
+        1429
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "native_source": "reference/atf-handy-byu-1897-leaf-600.jp2"
+    }
+  ],
+  "witness_rows": [
+    {
+      "id": "regular-12-census-U",
+      "file": "reference/gpo-census-1900-leaf-37.jp2",
+      "box": [
+        40,
+        260,
+        1100,
+        380
+      ],
+      "text": "ABCDEFGHIJKLMNOP",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-census-l",
+      "file": "reference/gpo-census-1900-leaf-37.jp2",
+      "box": [
+        1170,
+        260,
+        1990,
+        380
+      ],
+      "text": "abddefghijklmnop",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-census-n",
+      "file": "reference/gpo-census-1900-leaf-37.jp2",
+      "box": [
+        2050,
+        260,
+        2630,
+        380
+      ],
+      "text": "1234567890",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-00",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2186,
+        2700,
+        2251
+      ],
+      "text": "HEATINGOFBUILDINGS462",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-01",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2288,
+        2700,
+        2362
+      ],
+      "text": "Thereisampleevidencetoprove",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-02",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2358,
+        2700,
+        2431
+      ],
+      "text": "thattherationalheatingofbuild-",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-03",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2426,
+        2700,
+        2499
+      ],
+      "text": "ingswasanartwellunderstood",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-04",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2493,
+        2700,
+        2566
+      ],
+      "text": "severalthousandyearsago.Inthe",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-05",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2564,
+        2700,
+        2637
+      ],
+      "text": "palmydaysofPompeii’searlyexist-",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-06",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2633,
+        2700,
+        2699
+      ],
+      "text": "ence,beforeitsburialundervolcanic",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-07",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2699,
+        2700,
+        2766
+      ],
+      "text": "ashes,theoldRomanbathsinthat",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-08",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2767,
+        2700,
+        2840
+      ],
+      "text": "townwereheatedbysteam,andina",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-09",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2837,
+        2700,
+        2900
+      ],
+      "text": "betterandfarmorescientificman-",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-10",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2902,
+        2700,
+        2974
+      ],
+      "text": "nerthanisfollowedatthepresent",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-11",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        2973,
+        2700,
+        3042
+      ],
+      "text": "time.Thewallsofthebuildings",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-12",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        3041,
+        2700,
+        3107
+      ],
+      "text": "weredouble,andthesteam,at",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-job-13",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        1605,
+        3108,
+        2700,
+        3180
+      ],
+      "text": "atmosphericpressure,nodoubt,was",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-document-00",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        2192,
+        2225,
+        2267
+      ],
+      "text": "INALIBRARYATROUEN,FRANCE,",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-document-01",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        2269,
+        2225,
+        2343
+      ],
+      "text": "Isamissal3feethigh,onwhichanoldilluminator",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-12-document-02",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        2343,
+        2225,
+        2417
+      ],
+      "text": "spent30yearsoflabor.",
+      "point_size": 12,
+      "design": "De Vinne",
+      "threshold": 155
+    }
+  ],
+  "notes": "Exact native transcriptions. Slash separators mark rows, not observed characters. Census lowercase reads abddefghijklmnop: d appears twice and c is absent. Adjacent frames, rules and other point sizes are separate material. Document rows are comparison-only."
+}

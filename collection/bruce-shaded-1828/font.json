@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "bruce-shaded-1828",
+  "name": "Bruce Shaded 1828",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BruceShaded1828-Regular",
+  "year": 1828,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "George Bruce, New York",
+  "description": "Outlined titling capitals with a cast shadow and matching figures, from George Bruce’s 1828 specimen.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "GEORGE BRUCE TYPE",
+  "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ£$1234567890,;:. from Two Line Brevier Shaded capitals and matching Two Line Nonpareil Shaded figures/currency/punctuation on unnumbered PDF page 127 of the 1828 specimen.",
+  "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals. Blank spaces and digital spacing are new. A measured rigid rotation corrects page tilt; source dimensions and proportions are preserved.",
+  "sources": [
+    {
+      "title": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Two Line Brevier Shaded and Two Line Nonpareil Shaded; unnumbered leaf, PDF page 127",
+      "url": "https://hdl.handle.net/2027/nyp.33433006349736",
+      "file": "reference/bruce1828-hathi-p127.png",
+      "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
+      "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json."
+  },
+  "character_style": "capitals-only",
+  "character_set": " $,.0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ",
+  "character_set_notes": "Complete historical capitals-only alphabet, all ten figures and the currency/punctuation printed with it. Lowercase aliases capitals. Unsupported modern symbols are omitted."
+}

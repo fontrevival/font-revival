@@ -4,7 +4,7 @@ Decorative spiral, leafy and geometric initials and their printing components fr
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**312 icon(s) · Version 1.000 · MIT**
+**312 icon(s) · Version 1.001 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonInitials1889-Regular.otf) · [TTF](fonts/BostonInitials1889-Regular.ttf) · [WOFF2](web/BostonInitials1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -16,7 +16,7 @@ Decorative spiral, leafy and geometric initials and their printing components fr
 the extracted `collection` folder beside your HTML file. Keep its subfolders
 together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
-and the license. No JavaScript or font installation is needed for SVG use.
+and license notices. No JavaScript or font installation is needed for SVG use.
 
 ### Three-tone image — works from disk too
 
@@ -91,6 +91,8 @@ text characters; IDs and codepoints are permanent within this collection.
 The example above uses U+E000 and is recommended from
 64 px. The 16–192 pt proofs show how detail holds up at different sizes.
 Keep the included LICENSE with redistributed assets.
+
+The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
 
 ## Evidence and editing
 

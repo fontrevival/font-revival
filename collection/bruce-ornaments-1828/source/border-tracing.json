@@ -1,0 +1,3599 @@
+{
+  "schema_version": 1,
+  "font_metrics": {
+    "units_per_em": 2048,
+    "ascent": 1900,
+    "descent": -148,
+    "line_gap": 0,
+    "cap_height": 1800,
+    "x_height": 1800,
+    "win_ascent": 1900,
+    "win_descent": 148
+  },
+  "glyphs": {
+    "": {
+      "file": "reference/crops/bruce-1828-p177-eleven-line-pica-1-repeat.png",
+      "box": [
+        0,
+        0,
+        856,
+        512
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Alternating flower disks in a winding band. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p177-eleven-line-pica-1-corner.png",
+      "box": [
+        0,
+        0,
+        523,
+        513
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative diagonal acanthus corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p181-seven-line-pica-1-repeat.png",
+      "box": [
+        0,
+        0,
+        358,
+        322
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative leaf cross and flowers. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p181-seven-line-pica-2-repeat.png",
+      "box": [
+        0,
+        0,
+        358,
+        152
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined diagonal leaf repeat. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p181-seven-line-pica-2-corner.png",
+      "box": [
+        0,
+        0,
+        328,
+        321
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined trefoil leaf corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p183-six-line-pica-2-motif.png",
+      "box": [
+        0,
+        0,
+        305,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant floral square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected 110 to retain fine interiors without breaking the enclosing strokes. Exclude the separate narrow remnants of the neighbouring motif at the left crop edge.",
+      "erase": [
+        [
+          0,
+          0,
+          3,
+          297
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p185-five-line-pica-1-repeat.png",
+      "box": [
+        0,
+        0,
+        104,
+        229
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined rectangular wave. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p185-five-line-pica-1-corner.png",
+      "box": [
+        0,
+        0,
+        232,
+        234
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Nested polygon corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p185-five-line-pica-2-repeat.png",
+      "box": [
+        0,
+        0,
+        236,
+        234
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative acanthus and radiant fan. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p185-five-line-pica-2-corner.png",
+      "box": [
+        0,
+        0,
+        238,
+        234
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative diagonal fan corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p185-five-line-pica-3-repeat.png",
+      "box": [
+        0,
+        0,
+        215,
+        229
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Acanthus fan on hatched ground. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected 110 to retain fine interiors without breaking the enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p185-five-line-pica-4-corner.png",
+      "box": [
+        0,
+        0,
+        241,
+        234
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant rosette in shaded square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-1-repeat.png",
+      "box": [
+        0,
+        0,
+        233,
+        176
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Pointed arch with flower and spire. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-1-corner.png",
+      "box": [
+        0,
+        0,
+        188,
+        177
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Quarter rosette and spire corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-2-repeat.png",
+      "box": [
+        0,
+        0,
+        195,
+        192
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative upright acanthus with leaf stems. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-2-corner.png",
+      "box": [
+        0,
+        0,
+        193,
+        190
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative flower and leaf corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-3-corner.png",
+      "box": [
+        0,
+        0,
+        208,
+        190
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Plain Greek key corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-4-repeat.png",
+      "box": [
+        0,
+        0,
+        354,
+        200
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Acanthus and flower garland. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p187-four-line-pica-4-corner.png",
+      "box": [
+        0,
+        0,
+        190,
+        200
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Ornate circular flower with curled corners. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected 110 to retain fine interiors without breaking the enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p189-meridian-1-repeat.png",
+      "box": [
+        0,
+        0,
+        147,
+        181
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Paired leafy stems and buds. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p189-meridian-2-repeat.png",
+      "box": [
+        0,
+        0,
+        47,
+        160
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Angular outlined lattice. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p189-meridian-2-corner.png",
+      "box": [
+        0,
+        0,
+        147,
+        168
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Angular outlined lattice corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p189-meridian-3-motif.png",
+      "box": [
+        0,
+        0,
+        175,
+        180
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Ornate flower disk with corner florets. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected 110 to retain fine interiors without breaking the enclosing strokes. Exclude the separate narrow remnants of the neighbouring motif at the left crop edge.",
+      "erase": [
+        [
+          0,
+          0,
+          2,
+          179
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p189-meridian-4-motif.png",
+      "box": [
+        0,
+        0,
+        168,
+        176
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four crescent petals in a square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p189-meridian-6-motif.png",
+      "box": [
+        0,
+        0,
+        163,
+        178
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Ornate flower disk. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Threshold 85 preserves the separated outer circular rules in this impression."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p191-double-paragon-1-repeat.png",
+      "box": [
+        0,
+        0,
+        289,
+        168
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Leafy scroll and circle repeat. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p191-double-paragon-2-repeat.png",
+      "box": [
+        0,
+        0,
+        176,
+        160
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Angular straps with stars and trefoils. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p191-double-paragon-2-corner.png",
+      "box": [
+        0,
+        0,
+        137,
+        162
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Angular strap corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p191-double-paragon-4-motif.png",
+      "box": [
+        0,
+        0,
+        159,
+        162
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four curled petals in a square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected 110 to retain fine interiors without breaking the enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p191-double-paragon-6-repeat.png",
+      "box": [
+        0,
+        0,
+        300,
+        166
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Black stars and leafy scrolls. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p193-double-great-primer-4-repeat.png",
+      "box": [
+        0,
+        0,
+        127,
+        131
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative pointed fan and dotted arch. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p193-double-great-primer-4-corner.png",
+      "box": [
+        0,
+        0,
+        133,
+        131
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative diagonal leaf heart corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p193-double-great-primer-5-motif.png",
+      "box": [
+        0,
+        0,
+        137,
+        140
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-petal flower in dotted circle and square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p193-double-great-primer-6-repeat.png",
+      "box": [
+        0,
+        0,
+        143,
+        128
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative leaf heart and paired buds. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p193-double-great-primer-7-motif.png",
+      "box": [
+        0,
+        0,
+        141,
+        147
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Spiky flower rosette. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes.",
+      "erase": [
+        [
+          136,
+          0,
+          140,
+          146
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-1-repeat.png",
+      "box": [
+        0,
+        0,
+        21,
+        125
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined rounded rectangular wave. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-1-corner.png",
+      "box": [
+        0,
+        0,
+        124,
+        127
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Concentric square and rounded wave corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-2-repeat.png",
+      "box": [
+        0,
+        0,
+        159,
+        122
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative upright flower and curled tendrils. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-2-corner.png",
+      "box": [
+        0,
+        0,
+        137,
+        124
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative diagonal flower and curled tendrils corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-3-repeat.png",
+      "box": [
+        0,
+        0,
+        104,
+        127
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Upright acanthus flower. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-5-motif.png",
+      "box": [
+        0,
+        0,
+        127,
+        125
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-leaf rosette in dotted circle and square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-6-motif.png",
+      "box": [
+        0,
+        0,
+        130,
+        137
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Ornate flower roundel with corner florets. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes.",
+      "erase": [
+        [
+          0,
+          0,
+          2,
+          136
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-7-repeat.png",
+      "box": [
+        0,
+        0,
+        99,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant fan above an oval base. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p195-double-columbian-7-corner.png",
+      "box": [
+        0,
+        0,
+        133,
+        138
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Diagonal radiant fan corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; omit disconnected remnants of its neighbouring repeat.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-1-repeat.png",
+      "box": [
+        0,
+        0,
+        118,
+        111
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Crossed angular ribbon. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-1-corner.png",
+      "box": [
+        0,
+        0,
+        106,
+        112
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-petal flower in ruled circle and square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-2-repeat.png",
+      "box": [
+        0,
+        0,
+        179,
+        123
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Twisted black and white ribbon. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-2-corner.png",
+      "box": [
+        0,
+        0,
+        115,
+        124
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Pierced clipped-square terminal. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; omit disconnected remnants of its neighbouring repeat.",
+      "keep_components": 2
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-3-repeat.png",
+      "box": [
+        0,
+        0,
+        140,
+        108
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative acanthus and straight rays. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-3-corner.png",
+      "box": [
+        0,
+        0,
+        102,
+        108
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative diagonal acanthus with curved rules. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-4-motif.png",
+      "box": [
+        0,
+        0,
+        112,
+        115
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Scalloped flower square with small corner leaves. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes.",
+      "erase": [
+        [
+          109,
+          0,
+          111,
+          114
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-5-repeat.png",
+      "box": [
+        0,
+        0,
+        171,
+        112
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Flower and scroll garland. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-7-repeat.png",
+      "box": [
+        0,
+        0,
+        248,
+        109
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 85,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Paired acanthus leaves and diamond connector. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p197-double-english-8-motif.png",
+      "box": [
+        0,
+        0,
+        109,
+        109
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined eight-petal flower in ruled circle and square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-1-repeat.png",
+      "box": [
+        0,
+        0,
+        350,
+        198
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Flower disks and four curled scroll connectors. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-3-repeat.png",
+      "box": [
+        0,
+        0,
+        207,
+        190
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Two-height radiant fan with open arched base. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-3-corner.png",
+      "box": [
+        0,
+        0,
+        198,
+        207
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant corner with curled inset. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-4-repeat.png",
+      "box": [
+        0,
+        0,
+        106,
+        187
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant fan with inset semicircle. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-5-motif.png",
+      "box": [
+        0,
+        0,
+        195,
+        201
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Complex flower disk. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-6-motif.png",
+      "box": [
+        0,
+        0,
+        77,
+        184
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Eight-petal flower in vertical oval. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; omit disconnected remnants of its neighbouring repeat.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p199-real-double-pica-7-motif.png",
+      "box": [
+        0,
+        0,
+        190,
+        198
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Lozenge flower with curled loops. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-1-corner.png",
+      "box": [
+        0,
+        0,
+        166,
+        172
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Curled flower in a circle and square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-2-repeat.png",
+      "box": [
+        0,
+        0,
+        113,
+        187
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Leaf diamond with dotted arches. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-3-motif.png",
+      "box": [
+        0,
+        0,
+        178,
+        184
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Flower disk with four outer dots. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes.",
+      "erase": [
+        [
+          174,
+          0,
+          177,
+          183
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-4-repeat.png",
+      "box": [
+        0,
+        0,
+        158,
+        184
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-way curled floral cross. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-5-repeat.png",
+      "box": [
+        0,
+        0,
+        432,
+        175
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Long leaf medallion in rounded rectangle. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-6-repeat.png",
+      "box": [
+        0,
+        0,
+        137,
+        172
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant fan and oval beads. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-6-corner.png",
+      "box": [
+        0,
+        0,
+        172,
+        172
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Radiant fan and curled corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-7-repeat.png",
+      "box": [
+        0,
+        0,
+        190,
+        181
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded zigzag ribbon. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p201-double-small-pica-7-corner.png",
+      "box": [
+        0,
+        0,
+        166,
+        184
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded zigzag ribbon corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-1-repeat.png",
+      "box": [
+        0,
+        0,
+        262,
+        155
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Flower disks in a hatched winding band. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-2-repeat.png",
+      "box": [
+        0,
+        0,
+        114,
+        163
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Crossed straps with double dots. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-3-repeat.png",
+      "box": [
+        0,
+        0,
+        306,
+        149
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Interlaced ellipses with inset stars. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-3-corner.png",
+      "box": [
+        0,
+        0,
+        155,
+        149
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Interlaced ellipse corner with small leaf. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-4-motif.png",
+      "box": [
+        0,
+        0,
+        160,
+        172
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Daisy with alternating solid and open petals. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-7-repeat.png",
+      "box": [
+        0,
+        0,
+        198,
+        155
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative leaf fan under dotted arches. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-8-repeat.png",
+      "box": [
+        0,
+        0,
+        166,
+        155
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded diamond links and roundels. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p203-paragon-9-motif.png",
+      "box": [
+        0,
+        0,
+        131,
+        152
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Hatched floral square with central roundel. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p205-great-primer-2-repeat.png",
+      "box": [
+        0,
+        0,
+        72,
+        167
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined upright hexagon and four-point star. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p205-great-primer-3-repeat.png",
+      "box": [
+        0,
+        0,
+        160,
+        161
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Mirrored small leaf and bud repeat. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p205-great-primer-4-repeat.png",
+      "box": [
+        0,
+        0,
+        135,
+        161
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Branching four-way cross. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p205-great-primer-6-repeat.png",
+      "box": [
+        0,
+        0,
+        195,
+        169
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Upright acanthus with curled base. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p205-great-primer-7-motif.png",
+      "box": [
+        0,
+        0,
+        143,
+        148
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four rounded petals with hatching. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; exclude disconnected neighbouring fragments. Exclude the left neighbouring tile fragment; preserve the separate central dot.",
+      "keep_components": 2,
+      "erase": [
+        [
+          0,
+          0,
+          8,
+          147
+        ]
+      ]
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p205-great-primer-9-motif.png",
+      "box": [
+        0,
+        0,
+        128,
+        158
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Nested rounded diamonds. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-1-repeat.png",
+      "box": [
+        0,
+        0,
+        236,
+        152
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Arrow, heart and dot under dotted arches. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-2-repeat.png",
+      "box": [
+        0,
+        0,
+        233,
+        143
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Leafy interlaced ellipse with central dot. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-3-motif.png",
+      "box": [
+        0,
+        0,
+        125,
+        134
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-arrow cross. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the complete connected sort; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-5-repeat.png",
+      "box": [
+        0,
+        0,
+        119,
+        158
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Heart and dot under dotted arch. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-6-repeat.png",
+      "box": [
+        0,
+        0,
+        108,
+        146
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Small floral cross with paired top leaves. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-7-repeat.png",
+      "box": [
+        0,
+        0,
+        245,
+        111
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded rectangular chain with central disk. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-7-corner.png",
+      "box": [
+        0,
+        0,
+        114,
+        114
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Concentric square terminal with central disk. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-8-repeat.png",
+      "box": [
+        0,
+        0,
+        108,
+        143
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Floral cross with curled oval connectors. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-9-repeat.png",
+      "box": [
+        0,
+        0,
+        143,
+        140
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Leafy diamonds with side dots. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p207-columbian-10-repeat.png",
+      "box": [
+        0,
+        0,
+        102,
+        134
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Mirrored vertical leaf fans on ruled base. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p209-english-7-repeat.png",
+      "box": [
+        0,
+        0,
+        166,
+        108
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Highlighted twisted ribbon. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p209-english-8-motif.png",
+      "box": [
+        0,
+        0,
+        111,
+        117
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Floral rosette in a diamond. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p209-english-11-repeat.png",
+      "box": [
+        0,
+        0,
+        166,
+        111
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-loop flowers and arrow diamonds. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p209-english-13-motif.png",
+      "box": [
+        0,
+        0,
+        104,
+        114
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Scalloped white flower in a black diamond. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-2-corner.png",
+      "box": [
+        0,
+        0,
+        93,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Angled corner with branching sprig. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the counted complete sort components; exclude disconnected neighbouring fragments.",
+      "keep_components": 2
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-3-repeat.png",
+      "box": [
+        0,
+        0,
+        166,
+        105
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Ribbon wound around a black rod. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-3-corner.png",
+      "box": [
+        0,
+        0,
+        99,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed White target rings in a black square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-5-motif.png",
+      "box": [
+        0,
+        0,
+        95,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four petals in overlapping rounded squares. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-6-repeat.png",
+      "box": [
+        0,
+        0,
+        122,
+        105
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Hatched swag with upright trefoils. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-7-repeat.png",
+      "box": [
+        0,
+        0,
+        96,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-loop cross on a straight rule. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-8-motif.png",
+      "box": [
+        0,
+        0,
+        102,
+        105
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Negative flower square with curled leaves. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-9-repeat.png",
+      "box": [
+        0,
+        0,
+        116,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Rolling black wave. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-9-corner.png",
+      "box": [
+        0,
+        0,
+        108,
+        96
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Branching wave corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the counted complete sort components; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p211-pica-14-motif.png",
+      "box": [
+        0,
+        0,
+        97,
+        111
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Faceted dark octagon with small white centre. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-1-motif.png",
+      "box": [
+        0,
+        0,
+        96,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Fine radiant star. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the counted complete sort components; exclude disconnected neighbouring fragments. The separate left end of Small Pica No. 2 preserves all star tips without the joining diagonal rules used in No. 1.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-3-repeat.png",
+      "box": [
+        0,
+        0,
+        61,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Loop and diamond chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-4-repeat.png",
+      "box": [
+        0,
+        0,
+        201,
+        99
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded oval chain with heart links. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-4-corner.png",
+      "box": [
+        0,
+        0,
+        108,
+        111
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Curled shaded-chain corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-5-motif.png",
+      "box": [
+        0,
+        0,
+        84,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Flared four-arm cross. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-6-repeat.png",
+      "box": [
+        0,
+        0,
+        125,
+        96
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined hexagon chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-7-repeat.png",
+      "box": [
+        0,
+        0,
+        131,
+        105
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined diamond and disk chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-8-motif.png",
+      "box": [
+        0,
+        0,
+        87,
+        105
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four white petals in a black diamond. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-10-repeat.png",
+      "box": [
+        0,
+        0,
+        84,
+        108
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Crossed triangles and square grid. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-12-motif.png",
+      "box": [
+        0,
+        0,
+        84,
+        105
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four pointed black petals. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the counted complete sort components; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p213-small-pica-13-repeat.png",
+      "box": [
+        0,
+        0,
+        84,
+        116
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded diamond chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-2-repeat.png",
+      "box": [
+        0,
+        0,
+        125,
+        70
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Upright buds with curled scallops on a rule. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-2-corner.png",
+      "box": [
+        0,
+        0,
+        81,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-loop flower with small corner leaves. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-3-repeat.png",
+      "box": [
+        0,
+        0,
+        102,
+        70
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Outlined oval and round bead chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-5-motif.png",
+      "box": [
+        0,
+        0,
+        77,
+        90
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Flower pierced in a black disk. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-6-motif.png",
+      "box": [
+        0,
+        0,
+        61,
+        70
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Many-ray star. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the counted complete sort components; exclude disconnected neighbouring fragments.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-8-repeat.png",
+      "box": [
+        0,
+        0,
+        108,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Shaded angular diamond chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-8-corner.png",
+      "box": [
+        0,
+        0,
+        89,
+        99
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Black ring in an outlined square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-9-repeat.png",
+      "box": [
+        0,
+        0,
+        154,
+        102
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four loops around an open square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-11-repeat.png",
+      "box": [
+        0,
+        0,
+        79,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Concave diamond chain with inset points. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-14-repeat.png",
+      "box": [
+        0,
+        0,
+        76,
+        96
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed White diagonal lattice on a black strip. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p215-long-primer-15-repeat.png",
+      "box": [
+        0,
+        0,
+        61,
+        76
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Open circles crossed by a straight rule. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-bourgeois-2-repeat.png",
+      "box": [
+        0,
+        0,
+        58,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Double-crescent star chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-bourgeois-3-repeat.png",
+      "box": [
+        0,
+        0,
+        97,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Trefoil leaves above a ruled base. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-bourgeois-7-motif.png",
+      "box": [
+        0,
+        0,
+        67,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-petal cross with central dot inside an outlined diamond. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-1-repeat.png",
+      "box": [
+        0,
+        0,
+        70,
+        90
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Folded ribbon zigzag. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Reduced corner smoothing retains the observed straight edges of this geometric sort.",
+      "alphamax": 0.5
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-1-corner.png",
+      "box": [
+        0,
+        0,
+        58,
+        87
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Folded ribbon corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-2-repeat.png",
+      "box": [
+        0,
+        0,
+        84,
+        87
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Loops and cross-chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-3-repeat.png",
+      "box": [
+        0,
+        0,
+        154,
+        67
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Alternating black and white rule. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Reduced corner smoothing retains the observed straight edges of this geometric sort.",
+      "alphamax": 0.5
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-10-motif.png",
+      "box": [
+        0,
+        0,
+        65,
+        90
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Eight separate rays with corner dots. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-12-repeat.png",
+      "box": [
+        0,
+        0,
+        52,
+        79
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Linked ovals with solid upper halves. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-13-repeat.png",
+      "box": [
+        0,
+        0,
+        56,
+        84
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Concave diamonds with solid upper halves. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p217-brevier-14-rhomboid.png",
+      "box": [
+        0,
+        0,
+        128,
+        108
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Solid slanted parallelogram. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the single complete connected sort; exclude disconnected neighbours. Reduced corner smoothing retains the observed straight edges of this geometric sort.",
+      "keep_components": 1,
+      "alphamax": 0.5
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-minion-1-motif.png",
+      "box": [
+        0,
+        0,
+        57,
+        84
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-petal cross with open centre in a square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-minion-2-motif.png",
+      "box": [
+        0,
+        0,
+        58,
+        87
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Concave pierced diamond. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the single complete connected sort; exclude disconnected neighbours.",
+      "keep_components": 2
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-minion-4-repeat.png",
+      "box": [
+        0,
+        0,
+        132,
+        90
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Alternating disks and half-shaded diamonds. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-minion-7-repeat.png",
+      "box": [
+        0,
+        0,
+        34,
+        79
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Black stepped zigzag. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-minion-10-repeat.png",
+      "box": [
+        0,
+        0,
+        56,
+        93
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Diagonal white strokes in a black strip. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Reduced corner smoothing retains the observed straight edges of this geometric sort.",
+      "alphamax": 0.5
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-nonpareil-4-repeat.png",
+      "box": [
+        0,
+        0,
+        59,
+        84
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 6,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Crossed stems on a diagonal chain. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p233-nonpareil-13-repeat.png",
+      "box": [
+        0,
+        0,
+        29,
+        84
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Double trefoil cross. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the single complete connected sort; exclude disconnected neighbours.",
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p235-agate-3-repeat.png",
+      "box": [
+        0,
+        0,
+        92,
+        124
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Interlaced waves with shaded lower lobes. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Fourfold working interpolation keeps the fit tolerance small relative to the native strokes; it adds no source detail. Threshold 110 preserves the small observed counters.",
+      "alphamax": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p235-agate-3-corner.png",
+      "box": [
+        0,
+        0,
+        96,
+        132
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Diagonally divided square terminal. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Fourfold working interpolation keeps the fit tolerance small relative to the native strokes; it adds no source detail. Threshold 110 preserves the small observed counters.",
+      "alphamax": 0.5
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p235-pearl-1-repeat.png",
+      "box": [
+        0,
+        0,
+        156,
+        144
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Open-centred stars with forked horizontal rays. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Fourfold working interpolation keeps the fit tolerance small relative to the native strokes; it adds no source detail. Threshold 110 preserves the small observed counters. Exclude disconnected neighbouring ray tips at the crop edge.",
+      "alphamax": 1,
+      "keep_components": 1
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p235-pearl-4-repeat.png",
+      "box": [
+        0,
+        0,
+        60,
+        124
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Crossbars on a straight rule. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Reduced corner smoothing retains the observed straight edges of this geometric sort. Fourfold working interpolation keeps the fit tolerance small relative to the native strokes; it adds no source detail. Threshold 110 preserves the small observed counters.",
+      "alphamax": 0.5
+    },
+    "": {
+      "file": "reference/crops/bruce-1828-p235-pearl-7-motif.png",
+      "box": [
+        0,
+        0,
+        92,
+        140
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed Four-loop flower. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. Retain the single complete connected sort; exclude disconnected neighbours. Complete isolated impression from the left end of Pearl No. 1; the same flower is repeated in No. 7. Fourfold working interpolation keeps the fit tolerance small relative to the native strokes; it adds no source detail. Threshold 110 preserves the small observed counters.",
+      "keep_components": 1,
+      "alphamax": 1
+    }
+  }
+}

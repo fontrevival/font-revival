@@ -1,0 +1,942 @@
+{
+  "schema_version": 1,
+  "notes": "Individually reviewed twelve-point capitals, figures, period and modern space. Bounds preserve observed curved overshoots and the Q/R tails; no global size normalisation.",
+  "rules": [
+    {
+      "characters": " ",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        0,
+        0
+      ],
+      "y_max": [
+        0,
+        0
+      ],
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        300,
+        300
+      ]
+    },
+    {
+      "characters": ".",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -13,
+        -6
+      ],
+      "y_max": [
+        69,
+        76
+      ],
+      "ink_width": [
+        88,
+        95
+      ],
+      "ink_height": [
+        79,
+        86
+      ],
+      "advance_width": [
+        162,
+        162
+      ]
+    },
+    {
+      "characters": "0",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -36,
+        -29
+      ],
+      "y_max": [
+        690,
+        697
+      ],
+      "ink_width": [
+        508,
+        515
+      ],
+      "ink_height": [
+        722,
+        729
+      ],
+      "advance_width": [
+        581,
+        581
+      ]
+    },
+    {
+      "characters": "1",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        671,
+        678
+      ],
+      "ink_width": [
+        337,
+        344
+      ],
+      "ink_height": [
+        670,
+        677
+      ],
+      "advance_width": [
+        410,
+        410
+      ]
+    },
+    {
+      "characters": "2",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -28,
+        -21
+      ],
+      "y_max": [
+        701,
+        708
+      ],
+      "ink_width": [
+        476,
+        483
+      ],
+      "ink_height": [
+        725,
+        732
+      ],
+      "advance_width": [
+        549,
+        549
+      ]
+    },
+    {
+      "characters": "3",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -31,
+        -24
+      ],
+      "y_max": [
+        702,
+        709
+      ],
+      "ink_width": [
+        446,
+        453
+      ],
+      "ink_height": [
+        729,
+        736
+      ],
+      "advance_width": [
+        520,
+        520
+      ]
+    },
+    {
+      "characters": "4",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -6,
+        1
+      ],
+      "y_max": [
+        690,
+        697
+      ],
+      "ink_width": [
+        492,
+        499
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        565,
+        565
+      ]
+    },
+    {
+      "characters": "5",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -38,
+        -31
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        445,
+        452
+      ],
+      "ink_height": [
+        728,
+        735
+      ],
+      "advance_width": [
+        519,
+        519
+      ]
+    },
+    {
+      "characters": "6",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -28,
+        -21
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        468,
+        475
+      ],
+      "ink_height": [
+        723,
+        730
+      ],
+      "advance_width": [
+        541,
+        541
+      ]
+    },
+    {
+      "characters": "7",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -17,
+        -10
+      ],
+      "y_max": [
+        694,
+        701
+      ],
+      "ink_width": [
+        421,
+        428
+      ],
+      "ink_height": [
+        707,
+        714
+      ],
+      "advance_width": [
+        495,
+        495
+      ]
+    },
+    {
+      "characters": "8",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -31,
+        -24
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        478,
+        485
+      ],
+      "ink_height": [
+        724,
+        731
+      ],
+      "advance_width": [
+        551,
+        551
+      ]
+    },
+    {
+      "characters": "9",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -32,
+        -25
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        477,
+        484
+      ],
+      "ink_height": [
+        726,
+        733
+      ],
+      "advance_width": [
+        550,
+        550
+      ]
+    },
+    {
+      "characters": "A",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -9,
+        -2
+      ],
+      "y_max": [
+        685,
+        692
+      ],
+      "ink_width": [
+        713,
+        720
+      ],
+      "ink_height": [
+        691,
+        698
+      ],
+      "advance_width": [
+        787,
+        787
+      ]
+    },
+    {
+      "characters": "B",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -6,
+        1
+      ],
+      "y_max": [
+        691,
+        698
+      ],
+      "ink_width": [
+        630,
+        637
+      ],
+      "ink_height": [
+        694,
+        701
+      ],
+      "advance_width": [
+        704,
+        704
+      ]
+    },
+    {
+      "characters": "C",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -8,
+        -1
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        538,
+        545
+      ],
+      "ink_height": [
+        701,
+        708
+      ],
+      "advance_width": [
+        612,
+        612
+      ]
+    },
+    {
+      "characters": "D",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        692,
+        699
+      ],
+      "ink_width": [
+        689,
+        696
+      ],
+      "ink_height": [
+        689,
+        696
+      ],
+      "advance_width": [
+        762,
+        762
+      ]
+    },
+    {
+      "characters": "E",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        2,
+        9
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        613,
+        620
+      ],
+      "ink_height": [
+        687,
+        694
+      ],
+      "advance_width": [
+        687,
+        687
+      ]
+    },
+    {
+      "characters": "F",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        553,
+        560
+      ],
+      "ink_height": [
+        696,
+        703
+      ],
+      "advance_width": [
+        626,
+        626
+      ]
+    },
+    {
+      "characters": "G",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -9,
+        -2
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        674,
+        681
+      ],
+      "ink_height": [
+        699,
+        706
+      ],
+      "advance_width": [
+        748,
+        748
+      ]
+    },
+    {
+      "characters": "H",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -5,
+        2
+      ],
+      "y_max": [
+        701,
+        708
+      ],
+      "ink_width": [
+        803,
+        810
+      ],
+      "ink_height": [
+        702,
+        709
+      ],
+      "advance_width": [
+        877,
+        877
+      ]
+    },
+    {
+      "characters": "I",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        295,
+        302
+      ],
+      "ink_height": [
+        697,
+        704
+      ],
+      "advance_width": [
+        368,
+        368
+      ]
+    },
+    {
+      "characters": "J",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        686,
+        693
+      ],
+      "ink_width": [
+        441,
+        448
+      ],
+      "ink_height": [
+        683,
+        690
+      ],
+      "advance_width": [
+        515,
+        515
+      ]
+    },
+    {
+      "characters": "K",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -7,
+        0
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        842,
+        849
+      ],
+      "ink_height": [
+        700,
+        707
+      ],
+      "advance_width": [
+        915,
+        915
+      ]
+    },
+    {
+      "characters": "L",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        690,
+        697
+      ],
+      "ink_width": [
+        553,
+        560
+      ],
+      "ink_height": [
+        690,
+        697
+      ],
+      "advance_width": [
+        626,
+        626
+      ]
+    },
+    {
+      "characters": "M",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -8,
+        -1
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        794,
+        801
+      ],
+      "ink_height": [
+        701,
+        708
+      ],
+      "advance_width": [
+        867,
+        867
+      ]
+    },
+    {
+      "characters": "N",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -5,
+        2
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        731,
+        738
+      ],
+      "ink_height": [
+        698,
+        705
+      ],
+      "advance_width": [
+        804,
+        804
+      ]
+    },
+    {
+      "characters": "O",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -4,
+        3
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        679,
+        686
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        753,
+        753
+      ]
+    },
+    {
+      "characters": "P",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        591,
+        598
+      ],
+      "ink_height": [
+        697,
+        704
+      ],
+      "advance_width": [
+        665,
+        665
+      ]
+    },
+    {
+      "characters": "Q",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -105,
+        -98
+      ],
+      "y_max": [
+        691,
+        698
+      ],
+      "ink_width": [
+        758,
+        765
+      ],
+      "ink_height": [
+        792,
+        799
+      ],
+      "advance_width": [
+        831,
+        831
+      ]
+    },
+    {
+      "characters": "R",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -68,
+        -61
+      ],
+      "y_max": [
+        688,
+        695
+      ],
+      "ink_width": [
+        645,
+        652
+      ],
+      "ink_height": [
+        752,
+        759
+      ],
+      "advance_width": [
+        719,
+        719
+      ]
+    },
+    {
+      "characters": "S",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -16,
+        -9
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        535,
+        542
+      ],
+      "ink_height": [
+        711,
+        718
+      ],
+      "advance_width": [
+        608,
+        608
+      ]
+    },
+    {
+      "characters": "T",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        694,
+        701
+      ],
+      "ink_width": [
+        622,
+        629
+      ],
+      "ink_height": [
+        692,
+        699
+      ],
+      "advance_width": [
+        695,
+        695
+      ]
+    },
+    {
+      "characters": "U",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -6,
+        1
+      ],
+      "y_max": [
+        707,
+        714
+      ],
+      "ink_width": [
+        692,
+        699
+      ],
+      "ink_height": [
+        710,
+        717
+      ],
+      "advance_width": [
+        766,
+        766
+      ]
+    },
+    {
+      "characters": "V",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        8,
+        15
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        656,
+        663
+      ],
+      "ink_height": [
+        685,
+        692
+      ],
+      "advance_width": [
+        730,
+        730
+      ]
+    },
+    {
+      "characters": "W",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        21,
+        28
+      ],
+      "y_max": [
+        710,
+        717
+      ],
+      "ink_width": [
+        1219,
+        1226
+      ],
+      "ink_height": [
+        685,
+        692
+      ],
+      "advance_width": [
+        1293,
+        1293
+      ]
+    },
+    {
+      "characters": "X",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -5,
+        2
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        848,
+        855
+      ],
+      "ink_height": [
+        697,
+        704
+      ],
+      "advance_width": [
+        921,
+        921
+      ]
+    },
+    {
+      "characters": "Y",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        5,
+        12
+      ],
+      "y_max": [
+        702,
+        709
+      ],
+      "ink_width": [
+        719,
+        726
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        792,
+        792
+      ]
+    },
+    {
+      "characters": "Z",
+      "notes": "Reviewed native twelve-point source and fitted outline at large and small sizes; permits conversion rounding while preserving source proportions.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        691,
+        698
+      ],
+      "ink_width": [
+        561,
+        568
+      ],
+      "ink_height": [
+        690,
+        697
+      ],
+      "advance_width": [
+        634,
+        634
+      ]
+    },
+    {
+      "characters": "&",
+      "notes": "Observed card ampersand, scaled with the measured twelve-point capitals; native tail and overshoot preserved.",
+      "y_min": [
+        -5,
+        2
+      ],
+      "y_max": [
+        690,
+        697
+      ],
+      "ink_width": [
+        688,
+        695
+      ],
+      "ink_height": [
+        692,
+        699
+      ],
+      "advance_width": [
+        761,
+        761
+      ]
+    }
+  ]
+}

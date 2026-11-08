@@ -1,0 +1,157 @@
+{
+  "revisions": [
+    {
+      "id": "bruce-1828-p263-cut-528",
+      "revision": "1.005",
+      "previous_witness": {
+        "source_index": 13,
+        "pdf_page": 263,
+        "printed_page": null,
+        "specimen_number": "528"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 291,
+        "archive_leaf": 290,
+        "specimen_number": "825",
+        "source_index": 27
+      },
+      "source_file": "reference/bruce1828-hathi-p291.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        201,
+        310,
+        1036,
+        738
+      ],
+      "output": "reference/crops/bruce-1828-p291-cut-825-upgrade.png",
+      "crop_sha256": "923b7ec54340a4d1aa2c151be747a5b4950c9d717a223e474fd01f9e81371f24",
+      "reason": "Clearer finger and cuff engraving with a complete upper contour. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p291-cut-825-upgrade.png",
+        "box": [
+          0,
+          0,
+          835,
+          428
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF291 No825 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+      }
+    },
+    {
+      "id": "bruce-1828-p263-cut-529",
+      "revision": "1.005",
+      "previous_witness": {
+        "source_index": 13,
+        "pdf_page": 263,
+        "printed_page": null,
+        "specimen_number": "529"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 291,
+        "archive_leaf": 290,
+        "specimen_number": "827",
+        "source_index": 27
+      },
+      "source_file": "reference/bruce1828-hathi-p291.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1751,
+        312,
+        2565,
+        733
+      ],
+      "output": "reference/crops/bruce-1828-p291-cut-827-upgrade.png",
+      "crop_sha256": "039e76fa35f96054b6cefb7b5d1d4dafef23598a8c707f412487deac227c4e24",
+      "reason": "Clearer fingernails and cuff lines in the larger impression. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p291-cut-827-upgrade.png",
+        "box": [
+          0,
+          0,
+          814,
+          421
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF291 No827 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+      }
+    },
+    {
+      "id": "bruce-1828-p283-cut-765",
+      "revision": "1.005",
+      "previous_witness": {
+        "source_index": 23,
+        "pdf_page": 283,
+        "printed_page": null,
+        "specimen_number": "765"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 323,
+        "archive_leaf": 322,
+        "specimen_number": "1002",
+        "source_index": 37
+      },
+      "source_file": "reference/bruce1828-hathi-p323.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1086,
+        327,
+        1782,
+        891
+      ],
+      "output": "reference/crops/bruce-1828-p323-cut-1002-upgrade.png",
+      "crop_sha256": "1bd1b31d31ec8aa162b0848424053473605c0ae2019d3a5dd7f51d003bedf187",
+      "reason": "The matching eagle, flags, ribbon, shield and cannon composition retains the complete tall ray field in this impression. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p323-cut-1002-upgrade.png",
+        "box": [
+          0,
+          0,
+          696,
+          564
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF323 No1002 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+      }
+    }
+  ]
+}

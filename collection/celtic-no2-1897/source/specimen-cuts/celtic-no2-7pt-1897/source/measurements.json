@@ -1,0 +1,960 @@
+{
+  "method": "Native fitted capline and baseline regressions, one uniform scale and measured rigid rotation per source row.",
+  "rows": {
+    "1897-combined-lower": {
+      "anchor_ids": [
+        "1897-combined-lower-02",
+        "1897-combined-lower-05",
+        "1897-combined-lower-06",
+        "1897-combined-lower-08",
+        "1897-combined-lower-09",
+        "1897-combined-lower-11",
+        "1897-combined-lower-12",
+        "1897-combined-lower-13",
+        "1897-combined-lower-14",
+        "1897-combined-lower-16",
+        "1897-combined-lower-20",
+        "1897-combined-lower-24",
+        "1897-combined-lower-25",
+        "1897-combined-lower-26"
+      ],
+      "top_slope": 0.010158274405677582,
+      "bottom_slope": 0.009494646106829993,
+      "slope": 0.009826460256253788,
+      "rotation_degrees": 0.5629965798470998,
+      "baseline_intercept": 697.3049282635587,
+      "capline_intercept": 667.940962498742,
+      "cap_height_pixels": 29.362548185175772,
+      "scale": 23.839892763578604
+    },
+    "doc7": {
+      "anchor_ids": [
+        "doc7-09",
+        "doc7-13",
+        "doc7-14",
+        "doc7-15",
+        "doc7-16",
+        "doc7-17",
+        "doc7-20",
+        "doc7-24",
+        "doc7-25",
+        "doc7-26",
+        "doc7-28",
+        "doc7-29",
+        "doc7-31",
+        "doc7-32"
+      ],
+      "top_slope": 0.0003556737427059059,
+      "bottom_slope": -0.0008410864724446635,
+      "slope": -0.00024270636486937877,
+      "rotation_degrees": -0.01390605009492595,
+      "baseline_intercept": 1147.2270457540208,
+      "capline_intercept": 1114.9090714091296,
+      "cap_height_pixels": 32.317973393023735,
+      "scale": 21.65977400523216
+    },
+    "1897-combined-lower-figures": {
+      "anchor_ids": [
+        "1897-combined-lower-27",
+        "1897-combined-lower-30",
+        "1897-combined-lower-33"
+      ],
+      "slope": 0.01201873105104079,
+      "rotation_degrees": 0.6885894100482832,
+      "baseline_intercept": 689.8305602053978,
+      "scale": 23.839892763578604,
+      "scale_reference": "1897-combined-lower",
+      "reason": "Local baseline of separated figure group from1/4/7 feet; cap scale inherited without independent size fitting."
+    }
+  },
+  "glyphs": [
+    {
+      "id": "1897-combined-lower-01",
+      "row": "1897-combined-lower",
+      "character": "A",
+      "native_fitted_bounds": [
+        424.56138196844057,
+        672.0,
+        456.02084119616427,
+        702.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-02",
+      "row": "1897-combined-lower",
+      "character": "B",
+      "native_fitted_bounds": [
+        463.8585479159995,
+        672.0753767931876,
+        492.71860465116276,
+        702.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-03",
+      "row": "1897-combined-lower",
+      "character": "C",
+      "native_fitted_bounds": [
+        498.13858560820194,
+        672.475,
+        523.9640338374346,
+        702.8608309604928
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-04",
+      "row": "1897-combined-lower",
+      "character": "D",
+      "native_fitted_bounds": [
+        531.4659469288358,
+        672.6092880150002,
+        561.0,
+        702.2909944487358
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-05",
+      "row": "1897-combined-lower",
+      "character": "E",
+      "native_fitted_bounds": [
+        568.0,
+        673.0382955202964,
+        597.1,
+        702.8608250072385
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-06",
+      "row": "1897-combined-lower",
+      "character": "F",
+      "native_fitted_bounds": [
+        604.8812373213672,
+        674.069951577763,
+        630.7886599454438,
+        703.2632653061224
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-07",
+      "row": "1897-combined-lower",
+      "character": "G",
+      "native_fitted_bounds": [
+        637.9644698191506,
+        674.2508432689548,
+        667.5155591650445,
+        704.2883486842131
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "1897-combined-lower-08",
+      "row": "1897-combined-lower",
+      "character": "H",
+      "native_fitted_bounds": [
+        674.1181818181818,
+        674.0,
+        708.5874471137217,
+        704.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-09",
+      "row": "1897-combined-lower",
+      "character": "I",
+      "native_fitted_bounds": [
+        718.7,
+        675.0,
+        729.8754380479761,
+        704.6144033378323
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-10",
+      "row": "1897-combined-lower",
+      "character": "J",
+      "native_fitted_bounds": [
+        735.5520276352908,
+        675.0,
+        753.7842287992723,
+        705.0
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "1897-combined-lower-11",
+      "row": "1897-combined-lower",
+      "character": "K",
+      "native_fitted_bounds": [
+        763.1095922447073,
+        675.7215390309174,
+        793.7408960735344,
+        705.3231650975912
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-12",
+      "row": "1897-combined-lower",
+      "character": "L",
+      "native_fitted_bounds": [
+        803.5940953386786,
+        676.0,
+        829.9033040301953,
+        705.399616160603
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-13",
+      "row": "1897-combined-lower",
+      "character": "M",
+      "native_fitted_bounds": [
+        838.1115349926367,
+        676.3232540608036,
+        874.7291435554173,
+        706.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-14",
+      "row": "1897-combined-lower",
+      "character": "N",
+      "native_fitted_bounds": [
+        886.0,
+        677.0,
+        917.4129955931901,
+        707.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-15",
+      "row": "1897-combined-lower",
+      "character": "O",
+      "native_fitted_bounds": [
+        926.4054359471008,
+        676.8563460911942,
+        955.3255024382162,
+        707.8617802730388
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-16",
+      "row": "1897-combined-lower",
+      "character": "P",
+      "native_fitted_bounds": [
+        963.0005578718993,
+        678.0,
+        988.9250668021847,
+        706.9
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-17",
+      "row": "1897-combined-lower",
+      "character": "Q",
+      "native_fitted_bounds": [
+        995.0,
+        677.919888709073,
+        1024.5784476686642,
+        711.7646627508669
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "1897-combined-lower-18",
+      "row": "1897-combined-lower",
+      "character": "R",
+      "native_fitted_bounds": [
+        1032.0,
+        678.13125,
+        1061.2504948538015,
+        711.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-19",
+      "row": "1897-combined-lower",
+      "character": "S",
+      "native_fitted_bounds": [
+        1069.0,
+        678.761461293353,
+        1091.0,
+        708.7641352372303
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-20",
+      "row": "1897-combined-lower",
+      "character": "T",
+      "native_fitted_bounds": [
+        1095.0,
+        678.9,
+        1123.8846338310782,
+        707.9
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-21",
+      "row": "1897-combined-lower",
+      "character": "U",
+      "native_fitted_bounds": [
+        1133.4645366540888,
+        679.0,
+        1163.8451215102455,
+        709.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-22",
+      "row": "1897-combined-lower",
+      "character": "V",
+      "native_fitted_bounds": [
+        1173.0,
+        679.0,
+        1201.357123725751,
+        708.6698999906092
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-23",
+      "row": "1897-combined-lower",
+      "character": "W",
+      "native_fitted_bounds": [
+        1210.398435686825,
+        679.3555555555556,
+        1258.4,
+        709.5
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-24",
+      "row": "1897-combined-lower",
+      "character": "X",
+      "native_fitted_bounds": [
+        1266.4466042200754,
+        680.0,
+        1297.0,
+        709.9747514043171
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-25",
+      "row": "1897-combined-lower",
+      "character": "Y",
+      "native_fitted_bounds": [
+        1304.9572857455262,
+        681.0,
+        1333.3,
+        710.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-26",
+      "row": "1897-combined-lower",
+      "character": "Z",
+      "native_fitted_bounds": [
+        1337.7652725700507,
+        681.0,
+        1363.3263179680216,
+        710.10927956355
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "1897-combined-lower-27",
+      "row": "1897-combined-lower",
+      "character": "1",
+      "native_fitted_bounds": [
+        1919.7247667642482,
+        686.0,
+        1935.8395588138012,
+        713.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-28",
+      "row": "1897-combined-lower",
+      "character": "2",
+      "native_fitted_bounds": [
+        1944.0038999814738,
+        684.0,
+        1965.639467605467,
+        713.9192009909518
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "1897-combined-lower-29",
+      "row": "1897-combined-lower",
+      "character": "3",
+      "native_fitted_bounds": [
+        1971.3566330808037,
+        683.0980662547623,
+        1994.5298194624465,
+        714.5
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "1897-combined-lower-30",
+      "row": "1897-combined-lower",
+      "character": "4",
+      "native_fitted_bounds": [
+        1998.0,
+        684.0599443545365,
+        2020.981141009092,
+        714.0
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "1897-combined-lower-31",
+      "row": "1897-combined-lower",
+      "character": "5",
+      "native_fitted_bounds": [
+        2027.169260446479,
+        685.2,
+        2048.1876284286745,
+        714.6384479738733
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "1897-combined-lower-32",
+      "row": "1897-combined-lower",
+      "character": "6",
+      "native_fitted_bounds": [
+        2054.0,
+        684.1318208118547,
+        2075.968623730222,
+        714.7075336809055
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "1897-combined-lower-33",
+      "row": "1897-combined-lower",
+      "character": "7",
+      "native_fitted_bounds": [
+        2081.232017546233,
+        684.9920433199551,
+        2102.6908380841414,
+        714.9732819754598
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "1897-combined-lower-34",
+      "row": "1897-combined-lower",
+      "character": "8",
+      "native_fitted_bounds": [
+        2107.706208568774,
+        684.3898963267442,
+        2129.9528621863387,
+        714.5
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "1897-combined-lower-35",
+      "row": "1897-combined-lower",
+      "character": "9",
+      "native_fitted_bounds": [
+        2135.4109923412866,
+        684.9496863397464,
+        2156.9546875,
+        715.9049875697897
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "1897-combined-lower-36",
+      "row": "1897-combined-lower",
+      "character": "0",
+      "native_fitted_bounds": [
+        2162.078065398999,
+        684.6958546693891,
+        2185.202151981913,
+        715.0280552732802
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "doc7-01",
+      "row": "doc7",
+      "character": "1",
+      "native_fitted_bounds": [
+        498.2443043303858,
+        1116.2855480379153,
+        510.2656114838647,
+        1147.5468179188144
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-02",
+      "row": "doc7",
+      "character": "2",
+      "native_fitted_bounds": [
+        532.0962722389752,
+        1117.0873511842267,
+        547.0693875110424,
+        1137.6201259508198
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-03",
+      "row": "doc7",
+      "character": "3",
+      "native_fitted_bounds": [
+        553.3043233100167,
+        1129.1232977951577,
+        580.0,
+        1148.6820125179067
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-04",
+      "row": "doc7",
+      "character": "4",
+      "native_fitted_bounds": [
+        584.3944854250825,
+        1125.2742315318792,
+        610.58660963978,
+        1147.7138438763307
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-05",
+      "row": "doc7",
+      "character": "C",
+      "native_fitted_bounds": [
+        710.7986099977402,
+        1115.1163646742377,
+        739.954874287065,
+        1147.878012338274
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-06",
+      "row": "doc7",
+      "character": "U",
+      "native_fitted_bounds": [
+        749.5595853069769,
+        1114.1988302351515,
+        782.5615755358365,
+        1147.5546859752376
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-07",
+      "row": "doc7",
+      "character": "R",
+      "native_fitted_bounds": [
+        792.4535224835927,
+        1114.6686291501014,
+        827.9786241512498,
+        1151.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-08",
+      "row": "doc7",
+      "character": "A",
+      "native_fitted_bounds": [
+        833.4475737689694,
+        1115.2954370024456,
+        868.2354669588811,
+        1148.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-09",
+      "row": "doc7",
+      "character": "T",
+      "native_fitted_bounds": [
+        873.1945550448415,
+        1114.3,
+        907.8138438763306,
+        1146.9128709291754
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-10",
+      "row": "doc7",
+      "character": "O",
+      "native_fitted_bounds": [
+        915.2120291353045,
+        1114.3866452273692,
+        948.9491567310453,
+        1148.1740297047738
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-11",
+      "row": "doc7",
+      "character": "R",
+      "native_fitted_bounds": [
+        956.6,
+        1114.690983005625,
+        990.6854518850912,
+        1150.934520789894
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-12",
+      "row": "doc7",
+      "character": "O",
+      "native_fitted_bounds": [
+        1016.3773375825785,
+        1114.4134249195226,
+        1049.9576625488837,
+        1147.8343131558715
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-13",
+      "row": "doc7",
+      "character": "F",
+      "native_fitted_bounds": [
+        1057.5,
+        1114.1356435743767,
+        1088.6651907990877,
+        1147.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-14",
+      "row": "doc7",
+      "character": "T",
+      "native_fitted_bounds": [
+        1113.0119482109646,
+        1114.0640256415525,
+        1148.0,
+        1146.951560696244
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-15",
+      "row": "doc7",
+      "character": "H",
+      "native_fitted_bounds": [
+        1156.0,
+        1114.0,
+        1195.3,
+        1147.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-16",
+      "row": "doc7",
+      "character": "E",
+      "native_fitted_bounds": [
+        1205.0,
+        1114.4188611699158,
+        1237.2,
+        1146.931781074217
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-17",
+      "row": "doc7",
+      "character": "B",
+      "native_fitted_bounds": [
+        1264.1758711979157,
+        1115.090983005625,
+        1296.022616914545,
+        1147.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-18",
+      "row": "doc7",
+      "character": "U",
+      "native_fitted_bounds": [
+        1305.3841616374225,
+        1113.9926899788306,
+        1337.4996047291881,
+        1147.5433850370337
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-19",
+      "row": "doc7",
+      "character": "R",
+      "native_fitted_bounds": [
+        1348.35,
+        1114.46061230866,
+        1383.1163019238786,
+        1150.5345091944357
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-20",
+      "row": "doc7",
+      "character": "E",
+      "native_fitted_bounds": [
+        1390.0,
+        1115.0,
+        1420.922019135484,
+        1146.7193814795785
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-21",
+      "row": "doc7",
+      "character": "A",
+      "native_fitted_bounds": [
+        1427.4911240364365,
+        1115.0,
+        1461.075170084254,
+        1147.1672135955
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-22",
+      "row": "doc7",
+      "character": "U",
+      "native_fitted_bounds": [
+        1471.3361840145456,
+        1114.0,
+        1504.435260220241,
+        1147.143675129846
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-23",
+      "row": "doc7",
+      "character": "O",
+      "native_fitted_bounds": [
+        1531.7005432471888,
+        1114.2182389613931,
+        1565.0,
+        1147.7774193548387
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-24",
+      "row": "doc7",
+      "character": "F",
+      "native_fitted_bounds": [
+        1572.7488250552199,
+        1114.574516600406,
+        1604.0,
+        1147.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-25",
+      "row": "doc7",
+      "character": "F",
+      "native_fitted_bounds": [
+        1629.5,
+        1114.5215390309174,
+        1660.6292155583835,
+        1147.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-26",
+      "row": "doc7",
+      "character": "I",
+      "native_fitted_bounds": [
+        1668.0,
+        1114.4909830056251,
+        1681.4,
+        1146.9832659858737
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-27",
+      "row": "doc7",
+      "character": "S",
+      "native_fitted_bounds": [
+        1691.0,
+        1114.662246590766,
+        1715.0,
+        1146.842214532872
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-28",
+      "row": "doc7",
+      "character": "H",
+      "native_fitted_bounds": [
+        1720.5,
+        1114.0,
+        1759.5090776742932,
+        1146.5047375096556
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-29",
+      "row": "doc7",
+      "character": "E",
+      "native_fitted_bounds": [
+        1770.3879600125824,
+        1114.5390193512442,
+        1803.3,
+        1146.1853582352553
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-30",
+      "row": "doc7",
+      "character": "R",
+      "native_fitted_bounds": [
+        1812.0,
+        1114.0518817840561,
+        1844.65093382207,
+        1149.9126994831372
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-31",
+      "row": "doc7",
+      "character": "I",
+      "native_fitted_bounds": [
+        1853.7,
+        1115.0,
+        1864.4603947370897,
+        1146.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-32",
+      "row": "doc7",
+      "character": "E",
+      "native_fitted_bounds": [
+        1875.7,
+        1114.461778133374,
+        1906.0,
+        1146.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-33",
+      "row": "doc7",
+      "character": "S",
+      "native_fitted_bounds": [
+        1913.6606123086601,
+        1114.3631767435256,
+        1938.0,
+        1146.8808450805884
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-34",
+      "row": "doc7",
+      "character": ".",
+      "native_fitted_bounds": [
+        1944.1404244695725,
+        1142.0553922830354,
+        1949.4594299842583,
+        1147.0
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "doc7-35",
+      "row": "doc7",
+      "character": "5",
+      "native_fitted_bounds": [
+        2048.0522975404,
+        1126.0944057400754,
+        2073.0,
+        1147.1895907137316
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-36",
+      "row": "doc7",
+      "character": "6",
+      "native_fitted_bounds": [
+        2078.3366445130264,
+        1116.0,
+        2104.0,
+        1146.8229744061919
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-37",
+      "row": "doc7",
+      "character": "7",
+      "native_fitted_bounds": [
+        2112.0,
+        1114.3291556973447,
+        2133.689978106197,
+        1146.5495435875428
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc7-38",
+      "row": "doc7",
+      "character": "8",
+      "native_fitted_bounds": [
+        2139.9468959432597,
+        1116.0,
+        2164.8918827405,
+        1147.0484217681303
+      ],
+      "threshold": 190
+    }
+  ]
+}

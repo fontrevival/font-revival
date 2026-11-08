@@ -1,0 +1,6352 @@
+{
+  "schema_version": 1,
+  "crops": [
+    {
+      "id": "bruce-1828-p177-eleven-line-pica-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p177.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          234,
+          200
+        ],
+        [
+          596,
+          199
+        ],
+        [
+          596,
+          415
+        ],
+        [
+          234,
+          417
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          553.4100000000001,
+          473.00000000000006
+        ],
+        [
+          1409.5400000000002,
+          470.63500000000005
+        ],
+        [
+          1409.5400000000002,
+          981.4750000000001
+        ],
+        [
+          553.4100000000001,
+          986.205
+        ]
+      ],
+      "output_dimensions": [
+        856,
+        512
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p177-eleven-line-pica-1-repeat.png",
+      "sha256": "293fabf427f043e29047ea35875abb015c095a98375f221164e6032da20a2dab"
+    },
+    {
+      "id": "bruce-1828-p177-eleven-line-pica-1-corner",
+      "source_file": "reference/bruce1828-hathi-p177.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          12,
+          201
+        ],
+        [
+          234,
+          200
+        ],
+        [
+          234,
+          417
+        ],
+        [
+          14,
+          418
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          28.380000000000003,
+          475.36500000000007
+        ],
+        [
+          553.4100000000001,
+          473.00000000000006
+        ],
+        [
+          553.4100000000001,
+          986.205
+        ],
+        [
+          33.11,
+          988.57
+        ]
+      ],
+      "output_dimensions": [
+        523,
+        513
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p177-eleven-line-pica-1-corner.png",
+      "sha256": "85dbab87773e9f7314db63a2b1ef781febd503f3b4b2e72b115040795b91e70f"
+    },
+    {
+      "id": "bruce-1828-p181-seven-line-pica-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p181.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          180,
+          203
+        ],
+        [
+          334,
+          202
+        ],
+        [
+          334,
+          340
+        ],
+        [
+          180,
+          342
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          418.35,
+          471.80583333333334
+        ],
+        [
+          776.2716666666666,
+          469.4816666666667
+        ],
+        [
+          776.2716666666666,
+          790.2166666666667
+        ],
+        [
+          418.35,
+          794.865
+        ]
+      ],
+      "output_dimensions": [
+        358,
+        322
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p181-seven-line-pica-1-repeat.png",
+      "sha256": "5c2ce75269c25de80836a775ca0c4386beb5f52241d8ebe114fc46ceb123a2d4"
+    },
+    {
+      "id": "bruce-1828-p181-seven-line-pica-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p181.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          180,
+          439
+        ],
+        [
+          334,
+          438
+        ],
+        [
+          334,
+          503
+        ],
+        [
+          180,
+          505
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          418.35,
+          1020.3091666666667
+        ],
+        [
+          776.2716666666666,
+          1017.985
+        ],
+        [
+          776.2716666666666,
+          1169.0558333333333
+        ],
+        [
+          418.35,
+          1173.7041666666667
+        ]
+      ],
+      "output_dimensions": [
+        358,
+        152
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p181-seven-line-pica-2-repeat.png",
+      "sha256": "b76311ddebf677fe8bd5ca8b75899f88dce3c69a261de09e755fc4370982adc9"
+    },
+    {
+      "id": "bruce-1828-p181-seven-line-pica-2-corner",
+      "source_file": "reference/bruce1828-hathi-p181.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          39,
+          439
+        ],
+        [
+          180,
+          438
+        ],
+        [
+          180,
+          576
+        ],
+        [
+          39,
+          577
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          90.6425,
+          1020.3091666666667
+        ],
+        [
+          418.35,
+          1017.985
+        ],
+        [
+          418.35,
+          1338.72
+        ],
+        [
+          90.6425,
+          1341.0441666666668
+        ]
+      ],
+      "output_dimensions": [
+        328,
+        321
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p181-seven-line-pica-2-corner.png",
+      "sha256": "1ecf6be1345a4305698a703b121ddc3e7198b790cce7c88126d8e83310d42dab"
+    },
+    {
+      "id": "bruce-1828-p183-six-line-pica-2-motif",
+      "source_file": "reference/bruce1828-hathi-p183.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        775,
+        784,
+        1080,
+        1082
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p183-six-line-pica-2-motif.png",
+      "sha256": "14dd1cabd0c9cad324f8147929c48b95495690981373741f230e3c1e40320fba"
+    },
+    {
+      "id": "bruce-1828-p185-five-line-pica-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p185.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          317,
+          115
+        ],
+        [
+          361,
+          117
+        ],
+        [
+          357,
+          214
+        ],
+        [
+          313,
+          212
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          747.5916666666667,
+          271.2083333333333
+        ],
+        [
+          851.3583333333333,
+          275.925
+        ],
+        [
+          841.9250000000001,
+          504.68333333333334
+        ],
+        [
+          738.1583333333333,
+          499.9666666666667
+        ]
+      ],
+      "output_dimensions": [
+        104,
+        229
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p185-five-line-pica-1-repeat.png",
+      "sha256": "bafab3faeb066ae639e3697ec6c89fc72e23df05a5922664c7a3e0bfe7f87d86"
+    },
+    {
+      "id": "bruce-1828-p185-five-line-pica-1-corner",
+      "source_file": "reference/bruce1828-hathi-p185.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          87,
+          105
+        ],
+        [
+          185,
+          109
+        ],
+        [
+          180,
+          208
+        ],
+        [
+          81,
+          204
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          205.175,
+          247.625
+        ],
+        [
+          436.2916666666667,
+          257.05833333333334
+        ],
+        [
+          424.5,
+          490.53333333333336
+        ],
+        [
+          191.025,
+          481.1
+        ]
+      ],
+      "output_dimensions": [
+        232,
+        234
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p185-five-line-pica-1-corner.png",
+      "sha256": "513f8a38f0d1426101782098931716d7654396c370fc46a434046b303637c7fe"
+    },
+    {
+      "id": "bruce-1828-p185-five-line-pica-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p185.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          302,
+          256
+        ],
+        [
+          402,
+          260
+        ],
+        [
+          398,
+          359
+        ],
+        [
+          298,
+          355
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          712.2166666666667,
+          603.7333333333333
+        ],
+        [
+          948.0500000000001,
+          613.1666666666666
+        ],
+        [
+          938.6166666666667,
+          846.6416666666667
+        ],
+        [
+          702.7833333333333,
+          837.2083333333334
+        ]
+      ],
+      "output_dimensions": [
+        236,
+        234
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p185-five-line-pica-2-repeat.png",
+      "sha256": "c30760c870e4b5f57a6709c28b235706f852bf67836a4652f77f71572574c213"
+    },
+    {
+      "id": "bruce-1828-p185-five-line-pica-2-corner",
+      "source_file": "reference/bruce1828-hathi-p185.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          74,
+          246
+        ],
+        [
+          175,
+          250
+        ],
+        [
+          172,
+          349
+        ],
+        [
+          71,
+          345
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          174.51666666666668,
+          580.15
+        ],
+        [
+          412.70833333333337,
+          589.5833333333334
+        ],
+        [
+          405.6333333333333,
+          823.0583333333334
+        ],
+        [
+          167.44166666666666,
+          813.625
+        ]
+      ],
+      "output_dimensions": [
+        238,
+        234
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p185-five-line-pica-2-corner.png",
+      "sha256": "631caf08eabdd0a42115b441b6535a34d19410c56e22a2b384e968778f1a1033"
+    },
+    {
+      "id": "bruce-1828-p185-five-line-pica-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p185.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          350,
+          393
+        ],
+        [
+          441,
+          397
+        ],
+        [
+          437,
+          494
+        ],
+        [
+          346,
+          490
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          825.4166666666667,
+          926.825
+        ],
+        [
+          1040.025,
+          936.2583333333333
+        ],
+        [
+          1030.5916666666667,
+          1165.0166666666667
+        ],
+        [
+          815.9833333333333,
+          1155.5833333333333
+        ]
+      ],
+      "output_dimensions": [
+        215,
+        229
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p185-five-line-pica-3-repeat.png",
+      "sha256": "d5fb73e2b20aa5e1ec6dee1fa56e2ef3c93ea4a0ecb386645a2041f782555cc1"
+    },
+    {
+      "id": "bruce-1828-p185-five-line-pica-4-corner",
+      "source_file": "reference/bruce1828-hathi-p185.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          55,
+          520
+        ],
+        [
+          157,
+          524
+        ],
+        [
+          152,
+          623
+        ],
+        [
+          50,
+          619
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          129.70833333333334,
+          1226.3333333333333
+        ],
+        [
+          370.2583333333333,
+          1235.7666666666667
+        ],
+        [
+          358.4666666666667,
+          1469.2416666666668
+        ],
+        [
+          117.91666666666667,
+          1459.8083333333334
+        ]
+      ],
+      "output_dimensions": [
+        241,
+        234
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p185-five-line-pica-4-corner.png",
+      "sha256": "88e897719be25533f43b1406f3929358be771d8c3ca80361242dc0739391ad4b"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          266,
+          148
+        ],
+        [
+          366,
+          149
+        ],
+        [
+          366,
+          224
+        ],
+        [
+          266,
+          224
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          618.8933333333333,
+          344.3466666666667
+        ],
+        [
+          851.56,
+          346.67333333333335
+        ],
+        [
+          851.56,
+          521.1733333333333
+        ],
+        [
+          618.8933333333333,
+          521.1733333333333
+        ]
+      ],
+      "output_dimensions": [
+        233,
+        176
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-1-repeat.png",
+      "sha256": "d1d94c599df5eb7edfb855db5762fa3048b413df6b6a1f4879087afe01bd8155"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-1-corner",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          68,
+          148
+        ],
+        [
+          149,
+          148
+        ],
+        [
+          149,
+          224
+        ],
+        [
+          68,
+          224
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          158.21333333333334,
+          344.3466666666667
+        ],
+        [
+          346.67333333333335,
+          344.3466666666667
+        ],
+        [
+          346.67333333333335,
+          521.1733333333333
+        ],
+        [
+          158.21333333333334,
+          521.1733333333333
+        ]
+      ],
+      "output_dimensions": [
+        188,
+        177
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-1-corner.png",
+      "sha256": "d88389b249cb3c34d9f5f8891878fc539f8d31afd70f92763ad39bedccf52584"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          318,
+          279
+        ],
+        [
+          402,
+          279
+        ],
+        [
+          402,
+          362
+        ],
+        [
+          318,
+          361
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          739.88,
+          649.14
+        ],
+        [
+          935.32,
+          649.14
+        ],
+        [
+          935.32,
+          842.2533333333333
+        ],
+        [
+          739.88,
+          839.9266666666666
+        ]
+      ],
+      "output_dimensions": [
+        195,
+        192
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-2-repeat.png",
+      "sha256": "000faa122b464c3d8b712cbc9f7f773e8d52a8c400ccc2e28fa60739a21c3ab1"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-2-corner",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          69,
+          279
+        ],
+        [
+          152,
+          279
+        ],
+        [
+          152,
+          361
+        ],
+        [
+          69,
+          360
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          160.54,
+          649.14
+        ],
+        [
+          353.6533333333333,
+          649.14
+        ],
+        [
+          353.6533333333333,
+          839.9266666666666
+        ],
+        [
+          160.54,
+          837.6
+        ]
+      ],
+      "output_dimensions": [
+        193,
+        190
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-2-corner.png",
+      "sha256": "0a90bf4bfb43bc41a4da4d6fbd087bbb6503481ce302037de3b626a77d0b5fcf"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-3-corner",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          64,
+          416
+        ],
+        [
+          153,
+          417
+        ],
+        [
+          153,
+          498
+        ],
+        [
+          63,
+          498
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          148.90666666666667,
+          967.8933333333333
+        ],
+        [
+          355.98,
+          970.22
+        ],
+        [
+          355.98,
+          1158.68
+        ],
+        [
+          146.58,
+          1158.68
+        ]
+      ],
+      "output_dimensions": [
+        208,
+        190
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-3-corner.png",
+      "sha256": "14fb5a2e2545651a8f1d295bcb907784658ee77d8a93614c6728eec0ce759492"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "quadrilateral_on_1200_width": [
+        [
+          302,
+          551
+        ],
+        [
+          454,
+          551
+        ],
+        [
+          454,
+          637
+        ],
+        [
+          302,
+          637
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          702.6533333333333,
+          1281.9933333333333
+        ],
+        [
+          1056.3066666666666,
+          1281.9933333333333
+        ],
+        [
+          1056.3066666666666,
+          1482.0866666666666
+        ],
+        [
+          702.6533333333333,
+          1482.0866666666666
+        ]
+      ],
+      "output_dimensions": [
+        354,
+        200
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-4-repeat.png",
+      "sha256": "73c0a9140fa18362f5e92149ca16f2cb8e0c59acaf5033afc014f068d6d9c6ac"
+    },
+    {
+      "id": "bruce-1828-p187-four-line-pica-4-corner",
+      "source_file": "reference/bruce1828-hathi-p187.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        126,
+        1287,
+        316,
+        1487
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p187-four-line-pica-4-corner.png",
+      "sha256": "41aa02bfbf046facc341f672ca971570e3eaa21e99dbf170a504501b8388a6cf"
+    },
+    {
+      "id": "bruce-1828-p189-meridian-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p189.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          401,
+          348
+        ],
+        [
+          502,
+          349
+        ],
+        [
+          502,
+          473
+        ],
+        [
+          401,
+          472
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          584.7916666666666,
+          507.5
+        ],
+        [
+          732.0833333333333,
+          508.9583333333333
+        ],
+        [
+          732.0833333333333,
+          689.7916666666666
+        ],
+        [
+          584.7916666666666,
+          688.3333333333333
+        ]
+      ],
+      "output_dimensions": [
+        147,
+        181
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p189-meridian-1-repeat.png",
+      "sha256": "5c8a3fdd0ff22bb42f655f61bd47a371b41458ad6c366434f034d096908c7cd7"
+    },
+    {
+      "id": "bruce-1828-p189-meridian-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p189.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          603
+        ],
+        [
+          432.4,
+          603
+        ],
+        [
+          432.4,
+          713
+        ],
+        [
+          400,
+          713
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          583.3333333333333,
+          879.375
+        ],
+        [
+          630.5833333333333,
+          879.375
+        ],
+        [
+          630.5833333333333,
+          1039.7916666666665
+        ],
+        [
+          583.3333333333333,
+          1039.7916666666665
+        ]
+      ],
+      "output_dimensions": [
+        47,
+        160
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p189-meridian-2-repeat.png",
+      "sha256": "2d7edbc484ea156705216ec9f097d9e326f522fb91eb11d0daba14b696d56d51"
+    },
+    {
+      "id": "bruce-1828-p189-meridian-2-corner",
+      "source_file": "reference/bruce1828-hathi-p189.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          201,
+          602
+        ],
+        [
+          302,
+          603
+        ],
+        [
+          302,
+          718
+        ],
+        [
+          201,
+          717
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          293.125,
+          877.9166666666666
+        ],
+        [
+          440.41666666666663,
+          879.375
+        ],
+        [
+          440.41666666666663,
+          1047.0833333333333
+        ],
+        [
+          293.125,
+          1045.625
+        ]
+      ],
+      "output_dimensions": [
+        147,
+        168
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p189-meridian-2-corner.png",
+      "sha256": "32de82f252d20dca1c4566294f5403a8504e176ba9a1b9f358a2e9d67d6112c3"
+    },
+    {
+      "id": "bruce-1828-p189-meridian-3-motif",
+      "source_file": "reference/bruce1828-hathi-p189.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        624,
+        1224,
+        799,
+        1404
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p189-meridian-3-motif.png",
+      "sha256": "cace27a806ff9706d68f4a25725aa4eddc2151558271f51c35db24193d2e4557"
+    },
+    {
+      "id": "bruce-1828-p189-meridian-4-motif",
+      "source_file": "reference/bruce1828-hathi-p189.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          430,
+          1077
+        ],
+        [
+          545,
+          1078
+        ],
+        [
+          544,
+          1199
+        ],
+        [
+          429,
+          1198
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          627.0833333333333,
+          1570.625
+        ],
+        [
+          794.7916666666666,
+          1572.0833333333333
+        ],
+        [
+          793.3333333333333,
+          1748.5416666666665
+        ],
+        [
+          625.625,
+          1747.0833333333333
+        ]
+      ],
+      "output_dimensions": [
+        168,
+        176
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p189-meridian-4-motif.png",
+      "sha256": "9af5d69058f823a7e6a59303eb0dd850bd1004756de634350ff103d43ce84fae"
+    },
+    {
+      "id": "bruce-1828-p189-meridian-6-motif",
+      "source_file": "reference/bruce1828-hathi-p189.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        601,
+        2294,
+        764,
+        2472
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p189-meridian-6-motif.png",
+      "sha256": "09eba72df444ee8076e0523d02fb18eb06da27b4ec767cc24a6a4e87a63975f6"
+    },
+    {
+      "id": "bruce-1828-p191-double-paragon-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p191.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          502,
+          359
+        ],
+        [
+          700,
+          360
+        ],
+        [
+          700,
+          475
+        ],
+        [
+          502,
+          475
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          732.0833333333333,
+          523.5416666666666
+        ],
+        [
+          1020.8333333333333,
+          525.0
+        ],
+        [
+          1020.8333333333333,
+          692.7083333333333
+        ],
+        [
+          732.0833333333333,
+          692.7083333333333
+        ]
+      ],
+      "output_dimensions": [
+        289,
+        168
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p191-double-paragon-1-repeat.png",
+      "sha256": "fa821b601720e93b343d4ab384a6785ee2aae25150063c3fc83c4c2c63f9c386"
+    },
+    {
+      "id": "bruce-1828-p191-double-paragon-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p191.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          612
+        ],
+        [
+          521,
+          613
+        ],
+        [
+          521,
+          722
+        ],
+        [
+          400,
+          722
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          583.3333333333333,
+          892.5
+        ],
+        [
+          759.7916666666666,
+          893.9583333333333
+        ],
+        [
+          759.7916666666666,
+          1052.9166666666665
+        ],
+        [
+          583.3333333333333,
+          1052.9166666666665
+        ]
+      ],
+      "output_dimensions": [
+        176,
+        160
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p191-double-paragon-2-repeat.png",
+      "sha256": "500b64ce137680a28579cdef60276a486a5e49538be276a7d405894516ae4817"
+    },
+    {
+      "id": "bruce-1828-p191-double-paragon-2-corner",
+      "source_file": "reference/bruce1828-hathi-p191.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          208,
+          612
+        ],
+        [
+          302,
+          612
+        ],
+        [
+          302,
+          723
+        ],
+        [
+          208,
+          723
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          303.3333333333333,
+          892.5
+        ],
+        [
+          440.41666666666663,
+          892.5
+        ],
+        [
+          440.41666666666663,
+          1054.375
+        ],
+        [
+          303.3333333333333,
+          1054.375
+        ]
+      ],
+      "output_dimensions": [
+        137,
+        162
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p191-double-paragon-2-corner.png",
+      "sha256": "63f9e295161686d9aa8538ab0fb5ec0e17f8abe4da85ad4be19373650f1fa175"
+    },
+    {
+      "id": "bruce-1828-p191-double-paragon-4-motif",
+      "source_file": "reference/bruce1828-hathi-p191.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          430,
+          1102
+        ],
+        [
+          539,
+          1103
+        ],
+        [
+          539,
+          1214
+        ],
+        [
+          430,
+          1213
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          627.0833333333333,
+          1607.0833333333333
+        ],
+        [
+          786.0416666666666,
+          1608.5416666666665
+        ],
+        [
+          786.0416666666666,
+          1770.4166666666665
+        ],
+        [
+          627.0833333333333,
+          1768.9583333333333
+        ]
+      ],
+      "output_dimensions": [
+        159,
+        162
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p191-double-paragon-4-motif.png",
+      "sha256": "fdd3e537fd480830b575c4924e52cc2372032d9b3691a478bce3bfa444af604a"
+    },
+    {
+      "id": "bruce-1828-p191-double-paragon-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p191.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          416,
+          1606
+        ],
+        [
+          622,
+          1607
+        ],
+        [
+          622,
+          1721
+        ],
+        [
+          416,
+          1720
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          606.6666666666666,
+          2342.083333333333
+        ],
+        [
+          907.0833333333333,
+          2343.5416666666665
+        ],
+        [
+          907.0833333333333,
+          2509.7916666666665
+        ],
+        [
+          606.6666666666666,
+          2508.333333333333
+        ]
+      ],
+      "output_dimensions": [
+        300,
+        166
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p191-double-paragon-6-repeat.png",
+      "sha256": "5aaef12481d171e873d03e47257c64699d2819cfd9ae4646297e1f0a8a7c157b"
+    },
+    {
+      "id": "bruce-1828-p193-double-great-primer-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p193.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          994
+        ],
+        [
+          487,
+          994.9
+        ],
+        [
+          487,
+          1084.9
+        ],
+        [
+          400,
+          1084
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          583.3333333333333,
+          1449.5833333333333
+        ],
+        [
+          710.2083333333333,
+          1450.8958333333333
+        ],
+        [
+          710.2083333333333,
+          1582.1458333333335
+        ],
+        [
+          583.3333333333333,
+          1580.8333333333333
+        ]
+      ],
+      "output_dimensions": [
+        127,
+        131
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p193-double-great-primer-4-repeat.png",
+      "sha256": "fb1de2719ab4a0424feeabd7a3204f1fd04744cf40dfea748059931bfbc10176"
+    },
+    {
+      "id": "bruce-1828-p193-double-great-primer-4-corner",
+      "source_file": "reference/bruce1828-hathi-p193.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          211,
+          994
+        ],
+        [
+          302,
+          994
+        ],
+        [
+          302,
+          1084
+        ],
+        [
+          211,
+          1084
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          307.7083333333333,
+          1449.5833333333333
+        ],
+        [
+          440.41666666666663,
+          1449.5833333333333
+        ],
+        [
+          440.41666666666663,
+          1580.8333333333333
+        ],
+        [
+          307.7083333333333,
+          1580.8333333333333
+        ]
+      ],
+      "output_dimensions": [
+        133,
+        131
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p193-double-great-primer-4-corner.png",
+      "sha256": "cb223c2c910e8252e745c39e2e9f990d215e5cac0914b2a83b8497fd9cf2bf72"
+    },
+    {
+      "id": "bruce-1828-p193-double-great-primer-5-motif",
+      "source_file": "reference/bruce1828-hathi-p193.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          398,
+          1193
+        ],
+        [
+          492,
+          1194
+        ],
+        [
+          492,
+          1290
+        ],
+        [
+          398,
+          1289
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          580.4166666666666,
+          1739.7916666666665
+        ],
+        [
+          717.5,
+          1741.25
+        ],
+        [
+          717.5,
+          1881.25
+        ],
+        [
+          580.4166666666666,
+          1879.7916666666665
+        ]
+      ],
+      "output_dimensions": [
+        137,
+        140
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p193-double-great-primer-5-motif.png",
+      "sha256": "94da0452ee18617762cdba20e9988140e1bb74b33e6c59e25955c67c04d4d17c"
+    },
+    {
+      "id": "bruce-1828-p193-double-great-primer-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p193.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          1411
+        ],
+        [
+          498,
+          1411
+        ],
+        [
+          498,
+          1499
+        ],
+        [
+          400,
+          1499
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          583.3333333333333,
+          2057.708333333333
+        ],
+        [
+          726.25,
+          2057.708333333333
+        ],
+        [
+          726.25,
+          2186.0416666666665
+        ],
+        [
+          583.3333333333333,
+          2186.0416666666665
+        ]
+      ],
+      "output_dimensions": [
+        143,
+        128
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p193-double-great-primer-6-repeat.png",
+      "sha256": "f4ead597288d02ccc2b53479f8611e2b2ce716c1a3f3fe4c38e3f4b98ef8fe8b"
+    },
+    {
+      "id": "bruce-1828-p193-double-great-primer-7-motif",
+      "source_file": "reference/bruce1828-hathi-p193.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        582,
+        2339,
+        723,
+        2486
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p193-double-great-primer-7-motif.png",
+      "sha256": "d847f3bf5d079f5b01c589d48f62608fb1caff98f48bbc1c0c72b00e8b3c046a"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          379
+        ],
+        [
+          414.4,
+          379
+        ],
+        [
+          414.4,
+          465
+        ],
+        [
+          400,
+          465
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          583.3333333333333,
+          552.7083333333333
+        ],
+        [
+          604.3333333333333,
+          552.7083333333333
+        ],
+        [
+          604.3333333333333,
+          678.125
+        ],
+        [
+          583.3333333333333,
+          678.125
+        ]
+      ],
+      "output_dimensions": [
+        21,
+        125
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-1-repeat.png",
+      "sha256": "7b4caf7ab61eac1b721cd2899cf90e646db3c87ab13600d1d60fc078489c500f"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-1-corner",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          212,
+          378
+        ],
+        [
+          297,
+          378
+        ],
+        [
+          297,
+          465
+        ],
+        [
+          212,
+          465
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          309.16666666666663,
+          551.25
+        ],
+        [
+          433.125,
+          551.25
+        ],
+        [
+          433.125,
+          678.125
+        ],
+        [
+          309.16666666666663,
+          678.125
+        ]
+      ],
+      "output_dimensions": [
+        124,
+        127
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-1-corner.png",
+      "sha256": "db2180efd2c90a34f9a4a3b491e4c491b4242b99a3b8bdb733c27c293e538f7b"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          401,
+          596
+        ],
+        [
+          510,
+          597
+        ],
+        [
+          510,
+          681
+        ],
+        [
+          401,
+          680
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          584.7916666666666,
+          869.1666666666666
+        ],
+        [
+          743.75,
+          870.625
+        ],
+        [
+          743.75,
+          993.125
+        ],
+        [
+          584.7916666666666,
+          991.6666666666666
+        ]
+      ],
+      "output_dimensions": [
+        159,
+        122
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-2-repeat.png",
+      "sha256": "74019bf65f291b41dd36793263df2854c8b738bc21a99052921317477ff2e686"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-2-corner",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          207,
+          596
+        ],
+        [
+          301,
+          596
+        ],
+        [
+          301,
+          681
+        ],
+        [
+          207,
+          681
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          301.875,
+          869.1666666666666
+        ],
+        [
+          438.9583333333333,
+          869.1666666666666
+        ],
+        [
+          438.9583333333333,
+          993.125
+        ],
+        [
+          301.875,
+          993.125
+        ]
+      ],
+      "output_dimensions": [
+        137,
+        124
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-2-corner.png",
+      "sha256": "d6bd3df8374edae7e015ace9d17470b7fd5eb5435add770399363bc7a65c94a6"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          365,
+          811
+        ],
+        [
+          436,
+          811
+        ],
+        [
+          436,
+          898
+        ],
+        [
+          365,
+          898
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          532.2916666666666,
+          1182.7083333333333
+        ],
+        [
+          635.8333333333333,
+          1182.7083333333333
+        ],
+        [
+          635.8333333333333,
+          1309.5833333333333
+        ],
+        [
+          532.2916666666666,
+          1309.5833333333333
+        ]
+      ],
+      "output_dimensions": [
+        104,
+        127
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-3-repeat.png",
+      "sha256": "4be07ce256b18d4344d2495068334a887a0bbc596dad77fd83add17ad14c04c9"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-5-motif",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          462,
+          1212
+        ],
+        [
+          549,
+          1213
+        ],
+        [
+          549,
+          1299
+        ],
+        [
+          462,
+          1298
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          673.75,
+          1767.5
+        ],
+        [
+          800.625,
+          1768.9583333333333
+        ],
+        [
+          800.625,
+          1894.375
+        ],
+        [
+          673.75,
+          1892.9166666666665
+        ]
+      ],
+      "output_dimensions": [
+        127,
+        125
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-5-motif.png",
+      "sha256": "b37255922cbb17b8bc24cb3be157bd4176320a7d16163b11420894092f872022"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-6-motif",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        548,
+        2068,
+        678,
+        2205
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-6-motif.png",
+      "sha256": "564846bc18b49cf6292304ca1faeeb8671a3dada21ea20559c4556645e251c89"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        534,
+        2362,
+        633,
+        2498
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-7-repeat.png",
+      "sha256": "dd32f5fbc7eebbba85d8c9e7bc7f7a4d194327248d6ff0386d14f1296ba7b5b7"
+    },
+    {
+      "id": "bruce-1828-p195-double-columbian-7-corner",
+      "source_file": "reference/bruce1828-hathi-p195.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        300,
+        2362,
+        433,
+        2500
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p195-double-columbian-7-corner.png",
+      "sha256": "2db4540ad7aa5821bfdc94b66a56ed255e574ecc46a6b5ba93b8a0c1542bf269"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          332
+        ],
+        [
+          481,
+          332
+        ],
+        [
+          481,
+          408
+        ],
+        [
+          400,
+          408
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          583.3333333333333,
+          484.16666666666663
+        ],
+        [
+          701.4583333333333,
+          484.16666666666663
+        ],
+        [
+          701.4583333333333,
+          595.0
+        ],
+        [
+          583.3333333333333,
+          595.0
+        ]
+      ],
+      "output_dimensions": [
+        118,
+        111
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-1-repeat.png",
+      "sha256": "15e26d9574e5d8cce0e0f43e1784445e5cf6a44a9e6303fce3e42a77a1760b06"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-1-corner",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          235,
+          332
+        ],
+        [
+          308,
+          332
+        ],
+        [
+          308,
+          409
+        ],
+        [
+          235,
+          409
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          342.7083333333333,
+          484.16666666666663
+        ],
+        [
+          449.16666666666663,
+          484.16666666666663
+        ],
+        [
+          449.16666666666663,
+          596.4583333333333
+        ],
+        [
+          342.7083333333333,
+          596.4583333333333
+        ]
+      ],
+      "output_dimensions": [
+        106,
+        112
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-1-corner.png",
+      "sha256": "1a52388e1ebbcc16137ef385bd9573727bc58a3298a99c82b6de5de8a90505db"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        540,
+        752,
+        719,
+        875
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p197-double-english-2-repeat.png",
+      "sha256": "c709cd5e48e46891cd0c1dcd2af921b3b2447d3067256a5b0eb643de7357b4b6"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-2-corner",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        334,
+        751,
+        449,
+        875
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p197-double-english-2-corner.png",
+      "sha256": "cf51cf8b3568c8bb1917bda23b67c397eef61210f231cbfe82ad7ee5f6e6bb44"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          402,
+          702
+        ],
+        [
+          498,
+          702
+        ],
+        [
+          498,
+          776
+        ],
+        [
+          402,
+          776
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          586.25,
+          1023.75
+        ],
+        [
+          726.25,
+          1023.75
+        ],
+        [
+          726.25,
+          1131.6666666666665
+        ],
+        [
+          586.25,
+          1131.6666666666665
+        ]
+      ],
+      "output_dimensions": [
+        140,
+        108
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-3-repeat.png",
+      "sha256": "942fae9aebe7788cee976055955c61b294459f2ff35726441e6a2b244a335706"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-3-corner",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          233,
+          702
+        ],
+        [
+          303,
+          702
+        ],
+        [
+          303,
+          776
+        ],
+        [
+          233,
+          776
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          339.79166666666663,
+          1023.75
+        ],
+        [
+          441.875,
+          1023.75
+        ],
+        [
+          441.875,
+          1131.6666666666665
+        ],
+        [
+          339.79166666666663,
+          1131.6666666666665
+        ]
+      ],
+      "output_dimensions": [
+        102,
+        108
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-3-corner.png",
+      "sha256": "4adb4de56678f7fab78318144d6e27f5d33014b5dee93deaa3605dfd21699953"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-4-motif",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          461,
+          876
+        ],
+        [
+          538,
+          876
+        ],
+        [
+          538,
+          955
+        ],
+        [
+          461,
+          955
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          672.2916666666666,
+          1277.5
+        ],
+        [
+          784.5833333333333,
+          1277.5
+        ],
+        [
+          784.5833333333333,
+          1392.7083333333333
+        ],
+        [
+          672.2916666666666,
+          1392.7083333333333
+        ]
+      ],
+      "output_dimensions": [
+        112,
+        115
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-4-motif.png",
+      "sha256": "4c8651e5a5b4c109ea0b1327c04502a67d43b0e3e28eee06a550cbe34e127e1b"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-5-repeat",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          409,
+          1055
+        ],
+        [
+          526,
+          1055
+        ],
+        [
+          526,
+          1132
+        ],
+        [
+          409,
+          1132
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          596.4583333333333,
+          1538.5416666666665
+        ],
+        [
+          767.0833333333333,
+          1538.5416666666665
+        ],
+        [
+          767.0833333333333,
+          1650.8333333333333
+        ],
+        [
+          596.4583333333333,
+          1650.8333333333333
+        ]
+      ],
+      "output_dimensions": [
+        171,
+        112
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-5-repeat.png",
+      "sha256": "11a0c276f4a0c313048b31f933cbda829cebae4be3124750100f722fa62fa8ff"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          312,
+          1421
+        ],
+        [
+          482,
+          1421
+        ],
+        [
+          482,
+          1496
+        ],
+        [
+          312,
+          1496
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          455.0,
+          2072.2916666666665
+        ],
+        [
+          702.9166666666666,
+          2072.2916666666665
+        ],
+        [
+          702.9166666666666,
+          2181.6666666666665
+        ],
+        [
+          455.0,
+          2181.6666666666665
+        ]
+      ],
+      "output_dimensions": [
+        248,
+        109
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-7-repeat.png",
+      "sha256": "565197fdbda9430bbabfdae97fe4bb162d91b0e07336e92f14073da1e35c0d42"
+    },
+    {
+      "id": "bruce-1828-p197-double-english-8-motif",
+      "source_file": "reference/bruce1828-hathi-p197.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          384,
+          1598
+        ],
+        [
+          459,
+          1598
+        ],
+        [
+          459,
+          1673
+        ],
+        [
+          384,
+          1673
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          560.0,
+          2330.4166666666665
+        ],
+        [
+          669.375,
+          2330.4166666666665
+        ],
+        [
+          669.375,
+          2439.7916666666665
+        ],
+        [
+          560.0,
+          2439.7916666666665
+        ]
+      ],
+      "output_dimensions": [
+        109,
+        109
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p197-double-english-8-motif.png",
+      "sha256": "e25e3a1418129ac2904d74ad63e615ae4bc7582311c8e7e9c09f6944fc099297"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          265,
+          421
+        ],
+        [
+          385,
+          418
+        ],
+        [
+          385,
+          486
+        ],
+        [
+          265,
+          489
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          772.9166666666666,
+          1227.9166666666665
+        ],
+        [
+          1122.9166666666665,
+          1219.1666666666665
+        ],
+        [
+          1122.9166666666665,
+          1417.5
+        ],
+        [
+          772.9166666666666,
+          1426.25
+        ]
+      ],
+      "output_dimensions": [
+        350,
+        198
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-1-repeat.png",
+      "sha256": "74e3233d2ae257b946610584345dd62432447dbcfc20da79a667ab77ab01cb4b"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          576,
+          816
+        ],
+        [
+          647,
+          814.2
+        ],
+        [
+          649,
+          879.2
+        ],
+        [
+          578,
+          881
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1680.0,
+          2380.0
+        ],
+        [
+          1887.0833333333333,
+          2374.75
+        ],
+        [
+          1892.9166666666665,
+          2564.3333333333335
+        ],
+        [
+          1685.8333333333333,
+          2569.583333333333
+        ]
+      ],
+      "output_dimensions": [
+        207,
+        190
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-3-repeat.png",
+      "sha256": "9b79de6ccd71bae3e8f61fd1a0bafa86dd081289eebb8a78e530bb1e82f79d49"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-3-corner",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          207,
+          824
+        ],
+        [
+          275,
+          822
+        ],
+        [
+          277,
+          893
+        ],
+        [
+          209,
+          895
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          603.75,
+          2403.333333333333
+        ],
+        [
+          802.0833333333333,
+          2397.5
+        ],
+        [
+          807.9166666666666,
+          2604.583333333333
+        ],
+        [
+          609.5833333333333,
+          2610.4166666666665
+        ]
+      ],
+      "output_dimensions": [
+        198,
+        207
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-3-corner.png",
+      "sha256": "082c9dfb25708079c83b4d10171edf6fff9dee1a4a91416e6bff902c708427e7"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          591,
+          1020
+        ],
+        [
+          627.5,
+          1019
+        ],
+        [
+          629.5,
+          1083
+        ],
+        [
+          593,
+          1084
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1723.75,
+          2975.0
+        ],
+        [
+          1830.2083333333333,
+          2972.083333333333
+        ],
+        [
+          1836.0416666666665,
+          3158.75
+        ],
+        [
+          1729.5833333333333,
+          3161.6666666666665
+        ]
+      ],
+      "output_dimensions": [
+        106,
+        187
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-4-repeat.png",
+      "sha256": "130fb09e943dbec076e2697a275ca28b6f07f148b4d1bb0ef25db2b7da6216c0"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-5-motif",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          626,
+          1214
+        ],
+        [
+          693,
+          1212.3
+        ],
+        [
+          695,
+          1281.3
+        ],
+        [
+          628,
+          1283
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1825.8333333333333,
+          3540.833333333333
+        ],
+        [
+          2021.25,
+          3535.8749999999995
+        ],
+        [
+          2027.0833333333333,
+          3737.1249999999995
+        ],
+        [
+          1831.6666666666665,
+          3742.083333333333
+        ]
+      ],
+      "output_dimensions": [
+        195,
+        201
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-5-motif.png",
+      "sha256": "3a53994de389399eeb8b012473ea22f1a7073320cd3bd12727e2188781949a10"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-6-motif",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          535,
+          1417
+        ],
+        [
+          561.5,
+          1416.3
+        ],
+        [
+          563.1,
+          1479.3
+        ],
+        [
+          536.6,
+          1480
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1560.4166666666665,
+          4132.916666666666
+        ],
+        [
+          1637.7083333333333,
+          4130.875
+        ],
+        [
+          1642.375,
+          4314.625
+        ],
+        [
+          1565.0833333333333,
+          4316.666666666666
+        ]
+      ],
+      "output_dimensions": [
+        77,
+        184
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-6-motif.png",
+      "sha256": "da2df07aedaadaad44036d2f4d55a448178e8a967a82c4375b8b88a29ea2b61c"
+    },
+    {
+      "id": "bruce-1828-p199-real-double-pica-7-motif",
+      "source_file": "reference/bruce1828-hathi-p199.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          641,
+          1611
+        ],
+        [
+          706,
+          1609.3
+        ],
+        [
+          708,
+          1677.3
+        ],
+        [
+          643,
+          1679
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1869.5833333333333,
+          4698.75
+        ],
+        [
+          2059.1666666666665,
+          4693.791666666666
+        ],
+        [
+          2065.0,
+          4892.125
+        ],
+        [
+          1875.4166666666665,
+          4897.083333333333
+        ]
+      ],
+      "output_dimensions": [
+        190,
+        198
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p199-real-double-pica-7-motif.png",
+      "sha256": "095d35681c714719cdc384dcfac971ba1121181773401a0c448a68780b7f8966"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-1-corner",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          299,
+          413
+        ],
+        [
+          356,
+          413
+        ],
+        [
+          356,
+          472
+        ],
+        [
+          299,
+          472
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          872.0833333333333,
+          1204.5833333333333
+        ],
+        [
+          1038.3333333333333,
+          1204.5833333333333
+        ],
+        [
+          1038.3333333333333,
+          1376.6666666666665
+        ],
+        [
+          872.0833333333333,
+          1376.6666666666665
+        ]
+      ],
+      "output_dimensions": [
+        166,
+        172
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-1-corner.png",
+      "sha256": "262aeebd39517449980c31e0b18ac1213e24b18e5f9aed3bb4b5318ab7704b7a"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1170,
+        1700,
+        1283,
+        1887
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-2-repeat.png",
+      "sha256": "f20d2772ca935a526d0e389ca8d293afddfb8a47983258ed51aca8ad625495bf"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-3-motif",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1382,
+        2196,
+        1560,
+        2380
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-3-motif.png",
+      "sha256": "3c541e7fa08bc012dfa27d44e34a015aefed5ecd647968333d274aae52786337"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1190,
+        2689,
+        1348,
+        2873
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-4-repeat.png",
+      "sha256": "6e2e390dba4e45c533045a3d1865d00e9199018a04dc67dd9555edbe4fd61411"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-5-repeat",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          501,
+          1094
+        ],
+        [
+          649,
+          1094
+        ],
+        [
+          649,
+          1154
+        ],
+        [
+          501,
+          1154
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1461.25,
+          3190.833333333333
+        ],
+        [
+          1892.9166666666665,
+          3190.833333333333
+        ],
+        [
+          1892.9166666666665,
+          3365.833333333333
+        ],
+        [
+          1461.25,
+          3365.833333333333
+        ]
+      ],
+      "output_dimensions": [
+        432,
+        175
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-5-repeat.png",
+      "sha256": "21e5505f96b036de515c69fb8a3928fdecedd652b96ca1c80a4ee0b05f150c30"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1310,
+        3643,
+        1447,
+        3815
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-6-repeat.png",
+      "sha256": "8e1b790d7710a1da82f25e8916a12352e7b3d73752a0c3173ef26628193930e5"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-6-corner",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        869,
+        3643,
+        1041,
+        3815
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-6-corner.png",
+      "sha256": "82a5887ca4dd1f14f14cdb1a0b788d980e236673cb6a2db378d25e26cfbd561a"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          384,
+          1403
+        ],
+        [
+          449,
+          1403
+        ],
+        [
+          449,
+          1465
+        ],
+        [
+          384,
+          1465
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1120.0,
+          4092.083333333333
+        ],
+        [
+          1309.5833333333333,
+          4092.083333333333
+        ],
+        [
+          1309.5833333333333,
+          4272.916666666666
+        ],
+        [
+          1120.0,
+          4272.916666666666
+        ]
+      ],
+      "output_dimensions": [
+        190,
+        181
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-7-repeat.png",
+      "sha256": "a6c90e880816a1b8c47473dbc67c5c8e435d10b7ee8cc31d87df8a1cdaa908d4"
+    },
+    {
+      "id": "bruce-1828-p201-double-small-pica-7-corner",
+      "source_file": "reference/bruce1828-hathi-p201.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          299,
+          1402
+        ],
+        [
+          356,
+          1402
+        ],
+        [
+          356,
+          1465
+        ],
+        [
+          299,
+          1465
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          872.0833333333333,
+          4089.1666666666665
+        ],
+        [
+          1038.3333333333333,
+          4089.1666666666665
+        ],
+        [
+          1038.3333333333333,
+          4272.916666666666
+        ],
+        [
+          872.0833333333333,
+          4272.916666666666
+        ]
+      ],
+      "output_dimensions": [
+        166,
+        184
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p201-double-small-pica-7-corner.png",
+      "sha256": "bef459fc624b37f4bd72669e7fd3d8fdf053b794c21ec3743713662d8376c643"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          386,
+          393
+        ],
+        [
+          476,
+          393
+        ],
+        [
+          476,
+          446
+        ],
+        [
+          386,
+          446
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1125.8333333333333,
+          1146.25
+        ],
+        [
+          1388.3333333333333,
+          1146.25
+        ],
+        [
+          1388.3333333333333,
+          1300.8333333333333
+        ],
+        [
+          1125.8333333333333,
+          1300.8333333333333
+        ]
+      ],
+      "output_dimensions": [
+        262,
+        155
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-1-repeat.png",
+      "sha256": "7687f3b93fb67db8c06eef6c71ac23086e4c4a4126b1e13e78f09196046fa389"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          401,
+          542
+        ],
+        [
+          440,
+          542
+        ],
+        [
+          440,
+          598
+        ],
+        [
+          401,
+          598
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1169.5833333333333,
+          1580.8333333333333
+        ],
+        [
+          1283.3333333333333,
+          1580.8333333333333
+        ],
+        [
+          1283.3333333333333,
+          1744.1666666666665
+        ],
+        [
+          1169.5833333333333,
+          1744.1666666666665
+        ]
+      ],
+      "output_dimensions": [
+        114,
+        163
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-2-repeat.png",
+      "sha256": "5c05d2f252da855dcb6d7671b74c274ee1646bce53889a9cb54d3a937277aa13"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          348,
+          696
+        ],
+        [
+          453,
+          696
+        ],
+        [
+          453,
+          747
+        ],
+        [
+          348,
+          747
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1015.0,
+          2030.0
+        ],
+        [
+          1321.25,
+          2030.0
+        ],
+        [
+          1321.25,
+          2178.75
+        ],
+        [
+          1015.0,
+          2178.75
+        ]
+      ],
+      "output_dimensions": [
+        306,
+        149
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-3-repeat.png",
+      "sha256": "286e94065f04e767e04f5623fa5ab4f76fbbba1bce08c08e4b979c33e894cae1"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-3-corner",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          291,
+          696
+        ],
+        [
+          344,
+          696
+        ],
+        [
+          344,
+          747
+        ],
+        [
+          291,
+          747
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          848.75,
+          2030.0
+        ],
+        [
+          1003.3333333333333,
+          2030.0
+        ],
+        [
+          1003.3333333333333,
+          2178.75
+        ],
+        [
+          848.75,
+          2178.75
+        ]
+      ],
+      "output_dimensions": [
+        155,
+        149
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-3-corner.png",
+      "sha256": "2ca1ca5996954fc42686204b96861d517af3b4bb0959dc11f938fa6958ba0240"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-4-motif",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1135,
+        2430,
+        1295,
+        2602
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p203-paragon-4-motif.png",
+      "sha256": "201d0e22f934677ca3470bd1361549db754ffc7db0762632a630ee164d5382ec"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          397,
+          1267
+        ],
+        [
+          465,
+          1267
+        ],
+        [
+          465,
+          1320
+        ],
+        [
+          397,
+          1320
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1157.9166666666665,
+          3695.4166666666665
+        ],
+        [
+          1356.25,
+          3695.4166666666665
+        ],
+        [
+          1356.25,
+          3850.0
+        ],
+        [
+          1157.9166666666665,
+          3850.0
+        ]
+      ],
+      "output_dimensions": [
+        198,
+        155
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-7-repeat.png",
+      "sha256": "c4e86e51273eb69fca10285b63cf2418c0e26823174e5c91bfda477e51b4e310"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-8-repeat",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          390,
+          1414
+        ],
+        [
+          447,
+          1414
+        ],
+        [
+          447,
+          1467
+        ],
+        [
+          390,
+          1467
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1137.5,
+          4124.166666666666
+        ],
+        [
+          1303.75,
+          4124.166666666666
+        ],
+        [
+          1303.75,
+          4278.75
+        ],
+        [
+          1137.5,
+          4278.75
+        ]
+      ],
+      "output_dimensions": [
+        166,
+        155
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-8-repeat.png",
+      "sha256": "10abf651d8d1d7555ffe01f2802f79a0f0fb23dbe3cc4734e0ab817ec4a6c941"
+    },
+    {
+      "id": "bruce-1828-p203-paragon-9-motif",
+      "source_file": "reference/bruce1828-hathi-p203.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          460,
+          1549
+        ],
+        [
+          505,
+          1549
+        ],
+        [
+          505,
+          1601
+        ],
+        [
+          460,
+          1601
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1341.6666666666665,
+          4517.916666666666
+        ],
+        [
+          1472.9166666666665,
+          4517.916666666666
+        ],
+        [
+          1472.9166666666665,
+          4669.583333333333
+        ],
+        [
+          1341.6666666666665,
+          4669.583333333333
+        ]
+      ],
+      "output_dimensions": [
+        131,
+        152
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p203-paragon-9-motif.png",
+      "sha256": "77d46744e9f1646d8dff9c83c5fd68c691efa325df12b9fd500e76ad39a5b7ab"
+    },
+    {
+      "id": "bruce-1828-p205-great-primer-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p205.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1138,
+        1528,
+        1210,
+        1695
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p205-great-primer-2-repeat.png",
+      "sha256": "0d3284af8722154de2c25063ecd423db993e0c6a8022f00d41dcf0d4c8b86506"
+    },
+    {
+      "id": "bruce-1828-p205-great-primer-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p205.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1167,
+        1951,
+        1327,
+        2112
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p205-great-primer-3-repeat.png",
+      "sha256": "673d91623ae4b65104257c60c93ae0c8021d8990b852c55de76a953dfcb6cded"
+    },
+    {
+      "id": "bruce-1828-p205-great-primer-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p205.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1175,
+        2362,
+        1310,
+        2523
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p205-great-primer-4-repeat.png",
+      "sha256": "1caa8c9476560ebd883fcef8ee969060681839e64485e8e82178c57e91b5bc98"
+    },
+    {
+      "id": "bruce-1828-p205-great-primer-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p205.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1167,
+        3176,
+        1362,
+        3345
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p205-great-primer-6-repeat.png",
+      "sha256": "f826d3f9164532d8046f434be986dc99733e9f8e376a1cb2cf034da03a65c656"
+    },
+    {
+      "id": "bruce-1828-p205-great-primer-7-motif",
+      "source_file": "reference/bruce1828-hathi-p205.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1172,
+        3614,
+        1315,
+        3762
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p205-great-primer-7-motif.png",
+      "sha256": "3829dccd92d33a365310137ac11533b651cdef7955a3178f06a9764b1c256515"
+    },
+    {
+      "id": "bruce-1828-p205-great-primer-9-motif",
+      "source_file": "reference/bruce1828-hathi-p205.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1187,
+        4480,
+        1315,
+        4638
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p205-great-primer-9-motif.png",
+      "sha256": "a4e3c107ec96fe7e47c1ce4508c3de9cd55fe5c10b5e6dec9f5ecd12286a465f"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        998,
+        1143,
+        1234,
+        1295
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-1-repeat.png",
+      "sha256": "83bba0034b5f312fe251494bc7d0808aef4804bd62c8a2b41d2cb434f587713d"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1059,
+        1528,
+        1292,
+        1671
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-2-repeat.png",
+      "sha256": "d552e28733e51c523b6b125f5eba3fb6387d92ade3ba525cba0037e80b11af04"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-3-motif",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1202,
+        1893,
+        1327,
+        2027
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-3-motif.png",
+      "sha256": "8d94116162da6720312a774bd7f4dc996458fae1452cf612e673c726fdb28094"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-5-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1068,
+        2619,
+        1187,
+        2777
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-5-repeat.png",
+      "sha256": "cbf024c202f2ec32dcf073fda576a00baba614321f73791ae89e2f1c1c18d483"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1123,
+        2995,
+        1231,
+        3141
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-6-repeat.png",
+      "sha256": "08abf9b90a784fccf92e7eb4afaf7fa596862e9a2b1c2da2dc8870bdfae488fe"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          378,
+          1154
+        ],
+        [
+          462,
+          1154
+        ],
+        [
+          462,
+          1192
+        ],
+        [
+          378,
+          1192
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1102.5,
+          3365.833333333333
+        ],
+        [
+          1347.5,
+          3365.833333333333
+        ],
+        [
+          1347.5,
+          3476.6666666666665
+        ],
+        [
+          1102.5,
+          3476.6666666666665
+        ]
+      ],
+      "output_dimensions": [
+        245,
+        111
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p207-columbian-7-repeat.png",
+      "sha256": "c35eb13caeaf194f6a16cc97c8a40ebad1f38a1bd7e426a5063853ed4ab69124"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-7-corner",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          245,
+          1154
+        ],
+        [
+          284,
+          1154
+        ],
+        [
+          284,
+          1193
+        ],
+        [
+          245,
+          1193
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          714.5833333333333,
+          3365.833333333333
+        ],
+        [
+          828.3333333333333,
+          3365.833333333333
+        ],
+        [
+          828.3333333333333,
+          3479.583333333333
+        ],
+        [
+          714.5833333333333,
+          3479.583333333333
+        ]
+      ],
+      "output_dimensions": [
+        114,
+        114
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p207-columbian-7-corner.png",
+      "sha256": "0fc8fc7fe55959f8ffc225dc17311fd8f14891acd7b9b4c83f5a5e234e1eee3e"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-8-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1123,
+        3719,
+        1231,
+        3862
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-8-repeat.png",
+      "sha256": "74501b9b97413380bb71f2b4cfe505475981545fbb752793ebcdf3c4561fab2f"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-9-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1164,
+        4110,
+        1307,
+        4250
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-9-repeat.png",
+      "sha256": "d0fd25be7fd3f5c5c51e9b7629bc87ce4aca730aa0b48cca3d713e57d0b75c36"
+    },
+    {
+      "id": "bruce-1828-p207-columbian-10-repeat",
+      "source_file": "reference/bruce1828-hathi-p207.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1114,
+        4492,
+        1216,
+        4626
+      ],
+      "method": "Unwarped native rectangle.",
+      "output": "reference/crops/bruce-1828-p207-columbian-10-repeat.png",
+      "sha256": "a79f1ad509b2c295d2a5b3759289d279f397a31754fb6c35a30e807fe3b6a551"
+    },
+    {
+      "id": "bruce-1828-p209-english-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p209.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          377,
+          960
+        ],
+        [
+          434,
+          960
+        ],
+        [
+          434,
+          997
+        ],
+        [
+          377,
+          997
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1099.5833333333333,
+          2800.0
+        ],
+        [
+          1265.8333333333333,
+          2800.0
+        ],
+        [
+          1265.8333333333333,
+          2907.9166666666665
+        ],
+        [
+          1099.5833333333333,
+          2907.9166666666665
+        ]
+      ],
+      "output_dimensions": [
+        166,
+        108
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p209-english-7-repeat.png",
+      "sha256": "5fe94a6496279c9b40f7bb4de9b91fc78fa4833415962abf2a1c934f8496ce68"
+    },
+    {
+      "id": "bruce-1828-p209-english-8-motif",
+      "source_file": "reference/bruce1828-hathi-p209.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          394,
+          1055
+        ],
+        [
+          432,
+          1055
+        ],
+        [
+          432,
+          1095
+        ],
+        [
+          394,
+          1095
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1149.1666666666665,
+          3077.083333333333
+        ],
+        [
+          1260.0,
+          3077.083333333333
+        ],
+        [
+          1260.0,
+          3193.75
+        ],
+        [
+          1149.1666666666665,
+          3193.75
+        ]
+      ],
+      "output_dimensions": [
+        111,
+        117
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p209-english-8-motif.png",
+      "sha256": "304b3efb0e81339e289bbfeb394e3439576dd940b5375f0a38648418ca6f0736"
+    },
+    {
+      "id": "bruce-1828-p209-english-11-repeat",
+      "source_file": "reference/bruce1828-hathi-p209.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          1355
+        ],
+        [
+          457,
+          1355
+        ],
+        [
+          457,
+          1393
+        ],
+        [
+          400,
+          1393
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1166.6666666666665,
+          3952.083333333333
+        ],
+        [
+          1332.9166666666665,
+          3952.083333333333
+        ],
+        [
+          1332.9166666666665,
+          4062.9166666666665
+        ],
+        [
+          1166.6666666666665,
+          4062.9166666666665
+        ]
+      ],
+      "output_dimensions": [
+        166,
+        111
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p209-english-11-repeat.png",
+      "sha256": "0a5f4b6c25445106d10a4a2831e8b16ff9294706c3352ee3e0e0522bc5a8416f"
+    },
+    {
+      "id": "bruce-1828-p209-english-13-motif",
+      "source_file": "reference/bruce1828-hathi-p209.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          390.17,
+          1558
+        ],
+        [
+          425.83,
+          1558
+        ],
+        [
+          425.83,
+          1597
+        ],
+        [
+          390.17,
+          1597
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1137.9958333333334,
+          4544.166666666666
+        ],
+        [
+          1242.0041666666666,
+          4544.166666666666
+        ],
+        [
+          1242.0041666666666,
+          4657.916666666666
+        ],
+        [
+          1137.9958333333334,
+          4657.916666666666
+        ]
+      ],
+      "output_dimensions": [
+        104,
+        114
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p209-english-13-motif.png",
+      "sha256": "a44553be8ebc9f3300398bf70876b1847f1631c3d2ae75201392b54357b4a8b8"
+    },
+    {
+      "id": "bruce-1828-p211-pica-2-corner",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          341,
+          422
+        ],
+        [
+          373,
+          422
+        ],
+        [
+          373,
+          457
+        ],
+        [
+          341,
+          457
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          992.3100000000001,
+          1228.02
+        ],
+        [
+          1085.43,
+          1228.02
+        ],
+        [
+          1085.43,
+          1329.8700000000001
+        ],
+        [
+          992.3100000000001,
+          1329.8700000000001
+        ]
+      ],
+      "output_dimensions": [
+        93,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-2-corner.png",
+      "sha256": "1b6e62c6699d5302fac0bdb6c885f9513f7d19f7740babdc86df375929a9769d"
+    },
+    {
+      "id": "bruce-1828-p211-pica-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          388,
+          520
+        ],
+        [
+          445,
+          520
+        ],
+        [
+          445,
+          556
+        ],
+        [
+          388,
+          556
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1129.0800000000002,
+          1513.2
+        ],
+        [
+          1294.95,
+          1513.2
+        ],
+        [
+          1294.95,
+          1617.96
+        ],
+        [
+          1129.0800000000002,
+          1617.96
+        ]
+      ],
+      "output_dimensions": [
+        166,
+        105
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-3-repeat.png",
+      "sha256": "857f9bc11dd3683722b464c7677b20671e567f68a470960b2fa9e919a50e74af"
+    },
+    {
+      "id": "bruce-1828-p211-pica-3-corner",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          302,
+          521
+        ],
+        [
+          336,
+          521
+        ],
+        [
+          336,
+          556
+        ],
+        [
+          302,
+          556
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          878.82,
+          1516.1100000000001
+        ],
+        [
+          977.76,
+          1516.1100000000001
+        ],
+        [
+          977.76,
+          1617.96
+        ],
+        [
+          878.82,
+          1617.96
+        ]
+      ],
+      "output_dimensions": [
+        99,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-3-corner.png",
+      "sha256": "e764d8d7b2f09245de47b93a0bbb4cada5970ca42ec067b894266ccd5507850f"
+    },
+    {
+      "id": "bruce-1828-p211-pica-5-motif",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          393,
+          693
+        ],
+        [
+          425.5,
+          693
+        ],
+        [
+          425.5,
+          728
+        ],
+        [
+          393,
+          728
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1143.63,
+          2016.63
+        ],
+        [
+          1238.2050000000002,
+          2016.63
+        ],
+        [
+          1238.2050000000002,
+          2118.48
+        ],
+        [
+          1143.63,
+          2118.48
+        ]
+      ],
+      "output_dimensions": [
+        95,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-5-motif.png",
+      "sha256": "388c25c9f23429494f81ea4050c57f9e21b8091b99de49afa7f0b4ef27b5b690"
+    },
+    {
+      "id": "bruce-1828-p211-pica-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          391,
+          784
+        ],
+        [
+          433,
+          784
+        ],
+        [
+          433,
+          820
+        ],
+        [
+          391,
+          820
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1137.81,
+          2281.44
+        ],
+        [
+          1260.03,
+          2281.44
+        ],
+        [
+          1260.03,
+          2386.2000000000003
+        ],
+        [
+          1137.81,
+          2386.2000000000003
+        ]
+      ],
+      "output_dimensions": [
+        122,
+        105
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-6-repeat.png",
+      "sha256": "b28b8726ad849d6e8dd928cc959bed3a5dd497d1cbdd494a8cbf99403d9a438b"
+    },
+    {
+      "id": "bruce-1828-p211-pica-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          389,
+          883
+        ],
+        [
+          422,
+          883
+        ],
+        [
+          422,
+          918
+        ],
+        [
+          389,
+          918
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1131.99,
+          2569.53
+        ],
+        [
+          1228.02,
+          2569.53
+        ],
+        [
+          1228.02,
+          2671.38
+        ],
+        [
+          1131.99,
+          2671.38
+        ]
+      ],
+      "output_dimensions": [
+        96,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-7-repeat.png",
+      "sha256": "5c769a851a0d06460e0e62de43db7e6dcb5e948f9d5221727b727fbb4c9e2d0b"
+    },
+    {
+      "id": "bruce-1828-p211-pica-8-motif",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          400,
+          974
+        ],
+        [
+          435,
+          974
+        ],
+        [
+          435,
+          1010
+        ],
+        [
+          400,
+          1010
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1164.0,
+          2834.34
+        ],
+        [
+          1265.8500000000001,
+          2834.34
+        ],
+        [
+          1265.8500000000001,
+          2939.1000000000004
+        ],
+        [
+          1164.0,
+          2939.1000000000004
+        ]
+      ],
+      "output_dimensions": [
+        102,
+        105
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-8-motif.png",
+      "sha256": "f67adca16628e08160ec34387f2238130e5c36005e77d00ac982a051057ea6b4"
+    },
+    {
+      "id": "bruce-1828-p211-pica-9-repeat",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          389,
+          1068
+        ],
+        [
+          429,
+          1068
+        ],
+        [
+          429,
+          1100
+        ],
+        [
+          389,
+          1100
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1131.99,
+          3107.88
+        ],
+        [
+          1248.39,
+          3107.88
+        ],
+        [
+          1248.39,
+          3201.0
+        ],
+        [
+          1131.99,
+          3201.0
+        ]
+      ],
+      "output_dimensions": [
+        116,
+        93
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-9-repeat.png",
+      "sha256": "a2fd2fc275e62638c6c1815ee0aa524205a13fbda4b807ad6c061e835df0b65a"
+    },
+    {
+      "id": "bruce-1828-p211-pica-9-corner",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          285,
+          1068
+        ],
+        [
+          322,
+          1068
+        ],
+        [
+          322,
+          1101
+        ],
+        [
+          285,
+          1101
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          829.35,
+          3107.88
+        ],
+        [
+          937.0200000000001,
+          3107.88
+        ],
+        [
+          937.0200000000001,
+          3203.9100000000003
+        ],
+        [
+          829.35,
+          3203.9100000000003
+        ]
+      ],
+      "output_dimensions": [
+        108,
+        96
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-9-corner.png",
+      "sha256": "64e03d46bf0e312e0b4aaf24c533f90d6ef98e96b71012bbc9a5e7e50ec85cca"
+    },
+    {
+      "id": "bruce-1828-p211-pica-14-motif",
+      "source_file": "reference/bruce1828-hathi-p211.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          409.5,
+          1560
+        ],
+        [
+          443,
+          1560
+        ],
+        [
+          443,
+          1598
+        ],
+        [
+          409.5,
+          1598
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1191.645,
+          4539.6
+        ],
+        [
+          1289.13,
+          4539.6
+        ],
+        [
+          1289.13,
+          4650.18
+        ],
+        [
+          1191.645,
+          4650.18
+        ]
+      ],
+      "output_dimensions": [
+        97,
+        111
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p211-pica-14-motif.png",
+      "sha256": "f2a5c629bf688e9255b37c06f8e44bc513871b8af82094ad488906ff74717dd0"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-1-motif",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          305,
+          438
+        ],
+        [
+          338,
+          438.759
+        ],
+        [
+          338,
+          473.759
+        ],
+        [
+          305,
+          473
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          887.5500000000001,
+          1274.5800000000002
+        ],
+        [
+          983.58,
+          1276.78869
+        ],
+        [
+          983.58,
+          1378.63869
+        ],
+        [
+          887.5500000000001,
+          1376.43
+        ]
+      ],
+      "output_dimensions": [
+        96,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-1-motif.png",
+      "sha256": "e334a60ca6b80fb4da9a6d9cc3c4163abcfd1c00d298ec1584609d22f346f7b0"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          389,
+          530
+        ],
+        [
+          410,
+          530.483
+        ],
+        [
+          410,
+          565.483
+        ],
+        [
+          389,
+          565
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1131.99,
+          1542.3000000000002
+        ],
+        [
+          1193.1000000000001,
+          1543.70553
+        ],
+        [
+          1193.1000000000001,
+          1645.5555299999999
+        ],
+        [
+          1131.99,
+          1644.15
+        ]
+      ],
+      "output_dimensions": [
+        61,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-3-repeat.png",
+      "sha256": "cac8b8792fea83cec34a67d43f792a4918ee8b5e824f88a37f3964982db4a94f"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          411,
+          626
+        ],
+        [
+          480,
+          627.587
+        ],
+        [
+          480,
+          661.587
+        ],
+        [
+          411,
+          660
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1196.01,
+          1821.66
+        ],
+        [
+          1396.8000000000002,
+          1826.27817
+        ],
+        [
+          1396.8000000000002,
+          1925.21817
+        ],
+        [
+          1196.01,
+          1920.6000000000001
+        ]
+      ],
+      "output_dimensions": [
+        201,
+        99
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-4-repeat.png",
+      "sha256": "e9299cf3785d60e0af8173aacd3fc502d6db04bb56f3fce40e9322d992b87fb7"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-4-corner",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          312,
+          620
+        ],
+        [
+          349,
+          620.851
+        ],
+        [
+          349,
+          658.851
+        ],
+        [
+          312,
+          658
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          907.9200000000001,
+          1804.2
+        ],
+        [
+          1015.59,
+          1806.67641
+        ],
+        [
+          1015.59,
+          1917.2564100000002
+        ],
+        [
+          907.9200000000001,
+          1914.7800000000002
+        ]
+      ],
+      "output_dimensions": [
+        108,
+        111
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-4-corner.png",
+      "sha256": "fb26038521d96d80575e27b663673d96f55b8431285da5500c8e880e6a5ef50c"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-5-motif",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          405.5,
+          720
+        ],
+        [
+          434.5,
+          720.667
+        ],
+        [
+          434.5,
+          755.667
+        ],
+        [
+          405.5,
+          755
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1180.005,
+          2095.2000000000003
+        ],
+        [
+          1264.395,
+          2097.1409700000004
+        ],
+        [
+          1264.395,
+          2198.9909700000003
+        ],
+        [
+          1180.005,
+          2197.05
+        ]
+      ],
+      "output_dimensions": [
+        84,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-5-motif.png",
+      "sha256": "67316681635fba214d579c3d1ba602c05c7137c1d9d8789c6128704f81d8cef9"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-6-repeat",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          411,
+          818
+        ],
+        [
+          454,
+          818.989
+        ],
+        [
+          454,
+          851.989
+        ],
+        [
+          411,
+          851
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1196.01,
+          2380.38
+        ],
+        [
+          1321.14,
+          2383.25799
+        ],
+        [
+          1321.14,
+          2479.2879900000003
+        ],
+        [
+          1196.01,
+          2476.4100000000003
+        ]
+      ],
+      "output_dimensions": [
+        125,
+        96
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-6-repeat.png",
+      "sha256": "f8d56d0809df184cbce5fe0dfc4112cc7cfdba21cce3fedcc89bb914b5b2fa9f"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          389,
+          914
+        ],
+        [
+          434,
+          915.035
+        ],
+        [
+          434,
+          951.035
+        ],
+        [
+          389,
+          950
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1131.99,
+          2659.7400000000002
+        ],
+        [
+          1262.94,
+          2662.75185
+        ],
+        [
+          1262.94,
+          2767.51185
+        ],
+        [
+          1131.99,
+          2764.5
+        ]
+      ],
+      "output_dimensions": [
+        131,
+        105
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-7-repeat.png",
+      "sha256": "4a10619e1bab015814e91755eea96d359beb75e5264b3dc18f53b0346fd4a65a"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-8-motif",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          414,
+          1006
+        ],
+        [
+          444,
+          1006.69
+        ],
+        [
+          444,
+          1042.69
+        ],
+        [
+          414,
+          1042
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1204.74,
+          2927.46
+        ],
+        [
+          1292.04,
+          2929.4679
+        ],
+        [
+          1292.04,
+          3034.2279000000003
+        ],
+        [
+          1204.74,
+          3032.2200000000003
+        ]
+      ],
+      "output_dimensions": [
+        87,
+        105
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-8-motif.png",
+      "sha256": "f80bb8bda1575ef8df6086dfe3484f63af366aa31cdf28d0f6ce93e57092f29a"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-10-repeat",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          412,
+          1190
+        ],
+        [
+          441,
+          1190.667
+        ],
+        [
+          441,
+          1227.667
+        ],
+        [
+          412,
+          1227
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1198.92,
+          3462.9
+        ],
+        [
+          1283.3100000000002,
+          3464.8409699999997
+        ],
+        [
+          1283.3100000000002,
+          3572.51097
+        ],
+        [
+          1198.92,
+          3570.57
+        ]
+      ],
+      "output_dimensions": [
+        84,
+        108
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-10-repeat.png",
+      "sha256": "bc667f3604010258de1c074c1d3c25e181fbd483037de19351be71aa0252de8d"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-12-motif",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          418.5,
+          1378
+        ],
+        [
+          447.5,
+          1378.667
+        ],
+        [
+          447.5,
+          1414.667
+        ],
+        [
+          418.5,
+          1414
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1217.835,
+          4009.98
+        ],
+        [
+          1302.2250000000001,
+          4011.92097
+        ],
+        [
+          1302.2250000000001,
+          4116.68097
+        ],
+        [
+          1217.835,
+          4114.74
+        ]
+      ],
+      "output_dimensions": [
+        84,
+        105
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-12-motif.png",
+      "sha256": "a11a1be1d4cbf1c52a2f64747bbca6f7f898f937b44f337b371bd9de19530857"
+    },
+    {
+      "id": "bruce-1828-p213-small-pica-13-repeat",
+      "source_file": "reference/bruce1828-hathi-p213.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          388,
+          1466
+        ],
+        [
+          417,
+          1466.667
+        ],
+        [
+          417,
+          1506.667
+        ],
+        [
+          388,
+          1506
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1129.0800000000002,
+          4266.06
+        ],
+        [
+          1213.47,
+          4268.00097
+        ],
+        [
+          1213.47,
+          4384.40097
+        ],
+        [
+          1129.0800000000002,
+          4382.46
+        ]
+      ],
+      "output_dimensions": [
+        84,
+        116
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p213-small-pica-13-repeat.png",
+      "sha256": "e0fe3c523ff0f1146004e130572efcafc8f7201b87b5db3f368853f7d9314624"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          389,
+          429
+        ],
+        [
+          432,
+          429
+        ],
+        [
+          432,
+          453
+        ],
+        [
+          389,
+          453
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1131.99,
+          1248.39
+        ],
+        [
+          1257.1200000000001,
+          1248.39
+        ],
+        [
+          1257.1200000000001,
+          1318.23
+        ],
+        [
+          1131.99,
+          1318.23
+        ]
+      ],
+      "output_dimensions": [
+        125,
+        70
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-2-repeat.png",
+      "sha256": "7064a4769e6e5e618bf4202c7b2ed9d83c3c74239c712cd9bd42c2e64cbde39e"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-2-corner",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          307,
+          426
+        ],
+        [
+          335,
+          426
+        ],
+        [
+          335,
+          461
+        ],
+        [
+          307,
+          461
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          893.37,
+          1239.66
+        ],
+        [
+          974.85,
+          1239.66
+        ],
+        [
+          974.85,
+          1341.51
+        ],
+        [
+          893.37,
+          1341.51
+        ]
+      ],
+      "output_dimensions": [
+        81,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-2-corner.png",
+      "sha256": "e9e15bbacad0a500e69b79f90443438d6c62011b11bf2fc6506a8959025a62d2"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          386,
+          524
+        ],
+        [
+          421,
+          524
+        ],
+        [
+          421,
+          548
+        ],
+        [
+          386,
+          548
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1123.26,
+          1524.8400000000001
+        ],
+        [
+          1225.1100000000001,
+          1524.8400000000001
+        ],
+        [
+          1225.1100000000001,
+          1594.68
+        ],
+        [
+          1123.26,
+          1594.68
+        ]
+      ],
+      "output_dimensions": [
+        102,
+        70
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-3-repeat.png",
+      "sha256": "8f4236c917e0fece82693d0dd8033e64d4506b87bfda9081c1133e8b1622430f"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-5-motif",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          440.2,
+          706
+        ],
+        [
+          466.67,
+          706
+        ],
+        [
+          466.67,
+          737
+        ],
+        [
+          440.2,
+          737
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1280.982,
+          2054.46
+        ],
+        [
+          1358.0097,
+          2054.46
+        ],
+        [
+          1358.0097,
+          2144.67
+        ],
+        [
+          1280.982,
+          2144.67
+        ]
+      ],
+      "output_dimensions": [
+        77,
+        90
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-5-motif.png",
+      "sha256": "b097953abaa0ac0854f04e1302569f149e4e713c9d8ea476563955a236cba9d3"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-6-motif",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          449,
+          809
+        ],
+        [
+          470,
+          809
+        ],
+        [
+          470,
+          833
+        ],
+        [
+          449,
+          833
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1306.5900000000001,
+          2354.19
+        ],
+        [
+          1367.7,
+          2354.19
+        ],
+        [
+          1367.7,
+          2424.03
+        ],
+        [
+          1306.5900000000001,
+          2424.03
+        ]
+      ],
+      "output_dimensions": [
+        61,
+        70
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-6-motif.png",
+      "sha256": "2de0490c83c9a24d99dda5ed8a182064b49bed5565e79c47eaf1938bd76154f8"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-8-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          416,
+          992
+        ],
+        [
+          453,
+          992
+        ],
+        [
+          453,
+          1024
+        ],
+        [
+          416,
+          1024
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1210.56,
+          2886.7200000000003
+        ],
+        [
+          1318.23,
+          2886.7200000000003
+        ],
+        [
+          1318.23,
+          2979.84
+        ],
+        [
+          1210.56,
+          2979.84
+        ]
+      ],
+      "output_dimensions": [
+        108,
+        93
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-8-repeat.png",
+      "sha256": "97f42a4819315f7382b8ead8e04f62edf5b171b52ab6d46dc028bcbde89a62b1"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-8-corner",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          324,
+          993
+        ],
+        [
+          354.5,
+          993
+        ],
+        [
+          354.5,
+          1027
+        ],
+        [
+          324,
+          1027
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          942.84,
+          2889.63
+        ],
+        [
+          1031.595,
+          2889.63
+        ],
+        [
+          1031.595,
+          2988.57
+        ],
+        [
+          942.84,
+          2988.57
+        ]
+      ],
+      "output_dimensions": [
+        89,
+        99
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-8-corner.png",
+      "sha256": "ca6b85ab09ff7f74590806af1410a8df21c1d5ba1833c200a276b6713d53846f"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-9-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          403,
+          1079
+        ],
+        [
+          456,
+          1079
+        ],
+        [
+          456,
+          1114
+        ],
+        [
+          403,
+          1114
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1172.73,
+          3139.8900000000003
+        ],
+        [
+          1326.96,
+          3139.8900000000003
+        ],
+        [
+          1326.96,
+          3241.7400000000002
+        ],
+        [
+          1172.73,
+          3241.7400000000002
+        ]
+      ],
+      "output_dimensions": [
+        154,
+        102
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-9-repeat.png",
+      "sha256": "9bbf417165f324cac605ce6cf1385b3b7aa9f75f73636ac780994d282fd2771b"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-11-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          385,
+          1246
+        ],
+        [
+          412,
+          1246
+        ],
+        [
+          412,
+          1278
+        ],
+        [
+          385,
+          1278
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1120.3500000000001,
+          3625.86
+        ],
+        [
+          1198.92,
+          3625.86
+        ],
+        [
+          1198.92,
+          3718.98
+        ],
+        [
+          1120.3500000000001,
+          3718.98
+        ]
+      ],
+      "output_dimensions": [
+        79,
+        93
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-11-repeat.png",
+      "sha256": "5ec40385b340f0cdcd40a8dec689f744828cc97a07f88fdadec2143b14542fc7"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-14-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          415,
+          1510
+        ],
+        [
+          441,
+          1510
+        ],
+        [
+          441,
+          1543
+        ],
+        [
+          415,
+          1543
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1207.65,
+          4394.1
+        ],
+        [
+          1283.3100000000002,
+          4394.1
+        ],
+        [
+          1283.3100000000002,
+          4490.13
+        ],
+        [
+          1207.65,
+          4490.13
+        ]
+      ],
+      "output_dimensions": [
+        76,
+        96
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-14-repeat.png",
+      "sha256": "f7a083b7e3448a920b288b8c3ce7c4866a33c4113197c08abe53d647ccb14c27"
+    },
+    {
+      "id": "bruce-1828-p215-long-primer-15-repeat",
+      "source_file": "reference/bruce1828-hathi-p215.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          407,
+          1601
+        ],
+        [
+          428,
+          1601
+        ],
+        [
+          428,
+          1627
+        ],
+        [
+          407,
+          1627
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1184.3700000000001,
+          4658.91
+        ],
+        [
+          1245.48,
+          4658.91
+        ],
+        [
+          1245.48,
+          4734.570000000001
+        ],
+        [
+          1184.3700000000001,
+          4734.570000000001
+        ]
+      ],
+      "output_dimensions": [
+        61,
+        76
+      ],
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths.",
+      "output": "reference/crops/bruce-1828-p215-long-primer-15-repeat.png",
+      "sha256": "13052d0bd02647d3f352cc4b5fee816d337cc0a0754e9927d0998566c8f38777"
+    },
+    {
+      "id": "bruce-1828-p217-bourgeois-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          391,
+          399
+        ],
+        [
+          411,
+          399.5
+        ],
+        [
+          411,
+          431.5
+        ],
+        [
+          391,
+          431
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1137.81,
+          1161.0900000000001
+        ],
+        [
+          1196.01,
+          1162.545
+        ],
+        [
+          1196.01,
+          1255.665
+        ],
+        [
+          1137.81,
+          1254.21
+        ]
+      ],
+      "output_dimensions": [
+        58,
+        93
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-bourgeois-2-repeat.png",
+      "sha256": "c43ed1549f775ac1107c619571842e57d3ae51ad5d1085794dd7732c10eeedfd"
+    },
+    {
+      "id": "bruce-1828-p217-bourgeois-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          411,
+          461
+        ],
+        [
+          444.3,
+          461.8325
+        ],
+        [
+          444.3,
+          493.8325
+        ],
+        [
+          411,
+          493
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1196.01,
+          1341.51
+        ],
+        [
+          1292.913,
+          1343.932575
+        ],
+        [
+          1292.913,
+          1437.052575
+        ],
+        [
+          1196.01,
+          1434.63
+        ]
+      ],
+      "output_dimensions": [
+        97,
+        93
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-bourgeois-3-repeat.png",
+      "sha256": "89850041d07e9900f483ab1cce4aefbb3b41aa0e3948a763c9721f30d9050da8"
+    },
+    {
+      "id": "bruce-1828-p217-bourgeois-7-motif",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          405,
+          714
+        ],
+        [
+          428,
+          714.575
+        ],
+        [
+          428,
+          746.575
+        ],
+        [
+          405,
+          746
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1178.55,
+          2077.7400000000002
+        ],
+        [
+          1245.48,
+          2079.41325
+        ],
+        [
+          1245.48,
+          2172.5332500000004
+        ],
+        [
+          1178.55,
+          2170.86
+        ]
+      ],
+      "output_dimensions": [
+        67,
+        93
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-bourgeois-7-motif.png",
+      "sha256": "ecbb788c0665558edf4bb3c58c9525e2c88f68b02aa833f7db21a5bda4659882"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          398,
+          889
+        ],
+        [
+          422,
+          889.6
+        ],
+        [
+          422,
+          920.6
+        ],
+        [
+          398,
+          920
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1158.18,
+          2586.9900000000002
+        ],
+        [
+          1228.02,
+          2588.7360000000003
+        ],
+        [
+          1228.02,
+          2678.9460000000004
+        ],
+        [
+          1158.18,
+          2677.2000000000003
+        ]
+      ],
+      "output_dimensions": [
+        70,
+        90
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-1-repeat.png",
+      "sha256": "da62687eabe9c9436b98a4e028fa542a4e22ef1b3d6bc681caed7b106bbafbd2"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-1-corner",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          271,
+          884
+        ],
+        [
+          291,
+          884.5
+        ],
+        [
+          291,
+          914.5
+        ],
+        [
+          271,
+          914
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          788.61,
+          2572.44
+        ],
+        [
+          846.8100000000001,
+          2573.895
+        ],
+        [
+          846.8100000000001,
+          2661.195
+        ],
+        [
+          788.61,
+          2659.7400000000002
+        ]
+      ],
+      "output_dimensions": [
+        58,
+        87
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-1-corner.png",
+      "sha256": "a1266a773f4f2872e0e06be180d02ba0d7415ecea161211bca243109c7f3e5eb"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-2-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          392.302,
+          951
+        ],
+        [
+          421.302,
+          951.725
+        ],
+        [
+          421.302,
+          981.725
+        ],
+        [
+          392.302,
+          981
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1141.5988200000002,
+          2767.4100000000003
+        ],
+        [
+          1225.98882,
+          2769.5197500000004
+        ],
+        [
+          1225.98882,
+          2856.81975
+        ],
+        [
+          1141.5988200000002,
+          2854.71
+        ]
+      ],
+      "output_dimensions": [
+        84,
+        87
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-2-repeat.png",
+      "sha256": "cb6edf588ac8fd778dedda803b783299909b9e8f16259707a0e079260879c18f"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          410,
+          1023
+        ],
+        [
+          463,
+          1024.325
+        ],
+        [
+          463,
+          1047.325
+        ],
+        [
+          410,
+          1046
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1193.1000000000001,
+          2976.9300000000003
+        ],
+        [
+          1347.3300000000002,
+          2980.7857500000005
+        ],
+        [
+          1347.3300000000002,
+          3047.7157500000003
+        ],
+        [
+          1193.1000000000001,
+          3043.86
+        ]
+      ],
+      "output_dimensions": [
+        154,
+        67
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-3-repeat.png",
+      "sha256": "ad41abb9ec63e2627cf5054dba3ac78aa07ae914d51c89293ce5313bc1678ea9"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-10-motif",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          419.3,
+          1407
+        ],
+        [
+          441.5,
+          1407.555
+        ],
+        [
+          441.5,
+          1438.555
+        ],
+        [
+          419.3,
+          1438
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1220.163,
+          4094.3700000000003
+        ],
+        [
+          1284.765,
+          4095.9850500000002
+        ],
+        [
+          1284.765,
+          4186.19505
+        ],
+        [
+          1220.163,
+          4184.58
+        ]
+      ],
+      "output_dimensions": [
+        65,
+        90
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-10-motif.png",
+      "sha256": "d65325ab2c5b53c6926b99475c4fb51d65f42da23bde0c0b7951ed887236b34c"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-12-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          390,
+          1473
+        ],
+        [
+          407.9,
+          1473.4475
+        ],
+        [
+          407.9,
+          1500.4475
+        ],
+        [
+          390,
+          1500
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1134.9,
+          4286.43
+        ],
+        [
+          1186.989,
+          4287.732225
+        ],
+        [
+          1186.989,
+          4366.302225
+        ],
+        [
+          1134.9,
+          4365.0
+        ]
+      ],
+      "output_dimensions": [
+        52,
+        79
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-12-repeat.png",
+      "sha256": "f9b8aa02aac3585656b92afe8eae29f7a032f2dba3584294579ead8a25efb8ea"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-13-repeat",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          409,
+          1535
+        ],
+        [
+          428.4,
+          1535.485
+        ],
+        [
+          428.4,
+          1564.485
+        ],
+        [
+          409,
+          1564
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1190.19,
+          4466.85
+        ],
+        [
+          1246.644,
+          4468.26135
+        ],
+        [
+          1246.644,
+          4552.65135
+        ],
+        [
+          1190.19,
+          4551.24
+        ]
+      ],
+      "output_dimensions": [
+        56,
+        84
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-13-repeat.png",
+      "sha256": "a435defae3e4d422cc8dc64091267a854c66e69f55429bae2833371f139f9a1a"
+    },
+    {
+      "id": "bruce-1828-p217-brevier-14-rhomboid",
+      "source_file": "reference/bruce1828-hathi-p217.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          422,
+          1593
+        ],
+        [
+          466,
+          1594.1
+        ],
+        [
+          466,
+          1631.1
+        ],
+        [
+          422,
+          1630
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1228.02,
+          4635.63
+        ],
+        [
+          1356.0600000000002,
+          4638.831
+        ],
+        [
+          1356.0600000000002,
+          4746.501
+        ],
+        [
+          1228.02,
+          4743.3
+        ]
+      ],
+      "output_dimensions": [
+        128,
+        108
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p217-brevier-14-rhomboid.png",
+      "sha256": "87158d4de53fe5ba37b9edf114b2831106068f0728c35887aaf2c1248e431d93"
+    },
+    {
+      "id": "bruce-1828-p233-minion-1-motif",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          468.5,
+          316
+        ],
+        [
+          488,
+          316
+        ],
+        [
+          488,
+          345
+        ],
+        [
+          468.5,
+          345
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1363.335,
+          919.5600000000001
+        ],
+        [
+          1420.0800000000002,
+          919.5600000000001
+        ],
+        [
+          1420.0800000000002,
+          1003.95
+        ],
+        [
+          1363.335,
+          1003.95
+        ]
+      ],
+      "output_dimensions": [
+        57,
+        84
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-minion-1-motif.png",
+      "sha256": "73f7ed85cdede13ba7d1327a77bbfef65482d161607b1d4517fc3cdc300f8f34"
+    },
+    {
+      "id": "bruce-1828-p233-minion-2-motif",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          395,
+          366
+        ],
+        [
+          415,
+          366
+        ],
+        [
+          415,
+          396
+        ],
+        [
+          395,
+          396
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1149.45,
+          1065.06
+        ],
+        [
+          1207.65,
+          1065.06
+        ],
+        [
+          1207.65,
+          1152.3600000000001
+        ],
+        [
+          1149.45,
+          1152.3600000000001
+        ]
+      ],
+      "output_dimensions": [
+        58,
+        87
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-minion-2-motif.png",
+      "sha256": "8a14ad11ba2647d6ec7030e621b5c4ee438c3250ab180f169ca704ad5aa5c0c0"
+    },
+    {
+      "id": "bruce-1828-p233-minion-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          407,
+          470
+        ],
+        [
+          452.3,
+          470
+        ],
+        [
+          452.3,
+          501
+        ],
+        [
+          407,
+          501
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1184.3700000000001,
+          1367.7
+        ],
+        [
+          1316.1930000000002,
+          1367.7
+        ],
+        [
+          1316.1930000000002,
+          1457.91
+        ],
+        [
+          1184.3700000000001,
+          1457.91
+        ]
+      ],
+      "output_dimensions": [
+        132,
+        90
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-minion-4-repeat.png",
+      "sha256": "f819f659f6c3af0c8ecdb6587367a5aef2488d2413e0d3ce5f58337aadbdbbe7"
+    },
+    {
+      "id": "bruce-1828-p233-minion-7-repeat",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          391,
+          634
+        ],
+        [
+          402.8,
+          634
+        ],
+        [
+          402.8,
+          661
+        ],
+        [
+          391,
+          661
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1137.81,
+          1844.94
+        ],
+        [
+          1172.1480000000001,
+          1844.94
+        ],
+        [
+          1172.1480000000001,
+          1923.51
+        ],
+        [
+          1137.81,
+          1923.51
+        ]
+      ],
+      "output_dimensions": [
+        34,
+        79
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-minion-7-repeat.png",
+      "sha256": "e808c301234a56735cc06a560e4740fb57757b90d716680ce14e4531e6be5262"
+    },
+    {
+      "id": "bruce-1828-p233-minion-10-repeat",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          394,
+          790
+        ],
+        [
+          413.2,
+          790
+        ],
+        [
+          413.2,
+          822
+        ],
+        [
+          394,
+          822
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1146.54,
+          2298.9
+        ],
+        [
+          1202.412,
+          2298.9
+        ],
+        [
+          1202.412,
+          2392.02
+        ],
+        [
+          1146.54,
+          2392.02
+        ]
+      ],
+      "output_dimensions": [
+        56,
+        93
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-minion-10-repeat.png",
+      "sha256": "945ca3179b016f06b270983e5fe017f53caaf1b4471e815a3c06fdbe43266f61"
+    },
+    {
+      "id": "bruce-1828-p233-nonpareil-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          393,
+          1057
+        ],
+        [
+          413.3,
+          1057
+        ],
+        [
+          413.3,
+          1086
+        ],
+        [
+          393,
+          1086
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1143.63,
+          3075.8700000000003
+        ],
+        [
+          1202.7030000000002,
+          3075.8700000000003
+        ],
+        [
+          1202.7030000000002,
+          3160.26
+        ],
+        [
+          1143.63,
+          3160.26
+        ]
+      ],
+      "output_dimensions": [
+        59,
+        84
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-nonpareil-4-repeat.png",
+      "sha256": "f5155bbd363f4e724dcbbc992895857428434b78fdcb18d28526db653d890f37"
+    },
+    {
+      "id": "bruce-1828-p233-nonpareil-13-repeat",
+      "source_file": "reference/bruce1828-hathi-p233.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          393,
+          1349
+        ],
+        [
+          403,
+          1349
+        ],
+        [
+          403,
+          1378
+        ],
+        [
+          393,
+          1378
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          1143.63,
+          3925.59
+        ],
+        [
+          1172.73,
+          3925.59
+        ],
+        [
+          1172.73,
+          4009.98
+        ],
+        [
+          1143.63,
+          4009.98
+        ]
+      ],
+      "output_dimensions": [
+        29,
+        84
+      ],
+      "working_scale": 1,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p233-nonpareil-13-repeat.png",
+      "sha256": "cfc0ed6ce0b9cb3f0015e85dc3e6b9a36dec9d1697b67a4960b77dc5fdf5d65d"
+    },
+    {
+      "id": "bruce-1828-p235-agate-3-repeat",
+      "source_file": "reference/bruce1828-hathi-p235.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          396,
+          537
+        ],
+        [
+          411.8,
+          537
+        ],
+        [
+          411.8,
+          558
+        ],
+        [
+          396,
+          558
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          576.1800000000001,
+          781.335
+        ],
+        [
+          599.1690000000001,
+          781.335
+        ],
+        [
+          599.1690000000001,
+          811.89
+        ],
+        [
+          576.1800000000001,
+          811.89
+        ]
+      ],
+      "output_dimensions": [
+        92,
+        124
+      ],
+      "working_scale": 4,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p235-agate-3-repeat.png",
+      "sha256": "fcd67ea7e2edc36f83eb40162cf1e738dd5ce0b0ad5d99f2b494bbacd40abd3f"
+    },
+    {
+      "id": "bruce-1828-p235-agate-3-corner",
+      "source_file": "reference/bruce1828-hathi-p235.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          270,
+          535
+        ],
+        [
+          286.3,
+          535
+        ],
+        [
+          286.3,
+          558
+        ],
+        [
+          270,
+          558
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          392.85,
+          778.4250000000001
+        ],
+        [
+          416.5665,
+          778.4250000000001
+        ],
+        [
+          416.5665,
+          811.89
+        ],
+        [
+          392.85,
+          811.89
+        ]
+      ],
+      "output_dimensions": [
+        96,
+        132
+      ],
+      "working_scale": 4,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p235-agate-3-corner.png",
+      "sha256": "f0d83db68c22a6844f972ed2b661c6eae1d0cd42ad724111a384ed8a54caafb2"
+    },
+    {
+      "id": "bruce-1828-p235-pearl-1-repeat",
+      "source_file": "reference/bruce1828-hathi-p235.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          389,
+          710
+        ],
+        [
+          415.8,
+          710
+        ],
+        [
+          415.8,
+          735
+        ],
+        [
+          389,
+          735
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          565.995,
+          1033.05
+        ],
+        [
+          604.989,
+          1033.05
+        ],
+        [
+          604.989,
+          1069.425
+        ],
+        [
+          565.995,
+          1069.425
+        ]
+      ],
+      "output_dimensions": [
+        156,
+        144
+      ],
+      "working_scale": 4,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p235-pearl-1-repeat.png",
+      "sha256": "6c58999d63e516edb8afdbce0250de788315c532e08159143bd67e840fc66501"
+    },
+    {
+      "id": "bruce-1828-p235-pearl-4-repeat",
+      "source_file": "reference/bruce1828-hathi-p235.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          392,
+          831
+        ],
+        [
+          402.6,
+          831
+        ],
+        [
+          402.6,
+          852
+        ],
+        [
+          392,
+          852
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          570.36,
+          1209.105
+        ],
+        [
+          585.783,
+          1209.105
+        ],
+        [
+          585.783,
+          1239.66
+        ],
+        [
+          570.36,
+          1239.66
+        ]
+      ],
+      "output_dimensions": [
+        60,
+        124
+      ],
+      "working_scale": 4,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p235-pearl-4-repeat.png",
+      "sha256": "e92298ec3314aacdfa8085f71244c2601e0693c2fb18e4b54974f72c4aefce3d"
+    },
+    {
+      "id": "bruce-1828-p235-pearl-7-motif",
+      "source_file": "reference/bruce1828-hathi-p235.png",
+      "source_rotation_counterclockwise": 0,
+      "quadrilateral_on_1200_width": [
+        [
+          270,
+          709
+        ],
+        [
+          286,
+          709
+        ],
+        [
+          286,
+          733
+        ],
+        [
+          270,
+          733
+        ]
+      ],
+      "quadrilateral_native_ul_ur_lr_ll": [
+        [
+          392.85,
+          1031.595
+        ],
+        [
+          416.13,
+          1031.595
+        ],
+        [
+          416.13,
+          1066.515
+        ],
+        [
+          392.85,
+          1066.515
+        ]
+      ],
+      "output_dimensions": [
+        92,
+        140
+      ],
+      "working_scale": 4,
+      "method": "Bilinear quadrilateral rectification of measured type-block edges; output aspect follows mean opposing edge lengths. Working scale 4 for small grayscale page235 is interpolation for stable curve fitting, not additional source resolution.",
+      "output": "reference/crops/bruce-1828-p235-pearl-7-motif.png",
+      "sha256": "4214331f5fec48547f0647177757197cd1ab340917a5226bb7a3d64c3915faf2"
+    }
+  ]
+}

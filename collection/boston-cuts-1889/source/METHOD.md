@@ -195,3 +195,22 @@ Source-comparison PDFs use 800-pixel source crops and 448-pixel three-tone rende
 individual SVGs and the CFF master retain all traced contours. Download PNGs stay
 1024 pixels high and use a lossless alpha palette. These settings keep detailed
 proofs and web downloads practical without changing delivered vector detail.
+
+## Preferred GPO hand impressions
+
+Boston Nos.2519,2520,4005,4006,4013 and4014 also appear as GPO1904 Index Cuts17,18,34,33,45 and28 respectively. Matching contours, finger positions and cuff construction identify the same designs. The selected GPO impressions restore continuous finger outlines and clearer cuff patterns. The descriptions distinguish folded cuffs from crosshatched cuffs; ink strength alone does not define another design.
+
+The GPO sources are printed pages160–161, PDF pages176–177 and archive leaves176–177. Original native JPEG2000 files and lossless grayscale conversions are retained. Three disjoint native-mask bands use thresholds110/155/210; monochrome uses155 for the engraved hands and195 for the solid hands so that their cuffs remain visible. A measured blank-paper mask removes the top of the No.28 caption without touching the hand. Uniform scaling and the original advances retain the established layout.
+
+`gpo-witness-review.json` preserves the previous metadata and recipe, acquisition hashes, selected source and current recipe. The [comparison proof](../specimens/gpo-witness-review.pdf) shows both historical crops and both vector interpretations. These revisions use the existing glyph-edit mechanism over the unchanged canonical baseline.
+
+Selected matching Bruce1828 impressions improve engraving detail. The exact native crop rectangles, previous and selected witnesses, thresholds and reasons are retained in bruce1828-quality-revisions.json. The glyph overrides preserve each stable ID, codepoint and advance, including all tone regions where applicable. Previous sources remain in reference/. No absent content is reconstructed.
+
+## OpenType drawing-program limits
+
+The downloadable OTF divides drawing programs longer than 60,000 bytes into
+shallow CFF subroutines using the shared builder. Drawing instructions and their
+operands remain exact; no contour is simplified. The editable master, SVGs,
+TrueType and webfont outlines, spacing, and character assignments are unchanged.
+This prevents strict font sanitizers from rejecting a drawing program exceeding
+the CFF length limit.

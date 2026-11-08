@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "notes": "Observed lining R from ATF BYU and Pacific, encoded only through ss01. The default census R descends.",
+  "glyphs": {
+    "R.lining": {
+      "box": [
+        0,
+        0,
+        248,
+        248
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 705.9122628832708,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 796,
+      "post_trace_transform": [
+        0.999996612871094,
+        0.002602738238747044,
+        -0.002602738238747044,
+        0.999996612871094,
+        35.0642332350292,
+        -0.07542535587739461
+      ],
+      "file": "reference/crops/italic-8-byu-00-05.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        401,
+        3373,
+        463,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "native_coordinate_frame": "after the recorded exact clockwise quarter-turn",
+      "sampling_scale": 4,
+      "notes": "Observed eight-point R; italic-8-byu-00-05. Uniform physical source scale and measured row baseline rotation; the italic slant is retained. Modern 35-unit sidebearings.",
+      "character": "R",
+      "feature": "ss01"
+    }
+  }
+}

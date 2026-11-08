@@ -1,0 +1,31 @@
+{
+  "coverage": {
+    "visible_observed": 38,
+    "encoded_with_space": 39,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "digits": "0123456789",
+    "punctuation": ".’",
+    "inferred_visible": 0
+  },
+  "identity": "Compared with twelve point, K/X are narrower and L/T wider in 1897; the census confirms K/L. Compared with ten point, U is 13–17% narrower at threshold 205 in 1897, census and document specimens while A is wider. V/W/X and H/N corroborate differences in optical proportions.",
+  "selected_characters_by_source": {
+    "reference/leaf-3.jp2": "ABCDEFGHKLMNOPQSTUVXYZ09",
+    "reference/gpo-job-1897-leaf-59.jp2": "IJRW12345678",
+    "reference/gpo-document-1904-leaf-83.jp2": ".",
+    "reference/gpo-jobroom-1904-leaf-55.jp2": "’"
+  },
+  "threshold_characters": {
+    "175": "ABCDEFGHIKLMNOPQRSTUVXYZ’",
+    "185": "JW04569",
+    "195": "12378."
+  },
+  "visual_review": "All 38 visible native crops and final silhouettes reviewed at 185 and 32 pixels, and words at 16/24/40/64/96 pixels including the printed apostrophe. Four final trial sheets, seven threshold sheets, the full native cross-book comparisons and a 36-character comparison with twelve point were inspected. All intended serifs, terminals and bowl joins remain present.",
+  "source_choices": "Most capitals and figures 0/9 use the census specimen. I/J/R/W and figures 1–8 use the matching 1897 alphabet. I and W avoid the uneven census ink; J retains the complete hook and R the flowing tail. The 1897 figure 8 supplies intact bowl joins missing in the weak census impression. The period is doc8-11; the apostrophe is job8c-07 in MARS’ ELECTRICITY. All four retained books supply selected outlines.",
+  "rejected_trials": [
+    "The initial capital threshold 190 and figure threshold 210 included excess scan fringe. Most capitals now use 175; J/W use 185. Individually reviewed figure thresholds 185/195 retain native completeness with less spread.",
+    "Thresholds 175/185 lose the figure 1 beak and figure 2 foot; 175 also loses parts of figures 3/4/5/6/7. Figure 8 needs 195 to retain its lower bowl join, and census 9 needs 185 to close its observed bowl.",
+    "The census I has an uneven top serif and W has irregular inner strokes. Matching 1897 impressions provide clearer intact forms; the rejected census outlines remain in the workbench."
+  ],
+  "geometry": "Uniform measured cap scale and rigid source-row rotation. Separate figure groups use locally measured baselines from 1/4/7 at the same physical scale. No independent width fitting, hole filling or drawn replacement strokes.",
+  "native_limitations": "Minor native print irregularities remain, including the narrow V hairline, J hook and small figure terminals. Optical proportions are preserved without replacing them by idealized outlines."
+}

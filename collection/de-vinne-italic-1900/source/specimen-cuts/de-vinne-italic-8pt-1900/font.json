@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "de-vinne-italic-8pt-1900",
+  "name": "De Vinne Italic 8pt 1900",
+  "style": "Regular",
+  "version": "1.001",
+  "postscript_name": "DeVinneItalic8pt1900-Regular",
+  "year": 1900,
+  "designer": "Unidentified in the retained source pages",
+  "foundry": "Shown by the United States Government Printing Office and American Type Founders; the collective ATF page credits Central Type Foundry for the design",
+  "description": "Eight-point De Vinne Italic with flared serifs, a descending Q tail, double-storey a and g, and complete observed alphabets and figures.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "Superior Printing Materials",
+  "character_style": "mixed-case",
+  "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "character_set_notes": "Complete observed A–Z, a–z and ten figures. Space has a modern layout advance. No punctuation, aliases or invented companions. The date identifies the retained complete census alphabet, supplemented by matching earlier ATF impressions.",
+  "observed": "The census specimen shows both complete eight-point alphabets and all ten figures. Matching New York and BYU ATF impressions supply clearer letters and figures. Other retained ATF pages document repeated samples and source-quality comparisons. The John Ryan Foundry 1894 specimen, printed page 69, supplies a clearer whole eight-point g from Tumbling.",
+  "reconstructed": "No visible form is invented. Uniform scaling within each physical source, measured rigid baseline rotation, local paper correction and modern spacing prepare the observed forms. The historical italic slant is retained. The j uses explicit neighbour isolation. A named lining R preserves a repeated ATF variant alongside the default descending census R. No independent width stretching or cross-size substitution.",
+  "sources": [
+    {
+      "title": "gpo-census-1900: De Vinne Italic, printed page 15, archive leaf 31",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n31/mode/1up",
+      "file": "reference/gpo-census-1900-leaf-31.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "atf-new-york-1897: De Vinne Italic, printed page 335, archive leaf 403",
+      "url": "https://archive.org/details/specimensofprint00amerrich/page/n403/mode/1up",
+      "file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "rights": "1897 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/specimensofprint00amerrich"
+    },
+    {
+      "title": "atf-handy-byu-1897: De Vinne Italic, printed page 365, archive leaf 367",
+      "url": "https://archive.org/details/specimensoftypeb00amer/page/n367/mode/1up",
+      "file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "rights": "1897 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/specimensoftypeb00amer"
+    },
+    {
+      "title": "atf-pacific-1896: De Vinne Italic, printed page 429, archive leaf 433",
+      "url": "https://archive.org/details/pacificcoastblue00amerrich/page/n433/mode/1up",
+      "file": "reference/atf-pacific-1896-leaf-433.jp2",
+      "rights": "1896 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/pacificcoastblue00amerrich"
+    },
+    {
+      "title": "atf-handy-1897: De Vinne Italic, printed page 197, archive leaf 216",
+      "url": "https://archive.org/details/cu31924014559730/page/n216/mode/1up",
+      "file": "reference/atf-handy-1897-leaf-216.jp2",
+      "rights": "1897 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/cu31924014559730"
+    },
+    {
+      "title": "atf-desk-nypl-1898: De Vinne Italic, printed page 303, archive leaf 316",
+      "url": "https://archive.org/details/ATF1898DeskBook/page/n316/mode/1up",
+      "file": "reference/atf-desk-1898-leaf-316.jp2",
+      "rights": "1898 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/ATF1898DeskBook"
+    },
+    {
+      "title": "atf-collective-1896: De Vinne Italic, printed page 286, part 16, PDF page 6",
+      "url": "https://www.circuitousroot.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-part-16-devinne-etc-publicdomain.pdf",
+      "file": "reference/atf-collective-1896-p286-native-000.jpg",
+      "rights": "1896 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://www.circuitousroot.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-part-16-devinne-etc-publicdomain.pdf"
+    },
+    {
+      "title": "John Ryan Foundry, Latest and standard faces in type (1894), De Vinne Italic 8 point, printed page 69, archive leaf 75",
+      "file": "reference/ryan-1894-leaf-75.jp2",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/n75/mode/1up",
+      "rights": "John Ryan Foundry, Baltimore, United States, Latest and standard faces in type, printers tools and machinery, published 1894; historical publication in the public domain by age.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Complete observed alphabets and figures, plus one named lining R alternative through ss01. Four retained native pages supply 63 selected outlines; four further native pages supply comparison evidence. Exact four-times derivatives, uniform source scales, measured row rotations and j neighbour isolation are reproducible. No visible form is drawn or borrowed from another size. See source/METHOD.md. Whole-form source comparisons, measured capital scale and text baseline are retained in source/italic-quality-review.json. Only g changes; its 733-unit advance and all feature mappings are preserved."
+  }
+}

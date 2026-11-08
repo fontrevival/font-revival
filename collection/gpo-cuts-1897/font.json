@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "id": "gpo-cuts-1897",
+  "kind": "icons",
+  "name": "GPO Cuts 1897",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "GPOCuts1897-Regular",
+  "year": 1897,
+  "designer": "Historical engravers unidentified except for signatures retained in the impressions",
+  "foundry": "U.S. Government Printing Office; original cut suppliers not specified",
+  "description": "Distinct historical seals and emblems from the Government Printing Office specimen of 1897.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "",
+  "observed": "Fourteen complete compositions from the 1897 seal pages. The inventory also records twenty-two witnesses of existing GPO designs and one repeated Agriculture seal.",
+  "reconstructed": "No new pictorial content. Native crops, measured caption and paper-speck removal, curve fitting and uniform scaling interpret the historical impressions. Three tonal regions interpret scanned ink strength. Names, tags, Private Use assignments, bearings and a blank space are new project work.",
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0",
+      "NumPy 1.26.4 (optional exact mask preparation)",
+      "SciPy 1.11.4 (optional exact mask preparation)"
+    ],
+    "notes": "Complete compositions include integral inscriptions. Different size or ink weight alone does not establish a new design. Matching earlier witnesses improve the existing GPO1904 identities where clearer."
+  },
+  "cff_charstring_chunk_bytes": 60000,
+  "sources": [
+    {
+      "title": "Specimens of job and display types in use in the Government Printing Office (1897), printed page 91; PDF page 189, Internet Archive leaf 189",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n189/mode/1up",
+      "file": "reference/leaf-189.jp2",
+      "rights": "1897 United States historical publication, public domain by age. Exact period scan retained; no modern digital artwork traced.",
+      "rights_url": "https://archive.org/details/specimensofjobdi00unit"
+    },
+    {
+      "title": "Specimens of job and display types in use in the Government Printing Office (1897), printed page 92; PDF page 191, Internet Archive leaf 191",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n191/mode/1up",
+      "file": "reference/leaf-191.jp2",
+      "rights": "1897 United States historical publication, public domain by age. Exact period scan retained; no modern digital artwork traced.",
+      "rights_url": "https://archive.org/details/specimensofjobdi00unit"
+    },
+    {
+      "title": "Specimens of job and display types in use in the Government Printing Office (1897), printed page 93; PDF page 193, Internet Archive leaf 193",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n193/mode/1up",
+      "file": "reference/leaf-193.jp2",
+      "rights": "1897 United States historical publication, public domain by age. Exact period scan retained; no modern digital artwork traced.",
+      "rights_url": "https://archive.org/details/specimensofjobdi00unit"
+    },
+    {
+      "title": "Specimens of job and display types in use in the Government Printing Office (1897), printed page 94; PDF page 195, Internet Archive leaf 195",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n195/mode/1up",
+      "file": "reference/leaf-195.jp2",
+      "rights": "1897 United States historical publication, public domain by age. Exact period scan retained; no modern digital artwork traced.",
+      "rights_url": "https://archive.org/details/specimensofjobdi00unit"
+    }
+  ],
+  "icons": [
+    {
+      "id": "gpo-1897-seal-3",
+      "codepoint": "E000",
+      "glyph": "uniE000",
+      "name": "Revenue Cutter Service, Semper Paratus crest and crossed anchors",
+      "specimen_number": "3",
+      "printed_page": 91,
+      "pdf_page": 189,
+      "source_index": 0,
+      "tags": [
+        "seal",
+        "emblem",
+        "anchor"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE000.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE000.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE000.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-4",
+      "codepoint": "E001",
+      "glyph": "uniE001",
+      "name": "Essayons eagle and fort in a plain shield",
+      "specimen_number": "4",
+      "printed_page": 91,
+      "pdf_page": 189,
+      "source_index": 0,
+      "tags": [
+        "seal",
+        "emblem",
+        "eagle",
+        "shield"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE001.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE001.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE001.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-6",
+      "codepoint": "E002",
+      "glyph": "uniE002",
+      "name": "U.S. Life-Saving Service, life ring with crossed oar and gaff",
+      "specimen_number": "6",
+      "printed_page": 91,
+      "pdf_page": 189,
+      "source_index": 0,
+      "tags": [
+        "seal",
+        "emblem"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE002.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE002.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE002.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-10",
+      "codepoint": "E003",
+      "glyph": "uniE003",
+      "name": "Marine Hospital Service, 1798–1871, sans serif seal",
+      "specimen_number": "10",
+      "printed_page": 91,
+      "pdf_page": 189,
+      "source_index": 0,
+      "tags": [
+        "seal",
+        "emblem",
+        "anchor",
+        "caduceus",
+        "medical"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE003.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE003.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE003.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-16",
+      "codepoint": "E004",
+      "glyph": "uniE004",
+      "name": "Ordnance Office, War Dept., flaming grenade and crossed cannon",
+      "specimen_number": "16",
+      "printed_page": 92,
+      "pdf_page": 191,
+      "source_index": 1,
+      "tags": [
+        "seal",
+        "emblem",
+        "cannon"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE004.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE004.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE004.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-17",
+      "codepoint": "E005",
+      "glyph": "uniE005",
+      "name": "Ordnance Office, War Department, flaming grenade and crossed cannon",
+      "specimen_number": "17",
+      "printed_page": 92,
+      "pdf_page": 191,
+      "source_index": 1,
+      "tags": [
+        "seal",
+        "emblem",
+        "cannon"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE005.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE005.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE005.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-19",
+      "codepoint": "E006",
+      "glyph": "uniE006",
+      "name": "Marine Hospital Service, 1798–1871, serif seal",
+      "specimen_number": "19",
+      "printed_page": 92,
+      "pdf_page": 191,
+      "source_index": 1,
+      "tags": [
+        "seal",
+        "emblem",
+        "anchor",
+        "caduceus",
+        "medical"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE006.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE006.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE006.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-21",
+      "codepoint": "E007",
+      "glyph": "uniE007",
+      "name": "United States Light House Service",
+      "specimen_number": "21",
+      "printed_page": 92,
+      "pdf_page": 191,
+      "source_index": 1,
+      "tags": [
+        "seal",
+        "emblem",
+        "lighthouse",
+        "sea"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE007.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE007.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE007.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-22",
+      "codepoint": "E008",
+      "glyph": "uniE008",
+      "name": "United States Department of Agriculture, outlined lettering and ruled shield",
+      "specimen_number": "22",
+      "printed_page": 93,
+      "pdf_page": 193,
+      "source_index": 2,
+      "tags": [
+        "seal",
+        "emblem",
+        "shield",
+        "agriculture"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE008.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE008.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE008.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-27",
+      "codepoint": "E009",
+      "glyph": "uniE009",
+      "name": "Smithsonian Institution, draped profile bust",
+      "specimen_number": "27",
+      "printed_page": 93,
+      "pdf_page": 193,
+      "source_index": 2,
+      "tags": [
+        "seal",
+        "emblem",
+        "smithsonian",
+        "portrait",
+        "bust"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE009.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE009.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE009.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-31",
+      "codepoint": "E00A",
+      "glyph": "uniE00A",
+      "name": "U.S. Steamboat Inspection Service, paddle steamer",
+      "specimen_number": "31",
+      "printed_page": 94,
+      "pdf_page": 195,
+      "source_index": 3,
+      "tags": [
+        "seal",
+        "emblem",
+        "paddle steamer"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00A.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00A.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00A.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-34",
+      "codepoint": "E00B",
+      "glyph": "uniE00B",
+      "name": "United States Agricultural Society, instituted 1852, seated allegory",
+      "specimen_number": "34",
+      "printed_page": 94,
+      "pdf_page": 195,
+      "source_index": 3,
+      "tags": [
+        "seal",
+        "emblem",
+        "agriculture",
+        "wreath",
+        "cornucopia"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00B.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00B.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00B.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-35",
+      "codepoint": "E00C",
+      "glyph": "uniE00C",
+      "name": "U.S. Treasury, dog and vault with key and scales",
+      "specimen_number": "35",
+      "printed_page": 94,
+      "pdf_page": 195,
+      "source_index": 3,
+      "tags": [
+        "seal",
+        "emblem",
+        "treasury",
+        "dog",
+        "vault",
+        "key",
+        "scales"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00C.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00C.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00C.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "gpo-1897-seal-37",
+      "codepoint": "E00D",
+      "glyph": "uniE00D",
+      "name": "U.S. Customs Service, seated woman with flag and shipping",
+      "specimen_number": "37",
+      "printed_page": 94,
+      "pdf_page": 195,
+      "source_index": 3,
+      "tags": [
+        "seal",
+        "emblem",
+        "flag",
+        "woman",
+        "ship"
+      ],
+      "recommended_min_px": 128,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00D.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00D.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00D.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    }
+  ],
+  "font_export_glyphs": "encoded",
+  "compact_svg_paths": true,
+  "sprite_max_bytes": 48000000,
+  "web_bundle_max_bytes": 90000000,
+  "otf_uses_truetype_approximations": true,
+  "proof_source_image": {
+    "max_pixels": 500,
+    "jpeg_quality": 85
+  },
+  "proof_tone_image": {
+    "max_pixels": 500,
+    "jpeg_quality": 85
+  }
+}

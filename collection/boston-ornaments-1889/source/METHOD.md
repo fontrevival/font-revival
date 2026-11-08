@@ -21,3 +21,27 @@ removes only complete disconnected contours from the right edge of Corner 119; t
 and shared joins are retained. `specimens/border-review.pdf` records before/after
 proofs. Layout recipes in `site/icon-layout.json` distinguish printing components
 from complete frames and strips.
+
+Native group context distinguishes the fine-and-heavy bracket pairs in Word
+Ornaments Nos. 10 and 11 from ordinary parallel hairlines. Each pair remains one
+complete historical specimen. Combination Ornament L2 and Santa Claus border
+component 2 each contain three strokes, with a heavier middle stroke. Combination
+Ornaments K2 and K3 retain their left- and right-curled ball terminals. These
+six descriptions and their subject tags follow the observed shapes; the IDs,
+character assignments, component grouping, source contours and spacing remain
+unchanged. `rule-classification.json` retains the previous descriptions and the
+source evidence, with a native-context review PDF.
+
+The four straight strokes in Series E, specimens 1–4 on printed page 260,
+carry straight and horizontal subject tags. They have no curled terminals.
+`plain-rule-classification.json` retains the former tags and source evidence;
+artwork, character assignments, names and spacing remain unchanged.
+
+## OpenType drawing-program limits
+
+The downloadable OTF divides drawing programs longer than 60,000 bytes into
+shallow CFF subroutines using the shared builder. Drawing instructions and their
+operands remain exact; no contour is simplified. The editable master, SVGs,
+TrueType and webfont outlines, spacing, and character assignments are unchanged.
+This prevents strict font sanitizers from rejecting a drawing program exceeding
+the CFF length limit.

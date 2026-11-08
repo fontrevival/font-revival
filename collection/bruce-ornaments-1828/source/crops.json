@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "coordinate_system": "Native pixels after the recorded page quarter-turn; rectangles exclude upper/right endpoints. Deskew is a rigid rotation of the cropped image.",
+  "crops": [
+    {
+      "id": "bruce-1828-p169-nonpareil-3",
+      "source_impression_id": "bruce-1828-p169-nonpareil-3",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1888,
+        1422,
+        2188,
+        1489
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p169-nonpareil-3.png",
+      "sha256": "e0a23e02231e04b9876f77373e620d6571525ee4b7ac2b612d8dcf13e64acb51"
+    },
+    {
+      "id": "bruce-1828-p169-minion-7",
+      "source_impression_id": "bruce-1828-p169-minion-7",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1924,
+        2126,
+        2769,
+        2216
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate 0.0000 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p169-minion-7.png",
+      "sha256": "400e27472474a95b4af375f2bb0304400ba3164a62ec0c5fadec26766067b553"
+    },
+    {
+      "id": "bruce-1828-p169-minion-8",
+      "source_impression_id": "bruce-1828-p169-minion-8",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        783,
+        2266,
+        1593,
+        2356
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.2973,
+      "measurement": "Endpoint median ink centres: left y=45, right y=49, horizontal span=771px; rigid counterclockwise rotation 0.2973 degrees.",
+      "output": "reference/crops/bruce-1828-p169-minion-8.png",
+      "sha256": "936ebfaa7e754de27867e2da6803b96a3ef7ef26bc760d30ae503e01318f8691"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-10",
+      "source_impression_id": "bruce-1828-p169-brevier-10",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        715,
+        3038,
+        1739,
+        3139
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.2908,
+      "measurement": "Endpoint median ink centres: left y=48, right y=53, horizontal span=985px; rigid counterclockwise rotation 0.2908 degrees.",
+      "output": "reference/crops/bruce-1828-p169-brevier-10.png",
+      "sha256": "569c0c8f9c9393c574e07ff2f87983e3afad6b0fefdc1e895f4e28cdd0f6d2cb"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-13",
+      "source_impression_id": "bruce-1828-p169-brevier-13",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1826,
+        3178,
+        2872,
+        3279
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.3276,
+      "measurement": "Endpoint median ink centres: left y=48.5, right y=53, horizontal span=787px; rigid counterclockwise rotation 0.3276 degrees.",
+      "output": "reference/crops/bruce-1828-p169-brevier-13.png",
+      "sha256": "4556ca5f1a92dd11790d890fbe8093bf37cb6567ae3a22d72ead05d4e45fa5ca"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-15",
+      "source_impression_id": "bruce-1828-p169-brevier-15",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1826,
+        3324,
+        2872,
+        3425
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.0341 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p169-brevier-15.png",
+      "sha256": "f4bf84417944bc876d42b18d4cb30607bd2deafe69fbab81ab78c6a2dce1070a"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-16",
+      "source_impression_id": "bruce-1828-p169-brevier-16",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        715,
+        3464,
+        1739,
+        3565
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.5129,
+      "measurement": "Endpoint median ink centres: left y=44, right y=51, horizontal span=782px; rigid counterclockwise rotation 0.5129 degrees.",
+      "output": "reference/crops/bruce-1828-p169-brevier-16.png",
+      "sha256": "2495b357a3f7d180732e4103aaa9ee70c2b3986995feb2ff45c582bfafa97b1f"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-17",
+      "source_impression_id": "bruce-1828-p169-brevier-17",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1826,
+        3464,
+        2872,
+        3565
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.3825,
+      "measurement": "Endpoint median ink centres: left y=50, right y=55, horizontal span=749px; rigid counterclockwise rotation 0.3825 degrees.",
+      "output": "reference/crops/bruce-1828-p169-brevier-17.png",
+      "sha256": "32df88e8fb3a7cb897cdebdee1272b298b65e729f49c6911c5911eb84754338e"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-18",
+      "source_impression_id": "bruce-1828-p169-brevier-18",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        715,
+        3599,
+        1739,
+        3700
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.2879,
+      "measurement": "Endpoint median ink centres: left y=42, right y=46, horizontal span=796px; rigid counterclockwise rotation 0.2879 degrees.",
+      "output": "reference/crops/bruce-1828-p169-brevier-18.png",
+      "sha256": "ed252356640c4af6f5e5c9dfd09a22298e0425f4cf4b671ce01f20a23764b5b9"
+    },
+    {
+      "id": "bruce-1828-p169-brevier-19",
+      "source_impression_id": "bruce-1828-p169-brevier-19",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1826,
+        3599,
+        2872,
+        3700
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.1502,
+      "measurement": "Endpoint median ink centres: left y=47, right y=49, horizontal span=763px; rigid counterclockwise rotation 0.1502 degrees.",
+      "output": "reference/crops/bruce-1828-p169-brevier-19.png",
+      "sha256": "df4e413c8284f343c71d2ef4afc57ee86e57ed7b4256426159c58798f4301e40"
+    },
+    {
+      "id": "bruce-1828-p169-bourgeois-10",
+      "source_impression_id": "bruce-1828-p169-bourgeois-10",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1770,
+        4379,
+        2738,
+        4474
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate 0.1293 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p169-bourgeois-10.png",
+      "sha256": "08263b1aaec8b85519a35e503d5583fad68ccf5b0117c151c26579eccc1ea10e"
+    },
+    {
+      "id": "bruce-1828-p169-bourgeois-12",
+      "source_impression_id": "bruce-1828-p169-bourgeois-12",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1770,
+        4533,
+        2738,
+        4628
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.2836,
+      "measurement": "Endpoint median ink centres: left y=48, right y=52, horizontal span=808px; rigid counterclockwise rotation 0.2836 degrees.",
+      "output": "reference/crops/bruce-1828-p169-bourgeois-12.png",
+      "sha256": "8647849a9910a005915d37146a6b143ad1cbe20e3a947e99d6530bd9d026e219"
+    },
+    {
+      "id": "bruce-1828-p169-bourgeois-13",
+      "source_impression_id": "bruce-1828-p169-bourgeois-13",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        707,
+        4682,
+        1672,
+        4777
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.6374,
+      "measurement": "Endpoint median ink centres: left y=39, right y=48, horizontal span=809px; rigid counterclockwise rotation 0.6374 degrees.",
+      "output": "reference/crops/bruce-1828-p169-bourgeois-13.png",
+      "sha256": "d2e67f7c9122a6a455ff3b49bdab70e92853674e097ef875f3eb2bdc0c1d9b83"
+    },
+    {
+      "id": "bruce-1828-p169-bourgeois-14",
+      "source_impression_id": "bruce-1828-p169-bourgeois-14",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1770,
+        4682,
+        2738,
+        4777
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate 0.1477 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p169-bourgeois-14.png",
+      "sha256": "484bd3b61006a14550ef15172ce97491e2e7940890447c20c81c758284e7d496"
+    },
+    {
+      "id": "bruce-1828-p169-bourgeois-15",
+      "source_impression_id": "bruce-1828-p169-bourgeois-15",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1321,
+        4833,
+        2160,
+        4928
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate 0.1460 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p169-bourgeois-15.png",
+      "sha256": "32b061f0bdef3572cf5742fbf6f9afda62dca1a2623824a189fe1074e11980c0"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-1",
+      "source_impression_id": "bruce-1828-p171-long-primer-1",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        463,
+        845,
+        881,
+        956
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-1.png",
+      "sha256": "2914c5f3fd7d28f262f292093c8eefb23cb5f6168c7e90332f71c3b13af1253a"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-7",
+      "source_impression_id": "bruce-1828-p171-long-primer-7",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1645,
+        1069,
+        2111,
+        1186
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-7.png",
+      "sha256": "4449f6bd226533e2fc1eb79813b5579b0f452303ecf9c5cfdaada32dd9f669d5"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-9",
+      "source_impression_id": "bruce-1828-p171-long-primer-9",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        465,
+        1283,
+        770,
+        1404
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-9.png",
+      "sha256": "e6c15f1ba0a9b85de1835cccc4d324a8ce2e73e8d7668b06b276059e899c3d17"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-11",
+      "source_impression_id": "bruce-1828-p171-long-primer-11",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1634,
+        1283,
+        2114,
+        1404
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-11.png",
+      "sha256": "2dcd85e129f2d10b0aaa520557bbafb9dd4ea33c6770cbbf130769d1b34bb6f3"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-12",
+      "source_impression_id": "bruce-1828-p169-brevier-8",
+      "source_file": "reference/bruce1828-hathi-p169.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1834,
+        2900,
+        2208,
+        2990
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-12.png",
+      "sha256": "d44883cb8ee61b736aa79a47037923f3bd72d9733af5c875e613773c24a6db0e"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-13",
+      "source_impression_id": "bruce-1828-p171-long-primer-13",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        463,
+        1501,
+        925,
+        1629
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-13.png",
+      "sha256": "8d47d7854ce94a0822515e2cc488da8c84727c130c790ea57d2e02f48dab67fb"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-15",
+      "source_impression_id": "bruce-1828-p171-long-primer-15",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1645,
+        1501,
+        2114,
+        1629
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-15.png",
+      "sha256": "3aca4a495af45d11ea4690c50027308a9f1e1490efe541f46e116cd3632b2db1"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-16",
+      "source_impression_id": "bruce-1828-p171-long-primer-16",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        2282,
+        1501,
+        2753,
+        1629
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-long-primer-16.png",
+      "sha256": "51bc0b9dcab748d66d26bc5f98803fb89169798f03736ac366df55cfde8ba9e5"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-17",
+      "source_impression_id": "bruce-1828-p171-long-primer-17",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        435,
+        1726,
+        1535,
+        1853
+      ],
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          10,
+          127
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.2698,
+      "measurement": "Endpoint median ink centres: left y=60, right y=55, horizontal span=1062px; rigid counterclockwise rotation -0.2698 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-17.png",
+      "sha256": "3e3bde85c346480e4b3b23ba8ca6f84da4248927d6629d8bf64a1b27dbd247f8"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-18",
+      "source_impression_id": "bruce-1828-p171-long-primer-18",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1645,
+        1726,
+        2742,
+        1853
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.0543 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-18.png",
+      "sha256": "20cc2749b443c29376d0b971035b25b9d209acf9048606fb73e76ce9a1ed8853"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-19",
+      "source_impression_id": "bruce-1828-p171-long-primer-19",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        446,
+        1945,
+        1504,
+        2072
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.0282 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-19.png",
+      "sha256": "9f40e0aca4f49c71f8ff36bf8dc0b8428d4f75133eb1e5456c49a6886f963016"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-20",
+      "source_impression_id": "bruce-1828-p171-long-primer-20",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1690,
+        1945,
+        2742,
+        2072
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate 0.0000 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-20.png",
+      "sha256": "23d6c195f8f91901f733c1fa7bddafe490aaba47f33f710f287809e0ee7a7510"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-21",
+      "source_impression_id": "bruce-1828-p171-long-primer-21",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        2150,
+        2269,
+        2282
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.1358 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-21.png",
+      "sha256": "6fa821a4cce31cd7b1ba880314915f4282169e1a1de1ede12e1f2093c3dde054"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-22",
+      "source_impression_id": "bruce-1828-p171-long-primer-22",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        2338,
+        2269,
+        2471
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.2252,
+      "measurement": "Endpoint median ink centres: left y=64, right y=59, horizontal span=1272px; rigid counterclockwise rotation -0.2252 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-22.png",
+      "sha256": "f9a79e9bfcf90991ab72b37a39e3d7d484d63653f66a88efc362eb633f7863e3"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-23",
+      "source_impression_id": "bruce-1828-p171-long-primer-23",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        2523,
+        2269,
+        2656
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.2711,
+      "measurement": "Endpoint median ink centres: left y=72, right y=66, horizontal span=1268px; rigid counterclockwise rotation -0.2711 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-23.png",
+      "sha256": "f9e53c616d96e46036fdb2fe2aba8877cb909087006db4bb561a16b17d0132a9"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-25",
+      "source_impression_id": "bruce-1828-p171-long-primer-25",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        2884,
+        2269,
+        3017
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.0911 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-25.png",
+      "sha256": "005e2904c07c77f626f7fab5a8552b860060b49f05e92e883a003481131ec3e5"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-26",
+      "source_impression_id": "bruce-1828-p171-long-primer-26",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        3047,
+        2269,
+        3180
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.0916 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-26.png",
+      "sha256": "b370eff0e2f519b3ea1f7845d06a964117fc4d7446c12619dd41ab14db2c38bb"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-28",
+      "source_impression_id": "bruce-1828-p171-long-primer-28",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        3382,
+        2269,
+        3515
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.3618,
+      "measurement": "Endpoint median ink centres: left y=65, right y=57, horizontal span=1267px; rigid counterclockwise rotation -0.3618 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-28.png",
+      "sha256": "bb27f39258effdf654fe1ad8915423e0c192e1cef7553a2d27c727128d5e81f2"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-29",
+      "source_impression_id": "bruce-1828-p171-long-primer-29",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        3546,
+        2269,
+        3679
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.4536,
+      "measurement": "Endpoint median ink centres: left y=67, right y=57, horizontal span=1263px; rigid counterclockwise rotation -0.4536 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-29.png",
+      "sha256": "a7226902ce4d0943f867553136c55ca516ff34a33a9cf90e44be2db3d482aad9"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-30",
+      "source_impression_id": "bruce-1828-p171-long-primer-30",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        3712,
+        2269,
+        3845
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.3449,
+      "measurement": "Endpoint median ink centres: left y=64, right y=57, horizontal span=1163px; rigid counterclockwise rotation -0.3449 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-30.png",
+      "sha256": "e0026c5ca343060af2e36aabe249c594603fd3d81ccec4ef02cb3679bdd481e6"
+    },
+    {
+      "id": "bruce-1828-p171-long-primer-31",
+      "source_impression_id": "bruce-1828-p171-long-primer-31",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        947,
+        3870,
+        2269,
+        4003
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.1986,
+      "measurement": "Endpoint median ink centres: left y=62, right y=58, horizontal span=1154px; rigid counterclockwise rotation -0.1986 degrees.",
+      "output": "reference/crops/bruce-1828-p171-long-primer-31.png",
+      "sha256": "dba06fbe2e73d6ac061cd830f601b6a71408a018eec740aed4e16f0be3b6b21d"
+    },
+    {
+      "id": "bruce-1828-p171-pica-1",
+      "source_impression_id": "bruce-1828-p171-pica-1",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        482,
+        4476,
+        1676,
+        4609
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.4969,
+      "measurement": "Endpoint median ink centres: left y=70, right y=60, horizontal span=1153px; rigid counterclockwise rotation -0.4969 degrees.",
+      "output": "reference/crops/bruce-1828-p171-pica-1.png",
+      "sha256": "32d0ca487035ae7b93da370aaf5c4957d4ad5f4e447fc2e4797f04ce3bfbb5f2"
+    },
+    {
+      "id": "bruce-1828-p171-pica-2",
+      "source_impression_id": "bruce-1828-p171-pica-2",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1823,
+        4476,
+        2753,
+        4609
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.323,
+      "measurement": "Endpoint median ink centres: left y=59, right y=54, horizontal span=887px; rigid counterclockwise rotation -0.323 degrees.",
+      "output": "reference/crops/bruce-1828-p171-pica-2.png",
+      "sha256": "8d0fa852727fb5cef816ebeec0fe226d0fbcf7f2ff4a2d5fa91ffa097cda2d85"
+    },
+    {
+      "id": "bruce-1828-p171-pica-3",
+      "source_impression_id": "bruce-1828-p171-pica-3",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        476,
+        4715,
+        1302,
+        4848
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.5899,
+      "measurement": "Endpoint median ink centres: left y=71, right y=63, horizontal span=777px; rigid counterclockwise rotation -0.5899 degrees.",
+      "output": "reference/crops/bruce-1828-p171-pica-3.png",
+      "sha256": "c977384bb7e7142da6dc24e5a04536642ef78584e6b7ba8c1602a3724aaa1431"
+    },
+    {
+      "id": "bruce-1828-p171-pica-4",
+      "source_impression_id": "bruce-1828-p171-pica-4",
+      "source_file": "reference/bruce1828-hathi-p171.png",
+      "source_rotation_counterclockwise": 0,
+      "box": [
+        1823,
+        4715,
+        2465,
+        4848
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": null,
+      "output": "reference/crops/bruce-1828-p171-pica-4.png",
+      "sha256": "0f2325184507c33b63affe6f33178f2c0f6bb1def6e572a45790e42a86026d0c"
+    },
+    {
+      "id": "bruce-1828-p173-double-english-1",
+      "source_impression_id": "bruce-1828-p173-double-english-1",
+      "source_file": "reference/bruce1828-hathi-p173.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        280,
+        515,
+        2704,
+        781
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate -0.0968 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p173-double-english-1.png",
+      "sha256": "8e8074d2b623831495b7989a641797942b3fe571e62d1dc4c4a836b7d19b5c0a"
+    },
+    {
+      "id": "bruce-1828-p173-double-english-2",
+      "source_impression_id": "bruce-1828-p173-double-english-2",
+      "source_file": "reference/bruce1828-hathi-p173.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        2801,
+        520,
+        5220,
+        770
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.5321,
+      "measurement": "Endpoint median ink centres: left y=114, right y=136, horizontal span=2369px; rigid counterclockwise rotation 0.5321 degrees.",
+      "output": "reference/crops/bruce-1828-p173-double-english-2.png",
+      "sha256": "120117722d214e2556ce76e322af8be4cb3c0a685babf760b304352040655072"
+    },
+    {
+      "id": "bruce-1828-p173-double-english-3",
+      "source_impression_id": "bruce-1828-p173-double-english-3",
+      "source_file": "reference/bruce1828-hathi-p173.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        969,
+        1063,
+        4415,
+        1329
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.0,
+      "measurement": "Endpoint estimate 0.1356 degrees; retained source orientation.",
+      "output": "reference/crops/bruce-1828-p173-double-english-3.png",
+      "sha256": "72c69b0bda42a6648deeb40bda58827d7a13d82bf60871abd5f4874ac50eeb8d"
+    },
+    {
+      "id": "bruce-1828-p173-six-line-pica-1",
+      "source_impression_id": "bruce-1828-p173-six-line-pica-1",
+      "source_file": "reference/bruce1828-hathi-p173.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        0,
+        2339,
+        5420,
+        2992
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.2141,
+      "measurement": "Endpoint median ink centres: left y=392, right y=412, horizontal span=5353px; rigid counterclockwise rotation 0.2141 degrees.",
+      "output": "reference/crops/bruce-1828-p173-six-line-pica-1.png",
+      "sha256": "48a9e7c4631d1aab40c47f50df4ad5af0d0387fc16f5d352fb5704a557957893"
+    },
+    {
+      "id": "bruce-1828-p175-eight-line-pica-1-mask",
+      "source_impression_id": "bruce-1828-p175-eight-line-pica-1-mask",
+      "source_file": "reference/bruce1828-hathi-p175.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        2310,
+        706,
+        3189,
+        1576
+      ],
+      "erase_before_rotation": [
+        [
+          0,
+          500,
+          13,
+          740
+        ],
+        [
+          868,
+          400,
+          878,
+          600
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -2.8,
+      "measurement": "Clockwise correction of the page tilt, measured from the adjacent Eight Line Pica heading. Face and ruff remain a rigid unit.",
+      "output": "reference/crops/bruce-1828-p175-eight-line-pica-1-mask.png",
+      "sha256": "3d8ca6051aa767a6b0b1e499d7a8097f6731f5baa8f2626b9e733834d5f935f4"
+    }
+  ]
+}

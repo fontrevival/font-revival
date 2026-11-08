@@ -1,0 +1,87 @@
+{
+  "id": "de-vinne-1897",
+  "name": "De Vinne",
+  "selected_master": "de-vinne-18pt-1897",
+  "selection_reason": "The eighteen-point witness supplies a coherent, clean alphabet with the broadest reviewed punctuation, complete fractions and optional figure sets.",
+  "archived_sources": [
+    {
+      "original_id": "de-vinne-6pt-1897",
+      "path": "source/specimen-cuts/de-vinne-6pt-1897",
+      "master_sha256": "b0607099a0f620ca2afdbf1ddef939fa03b0b795aa43c7addd2e2eb080f3fd0c",
+      "metadata_sha256": "177183db5d20d37a29d73b47f9dbd3c7ff511c8c0cd1ffbeff722bc9606d91fa",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-8pt-1897",
+      "path": "source/specimen-cuts/de-vinne-8pt-1897",
+      "master_sha256": "52fee97d33bf59031df14ef16722ad23f7b9bb876825436f644bfa72ae4f5d5a",
+      "metadata_sha256": "13a417d194a83a21a27558b675b1e0dcb55f15d8fe32270f7fbd22352df356ce",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-10pt-1897",
+      "path": "source/specimen-cuts/de-vinne-10pt-1897",
+      "master_sha256": "cd28effcc400523ac69ce6cc392f06db3346de41ff5d61e15b9152c9628afe24",
+      "metadata_sha256": "e91e8a4adc686028615f92b3f2808fe8572a6ffe304f376a79ffabf7c548e491",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-12pt-1897",
+      "path": "source/specimen-cuts/de-vinne-12pt-1897",
+      "master_sha256": "a00d610b5b7e71a8b49cd318801612fe3e0bc95ad204c327d7d033b57f677849",
+      "metadata_sha256": "09806dc4c8ca112c46e41ab9167fddf155edc89b9c97453f3138430c65936687",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-14pt-1897",
+      "path": "source/specimen-cuts/de-vinne-14pt-1897",
+      "master_sha256": "334f954fe8b28fcd72ff0fb87d3c73005464e5c95ebf4a95cf448370c6f85cce",
+      "metadata_sha256": "133fa0273f886be9b26a040307bb81fc12cd1b3b38fbfbd5792c5325296c4c0c",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-18pt-1897",
+      "path": "source/specimen-cuts/de-vinne-18pt-1897",
+      "master_sha256": "db8ec5ab0a36567b6e2aaf4b4860d619ebb1c6caa00d5f953e06a338806f9b7d",
+      "metadata_sha256": "a598516282b8a8e33a1a201f67f7bbd8ba81cd4811f362c8c8735ea78cc5367d",
+      "role": "default-alphabet-source",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    }
+  ],
+  "added_characters": [
+    {
+      "character": "—",
+      "glyph": "emdash",
+      "donor": "de-vinne-10pt-1897",
+      "source_master": "source/specimen-cuts/de-vinne-10pt-1897/source/font.ttx",
+      "source_master_sha256": "cd28effcc400523ac69ce6cc392f06db3346de41ff5d61e15b9152c9628afe24",
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "advance_width": 1153,
+      "reason": "Retain the already observed character when consolidating source sizes. Whole outline and advance are unchanged; no reconstruction."
+    }
+  ],
+  "encoded_characters": 82,
+  "retained_base_glyphs": 90,
+  "total_glyphs": 91,
+  "artwork_review": "Three matching-size master sheets reviewed. Regular18 retains finer coherent contours and broad coverage; Condensed8 and Italic8 retain coherent alphabets and reviewed alternatives. Source-size differences remain in archives; no automatic equivalence between historical cuts is asserted.",
+  "status": "accepted:source-and-donor-geometry-preserved",
+  "validation": {
+    "unchanged_base_glyph_format_comparisons": 360,
+    "four_formats": true,
+    "base_features_unchanged": true,
+    "all_archived_source_reference_and_proof_files_byte_identical": true,
+    "supplementary_character_visual_review": "PASS:complete whole forms, coherent placement in words, no clipping; source-size provenance remains explicit."
+  }
+}

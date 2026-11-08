@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "notes": "Complete six-point witnesses across four retained native pages. All 23 native rows and fitted outlines reviewed. Source-local omissions do not imply gaps in the complete combined cut. Document page supplies comparison evidence only. Matching ATF poster samples and punctuation decisions are documented in punctuation-review.json; native source inventory includes their comparison pages.",
+  "samples": [
+    {
+      "id": "gpo-job-1897:type-sample:de-vinne-6pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 109,
+      "pdf_page": 109,
+      "printed_page": 50,
+      "point_size": 6,
+      "design": "De Vinne",
+      "source_label": "6 Point, DeVinne. Caps, lower case, and figures.",
+      "case": null,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Left stock marks read Keystone—10 for6–18 andKeystone—6 for24. These marks are retained as printed evidence; no unverified designer or matrix attribution.",
+      "canonical_family": "de-vinne-6pt-1897"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:de-vinne-6pt-case24",
+      "book": "gpo-census-1900",
+      "archive_leaf": 35,
+      "pdf_page": 35,
+      "printed_page": 17,
+      "point_size": 6,
+      "design": "De Vinne",
+      "source_label": "6-point De Vinne",
+      "case": 24,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "",
+      "canonical_family": "de-vinne-6pt-1897"
+    },
+    {
+      "id": "gpo-document-1904:type-sample:de-vinne-6pt",
+      "book": "gpo-document-1904",
+      "archive_leaf": 65,
+      "pdf_page": 65,
+      "printed_page": 30,
+      "point_size": 6,
+      "design": "De Vinne",
+      "source_label": "6-point De Vinne. (American.)",
+      "case": null,
+      "sample_transcription": "THE SYSTEM OF ARITHMETICAL NOTATION BY 9 FIGURES AND 0 / Was known and used in Hindostan in Sixth Century of Christian era. Was introduced in / Arabia about the year 900.",
+      "observed_alphanumeric": "ABCDEFGHILMNORSTUWYabcdefhiknorstuwxy09",
+      "missing_alphanumeric_in_this_sample": "JKPQVXZgjlmpqvz12345678",
+      "observed_punctuation": ".",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Case258. Full-page reading; native letter and punctuation slot review still required. MacFarland andRoycroft rows are separate designs.",
+      "canonical_family": "de-vinne-6pt-1897"
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-6pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 85,
+      "pdf_page": 85,
+      "printed_page": 69,
+      "point_size": 6,
+      "design": "De Vinne",
+      "source_label": "6 Point De Vinne",
+      "sample_transcription": "IN THE GREAT NAVAL BATTLE OFF YALUKI RIVER / last year the Chinese iron-clad battle ship Chen Yuen Loo / was commanded by an American named John McGinnis, / a graduate of the Naval Academy at Annapolis. Captain / McGinnis was wounded several times and has but lately / recovered in part from injuries received in this already / historic battle. He gives many strikingly interesting / details illustrative of the terrible nature of a modern / naval battle. The new battle ship Chen Yuen Loo is one / of the fastest models in the Chinese Navy, and was built / by the United States Ship Building Company, of San / Francisco, Cal. The Chinese Government has placed an / order with the same company for two more battle ships / of the same type, to be completed by January 1, 1905.",
+      "observed_alphanumeric": "ABCEFGHIJKLMNORSTUVYabcdefghijklmnoprstuvwy0159",
+      "missing_alphanumeric_in_this_sample": "DPQWXZqxz234678",
+      "observed_punctuation": ",.-",
+      "notes": "Native heading reads YALUKI. The damaged I in RIVER is excluded from scale anchors and source selection. Double-bar hyphen occurs in iron-clad. Job-room zero/one are tall; five/nine match the census lining figures. Reviewed joined projections and detached r terminal are retained in the native row inventory.",
+      "scope_warning": "The paragraph alone is not complete. Use matching six-point alphabets; no cross-size substitutions.",
+      "status": "reviewed-complete-family-witness",
+      "canonical_family": "de-vinne-6pt-1897"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-7pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 7,
+      "design": "De Vinne",
+      "source_label": "7 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-6pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 6,
+      "design": "De Vinne",
+      "source_label": "6 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-desk-nypl-1898:type-sample:de-vinne-6pt-poster-p523",
+      "book": "atf-desk-nypl-1898",
+      "archive_leaf": 540,
+      "printed_page": 523,
+      "point_size": 6,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 6 Point",
+      "sample_transcription": "RIGHTS OF THE COLONIES RESERVED / When, in the course of human events, it / becomes necessary for one people to dissolve / the political bands which have connected / them with another, and to assume, among / the powers of the earth, the separate and / equal station to which the laws of nature / and of nature’s God entitle them, a decent / respect to the opinions of mankind requires / that they should declare the causes which / impel them to the separation. We hold these / truths to be self-evident, that all men are / created equal; that they are endowed 2467",
+      "transcribed_rows": [
+        "RIGHTS OF THE COLONIES RESERVED",
+        "When, in the course of human events, it",
+        "becomes necessary for one people to dissolve",
+        "the political bands which have connected",
+        "them with another, and to assume, among",
+        "the powers of the earth, the separate and",
+        "equal station to which the laws of nature",
+        "and of nature’s God entitle them, a decent",
+        "respect to the opinions of mankind requires",
+        "that they should declare the causes which",
+        "impel them to the separation. We hold these",
+        "truths to be self-evident, that all men are",
+        "created equal; that they are endowed 2467"
+      ],
+      "observed_alphanumeric": "CDEFGHILNORSTVWabcdefghiklmnopqrstuvwy2467",
+      "missing_alphanumeric_in_this_sample": "ABJKMPQUXYZjxz013589",
+      "observed_punctuation": ",-.;’",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "4344c5cf10061616ab6a3c543628b8061a4597f84bfebd1f7fdfb7372b84e72b",
+      "native_context_box": [
+        3321,
+        7058,
+        5695,
+        8602
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "transcription_correction": "Native final figures read2467; OCR3467 rejected after native review.",
+      "repeated_text_group": "de-vinne-6-cfcf11c1027d",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    },
+    {
+      "id": "atf-desk-1898:type-sample:de-vinne-6pt-poster-p108",
+      "book": "atf-desk-1898",
+      "archive_leaf": 130,
+      "printed_page": 108,
+      "point_size": 6,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 6 Point",
+      "sample_transcription": "VERY CHOICE PROPERTY ON THE MARKET / A valuable farm in Westborough, in the County of Worcester, situ- / ated on the Great Country Road leading from Boston to Connecticut. / Said farm contains about 90 acres of Upland and Meadow, the most / part under improvement; it has a good Orchard, with a good Dwell- / ing-House and Barn, together with Potash Works. Said land may / be sold in divisions or together, as would best suit the purchaser. / Said house is situated very conveniently for a trader, has been",
+      "transcribed_rows": [
+        "VERY CHOICE PROPERTY ON THE MARKET",
+        "A valuable farm in Westborough, in the County of Worcester, situ-",
+        "ated on the Great Country Road leading from Boston to Connecticut.",
+        "Said farm contains about 90 acres of Upland and Meadow, the most",
+        "part under improvement; it has a good Orchard, with a good Dwell-",
+        "ing-House and Barn, together with Potash Works. Said land may",
+        "be sold in divisions or together, as would best suit the purchaser.",
+        "Said house is situated very conveniently for a trader, has been"
+      ],
+      "observed_alphanumeric": "ABCDEGHIKMNOPRSTUVWYabcdefghiklmnoprstuvwy09",
+      "missing_alphanumeric_in_this_sample": "FJLQXZjqxz12345678",
+      "observed_punctuation": ",-.;",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "c016c644bfcc8fb1302f3a0b6a709b8cfc9f37986a1144ff20b1511e7898a437",
+      "native_context_box": [
+        251,
+        2973,
+        1876,
+        3466
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "repeated_text_group": "de-vinne-6-4a0e0da6b9a2",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-desk-loc-1898-leaf-130.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    }
+  ],
+  "native_rows": [
+    {
+      "id": "regular-6-U",
+      "file": "gpo-job-1897-leaf-109.png",
+      "box": [
+        350,
+        540,
+        1080,
+        615
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 26,
+      "expected_count": 26
+    },
+    {
+      "id": "regular-6-l",
+      "file": "gpo-job-1897-leaf-109.png",
+      "box": [
+        1200,
+        540,
+        1770,
+        615
+      ],
+      "text": "abcdefghijklmnopqrstuvwxyz",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 26,
+      "expected_count": 26
+    },
+    {
+      "id": "regular-6-n",
+      "file": "gpo-job-1897-leaf-109.png",
+      "box": [
+        1900,
+        540,
+        2190,
+        615
+      ],
+      "text": "1234567890",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 10,
+      "expected_count": 10
+    },
+    {
+      "id": "regular-6-census-U",
+      "file": "gpo-census-1900-leaf-35.png",
+      "box": [
+        40,
+        2275,
+        1000,
+        2345
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 26,
+      "expected_count": 26
+    },
+    {
+      "id": "regular-6-census-l",
+      "file": "gpo-census-1900-leaf-35.png",
+      "box": [
+        1250,
+        2275,
+        2000,
+        2345
+      ],
+      "text": "abcdefghijklmnopqrstuvwxyz",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 25,
+      "expected_count": 26,
+      "segmentation": " Native cd/ca/pa/rn pale bridges are separated at boundaries measured from lower-threshold connected bodies (135/120/110/100 respectively); adjacent co/re/ra projections have distinct connected bodies. All native mappings require visual review; no outlines are repaired by these crop divisions."
+    },
+    {
+      "id": "regular-6-census-n",
+      "file": "gpo-census-1900-leaf-35.png",
+      "box": [
+        2200,
+        2275,
+        2600,
+        2345
+      ],
+      "text": "1234567890",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 10,
+      "expected_count": 10
+    },
+    {
+      "id": "regular-6-job-00",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        936,
+        1010,
+        977
+      ],
+      "text": "INTHEGREATNAVALBATTLEOFFYALUKIRIVER",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 35,
+      "expected_count": 35
+    },
+    {
+      "id": "regular-6-job-01",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        977,
+        1010,
+        1018
+      ],
+      "text": "lastyeartheChineseiron-cladbattleshipChenYuenLoo",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 48,
+      "expected_count": 48
+    },
+    {
+      "id": "regular-6-job-02",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1018,
+        1010,
+        1056
+      ],
+      "text": "wascommandedbyanAmericannamedJohnMcGinnis,",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 42,
+      "expected_count": 42
+    },
+    {
+      "id": "regular-6-job-03",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1056,
+        1010,
+        1097
+      ],
+      "text": "agraduateoftheNavalAcademyatAnnapolis.Captain",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 44,
+      "expected_count": 45,
+      "segmentation": " Native cd/ca/pa/rn pale bridges are separated at boundaries measured from lower-threshold connected bodies (135/120/110/100 respectively); adjacent co/re/ra projections have distinct connected bodies. All native mappings require visual review; no outlines are repaired by these crop divisions."
+    },
+    {
+      "id": "regular-6-job-04",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1097,
+        1010,
+        1135
+      ],
+      "text": "McGinniswaswoundedseveraltimesandhasbutlately",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 45,
+      "expected_count": 45
+    },
+    {
+      "id": "regular-6-job-05",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1135,
+        1010,
+        1175
+      ],
+      "text": "recoveredinpartfrominjuriesreceivedinthisalready",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 46,
+      "expected_count": 48,
+      "segmentation": "The r in received has a detached terminal fragment, reunited in one crop. Native co/re projections have separate connected bodies; pa has a pale bridge separated at threshold110. No ink is drawn. Native cd/ca/pa/rn pale bridges are separated at boundaries measured from lower-threshold connected bodies (135/120/110/100 respectively); adjacent co/re/ra projections have distinct connected bodies. All native mappings require visual review; no outlines are repaired by these crop divisions."
+    },
+    {
+      "id": "regular-6-job-06",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1175,
+        1010,
+        1213
+      ],
+      "text": "historicbattle.Hegivesmanystrikinglyinteresting",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 47,
+      "expected_count": 47
+    },
+    {
+      "id": "regular-6-job-07",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1213,
+        1010,
+        1250
+      ],
+      "text": "detailsillustrativeoftheterriblenatureofamodern",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 45,
+      "expected_count": 47,
+      "segmentation": " Native cd/ca/pa/rn pale bridges are separated at boundaries measured from lower-threshold connected bodies (135/120/110/100 respectively); adjacent co/re/ra projections have distinct connected bodies. All native mappings require visual review; no outlines are repaired by these crop divisions."
+    },
+    {
+      "id": "regular-6-job-08",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1250,
+        1010,
+        1291
+      ],
+      "text": "navalbattle.ThenewbattleshipChenYuenLooisone",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 44,
+      "expected_count": 44
+    },
+    {
+      "id": "regular-6-job-09",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1291,
+        1010,
+        1330
+      ],
+      "text": "ofthefastestmodelsintheChineseNavy,andwasbuilt",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 46,
+      "expected_count": 46
+    },
+    {
+      "id": "regular-6-job-10",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1330,
+        1010,
+        1371
+      ],
+      "text": "bytheUnitedStatesShipBuildingCompany,ofSan",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 42,
+      "expected_count": 42
+    },
+    {
+      "id": "regular-6-job-11",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1371,
+        1010,
+        1409
+      ],
+      "text": "Francisco,Cal.TheChineseGovernmenthasplacedan",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 44,
+      "expected_count": 45,
+      "segmentation": " Native cd/ca/pa/rn pale bridges are separated at boundaries measured from lower-threshold connected bodies (135/120/110/100 respectively); adjacent co/re/ra projections have distinct connected bodies. All native mappings require visual review; no outlines are repaired by these crop divisions."
+    },
+    {
+      "id": "regular-6-job-12",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1409,
+        1010,
+        1448
+      ],
+      "text": "orderwiththesamecompanyfortwomorebattleships",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 44,
+      "expected_count": 44
+    },
+    {
+      "id": "regular-6-job-13",
+      "file": "gpo-jobroom-1904-leaf-85.png",
+      "box": [
+        40,
+        1448,
+        1010,
+        1490
+      ],
+      "text": "ofthesametype,tobecompletedbyJanuary1,1905.",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 42,
+      "expected_count": 43,
+      "segmentation": " Native cd/ca/pa/rn pale bridges are separated at boundaries measured from lower-threshold connected bodies (135/120/110/100 respectively); adjacent co/re/ra projections have distinct connected bodies. All native mappings require visual review; no outlines are repaired by these crop divisions."
+    },
+    {
+      "id": "regular-6-document-00",
+      "file": "gpo-document-1904-leaf-65.png",
+      "box": [
+        510,
+        1355,
+        2225,
+        1400
+      ],
+      "text": "THESYSTEMOFARITHMETICALNOTATIONBY9FIGURESAND0",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 46,
+      "expected_count": 45,
+      "segmentation": "The O in NOTATION has disconnected left/right projection groups25/26. Reunite as one native crop without drawing a connection."
+    },
+    {
+      "id": "regular-6-document-01",
+      "file": "gpo-document-1904-leaf-65.png",
+      "box": [
+        510,
+        1400,
+        2225,
+        1445
+      ],
+      "text": "WasknownandusedinHindostaninSixthCenturyofChristianera.Wasintroducedin",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 70,
+      "expected_count": 70
+    },
+    {
+      "id": "regular-6-document-02",
+      "file": "gpo-document-1904-leaf-65.png",
+      "box": [
+        510,
+        1445,
+        2225,
+        1485
+      ],
+      "text": "Arabiaabouttheyear900.",
+      "point_size": 6,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 23,
+      "expected_count": 22,
+      "segmentation": "The y in year has a disconnected right arm in projection groups15/16. Reunite as one native crop without drawing a connection."
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "gpo-job-1897:type-sample:de-vinne-14pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 109,
+      "pdf_page": 109,
+      "printed_page": 50,
+      "point_size": 14,
+      "design": "De Vinne",
+      "source_label": "14 Point, DeVinne. Caps, lower case, and figures.",
+      "case": null,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 12345678",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz12345678",
+      "missing_alphanumeric_in_this_sample": "09",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Left stock marks read Keystone—10 for6–18 andKeystone—6 for24. These marks are retained as printed evidence; no unverified designer or matrix attribution.",
+      "canonical_family": "de-vinne-14pt-1897"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:de-vinne-14pt-case28",
+      "book": "gpo-census-1900",
+      "archive_leaf": 37,
+      "pdf_page": 37,
+      "printed_page": 18,
+      "point_size": 14,
+      "design": "De Vinne",
+      "source_label": "14-point De Vinne",
+      "case": 28,
+      "sample_transcription": "ABCDEFGHIJKLM / abcdefghijklm / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMabcdefghijklm0123456789",
+      "missing_alphanumeric_in_this_sample": "NOPQRSTUVWXYZnopqrstuvwxyz",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "",
+      "canonical_family": "de-vinne-14pt-1897"
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-14pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 84,
+      "pdf_page": 84,
+      "printed_page": 68,
+      "point_size": 14,
+      "design": "De Vinne",
+      "source_label": "14 Point De Vinne",
+      "sample_transcription": "MOISTURE IN WOOD 351 / It has been commonly esti- / mated that green wood, when / first cut, contains about 45 per / cent of its weight in moisture, / but in the forests of central / Europe wood cut down in win- / ter is said to hold more than 40 / per cent of water at the end of / the following summer. Kept / for several years in a dry place, / wood retains from 15 to 20 per",
+      "observed_alphanumeric": "DEIKMNORSTUWabcdefghilmnoprstuvwy012345",
+      "missing_alphanumeric_in_this_sample": "ABCFGHJLPQVXYZjkqxz6789",
+      "observed_punctuation": ",-.",
+      "notes": "Both line-end hyphens have two bars. The word summer has lowercase s. Figures 2/4/5 retain distinct job-room forms through named alternatives.",
+      "scope_warning": "This paragraph is not a complete alphabet by itself. The complete revival combines reviewed matching fourteen-point witnesses; no other point size supplies a glyph.",
+      "status": "reviewed-complete-family-witness",
+      "canonical_family": "de-vinne-14pt-1897"
+    },
+    {
+      "id": "atf-new-york-1897:type-sample:de-vinne-14pt-fractions-p436",
+      "book": "atf-new-york-1897",
+      "archive_leaf": 506,
+      "printed_page": 436,
+      "point_size": 14,
+      "design": "De Vinne",
+      "source_label": "14 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-14pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 14,
+      "design": "De Vinne",
+      "source_label": "14 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛",
+      "observed_companions": "¼½¾⅓⅔⅛",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-american-line-1906:type-sample:de-vinne-14pt-fractions-p698",
+      "book": "atf-american-line-1906",
+      "archive_leaf": 646,
+      "printed_page": 698,
+      "point_size": 14,
+      "design": "De Vinne",
+      "source_label": "14 Point, De Vinne Fractions",
+      "sample_transcription": "½ ¼ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ % ¢",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    }
+  ],
+  "job_room_rows": [
+    {
+      "id": "regular-14-job-00",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1005,
+        1520,
+        1090
+      ],
+      "text": "MOISTUREINWOOD351",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-01",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1110,
+        1520,
+        1195
+      ],
+      "text": "Ithasbeencommonlyesti-",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-02",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1200,
+        1520,
+        1280
+      ],
+      "text": "matedthatgreenwood,when",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-03",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1285,
+        1520,
+        1370
+      ],
+      "text": "firstcut,containsabout45per",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-04",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1370,
+        1520,
+        1455
+      ],
+      "text": "centofitsweightinmoisture,",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-05",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1455,
+        1520,
+        1535
+      ],
+      "text": "butintheforestsofcentral",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-06",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1538,
+        1520,
+        1620
+      ],
+      "text": "Europewoodcutdowninwin-",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-07",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1620,
+        1520,
+        1705
+      ],
+      "text": "terissaidtoholdmorethan40",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-08",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1705,
+        1520,
+        1790
+      ],
+      "text": "percentofwaterattheendof",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-09",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1790,
+        1520,
+        1870
+      ],
+      "text": "thefollowingsummer.Kept",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155,
+      "note": "Native first letter of summer is lowercase s at the body height; K in Kept is a full capital."
+    },
+    {
+      "id": "regular-14-job-10",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1870,
+        1520,
+        1955
+      ],
+      "text": "forseveralyearsinadryplace,",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    },
+    {
+      "id": "regular-14-job-11",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "box": [
+        440,
+        1955,
+        1520,
+        2040
+      ],
+      "text": "woodretainsfrom15to20per",
+      "point_size": 14,
+      "design": "De Vinne",
+      "threshold": 155
+    }
+  ],
+  "notes": "Exact native transcriptions. Slash separators mark rows, not observed characters. Job-room hyphens each have two bars. Adjacent frames and other point sizes are separate material."
+}

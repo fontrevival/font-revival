@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "selected": {
+    "glyph": "zero.tall",
+    "character": "0",
+    "feature": "ss01",
+    "source_id": "regular-18-handy357-figures-09",
+    "native_file": "reference/atf-handy-1897-leaf-357.jp2",
+    "native_box": [
+      1009,
+      1946,
+      1050,
+      2003
+    ],
+    "threshold": 130,
+    "expected_contours": 2
+  },
+  "source_scale": 13.237303831565837,
+  "initial_heading_measurements": {
+    "caps": {
+      "slope": 0.0014649044348613268,
+      "rotation_degrees": 0.08393278146920774,
+      "baseline_intercept": 1673.285757132,
+      "capline_intercept": 1618.4301558739112,
+      "scale": 12.760788962770283,
+      "anchor_ids": [
+        "regular-18-handy357-caps-02",
+        "regular-18-handy357-caps-05",
+        "regular-18-handy357-caps-06",
+        "regular-18-handy357-caps-07",
+        "regular-18-handy357-caps-08",
+        "regular-18-handy357-caps-09",
+        "regular-18-handy357-caps-10",
+        "regular-18-handy357-caps-13",
+        "regular-18-handy357-caps-14",
+        "regular-18-handy357-caps-15"
+      ],
+      "capline_anchor_ids": [
+        "regular-18-handy357-caps-02",
+        "regular-18-handy357-caps-05",
+        "regular-18-handy357-caps-06",
+        "regular-18-handy357-caps-09",
+        "regular-18-handy357-caps-10",
+        "regular-18-handy357-caps-14",
+        "regular-18-handy357-caps-15"
+      ]
+    },
+    "figures": {
+      "slope": 0.0014649044348613268,
+      "rotation_degrees": 0.08393278146920774,
+      "baseline_intercept": 1997.2509526743147,
+      "scale": 12.760788962770283,
+      "anchor_ids": [
+        "regular-18-handy357-figures-00",
+        "regular-18-handy357-figures-01"
+      ],
+      "note": "Short figures 1 and 2 anchor the baseline. The heading slope and physical scale apply to the entire figure row. Figures 3, 4 and 5 descend; 7 and 9 stand on the baseline. Printed positions are preserved."
+    }
+  },
+  "common_capital_scale": {
+    "method": "One isotropic least-squares scale from20ink width/height measurements of10common capitals; no figures participate. Applies uniformly to allHandy glyphs, never to zero alone.",
+    "characters": "GRANDCLEIS",
+    "comparison_scale": 1.0373421165560994,
+    "median_relative_residual": 0.007728807487931755,
+    "maximum_relative_residual": 0.08666606913811781,
+    "caution": "Common optical construction and whole-source scale agreement do not establish shared physical punches/matrices. Native figure vertical variants remain separate."
+  },
+  "common_form_comparisons": [
+    {
+      "character": "G",
+      "poster": "regular-18-handy357-caps-00",
+      "poster_bounds": [
+        34.99991760294139,
+        -2.759099825299054,
+        666.9860182561584,
+        694.7506179369591
+      ],
+      "canonical_bounds": [
+        35.0114112555502,
+        -13.77686476963828,
+        687.71875,
+        710.6679738875852
+      ],
+      "width_ratio": 0.968253401086171,
+      "height_ratio": 0.9628196386285389
+    },
+    {
+      "character": "R",
+      "poster": "regular-18-handy357-caps-08",
+      "poster_bounds": [
+        35.00109752535481,
+        -83.0450786035295,
+        712.324010455467,
+        694.9093688375707
+      ],
+      "canonical_bounds": [
+        34.99268700451153,
+        -92.70783120231732,
+        717.6161762154848,
+        710.9799107142857
+      ],
+      "width_ratio": 0.9922349928406539,
+      "height_ratio": 0.9679809792617527
+    },
+    {
+      "character": "A",
+      "poster": "regular-18-handy357-caps-07",
+      "poster_bounds": [
+        35.007592341667795,
+        6.881751355725785,
+        708.2179655114381,
+        692.6323960813874
+      ],
+      "canonical_bounds": [
+        35.00678275106377,
+        0.26559495372874226,
+        712.1875,
+        713.328125
+      ],
+      "width_ratio": 0.9941369504800793,
+      "height_ratio": 0.9616977695927489
+    },
+    {
+      "character": "N",
+      "poster": "regular-18-handy357-caps-02",
+      "poster_bounds": [
+        34.99963544119563,
+        11.767467052408868,
+        678.0300029036321,
+        700.0090609545621
+      ],
+      "canonical_bounds": [
+        35.0,
+        -5.927453098545669,
+        706.0,
+        711.3805974258626
+      ],
+      "width_ratio": 0.9583164939827666,
+      "height_ratio": 0.9594784185107009
+    },
+    {
+      "character": "D",
+      "poster": "regular-18-handy357-caps-03",
+      "poster_bounds": [
+        35.0,
+        12.5,
+        666.2832054174012,
+        694.4323130921125
+      ],
+      "canonical_bounds": [
+        35.0039076529921,
+        -5.956829392311981,
+        690.7653754852936,
+        709.0972706700985
+      ],
+      "width_ratio": 0.9626720025258328,
+      "height_ratio": 0.9536793272461384
+    },
+    {
+      "character": "C",
+      "poster": "regular-18-handy357-caps-04",
+      "poster_bounds": [
+        34.99727700646449,
+        3.210365324510657,
+        621.6829570172456,
+        700.867462150753
+      ],
+      "canonical_bounds": [
+        35.005337998377435,
+        -14.099825958918844,
+        655.3366164044578,
+        715.975879162073
+      ],
+      "width_ratio": 0.9457618863234649,
+      "height_ratio": 0.955595552533313
+    },
+    {
+      "character": "L",
+      "poster": "regular-18-handy357-caps-05",
+      "poster_bounds": [
+        34.99733190170817,
+        -9.176130803450128,
+        629.8848952906034,
+        692.7405164527747
+      ],
+      "canonical_bounds": [
+        35.001568354383075,
+        -17.60887386608562,
+        658.3797290816691,
+        711.9502676264708
+      ],
+      "width_ratio": 0.9542964461489133,
+      "height_ratio": 0.9621106875862324
+    },
+    {
+      "character": "E",
+      "poster": "regular-18-handy357-caps-06",
+      "poster_bounds": [
+        35.0002154879443,
+        -12.016200583871075,
+        631.828216551803,
+        708.4296757460434
+      ],
+      "canonical_bounds": [
+        35.0,
+        -27.479124202811846,
+        667.51545950523,
+        735.2318256776994
+      ],
+      "width_ratio": 0.9435785198526423,
+      "height_ratio": 0.9445857260116455
+    },
+    {
+      "character": "I",
+      "poster": "regular-18-handy357-caps-09",
+      "poster_bounds": [
+        34.99396974892291,
+        6.964301492582036,
+        245.53483343700609,
+        681.3497115703307
+      ],
+      "canonical_bounds": [
+        35.0,
+        -0.03161619603770288,
+        235.98437906777588,
+        702.046875
+      ],
+      "width_ratio": 1.0475483948784132,
+      "height_ratio": 0.9605555768114872
+    },
+    {
+      "character": "S",
+      "poster": "regular-18-handy357-caps-12",
+      "poster_bounds": [
+        35.005263145225754,
+        9.87183874391745,
+        608.983189906045,
+        698.254081775267
+      ],
+      "canonical_bounds": [
+        35.0,
+        -19.851171967512332,
+        612.7824110070808,
+        689.4580142305
+      ],
+      "width_ratio": 0.993415368530118,
+      "height_ratio": 0.9704967261472619
+    },
+    {
+      "character": "1",
+      "poster": "regular-18-handy357-figures-00",
+      "poster_bounds": [
+        35.00455343155599,
+        0.09720900142862376,
+        240.75397947699125,
+        467.80552843309147
+      ],
+      "canonical_bounds": [
+        35.0,
+        6.15625,
+        239.6875,
+        481.296875
+      ],
+      "width_ratio": 1.005188035641821,
+      "height_ratio": 0.9843576718611734
+    },
+    {
+      "character": "2",
+      "poster": "regular-18-handy357-figures-01",
+      "poster_bounds": [
+        35.0022279931089,
+        -0.22467928661625505,
+        477.52306620943926,
+        470.1129159822408
+      ],
+      "canonical_bounds": [
+        34.993516361420134,
+        9.264733932947204,
+        493.421875,
+        486.6180691216541
+      ],
+      "width_ratio": 0.9652998770200628,
+      "height_ratio": 0.9853028366983622
+    },
+    {
+      "character": "3",
+      "poster": "regular-18-handy357-figures-02",
+      "poster_bounds": [
+        34.991465247259704,
+        -190.13517943461594,
+        503.7423282519429,
+        460.7348836109727
+      ],
+      "canonical_bounds": [
+        34.99998296535099,
+        -0.7492318334781807,
+        510.7392022206332,
+        674.7362676944202
+      ],
+      "width_ratio": 0.9853105315522681,
+      "height_ratio": 0.9635588972679446
+    },
+    {
+      "character": "4",
+      "poster": "regular-18-handy357-figures-03",
+      "poster_bounds": [
+        34.99997965362931,
+        -174.1139492236142,
+        506.977562716263,
+        473.90603707028146
+      ],
+      "canonical_bounds": [
+        35.00946509789206,
+        13.09375,
+        526.6861545171134,
+        695.09375
+      ],
+      "width_ratio": 0.9599348377083797,
+      "height_ratio": 0.9501759329822518
+    },
+    {
+      "character": "5",
+      "poster": "regular-18-handy357-figures-04",
+      "poster_bounds": [
+        34.99943139627006,
+        -175.36830890123352,
+        468.8227825178593,
+        463.04763739011173
+      ],
+      "canonical_bounds": [
+        35.00520186072069,
+        -173.88555913295735,
+        505.21875215383653,
+        487.09375
+      ],
+      "width_ratio": 0.9226092077762494,
+      "height_ratio": 0.9658637380477011
+    },
+    {
+      "character": "6",
+      "poster": "regular-18-handy357-figures-05",
+      "poster_bounds": [
+        35.000911393232236,
+        -28.885825864830657,
+        494.18258191647845,
+        666.9367084325726
+      ],
+      "canonical_bounds": [
+        34.99441798873406,
+        2.0331727078227573,
+        516.1566449497228,
+        727.49297394067
+      ],
+      "width_ratio": 0.9543177847177006,
+      "height_ratio": 0.959146920497761
+    },
+    {
+      "character": "7",
+      "poster": "regular-18-handy357-figures-06",
+      "poster_bounds": [
+        34.99753493674135,
+        -29.384345990994,
+        503.2981771622108,
+        629.171875
+      ],
+      "canonical_bounds": [
+        34.99859062652365,
+        -178.7205732310926,
+        515.8125,
+        489.576260427978
+      ],
+      "width_ratio": 0.9739748228908096,
+      "height_ratio": 0.9854247212054789
+    },
+    {
+      "character": "8",
+      "poster": "regular-18-handy357-figures-07",
+      "poster_bounds": [
+        34.99186198701541,
+        -18.229284019125142,
+        507.71875,
+        667.421997068105
+      ],
+      "canonical_bounds": [
+        34.998534069884286,
+        5.375,
+        517.1719465844532,
+        709.5346022887695
+      ],
+      "width_ratio": 0.980408450038089,
+      "height_ratio": 0.9737157298695058
+    },
+    {
+      "character": "9",
+      "poster": "regular-18-handy357-figures-08",
+      "poster_bounds": [
+        35.00128108305483,
+        -26.451207602811326,
+        493.9542686967435,
+        619.3772376205717
+      ],
+      "canonical_bounds": [
+        34.9983917670871,
+        -157.42690959871246,
+        503.9689904323392,
+        492.4942998009705
+      ],
+      "width_ratio": 0.9786391490637691,
+      "height_ratio": 0.99370267639045
+    },
+    {
+      "character": "0",
+      "poster": "regular-18-handy357-figures-09",
+      "poster_bounds": [
+        34.997934765434024,
+        -28.594257325976233,
+        505.16754348724385,
+        648.4991543334033
+      ],
+      "canonical_bounds": [
+        35.001022615043055,
+        -3.9449650787665433,
+        503.52777999350764,
+        490.59496159536036
+      ],
+      "width_ratio": 1.0035064194679881,
+      "height_ratio": 1.3691380111874059
+    }
+  ],
+  "threshold_comparison": [
+    {
+      "threshold": 90,
+      "ink_components": 1,
+      "counters": 1,
+      "advance_width": 549
+    },
+    {
+      "threshold": 110,
+      "ink_components": 1,
+      "counters": 1,
+      "advance_width": 551
+    },
+    {
+      "threshold": 130,
+      "ink_components": 1,
+      "counters": 1,
+      "advance_width": 555
+    },
+    {
+      "threshold": 150,
+      "ink_components": 1,
+      "counters": 1,
+      "advance_width": 558
+    },
+    {
+      "threshold": 170,
+      "ink_components": 1,
+      "counters": 1,
+      "advance_width": 562
+    }
+  ],
+  "quality": "All five thresholds preserve one outer contour and one counter. Threshold 130 retains the native oval and stroke without filling or drawing. Small native edge variation remains.",
+  "other_figure_variants": "Handy 3 and 4 descend; 7 and 9 sit at the baseline; Census 3 and 4 sit at the baseline and 7 and 9 descend. These source positions are recorded for further variant comparison; no existing figure is moved.",
+  "identity_limit": "Optical correspondence does not establish identical physical punches or matrices.",
+  "status": "Historical version1.001 Handy selection; comparison only since version1.002. See figure-punctuation-review.json for the current GPO selection."
+}

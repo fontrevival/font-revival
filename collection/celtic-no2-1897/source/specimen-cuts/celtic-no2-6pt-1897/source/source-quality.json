@@ -1,0 +1,43 @@
+{
+  "coverage": {
+    "visible_observed": 38,
+    "encoded_with_space": 39,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "digits": "0123456789",
+    "punctuation": ".,",
+    "inferred_visible": 0
+  },
+  "identity": "Compared with twelve point, L/F/M are wider in both 1897 and census specimens while other capitals are not uniformly wider. Compared with seven point, figures 0/3/5/6/8/9 are broader in 1897, corroborated by document figures 3/5/6/8; six-point T is narrower relative to cap height. These recurring proportions support a distinct optical cut.",
+  "selected_characters_by_source": {
+    "reference/leaf-3.jp2": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "reference/gpo-document-1904-leaf-83.jp2": ".",
+    "reference/gpo-jobroom-1904-leaf-55.jp2": ","
+  },
+  "threshold_characters": {
+    "185": "ACEKNQTXY",
+    "175": "BDFGHIJLMOPRSUZ5",
+    "195": "VW079.",
+    "205": "123468",
+    "215": ","
+  },
+  "visual_review": "All 37 visible native crops and final silhouettes inspected at 185 and 32 pixels; words inspected at 16/24/40/64/96 pixels. All intended bowls, serifs, arms, figure beaks and tails retained. Four trial proofs, seven threshold sheets and the full cross-book native comparisons reviewed.",
+  "source_choices": "All capitals and figures use census six-point impressions; the period is doc6-43. The census provides finer detail than the upper 1897 row and avoids uneven job-room ink spread. The period is explicitly printed in labelled six-point document text. All four source books are retained.",
+  "rejected_trials": [
+    "The initial capital threshold 200 and figure threshold 215 included excess scan fringe. Individually reviewed capital thresholds 175/185/195 better preserve the native light strokes.",
+    "Census figure 8 at threshold 195 loses the lower bowl join despite appearing closed in small renderings; threshold 205 retains both observed counters.",
+    "Extrapolating the alphabet baseline across a 1230-pixel gap raised the figures by about six native pixels. The local baseline measured from 1/4/7 replaces this extrapolation while retaining the same physical scale.",
+    "Threshold 165 loses the K arm, Y branches, Q/R bowls and several figure parts. Threshold 185 still loses the figure 1 beak, 2 foot, 4 arm and 6/8/9 joins."
+  ],
+  "geometry": "Uniform measured cap scale and rigid source-row rotations. The separate figure group uses a local baseline and rotation measured from 1/4/7 at the same physical scale. No hole filling, drawn missing strokes or cross-size substitution.",
+  "native_limitations": "The small native six-point impressions retain minor print irregularities. Source proportions and visible completeness were verified without drawing idealized substitutes.",
+  "card_addition": {
+    "character": ",",
+    "source_slot": "card-city-11",
+    "threshold": 215,
+    "metric_row": "card-city/205",
+    "reason": "Thresholds175–195 lose the faint descending tail;205 retains its length but flattens its left curve. Threshold215 retains the observed head, left indentation and complete tail;225 adds soft fringe.",
+    "period_comparison": "The two card periods do not improve the clearer document-period source, which remains exact.",
+    "old_encoded_outlines_and_metrics_preserved": 38,
+    "visual_review": "Native size and construction proofs, six threshold alternatives, and words at16/24/40/64/96pixels inspected."
+  }
+}

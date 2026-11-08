@@ -1,0 +1,1759 @@
+{
+  "schema_version": 1,
+  "method": "Exact native JP2 crops converted to RGB and resized four times with Pillow LANCZOS before paper correction and tracing. No generated detail or drawn repair. Native coordinates and pixel/file hashes allow exact reproduction.",
+  "crops": [
+    {
+      "id": "regular-10-job-00-19",
+      "file": "reference/crops/regular-10-job-00-19.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        733,
+        2512,
+        767,
+        2554
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        168
+      ],
+      "pixel_sha256": "2c47169e03bed57ad4e9befb50ebc3b0e3b4e49c96f4659db4de02781c265c3b",
+      "file_sha256": "5c43f3cc9f9050b05be8d0072189185f5a466133a93de86943b4fb93cb4ce820"
+    },
+    {
+      "id": "regular-10-job-00-18",
+      "file": "reference/crops/regular-10-job-00-18.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        697,
+        2513,
+        733,
+        2554
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        164
+      ],
+      "pixel_sha256": "65dbbe612e80752e789dc0904413253d8231f3b2963e20014d1a2b78d97e366c",
+      "file_sha256": "e4912387da32fb35800400b7ef7770be644b9cb50508a4ceca8e17157cbab185"
+    },
+    {
+      "id": "regular-10-job-00-08",
+      "file": "reference/crops/regular-10-job-00-08.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        335,
+        2514,
+        371,
+        2556
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        168
+      ],
+      "pixel_sha256": "35688bdf2e0de098075e192e46c98a94e7833780dbe4251690b466ed25a81b5e",
+      "file_sha256": "2d5094bd2daa68193b48351e5d635f8161f35b89e488da9d9ec34263237eb73e"
+    },
+    {
+      "id": "regular-10-job-00-17",
+      "file": "reference/crops/regular-10-job-00-17.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        639,
+        2513,
+        678,
+        2555
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        156,
+        168
+      ],
+      "pixel_sha256": "8dbbb63b3f20fee90d0e3375f8d4d2a26fb68b9d62247b634e4772e99136c58b",
+      "file_sha256": "50f3a2fb655027c8676de023c794343a50d2a8f1965a34bf2ecbfaa350b85482"
+    },
+    {
+      "id": "regular-10-job-00-07",
+      "file": "reference/crops/regular-10-job-00-07.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        279,
+        2513,
+        318,
+        2557
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        156,
+        176
+      ],
+      "pixel_sha256": "b190a2ca18f4e02b269858bbda7133b19de6038680ec1ea49b8f12d81b759f7e",
+      "file_sha256": "b5ac217e65c2235c66d78bda764b6f699999b80bedb16dba0a209ed87ea76888"
+    },
+    {
+      "id": "regular-10-census-U-06",
+      "file": "reference/crops/regular-10-census-U-06.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        321,
+        3285,
+        366,
+        3342
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        228
+      ],
+      "pixel_sha256": "7cf73db00db7bc46d07870fd3fc298b09c9bd4a3b9a9cc8470ad15623e60bc1c",
+      "file_sha256": "a6f69fe92ecb95dc437ac332132d0a8eafdc92a5b5750741aa5231922791d986"
+    },
+    {
+      "id": "regular-10-census-U-07",
+      "file": "reference/crops/regular-10-census-U-07.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        366,
+        3286,
+        417,
+        3342
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        204,
+        224
+      ],
+      "pixel_sha256": "dcef341760f14effb6bd04b59528030d8cbacdfe79eab7ec7f199f77fb89d5bb",
+      "file_sha256": "50527055c0db70bc0ec83fa596125021958fdaa51ac5c153178ee81710c1350f"
+    },
+    {
+      "id": "regular-10-job-00-06",
+      "file": "reference/crops/regular-10-job-00-06.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        243,
+        2514,
+        279,
+        2556
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        168
+      ],
+      "pixel_sha256": "e7448d192fb96c5400dc4b3b8b8a61316de7dafef6108440961624761dec5f70",
+      "file_sha256": "3bfbc00dffe8a6c21a5c008d1500d0560b6c4fd196778c10cb618679fed436e1"
+    },
+    {
+      "id": "regular-10-job-07-09",
+      "file": "reference/crops/regular-10-job-07-09.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        286,
+        2922,
+        305,
+        2964
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        168
+      ],
+      "pixel_sha256": "eb3781b7295b5c26c2998527f5f961995176450d71820848fcee33da7158181c",
+      "file_sha256": "e78739fd460d7653f4e8d4cbbf14f05706616610de40e0747f82a4546acd37ee"
+    },
+    {
+      "id": "regular-10-census-U-10",
+      "file": "reference/crops/regular-10-census-U-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        493,
+        3285,
+        530,
+        3341
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        224
+      ],
+      "pixel_sha256": "b4fb0a6c3c5f9f73ce37f69578016573a5898c6ba5795641ae47ecb09752d5d7",
+      "file_sha256": "9822ddfb3328b7ebcd973bfb5fc8400fc285d17d018d78b6f2a5cf6999de759f"
+    },
+    {
+      "id": "regular-10-census-U-11",
+      "file": "reference/crops/regular-10-census-U-11.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        530,
+        3284,
+        584,
+        3340
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        216,
+        224
+      ],
+      "pixel_sha256": "098bfb9d96c9c4207b8e1cbc9b719bc555f5db058308bd440527ebbad2cea233",
+      "file_sha256": "548975516610f1f27773f5057f91e87d5bdb1f70b903bdfe4edbfac7858bdd2e"
+    },
+    {
+      "id": "regular-10-job-00-22",
+      "file": "reference/crops/regular-10-job-00-22.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        830,
+        2512,
+        863,
+        2554
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        132,
+        168
+      ],
+      "pixel_sha256": "0ca758406e941a6ccf778253ca1d5e0d982749c47035509652ee0aa224bcd635",
+      "file_sha256": "2bfb4890d9a82a18cd591a0860aa2e874caa1ab2d75963a0e7b29bab7b6d3fc1"
+    },
+    {
+      "id": "regular-10-job-01-01",
+      "file": "reference/crops/regular-10-job-01-01.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        47,
+        2572,
+        92,
+        2614
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        168
+      ],
+      "pixel_sha256": "18994b8ffa1036018e18d6467c934a1d1ecb815354bc6f4fe5e130daf57c7b66",
+      "file_sha256": "b60cad16a09da09c3bdc0fafd276e33a178e14a99c60be1b96afe30c6fec8ebb"
+    },
+    {
+      "id": "regular-10-job-00-04",
+      "file": "reference/crops/regular-10-job-00-04.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        153,
+        2514,
+        192,
+        2557
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        156,
+        172
+      ],
+      "pixel_sha256": "c83cf30bef632992505283bd020a408ec7c9fb23f9d3324a495d31ab8a57658e",
+      "file_sha256": "179676c38ecdde475888df5d519c82108ef6be9ff9e4eb78f19a6efd5789ec4b"
+    },
+    {
+      "id": "regular-10-job-00-24",
+      "file": "reference/crops/regular-10-job-00-24.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        916,
+        2512,
+        953,
+        2554
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        168
+      ],
+      "pixel_sha256": "fa87df71480ad98b96aefaf5bd63d86f60f563e58b09331746c3611103e85972",
+      "file_sha256": "71e68384501af4aa8a1622ea4ed70d796a32c6863045a2cc1699c4de3fe69413"
+    },
+    {
+      "id": "regular-10-job-01-25",
+      "file": "reference/crops/regular-10-job-01-25.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        716,
+        2571,
+        751,
+        2613
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        168
+      ],
+      "pixel_sha256": "fa592e0b5380cbb399fc77fbd9e501160c6852eb2de26e7a2ca61fb179a88823",
+      "file_sha256": "389a7dda4c021929f6493bcd927f4e338f06984e9aea4171828c27760d9edcfa"
+    },
+    {
+      "id": "regular-10-U-17",
+      "file": "reference/crops/regular-10-U-17.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        900,
+        1180,
+        933,
+        1228
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        132,
+        192
+      ],
+      "pixel_sha256": "ed83ae3b32aefe821cc305884817063a58c7e1d2d2bc8eb34b2c81841da81b29",
+      "file_sha256": "bf3762369b0777b5096142c028a355af603bd8ea82ca4415742cac31d850d907"
+    },
+    {
+      "id": "regular-10-job-00-13",
+      "file": "reference/crops/regular-10-job-00-13.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        505,
+        2513,
+        539,
+        2559
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        184
+      ],
+      "pixel_sha256": "c903615e60902dd2a6556b9b8985fdeabd8dbf01180087366f2f354dd542dbfe",
+      "file_sha256": "7a4bbf98a5c8352f1835afcb78239b8ce86de0bdddc90d7eabd5acb6e50de3f5"
+    },
+    {
+      "id": "regular-10-document-00-06",
+      "file": "reference/crops/regular-10-document-00-06.png",
+      "native_file": "reference/gpo-document-1904-leaf-65.jp2",
+      "native_box": [
+        868,
+        1885,
+        904,
+        1931
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        184
+      ],
+      "pixel_sha256": "e533c110b8cc6dec9d7d50b7c860a8017e5f3c6fd5295d641187bdb4a895f8d3",
+      "file_sha256": "12174b5688a35c7bef29708cced5d5b153430238428fae36318fdaff7e26d7ca"
+    },
+    {
+      "id": "regular-10-job-00-01",
+      "file": "reference/crops/regular-10-job-00-01.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        46,
+        2514,
+        82,
+        2556
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        168
+      ],
+      "pixel_sha256": "73be7a4424794af315750a920f3f3ac788b0c00e466870b017d6721344183512",
+      "file_sha256": "f5d5ea72c2354b28e97a38213afa291f9aadab3e2f21800130f60b851b6e502f"
+    },
+    {
+      "id": "regular-10-census-U-21",
+      "file": "reference/crops/regular-10-census-U-21.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        1011,
+        3281,
+        1060,
+        3337
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        196,
+        224
+      ],
+      "pixel_sha256": "046d54e7914cf5514a001a20b9ca67e1506406d625a8848dfa826b2eecc266ac",
+      "file_sha256": "ed111bb0dfa97b49f876f43cb2337f34eaf3054b0f10676f04e6cb9afc970141"
+    },
+    {
+      "id": "regular-10-census-U-22",
+      "file": "reference/crops/regular-10-census-U-22.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        1060,
+        3281,
+        1112,
+        3336
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        208,
+        220
+      ],
+      "pixel_sha256": "c1f340f2453e8da3207866ff616cb2d358976315ace836c9d7154d2bd0be0668",
+      "file_sha256": "1c73a6392a8499645b990809ca6788ce1a7e3ad74700ebabb1a5aa7d3e2c6f6b"
+    },
+    {
+      "id": "regular-10-U-23",
+      "file": "reference/crops/regular-10-U-23.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1100,
+        1182,
+        1154,
+        1223
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        216,
+        164
+      ],
+      "pixel_sha256": "253e825558d8993dd3a7e22c019fdbfc4279bc429387c363d32a95dcf1d77c43",
+      "file_sha256": "beb066e17f900a459cf6ce6710b8bf171e979d94d03945d7472f37ddd4e26c0b"
+    },
+    {
+      "id": "regular-10-U-24",
+      "file": "reference/crops/regular-10-U-24.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1154,
+        1182,
+        1189,
+        1224
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        168
+      ],
+      "pixel_sha256": "50132e2d27763bdb60978935f99a86beebf4be036ebbb018e81f6841d5c9c4f5",
+      "file_sha256": "180d91d7f5df8ea7583e49970d8d09e37dece86313a54017ed1afdf41a71ead3"
+    },
+    {
+      "id": "regular-10-document-01-01",
+      "file": "reference/crops/regular-10-document-01-01.png",
+      "native_file": "reference/gpo-document-1904-leaf-65.jp2",
+      "native_box": [
+        525,
+        1951,
+        563,
+        1996
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        180
+      ],
+      "pixel_sha256": "aafd9e47c37001d751ce2f4651cee70bf1715d5a97aded5398b0a94f59839792",
+      "file_sha256": "883957cfaa49657aab19b320cbf8f112fef424e031539fc08258db251d247205"
+    },
+    {
+      "id": "regular-10-U-26",
+      "file": "reference/crops/regular-10-U-26.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1225,
+        1183,
+        1257,
+        1225
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        128,
+        168
+      ],
+      "pixel_sha256": "4a5299a910bc0e3a8d300f2792d377e6177dfb1e1355dca719ab8523e059e82c",
+      "file_sha256": "67baf1fc5b0f2fd1979708075079d35c8e88bac859905f20f8876aadcdc22003"
+    },
+    {
+      "id": "regular-10-job-01-02",
+      "file": "reference/crops/regular-10-job-01-02.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        92,
+        2582,
+        121,
+        2614
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        116,
+        128
+      ],
+      "pixel_sha256": "3ff5d1aa24c01004d1ea6624fa822034125b290e5872950b7d183b36a2c3b541",
+      "file_sha256": "a7f53766a0e8a82af9039c5ea5f32ee14483161e585461d970d51a97d2d1b8d6"
+    },
+    {
+      "id": "regular-10-job-09-01",
+      "file": "reference/crops/regular-10-job-09-01.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        50,
+        3039,
+        79,
+        3081
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        116,
+        168
+      ],
+      "pixel_sha256": "f9e35393b60205e727e1093600d03153a0acb01f2ea7cc6a74178d8f5051fae1",
+      "file_sha256": "3b272a50bc67d281fc7149b004a360a6ab91b8a8999e8a5bda5822ff00ede886"
+    },
+    {
+      "id": "regular-10-job-02-12",
+      "file": "reference/crops/regular-10-job-02-12.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        381,
+        2640,
+        406,
+        2672
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        128
+      ],
+      "pixel_sha256": "7c9f13d7fe30b68ff44cf4b67df18996db75952fc0d5b7e57f1f71465391f42b",
+      "file_sha256": "36d747fa313d306b346dacf1cda52e5de166201c17a4376015d6200fed62b026"
+    },
+    {
+      "id": "regular-10-job-01-16",
+      "file": "reference/crops/regular-10-job-01-16.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        444,
+        2572,
+        471,
+        2614
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        168
+      ],
+      "pixel_sha256": "dfb5cc14476434f28582b6daf6afd2c97eabe75179236f5b14d59d360b7d5f3e",
+      "file_sha256": "0555c9845bff8e99aee20401e5141afff97ee470e8d493aba692661366f7204e"
+    },
+    {
+      "id": "regular-10-job-02-03",
+      "file": "reference/crops/regular-10-job-02-03.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        92,
+        2640,
+        117,
+        2672
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        128
+      ],
+      "pixel_sha256": "1cb38a6afcfe8dea4c157ced9af925dfa43f42748c38cd8b9540b1c2952f71bb",
+      "file_sha256": "52795669b75b2087ea24a6e7bc6878f9637d72cbb120afffd3b22b2cb6b85fa2"
+    },
+    {
+      "id": "regular-10-job-04-12",
+      "file": "reference/crops/regular-10-job-04-12.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        403,
+        2747,
+        425,
+        2789
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        88,
+        168
+      ],
+      "pixel_sha256": "7ec2ddac19766fa3e9e64001c4dac2bdd960cc890f2644eb8c7c921a86596104",
+      "file_sha256": "782a62de37780a8357bf1dc0712a31af672db0d044cba4cb1886fd7f22f9ab87"
+    },
+    {
+      "id": "regular-10-job-05-11",
+      "file": "reference/crops/regular-10-job-05-11.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        306,
+        2816,
+        333,
+        2856
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        160
+      ],
+      "pixel_sha256": "2fd1b29416dede0440d3edae51b73be8018c26fadf6909cce807d2a2e7360d97",
+      "file_sha256": "d00cd6e5f18819501a8b18bd7a183e85c6d064005a622cb6b9952ff3e78f25b3"
+    },
+    {
+      "id": "regular-10-job-01-19",
+      "file": "reference/crops/regular-10-job-01-19.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        536,
+        2571,
+        565,
+        2613
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        116,
+        168
+      ],
+      "pixel_sha256": "0d928e5204ab6edf4ba998aec58441056929a7630fbdf057123274a8cd927a6e",
+      "file_sha256": "d1ca976d2105dd6270167212f4ca4f4d66a78e23ec6360948d4a6c35e2d1ae4f"
+    },
+    {
+      "id": "regular-10-job-02-02",
+      "file": "reference/crops/regular-10-job-02-02.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        77,
+        2631,
+        92,
+        2673
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        60,
+        168
+      ],
+      "pixel_sha256": "9be136784566631ea4a552e129c304a0779e86fb485085c587df046ea67c04c0",
+      "file_sha256": "d42caf73f7de8b1acd2fa05ee1ba7318562a31ec74539b906f3fcb5f37a6cbe1"
+    },
+    {
+      "id": "regular-10-census-l-10",
+      "file": "reference/crops/regular-10-census-l-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        1582,
+        3281,
+        1605,
+        3347
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        264
+      ],
+      "pixel_sha256": "805c375b5ab799bd54dc439ab1fa214f161854d1569319c1745d1ba5afa925b5",
+      "file_sha256": "f77414f7c8846661db8a3f1ab2ae7f0ab9020b72c3eb745a6e6615241f754f5a"
+    },
+    {
+      "id": "regular-10-census-l-11",
+      "file": "reference/crops/regular-10-census-l-11.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        1605,
+        3280,
+        1649,
+        3334
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        176,
+        216
+      ],
+      "pixel_sha256": "7888b6f1d283acec0f1505c43ebe879710a530f51ffa60af04c2079c68b06006",
+      "file_sha256": "1f9cda0a6c43b24da4e3a4d8b5bec34e39306b2126e242b013f22c5284d1c675"
+    },
+    {
+      "id": "regular-10-job-01-12",
+      "file": "reference/crops/regular-10-job-01-12.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        342,
+        2572,
+        356,
+        2614
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        56,
+        168
+      ],
+      "pixel_sha256": "a9451bd993cf206efbce6521af645e1e0a5c70345e7d596b00f9d4c052e479ec",
+      "file_sha256": "f6f4b9b8d0a117d17a5e17b1ac1bbe0e4bc510ce6502ce3c838aac3da68ffca1"
+    },
+    {
+      "id": "regular-10-job-02-27",
+      "file": "reference/crops/regular-10-job-02-27.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        817,
+        2639,
+        862,
+        2671
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        128
+      ],
+      "pixel_sha256": "34ade7d2309bb5b0b4d79e8d183283bd763905650360986af64cd8d4ff9e9b37",
+      "file_sha256": "d1b5cf85122bff40bf76d42c349acbd00d9b96c80fe8e2388dfed1d54ce118c2"
+    },
+    {
+      "id": "regular-10-job-01-21",
+      "file": "reference/crops/regular-10-job-01-21.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        589,
+        2581,
+        621,
+        2613
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        128,
+        128
+      ],
+      "pixel_sha256": "6b7cdc3a9c81a5d095a13b658a4f6d7ddcb7bfaa23f936c0025ea20e10f17562",
+      "file_sha256": "763389f3edc8f8a1b0f5126a766761868bdd2e382f9773f27b18fabc4276cc0a"
+    },
+    {
+      "id": "regular-10-job-01-10",
+      "file": "reference/crops/regular-10-job-01-10.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        303,
+        2582,
+        328,
+        2614
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        128
+      ],
+      "pixel_sha256": "9d7cea6a089f9ec30776eaed0ce620f6c792e9b60b21f23472088bee4b7bde56",
+      "file_sha256": "9dad6cfa244c40eea8c77e3940ce0b10a245d6ca505cf72e1f6a4fbd8b8352e6"
+    },
+    {
+      "id": "regular-10-job-05-29",
+      "file": "reference/crops/regular-10-job-05-29.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        892,
+        2814,
+        923,
+        2855
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        124,
+        164
+      ],
+      "pixel_sha256": "f635d55debe1c60a10c966e2db209e7fc0367d73398f0136036f29c735a94be0",
+      "file_sha256": "31402f264efab323e961e6e9bbcc1a0f0b902debac6263202c86b12f51a9f1cb"
+    },
+    {
+      "id": "regular-10-census-l-17",
+      "file": "reference/crops/regular-10-census-l-17.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        1846,
+        3292,
+        1883,
+        3346
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        216
+      ],
+      "pixel_sha256": "c01947ac1656c44bbcd6d3ded93b673ba27cb7156f712585deaccc8e1d32b6e8",
+      "file_sha256": "fd404dc88471234f25e8920c29840f00f1affedc6e2c50aa4138b4bf41c2c48f"
+    },
+    {
+      "id": "regular-10-job-01-27",
+      "file": "reference/crops/regular-10-job-01-27.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        775,
+        2580,
+        796,
+        2612
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        84,
+        128
+      ],
+      "pixel_sha256": "3c7ddbbcfa73a5c9ebddeef0523aa2e14a739c7d8eb42b69634bdd5cc6027c75",
+      "file_sha256": "bf25082aa098277cc0efebe9316eb2494d2ef1dc82a0ccd082e9bf7cb2f88b2a"
+    },
+    {
+      "id": "regular-10-job-01-32",
+      "file": "reference/crops/regular-10-job-01-32.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        901,
+        2579,
+        926,
+        2613
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        136
+      ],
+      "pixel_sha256": "442aa0c6e9f2f685138aa7971b62538c32a44ecc8b6c3130526cd6747905b43c",
+      "file_sha256": "dca15b16964754b54387ffd386e95da72cf15d1400c7121018b933ecd715d0b7"
+    },
+    {
+      "id": "regular-10-job-01-22",
+      "file": "reference/crops/regular-10-job-01-22.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        626,
+        2573,
+        651,
+        2613
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        160
+      ],
+      "pixel_sha256": "fb6f576052b3036583296753bd230310d9c7956c869e9b8ba28efa90630c7434",
+      "file_sha256": "7dfdb82b68a4d161ad0c139b52d6c0e867f2d0aa8ab6500a661b8be5b4eb63e4"
+    },
+    {
+      "id": "regular-10-job-02-24",
+      "file": "reference/crops/regular-10-job-02-24.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        717,
+        2639,
+        745,
+        2671
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        112,
+        128
+      ],
+      "pixel_sha256": "d021b106494db40f342994616212eefb69aa22bf4eef71440364fd95ef22c065",
+      "file_sha256": "34dd35eecdf55bdd30f5fb5309668afacea17ecc16241780efc0507f8960b9f9"
+    },
+    {
+      "id": "regular-10-job-05-16",
+      "file": "reference/crops/regular-10-job-05-16.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        482,
+        2816,
+        513,
+        2848
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        124,
+        128
+      ],
+      "pixel_sha256": "02c617a79057f6d34e547743a986df8e3ff0668b9972f25e7558d83b5e404220",
+      "file_sha256": "dcbe8e637cc50bd2fea904b27e1ac535f61d780828a2d0d3c1c6269c8a1a5247"
+    },
+    {
+      "id": "regular-10-job-01-18",
+      "file": "reference/crops/regular-10-job-01-18.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        492,
+        2582,
+        536,
+        2614
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        176,
+        128
+      ],
+      "pixel_sha256": "fba21783c66fda6549b018426af8ab1b116566530eda703921213076ba11cd56",
+      "file_sha256": "bec607c52a1652aadbc201a47c9b46c9b678c4caaca3979aa06d8f8dbd227adb"
+    },
+    {
+      "id": "regular-10-l-24",
+      "file": "reference/crops/regular-10-l-24.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1505,
+        1297,
+        1531,
+        1327
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        104,
+        120
+      ],
+      "pixel_sha256": "399f1cdb101b0708ac878e42cba6cfc9c20d79323776227868e3ac53ab6a6ad8",
+      "file_sha256": "50286a7248d684ff3f1ef7bf7c330b9134b25ed49dd596abc9a7664688f6b0f6"
+    },
+    {
+      "id": "regular-10-job-07-07",
+      "file": "reference/crops/regular-10-job-07-07.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        196,
+        2934,
+        226,
+        2975
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        120,
+        164
+      ],
+      "pixel_sha256": "8c8cce1393f8d343b0a864a1a8e7772c2e6348294e2741af6b8e5439fdfded40",
+      "file_sha256": "5b911d5a605271e326c1246ccfd6e0e7e2ecb14b956b0b88031a153a40e5894b"
+    },
+    {
+      "id": "regular-10-l-26",
+      "file": "reference/crops/regular-10-l-26.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1560,
+        1296,
+        1587,
+        1329
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        132
+      ],
+      "pixel_sha256": "6b68248276a26e38af9f73856de1abf3db69a67e6654b980144da44f278e7758",
+      "file_sha256": "936fcbb7bb1731ca7b712d1d2cdc9e545a793f18ff00c80c9b5096e66c62700f"
+    },
+    {
+      "id": "regular-10-census-n-10",
+      "file": "reference/crops/regular-10-census-n-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2530,
+        3290,
+        2570,
+        3333
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        172
+      ],
+      "pixel_sha256": "212ce938512609870c982e4701290d48efc6ba8b21cccce59cac64610d17debf",
+      "file_sha256": "1bfa22ad5dad0d38882a29306213f30632fdb9203978d3eebeb3df2fdee37faa"
+    },
+    {
+      "id": "regular-10-census-n-01",
+      "file": "reference/crops/regular-10-census-n-01.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2223,
+        3280,
+        2250,
+        3335
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        220
+      ],
+      "pixel_sha256": "c5fab9d185b54c45a6c9d8dad3d79f52b1bbf025f928c00eda4ff4a31b69527a",
+      "file_sha256": "562ec658049866f72aefc7e2c50f12781fa0bd40963ec5335aab558642f87095"
+    },
+    {
+      "id": "regular-10-census-n-02",
+      "file": "reference/crops/regular-10-census-n-02.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2250,
+        3291,
+        2288,
+        3333
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        168
+      ],
+      "pixel_sha256": "5529bc06c0dc257f915446aa1b508c38cc7830a60bfe3e8b6f4b40cb5519bfbd",
+      "file_sha256": "466e6fd4ac563b0e0b7a2baf499410580584e94fadf03012030d540c1acf1559"
+    },
+    {
+      "id": "regular-10-census-n-03",
+      "file": "reference/crops/regular-10-census-n-03.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2288,
+        3282,
+        2323,
+        3335
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        212
+      ],
+      "pixel_sha256": "cf941cbbf6e65447ab64536e45225a882a1ebec89c89a426f193b03e3c638a81",
+      "file_sha256": "5702b5fea15f14029a869ddf5b1757c3215c9d733d3a52e0792d9ef63ec21f26"
+    },
+    {
+      "id": "regular-10-job-09-32",
+      "file": "reference/crops/regular-10-job-09-32.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        932,
+        3039,
+        960,
+        3079
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        112,
+        160
+      ],
+      "pixel_sha256": "eec79ac83ab5813d25342438faed4e452b8e1da9475cea31a8a94bfa41e8ad47",
+      "file_sha256": "4c914bd9a0396e7f536eb71bf849b9ef1657e332bf6a26b181b8a699eb2d6c10"
+    },
+    {
+      "id": "regular-10-census-n-05",
+      "file": "reference/crops/regular-10-census-n-05.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2358,
+        3282,
+        2392,
+        3335
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        212
+      ],
+      "pixel_sha256": "a5daa0b73fc38b936e055b832553a79927032fca3c922e8785c31aec4cb0b336",
+      "file_sha256": "cd11000525a6cc22fa1efb560310e6f39502a973bcd6e24fc5438b754193c28f"
+    },
+    {
+      "id": "regular-10-census-n-06",
+      "file": "reference/crops/regular-10-census-n-06.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2392,
+        3280,
+        2427,
+        3334
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        216
+      ],
+      "pixel_sha256": "1e79a0a14693b85ead2074a60d0ecbf4cada92f1ff35f0e3e02bede8f0ee2500",
+      "file_sha256": "2d6d196cf295d77666b61646bb9f7c60dbf84c655ca04a0b93a815bb8a10c051"
+    },
+    {
+      "id": "regular-10-census-n-07",
+      "file": "reference/crops/regular-10-census-n-07.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2427,
+        3290,
+        2461,
+        3344
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        216
+      ],
+      "pixel_sha256": "155838d04d8a22888c87f0ce8d618b3a4c98ac88eca076b16d030e59ca4c84b7",
+      "file_sha256": "8287f2295cbd67941118c2b2e9da03d1b78da6b805c41fb8b4eee630c778b28a"
+    },
+    {
+      "id": "regular-10-census-n-08",
+      "file": "reference/crops/regular-10-census-n-08.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2461,
+        3280,
+        2495,
+        3333
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        212
+      ],
+      "pixel_sha256": "123f0007996eee34d72d537f9d0540b75932ddfe0fe0068b35fe87b3e717c985",
+      "file_sha256": "19d198de907554f0b10dce9ba85f8985de9e185aed66753ff42f9d3741d40665"
+    },
+    {
+      "id": "regular-10-census-n-09",
+      "file": "reference/crops/regular-10-census-n-09.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        2495,
+        3290,
+        2530,
+        3344
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        216
+      ],
+      "pixel_sha256": "a2f13b12ddc0e257af877598b3998a24d840ac666c6b3243d927dd4b7e64e277",
+      "file_sha256": "5307a72e4ca55326d3a4ee7879cd4126896ec3c989cdc87307bc1e5ab1f89067"
+    },
+    {
+      "id": "regular-10-job-07-08",
+      "file": "reference/crops/regular-10-job-07-08.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        226,
+        2947,
+        242,
+        2964
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        64,
+        68
+      ],
+      "pixel_sha256": "516ef618f5812fd52f345005c4460420bd6a474ec08368a7af1c6abd71a24779",
+      "file_sha256": "7f031f505cb47390fff06834ac95266e33e14cbf2d6d15e59b0bb048377654eb"
+    },
+    {
+      "id": "regular-10-job-03-13",
+      "file": "reference/crops/regular-10-job-03-13.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        339,
+        2713,
+        354,
+        2736
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        60,
+        92
+      ],
+      "pixel_sha256": "3b4b5d9f902d2ba2ea75377161236b1925a441a1794fc9721e2c5be799c9bddc",
+      "file_sha256": "ab3c873869d9f6d74bb8b263d2554c8f8625d9f33231ba9f0dbeac944e346692"
+    },
+    {
+      "id": "regular-10-job-01-35",
+      "file": "reference/crops/regular-10-job-01-35.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        965,
+        2587,
+        989,
+        2605
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        72
+      ],
+      "pixel_sha256": "92e7f2a8a0b875baf385fe42beea45377373af7bd1ab0cfc2c38755943428963",
+      "file_sha256": "579c4ab21ef19c898e200292a943383a4516ab3f7490a3228461270c24abe1e9"
+    },
+    {
+      "id": "regular-10-job-05-21",
+      "file": "reference/crops/regular-10-job-05-21.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        601,
+        2827,
+        651,
+        2840
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        200,
+        52
+      ],
+      "pixel_sha256": "f865687c5505b33e11da5c533917cfeddf7b0461de57d286cf16f6aade1838f6",
+      "file_sha256": "057e6865a79d8b58a951470559b6ecf430e93550d10626958cdd6c2f7bf50147"
+    },
+    {
+      "id": "regular-10-census-U-13",
+      "file": "reference/crops/regular-10-census-U-13.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        630,
+        3284,
+        685,
+        3339
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        220,
+        220
+      ],
+      "pixel_sha256": "83cc951fe39470db611d8339a2db9a309bf2400821a5115b9f5d1f56203e03f8",
+      "file_sha256": "be4652705e1c491ac6e7ab5b1bad0d7aa80809ccfd72140c0b7582590608315a"
+    },
+    {
+      "id": "regular-10-n-01",
+      "file": "reference/crops/regular-10-n-01.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1890,
+        1199,
+        1908,
+        1231
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        72,
+        128
+      ],
+      "pixel_sha256": "b171333e151e97235d762face9bcab40922a648253bb99d5d240dca3737d7c7a",
+      "file_sha256": "15d8f2a4b2c9ea9c6d8d1612da15e5d1d35c94d1f71b99b2bfc9da63910ac52d"
+    },
+    {
+      "id": "regular-10-n-03",
+      "file": "reference/crops/regular-10-n-03.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1934,
+        1200,
+        1959,
+        1240
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        160
+      ],
+      "pixel_sha256": "1cdb1bea9f295146858b8ab177d417070996d2f0e22fa9769f7c6d738c9fedc1",
+      "file_sha256": "fc8d7bb53defb0a8195b13134908cc1cd18cda2fccb553ccf5146b67d55b3c2a"
+    },
+    {
+      "id": "regular-10-n-04",
+      "file": "reference/crops/regular-10-n-04.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1959,
+        1201,
+        1984,
+        1241
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        160
+      ],
+      "pixel_sha256": "f17dd7f4705f6c891bfa24d7af96e413a6312134151a3f5f5364ec5c1eccf08f",
+      "file_sha256": "d4ba80489a08423975f039d6316507b3097f5b66117c4e93f4b37e32217e3476"
+    },
+    {
+      "id": "regular-10-n-05",
+      "file": "reference/crops/regular-10-n-05.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        1984,
+        1200,
+        2008,
+        1241
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        164
+      ],
+      "pixel_sha256": "d26eb61a21807ad9d322c5b88622a45b5bc46f9fe5b5f9a392a97de948a7b988",
+      "file_sha256": "7ef62876b179a194e3d00c0d172fe6b239064562311da18bd7d3dec1c459dcb1"
+    },
+    {
+      "id": "regular-10-document-01-08",
+      "file": "reference/crops/regular-10-document-01-08.png",
+      "native_file": "reference/gpo-document-1904-leaf-65.jp2",
+      "native_box": [
+        745,
+        1951,
+        774,
+        1998
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        116,
+        188
+      ],
+      "pixel_sha256": "ed05539537daae697bd9554d65e0e5f02f3c4cb2d5bfc04d62fac3cb478955da",
+      "file_sha256": "e3406d4fee10230c585a4c039e374c851b81d2d4968cbeba3ea5a68cd65f029e"
+    },
+    {
+      "id": "regular-10-job-09-33",
+      "file": "reference/crops/regular-10-job-09-33.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        960,
+        3039,
+        989,
+        3079
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        116,
+        160
+      ],
+      "pixel_sha256": "1fceceb965b1a62ef2dd3ee1c521ae3e06af676561345f13398b95ed245920af",
+      "file_sha256": "089b0c6bda8a553c11e6d31175e80a3a4fb3f48484a2680cb8f72f03b7c9b413"
+    },
+    {
+      "id": "regular-fraction-10-atf-handy-byu-1897-0-00",
+      "file": "reference/crops/regular-fraction-10-atf-handy-byu-1897-0-00.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "native_box": [
+        1368,
+        2069,
+        1463,
+        2167
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        380,
+        392
+      ],
+      "pixel_sha256": "b281f255e4136aa0ed7369bd428db44c194006631900c7ac50aca2d6652702a8",
+      "file_sha256": "1c6aaaf8f44d83ab0d140dba85e874d0f4801553a2d204b4416c953e2a8c2de8"
+    },
+    {
+      "id": "regular-fraction-10-atf-handy-byu-1897-0-01",
+      "file": "reference/crops/regular-fraction-10-atf-handy-byu-1897-0-01.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "native_box": [
+        1492,
+        2068,
+        1585,
+        2166
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        372,
+        392
+      ],
+      "pixel_sha256": "7ee4a8d61a43e012c6a471ef4c2be92837fe1eaa51e08bb42392d8a23218139e",
+      "file_sha256": "df494132f327fcdab77d3aac39752cfec4b0fdbfb4b468a337a2f4a949a63e87"
+    },
+    {
+      "id": "regular-fraction-10-atf-handy-byu-1897-0-02",
+      "file": "reference/crops/regular-fraction-10-atf-handy-byu-1897-0-02.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "native_box": [
+        1614,
+        2068,
+        1711,
+        2166
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        388,
+        392
+      ],
+      "pixel_sha256": "1b506c448ec0534b3316e8b00ec3c904a70f1d268031f33b6400bcfb7198dacb",
+      "file_sha256": "50db5ad774a23f6b431998b25549d65ff3c707eba8071af5de9bff0241497e33"
+    },
+    {
+      "id": "regular-fraction-10-atf-handy-byu-1897-0-03",
+      "file": "reference/crops/regular-fraction-10-atf-handy-byu-1897-0-03.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "native_box": [
+        1751,
+        2068,
+        1846,
+        2167
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        380,
+        396
+      ],
+      "pixel_sha256": "88886c171f7e7b293ed08f90b52b26745c03ef4b567401ef2755ca554a64dea9",
+      "file_sha256": "01df0ce6726ba8c99bc4f1a49b4e026ad8c8ff478fa459a2e568d21055216173"
+    },
+    {
+      "id": "regular-fraction-10-atf-new-york-1897-0-04",
+      "file": "reference/crops/regular-fraction-10-atf-new-york-1897-0-04.png",
+      "native_file": "reference/atf-new-york-1897-leaf-506.jp2",
+      "native_box": [
+        1320,
+        3432,
+        1376,
+        3493
+      ],
+      "native_rotation_clockwise": 270,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        224,
+        244
+      ],
+      "pixel_sha256": "a7943be99285ee203516b7f8ef9be32c958abaac69e61576b36e1d8cc7aba110",
+      "file_sha256": "d2e776c6bc039d30adc5b798b62cdcbf816445e22e7c3f922b076acb04bc0276"
+    },
+    {
+      "id": "regular-fraction-10-atf-handy-byu-1897-0-05",
+      "file": "reference/crops/regular-fraction-10-atf-handy-byu-1897-0-05.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "native_box": [
+        2011,
+        2069,
+        2107,
+        2167
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        384,
+        392
+      ],
+      "pixel_sha256": "923dc600b74e50ecc65d1dab1e11940bd86729cec5fc5d3c7c4eb5253007b6b6",
+      "file_sha256": "986e4c33275febd0f4ec6f6112e16c57f812bd5a22e06119a8ab4945843c4ed8"
+    },
+    {
+      "id": "regular-fraction-10-atf-desk-1898-0-06",
+      "file": "reference/crops/regular-fraction-10-atf-desk-1898-0-06.png",
+      "native_file": "reference/atf-desk-loc-1898-leaf-755.jp2",
+      "native_box": [
+        704,
+        1077,
+        776,
+        1149
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        288,
+        288
+      ],
+      "pixel_sha256": "95d81e36e50c9e85abcb3ad9d45515982160be9ebd7e64a065c3cac928c1f226",
+      "file_sha256": "9d310ed0ab2f6209157066405cd6d717e05d1b74d89eb6ed6ae387eb90704655"
+    },
+    {
+      "id": "regular-fraction-10-atf-desk-1898-0-07",
+      "file": "reference/crops/regular-fraction-10-atf-desk-1898-0-07.png",
+      "native_file": "reference/atf-desk-loc-1898-leaf-755.jp2",
+      "native_box": [
+        797,
+        1078,
+        869,
+        1149
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        288,
+        284
+      ],
+      "pixel_sha256": "ae09626af8e02dfc53cf6ca4980c7db2be1f048623c611c7d5513a59a80cf2d9",
+      "file_sha256": "8e56a2d3877939e8856c537f034a6d149e8bfa6bea2e4dbe1a756e7c4424a25c"
+    },
+    {
+      "id": "regular-fraction-10-atf-new-york-1897-0-09",
+      "file": "reference/crops/regular-fraction-10-atf-new-york-1897-0-09.png",
+      "native_file": "reference/atf-new-york-1897-leaf-506.jp2",
+      "native_box": [
+        1701,
+        3432,
+        1736,
+        3493
+      ],
+      "native_rotation_clockwise": 270,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        244
+      ],
+      "pixel_sha256": "da975ddb2b89d8a8406c216e47fa6b68ee41a1a1fe502331206704d8e69734ef",
+      "file_sha256": "182391f8fd24d603eee4188773212590466493a6dba3062bad4df5a926f511bc"
+    },
+    {
+      "id": "regular-fraction-10-atf-new-york-1897-0-10",
+      "file": "reference/crops/regular-fraction-10-atf-new-york-1897-0-10.png",
+      "native_file": "reference/atf-new-york-1897-leaf-506.jp2",
+      "native_box": [
+        1763,
+        3431,
+        1824,
+        3493
+      ],
+      "native_rotation_clockwise": 270,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        244,
+        248
+      ],
+      "pixel_sha256": "71e811d10a5760f83bcc4637a0d18d352c1e254c5c70739cc4394d57bd330acf",
+      "file_sha256": "4aac7c4324977cd83b252a33f8b093a38d9a76fbadf0e7f4cf4c6677da868f44"
+    },
+    {
+      "id": "handy-358-regular-10-cap-06",
+      "file": "reference/crops/handy-358-regular-10-cap-06.png",
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2",
+      "native_box": [
+        474,
+        1280,
+        504,
+        1312
+      ],
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        120,
+        128
+      ],
+      "pixel_sha256": "3ea4a701765dbba226f9edc179b4221c060958111ba070f864e2cf7f350c9508",
+      "file_sha256": "1fe9d031d7c066e8ee8fdd55160379302503ccbec8e4e19213d3191f6464d771"
+    },
+    {
+      "id": "atf-handy-byu-1897-600-10-row03-09",
+      "file": "reference/crops/atf-handy-byu-1897-600-10-row03-09.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-600.jp2",
+      "native_box": [
+        941,
+        2058,
+        960,
+        2106
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        192
+      ],
+      "pixel_sha256": "ef5086d7ce34ff88aac15a7572f1ad6797bf3e4abff9fee676ad5e387d898496",
+      "file_sha256": "8e5f8b5cf330e9f3f4fbd1ddfe51b63df2ff84e1e60af95e5b9c21fe34b12e82"
+    },
+    {
+      "id": "atf-desk-1898-130-10-row05-27",
+      "file": "reference/crops/atf-desk-1898-130-10-row05-27.png",
+      "native_file": "reference/atf-desk-loc-1898-leaf-130.jp2",
+      "native_box": [
+        1396,
+        1952,
+        1412,
+        1995
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        64,
+        172
+      ],
+      "pixel_sha256": "207ed2c353c21d4c6fe1ae52ffeec0aab7a617fbc46aec8c9e2523b20c98e936",
+      "file_sha256": "f3775acd3e2d0906e6c994f280e22892db7607eb88cb2514cb60edae5799567b"
+    },
+    {
+      "id": "atf-desk-nypl-1898-540-10-row05-05",
+      "file": "reference/crops/atf-desk-nypl-1898-540-10-row05-05.png",
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "native_box": [
+        1185,
+        6138,
+        1217,
+        6188
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        128,
+        200
+      ],
+      "pixel_sha256": "6b89ffe2f61693da6f69f17c47d931be80f40d4e9a2b67bd59ad8c326656aceb",
+      "file_sha256": "9206e180baa7db1c976f6eef6d277af503da511bb99dfa33c25de466306730d0"
+    }
+  ]
+}

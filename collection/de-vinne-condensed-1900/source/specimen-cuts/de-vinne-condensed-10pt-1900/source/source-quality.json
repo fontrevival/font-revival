@@ -1,0 +1,2258 @@
+{
+  "schema_version": 1,
+  "cut": "De Vinne Condensed, ten point",
+  "comparison": "Matching optical cut across census and ATF witnesses, with an explicit sweeping/straight R alternative. No punch, matrix or first-casting identity is inferred.",
+  "sampling": {
+    "native_sources": 5,
+    "derived_crops": 74,
+    "exact_pixels": true,
+    "exact_files": true,
+    "scale": 4,
+    "resampling": "Pillow LANCZOS",
+    "notes": "Interpolation adds no source evidence."
+  },
+  "contour_inventory": [
+    {
+      "character": " ",
+      "contours": 0,
+      "expected_design_contours": 0
+    },
+    {
+      "character": "A",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "B",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "C",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "D",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "E",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "F",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "G",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "H",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "I",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "J",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "K",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "L",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "M",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "N",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "O",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "P",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "Q",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "R",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "S",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "T",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "U",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "V",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "W",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "X",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "Y",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "Z",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "a",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "b",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "c",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "d",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "e",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "f",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "g",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "h",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "i",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "j",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "k",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "l",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "m",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "n",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "o",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "p",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "q",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "r",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "s",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "t",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "u",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "v",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "w",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "x",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "y",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "z",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "0",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "1",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "2",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "3",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "4",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "5",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "6",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "7",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "8",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "9",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": ",",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "’",
+      "contours": 1,
+      "expected_design_contours": 1
+    }
+  ],
+  "optical_comparison": [
+    {
+      "character": "H",
+      "6": {
+        "ink_width": 554.1606385753817,
+        "ink_height": 702.3332049621557,
+        "y_min": -5.84021456486493,
+        "y_max": 696.4929903972908
+      },
+      "8": {
+        "ink_width": 537.4916991501332,
+        "ink_height": 696.1841826110252,
+        "y_min": 10.713861424529384,
+        "y_max": 706.8980440355546
+      },
+      "10": {
+        "ink_width": 535.5813535401043,
+        "ink_height": 692.3955588564008,
+        "y_min": 7.668205505496846,
+        "y_max": 700.0637643618977
+      }
+    },
+    {
+      "character": "I",
+      "6": {
+        "ink_width": 236.64686183763268,
+        "ink_height": 698.5252738065973,
+        "y_min": 31.444269324633716,
+        "y_max": 729.969543131231
+      },
+      "8": {
+        "ink_width": 224.9379996868927,
+        "ink_height": 694.2025307904015,
+        "y_min": 8.80218204372349,
+        "y_max": 703.004712834125
+      },
+      "10": {
+        "ink_width": 229.90635001674767,
+        "ink_height": 693.5805527659683,
+        "y_min": 10.539906049526092,
+        "y_max": 704.1204588154943
+      }
+    },
+    {
+      "character": "K",
+      "6": {
+        "ink_width": 513.8095938708697,
+        "ink_height": 711.8863016977,
+        "y_min": -10.092916954419884,
+        "y_max": 701.7933847432801
+      },
+      "8": {
+        "ink_width": 530.5258616250355,
+        "ink_height": 707.6482337958985,
+        "y_min": -4.409008444477324,
+        "y_max": 703.2392253514212
+      },
+      "10": {
+        "ink_width": 515.8119546421623,
+        "ink_height": 707.7055296986808,
+        "y_min": -3.5220179544510124,
+        "y_max": 704.1835117442298
+      }
+    },
+    {
+      "character": "M",
+      "6": {
+        "ink_width": 713.8532155688805,
+        "ink_height": 702.565506871308,
+        "y_min": -2.671875,
+        "y_max": 699.893631871308
+      },
+      "8": {
+        "ink_width": 698.7023836972066,
+        "ink_height": 698.7688787677819,
+        "y_min": -7.930243308040886,
+        "y_max": 690.838635459741
+      },
+      "10": {
+        "ink_width": 700.7983300206304,
+        "ink_height": 697.2162372401698,
+        "y_min": 1.9846077465006529,
+        "y_max": 699.2008449866704
+      }
+    },
+    {
+      "character": "W",
+      "6": {
+        "ink_width": 821.8178297087406,
+        "ink_height": 718.8712713529685,
+        "y_min": -5.931350168274108,
+        "y_max": 712.9399211846944
+      },
+      "8": {
+        "ink_width": 806.1904162580953,
+        "ink_height": 709.198144838104,
+        "y_min": -15.044356140282389,
+        "y_max": 694.1537886978216
+      },
+      "10": {
+        "ink_width": 814.5739728028666,
+        "ink_height": 704.9647559140316,
+        "y_min": -2.75551132405835,
+        "y_max": 702.2092445899732
+      }
+    },
+    {
+      "character": "Q",
+      "6": {
+        "ink_width": 549.1900138981664,
+        "ink_height": 902.5890450390807,
+        "y_min": -198.1554783225584,
+        "y_max": 704.4335667165223
+      },
+      "8": {
+        "ink_width": 533.9568595547644,
+        "ink_height": 897.6945085177263,
+        "y_min": -195.81149869671847,
+        "y_max": 701.8830098210078
+      },
+      "10": {
+        "ink_width": 547.9954959301707,
+        "ink_height": 898.690567757643,
+        "y_min": -198.77332552888902,
+        "y_max": 699.9172422287539
+      }
+    },
+    {
+      "character": "a",
+      "6": {
+        "ink_width": 422.0979251950342,
+        "ink_height": 514.8019615873679,
+        "y_min": 0.04491564133178372,
+        "y_max": 514.8468772286998
+      },
+      "8": {
+        "ink_width": 438.22585141506977,
+        "ink_height": 499.46161209997626,
+        "y_min": 5.761148571553163,
+        "y_max": 505.22276067152944
+      },
+      "10": {
+        "ink_width": 430.4912573957234,
+        "ink_height": 509.69091447105836,
+        "y_min": -16.65195603142658,
+        "y_max": 493.0389584396318
+      }
+    },
+    {
+      "character": "g",
+      "6": {
+        "ink_width": 410.2182745402288,
+        "ink_height": 659.1312408189805,
+        "y_min": -172.1909368975167,
+        "y_max": 486.94030392146374
+      },
+      "8": {
+        "ink_width": 420.28150094766215,
+        "ink_height": 676.0141187959239,
+        "y_min": -188.02443379230357,
+        "y_max": 487.98968500362025
+      },
+      "10": {
+        "ink_width": 418.5965882948541,
+        "ink_height": 678.3445113439445,
+        "y_min": -179.78559786748605,
+        "y_max": 498.5589134764585
+      }
+    },
+    {
+      "character": "k",
+      "6": {
+        "ink_width": 434.1857423997045,
+        "ink_height": 721.2387509558495,
+        "y_min": -9.227047347697102,
+        "y_max": 712.0117036081524
+      },
+      "8": {
+        "ink_width": 440.84828624998727,
+        "ink_height": 696.0014963335436,
+        "y_min": -4.526700071758476,
+        "y_max": 691.4747962617852
+      },
+      "10": {
+        "ink_width": 446.7689351753722,
+        "ink_height": 706.7338198328122,
+        "y_min": -17.213731324514054,
+        "y_max": 689.5200885082982
+      }
+    },
+    {
+      "character": "m",
+      "6": {
+        "ink_width": 638.8494178551987,
+        "ink_height": 479.7399158149865,
+        "y_min": -5.421567839411029,
+        "y_max": 474.3183479755755
+      },
+      "8": {
+        "ink_width": 639.2151657902341,
+        "ink_height": 489.95590844687104,
+        "y_min": 12.648644132915692,
+        "y_max": 502.60455257978674
+      },
+      "10": {
+        "ink_width": 667.5172354887702,
+        "ink_height": 494.82510967171845,
+        "y_min": 5.177145728379164,
+        "y_max": 500.0022554000976
+      }
+    },
+    {
+      "character": "w",
+      "6": {
+        "ink_width": 650.459439837557,
+        "ink_height": 503.3986984599899,
+        "y_min": -10.672058577583675,
+        "y_max": 492.7266398824062
+      },
+      "8": {
+        "ink_width": 632.9838171936983,
+        "ink_height": 468.9495548806031,
+        "y_min": 1.6600151155134402,
+        "y_max": 470.60956999611653
+      },
+      "10": {
+        "ink_width": 641.1333627165533,
+        "ink_height": 482.42758971268466,
+        "y_min": -13.693214712684645,
+        "y_max": 468.734375
+      }
+    },
+    {
+      "character": "0",
+      "6": {
+        "ink_width": 400.9773987804907,
+        "ink_height": 706.8137709919591,
+        "y_min": 1.3258629560452846,
+        "y_max": 708.1396339480044
+      },
+      "8": {
+        "ink_width": 410.294388397607,
+        "ink_height": 716.9995324348153,
+        "y_min": -0.1583001567924356,
+        "y_max": 716.8412322780229
+      },
+      "10": {
+        "ink_width": 401.88792510865596,
+        "ink_height": 730.1296843363791,
+        "y_min": 0.3277249553560182,
+        "y_max": 730.4574092917351
+      }
+    },
+    {
+      "character": "1",
+      "6": {
+        "ink_width": 209.98538977970998,
+        "ink_height": 709.6833315382746,
+        "y_min": -3.84375,
+        "y_max": 705.8395815382746
+      },
+      "8": {
+        "ink_width": 193.2117851711431,
+        "ink_height": 692.7598509322285,
+        "y_min": 0.3018520099571589,
+        "y_max": 693.0617029421857
+      },
+      "10": {
+        "ink_width": 199.36045790497408,
+        "ink_height": 714.3773075835189,
+        "y_min": -2.4364493687250217,
+        "y_max": 711.9408582147939
+      }
+    },
+    {
+      "character": "2",
+      "6": {
+        "ink_width": 368.2798646358484,
+        "ink_height": 706.0058028077937,
+        "y_min": 4.1923318252974555,
+        "y_max": 710.1981346330911
+      },
+      "8": {
+        "ink_width": 361.1348744551341,
+        "ink_height": 705.8505997423053,
+        "y_min": -2.3633516176878278,
+        "y_max": 703.4872481246175
+      },
+      "10": {
+        "ink_width": 364.53519958167215,
+        "ink_height": 723.920634020769,
+        "y_min": -6.858922580329377,
+        "y_max": 717.0617114404396
+      }
+    },
+    {
+      "character": "3",
+      "6": {
+        "ink_width": 387.3919688472561,
+        "ink_height": 730.9457908399555,
+        "y_min": -19.49171459042427,
+        "y_max": 711.4540762495312
+      },
+      "8": {
+        "ink_width": 377.08843868291797,
+        "ink_height": 717.7684398206846,
+        "y_min": -23.0,
+        "y_max": 694.7684398206846
+      },
+      "10": {
+        "ink_width": 387.2193904891424,
+        "ink_height": 713.46875,
+        "y_min": -12.40625,
+        "y_max": 701.0625
+      }
+    },
+    {
+      "character": "4",
+      "6": {
+        "ink_width": 367.7886159586393,
+        "ink_height": 669.816887184406,
+        "y_min": 3.7858077591085904,
+        "y_max": 673.6026949435146
+      },
+      "8": {
+        "ink_width": 372.48455796568607,
+        "ink_height": 677.6456748218737,
+        "y_min": 2.7312928862660115,
+        "y_max": 680.3769677081398
+      },
+      "10": {
+        "ink_width": 384.06506442538085,
+        "ink_height": 723.0403511923831,
+        "y_min": 0.22239458011453017,
+        "y_max": 723.2627457724976
+      }
+    },
+    {
+      "character": "5",
+      "6": {
+        "ink_width": 385.38842322727066,
+        "ink_height": 704.6011439151114,
+        "y_min": -6.8301509902253965,
+        "y_max": 697.770992924886
+      },
+      "8": {
+        "ink_width": 384.89550843928123,
+        "ink_height": 720.431930437643,
+        "y_min": -14.001613740957389,
+        "y_max": 706.4303166966856
+      },
+      "10": {
+        "ink_width": 384.1317781422789,
+        "ink_height": 725.4408112972718,
+        "y_min": -19.556302337376103,
+        "y_max": 705.8845089598957
+      }
+    },
+    {
+      "character": "6",
+      "6": {
+        "ink_width": 409.18335947266127,
+        "ink_height": 706.7520233218778,
+        "y_min": -15.477033264089329,
+        "y_max": 691.2749900577885
+      },
+      "8": {
+        "ink_width": 390.2839674063547,
+        "ink_height": 693.4305371882145,
+        "y_min": -1.4099401174522859,
+        "y_max": 692.0205970707623
+      },
+      "10": {
+        "ink_width": 385.0326625712469,
+        "ink_height": 708.0664301484819,
+        "y_min": -9.00014729284193,
+        "y_max": 699.06628285564
+      }
+    },
+    {
+      "character": "7",
+      "6": {
+        "ink_width": 370.8241821141716,
+        "ink_height": 692.0174374538681,
+        "y_min": 13.716937546131959,
+        "y_max": 705.734375
+      },
+      "8": {
+        "ink_width": 379.6968725189118,
+        "ink_height": 703.6452740112755,
+        "y_min": 3.797591326896544,
+        "y_max": 707.442865338172
+      },
+      "10": {
+        "ink_width": 371.1024847161784,
+        "ink_height": 706.2023686430484,
+        "y_min": 1.0007563569516158,
+        "y_max": 707.203125
+      }
+    },
+    {
+      "character": "8",
+      "6": {
+        "ink_width": 395.5742701214815,
+        "ink_height": 704.9200712639699,
+        "y_min": -0.390625,
+        "y_max": 704.5294462639699
+      },
+      "8": {
+        "ink_width": 385.5876590561489,
+        "ink_height": 721.6029110682808,
+        "y_min": 0.4995257351602188,
+        "y_max": 722.102436803441
+      },
+      "10": {
+        "ink_width": 391.84774242906724,
+        "ink_height": 710.842651730182,
+        "y_min": -5.106802666706692,
+        "y_max": 705.7358490634753
+      }
+    },
+    {
+      "character": "9",
+      "6": {
+        "ink_width": 396.2407267573383,
+        "ink_height": 713.3309660132641,
+        "y_min": 4.012633958803676,
+        "y_max": 717.3435999720678
+      },
+      "8": {
+        "ink_width": 395.60153018780215,
+        "ink_height": 724.4999859526395,
+        "y_min": -19.627767733708254,
+        "y_max": 704.8722182189312
+      },
+      "10": {
+        "ink_width": 385.8871374619761,
+        "ink_height": 708.0481926207517,
+        "y_min": -3.5313467340972906,
+        "y_max": 704.5168458866544
+      }
+    }
+  ],
+  "R_variant": {
+    "default": "condensed-10-byu-00-06",
+    "alternate": "condensed-10-byu-00-13",
+    "glyph": "R.straight",
+    "feature": "ss01",
+    "witnesses": [
+      {
+        "id": "condensed-10-U-18",
+        "row": "condensed-10-U",
+        "character": "R",
+        "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+        "native_box": [
+          683,
+          1821,
+          725,
+          1882
+        ],
+        "bounds": [
+          34.99902293334209,
+          -103.13671276594758,
+          584.2481543572869,
+          718.6814163795195
+        ],
+        "width": 549.2491314239448,
+        "height": 821.8181291454671
+      },
+      {
+        "id": "condensed-10-ny-00-12",
+        "row": "condensed-10-ny-00",
+        "character": "R",
+        "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+        "native_box": [
+          1842,
+          3279,
+          1875,
+          3323
+        ],
+        "bounds": [
+          34.996805707933774,
+          -1.604629266162822,
+          548.9580152792836,
+          700.0680953777019
+        ],
+        "width": 513.9612095713499,
+        "height": 701.6727246438647
+      },
+      {
+        "id": "condensed-10-ny-00-21",
+        "row": "condensed-10-ny-00",
+        "character": "R",
+        "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+        "native_box": [
+          2096,
+          3281,
+          2128,
+          3325
+        ],
+        "bounds": [
+          34.99857155324397,
+          -2.5033134587190817,
+          540.4886864292329,
+          696.0875824367482
+        ],
+        "width": 505.4901148759889,
+        "height": 698.5908958954673
+      },
+      {
+        "id": "condensed-10-handy-00-12",
+        "row": "condensed-10-handy-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-1897-leaf-210.jp2",
+        "native_box": [
+          1084,
+          1616,
+          1111,
+          1651
+        ],
+        "bounds": [
+          35.00583179690194,
+          11.120789924183423,
+          572.445310968712,
+          705.3240928795312
+        ],
+        "width": 537.43947917181,
+        "height": 694.2033029553478
+      },
+      {
+        "id": "condensed-10-handy-00-21",
+        "row": "condensed-10-handy-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-1897-leaf-210.jp2",
+        "native_box": [
+          1269,
+          1617,
+          1296,
+          1652
+        ],
+        "bounds": [
+          34.99989285364772,
+          -13.240970075808445,
+          561.6344783397278,
+          686.7687836342543
+        ],
+        "width": 526.6345854860801,
+        "height": 700.0097537100628
+      },
+      {
+        "id": "condensed-10-byu-00-06",
+        "row": "condensed-10-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          707,
+          2973,
+          763,
+          3050
+        ],
+        "bounds": [
+          34.99943731350035,
+          -96.62008140801008,
+          605.7208530455663,
+          712.5337594508482
+        ],
+        "width": 570.7214157320659,
+        "height": 809.1538408588582
+      },
+      {
+        "id": "condensed-10-byu-00-07",
+        "row": "condensed-10-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          801,
+          2973,
+          857,
+          3050
+        ],
+        "bounds": [
+          34.99571191709872,
+          -96.42830550806923,
+          609.3269976624608,
+          711.4204913078728
+        ],
+        "width": 574.3312857453622,
+        "height": 807.848796815942
+      },
+      {
+        "id": "condensed-10-byu-00-13",
+        "row": "condensed-10-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          1129,
+          2973,
+          1182,
+          3043
+        ],
+        "bounds": [
+          35.003120217790396,
+          -6.6178450891748195,
+          580.6143031462074,
+          699.4753811672828
+        ],
+        "width": 545.611182928417,
+        "height": 706.0932262564576
+      },
+      {
+        "id": "condensed-10-byu-00-22",
+        "row": "condensed-10-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          1679,
+          2971,
+          1735,
+          3050
+        ],
+        "bounds": [
+          34.99883205636192,
+          -103.3602829947138,
+          615.75,
+          706.9560400225934
+        ],
+        "width": 580.751167943638,
+        "height": 810.3163230173071
+      },
+      {
+        "id": "condensed-10-byu-00-28",
+        "row": "condensed-10-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          2048,
+          2969,
+          2104,
+          3048
+        ],
+        "bounds": [
+          35.00024968020088,
+          -98.01916885384873,
+          604.5928089109709,
+          715.7294196864876
+        ],
+        "width": 569.59255923077,
+        "height": 813.7485885403364
+      },
+      {
+        "id": "condensed-10-byu-00-36",
+        "row": "condensed-10-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          2475,
+          2968,
+          2527,
+          3037
+        ],
+        "bounds": [
+          34.99893208354201,
+          15.983182898844428,
+          566.587440597994,
+          719.5789910159907
+        ],
+        "width": 531.588508514452,
+        "height": 703.5958081171462
+      },
+      {
+        "id": "condensed-10-byu-01-30",
+        "row": "condensed-10-byu-01",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          2030,
+          3101,
+          2086,
+          3179
+        ],
+        "bounds": [
+          34.99993899984388,
+          -95.64961062526196,
+          611.4386718419107,
+          713.2208822097164
+        ],
+        "width": 576.4387328420669,
+        "height": 808.8704928349783
+      },
+      {
+        "id": "condensed-10-pacific-00-06",
+        "row": "condensed-10-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          1115,
+          3568,
+          1166,
+          3640
+        ],
+        "bounds": [
+          35.000718268123464,
+          -111.06080504821146,
+          617.245727070419,
+          714.3401514174284
+        ],
+        "width": 582.2450088022955,
+        "height": 825.4009564656399
+      },
+      {
+        "id": "condensed-10-pacific-00-07",
+        "row": "condensed-10-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          1200,
+          3569,
+          1250,
+          3640
+        ],
+        "bounds": [
+          34.9994674749901,
+          -94.85179619608975,
+          600.4516168364598,
+          715.917947881382
+        ],
+        "width": 565.4521493614698,
+        "height": 810.7697440774717
+      },
+      {
+        "id": "condensed-10-pacific-00-13",
+        "row": "condensed-10-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          1493,
+          3576,
+          1539,
+          3638
+        ],
+        "bounds": [
+          34.99558258880401,
+          -6.015625,
+          555.9758145969529,
+          693.8989615365164
+        ],
+        "width": 520.9802320081488,
+        "height": 699.9145865365164
+      },
+      {
+        "id": "condensed-10-pacific-00-22",
+        "row": "condensed-10-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          1979,
+          3583,
+          2026,
+          3653
+        ],
+        "bounds": [
+          34.98681728328141,
+          -96.89201510190215,
+          582.6265172177572,
+          704.1977029673001
+        ],
+        "width": 547.6396999344757,
+        "height": 801.0897180692023
+      },
+      {
+        "id": "condensed-10-pacific-00-28",
+        "row": "condensed-10-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          2303,
+          3587,
+          2352,
+          3658
+        ],
+        "bounds": [
+          35.001966017581886,
+          -94.17434212007265,
+          589.9693252193433,
+          713.046875
+        ],
+        "width": 554.9673592017614,
+        "height": 807.2212171200727
+      },
+      {
+        "id": "condensed-10-pacific-00-36",
+        "row": "condensed-10-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          2682,
+          3595,
+          2726,
+          3656
+        ],
+        "bounds": [
+          34.99624186416962,
+          5.419256766426281,
+          539.0281242215787,
+          693.598843606602
+        ],
+        "width": 504.031882357409,
+        "height": 688.1795868401757
+      },
+      {
+        "id": "condensed-10-pacific-01-30",
+        "row": "condensed-10-pacific-01",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          2290,
+          3719,
+          2339,
+          3791
+        ],
+        "bounds": [
+          34.99499258527118,
+          -104.03159473125882,
+          607.6902969180735,
+          707.7784760016647
+        ],
+        "width": 572.6953043328024,
+        "height": 811.8100707329235
+      }
+    ],
+    "decision": "The sweeping default agrees with the census and ten BYU/Pacific impressions. Eight New York/Handy/BYU/Pacific impressions have straight legs. Retain both observed constructions; BYU straight R36 has native wear and is comparison only."
+  },
+  "selected_corrections": [
+    {
+      "character": "D",
+      "selected": "condensed-10-U-04",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "J",
+      "selected": "condensed-10-U-10",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "K",
+      "selected": "condensed-10-U-11",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "P",
+      "selected": "condensed-10-U-16",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "Q",
+      "selected": "condensed-10-U-17",
+      "threshold": 185,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "W",
+      "selected": "condensed-10-U-23",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "Y",
+      "selected": "condensed-10-U-25",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "Z",
+      "selected": "condensed-10-U-26",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "b",
+      "selected": "condensed-10-l-02",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "d",
+      "selected": "condensed-10-l-04",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "f",
+      "selected": "condensed-10-l-06",
+      "threshold": 185,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "j",
+      "selected": "condensed-10-l-10",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "k",
+      "selected": "condensed-10-l-11",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "v",
+      "selected": "condensed-10-l-22",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "w",
+      "selected": "condensed-10-l-23",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "z",
+      "selected": "condensed-10-l-26",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "1",
+      "selected": "condensed-10-n-01",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "2",
+      "selected": "condensed-10-n-02",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "3",
+      "selected": "condensed-10-n-03",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "4",
+      "selected": "condensed-10-n-04",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "5",
+      "selected": "condensed-10-n-05",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "6",
+      "selected": "condensed-10-n-06",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "7",
+      "selected": "condensed-10-n-07",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "8",
+      "selected": "condensed-10-n-08",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "9",
+      "selected": "condensed-10-n-09",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "0",
+      "selected": "condensed-10-n-10",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    }
+  ],
+  "selection_decisions": [
+    "BYU supplies most clearer letters, including open a/h/m/n and intact g. New York supplies U/X/s/t/x. Census supplies the remaining letters and all ten figures, absent from the mapped ten-point ATF text samples.",
+    "Ten-point a retains its observed open upper aperture, unlike the closed upper counter in the smaller six/eight-point witnesses. No optical-size substitution."
+  ],
+  "cleanup": "No hole filling, drawn repair, width stretching or cross-size outline substitution.",
+  "quality_followup": [
+    "Seek sharper same-cut Census impressions, especially j stem wear and the fine k join.",
+    "Further punctuation and fractions require complete clear same-size witnesses; the selected poster punctuation is documented separately."
+  ],
+  "poster_punctuation": {
+    "schema_version": 1,
+    "source": "reference/atf-handy-1897-leaf-360.jp2",
+    "source_sha256": "90d6ebb2866100e629640e7b7a4a8f7e4d3570780128e62d1793305570d00abd",
+    "printed_page": 341,
+    "point_size": 10,
+    "identification": "Printed Poster De Vinne Condensed label and23 shared letters agree in optical proportions and characteristic forms. Straight R is a known retained alternative; ordinary letters remain unchanged. No claim of identical physical matrices.",
+    "common_form_comparisons": [
+      {
+        "point_size": 10,
+        "character": "A",
+        "poster": "poster-10-handy-00-01",
+        "poster_bounds": [
+          35.00483819594337,
+          -15.845330375883506,
+          576.6701757272691,
+          698.3709074008036
+        ],
+        "canonical_bounds": [
+          34.99820528850424,
+          12.980065706886434,
+          579.427037566782,
+          712.974803525178
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "C",
+        "poster": "poster-10-handy-00-30",
+        "poster_bounds": [
+          35.00396820600394,
+          -8.309173221594229,
+          501.7843143642735,
+          710.5075668931321
+        ],
+        "canonical_bounds": [
+          35.00116572018616,
+          -6.668574200762066,
+          511.68556791602026,
+          714.5483018898593
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "H",
+        "poster": "poster-10-handy-00-36",
+        "poster_bounds": [
+          35.004968392389394,
+          -7.8292845065623595,
+          564.2914696322899,
+          688.8328978099509
+        ],
+        "canonical_bounds": [
+          35.00202596672048,
+          7.668205505496846,
+          570.5833795068247,
+          700.0637643618977
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "I",
+        "poster": "poster-10-handy-00-07",
+        "poster_bounds": [
+          34.9940849860658,
+          11.731181890585042,
+          248.3815375587253,
+          708.1974985989139
+        ],
+        "canonical_bounds": [
+          34.99588962792651,
+          10.539906049526092,
+          264.9022396446742,
+          704.1204588154943
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "M",
+        "poster": "poster-10-handy-00-00",
+        "poster_bounds": [
+          34.99998168562918,
+          -5.519958696263323,
+          738.858410213775,
+          699.6764781579885
+        ],
+        "canonical_bounds": [
+          35.00363978547833,
+          1.9846077465006529,
+          735.8019698061087,
+          699.2008449866704
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "R",
+        "poster": "poster-10-handy-00-13",
+        "poster_bounds": [
+          35.00216423425094,
+          -4.581957769741592,
+          568.0938049877184,
+          697.9790921044837
+        ],
+        "canonical_bounds": [
+          34.99943731350035,
+          -96.62008140801008,
+          605.7208530455663,
+          712.5337594508482
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "T",
+        "poster": "poster-10-handy-00-18",
+        "poster_bounds": [
+          35.00445645258422,
+          2.0875847451247918,
+          685.1837836769305,
+          724.1169920092784
+        ],
+        "canonical_bounds": [
+          35.0086241496162,
+          9.580049024218754,
+          557.0494195105036,
+          726.1320101767734
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "a",
+        "poster": "poster-10-handy-01-38",
+        "poster_bounds": [
+          35.00823234635424,
+          -5.385574074066838,
+          474.8599136537007,
+          502.8336763314044
+        ],
+        "canonical_bounds": [
+          35.00252734207345,
+          -16.65195603142658,
+          465.49378473779683,
+          493.0389584396318
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "d",
+        "poster": "poster-10-handy-01-20",
+        "poster_bounds": [
+          34.99453855629229,
+          -0.37198570106503226,
+          438.3889396688176,
+          697.3961328749679
+        ],
+        "canonical_bounds": [
+          34.99994410842612,
+          -29.9091601467981,
+          431.5607394355409,
+          691.8525884889735
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "e",
+        "poster": "poster-10-handy-01-02",
+        "poster_bounds": [
+          34.999340332287886,
+          -14.685460995701579,
+          414.7841576856068,
+          485.9428381678464
+        ],
+        "canonical_bounds": [
+          34.99398163281488,
+          -16.898949991435426,
+          405.1896749327409,
+          491.4008260102569
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "f",
+        "poster": "poster-10-handy-01-09",
+        "poster_bounds": [
+          35.00131827803945,
+          -9.375212947036534,
+          312.4135166809454,
+          682.6316881271554
+        ],
+        "canonical_bounds": [
+          34.99994776321802,
+          -10.9386572236428,
+          319.3698229678631,
+          700.546658954461
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "g",
+        "poster": "poster-10-handy-01-07",
+        "poster_bounds": [
+          34.999007612759,
+          -186.51739784700615,
+          466.45409194884934,
+          485.38020994523225
+        ],
+        "canonical_bounds": [
+          35.000142274596925,
+          -179.78559786748605,
+          453.596730569451,
+          498.5589134764585
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "h",
+        "poster": "poster-10-handy-01-11",
+        "poster_bounds": [
+          35.001635738607845,
+          0.35264413932761407,
+          463.97531564842274,
+          712.7755739123023
+        ],
+        "canonical_bounds": [
+          34.99413631365458,
+          3.306562398290943,
+          466.01559280587674,
+          712.0113555427358
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "i",
+        "poster": "poster-10-handy-01-05",
+        "poster_bounds": [
+          35.00110770552426,
+          -8.897579295483835,
+          231.22392371394608,
+          690.6098405067696
+        ],
+        "canonical_bounds": [
+          34.99975054080352,
+          4.403319788866031,
+          227.22031952983647,
+          703.1714935565133
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "l",
+        "poster": "poster-10-handy-01-19",
+        "poster_bounds": [
+          34.99901054269327,
+          1.2797454159485655,
+          218.37114630979306,
+          693.2304907083198
+        ],
+        "canonical_bounds": [
+          34.999102228326564,
+          0.036200309735829383,
+          238.37554796243288,
+          690.664425996006
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "m",
+        "poster": "poster-10-handy-01-01",
+        "poster_bounds": [
+          34.99920139625849,
+          -10.023166739614256,
+          681.2450754864237,
+          500.696964435745
+        ],
+        "canonical_bounds": [
+          34.992460348632235,
+          5.177145728379164,
+          702.5096958374024,
+          500.0022554000976
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "n",
+        "poster": "poster-10-handy-01-06",
+        "poster_bounds": [
+          35.007445640698705,
+          -10.047311260823607,
+          463.8010321495967,
+          485.43908873420895
+        ],
+        "canonical_bounds": [
+          34.998664281301494,
+          1.6432296910895325,
+          459.0564575147213,
+          496.762397487267
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "o",
+        "poster": "poster-10-handy-01-08",
+        "poster_bounds": [
+          34.9954372430189,
+          -11.739924305686015,
+          431.34601743619146,
+          486.1294081810931
+        ],
+        "canonical_bounds": [
+          35.00150581886625,
+          -14.089713176835303,
+          442.54105624499863,
+          493.8656737263268
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "p",
+        "poster": "poster-10-handy-02-42",
+        "poster_bounds": [
+          34.999866202452225,
+          -166.178068297259,
+          441.39443225440004,
+          499.35938073127187
+        ],
+        "canonical_bounds": [
+          35.00703599016609,
+          -173.5663600143489,
+          428.0128609150621,
+          492.9081562137348
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "r",
+        "poster": "poster-10-handy-01-14",
+        "poster_bounds": [
+          34.99822997946372,
+          -2.960421751075921,
+          386.32260613439564,
+          487.7021233293523
+        ],
+        "canonical_bounds": [
+          35.001523406905854,
+          -0.406383749807643,
+          377.0102888752789,
+          491.3021277326778
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "s",
+        "poster": "poster-10-handy-01-23",
+        "poster_bounds": [
+          34.99434209279696,
+          -2.18622973459056,
+          389.67188415528835,
+          490.85013582885955
+        ],
+        "canonical_bounds": [
+          35.00022095727793,
+          2.081175116854455,
+          376.33675364699735,
+          472.3917875928665
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "t",
+        "poster": "poster-10-handy-01-04",
+        "poster_bounds": [
+          34.99324894005949,
+          -27.503764259987285,
+          325.8025011153746,
+          657.6875821474282
+        ],
+        "canonical_bounds": [
+          34.997599129453974,
+          -26.021635387077858,
+          292.6840697445002,
+          632.9781649851901
+        ]
+      },
+      {
+        "point_size": 10,
+        "character": "y",
+        "poster": "poster-10-handy-01-44",
+        "poster_bounds": [
+          35.00788734488786,
+          -169.55786810652788,
+          493.2883412885102,
+          481.05528719506617
+        ],
+        "canonical_bounds": [
+          34.99698915008366,
+          -190.46875,
+          483.3836584923829,
+          473.02253875655356
+        ]
+      }
+    ],
+    "selected": [
+      {
+        "id": "poster-10-handy-02-21",
+        "row": "poster-10-handy-02",
+        "character": ",",
+        "native_fitted_bounds": [
+          509.2756352910324,
+          1429.5905768273844,
+          515.9222336411121,
+          1440.708688012126
+        ],
+        "black_component_areas": [
+          771
+        ],
+        "white_island_areas": [],
+        "settings": {
+          "box": [
+            0,
+            0,
+            36,
+            64
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 1,
+          "tolerance": 0.8
+        }
+      },
+      {
+        "id": "poster-10-handy-01-64",
+        "row": "poster-10-handy-01",
+        "character": "’",
+        "native_fitted_bounds": [
+          1373.246891943068,
+          1362.0,
+          1379.1118385815462,
+          1371.8938298389692
+        ],
+        "black_component_areas": [
+          610
+        ],
+        "white_island_areas": [],
+        "settings": {
+          "box": [
+            0,
+            0,
+            32,
+            56
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 1,
+          "tolerance": 0.8
+        }
+      }
+    ],
+    "selection": {
+      ",": {
+        "id": "poster-10-handy-02-21",
+        "threshold": 130
+      },
+      "’": {
+        "id": "poster-10-handy-01-64",
+        "threshold": 130
+      }
+    },
+    "native_review": "Eleven full source rows checked;728 source mappings across both sizes. Joined ET/RY/ra/nt/rt excluded.70 selected native cells,46common-form comparisons and24punctuation candidates reviewed.",
+    "threshold_review": "32 trials at110/130/150/170 plus4hyphen trials at50/70/90/110. Original physical scale and baselines held fixed. No drawing or filled counters.",
+    "quality_followup": [
+      "Compare sharper matching punctuation witnesses during remaining surveys. Native pixel limitations are retained, not replaced by geometric shapes.",
+      "Further fractions and punctuation remain separate source tasks."
+    ]
+  },
+  "stacked_fractions": {
+    "schema_version": 1,
+    "point_size": 10,
+    "selected": [
+      {
+        "id": "fraction-condensed-10-handy360-02",
+        "row": "fraction-condensed-10-handy360",
+        "character": "¼",
+        "native_fitted_bounds": [
+          309.36988484196365,
+          1565.5653092602108,
+          326.0459690832858,
+          1595.7365015997427
+        ],
+        "black_component_areas": [
+          863,
+          674,
+          655
+        ],
+        "white_island_areas": [
+          61
+        ],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            140
+          ],
+          "threshold": 90,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ¼, Handy1897 printed page 341. Threshold 90; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      },
+      {
+        "id": "fraction-condensed-10-handy360-03",
+        "row": "fraction-condensed-10-handy360",
+        "character": "½",
+        "native_fitted_bounds": [
+          350.326487316586,
+          1565.0141510703106,
+          368.0,
+          1596.025
+        ],
+        "black_component_areas": [
+          1934,
+          909
+        ],
+        "white_island_areas": [],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            140
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ½, Handy1897 printed page 341. Threshold 130; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      },
+      {
+        "id": "fraction-condensed-10-handy59-02",
+        "row": "fraction-condensed-10-handy59",
+        "character": "¾",
+        "native_fitted_bounds": [
+          1003.5226555094139,
+          1408.6129148130005,
+          1020.4325445274076,
+          1439.4613305077266
+        ],
+        "black_component_areas": [
+          1668,
+          977
+        ],
+        "white_island_areas": [],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            144
+          ],
+          "threshold": 110,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ¾, Handy1897 printed page 40. Threshold 110; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes. One chart scale and bar-to-baseline offset are fitted from seven common whole fractions, not from this character alone. Preserve the source-solid tiny denominator4; a sharper counter-bearing matching impression remains a quality comparison."
+      },
+      {
+        "id": "fraction-condensed-10-handy59-03",
+        "row": "fraction-condensed-10-handy59",
+        "character": "⅓",
+        "native_fitted_bounds": [
+          1044.0771382579594,
+          1409.750877995173,
+          1060.6096413529592,
+          1439.4680677675751
+        ],
+        "black_component_areas": [
+          2237
+        ],
+        "white_island_areas": [],
+        "settings": {
+          "box": [
+            0,
+            0,
+            84,
+            140
+          ],
+          "threshold": 90,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ⅓, Handy1897 printed page 40. Threshold 90; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes. One chart scale and bar-to-baseline offset are fitted from seven common whole fractions, not from this character alone."
+      },
+      {
+        "id": "fraction-condensed-10-handy360-01",
+        "row": "fraction-condensed-10-handy360",
+        "character": "⅔",
+        "native_fitted_bounds": [
+          267.91296009143997,
+          1564.4116165983696,
+          284.98501391136585,
+          1595.6912456786956
+        ],
+        "black_component_areas": [
+          1769,
+          1008
+        ],
+        "white_island_areas": [],
+        "settings": {
+          "box": [
+            0,
+            0,
+            84,
+            144
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ⅔, Handy1897 printed page 341. Threshold 130; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      },
+      {
+        "id": "fraction-condensed-10-handy360-14",
+        "row": "fraction-condensed-10-handy360",
+        "character": "⅛",
+        "native_fitted_bounds": [
+          1116.2908088471656,
+          1564.5343384448486,
+          1133.4814278591439,
+          1595.3846021947875
+        ],
+        "black_component_areas": [
+          2055,
+          793
+        ],
+        "white_island_areas": [
+          159,
+          105
+        ],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            144
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ⅛, Handy1897 printed page 341. Threshold 130; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      },
+      {
+        "id": "fraction-condensed-10-handy360-15",
+        "row": "fraction-condensed-10-handy360",
+        "character": "⅜",
+        "native_fitted_bounds": [
+          1157.0053982956747,
+          1563.95,
+          1174.701427894872,
+          1595.3861584185265
+        ],
+        "black_component_areas": [
+          1948,
+          1314
+        ],
+        "white_island_areas": [
+          164,
+          64
+        ],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            140
+          ],
+          "threshold": 150,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ⅜, Handy1897 printed page 341. Threshold 150; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      },
+      {
+        "id": "fraction-condensed-10-handy360-16",
+        "row": "fraction-condensed-10-handy360",
+        "character": "⅝",
+        "native_fitted_bounds": [
+          1197.4564732142858,
+          1564.0625801298515,
+          1214.955087541424,
+          1595.356815270585
+        ],
+        "black_component_areas": [
+          1926,
+          1231
+        ],
+        "white_island_areas": [
+          172,
+          146,
+          111
+        ],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            144
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ⅝, Handy1897 printed page 341. Threshold 130; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      },
+      {
+        "id": "fraction-condensed-10-handy360-17",
+        "row": "fraction-condensed-10-handy360",
+        "character": "⅞",
+        "native_fitted_bounds": [
+          1238.5490815380178,
+          1564.1227457514062,
+          1255.9724061661068,
+          1595.6589639262409
+        ],
+        "black_component_areas": [
+          3067
+        ],
+        "white_island_areas": [
+          152,
+          110
+        ],
+        "settings": {
+          "box": [
+            0,
+            0,
+            88,
+            144
+          ],
+          "threshold": 130,
+          "paper_normalization_radius": 48,
+          "blur": 1.2,
+          "fill_holes": 0,
+          "keep_components": 4,
+          "tolerance": 0.8
+        },
+        "decision": "Observed whole 10-point fraction ⅞, Handy1897 printed page 341. Threshold 130; fixed row scale and measured barline rotation. Modern35-unit sidebearings; no component substitution, filled holes or drawn strokes."
+      }
+    ],
+    "common_whole_fraction_comparisons": [
+      {
+        "point_size": 10,
+        "character": "¼",
+        "chart": "fraction-condensed-10-handy59-00",
+        "poster": "fraction-condensed-10-handy360-02",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 1.0380070814884657,
+        "height_ratio": 1.0061860996912397
+      },
+      {
+        "point_size": 10,
+        "character": "½",
+        "chart": "fraction-condensed-10-handy59-01",
+        "poster": "fraction-condensed-10-handy360-03",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 0.998911688036029,
+        "height_ratio": 0.99803671628445
+      },
+      {
+        "point_size": 10,
+        "character": "⅓",
+        "chart": "fraction-condensed-10-handy59-03",
+        "poster": "fraction-condensed-10-handy360-00",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 0.9614395122655733,
+        "height_ratio": 0.9888310938809006
+      },
+      {
+        "point_size": 10,
+        "character": "⅔",
+        "chart": "fraction-condensed-10-handy59-04",
+        "poster": "fraction-condensed-10-handy360-01",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 1.0293638878879616,
+        "height_ratio": 1.00040742989317
+      },
+      {
+        "point_size": 10,
+        "character": "⅛",
+        "chart": "fraction-condensed-10-handy59-05",
+        "poster": "fraction-condensed-10-handy360-14",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 1.0158279097161047,
+        "height_ratio": 0.9832455528683198
+      },
+      {
+        "point_size": 10,
+        "character": "⅜",
+        "chart": "fraction-condensed-10-handy59-06",
+        "poster": "fraction-condensed-10-handy360-15",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 1.0105688879360848,
+        "height_ratio": 1.0124586215737814
+      },
+      {
+        "point_size": 10,
+        "character": "⅝",
+        "chart": "fraction-condensed-10-handy59-07",
+        "poster": "fraction-condensed-10-handy360-16",
+        "native_scale": 1.0113041739570574,
+        "width_ratio": 0.9725168024378178,
+        "height_ratio": 1.0011624786629199
+      }
+    ],
+    "row_measurements": {
+      "fraction-condensed-10-handy360": {
+        "slope": -0.0008734811766601678,
+        "rotation_degrees": -0.050046772178699926,
+        "barline_intercept": 1580.5333735441914,
+        "barline_anchor_ids": [
+          "fraction-condensed-10-handy360-00",
+          "fraction-condensed-10-handy360-01",
+          "fraction-condensed-10-handy360-02",
+          "fraction-condensed-10-handy360-03",
+          "fraction-condensed-10-handy360-14",
+          "fraction-condensed-10-handy360-15",
+          "fraction-condensed-10-handy360-16",
+          "fraction-condensed-10-handy360-17"
+        ],
+        "barline_residuals": [
+          -0.6777694711647655,
+          -0.05041039132447622,
+          0.24124917195763373,
+          0.15731213927779208,
+          0.09005537504208405,
+          -0.6257195013670298,
+          -0.10240743489998749,
+          0.050410391324703596
+        ],
+        "baseline_intercept": 1591.6546461280745,
+        "scale": 25.626736487092884,
+        "baseline_anchor_ids": [
+          "fraction-condensed-10-handy360-04",
+          "fraction-condensed-10-handy360-07",
+          "fraction-condensed-10-handy360-10"
+        ],
+        "scale_reference": "poster-10-handy-00",
+        "barline_font_units": 285.0018131844993
+      },
+      "fraction-condensed-10-handy59": {
+        "slope": 0.0019730626907638947,
+        "rotation_degrees": 0.1130480181978944,
+        "barline_intercept": 1421.9719854684824,
+        "barline_anchor_ids": [
+          "fraction-condensed-10-handy59-00",
+          "fraction-condensed-10-handy59-01",
+          "fraction-condensed-10-handy59-02",
+          "fraction-condensed-10-handy59-03",
+          "fraction-condensed-10-handy59-04",
+          "fraction-condensed-10-handy59-05",
+          "fraction-condensed-10-handy59-06",
+          "fraction-condensed-10-handy59-07",
+          "fraction-condensed-10-handy59-08"
+        ],
+        "barline_residuals": [
+          -0.04230633790052707,
+          0.10806764816493342,
+          -0.5711643232173174,
+          0.08337168359275893,
+          0.3717749620473114,
+          0.3909918048086638,
+          -0.2930208612951901,
+          0.0,
+          -0.09064088231934875
+        ],
+        "scale": 25.916425574294653,
+        "uniform_native_scale_to_poster": 1.0113041739570574,
+        "scale_reference": "fraction-condensed-10-handy360",
+        "baseline_intercept": 1432.9689637022132,
+        "barline_font_units": 285.0018131844993,
+        "method": "One least-squares isotropic scale from seven common whole-fraction width/height pairs, excluding worn7. Align median fraction bar to the observed poster bar-to-figure-baseline offset. No per-glyph normalization."
+      }
+    },
+    "identification": "Poster letters and figures agree with the retained optical cut. Seven common whole fractions establish one chart scale; the eighth common fraction has a worn numerator and is excluded from fitting. Source labels alone are not identity evidence.",
+    "native_review": "63Handy and27American small fraction/figure cells reviewed, alongside processedDesk contexts. The American copy is softer despite higher pixel dimensions and supplies no selected outline.",
+    "source_locator_correction": "American Line1906 native printed698 is archive646. Archive650 prints702 (Roycroft), despite provider metadata asserting698.",
+    "threshold_review": "136Handy fraction trials at90/110/130/150 plus two extra8pt three-eighths trials at170/190.20same-row figure comparisons and16chart/poster whole-fraction comparisons reviewed.",
+    "quality_followup": [
+      "Seek sharper matching tiny denominator4 and more even native fraction joins. Do not draw missing counters or assemble fractions from independently substituted numerators/denominators."
+    ],
+    "inferred_visible_glyphs": 0
+  }
+}

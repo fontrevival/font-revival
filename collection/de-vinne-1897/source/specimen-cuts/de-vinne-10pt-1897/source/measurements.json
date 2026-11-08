@@ -1,0 +1,6864 @@
+{
+  "method": "Theil–Sen flat-bottom baseline slopes and median caplines measured after four-times Lanczos sampling; fitted bounds are converted back to native pixel coordinates. One uniform scale per physical source page; independent row baselines; no individual glyph-height normalization.",
+  "rows": {
+    "regular-10-U": {
+      "anchor_ids": [
+        "regular-10-U-01",
+        "regular-10-U-02",
+        "regular-10-U-06",
+        "regular-10-U-08",
+        "regular-10-U-09",
+        "regular-10-U-11",
+        "regular-10-U-13",
+        "regular-10-U-16",
+        "regular-10-U-20",
+        "regular-10-U-24",
+        "regular-10-U-25"
+      ],
+      "anchor_characters": "ABFHIKMPTXY",
+      "slope": 0.010649295128127532,
+      "rotation_degrees": 0.6101366016422337,
+      "baseline_intercept": 1207.0371002308991,
+      "capline_anchor_ids": [
+        "regular-10-U-08",
+        "regular-10-U-09",
+        "regular-10-U-11",
+        "regular-10-U-13",
+        "regular-10-U-16",
+        "regular-10-U-24"
+      ],
+      "capline_intercept": 1174.748299224343,
+      "cap_height_pixels": 32.2869702663835,
+      "scale": 21.680572510354896
+    },
+    "regular-10-census-U": {
+      "anchor_ids": [
+        "regular-10-census-U-01",
+        "regular-10-census-U-02",
+        "regular-10-census-U-06",
+        "regular-10-census-U-08",
+        "regular-10-census-U-09",
+        "regular-10-census-U-11",
+        "regular-10-census-U-13",
+        "regular-10-census-U-16",
+        "regular-10-census-U-20"
+      ],
+      "anchor_characters": "ABFHIKMPT",
+      "slope": -0.007103530803194702,
+      "rotation_degrees": -0.406995489071887,
+      "baseline_intercept": 3338.2706722147245,
+      "capline_anchor_ids": [
+        "regular-10-census-U-08",
+        "regular-10-census-U-09",
+        "regular-10-census-U-11",
+        "regular-10-census-U-13",
+        "regular-10-census-U-16"
+      ],
+      "capline_intercept": 3294.4651364465467,
+      "cap_height_pixels": 43.80443059305309,
+      "scale": 15.980118689432581
+    },
+    "regular-10-census-l": {
+      "anchor_ids": [
+        "regular-10-census-l-06",
+        "regular-10-census-l-08",
+        "regular-10-census-l-09",
+        "regular-10-census-l-11",
+        "regular-10-census-l-12",
+        "regular-10-census-l-13",
+        "regular-10-census-l-14",
+        "regular-10-census-l-18"
+      ],
+      "anchor_characters": "fhiklmnr",
+      "slope": -0.0036148579526048886,
+      "rotation_degrees": -0.20711520208825274,
+      "baseline_intercept": 3334.518967245467,
+      "scale": 15.980118689432581,
+      "scale_reference": "regular-10-census-U"
+    },
+    "regular-10-document-00": {
+      "anchor_ids": [
+        "regular-10-document-00-05",
+        "regular-10-document-00-07",
+        "regular-10-document-00-14",
+        "regular-10-document-00-21",
+        "regular-10-document-00-23",
+        "regular-10-document-00-27",
+        "regular-10-document-00-28",
+        "regular-10-document-00-33"
+      ],
+      "anchor_characters": "IHIIAMBI",
+      "slope": 0.0018646049141173534,
+      "rotation_degrees": 0.10683386822678911,
+      "baseline_intercept": 1923.5097563212744,
+      "capline_anchor_ids": [
+        "regular-10-document-00-05",
+        "regular-10-document-00-07",
+        "regular-10-document-00-14",
+        "regular-10-document-00-21",
+        "regular-10-document-00-27",
+        "regular-10-document-00-33"
+      ],
+      "capline_intercept": 1888.6469702360193,
+      "cap_height_pixels": 34.86272548079141,
+      "scale": 20.078751455782896
+    },
+    "regular-10-document-01": {
+      "anchor_ids": [
+        "regular-10-document-01-04",
+        "regular-10-document-01-13",
+        "regular-10-document-01-15",
+        "regular-10-document-01-19",
+        "regular-10-document-01-22",
+        "regular-10-document-01-27",
+        "regular-10-document-01-28",
+        "regular-10-document-01-29",
+        "regular-10-document-01-33",
+        "regular-10-document-01-37",
+        "regular-10-document-01-38",
+        "regular-10-document-01-39",
+        "regular-10-document-01-42",
+        "regular-10-document-01-48",
+        "regular-10-document-01-49",
+        "regular-10-document-01-51",
+        "regular-10-document-01-53"
+      ],
+      "anchor_characters": "rlrhiilllrinrlihn",
+      "slope": 0.0011813036332527518,
+      "rotation_degrees": 0.06768368102516231,
+      "baseline_intercept": 1989.695151482529,
+      "scale": 20.078751455782896,
+      "scale_reference": "regular-10-document-00"
+    },
+    "regular-10-document-02": {
+      "anchor_ids": [
+        "regular-10-document-02-01",
+        "regular-10-document-02-08",
+        "regular-10-document-02-11",
+        "regular-10-document-02-14",
+        "regular-10-document-02-16",
+        "regular-10-document-02-17",
+        "regular-10-document-02-22",
+        "regular-10-document-02-23"
+      ],
+      "anchor_characters": "nkrmhlfn",
+      "slope": 0.0007301838273504877,
+      "rotation_degrees": 0.04183644414060288,
+      "baseline_intercept": 2045.2924463095133,
+      "scale": 20.078751455782896,
+      "scale_reference": "regular-10-document-00"
+    },
+    "regular-10-job-00": {
+      "anchor_ids": [
+        "regular-10-job-00-01",
+        "regular-10-job-00-02",
+        "regular-10-job-00-05",
+        "regular-10-job-00-06",
+        "regular-10-job-00-12",
+        "regular-10-job-00-14",
+        "regular-10-job-00-15",
+        "regular-10-job-00-18",
+        "regular-10-job-00-19",
+        "regular-10-job-00-20",
+        "regular-10-job-00-21",
+        "regular-10-job-00-25"
+      ],
+      "anchor_characters": "THTHBATBATTF",
+      "slope": -0.0029743696313280833,
+      "rotation_degrees": -0.17041832403164744,
+      "baseline_intercept": 2551.435873612198,
+      "capline_anchor_ids": [
+        "regular-10-job-00-02",
+        "regular-10-job-00-06"
+      ],
+      "capline_intercept": 2519.7326166996418,
+      "cap_height_pixels": 31.703116676115986,
+      "scale": 22.079848084064096
+    },
+    "regular-10-job-01": {
+      "anchor_ids": [
+        "regular-10-job-01-03",
+        "regular-10-job-01-06",
+        "regular-10-job-01-08",
+        "regular-10-job-01-09",
+        "regular-10-job-01-11",
+        "regular-10-job-01-12",
+        "regular-10-job-01-19",
+        "regular-10-job-01-21",
+        "regular-10-job-01-23",
+        "regular-10-job-01-27",
+        "regular-10-job-01-29",
+        "regular-10-job-01-31",
+        "regular-10-job-01-34"
+      ],
+      "anchor_characters": "rhnfllhnhrinl",
+      "slope": -0.002982838655189986,
+      "rotation_degrees": -0.17090355905048196,
+      "baseline_intercept": 2609.5496816628747,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-02": {
+      "anchor_ids": [
+        "regular-10-job-02-02",
+        "regular-10-job-02-04",
+        "regular-10-job-02-08",
+        "regular-10-job-02-10",
+        "regular-10-job-02-11",
+        "regular-10-job-02-14",
+        "regular-10-job-02-20",
+        "regular-10-job-02-22",
+        "regular-10-job-02-26",
+        "regular-10-job-02-27",
+        "regular-10-job-02-29"
+      ],
+      "anchor_characters": "irminnihhmn",
+      "slope": -0.002642632452419451,
+      "rotation_degrees": -0.15141133386793035,
+      "baseline_intercept": 2667.6873442247784,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-03": {
+      "anchor_ids": [
+        "regular-10-job-03-02",
+        "regular-10-job-03-04",
+        "regular-10-job-03-05",
+        "regular-10-job-03-10",
+        "regular-10-job-03-15",
+        "regular-10-job-03-16",
+        "regular-10-job-03-19",
+        "regular-10-job-03-25",
+        "regular-10-job-03-26",
+        "regular-10-job-03-28",
+        "regular-10-job-03-35"
+      ],
+      "anchor_characters": "hmilriiilin",
+      "slope": -0.002845584683881915,
+      "rotation_degrees": -0.1630395525715596,
+      "baseline_intercept": 2726.2012505103353,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-04": {
+      "anchor_ids": [
+        "regular-10-job-04-01",
+        "regular-10-job-04-03",
+        "regular-10-job-04-07",
+        "regular-10-job-04-09",
+        "regular-10-job-04-12",
+        "regular-10-job-04-13",
+        "regular-10-job-04-19",
+        "regular-10-job-04-22",
+        "regular-10-job-04-23",
+        "regular-10-job-04-26",
+        "regular-10-job-04-28",
+        "regular-10-job-04-31",
+        "regular-10-job-04-33"
+      ],
+      "anchor_characters": "mnhrfniinihfr",
+      "slope": -0.003026760175118895,
+      "rotation_degrees": -0.17342005405082447,
+      "baseline_intercept": 2784.61770053142,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-05": {
+      "anchor_ids": [
+        "regular-10-job-05-02",
+        "regular-10-job-05-04",
+        "regular-10-job-05-05",
+        "regular-10-job-05-09",
+        "regular-10-job-05-14",
+        "regular-10-job-05-18",
+        "regular-10-job-05-20",
+        "regular-10-job-05-23",
+        "regular-10-job-05-27",
+        "regular-10-job-05-30"
+      ],
+      "anchor_characters": "hirrnlrhrr",
+      "slope": -0.003654443265888998,
+      "rotation_degrees": -0.20938324350745832,
+      "baseline_intercept": 2843.3074409789524,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-06": {
+      "anchor_ids": [
+        "regular-10-job-06-03",
+        "regular-10-job-06-08",
+        "regular-10-job-06-11",
+        "regular-10-job-06-15",
+        "regular-10-job-06-17",
+        "regular-10-job-06-20",
+        "regular-10-job-06-26",
+        "regular-10-job-06-28",
+        "regular-10-job-06-31",
+        "regular-10-job-06-33",
+        "regular-10-job-06-34"
+      ],
+      "anchor_characters": "rrihmnfnhir",
+      "slope": -0.0032688239176425233,
+      "rotation_degrees": -0.18728914737962543,
+      "baseline_intercept": 2901.650140946623,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-07": {
+      "anchor_ids": [
+        "regular-10-job-07-04",
+        "regular-10-job-07-06",
+        "regular-10-job-07-11",
+        "regular-10-job-07-15",
+        "regular-10-job-07-16",
+        "regular-10-job-07-19",
+        "regular-10-job-07-22",
+        "regular-10-job-07-26",
+        "regular-10-job-07-29",
+        "regular-10-job-07-31"
+      ],
+      "anchor_characters": "nrillnihhr",
+      "slope": -0.0036819364071190453,
+      "rotation_degrees": -0.21095846326984463,
+      "baseline_intercept": 2960.0715509860875,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-08": {
+      "anchor_ids": [
+        "regular-10-job-08-03",
+        "regular-10-job-08-05",
+        "regular-10-job-08-07",
+        "regular-10-job-08-12",
+        "regular-10-job-08-14",
+        "regular-10-job-08-15",
+        "regular-10-job-08-16",
+        "regular-10-job-08-18",
+        "regular-10-job-08-20",
+        "regular-10-job-08-22",
+        "regular-10-job-08-26",
+        "regular-10-job-08-31"
+      ],
+      "anchor_characters": "rfhrminnmnhm",
+      "slope": -0.003222473693586206,
+      "rotation_degrees": -0.18463350313737176,
+      "baseline_intercept": 3018.190956014845,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-job-09": {
+      "anchor_ids": [
+        "regular-10-job-09-03",
+        "regular-10-job-09-05",
+        "regular-10-job-09-09",
+        "regular-10-job-09-10",
+        "regular-10-job-09-12",
+        "regular-10-job-09-13",
+        "regular-10-job-09-20",
+        "regular-10-job-09-25",
+        "regular-10-job-09-30"
+      ],
+      "anchor_characters": "frinhiihr",
+      "slope": -0.003216072353754736,
+      "rotation_degrees": -0.18426673718286002,
+      "baseline_intercept": 3075.9188666182645,
+      "scale": 22.079848084064096,
+      "scale_reference": "regular-10-job-00"
+    },
+    "regular-10-l": {
+      "anchor_ids": [
+        "regular-10-l-06",
+        "regular-10-l-08",
+        "regular-10-l-09",
+        "regular-10-l-11",
+        "regular-10-l-12",
+        "regular-10-l-13",
+        "regular-10-l-14",
+        "regular-10-l-18",
+        "regular-10-l-24"
+      ],
+      "anchor_characters": "fhiklmnrx",
+      "slope": 0.008586488463924636,
+      "rotation_degrees": 0.4919574597472133,
+      "baseline_intercept": 1309.213950750974,
+      "scale": 21.680572510354896,
+      "scale_reference": "regular-10-U"
+    },
+    "regular-10-n": {
+      "anchor_ids": [
+        "regular-10-n-01",
+        "regular-10-n-02",
+        "regular-10-n-06",
+        "regular-10-n-08",
+        "regular-10-n-10"
+      ],
+      "anchor_characters": "12680",
+      "slope": 0.010954816350156209,
+      "rotation_degrees": 0.6276396357488944,
+      "baseline_intercept": 1205.811054106834,
+      "anchor_residual_pixels": [
+        -0.31287937723459436,
+        0.04336526179667999,
+        0.07240302381796937,
+        0.0,
+        -0.07382486114170206
+      ],
+      "scale": 21.680572510354896,
+      "scale_reference": "regular-10-U",
+      "note": "Independent baseline for the distant numeral block. Observed baseline figures anchor one rigid transform; all figures retain their source-relative positions at the same physical page scale. No individual figure height or baseline normalization."
+    },
+    "regular-10-census-n": {
+      "anchor_ids": [
+        "regular-10-census-n-01",
+        "regular-10-census-n-02",
+        "regular-10-census-n-03",
+        "regular-10-census-n-04",
+        "regular-10-census-n-05",
+        "regular-10-census-n-06",
+        "regular-10-census-n-08",
+        "regular-10-census-n-10"
+      ],
+      "anchor_characters": "12345680",
+      "slope": -0.004497379215077387,
+      "rotation_degrees": -0.25767911059454174,
+      "baseline_intercept": 3339.339876752004,
+      "anchor_residual_pixels": [
+        -0.1516223101043579,
+        -1.6653647320913478,
+        0.4960615348823012,
+        0.7079318832434183,
+        0.9649481969277076,
+        0.1516223101043579,
+        -1.0797057182726348,
+        -0.6962170757519743
+      ],
+      "scale": 15.980118689432581,
+      "scale_reference": "regular-10-census-U",
+      "note": "Independent baseline for the distant numeral block. Observed baseline figures anchor one rigid transform; all figures retain their source-relative positions at the same physical page scale. No individual figure height or baseline normalization."
+    },
+    "handy-358-10-caps": {
+      "status": "native-foot-windows-and-baseline-reviewed;accepted",
+      "anchors": [
+        {
+          "id": "handy-358-regular-10-cap-00",
+          "character": "P",
+          "x": 317.0,
+          "y": 1310.0,
+          "box": [
+            315,
+            1300,
+            320,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-02",
+          "character": "B",
+          "x": 371.5,
+          "y": 1310.0,
+          "box": [
+            370,
+            1300,
+            374,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-03",
+          "character": "L",
+          "x": 401.5,
+          "y": 1310.0,
+          "box": [
+            400,
+            1300,
+            404,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-04",
+          "character": "I",
+          "x": 428.5,
+          "y": 1310.0,
+          "box": [
+            427,
+            1300,
+            431,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-08",
+          "character": "E",
+          "x": 535.5,
+          "y": 1310.0,
+          "box": [
+            534,
+            1300,
+            538,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-09",
+          "character": "A",
+          "x": 562.0,
+          "y": 1310.0,
+          "box": [
+            561,
+            1300,
+            564,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-10",
+          "character": "K",
+          "x": 595.5,
+          "y": 1310.0,
+          "box": [
+            594,
+            1300,
+            598,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-12",
+          "character": "N",
+          "x": 639.0,
+          "y": 1309.0,
+          "box": [
+            638,
+            1300,
+            641,
+            1316
+          ],
+          "column_bottoms": [
+            1308,
+            1308,
+            1309
+          ]
+        }
+      ],
+      "slope": 0.0,
+      "rotation_degrees": 0.0,
+      "baseline_intercept": 1310.0,
+      "residuals_native_pixels": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max_absolute_residual_native_pixels": 1.0,
+      "method": "Independent native stem-foot windows at T150; median column lower ink edges, Theil-Sen slope, median intercept. Rounded feet and S excluded. Whole glyphs remain unsliced.",
+      "coordinate_convention": "Native pixels occupy [y,y+1); each lower edge is the last black pixel row plus one.",
+      "review": "All native stem-foot windows and full line overlays visually reviewed. No common row rotation measured; one-pixel maximum baseline residual. Curved feet and S excluded.",
+      "scale": 25.93776406924489
+    }
+  },
+  "glyphs": [
+    {
+      "id": "regular-10-U-01",
+      "row": "regular-10-U",
+      "character": "A",
+      "native_fitted_bounds": [
+        363.73790789136723,
+        1178.7732510684552,
+        395.37345431884887,
+        1211.1137314740802
+      ]
+    },
+    {
+      "id": "regular-10-U-02",
+      "row": "regular-10-U",
+      "character": "B",
+      "native_fitted_bounds": [
+        402.305303645287,
+        1178.8803847577294,
+        431.88907987334136,
+        1211.716703187665
+      ]
+    },
+    {
+      "id": "regular-10-U-03",
+      "row": "regular-10-U",
+      "character": "C",
+      "native_fitted_bounds": [
+        434.77145306940855,
+        1179.0862454338494,
+        462.3845795762657,
+        1212.073837199887
+      ]
+    },
+    {
+      "id": "regular-10-U-04",
+      "row": "regular-10-U",
+      "character": "D",
+      "native_fitted_bounds": [
+        468.9359850550762,
+        1179.8110051953104,
+        498.76898107199594,
+        1212.1092953322675
+      ]
+    },
+    {
+      "id": "regular-10-U-05",
+      "row": "regular-10-U",
+      "character": "E",
+      "native_fitted_bounds": [
+        504.30490703538896,
+        1179.1764834042679,
+        532.6410274377263,
+        1213.3024756174486
+      ]
+    },
+    {
+      "id": "regular-10-U-06",
+      "row": "regular-10-U",
+      "character": "F",
+      "native_fitted_bounds": [
+        539.2869935205637,
+        1179.95,
+        566.1871182542001,
+        1212.9233602672962
+      ]
+    },
+    {
+      "id": "regular-10-U-07",
+      "row": "regular-10-U",
+      "character": "G",
+      "native_fitted_bounds": [
+        568.7688891549171,
+        1180.9091271041195,
+        599.0,
+        1214.075
+      ]
+    },
+    {
+      "id": "regular-10-U-08",
+      "row": "regular-10-U",
+      "character": "H",
+      "native_fitted_bounds": [
+        607.485174027601,
+        1181.2996654627402,
+        637.1623456578283,
+        1213.48125
+      ]
+    },
+    {
+      "id": "regular-10-U-09",
+      "row": "regular-10-U",
+      "character": "I",
+      "native_fitted_bounds": [
+        645.9987764265777,
+        1181.8289391545052,
+        655.4839246171067,
+        1213.9156090025022
+      ]
+    },
+    {
+      "id": "regular-10-U-10",
+      "row": "regular-10-U",
+      "character": "J",
+      "native_fitted_bounds": [
+        660.615924911347,
+        1182.0835954624356,
+        680.225,
+        1214.4779251258815
+      ]
+    },
+    {
+      "id": "regular-10-U-11",
+      "row": "regular-10-U",
+      "character": "K",
+      "native_fitted_bounds": [
+        689.20625,
+        1181.7747397171377,
+        719.7141456012133,
+        1214.4064444175658
+      ]
+    },
+    {
+      "id": "regular-10-U-12",
+      "row": "regular-10-U",
+      "character": "L",
+      "native_fitted_bounds": [
+        726.0121813834611,
+        1182.7799643261037,
+        753.210651673575,
+        1215.2102126470625
+      ]
+    },
+    {
+      "id": "regular-10-U-13",
+      "row": "regular-10-U",
+      "character": "M",
+      "native_fitted_bounds": [
+        756.0043659135127,
+        1183.0877951582581,
+        795.9392489601382,
+        1215.3442486458996
+      ]
+    },
+    {
+      "id": "regular-10-U-14",
+      "row": "regular-10-U",
+      "character": "N",
+      "native_fitted_bounds": [
+        800.6893470495893,
+        1183.576652892562,
+        830.6013888053019,
+        1215.326500718789
+      ]
+    },
+    {
+      "id": "regular-10-U-15",
+      "row": "regular-10-U",
+      "character": "O",
+      "native_fitted_bounds": [
+        835.7195787940144,
+        1184.0218313744886,
+        864.9511714232798,
+        1216.575
+      ]
+    },
+    {
+      "id": "regular-10-U-16",
+      "row": "regular-10-U",
+      "character": "P",
+      "native_fitted_bounds": [
+        871.2897991695858,
+        1184.2882480680937,
+        898.8203071939574,
+        1216.1293071264877
+      ]
+    },
+    {
+      "id": "regular-10-U-17",
+      "row": "regular-10-U",
+      "character": "Q",
+      "native_fitted_bounds": [
+        901.3563021428398,
+        1184.7265952785795,
+        930.05,
+        1223.954611541308
+      ]
+    },
+    {
+      "id": "regular-10-U-18",
+      "row": "regular-10-U",
+      "character": "R",
+      "native_fitted_bounds": [
+        935.7817752512449,
+        1185.0500923697157,
+        965.3893465760494,
+        1220.0982449617377
+      ]
+    },
+    {
+      "id": "regular-10-U-19",
+      "row": "regular-10-U",
+      "character": "S",
+      "native_fitted_bounds": [
+        968.8263167045213,
+        1185.7793249023352,
+        997.551284643488,
+        1217.6347763649596
+      ]
+    },
+    {
+      "id": "regular-10-U-20",
+      "row": "regular-10-U",
+      "character": "T",
+      "native_fitted_bounds": [
+        999.4414139501309,
+        1185.5887934057969,
+        1028.2048380861145,
+        1218.2182403853924
+      ]
+    },
+    {
+      "id": "regular-10-U-21",
+      "row": "regular-10-U",
+      "character": "U",
+      "native_fitted_bounds": [
+        1032.3989212205443,
+        1186.2980835253543,
+        1061.9406116270516,
+        1218.7521281622726
+      ]
+    },
+    {
+      "id": "regular-10-U-22",
+      "row": "regular-10-U",
+      "character": "V",
+      "native_fitted_bounds": [
+        1068.059346761365,
+        1186.547611133336,
+        1097.7341584662538,
+        1217.8722003333564
+      ]
+    },
+    {
+      "id": "regular-10-U-23",
+      "row": "regular-10-U",
+      "character": "W",
+      "native_fitted_bounds": [
+        1103.4131785746388,
+        1186.8651923788648,
+        1151.3945607810288,
+        1218.3138856822118
+      ]
+    },
+    {
+      "id": "regular-10-U-24",
+      "row": "regular-10-U",
+      "character": "X",
+      "native_fitted_bounds": [
+        1156.6352684020915,
+        1186.875,
+        1186.874093588157,
+        1219.3914401787777
+      ]
+    },
+    {
+      "id": "regular-10-U-25",
+      "row": "regular-10-U",
+      "character": "Y",
+      "native_fitted_bounds": [
+        1191.7833093654265,
+        1188.1,
+        1221.8305665566447,
+        1220.1265553405258
+      ]
+    },
+    {
+      "id": "regular-10-U-26",
+      "row": "regular-10-U",
+      "character": "Z",
+      "native_fitted_bounds": [
+        1227.6365393949106,
+        1188.2914593634541,
+        1252.4365164310902,
+        1220.5025968775274
+      ]
+    },
+    {
+      "id": "regular-10-l-01",
+      "row": "regular-10-l",
+      "character": "a",
+      "native_fitted_bounds": [
+        915.25,
+        1295.506003403257,
+        938.6866445492332,
+        1317.9064116059124
+      ]
+    },
+    {
+      "id": "regular-10-l-02",
+      "row": "regular-10-l",
+      "character": "b",
+      "native_fitted_bounds": [
+        944.8949746122804,
+        1286.106119666566,
+        966.6257569442638,
+        1317.5480888571471
+      ]
+    },
+    {
+      "id": "regular-10-l-03",
+      "row": "regular-10-l",
+      "character": "c",
+      "native_fitted_bounds": [
+        968.8592554638764,
+        1295.584573880074,
+        988.2152720033658,
+        1318.0862107693536
+      ]
+    },
+    {
+      "id": "regular-10-l-04",
+      "row": "regular-10-l",
+      "character": "d",
+      "native_fitted_bounds": [
+        990.512987604573,
+        1287.9565350035778,
+        1012.6713567842245,
+        1319.388119816776
+      ]
+    },
+    {
+      "id": "regular-10-l-05",
+      "row": "regular-10-l",
+      "character": "e",
+      "native_fitted_bounds": [
+        1017.5253902687489,
+        1296.3343384448485,
+        1038.25,
+        1318.5080037877017
+      ]
+    },
+    {
+      "id": "regular-10-l-06",
+      "row": "regular-10-l",
+      "character": "f",
+      "native_fitted_bounds": [
+        1041.3588516784055,
+        1286.3,
+        1056.25,
+        1318.0
+      ]
+    },
+    {
+      "id": "regular-10-l-07",
+      "row": "regular-10-l",
+      "character": "g",
+      "native_fitted_bounds": [
+        1059.5,
+        1296.547597462515,
+        1084.2138403748095,
+        1326.738328631499
+      ]
+    },
+    {
+      "id": "regular-10-l-08",
+      "row": "regular-10-l",
+      "character": "h",
+      "native_fitted_bounds": [
+        1088.8794200051595,
+        1287.3501310930365,
+        1110.875,
+        1318.9470129472588
+      ]
+    },
+    {
+      "id": "regular-10-l-09",
+      "row": "regular-10-l",
+      "character": "i",
+      "native_fitted_bounds": [
+        1119.3102247476584,
+        1287.929277657057,
+        1126.639659127168,
+        1318.8739413013425
+      ]
+    },
+    {
+      "id": "regular-10-l-10",
+      "row": "regular-10-l",
+      "character": "j",
+      "native_fitted_bounds": [
+        1131.0,
+        1288.9741792107334,
+        1142.86,
+        1328.75
+      ]
+    },
+    {
+      "id": "regular-10-l-11",
+      "row": "regular-10-l",
+      "character": "k",
+      "native_fitted_bounds": [
+        1149.8162883175846,
+        1288.0135387088803,
+        1172.1569629610783,
+        1319.1827490187968
+      ]
+    },
+    {
+      "id": "regular-10-l-12",
+      "row": "regular-10-l",
+      "character": "l",
+      "native_fitted_bounds": [
+        1178.8119407177612,
+        1287.5635022289837,
+        1186.6883269665086,
+        1319.2313816702003
+      ]
+    },
+    {
+      "id": "regular-10-l-13",
+      "row": "regular-10-l",
+      "character": "m",
+      "native_fitted_bounds": [
+        1194.552446492523,
+        1298.0200920466323,
+        1231.5565252877916,
+        1319.8908091782996
+      ]
+    },
+    {
+      "id": "regular-10-l-14",
+      "row": "regular-10-l",
+      "character": "n",
+      "native_fitted_bounds": [
+        1239.4681887958109,
+        1298.177669256414,
+        1262.0813057667192,
+        1319.9103673107547
+      ]
+    },
+    {
+      "id": "regular-10-l-15",
+      "row": "regular-10-l",
+      "character": "o",
+      "native_fitted_bounds": [
+        1266.9469607372228,
+        1298.5865495821965,
+        1288.288061728395,
+        1320.643748032476
+      ]
+    },
+    {
+      "id": "regular-10-l-16",
+      "row": "regular-10-l",
+      "character": "p",
+      "native_fitted_bounds": [
+        1292.8110788990766,
+        1299.257,
+        1314.9230208357155,
+        1329.75
+      ]
+    },
+    {
+      "id": "regular-10-l-17",
+      "row": "regular-10-l",
+      "character": "q",
+      "native_fitted_bounds": [
+        1317.3052425753792,
+        1298.6572892286563,
+        1339.018030472727,
+        1329.6900768557775
+      ]
+    },
+    {
+      "id": "regular-10-l-18",
+      "row": "regular-10-l",
+      "character": "r",
+      "native_fitted_bounds": [
+        1345.7740099108078,
+        1298.0361326769455,
+        1362.998945634366,
+        1320.7431521050648
+      ]
+    },
+    {
+      "id": "regular-10-l-19",
+      "row": "regular-10-l",
+      "character": "s",
+      "native_fitted_bounds": [
+        1365.0505494456738,
+        1298.3851706321532,
+        1383.8508770515887,
+        1322.3
+      ]
+    },
+    {
+      "id": "regular-10-l-20",
+      "row": "regular-10-l",
+      "character": "t",
+      "native_fitted_bounds": [
+        1386.9045012573954,
+        1293.175,
+        1403.8015379586188,
+        1322.706398214969
+      ]
+    },
+    {
+      "id": "regular-10-l-21",
+      "row": "regular-10-l",
+      "character": "u",
+      "native_fitted_bounds": [
+        1409.0601208745231,
+        1299.7866252709568,
+        1432.0,
+        1322.5819124823129
+      ]
+    },
+    {
+      "id": "regular-10-l-22",
+      "row": "regular-10-l",
+      "character": "v",
+      "native_fitted_bounds": [
+        1438.5,
+        1300.8666214824348,
+        1462.0948011908013,
+        1322.75
+      ]
+    },
+    {
+      "id": "regular-10-l-23",
+      "row": "regular-10-l",
+      "character": "w",
+      "native_fitted_bounds": [
+        1467.6048322926372,
+        1301.022182891376,
+        1502.725059790448,
+        1323.2349117616454
+      ]
+    },
+    {
+      "id": "regular-10-l-24",
+      "row": "regular-10-l",
+      "character": "x",
+      "native_fitted_bounds": [
+        1507.297816060276,
+        1301.6053847577293,
+        1528.9843825535006,
+        1322.442856073169
+      ]
+    },
+    {
+      "id": "regular-10-l-25",
+      "row": "regular-10-l",
+      "character": "y",
+      "native_fitted_bounds": [
+        1532.4866804314945,
+        1302.0,
+        1558.2073636574778,
+        1333.0
+      ]
+    },
+    {
+      "id": "regular-10-l-26",
+      "row": "regular-10-l",
+      "character": "z",
+      "native_fitted_bounds": [
+        1562.1353110859693,
+        1301.051165066066,
+        1582.4573881698286,
+        1323.97875
+      ]
+    },
+    {
+      "id": "regular-10-n-01",
+      "row": "regular-10-n",
+      "character": "1",
+      "native_fitted_bounds": [
+        1895.1306674178597,
+        1204.4014599573145,
+        1905.4754665792543,
+        1226.3156458382073
+      ]
+    },
+    {
+      "id": "regular-10-n-02",
+      "row": "regular-10-n",
+      "character": "2",
+      "native_fitted_bounds": [
+        1911.2282647348454,
+        1204.220828505224,
+        1932.6714242705818,
+        1226.9090269493693
+      ]
+    },
+    {
+      "id": "regular-10-n-03",
+      "row": "regular-10-n",
+      "character": "3",
+      "native_fitted_bounds": [
+        1935.8277531135952,
+        1204.8436456024192,
+        1956.725,
+        1235.261813553696
+      ]
+    },
+    {
+      "id": "regular-10-n-04",
+      "row": "regular-10-n",
+      "character": "4",
+      "native_fitted_bounds": [
+        1961.4267280345273,
+        1205.7742482138785,
+        1982.7181997196951,
+        1235.8255792459788
+      ]
+    },
+    {
+      "id": "regular-10-n-05",
+      "row": "regular-10-n",
+      "character": "5",
+      "native_fitted_bounds": [
+        1984.8945467493509,
+        1204.9127833418968,
+        2006.2017002016332,
+        1235.75
+      ]
+    },
+    {
+      "id": "regular-10-n-06",
+      "row": "regular-10-n",
+      "character": "6",
+      "native_fitted_bounds": [
+        2010.17629609034,
+        1195.0227730777651,
+        2032.2399690367017,
+        1228.0254210283276
+      ]
+    },
+    {
+      "id": "regular-10-n-07",
+      "row": "regular-10-n",
+      "character": "7",
+      "native_fitted_bounds": [
+        2035.7910429535016,
+        1205.9745812262047,
+        2056.7450299435077,
+        1236.5
+      ]
+    },
+    {
+      "id": "regular-10-n-08",
+      "row": "regular-10-n",
+      "character": "8",
+      "native_fitted_bounds": [
+        2058.803659431175,
+        1195.909573880074,
+        2081.562516495798,
+        1228.4895296466732
+      ]
+    },
+    {
+      "id": "regular-10-n-09",
+      "row": "regular-10-n",
+      "character": "9",
+      "native_fitted_bounds": [
+        2083.1895209011604,
+        1206.0792960675005,
+        2106.152889554792,
+        1236.5101188599917
+      ]
+    },
+    {
+      "id": "regular-10-n-10",
+      "row": "regular-10-n",
+      "character": "0",
+      "native_fitted_bounds": [
+        2107.9247957236616,
+        1205.9974301280172,
+        2130.958286325951,
+        1228.955322092511
+      ]
+    },
+    {
+      "id": "regular-10-census-U-01",
+      "row": "regular-10-census-U",
+      "character": "A",
+      "native_fitted_bounds": [
+        81.3116061862057,
+        3292.9841320925893,
+        125.38326760922945,
+        3337.469912523228
+      ]
+    },
+    {
+      "id": "regular-10-census-U-02",
+      "row": "regular-10-census-U",
+      "character": "B",
+      "native_fitted_bounds": [
+        134.2239674977301,
+        3293.6478692512383,
+        175.64264183393874,
+        3337.4825627566115
+      ]
+    },
+    {
+      "id": "regular-10-census-U-03",
+      "row": "regular-10-census-U",
+      "character": "C",
+      "native_fitted_bounds": [
+        179.72052994624525,
+        3293.167470715584,
+        218.60842812042404,
+        3337.9208166445665
+      ]
+    },
+    {
+      "id": "regular-10-census-U-04",
+      "row": "regular-10-census-U",
+      "character": "D",
+      "native_fitted_bounds": [
+        228.90340912576906,
+        3292.525792110722,
+        269.5847193906624,
+        3336.963803773734
+      ]
+    },
+    {
+      "id": "regular-10-census-U-05",
+      "row": "regular-10-census-U",
+      "character": "E",
+      "native_fitted_bounds": [
+        278.0417340387581,
+        3291.3776404028918,
+        317.186324317063,
+        3337.458952012286
+      ]
+    },
+    {
+      "id": "regular-10-census-U-06",
+      "row": "regular-10-census-U",
+      "character": "F",
+      "native_fitted_bounds": [
+        326.3100546098902,
+        3290.3641349941704,
+        364.0,
+        3335.4848716102083
+      ]
+    },
+    {
+      "id": "regular-10-census-U-07",
+      "row": "regular-10-census-U",
+      "character": "G",
+      "native_fitted_bounds": [
+        368.8906128681716,
+        3291.2755827234737,
+        411.4273365876199,
+        3336.1268973298716
+      ]
+    },
+    {
+      "id": "regular-10-census-U-08",
+      "row": "regular-10-census-U",
+      "character": "H",
+      "native_fitted_bounds": [
+        423.40280404264894,
+        3291.364030221788,
+        464.68107372202826,
+        3335.219466177333
+      ]
+    },
+    {
+      "id": "regular-10-census-U-09",
+      "row": "regular-10-census-U",
+      "character": "I",
+      "native_fitted_bounds": [
+        477.58168911906716,
+        3291.028900669896,
+        489.8909303015899,
+        3334.100520298733
+      ]
+    },
+    {
+      "id": "regular-10-census-U-10",
+      "row": "regular-10-census-U",
+      "character": "J",
+      "native_fitted_bounds": [
+        496.0,
+        3290.3037351528446,
+        523.1306353708742,
+        3335.55
+      ]
+    },
+    {
+      "id": "regular-10-census-U-11",
+      "row": "regular-10-census-U",
+      "character": "K",
+      "native_fitted_bounds": [
+        535.6196468423936,
+        3289.6200765385825,
+        579.7189189189189,
+        3333.7161221105684
+      ]
+    },
+    {
+      "id": "regular-10-census-U-12",
+      "row": "regular-10-census-U",
+      "character": "L",
+      "native_fitted_bounds": [
+        589.3263586606553,
+        3290.083035714286,
+        628.0869216666543,
+        3334.651852389757
+      ]
+    },
+    {
+      "id": "regular-10-census-U-13",
+      "row": "regular-10-census-U",
+      "character": "M",
+      "native_fitted_bounds": [
+        632.8570562418527,
+        3289.3454774599213,
+        681.2326727370546,
+        3333.6903570098175
+      ]
+    },
+    {
+      "id": "regular-10-census-U-14",
+      "row": "regular-10-census-U",
+      "character": "N",
+      "native_fitted_bounds": [
+        690.3514207269978,
+        3289.5417693653562,
+        732.9208051012147,
+        3333.2482872376236
+      ]
+    },
+    {
+      "id": "regular-10-census-U-15",
+      "row": "regular-10-census-U",
+      "character": "O",
+      "native_fitted_bounds": [
+        739.7080220593099,
+        3289.7845738800743,
+        780.9719820734937,
+        3333.604801190176
+      ]
+    },
+    {
+      "id": "regular-10-census-U-16",
+      "row": "regular-10-census-U",
+      "character": "P",
+      "native_fitted_bounds": [
+        789.9563837714167,
+        3289.3313916709485,
+        828.625,
+        3332.7290389438417
+      ]
+    },
+    {
+      "id": "regular-10-census-U-17",
+      "row": "regular-10-census-U",
+      "character": "Q",
+      "native_fitted_bounds": [
+        833.7340924796579,
+        3288.7962780319754,
+        874.2667489804786,
+        3343.199751404317
+      ]
+    },
+    {
+      "id": "regular-10-census-U-18",
+      "row": "regular-10-census-U",
+      "character": "R",
+      "native_fitted_bounds": [
+        882.7495581755054,
+        3287.624413155121,
+        925.0,
+        3336.7259814330946
+      ]
+    },
+    {
+      "id": "regular-10-census-U-19",
+      "row": "regular-10-census-U",
+      "character": "S",
+      "native_fitted_bounds": [
+        928.7643326758712,
+        3288.081506905533,
+        964.5424641362465,
+        3332.3093207849765
+      ]
+    },
+    {
+      "id": "regular-10-census-U-20",
+      "row": "regular-10-census-U",
+      "character": "T",
+      "native_fitted_bounds": [
+        968.0359740349373,
+        3286.027164231493,
+        1008.635179855818,
+        3331.25
+      ]
+    },
+    {
+      "id": "regular-10-census-U-21",
+      "row": "regular-10-census-U",
+      "character": "U",
+      "native_fitted_bounds": [
+        1014.6803832927282,
+        3287.059657401265,
+        1055.612427194428,
+        3331.4997958047857
+      ]
+    },
+    {
+      "id": "regular-10-census-U-22",
+      "row": "regular-10-census-U",
+      "character": "V",
+      "native_fitted_bounds": [
+        1063.8021600777179,
+        3287.25,
+        1105.6299777664578,
+        3330.204680785437
+      ]
+    },
+    {
+      "id": "regular-10-census-l-01",
+      "row": "regular-10-census-l",
+      "character": "a",
+      "native_fitted_bounds": [
+        1284.5129184510688,
+        3299.5878942928844,
+        1317.961851388689,
+        3329.9320230863427
+      ]
+    },
+    {
+      "id": "regular-10-census-l-02",
+      "row": "regular-10-census-l",
+      "character": "b",
+      "native_fitted_bounds": [
+        1323.725,
+        3286.7718286106656,
+        1355.9325825864933,
+        3329.5229340017204
+      ]
+    },
+    {
+      "id": "regular-10-census-l-03",
+      "row": "regular-10-census-l",
+      "character": "c",
+      "native_fitted_bounds": [
+        1358.7605290418778,
+        3298.785,
+        1386.3869537816681,
+        3329.5214006466
+      ]
+    },
+    {
+      "id": "regular-10-census-l-04",
+      "row": "regular-10-census-l",
+      "character": "d",
+      "native_fitted_bounds": [
+        1390.5016961350248,
+        3285.812239449219,
+        1422.0190259540375,
+        3329.7290465212795
+      ]
+    },
+    {
+      "id": "regular-10-census-l-05",
+      "row": "regular-10-census-l",
+      "character": "e",
+      "native_fitted_bounds": [
+        1427.3279935426608,
+        3298.3573863636366,
+        1455.461053230394,
+        3329.3413244113294
+      ]
+    },
+    {
+      "id": "regular-10-census-l-06",
+      "row": "regular-10-census-l",
+      "character": "f",
+      "native_fitted_bounds": [
+        1459.2718059021283,
+        3285.911897923762,
+        1480.4234614643776,
+        3329.174603390805
+      ]
+    },
+    {
+      "id": "regular-10-census-l-07",
+      "row": "regular-10-census-l",
+      "character": "g",
+      "native_fitted_bounds": [
+        1485.075846594306,
+        3299.339863730133,
+        1519.2535494436663,
+        3341.38200829928
+      ]
+    },
+    {
+      "id": "regular-10-census-l-08",
+      "row": "regular-10-census-l",
+      "character": "h",
+      "native_fitted_bounds": [
+        1525.346122809882,
+        3285.53125,
+        1558.175130277735,
+        3329.0514656075848
+      ]
+    },
+    {
+      "id": "regular-10-census-l-09",
+      "row": "regular-10-census-l",
+      "character": "i",
+      "native_fitted_bounds": [
+        1567.2524745299534,
+        3285.2378894070625,
+        1579.4366010798701,
+        3328.8261435918603
+      ]
+    },
+    {
+      "id": "regular-10-census-l-10",
+      "row": "regular-10-census-l",
+      "character": "j",
+      "native_fitted_bounds": [
+        1585.838469129668,
+        3286.155073722272,
+        1601.7094866493583,
+        3341.4987207585514
+      ]
+    },
+    {
+      "id": "regular-10-census-l-11",
+      "row": "regular-10-census-l",
+      "character": "k",
+      "native_fitted_bounds": [
+        1610.090823447699,
+        3285.209305694434,
+        1644.8489670635965,
+        3328.3355607046537
+      ]
+    },
+    {
+      "id": "regular-10-census-l-12",
+      "row": "regular-10-census-l",
+      "character": "l",
+      "native_fitted_bounds": [
+        1653.0,
+        3284.093666079874,
+        1665.9206322184689,
+        3328.680677563632
+      ]
+    },
+    {
+      "id": "regular-10-census-l-13",
+      "row": "regular-10-census-l",
+      "character": "m",
+      "native_fitted_bounds": [
+        1674.876822893324,
+        3298.40511568551,
+        1727.4000936701686,
+        3328.375
+      ]
+    },
+    {
+      "id": "regular-10-census-l-14",
+      "row": "regular-10-census-l",
+      "character": "n",
+      "native_fitted_bounds": [
+        1736.9295144661148,
+        3297.375664893617,
+        1769.8332840236687,
+        3327.865822407025
+      ]
+    },
+    {
+      "id": "regular-10-census-l-15",
+      "row": "regular-10-census-l",
+      "character": "o",
+      "native_fitted_bounds": [
+        1776.23125,
+        3297.8027191395045,
+        1806.25,
+        3328.382221179511
+      ]
+    },
+    {
+      "id": "regular-10-census-l-16",
+      "row": "regular-10-census-l",
+      "character": "p",
+      "native_fitted_bounds": [
+        1812.15,
+        3297.866517545756,
+        1844.052449558933,
+        3340.8943674833668
+      ]
+    },
+    {
+      "id": "regular-10-census-l-17",
+      "row": "regular-10-census-l",
+      "character": "q",
+      "native_fitted_bounds": [
+        1847.5130355123927,
+        3297.582595543325,
+        1877.9490944027134,
+        3339.875
+      ]
+    },
+    {
+      "id": "regular-10-census-l-18",
+      "row": "regular-10-census-l",
+      "character": "r",
+      "native_fitted_bounds": [
+        1888.594677020379,
+        3297.4977921378654,
+        1913.143249989971,
+        3327.72295404118
+      ]
+    },
+    {
+      "id": "regular-10-census-l-19",
+      "row": "regular-10-census-l",
+      "character": "s",
+      "native_fitted_bounds": [
+        1917.0776621776083,
+        3296.364761500909,
+        1942.503036369377,
+        3328.98143745003
+      ]
+    },
+    {
+      "id": "regular-10-census-l-20",
+      "row": "regular-10-census-l",
+      "character": "t",
+      "native_fitted_bounds": [
+        1947.3527850456878,
+        3286.7381127375425,
+        1973.1270592825722,
+        3328.787178669954
+      ]
+    },
+    {
+      "id": "regular-10-census-l-21",
+      "row": "regular-10-census-l",
+      "character": "u",
+      "native_fitted_bounds": [
+        1978.2615644587788,
+        3297.6174304802125,
+        2011.5801802239725,
+        3329.248631369008
+      ]
+    },
+    {
+      "id": "regular-10-census-l-22",
+      "row": "regular-10-census-l",
+      "character": "v",
+      "native_fitted_bounds": [
+        2020.00625,
+        3299.4239870411275,
+        2049.948800877273,
+        3328.75
+      ]
+    },
+    {
+      "id": "regular-10-census-n-01",
+      "row": "regular-10-census-n",
+      "character": "1",
+      "native_fitted_bounds": [
+        2229.6402811113157,
+        3284.293598764088,
+        2244.560875727145,
+        3329.127164798479
+      ]
+    },
+    {
+      "id": "regular-10-census-n-02",
+      "row": "regular-10-census-n",
+      "character": "2",
+      "native_fitted_bounds": [
+        2256.023340694506,
+        3296.558,
+        2286.3607050469645,
+        3327.460100222804
+      ]
+    },
+    {
+      "id": "regular-10-census-n-03",
+      "row": "regular-10-census-n",
+      "character": "3",
+      "native_fitted_bounds": [
+        2291.0711279364527,
+        3287.3986988196143,
+        2321.0242983042576,
+        3329.464767232922
+      ]
+    },
+    {
+      "id": "regular-10-census-n-04",
+      "row": "regular-10-census-n",
+      "character": "4",
+      "native_fitted_bounds": [
+        2326.0,
+        3287.0598989184878,
+        2355.8726291847174,
+        3329.51973031018
+      ]
+    },
+    {
+      "id": "regular-10-census-n-05",
+      "row": "regular-10-census-n",
+      "character": "5",
+      "native_fitted_bounds": [
+        2360.3231462864715,
+        3287.5887972196765,
+        2389.9531112581226,
+        3329.622928095653
+      ]
+    },
+    {
+      "id": "regular-10-census-n-06",
+      "row": "regular-10-census-n",
+      "character": "6",
+      "native_fitted_bounds": [
+        2394.552724569984,
+        3283.039480696128,
+        2426.428395603736,
+        3328.6506089190334
+      ]
+    },
+    {
+      "id": "regular-10-census-n-07",
+      "row": "regular-10-census-n",
+      "character": "7",
+      "native_fitted_bounds": [
+        2429.0648760330578,
+        3296.0,
+        2459.912667375142,
+        3338.384870440849
+      ]
+    },
+    {
+      "id": "regular-10-census-n-08",
+      "row": "regular-10-census-n",
+      "character": "8",
+      "native_fitted_bounds": [
+        2462.645331281296,
+        3282.301,
+        2494.143368056009,
+        3327.1138917987664
+      ]
+    },
+    {
+      "id": "regular-10-census-n-09",
+      "row": "regular-10-census-n",
+      "character": "9",
+      "native_fitted_bounds": [
+        2496.7113957833753,
+        3295.8074832368034,
+        2528.375,
+        3338.250449469454
+      ]
+    },
+    {
+      "id": "regular-10-census-n-10",
+      "row": "regular-10-census-n",
+      "character": "0",
+      "native_fitted_bounds": [
+        2532.824284799301,
+        3295.748147302101,
+        2564.1564377033533,
+        3327.182132095735
+      ]
+    },
+    {
+      "id": "regular-10-job-00-01",
+      "row": "regular-10-job-00",
+      "character": "T",
+      "native_fitted_bounds": [
+        51.338398328817455,
+        2518.740747283084,
+        80.02545453007173,
+        2551.17806163315
+      ]
+    },
+    {
+      "id": "regular-10-job-00-02",
+      "row": "regular-10-job-00",
+      "character": "H",
+      "native_fitted_bounds": [
+        84.27155578944118,
+        2519.549532028335,
+        115.04906116270514,
+        2550.7843538006264
+      ]
+    },
+    {
+      "id": "regular-10-job-00-03",
+      "row": "regular-10-job-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        121.64330253158484,
+        2518.971736879629,
+        150.82502510222366,
+        2552.31396514299
+      ]
+    },
+    {
+      "id": "regular-10-job-00-04",
+      "row": "regular-10-job-00",
+      "character": "N",
+      "native_fitted_bounds": [
+        154.92958435969814,
+        2519.3145641937203,
+        187.2754236352851,
+        2551.7417660275582
+      ]
+    },
+    {
+      "id": "regular-10-job-00-05",
+      "row": "regular-10-job-00",
+      "character": "T",
+      "native_fitted_bounds": [
+        212.0,
+        2518.2389909979297,
+        241.44577113011866,
+        2550.83716117373
+      ]
+    },
+    {
+      "id": "regular-10-job-00-06",
+      "row": "regular-10-job-00",
+      "character": "H",
+      "native_fitted_bounds": [
+        244.67837215941918,
+        2518.8441391066945,
+        276.5316759190691,
+        2550.6485655116026
+      ]
+    },
+    {
+      "id": "regular-10-job-00-07",
+      "row": "regular-10-job-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        283.2611193883941,
+        2518.5570686861774,
+        312.5836182072236,
+        2551.9996648779625
+      ]
+    },
+    {
+      "id": "regular-10-job-00-08",
+      "row": "regular-10-job-00",
+      "character": "C",
+      "native_fitted_bounds": [
+        340.11715178693294,
+        2519.059738607206,
+        368.21566450130547,
+        2551.084304212225
+      ]
+    },
+    {
+      "id": "regular-10-job-00-09",
+      "row": "regular-10-job-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        373.8706831201604,
+        2518.298771067883,
+        402.9844383523085,
+        2551.9116823397844
+      ]
+    },
+    {
+      "id": "regular-10-job-00-10",
+      "row": "regular-10-job-00",
+      "character": "L",
+      "native_fitted_bounds": [
+        407.53432904117244,
+        2518.312016600406,
+        436.2321626943634,
+        2551.01464827315
+      ]
+    },
+    {
+      "id": "regular-10-job-00-11",
+      "row": "regular-10-job-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        439.8094287575153,
+        2518.0453279912704,
+        468.765072617666,
+        2551.3200153029366
+      ]
+    },
+    {
+      "id": "regular-10-job-00-12",
+      "row": "regular-10-job-00",
+      "character": "B",
+      "native_fitted_bounds": [
+        472.8452623252835,
+        2518.322911900166,
+        503.5808710485043,
+        2550.0022945441087
+      ]
+    },
+    {
+      "id": "regular-10-job-00-13",
+      "row": "regular-10-job-00",
+      "character": "R",
+      "native_fitted_bounds": [
+        507.0841157341147,
+        2518.2809132644716,
+        538.0389708436097,
+        2553.592648047503
+      ]
+    },
+    {
+      "id": "regular-10-job-00-14",
+      "row": "regular-10-job-00",
+      "character": "A",
+      "native_fitted_bounds": [
+        540.0147116999069,
+        2517.759054497736,
+        572.7555175607932,
+        2549.7348915775274
+      ]
+    },
+    {
+      "id": "regular-10-job-00-15",
+      "row": "regular-10-job-00",
+      "character": "T",
+      "native_fitted_bounds": [
+        574.5,
+        2517.3363400545563,
+        604.0705601097995,
+        2549.75
+      ]
+    },
+    {
+      "id": "regular-10-job-00-16",
+      "row": "regular-10-job-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        608.6318827864679,
+        2517.372894777703,
+        637.3441915393385,
+        2550.404526191314
+      ]
+    },
+    {
+      "id": "regular-10-job-00-17",
+      "row": "regular-10-job-00",
+      "character": "D",
+      "native_fitted_bounds": [
+        642.1226329324684,
+        2517.968186160409,
+        672.4838812589247,
+        2549.6280865297736
+      ]
+    },
+    {
+      "id": "regular-10-job-00-18",
+      "row": "regular-10-job-00",
+      "character": "B",
+      "native_fitted_bounds": [
+        701.7899664736067,
+        2517.6436092099416,
+        732.1350435260232,
+        2549.366741214401
+      ]
+    },
+    {
+      "id": "regular-10-job-00-19",
+      "row": "regular-10-job-00",
+      "character": "A",
+      "native_fitted_bounds": [
+        734.0613105536332,
+        2517.25,
+        766.6909756402994,
+        2549.216150031419
+      ]
+    },
+    {
+      "id": "regular-10-job-00-20",
+      "row": "regular-10-job-00",
+      "character": "T",
+      "native_fitted_bounds": [
+        768.3635604521039,
+        2517.05625,
+        797.9644094007117,
+        2549.157534289111
+      ]
+    },
+    {
+      "id": "regular-10-job-00-21",
+      "row": "regular-10-job-00",
+      "character": "T",
+      "native_fitted_bounds": [
+        799.5310715401554,
+        2517.0311908893814,
+        828.471624303127,
+        2548.732355658499
+      ]
+    },
+    {
+      "id": "regular-10-job-00-22",
+      "row": "regular-10-job-00",
+      "character": "L",
+      "native_fitted_bounds": [
+        833.0484240275018,
+        2517.407636479175,
+        861.1720970337609,
+        2549.041028743484
+      ]
+    },
+    {
+      "id": "regular-10-job-00-23",
+      "row": "regular-10-job-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        865.3633849143198,
+        2516.584123329408,
+        893.9467693503491,
+        2549.9852526803047
+      ]
+    },
+    {
+      "id": "regular-10-job-00-24",
+      "row": "regular-10-job-00",
+      "character": "O",
+      "native_fitted_bounds": [
+        921.51542611665,
+        2517.508256809752,
+        951.1466024765137,
+        2549.2907297203005
+      ]
+    },
+    {
+      "id": "regular-10-job-00-25",
+      "row": "regular-10-job-00",
+      "character": "F",
+      "native_fitted_bounds": [
+        955.922941764725,
+        2516.3278570346934,
+        983.75,
+        2548.5
+      ]
+    },
+    {
+      "id": "regular-10-job-01-01",
+      "row": "regular-10-job-01",
+      "character": "M",
+      "native_fitted_bounds": [
+        51.63826119345962,
+        2577.053684859645,
+        90.8984375,
+        2609.25
+      ]
+    },
+    {
+      "id": "regular-10-job-01-02",
+      "row": "regular-10-job-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        94.06385627754709,
+        2586.7673428142652,
+        118.75,
+        2609.3741051428897
+      ]
+    },
+    {
+      "id": "regular-10-job-01-03",
+      "row": "regular-10-job-01",
+      "character": "r",
+      "native_fitted_bounds": [
+        122.89310344827587,
+        2586.118765855312,
+        140.9589416014283,
+        2609.03125
+      ]
+    },
+    {
+      "id": "regular-10-job-01-04",
+      "row": "regular-10-job-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        142.125,
+        2586.9149643092996,
+        166.75933774128245,
+        2609.4008817616996
+      ]
+    },
+    {
+      "id": "regular-10-job-01-05",
+      "row": "regular-10-job-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        167.44961519402653,
+        2578.680813346487,
+        187.0,
+        2609.4966516201634
+      ]
+    },
+    {
+      "id": "regular-10-job-01-06",
+      "row": "regular-10-job-01",
+      "character": "h",
+      "native_fitted_bounds": [
+        189.28711628458214,
+        2576.5771373212483,
+        215.04057496376362,
+        2609.0361631990327
+      ]
+    },
+    {
+      "id": "regular-10-job-01-07",
+      "row": "regular-10-job-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        217.60631591696554,
+        2587.2689691899855,
+        239.8357949904509,
+        2609.3590548219627
+      ]
+    },
+    {
+      "id": "regular-10-job-01-08",
+      "row": "regular-10-job-01",
+      "character": "n",
+      "native_fitted_bounds": [
+        242.9,
+        2586.6960294422984,
+        267.9594750193111,
+        2608.825
+      ]
+    },
+    {
+      "id": "regular-10-job-01-09",
+      "row": "regular-10-job-01",
+      "character": "f",
+      "native_fitted_bounds": [
+        286.8057429205411,
+        2576.5065416207276,
+        302.5,
+        2608.500009245562
+      ]
+    },
+    {
+      "id": "regular-10-job-01-10",
+      "row": "regular-10-job-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        304.04636731204437,
+        2587.278560800686,
+        326.2029236978993,
+        2608.967101087412
+      ]
+    },
+    {
+      "id": "regular-10-job-01-11",
+      "row": "regular-10-job-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        329.48196387167263,
+        2576.2396957339047,
+        339.76816755311614,
+        2608.475
+      ]
+    },
+    {
+      "id": "regular-10-job-01-12",
+      "row": "regular-10-job-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        345.1076107531645,
+        2576.6548653721975,
+        354.88167202967105,
+        2608.5458406871985
+      ]
+    },
+    {
+      "id": "regular-10-job-01-13",
+      "row": "regular-10-job-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        358.40090078039725,
+        2587.3446380759706,
+        380.5483453578286,
+        2608.9339782640973
+      ]
+    },
+    {
+      "id": "regular-10-job-01-14",
+      "row": "regular-10-job-01",
+      "character": "w",
+      "native_fitted_bounds": [
+        382.62332995234965,
+        2587.549532028335,
+        420.47201442218807,
+        2609.6051256111987
+      ]
+    },
+    {
+      "id": "regular-10-job-01-15",
+      "row": "regular-10-job-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        422.9929696311482,
+        2586.0132015504096,
+        443.72403645179594,
+        2608.588649603758
+      ]
+    },
+    {
+      "id": "regular-10-job-01-16",
+      "row": "regular-10-job-01",
+      "character": "d",
+      "native_fitted_bounds": [
+        444.92822894490195,
+        2576.6684810866595,
+        468.078227790472,
+        2609.0205356953957
+      ]
+    },
+    {
+      "id": "regular-10-job-01-17",
+      "row": "regular-10-job-01",
+      "character": ",",
+      "native_fitted_bounds": [
+        475.10582351465695,
+        2601.0704609850823,
+        482.875,
+        2614.2520088274005
+      ]
+    },
+    {
+      "id": "regular-10-job-01-18",
+      "row": "regular-10-job-01",
+      "character": "w",
+      "native_fitted_bounds": [
+        497.0527332022564,
+        2587.5207978006842,
+        534.25,
+        2609.19072361056
+      ]
+    },
+    {
+      "id": "regular-10-job-01-19",
+      "row": "regular-10-job-01",
+      "character": "h",
+      "native_fitted_bounds": [
+        539.1777777777778,
+        2576.00055949599,
+        563.9509027398797,
+        2607.75
+      ]
+    },
+    {
+      "id": "regular-10-job-01-20",
+      "row": "regular-10-job-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        566.9635044511464,
+        2586.692677024062,
+        587.5,
+        2607.625
+      ]
+    },
+    {
+      "id": "regular-10-job-01-21",
+      "row": "regular-10-job-01",
+      "character": "n",
+      "native_fitted_bounds": [
+        591.07265625,
+        2585.5228991942836,
+        615.6649563891301,
+        2607.819751076621
+      ]
+    },
+    {
+      "id": "regular-10-job-01-22",
+      "row": "regular-10-job-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        630.4532572346112,
+        2577.606396429214,
+        649.1828236431796,
+        2607.83425924145
+      ]
+    },
+    {
+      "id": "regular-10-job-01-23",
+      "row": "regular-10-job-01",
+      "character": "h",
+      "native_fitted_bounds": [
+        652.8110484402757,
+        2576.0494206580347,
+        677.5102780037545,
+        2607.565614724704
+      ]
+    },
+    {
+      "id": "regular-10-job-01-24",
+      "row": "regular-10-job-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        680.5844440552022,
+        2585.304189102029,
+        701.5000105785124,
+        2607.125
+      ]
+    },
+    {
+      "id": "regular-10-job-01-25",
+      "row": "regular-10-job-01",
+      "character": "P",
+      "native_fitted_bounds": [
+        721.3800567352237,
+        2575.809100466902,
+        750.2481730075523,
+        2607.5762221333785
+      ]
+    },
+    {
+      "id": "regular-10-job-01-26",
+      "row": "regular-10-job-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        751.9792780701451,
+        2584.9928919491495,
+        772.5,
+        2607.1833920354875
+      ]
+    },
+    {
+      "id": "regular-10-job-01-27",
+      "row": "regular-10-job-01",
+      "character": "r",
+      "native_fitted_bounds": [
+        777.3630840544095,
+        2584.823399407062,
+        794.875,
+        2606.9270285722164
+      ]
+    },
+    {
+      "id": "regular-10-job-01-28",
+      "row": "regular-10-job-01",
+      "character": "s",
+      "native_fitted_bounds": [
+        796.6834442263029,
+        2584.2426150824417,
+        815.3595487040045,
+        2607.1998856485984
+      ]
+    },
+    {
+      "id": "regular-10-job-01-29",
+      "row": "regular-10-job-01",
+      "character": "i",
+      "native_fitted_bounds": [
+        819.6564435590421,
+        2575.550289471993,
+        830.4675759264029,
+        2606.7209394540455
+      ]
+    },
+    {
+      "id": "regular-10-job-01-30",
+      "row": "regular-10-job-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        833.8893469455872,
+        2585.5837196762027,
+        857.9544117101765,
+        2606.991989135187
+      ]
+    },
+    {
+      "id": "regular-10-job-01-31",
+      "row": "regular-10-job-01",
+      "character": "n",
+      "native_fitted_bounds": [
+        861.7101563682847,
+        2585.2527777777777,
+        885.9754666174514,
+        2607.1083048270248
+      ]
+    },
+    {
+      "id": "regular-10-job-01-32",
+      "row": "regular-10-job-01",
+      "character": "s",
+      "native_fitted_bounds": [
+        906.5404405140557,
+        2584.5404423699706,
+        925.1209040733227,
+        2607.375
+      ]
+    },
+    {
+      "id": "regular-10-job-01-33",
+      "row": "regular-10-job-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        927.5072564277285,
+        2585.8288567153763,
+        949.4901203999995,
+        2607.2211499035616
+      ]
+    },
+    {
+      "id": "regular-10-job-01-34",
+      "row": "regular-10-job-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        953.177607733354,
+        2574.983558542179,
+        963.5,
+        2606.75
+      ]
+    },
+    {
+      "id": "regular-10-job-01-35",
+      "row": "regular-10-job-01",
+      "character": "-",
+      "native_fitted_bounds": [
+        967.4993844375073,
+        2592.3021782260666,
+        983.2500192233756,
+        2599.3953887304842
+      ]
+    },
+    {
+      "id": "regular-10-job-02-01",
+      "row": "regular-10-job-02",
+      "character": "d",
+      "native_fitted_bounds": [
+        51.65879340255294,
+        2635.6398098261184,
+        74.44732366259852,
+        2668.0413962000252
+      ]
+    },
+    {
+      "id": "regular-10-job-02-02",
+      "row": "regular-10-job-02",
+      "character": "i",
+      "native_fitted_bounds": [
+        80.04312439501214,
+        2635.734613312412,
+        90.73435235502286,
+        2667.4616931736773
+      ]
+    },
+    {
+      "id": "regular-10-job-02-03",
+      "row": "regular-10-job-02",
+      "character": "e",
+      "native_fitted_bounds": [
+        93.99392160428692,
+        2645.0064641402123,
+        114.57737895283486,
+        2667.5359844854843
+      ]
+    },
+    {
+      "id": "regular-10-job-02-04",
+      "row": "regular-10-job-02",
+      "character": "r",
+      "native_fitted_bounds": [
+        118.79069267524258,
+        2644.461887652137,
+        137.0,
+        2667.125
+      ]
+    },
+    {
+      "id": "regular-10-job-02-05",
+      "row": "regular-10-job-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        138.5,
+        2644.269340553535,
+        157.7059114594975,
+        2668.0353521982615
+      ]
+    },
+    {
+      "id": "regular-10-job-02-06",
+      "row": "regular-10-job-02",
+      "character": "c",
+      "native_fitted_bounds": [
+        181.00220643175476,
+        2645.0633397806378,
+        201.69830036947158,
+        2667.834644914235
+      ]
+    },
+    {
+      "id": "regular-10-job-02-07",
+      "row": "regular-10-job-02",
+      "character": "a",
+      "native_fitted_bounds": [
+        202.49878219858718,
+        2645.1501210492343,
+        226.8926523503933,
+        2667.5771087488342
+      ]
+    },
+    {
+      "id": "regular-10-job-02-08",
+      "row": "regular-10-job-02",
+      "character": "m",
+      "native_fitted_bounds": [
+        230.36804500087132,
+        2645.0735167465914,
+        268.77316849722774,
+        2667.0522680666368
+      ]
+    },
+    {
+      "id": "regular-10-job-02-09",
+      "row": "regular-10-job-02",
+      "character": "e",
+      "native_fitted_bounds": [
+        272.79427402581183,
+        2644.7534875279043,
+        293.67674178864127,
+        2667.309858337998
+      ]
+    },
+    {
+      "id": "regular-10-job-02-10",
+      "row": "regular-10-job-02",
+      "character": "i",
+      "native_fitted_bounds": [
+        318.16489449231665,
+        2635.0285601700098,
+        329.49418405185355,
+        2667.0384020839365
+      ]
+    },
+    {
+      "id": "regular-10-job-02-11",
+      "row": "regular-10-job-02",
+      "character": "n",
+      "native_fitted_bounds": [
+        334.2879283023476,
+        2645.02327649864,
+        358.41316923950785,
+        2667.0
+      ]
+    },
+    {
+      "id": "regular-10-job-02-12",
+      "row": "regular-10-job-02",
+      "character": "c",
+      "native_fitted_bounds": [
+        386.4787507469774,
+        2644.617944657819,
+        406.0134120738186,
+        2667.238601148845
+      ]
+    },
+    {
+      "id": "regular-10-job-02-13",
+      "row": "regular-10-job-02",
+      "character": "o",
+      "native_fitted_bounds": [
+        407.3392967882755,
+        2645.5019202019544,
+        429.55180004155676,
+        2667.3708259587106
+      ]
+    },
+    {
+      "id": "regular-10-job-02-14",
+      "row": "regular-10-job-02",
+      "character": "n",
+      "native_fitted_bounds": [
+        432.83375101795104,
+        2644.902592744727,
+        457.46942065580345,
+        2666.9376874604086
+      ]
+    },
+    {
+      "id": "regular-10-job-02-15",
+      "row": "regular-10-job-02",
+      "character": "t",
+      "native_fitted_bounds": [
+        460.52230090654274,
+        2636.3730307633446,
+        479.81292705633314,
+        2667.025394254628
+      ]
+    },
+    {
+      "id": "regular-10-job-02-16",
+      "row": "regular-10-job-02",
+      "character": "a",
+      "native_fitted_bounds": [
+        481.04201889959796,
+        2644.7115779103287,
+        505.25,
+        2666.8050736076134
+      ]
+    },
+    {
+      "id": "regular-10-job-02-17",
+      "row": "regular-10-job-02",
+      "character": "c",
+      "native_fitted_bounds": [
+        507.422514196464,
+        2644.4886787178007,
+        527.0424654979037,
+        2666.693781887509
+      ]
+    },
+    {
+      "id": "regular-10-job-02-18",
+      "row": "regular-10-job-02",
+      "character": "t",
+      "native_fitted_bounds": [
+        528.0,
+        2635.98919216693,
+        547.25,
+        2666.8750586476654
+      ]
+    },
+    {
+      "id": "regular-10-job-02-19",
+      "row": "regular-10-job-02",
+      "character": "w",
+      "native_fitted_bounds": [
+        564.8080595980257,
+        2645.3705502652683,
+        602.6875,
+        2667.4858219617718
+      ]
+    },
+    {
+      "id": "regular-10-job-02-20",
+      "row": "regular-10-job-02",
+      "character": "i",
+      "native_fitted_bounds": [
+        607.4057888464564,
+        2634.6455561775097,
+        618.1989531091358,
+        2665.783412990113
+      ]
+    },
+    {
+      "id": "regular-10-job-02-21",
+      "row": "regular-10-job-02",
+      "character": "t",
+      "native_fitted_bounds": [
+        620.9425051104281,
+        2636.0847349000114,
+        639.5,
+        2666.000093291484
+      ]
+    },
+    {
+      "id": "regular-10-job-02-22",
+      "row": "regular-10-job-02",
+      "character": "h",
+      "native_fitted_bounds": [
+        642.9824742737758,
+        2634.028772659182,
+        667.9741935483871,
+        2665.9144131637277
+      ]
+    },
+    {
+      "id": "regular-10-job-02-23",
+      "row": "regular-10-job-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        695.7707359945382,
+        2643.13233979048,
+        714.5090876459335,
+        2666.1382303637865
+      ]
+    },
+    {
+      "id": "regular-10-job-02-24",
+      "row": "regular-10-job-02",
+      "character": "u",
+      "native_fitted_bounds": [
+        718.675,
+        2643.7764616346117,
+        743.307788082321,
+        2666.30306605182
+      ]
+    },
+    {
+      "id": "regular-10-job-02-25",
+      "row": "regular-10-job-02",
+      "character": "c",
+      "native_fitted_bounds": [
+        747.0448254911954,
+        2643.62261205319,
+        766.7096199749094,
+        2665.81675703513
+      ]
+    },
+    {
+      "id": "regular-10-job-02-26",
+      "row": "regular-10-job-02",
+      "character": "h",
+      "native_fitted_bounds": [
+        769.4833117450925,
+        2633.437977871749,
+        794.4061667608626,
+        2665.5802089368303
+      ]
+    },
+    {
+      "id": "regular-10-job-02-27",
+      "row": "regular-10-job-02",
+      "character": "m",
+      "native_fitted_bounds": [
+        821.7714833819749,
+        2643.810570950701,
+        859.9301335975986,
+        2665.3379831352786
+      ]
+    },
+    {
+      "id": "regular-10-job-02-28",
+      "row": "regular-10-job-02",
+      "character": "e",
+      "native_fitted_bounds": [
+        864.3042535830656,
+        2643.3089720715957,
+        884.5180942708762,
+        2665.18218302068
+      ]
+    },
+    {
+      "id": "regular-10-job-02-29",
+      "row": "regular-10-job-02",
+      "character": "n",
+      "native_fitted_bounds": [
+        887.9794747484966,
+        2643.2564733136187,
+        913.1060890411002,
+        2665.375
+      ]
+    },
+    {
+      "id": "regular-10-job-02-30",
+      "row": "regular-10-job-02",
+      "character": "a",
+      "native_fitted_bounds": [
+        938.0884528513366,
+        2643.718508300203,
+        962.4567861761783,
+        2665.4726002737193
+      ]
+    },
+    {
+      "id": "regular-10-job-02-31",
+      "row": "regular-10-job-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        965.125,
+        2642.7531997918836,
+        983.8613267429298,
+        2665.5649345871648
+      ]
+    },
+    {
+      "id": "regular-10-job-03-01",
+      "row": "regular-10-job-03",
+      "character": "T",
+      "native_fitted_bounds": [
+        51.18140296867344,
+        2692.8012145875637,
+        80.42053140479808,
+        2725.868210706327
+      ]
+    },
+    {
+      "id": "regular-10-job-03-02",
+      "row": "regular-10-job-03",
+      "character": "h",
+      "native_fitted_bounds": [
+        83.26557526473987,
+        2693.4793388429753,
+        108.20140841079343,
+        2725.854743156815
+      ]
+    },
+    {
+      "id": "regular-10-job-03-03",
+      "row": "regular-10-job-03",
+      "character": "e",
+      "native_fitted_bounds": [
+        111.03312921509178,
+        2703.295052618816,
+        131.68043743086207,
+        2726.13311226985
+      ]
+    },
+    {
+      "id": "regular-10-job-03-04",
+      "row": "regular-10-job-03",
+      "character": "m",
+      "native_fitted_bounds": [
+        135.2380380238343,
+        2703.9065411518764,
+        173.4081632691427,
+        2725.75
+      ]
+    },
+    {
+      "id": "regular-10-job-03-05",
+      "row": "regular-10-job-03",
+      "character": "i",
+      "native_fitted_bounds": [
+        179.15936169555948,
+        2694.2504960414512,
+        189.95105383303326,
+        2725.882402461677
+      ]
+    },
+    {
+      "id": "regular-10-job-03-06",
+      "row": "regular-10-job-03",
+      "character": "s",
+      "native_fitted_bounds": [
+        193.63928754421462,
+        2702.8016897869416,
+        212.75,
+        2726.182343226815
+      ]
+    },
+    {
+      "id": "regular-10-job-03-07",
+      "row": "regular-10-job-03",
+      "character": "t",
+      "native_fitted_bounds": [
+        214.40469036956654,
+        2695.194577466469,
+        233.45480394072592,
+        2725.8810471049637
+      ]
+    },
+    {
+      "id": "regular-10-job-03-08",
+      "row": "regular-10-job-03",
+      "character": "o",
+      "native_fitted_bounds": [
+        234.69458077666917,
+        2704.028515625,
+        256.76050090157025,
+        2725.9768490874308
+      ]
+    },
+    {
+      "id": "regular-10-job-03-09",
+      "row": "regular-10-job-03",
+      "character": "c",
+      "native_fitted_bounds": [
+        258.75497412767135,
+        2703.5521216716675,
+        278.6935578932306,
+        2726.1908736817195
+      ]
+    },
+    {
+      "id": "regular-10-job-03-10",
+      "row": "regular-10-job-03",
+      "character": "l",
+      "native_fitted_bounds": [
+        280.9016444867323,
+        2693.223925792686,
+        291.63296516480506,
+        2725.298486499006
+      ]
+    },
+    {
+      "id": "regular-10-job-03-11",
+      "row": "regular-10-job-03",
+      "character": "e",
+      "native_fitted_bounds": [
+        294.5873852871431,
+        2703.3792380531145,
+        315.230414326648,
+        2725.652697322757
+      ]
+    },
+    {
+      "id": "regular-10-job-03-12",
+      "row": "regular-10-job-03",
+      "character": "s",
+      "native_fitted_bounds": [
+        317.2753678418945,
+        2702.7696560992467,
+        336.17560297856073,
+        2725.801763407518
+      ]
+    },
+    {
+      "id": "regular-10-job-03-13",
+      "row": "regular-10-job-03",
+      "character": ",",
+      "native_fitted_bounds": [
+        341.5483682812957,
+        2718.2819743489445,
+        349.1498544430136,
+        2731.199667680094
+      ]
+    },
+    {
+      "id": "regular-10-job-03-14",
+      "row": "regular-10-job-03",
+      "character": "A",
+      "native_fitted_bounds": [
+        395.20620089881317,
+        2693.2031779442764,
+        426.1187994345294,
+        2725.606295200526
+      ]
+    },
+    {
+      "id": "regular-10-job-03-15",
+      "row": "regular-10-job-03",
+      "character": "r",
+      "native_fitted_bounds": [
+        432.13013498843003,
+        2702.2783074270046,
+        450.5016190135754,
+        2725.0997369664856
+      ]
+    },
+    {
+      "id": "regular-10-job-03-16",
+      "row": "regular-10-job-03",
+      "character": "i",
+      "native_fitted_bounds": [
+        453.5,
+        2693.5998563409203,
+        464.22564524012193,
+        2725.109285857756
+      ]
+    },
+    {
+      "id": "regular-10-job-03-17",
+      "row": "regular-10-job-03",
+      "character": "s",
+      "native_fitted_bounds": [
+        467.7261179256538,
+        2702.3106524749537,
+        486.8048783647542,
+        2725.409277841785
+      ]
+    },
+    {
+      "id": "regular-10-job-03-18",
+      "row": "regular-10-job-03",
+      "character": "t",
+      "native_fitted_bounds": [
+        488.5170110481576,
+        2695.2667342694244,
+        507.5292554022671,
+        2725.2613336553563
+      ]
+    },
+    {
+      "id": "regular-10-job-03-19",
+      "row": "regular-10-job-03",
+      "character": "i",
+      "native_fitted_bounds": [
+        510.74990520497477,
+        2693.261080001731,
+        521.3859535576037,
+        2725.186800574672
+      ]
+    },
+    {
+      "id": "regular-10-job-03-20",
+      "row": "regular-10-job-03",
+      "character": "d",
+      "native_fitted_bounds": [
+        524.3033871375941,
+        2693.5109117104234,
+        547.5997901162947,
+        2725.4422912065934
+      ]
+    },
+    {
+      "id": "regular-10-job-03-21",
+      "row": "regular-10-job-03",
+      "character": "e",
+      "native_fitted_bounds": [
+        551.2780287973314,
+        2702.6896167526534,
+        572.0005850299738,
+        2724.9620248321016
+      ]
+    },
+    {
+      "id": "regular-10-job-03-22",
+      "row": "regular-10-job-03",
+      "character": "s",
+      "native_fitted_bounds": [
+        574.2436642889618,
+        2702.0380254964684,
+        592.7097371344194,
+        2724.809796917307
+      ]
+    },
+    {
+      "id": "regular-10-job-03-23",
+      "row": "regular-10-job-03",
+      "character": ",",
+      "native_fitted_bounds": [
+        598.292030168626,
+        2717.276481169761,
+        605.7222035402896,
+        2730.362560031153
+      ]
+    },
+    {
+      "id": "regular-10-job-03-24",
+      "row": "regular-10-job-03",
+      "character": "M",
+      "native_fitted_bounds": [
+        651.5177238287093,
+        2693.1051020408163,
+        690.7501274185203,
+        2724.4709631507844
+      ]
+    },
+    {
+      "id": "regular-10-job-03-25",
+      "row": "regular-10-job-03",
+      "character": "i",
+      "native_fitted_bounds": [
+        695.0896686982936,
+        2693.071323561465,
+        705.9122416394134,
+        2724.207915721262
+      ]
+    },
+    {
+      "id": "regular-10-job-03-26",
+      "row": "regular-10-job-03",
+      "character": "l",
+      "native_fitted_bounds": [
+        711.0000028924013,
+        2692.282987216766,
+        720.6373116034061,
+        2723.8671875
+      ]
+    },
+    {
+      "id": "regular-10-job-03-27",
+      "row": "regular-10-job-03",
+      "character": "t",
+      "native_fitted_bounds": [
+        724.0870408863204,
+        2694.269976602916,
+        742.4673340868443,
+        2724.1250166608047
+      ]
+    },
+    {
+      "id": "regular-10-job-03-28",
+      "row": "regular-10-job-03",
+      "character": "i",
+      "native_fitted_bounds": [
+        745.9131678182766,
+        2692.454432726508,
+        756.825,
+        2723.975
+      ]
+    },
+    {
+      "id": "regular-10-job-03-29",
+      "row": "regular-10-job-03",
+      "character": "a",
+      "native_fitted_bounds": [
+        760.0452476280923,
+        2702.327536073645,
+        784.0712128232103,
+        2723.9666326246597
+      ]
+    },
+    {
+      "id": "regular-10-job-03-30",
+      "row": "regular-10-job-03",
+      "character": "d",
+      "native_fitted_bounds": [
+        786.0856611156568,
+        2692.4864192054665,
+        809.1169941405352,
+        2724.398863464911
+      ]
+    },
+    {
+      "id": "regular-10-job-03-31",
+      "row": "regular-10-job-03",
+      "character": "e",
+      "native_fitted_bounds": [
+        813.1139909666373,
+        2701.8000578164433,
+        833.723375772004,
+        2723.849234712949
+      ]
+    },
+    {
+      "id": "regular-10-job-03-32",
+      "row": "regular-10-job-03",
+      "character": "s",
+      "native_fitted_bounds": [
+        835.7803214072995,
+        2701.3710248621373,
+        854.3254447970578,
+        2724.1587765271715
+      ]
+    },
+    {
+      "id": "regular-10-job-03-33",
+      "row": "regular-10-job-03",
+      "character": ",",
+      "native_fitted_bounds": [
+        860.0425419884223,
+        2716.5743267930347,
+        867.25,
+        2729.533751594502
+      ]
+    },
+    {
+      "id": "regular-10-job-03-34",
+      "row": "regular-10-job-03",
+      "character": "a",
+      "native_fitted_bounds": [
+        903.6904788844932,
+        2702.0113039155426,
+        928.2504166666666,
+        2723.673453698946
+      ]
+    },
+    {
+      "id": "regular-10-job-03-35",
+      "row": "regular-10-job-03",
+      "character": "n",
+      "native_fitted_bounds": [
+        931.5,
+        2702.014756356864,
+        955.9185333719541,
+        2723.636648021505
+      ]
+    },
+    {
+      "id": "regular-10-job-03-36",
+      "row": "regular-10-job-03",
+      "character": "d",
+      "native_fitted_bounds": [
+        959.3807261914968,
+        2692.280606395051,
+        983.0,
+        2723.8528947978066
+      ]
+    },
+    {
+      "id": "regular-10-job-04-01",
+      "row": "regular-10-job-04",
+      "character": "m",
+      "native_fitted_bounds": [
+        54.580219211925716,
+        2761.972556295586,
+        91.79031260820838,
+        2783.75
+      ]
+    },
+    {
+      "id": "regular-10-job-04-02",
+      "row": "regular-10-job-04",
+      "character": "a",
+      "native_fitted_bounds": [
+        95.96016662801792,
+        2761.9459132264706,
+        120.5,
+        2784.384623407533
+      ]
+    },
+    {
+      "id": "regular-10-job-04-03",
+      "row": "regular-10-job-04",
+      "character": "n",
+      "native_fitted_bounds": [
+        123.40449776927744,
+        2761.972157107455,
+        148.21917408823796,
+        2784.206630675121
+      ]
+    },
+    {
+      "id": "regular-10-job-04-04",
+      "row": "regular-10-job-04",
+      "character": "y",
+      "native_fitted_bounds": [
+        151.75,
+        2763.4803622764525,
+        178.4728579358133,
+        2794.35
+      ]
+    },
+    {
+      "id": "regular-10-job-04-05",
+      "row": "regular-10-job-04",
+      "character": "o",
+      "native_fitted_bounds": [
+        208.4894846027447,
+        2762.4911309209288,
+        231.10254885631306,
+        2784.7760280756966
+      ]
+    },
+    {
+      "id": "regular-10-job-04-06",
+      "row": "regular-10-job-04",
+      "character": "t",
+      "native_fitted_bounds": [
+        232.03974553876668,
+        2753.8313402524327,
+        251.0,
+        2784.2413531990906
+      ]
+    },
+    {
+      "id": "regular-10-job-04-07",
+      "row": "regular-10-job-04",
+      "character": "h",
+      "native_fitted_bounds": [
+        253.66132888353494,
+        2751.844112919139,
+        278.99662416872786,
+        2784.091492831079
+      ]
+    },
+    {
+      "id": "regular-10-job-04-08",
+      "row": "regular-10-job-04",
+      "character": "e",
+      "native_fitted_bounds": [
+        282.0279740728926,
+        2761.705777396365,
+        302.7890738876359,
+        2784.0649923679835
+      ]
+    },
+    {
+      "id": "regular-10-job-04-09",
+      "row": "regular-10-job-04",
+      "character": "r",
+      "native_fitted_bounds": [
+        306.7263186595371,
+        2761.104245033498,
+        324.8191332572994,
+        2783.7134380310276
+      ]
+    },
+    {
+      "id": "regular-10-job-04-10",
+      "row": "regular-10-job-04",
+      "character": "s",
+      "native_fitted_bounds": [
+        326.5,
+        2761.5478762706252,
+        345.4977755147597,
+        2784.301963814003
+      ]
+    },
+    {
+      "id": "regular-10-job-04-11",
+      "row": "regular-10-job-04",
+      "character": "o",
+      "native_fitted_bounds": [
+        380.26400009085296,
+        2762.773000292002,
+        402.1995780457766,
+        2784.31939943398
+      ]
+    },
+    {
+      "id": "regular-10-job-04-12",
+      "row": "regular-10-job-04",
+      "character": "f",
+      "native_fitted_bounds": [
+        403.95123710878306,
+        2751.7534167534477,
+        419.631905065871,
+        2784.1437216658105
+      ]
+    },
+    {
+      "id": "regular-10-job-04-13",
+      "row": "regular-10-job-04",
+      "character": "n",
+      "native_fitted_bounds": [
+        454.53469636473477,
+        2761.565909090909,
+        479.60420757679424,
+        2783.8544515963267
+      ]
+    },
+    {
+      "id": "regular-10-job-04-14",
+      "row": "regular-10-job-04",
+      "character": "o",
+      "native_fitted_bounds": [
+        482.9161191588826,
+        2762.2479924187646,
+        505.08439774878093,
+        2783.9004144435944
+      ]
+    },
+    {
+      "id": "regular-10-job-04-15",
+      "row": "regular-10-job-04",
+      "character": "t",
+      "native_fitted_bounds": [
+        506.2062061922265,
+        2753.312962353218,
+        524.925936457825,
+        2783.375
+      ]
+    },
+    {
+      "id": "regular-10-job-04-16",
+      "row": "regular-10-job-04",
+      "character": "e",
+      "native_fitted_bounds": [
+        526.5526077318794,
+        2761.2387399525082,
+        547.0205342022509,
+        2783.5358939621965
+      ]
+    },
+    {
+      "id": "regular-10-job-04-17",
+      "row": "regular-10-job-04",
+      "character": ",",
+      "native_fitted_bounds": [
+        551.5,
+        2775.803243911673,
+        558.9215550107739,
+        2789.1160897856084
+      ]
+    },
+    {
+      "id": "regular-10-job-04-18",
+      "row": "regular-10-job-04",
+      "character": "d",
+      "native_fitted_bounds": [
+        591.1901066211374,
+        2751.991917490878,
+        614.7659226298657,
+        2783.3304038053498
+      ]
+    },
+    {
+      "id": "regular-10-job-04-19",
+      "row": "regular-10-job-04",
+      "character": "i",
+      "native_fitted_bounds": [
+        620.25,
+        2751.762194735846,
+        630.9944196686081,
+        2782.5371664220443
+      ]
+    },
+    {
+      "id": "regular-10-job-04-20",
+      "row": "regular-10-job-04",
+      "character": "s",
+      "native_fitted_bounds": [
+        634.9462058368548,
+        2760.0451996621623,
+        653.7834405654633,
+        2782.8079799944117
+      ]
+    },
+    {
+      "id": "regular-10-job-04-21",
+      "row": "regular-10-job-04",
+      "character": "t",
+      "native_fitted_bounds": [
+        656.1762154899476,
+        2753.006303806644,
+        674.0595445831436,
+        2782.5791699398974
+      ]
+    },
+    {
+      "id": "regular-10-job-04-22",
+      "row": "regular-10-job-04",
+      "character": "i",
+      "native_fitted_bounds": [
+        677.7942724463418,
+        2751.1865779103287,
+        688.7076294403998,
+        2782.364280080132
+      ]
+    },
+    {
+      "id": "regular-10-job-04-23",
+      "row": "regular-10-job-04",
+      "character": "n",
+      "native_fitted_bounds": [
+        693.5326893502499,
+        2760.767925140643,
+        717.8050541563559,
+        2782.28421381249
+      ]
+    },
+    {
+      "id": "regular-10-job-04-24",
+      "row": "regular-10-job-04",
+      "character": "g",
+      "native_fitted_bounds": [
+        723.1148626306285,
+        2761.0496189631062,
+        747.7905945407218,
+        2790.8062402566165
+      ]
+    },
+    {
+      "id": "regular-10-job-04-25",
+      "row": "regular-10-job-04",
+      "character": "u",
+      "native_fitted_bounds": [
+        751.2381578947368,
+        2760.189426625476,
+        775.2270045833613,
+        2782.72925
+      ]
+    },
+    {
+      "id": "regular-10-job-04-26",
+      "row": "regular-10-job-04",
+      "character": "i",
+      "native_fitted_bounds": [
+        781.1413374149283,
+        2750.845234238846,
+        791.5523061677444,
+        2782.118589850571
+      ]
+    },
+    {
+      "id": "regular-10-job-04-27",
+      "row": "regular-10-job-04",
+      "character": "s",
+      "native_fitted_bounds": [
+        795.5445038561559,
+        2759.310179496582,
+        814.2503099149858,
+        2782.4044953494245
+      ]
+    },
+    {
+      "id": "regular-10-job-04-28",
+      "row": "regular-10-job-04",
+      "character": "h",
+      "native_fitted_bounds": [
+        818.3248773979232,
+        2750.4576756873057,
+        842.8417043198125,
+        2781.917695527311
+      ]
+    },
+    {
+      "id": "regular-10-job-04-29",
+      "row": "regular-10-job-04",
+      "character": "e",
+      "native_fitted_bounds": [
+        846.4115637567652,
+        2760.074270512664,
+        866.9107089685475,
+        2781.7807411688354
+      ]
+    },
+    {
+      "id": "regular-10-job-04-30",
+      "row": "regular-10-job-04",
+      "character": "d",
+      "native_fitted_bounds": [
+        868.2750475188549,
+        2750.686581095178,
+        891.440818568487,
+        2782.37738794681
+      ]
+    },
+    {
+      "id": "regular-10-job-04-31",
+      "row": "regular-10-job-04",
+      "character": "f",
+      "native_fitted_bounds": [
+        924.0,
+        2750.1764386094655,
+        939.0288316431252,
+        2781.900122128242
+      ]
+    },
+    {
+      "id": "regular-10-job-04-32",
+      "row": "regular-10-job-04",
+      "character": "o",
+      "native_fitted_bounds": [
+        941.0621691851226,
+        2760.8870208813387,
+        962.581110415028,
+        2781.941669013535
+      ]
+    },
+    {
+      "id": "regular-10-job-04-33",
+      "row": "regular-10-job-04",
+      "character": "r",
+      "native_fitted_bounds": [
+        967.2405077959077,
+        2759.497,
+        985.3728786136511,
+        2781.669712512528
+      ]
+    },
+    {
+      "id": "regular-10-job-05-01",
+      "row": "regular-10-job-05",
+      "character": "t",
+      "native_fitted_bounds": [
+        51.54104846606556,
+        2812.389226389103,
+        70.5,
+        2842.5920342041863
+      ]
+    },
+    {
+      "id": "regular-10-job-05-02",
+      "row": "regular-10-job-05",
+      "character": "h",
+      "native_fitted_bounds": [
+        73.25594323480436,
+        2810.0411082438873,
+        98.02704708316105,
+        2842.3892800801323
+      ]
+    },
+    {
+      "id": "regular-10-job-05-03",
+      "row": "regular-10-job-05",
+      "character": "e",
+      "native_fitted_bounds": [
+        101.06157360808542,
+        2820.0526111546533,
+        121.52959529058614,
+        2842.728980064487
+      ]
+    },
+    {
+      "id": "regular-10-job-05-04",
+      "row": "regular-10-job-05",
+      "character": "i",
+      "native_fitted_bounds": [
+        125.05104083929957,
+        2810.800129787205,
+        135.47337224354428,
+        2842.731861737228
+      ]
+    },
+    {
+      "id": "regular-10-job-05-05",
+      "row": "regular-10-job-05",
+      "character": "r",
+      "native_fitted_bounds": [
+        141.375,
+        2819.5199726834426,
+        159.67526351699527,
+        2843.0969321703033
+      ]
+    },
+    {
+      "id": "regular-10-job-05-06",
+      "row": "regular-10-job-05",
+      "character": "c",
+      "native_fitted_bounds": [
+        184.4296077607251,
+        2820.4882537070234,
+        203.96928674303214,
+        2842.75
+      ]
+    },
+    {
+      "id": "regular-10-job-05-07",
+      "row": "regular-10-job-05",
+      "character": "o",
+      "native_fitted_bounds": [
+        205.32522222540877,
+        2821.023958333333,
+        227.4471387224456,
+        2842.7563844924034
+      ]
+    },
+    {
+      "id": "regular-10-job-05-08",
+      "row": "regular-10-job-05",
+      "character": "u",
+      "native_fitted_bounds": [
+        230.53898198568044,
+        2820.495629731792,
+        255.63504526695522,
+        2843.05
+      ]
+    },
+    {
+      "id": "regular-10-job-05-09",
+      "row": "regular-10-job-05",
+      "character": "r",
+      "native_fitted_bounds": [
+        261.56183804345045,
+        2819.5649063149012,
+        279.71063471279786,
+        2842.452813060812
+      ]
+    },
+    {
+      "id": "regular-10-job-05-10",
+      "row": "regular-10-job-05",
+      "character": "a",
+      "native_fitted_bounds": [
+        280.5,
+        2820.3747524584214,
+        305.2833665855768,
+        2842.5501860573245
+      ]
+    },
+    {
+      "id": "regular-10-job-05-11",
+      "row": "regular-10-job-05",
+      "character": "g",
+      "native_fitted_bounds": [
+        308.26871708125464,
+        2821.034637200288,
+        333.0,
+        2851.1790960924036
+      ]
+    },
+    {
+      "id": "regular-10-job-05-12",
+      "row": "regular-10-job-05",
+      "character": "e",
+      "native_fitted_bounds": [
+        334.3896304832009,
+        2820.1737342405954,
+        355.2002931597648,
+        2842.417498295117
+      ]
+    },
+    {
+      "id": "regular-10-job-05-13",
+      "row": "regular-10-job-05",
+      "character": "a",
+      "native_fitted_bounds": [
+        380.54145564914467,
+        2820.541761384165,
+        405.4051522398354,
+        2842.75
+      ]
+    },
+    {
+      "id": "regular-10-job-05-14",
+      "row": "regular-10-job-05",
+      "character": "n",
+      "native_fitted_bounds": [
+        409.04217759840213,
+        2820.208849241913,
+        433.211802373567,
+        2842.1866690311167
+      ]
+    },
+    {
+      "id": "regular-10-job-05-15",
+      "row": "regular-10-job-05",
+      "character": "d",
+      "native_fitted_bounds": [
+        436.48210664599054,
+        2810.3190084407483,
+        460.30315466851386,
+        2842.684810703398
+      ]
+    },
+    {
+      "id": "regular-10-job-05-16",
+      "row": "regular-10-job-05",
+      "character": "v",
+      "native_fitted_bounds": [
+        486.7603537086049,
+        2821.1759064188122,
+        511.5843538096561,
+        2843.000242581847
+      ]
+    },
+    {
+      "id": "regular-10-job-05-17",
+      "row": "regular-10-job-05",
+      "character": "a",
+      "native_fitted_bounds": [
+        515.0779784010612,
+        2819.8979740822547,
+        539.5105778615302,
+        2841.632223362827
+      ]
+    },
+    {
+      "id": "regular-10-job-05-18",
+      "row": "regular-10-job-05",
+      "character": "l",
+      "native_fitted_bounds": [
+        543.0255221564072,
+        2809.5019963681543,
+        553.3916666666667,
+        2841.363152517478
+      ]
+    },
+    {
+      "id": "regular-10-job-05-19",
+      "row": "regular-10-job-05",
+      "character": "o",
+      "native_fitted_bounds": [
+        556.6079471578533,
+        2820.713961038961,
+        578.6828276467676,
+        2841.8125
+      ]
+    },
+    {
+      "id": "regular-10-job-05-20",
+      "row": "regular-10-job-05",
+      "character": "r",
+      "native_fitted_bounds": [
+        583.235184282589,
+        2819.127651951517,
+        601.0491155581055,
+        2841.079950737715
+      ]
+    },
+    {
+      "id": "regular-10-job-05-21",
+      "row": "regular-10-job-05",
+      "character": "—",
+      "native_fitted_bounds": [
+        601.6255665966656,
+        2832.1124422853536,
+        650.663335501544,
+        2834.7471359549995
+      ]
+    },
+    {
+      "id": "regular-10-job-05-22",
+      "row": "regular-10-job-05",
+      "character": "w",
+      "native_fitted_bounds": [
+        652.5367497475581,
+        2820.3700293906345,
+        688.9661674989152,
+        2841.8252043950934
+      ]
+    },
+    {
+      "id": "regular-10-job-05-23",
+      "row": "regular-10-job-05",
+      "character": "h",
+      "native_fitted_bounds": [
+        693.5671317175004,
+        2808.8021888046183,
+        718.607614551611,
+        2840.667975988397
+      ]
+    },
+    {
+      "id": "regular-10-job-05-24",
+      "row": "regular-10-job-05",
+      "character": "o",
+      "native_fitted_bounds": [
+        721.8287528319302,
+        2819.24725780053,
+        743.9612109206407,
+        2840.9711917338723
+      ]
+    },
+    {
+      "id": "regular-10-job-05-25",
+      "row": "regular-10-job-05",
+      "character": "w",
+      "native_fitted_bounds": [
+        765.7226457890536,
+        2819.871040409356,
+        802.6078074656018,
+        2841.338266230137
+      ]
+    },
+    {
+      "id": "regular-10-job-05-26",
+      "row": "regular-10-job-05",
+      "character": "e",
+      "native_fitted_bounds": [
+        805.9675413717721,
+        2818.1957539516816,
+        826.431382318879,
+        2840.5961560997866
+      ]
+    },
+    {
+      "id": "regular-10-job-05-27",
+      "row": "regular-10-job-05",
+      "character": "r",
+      "native_fitted_bounds": [
+        831.0175019178654,
+        2817.741576969133,
+        848.75,
+        2839.815538871201
+      ]
+    },
+    {
+      "id": "regular-10-job-05-28",
+      "row": "regular-10-job-05",
+      "character": "e",
+      "native_fitted_bounds": [
+        849.9330530351742,
+        2818.400399369782,
+        870.5792981974303,
+        2840.3621227158915
+      ]
+    },
+    {
+      "id": "regular-10-job-05-29",
+      "row": "regular-10-job-05",
+      "character": "p",
+      "native_fitted_bounds": [
+        897.2955359817078,
+        2819.0392116890575,
+        920.479034187516,
+        2849.4608059713055
+      ]
+    },
+    {
+      "id": "regular-10-job-05-30",
+      "row": "regular-10-job-05",
+      "character": "r",
+      "native_fitted_bounds": [
+        926.0464372549329,
+        2817.9913462886543,
+        943.7594264826168,
+        2839.95
+      ]
+    },
+    {
+      "id": "regular-10-job-05-31",
+      "row": "regular-10-job-05",
+      "character": "e",
+      "native_fitted_bounds": [
+        944.8654008792403,
+        2818.2542272188375,
+        965.0,
+        2840.3519086878327
+      ]
+    },
+    {
+      "id": "regular-10-job-05-32",
+      "row": "regular-10-job-05",
+      "character": "-",
+      "native_fitted_bounds": [
+        967.9746108876229,
+        2826.0298133319748,
+        982.875,
+        2832.5601955596685
+      ]
+    },
+    {
+      "id": "regular-10-job-06-01",
+      "row": "regular-10-job-06",
+      "character": "p",
+      "native_fitted_bounds": [
+        53.322255435809744,
+        2878.8026405057726,
+        76.67333151964121,
+        2909.633758114123
+      ]
+    },
+    {
+      "id": "regular-10-job-06-02",
+      "row": "regular-10-job-06",
+      "character": "a",
+      "native_fitted_bounds": [
+        78.71937481549088,
+        2878.5262523127644,
+        103.38542012554811,
+        2901.1253214320864
+      ]
+    },
+    {
+      "id": "regular-10-job-06-03",
+      "row": "regular-10-job-06",
+      "character": "r",
+      "native_fitted_bounds": [
+        107.60551741535548,
+        2877.9114397848343,
+        125.5,
+        2900.633057013157
+      ]
+    },
+    {
+      "id": "regular-10-job-06-04",
+      "row": "regular-10-job-06",
+      "character": "e",
+      "native_fitted_bounds": [
+        126.26877967519083,
+        2878.2136727162692,
+        147.0,
+        2901.0516935855
+      ]
+    },
+    {
+      "id": "regular-10-job-06-05",
+      "row": "regular-10-job-06",
+      "character": "d",
+      "native_fitted_bounds": [
+        148.4851822606961,
+        2868.3882578560674,
+        172.73945042591419,
+        2901.6
+      ]
+    },
+    {
+      "id": "regular-10-job-06-06",
+      "row": "regular-10-job-06",
+      "character": "t",
+      "native_fitted_bounds": [
+        190.45671026145445,
+        2870.995018410415,
+        209.71144737489254,
+        2901.3319233459997
+      ]
+    },
+    {
+      "id": "regular-10-job-06-07",
+      "row": "regular-10-job-06",
+      "character": "o",
+      "native_fitted_bounds": [
+        210.96231268908787,
+        2879.31366819336,
+        233.31459992359208,
+        2901.1002386454775
+      ]
+    },
+    {
+      "id": "regular-10-job-06-08",
+      "row": "regular-10-job-06",
+      "character": "r",
+      "native_fitted_bounds": [
+        252.6973718972228,
+        2877.795978731919,
+        271.46776257810177,
+        2900.6151143257634
+      ]
+    },
+    {
+      "id": "regular-10-job-06-09",
+      "row": "regular-10-job-06",
+      "character": "e",
+      "native_fitted_bounds": [
+        272.32952547521364,
+        2878.4660942337455,
+        293.0199700226291,
+        2900.7204544211972
+      ]
+    },
+    {
+      "id": "regular-10-job-06-10",
+      "row": "regular-10-job-06",
+      "character": "s",
+      "native_fitted_bounds": [
+        295.17153925619834,
+        2877.808592135001,
+        313.69247672398996,
+        2901.2297363590815
+      ]
+    },
+    {
+      "id": "regular-10-job-06-11",
+      "row": "regular-10-job-06",
+      "character": "i",
+      "native_fitted_bounds": [
+        317.6058945571942,
+        2869.183052315126,
+        328.683166592221,
+        2900.660391309368
+      ]
+    },
+    {
+      "id": "regular-10-job-06-12",
+      "row": "regular-10-job-06",
+      "character": "s",
+      "native_fitted_bounds": [
+        332.2479089164807,
+        2878.0693829810857,
+        350.7171016414376,
+        2901.0620188576167
+      ]
+    },
+    {
+      "id": "regular-10-job-06-13",
+      "row": "regular-10-job-06",
+      "character": "t",
+      "native_fitted_bounds": [
+        353.20054278418826,
+        2871.0104288778216,
+        372.0764728297065,
+        2901.0769171186726
+      ]
+    },
+    {
+      "id": "regular-10-job-06-14",
+      "row": "regular-10-job-06",
+      "character": "t",
+      "native_fitted_bounds": [
+        393.9901773356928,
+        2870.272852079111,
+        413.6996075062922,
+        2901.035182565881
+      ]
+    },
+    {
+      "id": "regular-10-job-06-15",
+      "row": "regular-10-job-06",
+      "character": "h",
+      "native_fitted_bounds": [
+        416.0944877205601,
+        2868.80067838962,
+        441.04840043228205,
+        2900.625
+      ]
+    },
+    {
+      "id": "regular-10-job-06-16",
+      "row": "regular-10-job-06",
+      "character": "e",
+      "native_fitted_bounds": [
+        444.2168915951251,
+        2878.155359544141,
+        464.74069514156935,
+        2900.4724679168435
+      ]
+    },
+    {
+      "id": "regular-10-job-06-17",
+      "row": "regular-10-job-06",
+      "character": "m",
+      "native_fitted_bounds": [
+        468.2,
+        2878.53541938999,
+        505.66333425634684,
+        2900.125
+      ]
+    },
+    {
+      "id": "regular-10-job-06-18",
+      "row": "regular-10-job-06",
+      "character": ",",
+      "native_fitted_bounds": [
+        513.7824621803782,
+        2892.615747221009,
+        521.3611704499054,
+        2905.8348179329564
+      ]
+    },
+    {
+      "id": "regular-10-job-06-19",
+      "row": "regular-10-job-06",
+      "character": "a",
+      "native_fitted_bounds": [
+        541.2339399061115,
+        2877.9785857047186,
+        565.75,
+        2900.01094015887
+      ]
+    },
+    {
+      "id": "regular-10-job-06-20",
+      "row": "regular-10-job-06",
+      "character": "n",
+      "native_fitted_bounds": [
+        569.5087350573035,
+        2877.8637441566357,
+        593.7122248210676,
+        2899.75
+      ]
+    },
+    {
+      "id": "regular-10-job-06-21",
+      "row": "regular-10-job-06",
+      "character": "d",
+      "native_fitted_bounds": [
+        597.1158862343137,
+        2868.0156255044026,
+        621.1139673213629,
+        2900.45917519333
+      ]
+    },
+    {
+      "id": "regular-10-job-06-22",
+      "row": "regular-10-job-06",
+      "character": "t",
+      "native_fitted_bounds": [
+        645.592976913657,
+        2869.4499771819296,
+        664.25,
+        2899.699616929926
+      ]
+    },
+    {
+      "id": "regular-10-job-06-23",
+      "row": "regular-10-job-06",
+      "character": "o",
+      "native_fitted_bounds": [
+        665.9600721047428,
+        2878.0791154563058,
+        688.1527899380338,
+        2899.8011659351123
+      ]
+    },
+    {
+      "id": "regular-10-job-06-24",
+      "row": "regular-10-job-06",
+      "character": "d",
+      "native_fitted_bounds": [
+        710.788104917179,
+        2867.709210721953,
+        734.023631369008,
+        2899.4252123863607
+      ]
+    },
+    {
+      "id": "regular-10-job-06-25",
+      "row": "regular-10-job-06",
+      "character": "e",
+      "native_fitted_bounds": [
+        737.9016613119342,
+        2877.0306925486466,
+        758.5,
+        2898.625
+      ]
+    },
+    {
+      "id": "regular-10-job-06-26",
+      "row": "regular-10-job-06",
+      "character": "f",
+      "native_fitted_bounds": [
+        759.8705830638478,
+        2867.025507490685,
+        775.205685085492,
+        2898.656111319666
+      ]
+    },
+    {
+      "id": "regular-10-job-06-27",
+      "row": "regular-10-job-06",
+      "character": "e",
+      "native_fitted_bounds": [
+        777.1098905834671,
+        2876.6241170887115,
+        797.5,
+        2898.859238399595
+      ]
+    },
+    {
+      "id": "regular-10-job-06-28",
+      "row": "regular-10-job-06",
+      "character": "n",
+      "native_fitted_bounds": [
+        800.8295749472235,
+        2877.0141671573583,
+        825.0166873109492,
+        2898.701088132123
+      ]
+    },
+    {
+      "id": "regular-10-job-06-29",
+      "row": "regular-10-job-06",
+      "character": "d",
+      "native_fitted_bounds": [
+        828.5112484643994,
+        2867.0981380833036,
+        851.9515535734887,
+        2899.204728667903
+      ]
+    },
+    {
+      "id": "regular-10-job-06-30",
+      "row": "regular-10-job-06",
+      "character": "t",
+      "native_fitted_bounds": [
+        876.6684987879928,
+        2869.0209552631727,
+        895.2306181987717,
+        2898.914029349029
+      ]
+    },
+    {
+      "id": "regular-10-job-06-31",
+      "row": "regular-10-job-06",
+      "character": "h",
+      "native_fitted_bounds": [
+        898.7959725140392,
+        2867.2598957128403,
+        923.5119769560864,
+        2898.671739041354
+      ]
+    },
+    {
+      "id": "regular-10-job-06-32",
+      "row": "regular-10-job-06",
+      "character": "e",
+      "native_fitted_bounds": [
+        926.875,
+        2876.5672649443886,
+        946.98008397488,
+        2898.569255918435
+      ]
+    },
+    {
+      "id": "regular-10-job-06-33",
+      "row": "regular-10-job-06",
+      "character": "i",
+      "native_fitted_bounds": [
+        950.8907863697879,
+        2867.573965124302,
+        960.8,
+        2898.575
+      ]
+    },
+    {
+      "id": "regular-10-job-06-34",
+      "row": "regular-10-job-06",
+      "character": "r",
+      "native_fitted_bounds": [
+        967.2,
+        2876.330771277296,
+        985.3355206970624,
+        2898.4484230202843
+      ]
+    },
+    {
+      "id": "regular-10-job-07-01",
+      "row": "regular-10-job-07",
+      "character": "c",
+      "native_fitted_bounds": [
+        53.2074000518671,
+        2937.0776383701505,
+        72.775,
+        2959.46029874836
+      ]
+    },
+    {
+      "id": "regular-10-job-07-02",
+      "row": "regular-10-job-07",
+      "character": "o",
+      "native_fitted_bounds": [
+        73.79012836185919,
+        2937.7462793472578,
+        95.6664291128632,
+        2959.702245314943
+      ]
+    },
+    {
+      "id": "regular-10-job-07-03",
+      "row": "regular-10-job-07",
+      "character": "u",
+      "native_fitted_bounds": [
+        98.65352425022536,
+        2937.0771784252997,
+        123.19780452227315,
+        2959.907340720222
+      ]
+    },
+    {
+      "id": "regular-10-job-07-04",
+      "row": "regular-10-job-07",
+      "character": "n",
+      "native_fitted_bounds": [
+        127.89838431600853,
+        2936.8675798898525,
+        152.4652089275826,
+        2959.361539231705
+      ]
+    },
+    {
+      "id": "regular-10-job-07-05",
+      "row": "regular-10-job-07",
+      "character": "t",
+      "native_fitted_bounds": [
+        155.5623263888889,
+        2928.611521433222,
+        174.52590331048262,
+        2959.5114123010385
+      ]
+    },
+    {
+      "id": "regular-10-job-07-06",
+      "row": "regular-10-job-07",
+      "character": "r",
+      "native_fitted_bounds": [
+        178.18956821951767,
+        2936.2799266672164,
+        196.05814308940717,
+        2959.25
+      ]
+    },
+    {
+      "id": "regular-10-job-07-07",
+      "row": "regular-10-job-07",
+      "character": "y",
+      "native_fitted_bounds": [
+        197.27934856056393,
+        2938.6632955202963,
+        223.656742066268,
+        2969.4937698772287
+      ]
+    },
+    {
+      "id": "regular-10-job-07-08",
+      "row": "regular-10-job-07",
+      "character": ".",
+      "native_fitted_bounds": [
+        228.72804162614534,
+        2951.7596796723383,
+        237.1163922892033,
+        2959.461859327761
+      ]
+    },
+    {
+      "id": "regular-10-job-07-09",
+      "row": "regular-10-job-07",
+      "character": "I",
+      "native_fitted_bounds": [
+        291.5180571588941,
+        2927.5706059390855,
+        302.62196877501503,
+        2959.3390625
+      ]
+    },
+    {
+      "id": "regular-10-job-07-10",
+      "row": "regular-10-job-07",
+      "character": "t",
+      "native_fitted_bounds": [
+        306.9843085106383,
+        2928.8497334182734,
+        325.5,
+        2959.1003754512194
+      ]
+    },
+    {
+      "id": "regular-10-job-07-11",
+      "row": "regular-10-job-07",
+      "character": "i",
+      "native_fitted_bounds": [
+        349.7405100781477,
+        2927.214263096081,
+        361.05924165213503,
+        2958.931970304528
+      ]
+    },
+    {
+      "id": "regular-10-job-07-12",
+      "row": "regular-10-job-07",
+      "character": "s",
+      "native_fitted_bounds": [
+        364.7665751051575,
+        2935.7934384557566,
+        383.74566981778537,
+        2959.0511269515996
+      ]
+    },
+    {
+      "id": "regular-10-job-07-13",
+      "row": "regular-10-job-07",
+      "character": "w",
+      "native_fitted_bounds": [
+        402.88369374125466,
+        2938.115153077165,
+        439.6608667670719,
+        2960.239290708496
+      ]
+    },
+    {
+      "id": "regular-10-job-07-14",
+      "row": "regular-10-job-07",
+      "character": "e",
+      "native_fitted_bounds": [
+        442.79172712044164,
+        2936.8556437789016,
+        463.046548803901,
+        2959.183986287631
+      ]
+    },
+    {
+      "id": "regular-10-job-07-15",
+      "row": "regular-10-job-07",
+      "character": "l",
+      "native_fitted_bounds": [
+        466.75,
+        2926.08058200443,
+        475.875,
+        2958.375
+      ]
+    },
+    {
+      "id": "regular-10-job-07-16",
+      "row": "regular-10-job-07",
+      "character": "l",
+      "native_fitted_bounds": [
+        481.92197593717106,
+        2926.1446824314307,
+        492.46118729709633,
+        2958.811261087692
+      ]
+    },
+    {
+      "id": "regular-10-job-07-17",
+      "row": "regular-10-job-07",
+      "character": "t",
+      "native_fitted_bounds": [
+        517.0525023965506,
+        2928.75,
+        535.8397773074569,
+        2958.722529763009
+      ]
+    },
+    {
+      "id": "regular-10-job-07-18",
+      "row": "regular-10-job-07",
+      "character": "o",
+      "native_fitted_bounds": [
+        538.0032193458558,
+        2937.0475251639855,
+        560.1432336572724,
+        2958.671695827743
+      ]
+    },
+    {
+      "id": "regular-10-job-07-19",
+      "row": "regular-10-job-07",
+      "character": "n",
+      "native_fitted_bounds": [
+        583.0389970171066,
+        2935.848477475668,
+        607.901053171099,
+        2958.3330536366325
+      ]
+    },
+    {
+      "id": "regular-10-job-07-20",
+      "row": "regular-10-job-07",
+      "character": "o",
+      "native_fitted_bounds": [
+        611.4086988713477,
+        2936.546310377195,
+        633.6602478224154,
+        2958.3212061709983
+      ]
+    },
+    {
+      "id": "regular-10-job-07-21",
+      "row": "regular-10-job-07",
+      "character": "t",
+      "native_fitted_bounds": [
+        634.8546866790272,
+        2927.7096895320565,
+        653.4059831776615,
+        2957.9170032497314
+      ]
+    },
+    {
+      "id": "regular-10-job-07-22",
+      "row": "regular-10-job-07",
+      "character": "i",
+      "native_fitted_bounds": [
+        656.9185554923429,
+        2926.503471685476,
+        667.6169865237024,
+        2957.7070748815163
+      ]
+    },
+    {
+      "id": "regular-10-job-07-23",
+      "row": "regular-10-job-07",
+      "character": "c",
+      "native_fitted_bounds": [
+        670.9748103468596,
+        2936.043508300203,
+        689.4281546685138,
+        2957.9279456249856
+      ]
+    },
+    {
+      "id": "regular-10-job-07-24",
+      "row": "regular-10-job-07",
+      "character": "e",
+      "native_fitted_bounds": [
+        691.6930642887413,
+        2935.2157647867543,
+        712.5,
+        2957.475160497215
+      ]
+    },
+    {
+      "id": "regular-10-job-07-25",
+      "row": "regular-10-job-07",
+      "character": "t",
+      "native_fitted_bounds": [
+        732.3827831395182,
+        2927.4962453425924,
+        751.4351580117302,
+        2957.4756583299495
+      ]
+    },
+    {
+      "id": "regular-10-job-07-26",
+      "row": "regular-10-job-07",
+      "character": "h",
+      "native_fitted_bounds": [
+        754.6720446138362,
+        2925.5023796551704,
+        779.3678015270439,
+        2957.124514409705
+      ]
+    },
+    {
+      "id": "regular-10-job-07-27",
+      "row": "regular-10-job-07",
+      "character": "e",
+      "native_fitted_bounds": [
+        782.7753753448524,
+        2935.065153077165,
+        803.5323251417769,
+        2957.195627584248
+      ]
+    },
+    {
+      "id": "regular-10-job-07-28",
+      "row": "regular-10-job-07",
+      "character": "c",
+      "native_fitted_bounds": [
+        820.8307280900009,
+        2935.0291919821757,
+        840.6767639778614,
+        2957.356092824857
+      ]
+    },
+    {
+      "id": "regular-10-job-07-29",
+      "row": "regular-10-job-07",
+      "character": "h",
+      "native_fitted_bounds": [
+        843.6877536538808,
+        2925.276692321917,
+        867.9477212002802,
+        2956.7266132070113
+      ]
+    },
+    {
+      "id": "regular-10-job-07-30",
+      "row": "regular-10-job-07",
+      "character": "a",
+      "native_fitted_bounds": [
+        871.4994769816378,
+        2935.3339245639927,
+        895.9202031893565,
+        2956.943678522699
+      ]
+    },
+    {
+      "id": "regular-10-job-07-31",
+      "row": "regular-10-job-07",
+      "character": "r",
+      "native_fitted_bounds": [
+        900.8643008737516,
+        2934.7117241307274,
+        918.5141996939907,
+        2956.68334134951
+      ]
+    },
+    {
+      "id": "regular-10-job-07-32",
+      "row": "regular-10-job-07",
+      "character": "a",
+      "native_fitted_bounds": [
+        919.2499462344224,
+        2935.2749032514753,
+        943.5,
+        2957.00447774813
+      ]
+    },
+    {
+      "id": "regular-10-job-07-33",
+      "row": "regular-10-job-07",
+      "character": "c",
+      "native_fitted_bounds": [
+        946.0096868644812,
+        2935.315153077165,
+        965.1588251227294,
+        2957.0
+      ]
+    },
+    {
+      "id": "regular-10-job-07-34",
+      "row": "regular-10-job-07",
+      "character": "-",
+      "native_fitted_bounds": [
+        967.6949219974963,
+        2942.6195743002886,
+        982.875,
+        2948.991632992937
+      ]
+    },
+    {
+      "id": "regular-10-job-08-01",
+      "row": "regular-10-job-08",
+      "character": "t",
+      "native_fitted_bounds": [
+        53.21233836206896,
+        2987.1876371092926,
+        71.75,
+        3017.4940297993826
+      ]
+    },
+    {
+      "id": "regular-10-job-08-02",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        72.87183409592576,
+        2994.621347896867,
+        93.33086051491308,
+        3017.6170850469534
+      ]
+    },
+    {
+      "id": "regular-10-job-08-03",
+      "row": "regular-10-job-08",
+      "character": "r",
+      "native_fitted_bounds": [
+        97.59242223494073,
+        2994.2756782539163,
+        115.99453763048655,
+        3017.4166720514136
+      ]
+    },
+    {
+      "id": "regular-10-job-08-04",
+      "row": "regular-10-job-08",
+      "character": "o",
+      "native_fitted_bounds": [
+        131.68067830926847,
+        2995.676305367624,
+        154.4611863214323,
+        3017.875
+      ]
+    },
+    {
+      "id": "regular-10-job-08-05",
+      "row": "regular-10-job-08",
+      "character": "f",
+      "native_fitted_bounds": [
+        155.53830277109074,
+        2984.9415966078473,
+        171.25,
+        3017.656010840937
+      ]
+    },
+    {
+      "id": "regular-10-job-08-06",
+      "row": "regular-10-job-08",
+      "character": "t",
+      "native_fitted_bounds": [
+        193.25,
+        2987.249010292397,
+        212.6864828745702,
+        3017.621832786451
+      ]
+    },
+    {
+      "id": "regular-10-job-08-07",
+      "row": "regular-10-job-08",
+      "character": "h",
+      "native_fitted_bounds": [
+        215.23095125634492,
+        2985.5990229820245,
+        240.23431254011987,
+        3017.459244161963
+      ]
+    },
+    {
+      "id": "regular-10-job-08-08",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        243.2995949380152,
+        2995.040277140084,
+        264.0076392644673,
+        3017.375
+      ]
+    },
+    {
+      "id": "regular-10-job-08-09",
+      "row": "regular-10-job-08",
+      "character": "s",
+      "native_fitted_bounds": [
+        265.8401355163396,
+        2994.619907958537,
+        284.75,
+        3017.696480677503
+      ]
+    },
+    {
+      "id": "regular-10-job-08-10",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        287.0,
+        2995.071547101075,
+        307.77364432271463,
+        3017.175929487309
+      ]
+    },
+    {
+      "id": "regular-10-job-08-11",
+      "row": "regular-10-job-08",
+      "character": "p",
+      "native_fitted_bounds": [
+        331.75938002963306,
+        2995.788295069305,
+        355.10543724044277,
+        3026.128315319474
+      ]
+    },
+    {
+      "id": "regular-10-job-08-12",
+      "row": "regular-10-job-08",
+      "character": "r",
+      "native_fitted_bounds": [
+        359.9466645371262,
+        2994.843543930343,
+        377.875,
+        3017.0
+      ]
+    },
+    {
+      "id": "regular-10-job-08-13",
+      "row": "regular-10-job-08",
+      "character": "o",
+      "native_fitted_bounds": [
+        379.375,
+        2995.855578596426,
+        401.12841535773623,
+        3017.583745960451
+      ]
+    },
+    {
+      "id": "regular-10-job-08-14",
+      "row": "regular-10-job-08",
+      "character": "m",
+      "native_fitted_bounds": [
+        404.98208518959274,
+        2995.1734663779257,
+        442.7930918072644,
+        3016.945800082587
+      ]
+    },
+    {
+      "id": "regular-10-job-08-15",
+      "row": "regular-10-job-08",
+      "character": "i",
+      "native_fitted_bounds": [
+        449.37311573641057,
+        2985.522749249055,
+        460.0196172173189,
+        3016.8779666733553
+      ]
+    },
+    {
+      "id": "regular-10-job-08-16",
+      "row": "regular-10-job-08",
+      "character": "n",
+      "native_fitted_bounds": [
+        464.65678075609407,
+        2995.2978947211636,
+        489.1831945059755,
+        3016.911050253794
+      ]
+    },
+    {
+      "id": "regular-10-job-08-17",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        492.6021818853551,
+        2994.259227934812,
+        513.4339726229321,
+        3016.683719447377
+      ]
+    },
+    {
+      "id": "regular-10-job-08-18",
+      "row": "regular-10-job-08",
+      "character": "n",
+      "native_fitted_bounds": [
+        516.5139015338996,
+        2994.8040265203003,
+        540.5,
+        3016.625
+      ]
+    },
+    {
+      "id": "regular-10-job-08-19",
+      "row": "regular-10-job-08",
+      "character": "t",
+      "native_fitted_bounds": [
+        544.1157968412288,
+        2986.809041471878,
+        563.3374699644731,
+        3016.7522720320894
+      ]
+    },
+    {
+      "id": "regular-10-job-08-20",
+      "row": "regular-10-job-08",
+      "character": "m",
+      "native_fitted_bounds": [
+        582.5,
+        2994.5031876967787,
+        620.6567697665909,
+        3016.38640549624
+      ]
+    },
+    {
+      "id": "regular-10-job-08-21",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        625.0383661960267,
+        2993.471493551154,
+        645.7339784020106,
+        3015.827072391311
+      ]
+    },
+    {
+      "id": "regular-10-job-08-22",
+      "row": "regular-10-job-08",
+      "character": "n",
+      "native_fitted_bounds": [
+        648.9610734592512,
+        2994.055468775101,
+        673.730567195066,
+        3015.8707534910504
+      ]
+    },
+    {
+      "id": "regular-10-job-08-23",
+      "row": "regular-10-job-08",
+      "character": "a",
+      "native_fitted_bounds": [
+        692.5874245364392,
+        2993.91865598409,
+        717.2601617729716,
+        3015.807955836134
+      ]
+    },
+    {
+      "id": "regular-10-job-08-24",
+      "row": "regular-10-job-08",
+      "character": "s",
+      "native_fitted_bounds": [
+        720.0595085737949,
+        2992.877416752203,
+        738.9279700795656,
+        3015.78439293108
+      ]
+    },
+    {
+      "id": "regular-10-job-08-25",
+      "row": "regular-10-job-08",
+      "character": "t",
+      "native_fitted_bounds": [
+        756.8135997277664,
+        2985.2956078531993,
+        775.5378809735085,
+        3015.5020428484004
+      ]
+    },
+    {
+      "id": "regular-10-job-08-26",
+      "row": "regular-10-job-08",
+      "character": "h",
+      "native_fitted_bounds": [
+        779.1583638144563,
+        2983.89744089888,
+        803.2621024409807,
+        3014.943604651163
+      ]
+    },
+    {
+      "id": "regular-10-job-08-27",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        806.9940589757117,
+        2993.232627267293,
+        827.0,
+        3014.9872562174496
+      ]
+    },
+    {
+      "id": "regular-10-job-08-28",
+      "row": "regular-10-job-08",
+      "character": "y",
+      "native_fitted_bounds": [
+        829.25,
+        2994.822317306272,
+        855.2524092259101,
+        3025.1805590747263
+      ]
+    },
+    {
+      "id": "regular-10-job-08-29",
+      "row": "regular-10-job-08",
+      "character": "c",
+      "native_fitted_bounds": [
+        874.4029766292086,
+        2993.296980914637,
+        893.3829266751525,
+        3015.2588490497706
+      ]
+    },
+    {
+      "id": "regular-10-job-08-30",
+      "row": "regular-10-job-08",
+      "character": "o",
+      "native_fitted_bounds": [
+        895.6966172827166,
+        2993.9985552864796,
+        917.4643209392773,
+        3015.1469010931683
+      ]
+    },
+    {
+      "id": "regular-10-job-08-31",
+      "row": "regular-10-job-08",
+      "character": "m",
+      "native_fitted_bounds": [
+        921.55990524329,
+        2993.486162022927,
+        958.9585514535297,
+        3014.875
+      ]
+    },
+    {
+      "id": "regular-10-job-08-32",
+      "row": "regular-10-job-08",
+      "character": "e",
+      "native_fitted_bounds": [
+        963.4374806510093,
+        2993.5272800659745,
+        984.1857446085373,
+        3015.325
+      ]
+    },
+    {
+      "id": "regular-10-job-09-01",
+      "row": "regular-10-job-09",
+      "character": "b",
+      "native_fitted_bounds": [
+        55.23280764819783,
+        3043.740196103458,
+        78.19829533580008,
+        3076.011576579634
+      ]
+    },
+    {
+      "id": "regular-10-job-09-02",
+      "row": "regular-10-job-09",
+      "character": "e",
+      "native_fitted_bounds": [
+        80.35518873874369,
+        3053.0946022515354,
+        100.78964365939163,
+        3075.4562660421957
+      ]
+    },
+    {
+      "id": "regular-10-job-09-03",
+      "row": "regular-10-job-09",
+      "character": "f",
+      "native_fitted_bounds": [
+        101.63403168094274,
+        3043.5150824741822,
+        117.2426401634004,
+        3075.3686365141275
+      ]
+    },
+    {
+      "id": "regular-10-job-09-04",
+      "row": "regular-10-job-09",
+      "character": "o",
+      "native_fitted_bounds": [
+        118.56792491918492,
+        3054.26858519045,
+        140.82195906520585,
+        3076.0825314595386
+      ]
+    },
+    {
+      "id": "regular-10-job-09-05",
+      "row": "regular-10-job-09",
+      "character": "r",
+      "native_fitted_bounds": [
+        144.99742448822468,
+        3052.6009699854067,
+        163.0,
+        3075.1763875294437
+      ]
+    },
+    {
+      "id": "regular-10-job-09-06",
+      "row": "regular-10-job-09",
+      "character": "e",
+      "native_fitted_bounds": [
+        163.88588583412968,
+        3053.2587456547017,
+        184.79075311824337,
+        3075.4214932991567
+      ]
+    },
+    {
+      "id": "regular-10-job-09-07",
+      "row": "regular-10-job-09",
+      "character": "u",
+      "native_fitted_bounds": [
+        203.26270016093207,
+        3053.070817050007,
+        228.02164418807317,
+        3075.706843438469
+      ]
+    },
+    {
+      "id": "regular-10-job-09-08",
+      "row": "regular-10-job-09",
+      "character": "s",
+      "native_fitted_bounds": [
+        232.03904447539077,
+        3052.3,
+        250.91411601611753,
+        3075.3534202301125
+      ]
+    },
+    {
+      "id": "regular-10-job-09-09",
+      "row": "regular-10-job-09",
+      "character": "i",
+      "native_fitted_bounds": [
+        270.8074049094489,
+        3043.5591918885575,
+        282.00547936681994,
+        3075.17197543045
+      ]
+    },
+    {
+      "id": "regular-10-job-09-10",
+      "row": "regular-10-job-09",
+      "character": "n",
+      "native_fitted_bounds": [
+        286.78159120731885,
+        3053.352492374522,
+        311.2345510159935,
+        3074.957235027213
+      ]
+    },
+    {
+      "id": "regular-10-job-09-11",
+      "row": "regular-10-job-09",
+      "character": "t",
+      "native_fitted_bounds": [
+        330.58734567901234,
+        3044.924863778385,
+        349.39424855235376,
+        3075.1239920784515
+      ]
+    },
+    {
+      "id": "regular-10-job-09-12",
+      "row": "regular-10-job-09",
+      "character": "h",
+      "native_fitted_bounds": [
+        352.15277024285416,
+        3043.276822380333,
+        377.2358833246751,
+        3074.8882658817643
+      ]
+    },
+    {
+      "id": "regular-10-job-09-13",
+      "row": "regular-10-job-09",
+      "character": "i",
+      "native_fitted_bounds": [
+        381.8535737979791,
+        3043.44852348143,
+        392.6259335400313,
+        3075.0000924962424
+      ]
+    },
+    {
+      "id": "regular-10-job-09-14",
+      "row": "regular-10-job-09",
+      "character": "s",
+      "native_fitted_bounds": [
+        396.1212082055132,
+        3052.3085786437628,
+        415.25,
+        3074.875
+      ]
+    },
+    {
+      "id": "regular-10-job-09-15",
+      "row": "regular-10-job-09",
+      "character": "c",
+      "native_fitted_bounds": [
+        437.375,
+        3053.0685067392415,
+        456.9529676445693,
+        3075.1426083798915
+      ]
+    },
+    {
+      "id": "regular-10-job-09-16",
+      "row": "regular-10-job-09",
+      "character": "a",
+      "native_fitted_bounds": [
+        457.86059234825825,
+        3053.027373406111,
+        482.7618688760208,
+        3074.8144600006917
+      ]
+    },
+    {
+      "id": "regular-10-job-09-17",
+      "row": "regular-10-job-09",
+      "character": "p",
+      "native_fitted_bounds": [
+        485.49322827735176,
+        3052.80959117854,
+        509.0346680224077,
+        3083.711429642171
+      ]
+    },
+    {
+      "id": "regular-10-job-09-18",
+      "row": "regular-10-job-09",
+      "character": "a",
+      "native_fitted_bounds": [
+        511.25,
+        3052.5921090666,
+        535.5531897241813,
+        3074.612313680276
+      ]
+    },
+    {
+      "id": "regular-10-job-09-19",
+      "row": "regular-10-job-09",
+      "character": "c",
+      "native_fitted_bounds": [
+        537.75,
+        3052.289398872297,
+        557.3011574810286,
+        3074.625
+      ]
+    },
+    {
+      "id": "regular-10-job-09-20",
+      "row": "regular-10-job-09",
+      "character": "i",
+      "native_fitted_bounds": [
+        560.1124274300789,
+        3042.7001944194153,
+        571.3334804896116,
+        3073.9
+      ]
+    },
+    {
+      "id": "regular-10-job-09-21",
+      "row": "regular-10-job-09",
+      "character": "t",
+      "native_fitted_bounds": [
+        573.7692247740277,
+        3044.055038215729,
+        592.7043218929971,
+        3074.3751090091714
+      ]
+    },
+    {
+      "id": "regular-10-job-09-22",
+      "row": "regular-10-job-09",
+      "character": "y",
+      "native_fitted_bounds": [
+        594.270100480454,
+        3053.671788722974,
+        620.4705911795622,
+        3084.325
+      ]
+    },
+    {
+      "id": "regular-10-job-09-23",
+      "row": "regular-10-job-09",
+      "character": ".",
+      "native_fitted_bounds": [
+        625.7386764959548,
+        3066.965858892021,
+        633.8948945736603,
+        3073.875
+      ]
+    },
+    {
+      "id": "regular-10-job-09-24",
+      "row": "regular-10-job-09",
+      "character": "T",
+      "native_fitted_bounds": [
+        686.0,
+        3041.311385065835,
+        715.1045243916732,
+        3073.8134051549255
+      ]
+    },
+    {
+      "id": "regular-10-job-09-25",
+      "row": "regular-10-job-09",
+      "character": "h",
+      "native_fitted_bounds": [
+        718.3899015284653,
+        3041.727270999947,
+        743.5,
+        3073.58906892321
+      ]
+    },
+    {
+      "id": "regular-10-job-09-26",
+      "row": "regular-10-job-09",
+      "character": "e",
+      "native_fitted_bounds": [
+        746.6060206450617,
+        3051.524724453248,
+        767.2059632407454,
+        3073.4775330142625
+      ]
+    },
+    {
+      "id": "regular-10-job-09-27",
+      "row": "regular-10-job-09",
+      "character": "y",
+      "native_fitted_bounds": [
+        769.0410802851927,
+        3053.035194229346,
+        794.9512268090161,
+        3083.4832784483806
+      ]
+    },
+    {
+      "id": "regular-10-job-09-28",
+      "row": "regular-10-job-09",
+      "character": "w",
+      "native_fitted_bounds": [
+        815.0913543161939,
+        3052.5425032952644,
+        852.1685824826689,
+        3073.7430047636644
+      ]
+    },
+    {
+      "id": "regular-10-job-09-29",
+      "row": "regular-10-job-09",
+      "character": "e",
+      "native_fitted_bounds": [
+        855.375,
+        3051.089044265236,
+        875.6867410880909,
+        3072.851003699968
+      ]
+    },
+    {
+      "id": "regular-10-job-09-30",
+      "row": "regular-10-job-09",
+      "character": "r",
+      "native_fitted_bounds": [
+        879.9962515045922,
+        3050.2777199371417,
+        897.9072401356024,
+        3072.423348499268
+      ]
+    },
+    {
+      "id": "regular-10-job-09-31",
+      "row": "regular-10-job-09",
+      "character": "e",
+      "native_fitted_bounds": [
+        898.957113338124,
+        3051.0825978800176,
+        919.8165882309473,
+        3072.980044428786
+      ]
+    },
+    {
+      "id": "regular-10-job-09-32",
+      "row": "regular-10-job-09",
+      "character": "4",
+      "native_fitted_bounds": [
+        937.172495847482,
+        3044.25,
+        959.4541186604415,
+        3074.3401214693977
+      ]
+    },
+    {
+      "id": "regular-10-job-09-33",
+      "row": "regular-10-job-09",
+      "character": "7",
+      "native_fitted_bounds": [
+        961.9831967082958,
+        3043.874861546782,
+        984.1307210959543,
+        3073.75
+      ]
+    },
+    {
+      "id": "regular-10-document-00-01",
+      "row": "regular-10-document-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        697.0889963504012,
+        1889.2934384557566,
+        728.1219176019043,
+        1926.4593085148017
+      ]
+    },
+    {
+      "id": "regular-10-document-00-02",
+      "row": "regular-10-document-00",
+      "character": "N",
+      "native_fitted_bounds": [
+        734.4045073197829,
+        1890.0231739598055,
+        768.0915144501721,
+        1924.9564993114448
+      ]
+    },
+    {
+      "id": "regular-10-document-00-03",
+      "row": "regular-10-document-00",
+      "character": "G",
+      "native_fitted_bounds": [
+        773.9739032928362,
+        1890.0737534606203,
+        808.0298019451902,
+        1925.4977415813291
+      ]
+    },
+    {
+      "id": "regular-10-document-00-04",
+      "row": "regular-10-document-00",
+      "character": "L",
+      "native_fitted_bounds": [
+        817.3221452081812,
+        1890.4303847577294,
+        847.7357321178,
+        1925.6849273713422
+      ]
+    },
+    {
+      "id": "regular-10-document-00-05",
+      "row": "regular-10-document-00",
+      "character": "I",
+      "native_fitted_bounds": [
+        853.7529405210056,
+        1890.3814591226014,
+        865.1907504262635,
+        1925.4709010424338
+      ]
+    },
+    {
+      "id": "regular-10-document-00-06",
+      "row": "regular-10-document-00",
+      "character": "S",
+      "native_fitted_bounds": [
+        871.4699300288629,
+        1890.8619618703117,
+        900.5320673570105,
+        1925.9545133853835
+      ]
+    },
+    {
+      "id": "regular-10-document-00-07",
+      "row": "regular-10-document-00",
+      "character": "H",
+      "native_fitted_bounds": [
+        907.3553561574637,
+        1890.1064866560216,
+        939.5240328006237,
+        1925.1282856846778
+      ]
+    },
+    {
+      "id": "regular-10-document-00-08",
+      "row": "regular-10-document-00",
+      "character": "J",
+      "native_fitted_bounds": [
+        976.9336691102442,
+        1890.1397615009091,
+        999.5866258688573,
+        1925.6574140532928
+      ]
+    },
+    {
+      "id": "regular-10-document-00-09",
+      "row": "regular-10-document-00",
+      "character": "U",
+      "native_fitted_bounds": [
+        1009.086879131071,
+        1890.275,
+        1041.9467976452931,
+        1925.6795984796527
+      ]
+    },
+    {
+      "id": "regular-10-document-00-10",
+      "row": "regular-10-document-00",
+      "character": "D",
+      "native_fitted_bounds": [
+        1049.25,
+        1890.1181217691608,
+        1082.66875,
+        1925.646370771656
+      ]
+    },
+    {
+      "id": "regular-10-document-00-11",
+      "row": "regular-10-document-00",
+      "character": "G",
+      "native_fitted_bounds": [
+        1084.5132153409163,
+        1890.027724329671,
+        1118.4725659653682,
+        1926.4259792254122
+      ]
+    },
+    {
+      "id": "regular-10-document-00-12",
+      "row": "regular-10-document-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        1127.167635306206,
+        1889.8586192963337,
+        1159.2467206135495,
+        1927.0676893786795
+      ]
+    },
+    {
+      "id": "regular-10-document-00-13",
+      "row": "regular-10-document-00",
+      "character": "S",
+      "native_fitted_bounds": [
+        1163.993958466012,
+        1891.0858024691358,
+        1192.7003212494292,
+        1926.385218482568
+      ]
+    },
+    {
+      "id": "regular-10-document-00-14",
+      "row": "regular-10-document-00",
+      "character": "I",
+      "native_fitted_bounds": [
+        1230.6917800839146,
+        1890.75,
+        1241.3261688226653,
+        1925.6670892451255
+      ]
+    },
+    {
+      "id": "regular-10-document-00-15",
+      "row": "regular-10-document-00",
+      "character": "N",
+      "native_fitted_bounds": [
+        1249.6408736693895,
+        1890.8646203899718,
+        1283.1380208333333,
+        1925.7568084153982
+      ]
+    },
+    {
+      "id": "regular-10-document-00-16",
+      "row": "regular-10-document-00",
+      "character": "C",
+      "native_fitted_bounds": [
+        1320.133352354344,
+        1890.8112670298574,
+        1351.3301042835237,
+        1926.3838095968333
+      ]
+    },
+    {
+      "id": "regular-10-document-00-17",
+      "row": "regular-10-document-00",
+      "character": "O",
+      "native_fitted_bounds": [
+        1355.4,
+        1891.3546875,
+        1388.875,
+        1926.182420576571
+      ]
+    },
+    {
+      "id": "regular-10-document-00-18",
+      "row": "regular-10-document-00",
+      "character": "U",
+      "native_fitted_bounds": [
+        1393.8271533154345,
+        1891.419142643995,
+        1422.399901182297,
+        1925.875
+      ]
+    },
+    {
+      "id": "regular-10-document-00-19",
+      "row": "regular-10-document-00",
+      "character": "N",
+      "native_fitted_bounds": [
+        1433.313472894058,
+        1891.7560494642248,
+        1465.3200648147233,
+        1925.8448384884643
+      ]
+    },
+    {
+      "id": "regular-10-document-00-20",
+      "row": "regular-10-document-00",
+      "character": "C",
+      "native_fitted_bounds": [
+        1471.5905908124437,
+        1896.9156083775201,
+        1502.9948002100843,
+        1927.0631060023375
+      ]
+    },
+    {
+      "id": "regular-10-document-00-21",
+      "row": "regular-10-document-00",
+      "character": "I",
+      "native_fitted_bounds": [
+        1510.111111111111,
+        1891.7728480088742,
+        1520.1475438595896,
+        1926.5787651449355
+      ]
+    },
+    {
+      "id": "regular-10-document-00-22",
+      "row": "regular-10-document-00",
+      "character": "L",
+      "native_fitted_bounds": [
+        1531.381307926843,
+        1891.787109825939,
+        1541.5696841076294,
+        1926.1844573358057
+      ]
+    },
+    {
+      "id": "regular-10-document-00-23",
+      "row": "regular-10-document-00",
+      "character": "A",
+      "native_fitted_bounds": [
+        1594.5172613371044,
+        1892.25,
+        1628.1082077949748,
+        1926.485069524773
+      ]
+    },
+    {
+      "id": "regular-10-document-00-24",
+      "row": "regular-10-document-00",
+      "character": "S",
+      "native_fitted_bounds": [
+        1634.378762525139,
+        1892.2886080216354,
+        1662.625847348836,
+        1927.4439736729803
+      ]
+    },
+    {
+      "id": "regular-10-document-00-25",
+      "row": "regular-10-document-00",
+      "character": "S",
+      "native_fitted_bounds": [
+        1667.163402748796,
+        1892.4928415090205,
+        1695.1819756770897,
+        1927.3594755346223
+      ]
+    },
+    {
+      "id": "regular-10-document-00-26",
+      "row": "regular-10-document-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        1701.86864357571,
+        1891.375286900402,
+        1732.9623831762449,
+        1927.9935369052644
+      ]
+    },
+    {
+      "id": "regular-10-document-00-27",
+      "row": "regular-10-document-00",
+      "character": "M",
+      "native_fitted_bounds": [
+        1737.4228828442817,
+        1892.0162109335627,
+        1781.3421049650885,
+        1926.75
+      ]
+    },
+    {
+      "id": "regular-10-document-00-28",
+      "row": "regular-10-document-00",
+      "character": "B",
+      "native_fitted_bounds": [
+        1788.6119117392466,
+        1892.0611111111111,
+        1820.817989177784,
+        1927.0539344456652
+      ]
+    },
+    {
+      "id": "regular-10-document-00-29",
+      "row": "regular-10-document-00",
+      "character": "L",
+      "native_fitted_bounds": [
+        1828.0833587892414,
+        1892.5558244487895,
+        1857.315450337934,
+        1927.656206814627
+      ]
+    },
+    {
+      "id": "regular-10-document-00-30",
+      "row": "regular-10-document-00",
+      "character": "E",
+      "native_fitted_bounds": [
+        1864.4100574104498,
+        1892.310480752553,
+        1893.625,
+        1926.8750102030406
+      ]
+    },
+    {
+      "id": "regular-10-document-00-31",
+      "row": "regular-10-document-00",
+      "character": "D",
+      "native_fitted_bounds": [
+        1902.9178161340972,
+        1892.6212439659678,
+        1935.111982503155,
+        1927.0673719788576
+      ]
+    },
+    {
+      "id": "regular-10-document-00-32",
+      "row": "regular-10-document-00",
+      "character": ",",
+      "native_fitted_bounds": [
+        1941.074697580645,
+        1919.9614659959454,
+        1948.1945547740013,
+        1932.9430294826557
+      ]
+    },
+    {
+      "id": "regular-10-document-00-33",
+      "row": "regular-10-document-00",
+      "character": "I",
+      "native_fitted_bounds": [
+        1985.2732850302525,
+        1892.2693780215957,
+        1995.2967661106713,
+        1927.25
+      ]
+    },
+    {
+      "id": "regular-10-document-00-34",
+      "row": "regular-10-document-00",
+      "character": "N",
+      "native_fitted_bounds": [
+        2004.2448229187876,
+        1893.1966049382715,
+        2037.3318629654102,
+        1927.304634270666
+      ]
+    },
+    {
+      "id": "regular-10-document-01-01",
+      "row": "regular-10-document-01",
+      "character": "Y",
+      "native_fitted_bounds": [
+        530.0267438545283,
+        1956.245362476747,
+        561.7185053644033,
+        1990.7307977684757
+      ]
+    },
+    {
+      "id": "regular-10-document-01-02",
+      "row": "regular-10-document-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        565.625,
+        1966.3476451991628,
+        588.0201848662417,
+        1990.338148072967
+      ]
+    },
+    {
+      "id": "regular-10-document-01-03",
+      "row": "regular-10-document-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        590.75,
+        1966.468508300203,
+        615.9335348763594,
+        1990.223932740052
+      ]
+    },
+    {
+      "id": "regular-10-document-01-04",
+      "row": "regular-10-document-01",
+      "character": "r",
+      "native_fitted_bounds": [
+        624.2863703404371,
+        1966.425500578711,
+        644.0,
+        1990.4502451944754
+      ]
+    },
+    {
+      "id": "regular-10-document-01-05",
+      "row": "regular-10-document-01",
+      "character": "1",
+      "native_fitted_bounds": [
+        671.3143043026147,
+        1955.9959773048217,
+        682.0882961949302,
+        1991.0180122890615
+      ]
+    },
+    {
+      "id": "regular-10-document-01-06",
+      "row": "regular-10-document-01",
+      "character": "6",
+      "native_fitted_bounds": [
+        691.1717487876891,
+        1955.7834102648396,
+        716.525320595677,
+        1991.2641108042178
+      ]
+    },
+    {
+      "id": "regular-10-document-01-07",
+      "row": "regular-10-document-01",
+      "character": "8",
+      "native_fitted_bounds": [
+        719.4652900711606,
+        1956.6296864266692,
+        744.7413948275907,
+        1991.1681866195017
+      ]
+    },
+    {
+      "id": "regular-10-document-01-08",
+      "row": "regular-10-document-01",
+      "character": "0",
+      "native_fitted_bounds": [
+        745.25,
+        1956.2734826514566,
+        772.4348849190161,
+        1992.7342564560147
+      ]
+    },
+    {
+      "id": "regular-10-document-01-09",
+      "row": "regular-10-document-01",
+      "character": ",",
+      "native_fitted_bounds": [
+        776.5163336767807,
+        1982.8292970484376,
+        784.8787734476928,
+        1996.9914540816326
+      ]
+    },
+    {
+      "id": "regular-10-document-01-10",
+      "row": "regular-10-document-01",
+      "character": "d",
+      "native_fitted_bounds": [
+        809.625,
+        1955.9723705974372,
+        835.541676627687,
+        1991.4530995663054
+      ]
+    },
+    {
+      "id": "regular-10-document-01-11",
+      "row": "regular-10-document-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        839.9223832266324,
+        1966.2796864266693,
+        862.7580190714588,
+        1991.125
+      ]
+    },
+    {
+      "id": "regular-10-document-01-12",
+      "row": "regular-10-document-01",
+      "character": "c",
+      "native_fitted_bounds": [
+        864.5706433922314,
+        1966.5613652260486,
+        887.1324681266822,
+        1991.5285684141272
+      ]
+    },
+    {
+      "id": "regular-10-document-01-13",
+      "row": "regular-10-document-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        891.9569851312322,
+        1955.293,
+        902.4313839467986,
+        1990.755010232458
+      ]
+    },
+    {
+      "id": "regular-10-document-01-14",
+      "row": "regular-10-document-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        906.9281970932021,
+        1966.9939591531402,
+        933.4313038804968,
+        1991.1394323451796
+      ]
+    },
+    {
+      "id": "regular-10-document-01-15",
+      "row": "regular-10-document-01",
+      "character": "r",
+      "native_fitted_bounds": [
+        938.760603389752,
+        1966.2724065725683,
+        959.2397451167344,
+        1991.4362382934444
+      ]
+    },
+    {
+      "id": "regular-10-document-01-16",
+      "row": "regular-10-document-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        961.0563764097822,
+        1966.5190075434239,
+        984.1093128535281,
+        1991.2433823529411
+      ]
+    },
+    {
+      "id": "regular-10-document-01-17",
+      "row": "regular-10-document-01",
+      "character": "d",
+      "native_fitted_bounds": [
+        987.3897864882648,
+        1956.5598421811715,
+        1012.9909055162568,
+        1991.3666854503424
+      ]
+    },
+    {
+      "id": "regular-10-document-01-18",
+      "row": "regular-10-document-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        1039.2716338700538,
+        1958.8149546744748,
+        1059.6926032602955,
+        1991.7562740643616
+      ]
+    },
+    {
+      "id": "regular-10-document-01-19",
+      "row": "regular-10-document-01",
+      "character": "h",
+      "native_fitted_bounds": [
+        1063.9074049095943,
+        1955.791385707038,
+        1090.3729567263802,
+        1990.75
+      ]
+    },
+    {
+      "id": "regular-10-document-01-20",
+      "row": "regular-10-document-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        1095.643194226394,
+        1966.970815272364,
+        1121.3508983309448,
+        1991.491111226129
+      ]
+    },
+    {
+      "id": "regular-10-document-01-21",
+      "row": "regular-10-document-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        1125.1023307671205,
+        1958.6949104376274,
+        1145.6179394748528,
+        1991.745159327707
+      ]
+    },
+    {
+      "id": "regular-10-document-01-22",
+      "row": "regular-10-document-01",
+      "character": "i",
+      "native_fitted_bounds": [
+        1170.811203012662,
+        1955.451817651148,
+        1182.9174716166,
+        1991.5
+      ]
+    },
+    {
+      "id": "regular-10-document-01-23",
+      "row": "regular-10-document-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        1187.300773768664,
+        1958.7396092946638,
+        1208.1129304622848,
+        1991.796888868424
+      ]
+    },
+    {
+      "id": "regular-10-document-01-24",
+      "row": "regular-10-document-01",
+      "character": "w",
+      "native_fitted_bounds": [
+        1229.6992033832337,
+        1968.548815622586,
+        1269.98055808452,
+        1992.4681285441823
+      ]
+    },
+    {
+      "id": "regular-10-document-01-25",
+      "row": "regular-10-document-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        1274.2624730933057,
+        1966.7573187716885,
+        1300.0711966805152,
+        1991.6638022173236
+      ]
+    },
+    {
+      "id": "regular-10-document-01-26",
+      "row": "regular-10-document-01",
+      "character": "s",
+      "native_fitted_bounds": [
+        1304.8055864697815,
+        1967.5199711751466,
+        1326.375,
+        1992.3392857142858
+      ]
+    },
+    {
+      "id": "regular-10-document-01-27",
+      "row": "regular-10-document-01",
+      "character": "i",
+      "native_fitted_bounds": [
+        1352.0168530731048,
+        1955.7877995919944,
+        1362.7400426021354,
+        1991.1935259084564
+      ]
+    },
+    {
+      "id": "regular-10-document-01-28",
+      "row": "regular-10-document-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        1371.6551189176723,
+        1956.0342558105583,
+        1381.5306949703604,
+        1990.975
+      ]
+    },
+    {
+      "id": "regular-10-document-01-29",
+      "row": "regular-10-document-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        1388.8370999227554,
+        1956.0296350568094,
+        1398.7342436305248,
+        1991.0669937797013
+      ]
+    },
+    {
+      "id": "regular-10-document-01-30",
+      "row": "regular-10-document-01",
+      "character": "e",
+      "native_fitted_bounds": [
+        1403.0509746084824,
+        1967.566230470277,
+        1426.0,
+        1991.5795730901839
+      ]
+    },
+    {
+      "id": "regular-10-document-01-31",
+      "row": "regular-10-document-01",
+      "character": "g",
+      "native_fitted_bounds": [
+        1428.8317981195723,
+        1967.5183297693184,
+        1456.9536669232214,
+        2000.75
+      ]
+    },
+    {
+      "id": "regular-10-document-01-32",
+      "row": "regular-10-document-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        1459.2597465335582,
+        1967.259172308211,
+        1485.1951679196789,
+        1991.3795738091453
+      ]
+    },
+    {
+      "id": "regular-10-document-01-33",
+      "row": "regular-10-document-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        1491.0452972666967,
+        1955.97679542047,
+        1501.2530251880764,
+        1991.151753857134
+      ]
+    },
+    {
+      "id": "regular-10-document-01-34",
+      "row": "regular-10-document-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        1528.1171124446364,
+        1959.4267784097844,
+        1547.9770174479113,
+        1992.4075825325344
+      ]
+    },
+    {
+      "id": "regular-10-document-01-35",
+      "row": "regular-10-document-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        1552.7408646244653,
+        1968.1912880666112,
+        1577.325,
+        1991.8770833333333
+      ]
+    },
+    {
+      "id": "regular-10-document-01-36",
+      "row": "regular-10-document-01",
+      "character": "p",
+      "native_fitted_bounds": [
+        1604.2371893893653,
+        1969.2796416004003,
+        1629.0,
+        2002.4140582954556
+      ]
+    },
+    {
+      "id": "regular-10-document-01-37",
+      "row": "regular-10-document-01",
+      "character": "r",
+      "native_fitted_bounds": [
+        1635.2625,
+        1968.3924839936376,
+        1654.22209569859,
+        1992.166277099134
+      ]
+    },
+    {
+      "id": "regular-10-document-01-38",
+      "row": "regular-10-document-01",
+      "character": "i",
+      "native_fitted_bounds": [
+        1657.7640441364213,
+        1957.4349434029416,
+        1668.0704010760746,
+        1992.0948085391349
+      ]
+    },
+    {
+      "id": "regular-10-document-01-39",
+      "row": "regular-10-document-01",
+      "character": "n",
+      "native_fitted_bounds": [
+        1675.7727538777629,
+        1968.5343756119826,
+        1700.9738533277855,
+        1992.4106415847389
+      ]
+    },
+    {
+      "id": "regular-10-document-01-40",
+      "row": "regular-10-document-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        1707.3601152870153,
+        1960.2706781523266,
+        1726.1969478444485,
+        1992.5900966106506
+      ]
+    },
+    {
+      "id": "regular-10-document-01-41",
+      "row": "regular-10-document-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        1750.15,
+        1968.9391576749608,
+        1774.714401000417,
+        1992.5055602129794
+      ]
+    },
+    {
+      "id": "regular-10-document-01-42",
+      "row": "regular-10-document-01",
+      "character": "r",
+      "native_fitted_bounds": [
+        1780.6425890920168,
+        1968.2612528767197,
+        1800.122756562202,
+        1992.4275752910742
+      ]
+    },
+    {
+      "id": "regular-10-document-01-43",
+      "row": "regular-10-document-01",
+      "character": "t",
+      "native_fitted_bounds": [
+        1827.095190407384,
+        1960.2985477800034,
+        1842.3282491214434,
+        1992.474060810913
+      ]
+    },
+    {
+      "id": "regular-10-document-01-44",
+      "row": "regular-10-document-01",
+      "character": "o",
+      "native_fitted_bounds": [
+        1848.785085660803,
+        1969.7717822677062,
+        1859.6418017441517,
+        1991.6010941941877
+      ]
+    },
+    {
+      "id": "regular-10-document-01-45",
+      "row": "regular-10-document-01",
+      "character": "p",
+      "native_fitted_bounds": [
+        1902.2092634064288,
+        1969.8128555293401,
+        1926.4795873389237,
+        2002.948287269391
+      ]
+    },
+    {
+      "id": "regular-10-document-01-46",
+      "row": "regular-10-document-01",
+      "character": "u",
+      "native_fitted_bounds": [
+        1932.3452320353442,
+        1969.793,
+        1946.795223583302,
+        1992.75
+      ]
+    },
+    {
+      "id": "regular-10-document-01-47",
+      "row": "regular-10-document-01",
+      "character": "b",
+      "native_fitted_bounds": [
+        1965.015979177371,
+        1958.5447162172882,
+        1989.3868633347681,
+        1991.8375
+      ]
+    },
+    {
+      "id": "regular-10-document-01-48",
+      "row": "regular-10-document-01",
+      "character": "l",
+      "native_fitted_bounds": [
+        1996.0807644704557,
+        1957.3316550533204,
+        2005.0568861986203,
+        1991.7140266775068
+      ]
+    },
+    {
+      "id": "regular-10-document-01-49",
+      "row": "regular-10-document-01",
+      "character": "i",
+      "native_fitted_bounds": [
+        2011.7576280266182,
+        1957.8107241843395,
+        2022.575,
+        1991.6843567694511
+      ]
+    },
+    {
+      "id": "regular-10-document-01-50",
+      "row": "regular-10-document-01",
+      "character": "s",
+      "native_fitted_bounds": [
+        2028.45,
+        1969.7500964010815,
+        2049.1457960282514,
+        1993.467115670684
+      ]
+    },
+    {
+      "id": "regular-10-document-01-51",
+      "row": "regular-10-document-01",
+      "character": "h",
+      "native_fitted_bounds": [
+        2054.7660722974715,
+        1958.2605843627791,
+        2080.845451124209,
+        1991.9379648101335
+      ]
+    },
+    {
+      "id": "regular-10-document-01-52",
+      "row": "regular-10-document-01",
+      "character": "a",
+      "native_fitted_bounds": [
+        2110.75,
+        1968.9165068812592,
+        2135.930347151928,
+        1992.7297853858438
+      ]
+    },
+    {
+      "id": "regular-10-document-01-53",
+      "row": "regular-10-document-01",
+      "character": "n",
+      "native_fitted_bounds": [
+        2152.570739118561,
+        1969.207433687026,
+        2167.9548554979906,
+        1993.0
+      ]
+    },
+    {
+      "id": "regular-10-document-01-54",
+      "row": "regular-10-document-01",
+      "character": "y",
+      "native_fitted_bounds": [
+        2173.5,
+        1970.971459673038,
+        2201.129652581583,
+        2004.275
+      ]
+    },
+    {
+      "id": "regular-10-document-02-01",
+      "row": "regular-10-document-02",
+      "character": "n",
+      "native_fitted_bounds": [
+        934.1634421063436,
+        2022.2977917045116,
+        960.4696947049594,
+        2046.7657976938535
+      ]
+    },
+    {
+      "id": "regular-10-document-02-02",
+      "row": "regular-10-document-02",
+      "character": "e",
+      "native_fitted_bounds": [
+        965.3086442213847,
+        2022.0255801388232,
+        988.5092690434032,
+        2046.25
+      ]
+    },
+    {
+      "id": "regular-10-document-02-03",
+      "row": "regular-10-document-02",
+      "character": "w",
+      "native_fitted_bounds": [
+        993.7537936013927,
+        2024.018331771581,
+        1032.837793624214,
+        2046.2660786132485
+      ]
+    },
+    {
+      "id": "regular-10-document-02-04",
+      "row": "regular-10-document-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        1039.0375068262103,
+        2022.1048269876835,
+        1059.4818526548243,
+        2046.773839139785
+      ]
+    },
+    {
+      "id": "regular-10-document-02-05",
+      "row": "regular-10-document-02",
+      "character": "b",
+      "native_fitted_bounds": [
+        1082.5966018926383,
+        2012.25,
+        1108.0808998892355,
+        2045.7327492279903
+      ]
+    },
+    {
+      "id": "regular-10-document-02-06",
+      "row": "regular-10-document-02",
+      "character": "o",
+      "native_fitted_bounds": [
+        1111.3165527778228,
+        2022.5941627330108,
+        1136.5,
+        2046.1099169415452
+      ]
+    },
+    {
+      "id": "regular-10-document-02-07",
+      "row": "regular-10-document-02",
+      "character": "o",
+      "native_fitted_bounds": [
+        1137.3823101805947,
+        2022.5100524776494,
+        1162.6883935515107,
+        2046.3241249947232
+      ]
+    },
+    {
+      "id": "regular-10-document-02-08",
+      "row": "regular-10-document-02",
+      "character": "k",
+      "native_fitted_bounds": [
+        1167.1624031536512,
+        2011.7548866737918,
+        1194.0223122876353,
+        2045.75
+      ]
+    },
+    {
+      "id": "regular-10-document-02-09",
+      "row": "regular-10-document-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        1199.6180775152998,
+        2023.6188245369533,
+        1220.4940498092847,
+        2047.3908297840385
+      ]
+    },
+    {
+      "id": "regular-10-document-02-10",
+      "row": "regular-10-document-02",
+      "character": "o",
+      "native_fitted_bounds": [
+        1241.7845144222676,
+        2023.5124422853535,
+        1253.180749376169,
+        2045.6867326164763
+      ]
+    },
+    {
+      "id": "regular-10-document-02-11",
+      "row": "regular-10-document-02",
+      "character": "r",
+      "native_fitted_bounds": [
+        1272.5397523528804,
+        2021.9868766546804,
+        1292.0198311153379,
+        2046.25
+      ]
+    },
+    {
+      "id": "regular-10-document-02-12",
+      "row": "regular-10-document-02",
+      "character": "p",
+      "native_fitted_bounds": [
+        1315.2173539701523,
+        2023.367697328135,
+        1340.0746805117124,
+        2056.6616027218765
+      ]
+    },
+    {
+      "id": "regular-10-document-02-13",
+      "row": "regular-10-document-02",
+      "character": "a",
+      "native_fitted_bounds": [
+        1342.9187236236257,
+        2023.3747799716218,
+        1368.2495189529602,
+        2046.3816415920078
+      ]
+    },
+    {
+      "id": "regular-10-document-02-14",
+      "row": "regular-10-document-02",
+      "character": "m",
+      "native_fitted_bounds": [
+        1374.9825885560333,
+        2022.849572236674,
+        1415.8323618404263,
+        2046.500756022835
+      ]
+    },
+    {
+      "id": "regular-10-document-02-15",
+      "row": "regular-10-document-02",
+      "character": "p",
+      "native_fitted_bounds": [
+        1425.1277554409776,
+        2023.6303821733004,
+        1449.9201577774381,
+        2056.6890176594397
+      ]
+    },
+    {
+      "id": "regular-10-document-02-16",
+      "row": "regular-10-document-02",
+      "character": "h",
+      "native_fitted_bounds": [
+        1454.75,
+        2011.8298033592678,
+        1480.8832418790737,
+        2045.7874681877263
+      ]
+    },
+    {
+      "id": "regular-10-document-02-17",
+      "row": "regular-10-document-02",
+      "character": "l",
+      "native_fitted_bounds": [
+        1488.0,
+        2011.1981711727772,
+        1498.3583825228986,
+        2046.016405239516
+      ]
+    },
+    {
+      "id": "regular-10-document-02-18",
+      "row": "regular-10-document-02",
+      "character": "e",
+      "native_fitted_bounds": [
+        1502.535247088278,
+        2021.9534159831373,
+        1525.7280429428308,
+        2046.9559899947196
+      ]
+    },
+    {
+      "id": "regular-10-document-02-19",
+      "row": "regular-10-document-02",
+      "character": "t",
+      "native_fitted_bounds": [
+        1528.25,
+        2014.2611722661993,
+        1545.0,
+        2047.2249529229
+      ]
+    },
+    {
+      "id": "regular-10-document-02-20",
+      "row": "regular-10-document-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        1552.366872529597,
+        2022.84489299092,
+        1572.9239552340387,
+        2047.3149449915363
+      ]
+    },
+    {
+      "id": "regular-10-document-02-21",
+      "row": "regular-10-document-02",
+      "character": "o",
+      "native_fitted_bounds": [
+        1594.3567100194148,
+        2023.8151372494117,
+        1618.529265235895,
+        2046.9147240924092
+      ]
+    },
+    {
+      "id": "regular-10-document-02-22",
+      "row": "regular-10-document-02",
+      "character": "f",
+      "native_fitted_bounds": [
+        1622.6026551235439,
+        2011.8669344736145,
+        1638.3658163265306,
+        2046.4617458047655
+      ]
+    },
+    {
+      "id": "regular-10-document-02-23",
+      "row": "regular-10-document-02",
+      "character": "n",
+      "native_fitted_bounds": [
+        1664.3031990675968,
+        2023.281473233313,
+        1689.75,
+        2046.972267977857
+      ]
+    },
+    {
+      "id": "regular-10-document-02-24",
+      "row": "regular-10-document-02",
+      "character": "e",
+      "native_fitted_bounds": [
+        1696.0847747437185,
+        2022.9722539031231,
+        1717.9496112567635,
+        2047.0024035456506
+      ]
+    },
+    {
+      "id": "regular-10-document-02-25",
+      "row": "regular-10-document-02",
+      "character": "w",
+      "native_fitted_bounds": [
+        1723.0,
+        2024.75,
+        1762.4266488086537,
+        2047.114846935384
+      ]
+    },
+    {
+      "id": "regular-10-document-02-26",
+      "row": "regular-10-document-02",
+      "character": "s",
+      "native_fitted_bounds": [
+        1768.9930352846322,
+        2024.5449766029158,
+        1789.2137521364166,
+        2048.378475396818
+      ]
+    },
+    {
+      "id": "regular-10-document-02-27",
+      "row": "regular-10-document-02",
+      "character": ".",
+      "native_fitted_bounds": [
+        1795.7617093474753,
+        2040.114167522027,
+        1803.922030777093,
+        2046.9768434220875
+      ]
+    }
+  ],
+  "broad_S_scale": {
+    "scale": 25.93776406924489,
+    "dimension_pairs": 22,
+    "pairs": [
+      {
+        "source": "handy-358-regular-10-cap-00",
+        "character": "P",
+        "native_dimensions": [
+          24.04102567817237,
+          27.043109775409288
+        ],
+        "canonical_dimensions": [
+          638.725736977415,
+          701.1534968114378
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-01",
+        "character": "U",
+        "native_dimensions": [
+          25.343471296615437,
+          27.564397397354384
+        ],
+        "canonical_dimensions": [
+          653.8560250663271,
+          708.6802817784464
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-02",
+        "character": "B",
+        "native_dimensions": [
+          25.409780154439183,
+          27.167123847766483
+        ],
+        "canonical_dimensions": [
+          668.9282265064425,
+          700.4534007684373
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-03",
+        "character": "L",
+        "native_dimensions": [
+          24.588569741981917,
+          26.900305659599717
+        ],
+        "canonical_dimensions": [
+          619.3487436325212,
+          699.4394582049426
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-04",
+        "character": "I",
+        "native_dimensions": [
+          10.142310674804266,
+          26.95042555121057
+        ],
+        "canonical_dimensions": [
+          245.14696646526147,
+          701.1344014852025
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-05",
+        "character": "C",
+        "native_dimensions": [
+          24.038685826261077,
+          27.024125217866043
+        ],
+        "canonical_dimensions": [
+          620.06925826153,
+          707.0660901982376
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-08",
+        "character": "E",
+        "native_dimensions": [
+          25.547942397304023,
+          28.894339056445972
+        ],
+        "canonical_dimensions": [
+          646.1087298245745,
+          738.1113112866806
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-09",
+        "character": "A",
+        "native_dimensions": [
+          27.29424386536276,
+          27.785424527128573
+        ],
+        "canonical_dimensions": [
+          720.2082517025494,
+          705.4581446348815
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-10",
+        "character": "K",
+        "native_dimensions": [
+          25.87215311617847,
+          26.9946958904153
+        ],
+        "canonical_dimensions": [
+          699.6519842874984,
+          705.3409370400599
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-12",
+        "character": "N",
+        "native_dimensions": [
+          27.628604797079124,
+          27.29719334264568
+        ],
+        "canonical_dimensions": [
+          716.3943189505882,
+          715.857628158109
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-13",
+        "character": "G",
+        "native_dimensions": [
+          26.058774971300725,
+          27.721919224322274
+        ],
+        "canonical_dimensions": [
+          676.9163722124514,
+          717.0620914309412
+        ]
+      }
+    ],
+    "rms_residual_font_units": 11.298258963795199,
+    "method": "One isotropic fit to non-S whole capitals after independently accepted native serif-foot row rotation. All S and joined groups excluded."
+  }
+}

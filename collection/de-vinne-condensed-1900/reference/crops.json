@@ -1,0 +1,1665 @@
+{
+  "schema_version": 1,
+  "method": "Verify the native source hash, convert to RGB, apply the recorded exact clockwise quarter-turn, crop in that oriented frame and resize four times using Pillow LANCZOS. No drawn detail.",
+  "crops": [
+    {
+      "id": "condensed-8-byu-00-20",
+      "file": "reference/crops/condensed-8-byu-00-20.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1416,
+        3448,
+        1463,
+        3509
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        188,
+        244
+      ],
+      "pixel_sha256": "4b5989f44af17365be47db9b715f90ea979dc6a63a8944fdd2904ae05748a6eb",
+      "file_sha256": "e6c8bdb05595bd2535dff29d1586baf4540848c608b72c6545a1fa01098496aa"
+    },
+    {
+      "id": "condensed-8-byu-01-12",
+      "file": "reference/crops/condensed-8-byu-01-12.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1151,
+        3558,
+        1197,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        184,
+        252
+      ],
+      "pixel_sha256": "97da21035e428b1093dbc0f76d8da3d2e842dbc367a55c870c33398f8aa3e930",
+      "file_sha256": "99c5678d5a299739f89443aa354ca73650929df07ff34cdd038c895ee76bc51b"
+    },
+    {
+      "id": "condensed-8-ny-00-10",
+      "file": "reference/crops/condensed-8-ny-00-10.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        836,
+        3658,
+        863,
+        3698
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        160
+      ],
+      "pixel_sha256": "ffcd8560ea629d46974ff19fedfa767e415d286ff017ef1897836543b7f577d9",
+      "file_sha256": "bb86434776389e62cc0f5a0e7fe992a6af0d5d417ea0b8db6bb49723d3a54ce9"
+    },
+    {
+      "id": "condensed-8-byu-01-34",
+      "file": "reference/crops/condensed-8-byu-01-34.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        2133,
+        3556,
+        2179,
+        3619
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        184,
+        252
+      ],
+      "pixel_sha256": "0d797d9149dd70c4bb430e597a468f3e89548ba2fdb9da187d7049a3f0c560a5",
+      "file_sha256": "11021a69adb5b85bb83c78aec9b0de048d0ec2b7313e9380cea5a7a8df4324b2"
+    },
+    {
+      "id": "condensed-8-byu-00-12",
+      "file": "reference/crops/condensed-8-byu-00-12.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        986,
+        3446,
+        1030,
+        3511
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        176,
+        260
+      ],
+      "pixel_sha256": "344199c3eef36fb69202fcb9f9fb7979142f15d92b98be29019902d2f7acbaa1",
+      "file_sha256": "fb290e09a65a62203145f5a4608e32a504b2d3223dc046d5826b405d511e7f6f"
+    },
+    {
+      "id": "condensed-8-byu-00-05",
+      "file": "reference/crops/condensed-8-byu-00-05.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        616,
+        3446,
+        658,
+        3508
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        168,
+        248
+      ],
+      "pixel_sha256": "d0960f9edb3048692b37195af01badf315b20935a0e6af3496baf71c2125d609",
+      "file_sha256": "21cdedb36b6d08c5613a4be0ff22ababa0b3fefa1262ba732baf309539197fbf"
+    },
+    {
+      "id": "condensed-8-pacific-00-17",
+      "file": "reference/crops/condensed-8-pacific-00-17.png",
+      "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+      "native_box": [
+        1613,
+        3980,
+        1656,
+        4036
+      ],
+      "native_rotation_clockwise": 270,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        172,
+        224
+      ],
+      "pixel_sha256": "47a55cce7c351183a576802aa96c916c022cd3862bfaa690e1eeaa1483c29c74",
+      "file_sha256": "ead5cbd969a700d01e00c36184cdc3906b78050d09102e70b0a849d07bedd1ce"
+    },
+    {
+      "id": "condensed-8-byu-00-02",
+      "file": "reference/crops/condensed-8-byu-00-02.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        500,
+        3447,
+        547,
+        3509
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        188,
+        248
+      ],
+      "pixel_sha256": "16873bc710a6b2e83b2378f08e4c7beb79eba393c02c2135b3537f7e27fbcc20",
+      "file_sha256": "3e87f3e0cfe4923c6047e9a125d8c7bac6ed38a3056a6014dad810cb1a97b817"
+    },
+    {
+      "id": "condensed-8-byu-00-04",
+      "file": "reference/crops/condensed-8-byu-00-04.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        592,
+        3447,
+        615,
+        3509
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        248
+      ],
+      "pixel_sha256": "36a18290118526ddfc9f7d133176c5f31b0d5cbdb69878f7a245336297c8e8e2",
+      "file_sha256": "ad501713c5c35aa9975fedf5eb10d4e56df1da15260dc9a5bb3bcf7b8593a35f"
+    },
+    {
+      "id": "condensed-8-U-10",
+      "file": "reference/crops/condensed-8-U-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        347,
+        1322,
+        375,
+        1372
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        112,
+        200
+      ],
+      "pixel_sha256": "f4dd65c9863333b7d152cb56435e946b279044e740c7b4ce65b00eb66b182748",
+      "file_sha256": "920fb9b9fee3433ac23ebd4470e98231895158d88e7bf0f1c9807f2174e15375"
+    },
+    {
+      "id": "condensed-8-U-11",
+      "file": "reference/crops/condensed-8-U-11.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        375,
+        1322,
+        410,
+        1372
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        200
+      ],
+      "pixel_sha256": "84d64f9d30cdafeea46fdbb0eb075da4f18a9762f376a2341a93b339fd65bb53",
+      "file_sha256": "e6add37f37476c13d49cc8290d79e0abf6b17f8035249ab0888d4b4766683b66"
+    },
+    {
+      "id": "condensed-8-ny-00-12",
+      "file": "reference/crops/condensed-8-ny-00-12.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        889,
+        3659,
+        916,
+        3699
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        160
+      ],
+      "pixel_sha256": "d56de9988c21f9cbbe90ae6ba99934b5504b4756becd8e4fb56505ac505e12db",
+      "file_sha256": "8523d3b32ec9a91f015c6c05f54f9c3454d9e9c1c330fc08253c776de7424ccc"
+    },
+    {
+      "id": "condensed-8-byu-00-11",
+      "file": "reference/crops/condensed-8-byu-00-11.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        927,
+        3447,
+        986,
+        3509
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        236,
+        248
+      ],
+      "pixel_sha256": "4e6b92a527a2f6629a51277716192ce3e74c867bfcc69c944d9d5d49b742f8cf",
+      "file_sha256": "22cb5d6352a4886a802f3dad5133c6f1c465488190b9a2b8b6d7deb731a50d54"
+    },
+    {
+      "id": "condensed-8-byu-00-33",
+      "file": "reference/crops/condensed-8-byu-00-33.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        2099,
+        3445,
+        2146,
+        3506
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        188,
+        244
+      ],
+      "pixel_sha256": "9116401552a4ef6ebc04611246078a7af9919f427d3777cdf6fbb23c10d4b2ae",
+      "file_sha256": "43da061a48d10216ae1e0ba10f2dbcc712e3969fe1baa91e96a5f33a5e02b8ea"
+    },
+    {
+      "id": "condensed-8-byu-00-07",
+      "file": "reference/crops/condensed-8-byu-00-07.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        736,
+        3447,
+        782,
+        3510
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        184,
+        252
+      ],
+      "pixel_sha256": "d288aac47908eaf8923ca9ed169798040441769a47bc4b121d7d4c4eef4617dd",
+      "file_sha256": "b928587e1600ec1252b4a3239cb02cb8bc504e84a8a9b2c7734fc8a51e7dcf35"
+    },
+    {
+      "id": "condensed-8-byu-00-26",
+      "file": "reference/crops/condensed-8-byu-00-26.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1727,
+        3445,
+        1771,
+        3508
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        176,
+        252
+      ],
+      "pixel_sha256": "5382c4954f00ca49478b11b3bb9a1c1bc95356e5db85725c11dfde339b6eb0d1",
+      "file_sha256": "f2723e42f8f4c00b23b122bf577022bb42ea6d3821b1bff4509fc80d636208d4"
+    },
+    {
+      "id": "condensed-8-U-17",
+      "file": "reference/crops/condensed-8-U-17.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        587,
+        1322,
+        621,
+        1382
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        240
+      ],
+      "pixel_sha256": "6b1dd7711e92769ab9c5ca5794cb328d35710198f640ff891a343d81fed3920e",
+      "file_sha256": "4a2b3c1a94c397acb9efdef080141fd134084b4d96942eaf0b98b7cd29ee0f42"
+    },
+    {
+      "id": "condensed-8-byu-00-03",
+      "file": "reference/crops/condensed-8-byu-00-03.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        549,
+        3447,
+        594,
+        3513
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        264
+      ],
+      "pixel_sha256": "637280491164e749d0562190037a3b85a17b0200d9a2f32c044d7762a0bc00c9",
+      "file_sha256": "8dc966d6f3698d4e9e175792cc3f112fe5aa74e93261544a52f605664df5adf2"
+    },
+    {
+      "id": "condensed-8-byu-01-26",
+      "file": "reference/crops/condensed-8-byu-01-26.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1808,
+        3558,
+        1850,
+        3619
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        168,
+        244
+      ],
+      "pixel_sha256": "2d007b2f7df642e0ff446a7e43dccacf6a41086a0ebdd1617252ac6df7886201",
+      "file_sha256": "58756e5401ebe95fda76899ae3c2edbb27ce910fd21487c58e89cdbdc5211eb8"
+    },
+    {
+      "id": "condensed-8-ny-00-03",
+      "file": "reference/crops/condensed-8-ny-00-03.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        653,
+        3656,
+        681,
+        3696
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        112,
+        160
+      ],
+      "pixel_sha256": "a8bf18c47be401ea17e535f89957c1280f8f2fbe4b076d24e1a576a7bd1b913e",
+      "file_sha256": "b2aa9d1ee9536c307d911a32614ec85cddcf588f1d0b5e6d62b3f5ea31d0e6cb"
+    },
+    {
+      "id": "condensed-8-byu-00-31",
+      "file": "reference/crops/condensed-8-byu-00-31.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1992,
+        3445,
+        2037,
+        3508
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        252
+      ],
+      "pixel_sha256": "15538ef79b7aca0a60be3bdf06784c05038806c13a01ed766198d014928d7a5d",
+      "file_sha256": "310b5504af2329b946a01c548457c1354b6507368886c03003b89bd085861c7e"
+    },
+    {
+      "id": "condensed-8-U-22",
+      "file": "reference/crops/condensed-8-U-22.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        750,
+        1323,
+        784,
+        1371
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        192
+      ],
+      "pixel_sha256": "58ac3febe1290866fbc7f5ebd6b2f2fdd689da8bb6af573fd5d52ecf7ba56464",
+      "file_sha256": "4a446f31433777012089c9c129e53124055fd8b9be52333bc31eebdef4db7819"
+    },
+    {
+      "id": "condensed-8-byu-00-13",
+      "file": "reference/crops/condensed-8-byu-00-13.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1066,
+        3447,
+        1133,
+        3509
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        268,
+        248
+      ],
+      "pixel_sha256": "45f682a6c005c0030cac83b9116b3f07de01e0ac0b5fce3d3a33bbb4ba753b9e",
+      "file_sha256": "8304db944e6e179f6caeb096223c362f526e96146315d10616e008f10ab90a6f"
+    },
+    {
+      "id": "condensed-8-U-24",
+      "file": "reference/crops/condensed-8-U-24.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        835,
+        1322,
+        869,
+        1371
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        196
+      ],
+      "pixel_sha256": "0eaadf5ce51ab4a35fd8178601272a684251c738c2572d6ad3958edd9c71a250",
+      "file_sha256": "4c02c7691cf5251bc99a192cc20221458efda6036ef78c8d0ce7889b0b9ce6d6"
+    },
+    {
+      "id": "condensed-8-byu-00-23",
+      "file": "reference/crops/condensed-8-byu-00-23.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1546,
+        3446,
+        1593,
+        3508
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        188,
+        248
+      ],
+      "pixel_sha256": "26e0fc1c84ce75a92fd3928977d02a56d32eafca9d49901fafb129ddfb6090f3",
+      "file_sha256": "fbdcac4df624253c1b1a90f8b5739bc8a2350cd222bf3dcdb25ec5b1e2242af5"
+    },
+    {
+      "id": "condensed-8-U-26",
+      "file": "reference/crops/condensed-8-U-26.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        903,
+        1322,
+        935,
+        1373
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        128,
+        204
+      ],
+      "pixel_sha256": "f98b4807006398b0b64c7c4d0abd5189eec4f5f5b84c2fdced699027ecda7e13",
+      "file_sha256": "2c944934ab48ca8aa5585702348d5dd40ddc5ca07a347f7c62e8366df7ed6563"
+    },
+    {
+      "id": "condensed-8-byu-01-05",
+      "file": "reference/crops/condensed-8-byu-01-05.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        857,
+        3574,
+        897,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        188
+      ],
+      "pixel_sha256": "b379d04fa98d2ea8674979047e4122331ae7cd0c808cf8bd7bdd73dd1cdf0c4c",
+      "file_sha256": "caeb50fa7ef3e5a580b47667f72e760231f59f330b4d0c9f3186cf9f7d7663f1"
+    },
+    {
+      "id": "condensed-8-ny-01-33",
+      "file": "reference/crops/condensed-8-ny-01-33.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        1179,
+        3729,
+        1203,
+        3767
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        152
+      ],
+      "pixel_sha256": "c0ae23bcfc50de6994ae91b709a7f876d3fd80a3554087d0dddedf45b01c274f",
+      "file_sha256": "2526425ad9a5e71a5ccfd5e6216b1a47ddb664ee9183d1efab528f5a760b0f2b"
+    },
+    {
+      "id": "condensed-8-ny-01-26",
+      "file": "reference/crops/condensed-8-ny-01-26.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        1031,
+        3736,
+        1053,
+        3766
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        88,
+        120
+      ],
+      "pixel_sha256": "31f772d689797a57b21b4de51f754ad25310470a1112a84cbe78b996b5dfc5e7",
+      "file_sha256": "ff1b1c54964c72385736bdcd1ea4569b1580278696a42de88283c25be42798bc"
+    },
+    {
+      "id": "condensed-8-byu-01-17",
+      "file": "reference/crops/condensed-8-byu-01-17.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1344,
+        3560,
+        1381,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        244
+      ],
+      "pixel_sha256": "9c5644744695ea348a72257de2624fc9f7414f5e8c8a928597ffbc0f4d038733",
+      "file_sha256": "676a752a634842ce8a4a248c7f31add698e62db28659a94ae830ea40705faeaa"
+    },
+    {
+      "id": "condensed-8-byu-01-13",
+      "file": "reference/crops/condensed-8-byu-01-13.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1197,
+        3574,
+        1231,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        188
+      ],
+      "pixel_sha256": "014bfbfb38ae1916741e06db20a48805abfaa934feb5989b91d86f869fa7efeb",
+      "file_sha256": "355490a1bcba1dcb61ac14f5b0dfae78a3d88da806910839d19168209abfeeaa"
+    },
+    {
+      "id": "condensed-8-byu-01-09",
+      "file": "reference/crops/condensed-8-byu-01-09.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1043,
+        3559,
+        1070,
+        3620
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        244
+      ],
+      "pixel_sha256": "0e95c0ecd98a1b19fd832f62fe1b6c594f74652a8aaa6dd56dc9419f34a16e6f",
+      "file_sha256": "ced73717838295249645b7ea488395bdb340258e656cae5f0259e4d79452b910"
+    },
+    {
+      "id": "condensed-8-byu-01-29",
+      "file": "reference/crops/condensed-8-byu-01-29.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1925,
+        3573,
+        1963,
+        3633
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        240
+      ],
+      "pixel_sha256": "61979eda411b4dc2bd351fbdb4a3cad9a32f7d32ef72956bf9103696193b906f",
+      "file_sha256": "07c2aafcda5123493a94b620aa0a58450c0638e632defaca7e15c9c444251bfc"
+    },
+    {
+      "id": "condensed-8-ny-01-22",
+      "file": "reference/crops/condensed-8-ny-01-22.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        958,
+        3726,
+        981,
+        3765
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        156
+      ],
+      "pixel_sha256": "0b5e02378ff668c82d13694005d7f719312b0a83adfc6e8b30d2fc0a34dd2113",
+      "file_sha256": "2a3b1ba8ce694a9cb85ffb9f7056f53f82e9f46260809293a272ce8f499ab0d3"
+    },
+    {
+      "id": "condensed-8-byu-01-02",
+      "file": "reference/crops/condensed-8-byu-01-02.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        736,
+        3560,
+        757,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        84,
+        244
+      ],
+      "pixel_sha256": "c20ab7fdfecfce1c10035b5b2c1f4c47aa1b8f151dcd4b463a09445aa0f2cc2f",
+      "file_sha256": "f8799ce338b4d2e3b68f2474dbf9539b64e7a2a55d04aa6a0f3924958d28dc7a"
+    },
+    {
+      "id": "condensed-8-l-10",
+      "file": "reference/crops/condensed-8-l-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        1498,
+        1322,
+        1514,
+        1382
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        64,
+        240
+      ],
+      "pixel_sha256": "7041f0aa405321047bff40a2aa611e8d6a42f17cb643bdd801cfc8b09085c950",
+      "file_sha256": "947c633665c52b6aa81040df5928cf581adb160a494381ed166ee63b4f9cbb5b"
+    },
+    {
+      "id": "condensed-8-l-11",
+      "file": "reference/crops/condensed-8-l-11.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        1514,
+        1322,
+        1544,
+        1371
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        120,
+        196
+      ],
+      "pixel_sha256": "236ec15995fdec2f650921e54e6ccc6e7bfa61a2f5603f09667a4b2265353601",
+      "file_sha256": "90100a2733629f14f0b2ad9de2492244e0378df48a31aa4e4491b1d8a3a40708"
+    },
+    {
+      "id": "condensed-8-ny-01-07",
+      "file": "reference/crops/condensed-8-ny-01-07.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        624,
+        3723,
+        637,
+        3762
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        52,
+        156
+      ],
+      "pixel_sha256": "b4574a373a190e0e76a3a6fafa034f2ba340c0c54c00de2a72e65962afc9e15e",
+      "file_sha256": "deebfe31218ec7fce5a4ae801f534f55826442935f4c9e38e35d7f71f39487d4"
+    },
+    {
+      "id": "condensed-8-byu-01-38",
+      "file": "reference/crops/condensed-8-byu-01-38.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        2281,
+        3571,
+        2336,
+        3617
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        220,
+        184
+      ],
+      "pixel_sha256": "0b459a90d23953f4b6192404fa008f9be4ebfea08c729f499a615be0374a7c8c",
+      "file_sha256": "c5ad61fe5b293423e983e529d27ca46800f1d57f5d5d26fd11211795867bc08f"
+    },
+    {
+      "id": "condensed-8-ny-01-35",
+      "file": "reference/crops/condensed-8-ny-01-35.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        1222,
+        3738,
+        1247,
+        3768
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        120
+      ],
+      "pixel_sha256": "8e91d9e4eae528058aee08598f26cd5df71da3cddde632b52db5fd6e51ae73a4",
+      "file_sha256": "8731c0be5e584e91b37f587e86314ce11705a5d5e1e51073f97f7061005794df"
+    },
+    {
+      "id": "condensed-8-byu-01-08",
+      "file": "reference/crops/condensed-8-byu-01-08.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1006,
+        3574,
+        1044,
+        3620
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        184
+      ],
+      "pixel_sha256": "494f21320f460437409f2f2e2d517a74d8d309c74d9bdcd277cc252dba6d0065",
+      "file_sha256": "819a59982152f7d42797d81d188b21fc6405afb563a360b1298518fdd0aa3c60"
+    },
+    {
+      "id": "condensed-8-ny-01-21",
+      "file": "reference/crops/condensed-8-ny-01-21.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        935,
+        3736,
+        959,
+        3772
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        144
+      ],
+      "pixel_sha256": "d377fa047838619510341f1654dda08f6e79a363c389d7c5d0360194e516b011",
+      "file_sha256": "975a7881b0b17854d32529afb9d004eb88c88fd526d4e26218b995a14f389535"
+    },
+    {
+      "id": "condensed-8-l-17",
+      "file": "reference/crops/condensed-8-l-17.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        1684,
+        1332,
+        1712,
+        1381
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        112,
+        196
+      ],
+      "pixel_sha256": "cc1fa9a9ee837ff4cbb3ae29025ace0c03a7e5503d7622e056a574775e86b46c",
+      "file_sha256": "a4a8577680e4956f565d3430fcd791aa75d3efd7203b2720efbe46d258c5c344"
+    },
+    {
+      "id": "condensed-8-byu-01-07",
+      "file": "reference/crops/condensed-8-byu-01-07.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        978,
+        3575,
+        1010,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        128,
+        184
+      ],
+      "pixel_sha256": "8c63ed24cbb16f2ff9c49d6ae1775fd2f55ddd72e9a0fc8855f822f93709ae08",
+      "file_sha256": "506762e6e2a42720e33354e5b97e46b7b23a1d05f1f9e414b717c2ded6ef6219"
+    },
+    {
+      "id": "condensed-8-byu-01-24",
+      "file": "reference/crops/condensed-8-byu-01-24.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1705,
+        3574,
+        1739,
+        3620
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        184
+      ],
+      "pixel_sha256": "82d32da99af11dcba52fc096a0baa06c79ab1e8d2a65be6f0c1703ee7ed3246c",
+      "file_sha256": "e07183b6edfa365671718423bcb364c0183aac055197e6e27c7a20c8a9436d5e"
+    },
+    {
+      "id": "condensed-8-byu-01-03",
+      "file": "reference/crops/condensed-8-byu-01-03.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        756,
+        3561,
+        784,
+        3621
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        112,
+        240
+      ],
+      "pixel_sha256": "562dae63ddf046572c8e87f8ede13b83f5f36ebe1081043873a8f00f7b925db9",
+      "file_sha256": "96d2c558e34cfddafdb29c71e751999ce12c2100e297ff33e755bfbc5f6f7456"
+    },
+    {
+      "id": "condensed-8-byu-01-20",
+      "file": "reference/crops/condensed-8-byu-01-20.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1503,
+        3573,
+        1541,
+        3620
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        188
+      ],
+      "pixel_sha256": "4bbf71a1d17e601c63b66740e193b585f7a59f3bdbe00e21b491b9f890a241c9",
+      "file_sha256": "3c00b1a11b16f079f0b4a0e46ac10c7c97f1b38c4be3b04849666678e12c1f36"
+    },
+    {
+      "id": "condensed-8-ny-01-12",
+      "file": "reference/crops/condensed-8-ny-01-12.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        728,
+        3733,
+        753,
+        3763
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        120
+      ],
+      "pixel_sha256": "e998a54585d2700316d6e68a8c04aed4593409678d7b43d716db86bad3f03412",
+      "file_sha256": "bbbacf7cbe97656872a8b615208e71cb581974b1c20d116253a8d7b494caca67"
+    },
+    {
+      "id": "condensed-8-l-23",
+      "file": "reference/crops/condensed-8-l-23.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        1833,
+        1335,
+        1873,
+        1372
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        148
+      ],
+      "pixel_sha256": "cfec4b1abe84e242ce0a6d34b2b3e2886d0649c169040ce239a44e83dffa2a7f",
+      "file_sha256": "15413f20fccfbb2881468b232a40f54c98dca458d648a5872cb0cd6825cae6cc"
+    },
+    {
+      "id": "condensed-8-l-24",
+      "file": "reference/crops/condensed-8-l-24.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        1873,
+        1335,
+        1900,
+        1371
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        108,
+        144
+      ],
+      "pixel_sha256": "2ccc017c2908552cc19ceba8b7a7e04fb149c5f239741aecd527c013cc5a5851",
+      "file_sha256": "a8ef8e909dcc77fd25d539376b7ab5077aff25f6b0b7da68338cc0deb6d1c9eb"
+    },
+    {
+      "id": "condensed-8-byu-01-14",
+      "file": "reference/crops/condensed-8-byu-01-14.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1231,
+        3575,
+        1270,
+        3633
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        156,
+        232
+      ],
+      "pixel_sha256": "94e4704fafdca896cdd3eadadd06ac66e05865cb71cf085fd5476da8b0d1d516",
+      "file_sha256": "fe34e0d6d09d5567bf1b320c8e10e8dca1225dfcc5d42babb20c614bd303fcc6"
+    },
+    {
+      "id": "condensed-8-l-26",
+      "file": "reference/crops/condensed-8-l-26.png",
+      "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+      "native_box": [
+        1928,
+        1334,
+        1954,
+        1373
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        104,
+        156
+      ],
+      "pixel_sha256": "68d233f911e8cd01c64941bedfdc6c2280f7ee70973c2033744684071c466c06",
+      "file_sha256": "a1d4f5cf9371dfd121f34b6ea099185c483054e5f336845d019ddb2aa7d5bfd8"
+    },
+    {
+      "id": "condensed-8-ny-02-01",
+      "file": "reference/crops/condensed-8-ny-02-01.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        766,
+        3791,
+        781,
+        3830
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        60,
+        156
+      ],
+      "pixel_sha256": "3c1ee1aa23a74c4184d4ea5e593a4ff4b9429853540a321372db47ff861ffe43",
+      "file_sha256": "f64fa092242564a39eaff7853274ba82fefdff5d8460fb54eb2a63ee0a7eba05"
+    },
+    {
+      "id": "condensed-8-ny-02-02",
+      "file": "reference/crops/condensed-8-ny-02-02.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        790,
+        3790,
+        812,
+        3830
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        88,
+        160
+      ],
+      "pixel_sha256": "faa35ce4c75a4611e63023a933c9fbd51eb7c905eaa908a992dc5b0c17da382d",
+      "file_sha256": "6371a24286c72726f9dcf1843c5f96ca561a706659dd7a85106ed51479ac1c24"
+    },
+    {
+      "id": "condensed-8-ny-02-03",
+      "file": "reference/crops/condensed-8-ny-02-03.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        818,
+        3791,
+        841,
+        3831
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        160
+      ],
+      "pixel_sha256": "1e0fe363dc475b72f75127bf01c17123f1e379f3a76875d6d3175a2516e4934e",
+      "file_sha256": "6868d610ca27bbaec72c111195e5b9800e23b62bcecd2f931859d76be88fbd53"
+    },
+    {
+      "id": "condensed-8-ny-02-04",
+      "file": "reference/crops/condensed-8-ny-02-04.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        847,
+        3792,
+        870,
+        3831
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        156
+      ],
+      "pixel_sha256": "a0a7d3076982d836bf0b1457bcd24a27233be5bed1c9fceb65d5745f80700c57",
+      "file_sha256": "260f8f24a26c9c3d98f9b92d0c3405a37c2897a32d70775a138509917633f78a"
+    },
+    {
+      "id": "condensed-8-ny-02-05",
+      "file": "reference/crops/condensed-8-ny-02-05.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        875,
+        3792,
+        898,
+        3832
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        160
+      ],
+      "pixel_sha256": "4a951e3bc5474ed5a15490f90646e5702c82c4f7e043c1690c168d01e5c133aa",
+      "file_sha256": "533deb47f68fb9b2272be6d1a2c27146f6c0035577299bfdbe2fa4170e8de9d0"
+    },
+    {
+      "id": "condensed-8-ny-02-06",
+      "file": "reference/crops/condensed-8-ny-02-06.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        903,
+        3793,
+        927,
+        3832
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        156
+      ],
+      "pixel_sha256": "93bda669f90a06af271cfa3b9d1a01e10edb0d89b2e2fa1e4d076386adfa1a94",
+      "file_sha256": "0250fa816995f87284ba5da893b0be94ebd6ba410955d2db4a5295dfbe36bef2"
+    },
+    {
+      "id": "condensed-8-ny-02-07",
+      "file": "reference/crops/condensed-8-ny-02-07.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        932,
+        3792,
+        955,
+        3832
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        160
+      ],
+      "pixel_sha256": "c921bf16d90528100c2580731e721f6d631950cb889e46913f76405cba832895",
+      "file_sha256": "62750bd7576748b3648ff2e7fd963080b87da54a1e891a8f0250feb5b3a4f8c3"
+    },
+    {
+      "id": "condensed-8-ny-02-08",
+      "file": "reference/crops/condensed-8-ny-02-08.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        958,
+        3792,
+        982,
+        3832
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        160
+      ],
+      "pixel_sha256": "2476a02f9a50b4ecb2273dc2b5cd8900fb70e98b5a411e183368400ca19712bd",
+      "file_sha256": "82f1be12e74418e0f6a3e751a2d1a9a601b70643ff14ce1e8154ac4352b69ee8"
+    },
+    {
+      "id": "condensed-8-ny-02-09",
+      "file": "reference/crops/condensed-8-ny-02-09.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        987,
+        3793,
+        1011,
+        3833
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        160
+      ],
+      "pixel_sha256": "019fd9a46921ad17d4208ce788d67ace0bc7d9c8a8a7e657e53f2ec6acff5b49",
+      "file_sha256": "2ed1a7e7cb91eeb8b6728cbf59bb7e6833c32f5dee244633a2a10da8ae0b196b"
+    },
+    {
+      "id": "condensed-8-ny-02-10",
+      "file": "reference/crops/condensed-8-ny-02-10.png",
+      "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+      "native_box": [
+        1015,
+        3793,
+        1039,
+        3833
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        96,
+        160
+      ],
+      "pixel_sha256": "65d7114f6435130d7f25a3fd99cc8ee9eceb007121c2c641df1512f14d8e6435",
+      "file_sha256": "4b397a7ee24a44be02150e899465d993c3775e4229ee5fe4791bb4acdfac405f"
+    },
+    {
+      "id": "condensed-8-byu-00-18",
+      "file": "reference/crops/condensed-8-byu-00-18.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1326,
+        3447,
+        1373,
+        3509
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        188,
+        248
+      ],
+      "pixel_sha256": "ce15acd32304a4946ea77ecc0dd5b38c3fc8bf6f1b43fc98d7840001d59b9f56",
+      "file_sha256": "cf89c879a60d00e50de3f4070f1fea6ff786b3684518ea95b8a3a75b6b3c5cba"
+    },
+    {
+      "id": "poster-8-handy-01-48",
+      "file": "reference/crops/poster-8-handy-01-48.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        868,
+        1819,
+        876,
+        1834
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        32,
+        60
+      ],
+      "pixel_sha256": "d5ad487ca295b30d58eba7d3660d75bd2d88732baa24149d75292a02cbdf750f",
+      "file_sha256": "cef69661a8699bc23871f818c82e59647d134947bba877ca08837e900d4b3d1c"
+    },
+    {
+      "id": "poster-8-handy-01-69",
+      "file": "reference/crops/poster-8-handy-01-69.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        1207,
+        1812,
+        1217,
+        1822
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        40,
+        40
+      ],
+      "pixel_sha256": "515b471b1387d01b5ed9e5c93f2ad74bac92b14763814dcf469f73a0d346400a",
+      "file_sha256": "f73270d51acc55c5988b7f3e59dcfd5350c2a891358a3ffd2920e9e4c74d39e7"
+    },
+    {
+      "id": "poster-8-handy-02-05",
+      "file": "reference/crops/poster-8-handy-02-05.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        188,
+        1848,
+        204,
+        1863
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        64,
+        60
+      ],
+      "pixel_sha256": "7a2516cec9a6e1b54cf2d35e699fa8e28710b50847e5aa21206c5c9b67409cea",
+      "file_sha256": "a105622aa1461fbab94c9375b57625da6c417e2a1b5a06f9989b5f135950ece2"
+    },
+    {
+      "id": "poster-8-handy-02-17",
+      "file": "reference/crops/poster-8-handy-02-17.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        388,
+        1844,
+        404,
+        1858
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        64,
+        56
+      ],
+      "pixel_sha256": "c26f241ca816e042db7152cb62f6690aece73be00319ee664c45afdef0efd258",
+      "file_sha256": "ec3c8cb1a5f8ab786f9ee2fdf3e61344842920d55e84d72a63ca180b2ffc9064"
+    },
+    {
+      "id": "poster-8-handy-04-26",
+      "file": "reference/crops/poster-8-handy-04-26.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        569,
+        1925,
+        584,
+        1957
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        60,
+        128
+      ],
+      "pixel_sha256": "01524afb0cf9c0c607d3f4f5aaa2c1d2d5d4f6b569dd15d8cc5085fc2f760512",
+      "file_sha256": "6409499fb19fb8548ab6398b7670a5c17724984b2167885d37f6fedf6c4296a6"
+    },
+    {
+      "id": "poster-8-handy-04-52",
+      "file": "reference/crops/poster-8-handy-04-52.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        987,
+        1942,
+        995,
+        1952
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        32,
+        40
+      ],
+      "pixel_sha256": "23afe993f32cf0bab69a973eabba824101481d3861a534883416710d0adbb6bc",
+      "file_sha256": "e20ddc7d4532e5692c11eaf7399fb6d74068e96f88a15cc7cf30986ed737422f"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-02",
+      "file": "reference/crops/fraction-condensed-8-handy360-02.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        294,
+        2017,
+        313,
+        2049
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        128
+      ],
+      "pixel_sha256": "7a46c4612d8360203d3654b98f18e3324dab64188eb242cabb8804c9adf05206",
+      "file_sha256": "18a94d622dc784156773a3e3b215a1bce7cf5244459ebac637d6a6cf4afd1bd4"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-03",
+      "file": "reference/crops/fraction-condensed-8-handy360-03.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        327,
+        2017,
+        346,
+        2049
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        128
+      ],
+      "pixel_sha256": "c5b56b35f180810c0264892384eaf421a7c755a19fc87b209344eb33224b2ae5",
+      "file_sha256": "f619e865342ca0a9ac27e83d396e010da6d6fc9778156d3f34ccc68a46783eb0"
+    },
+    {
+      "id": "fraction-condensed-8-handy59-02",
+      "file": "reference/crops/fraction-condensed-8-handy59-02.png",
+      "native_file": "reference/atf-handy-1897-leaf-59.jp2",
+      "native_box": [
+        998,
+        1520,
+        1018,
+        1552
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        80,
+        128
+      ],
+      "pixel_sha256": "94d12f327f6d0aec462933b3d99147baf2c28fa0bb828df9c48d8c97c2f092f5",
+      "file_sha256": "18a3ed51067547dbe392548b8ed98eca6ea44863e6b129764df6c43b81232f4f"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-00",
+      "file": "reference/crops/fraction-condensed-8-handy360-00.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        228,
+        2017,
+        247,
+        2049
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        128
+      ],
+      "pixel_sha256": "2d09c264bba32897bd82d2039ab02a43e0f7e2ea60609e406448dd9937d9b83b",
+      "file_sha256": "e76547d98561dcf58c4eb86d0bbb714441203e3972141437ea119f05b57c8730"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-01",
+      "file": "reference/crops/fraction-condensed-8-handy360-01.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        261,
+        2017,
+        280,
+        2049
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        128
+      ],
+      "pixel_sha256": "97c22dcb4e5cf0156ecd0804065a07c0b3c9058dfa37e10f6a85b779d58e463c",
+      "file_sha256": "231269051c48e3f999371b8c8179ed1297b0a3b8d2f2449a8d078e96de063af6"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-14",
+      "file": "reference/crops/fraction-condensed-8-handy360-14.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        1130,
+        2015,
+        1149,
+        2046
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        124
+      ],
+      "pixel_sha256": "0a90dbfed2a199153b67cc35165b86d803a13847fb2ee20d3a2778c20c7d94e0",
+      "file_sha256": "d5b4bda3b89e934d08dd12c4812201b47dff3b624c55136b55c81991654cb73c"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-15",
+      "file": "reference/crops/fraction-condensed-8-handy360-15.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        1163,
+        2014,
+        1183,
+        2046
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        80,
+        128
+      ],
+      "pixel_sha256": "e2d19dcd61c2960a83c8933cd1f5c8b6f115204097960a3c366fa66022748567",
+      "file_sha256": "0b7eae05fd0e16d2471ce6b417f01da25c7d76ec8311af3776cab287c0ce516a"
+    },
+    {
+      "id": "fraction-condensed-8-handy360-16",
+      "file": "reference/crops/fraction-condensed-8-handy360-16.png",
+      "native_file": "reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        1195,
+        2015,
+        1214,
+        2046
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        76,
+        124
+      ],
+      "pixel_sha256": "e188d3d981e971f190eb0af69befb1b7f6089dc9a526efb34c02a33b18125411",
+      "file_sha256": "5e1689ac5488e185804e3740d2b4440d7f891031fe179cc821b8d23f8126a992"
+    },
+    {
+      "id": "poster-10-handy-01-64",
+      "file": "source/specimen-cuts/de-vinne-condensed-10pt-1900/reference/crops/poster-10-handy-01-64.png",
+      "native_file": "source/specimen-cuts/de-vinne-condensed-10pt-1900/reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        1372,
+        1360,
+        1380,
+        1374
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        32,
+        56
+      ],
+      "pixel_sha256": "7a8827c7cd14a05714a3eec807fed1ba108eae1f3c94cd3490826ebd898c7a80",
+      "file_sha256": "38da4949c495d0d7694778be99345576a2601719642d7da8d7e86b76fa8963e6"
+    },
+    {
+      "id": "fraction-condensed-10-handy360-17",
+      "file": "source/specimen-cuts/de-vinne-condensed-10pt-1900/reference/crops/fraction-condensed-10-handy360-17.png",
+      "native_file": "source/specimen-cuts/de-vinne-condensed-10pt-1900/reference/atf-handy-1897-leaf-360.jp2",
+      "native_box": [
+        1236,
+        1562,
+        1258,
+        1598
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        88,
+        144
+      ],
+      "pixel_sha256": "f7a44e74f39d1299a7b6d7a918fcbb181b00cb08d107e3f01f137b7223394209",
+      "file_sha256": "adafe3e1a8c91b4eeb908d9e59ce5b83f607b9bb07bf17c9c699838177783a05"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "coverage": {
+    "visible_observed": 37,
+    "encoded_with_space": 38,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "digits": "0123456789",
+    "punctuation": ".",
+    "inferred_visible": 0
+  },
+  "identity": "Compared with twelve point, K is about 10–14% narrower while L is about 17–21% wider in 1897 and census specimens at thresholds 185/205. The recurring cross-book differences also distinguish ten point from the smaller cuts.",
+  "selected_characters_by_source": {
+    "reference/leaf-3.jp2": "ABCDEFGHIJKLMNOPQSTUVWXY09",
+    "reference/gpo-job-1897-leaf-59.jp2": "RZ12345678",
+    "reference/gpo-document-1904-leaf-83.jp2": "."
+  },
+  "threshold_characters": {
+    "185": "AJMUVWZ013456.",
+    "195": "BIQ2789",
+    "175": "CDEFGHKLNOPRSTXY"
+  },
+  "visual_review": "All 37 visible native crops and final silhouettes reviewed at 185 and 32 pixels, and words at 16/24/40/64/96 pixels. Four final trial sheets, seven threshold sheets, all native cross-book comparisons and the full 36-character twelve-point comparison inspected. The complete figure 4 diagonal, figure 6/8/9 bowls, Q/R tails and serif terminals are retained.",
+  "source_choices": "Census A–Y except R supply the capitals; R/Z and figures 1–8 use matching 1897 impressions. The census supplies 0/9 absent from the 1897 sample. The period is doc10-26. Four source books are retained, with three supplying traced forms.",
+  "rejected_trials": [
+    "The initial general threshold 200 added excess scan fringe. Most capitals now use 175, with individual thresholds 185/195 where needed to preserve the printed terminals and serifs.",
+    "Lower thresholds shorten the B foot and Q tail. Figure 4 loses its diagonal at 175, figure 6 loses its bowl join at 175, figure 8 loses bowl joins at 175, and census 9 remains open at 185. Figure 2 needs 195 for the fuller foot terminal and figure 7 for its left beak."
+  ],
+  "geometry": "Uniform measured cap scale and rigid source-row rotation. Separate figure groups use local baselines from 1/4/7 at the same physical scale. No independent width fitting, hole filling or drawn replacement strokes.",
+  "native_limitations": "Minor printed irregularities remain, including the H crossbar join, small figure 6 terminal and Q tail. The recorded outline follows the selected native evidence without analytic repairs."
+}

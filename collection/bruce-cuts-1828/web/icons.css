@@ -1,0 +1,1002 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-bruce-1828-p237-cut-106 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p237-cut-106::before { content: "\E000"; }
+.fr-bruce-1828-p237-cut-126 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p237-cut-126::before { content: "\E001"; }
+.fr-bruce-1828-p237-cut-132 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p237-cut-132::before { content: "\E002"; }
+.fr-bruce-1828-p237-cut-151 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p237-cut-151::before { content: "\E003"; }
+.fr-bruce-1828-p237-cut-163 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p237-cut-163::before { content: "\E004"; }
+.fr-bruce-1828-p237-cut-164 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p237-cut-164::before { content: "\E005"; }
+.fr-bruce-1828-p239-cut-202 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-202::before { content: "\E006"; }
+.fr-bruce-1828-p239-cut-204 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-204::before { content: "\E007"; }
+.fr-bruce-1828-p239-cut-205 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-205::before { content: "\E008"; }
+.fr-bruce-1828-p239-cut-208 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-208::before { content: "\E009"; }
+.fr-bruce-1828-p239-cut-210 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-210::before { content: "\E00A"; }
+.fr-bruce-1828-p239-cut-212 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-212::before { content: "\E00B"; }
+.fr-bruce-1828-p239-cut-215 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-215::before { content: "\E00C"; }
+.fr-bruce-1828-p239-cut-217 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-217::before { content: "\E00D"; }
+.fr-bruce-1828-p239-cut-218 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-218::before { content: "\E00E"; }
+.fr-bruce-1828-p239-cut-219 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-219::before { content: "\E00F"; }
+.fr-bruce-1828-p239-cut-220 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-220::before { content: "\E010"; }
+.fr-bruce-1828-p239-cut-221 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-221::before { content: "\E011"; }
+.fr-bruce-1828-p239-cut-222 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-222::before { content: "\E012"; }
+.fr-bruce-1828-p239-cut-223 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p239-cut-223::before { content: "\E013"; }
+.fr-bruce-1828-p241-cut-225 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-225::before { content: "\E014"; }
+.fr-bruce-1828-p241-cut-226 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-226::before { content: "\E015"; }
+.fr-bruce-1828-p241-cut-227 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-227::before { content: "\E016"; }
+.fr-bruce-1828-p241-cut-228 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-228::before { content: "\E017"; }
+.fr-bruce-1828-p241-cut-229 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-229::before { content: "\E018"; }
+.fr-bruce-1828-p241-cut-230 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-230::before { content: "\E019"; }
+.fr-bruce-1828-p241-cut-231 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-231::before { content: "\E01A"; }
+.fr-bruce-1828-p241-cut-232 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-232::before { content: "\E01B"; }
+.fr-bruce-1828-p241-cut-233 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-233::before { content: "\E01C"; }
+.fr-bruce-1828-p241-cut-234 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-234::before { content: "\E01D"; }
+.fr-bruce-1828-p241-cut-235 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-235::before { content: "\E01E"; }
+.fr-bruce-1828-p241-cut-236 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-236::before { content: "\E01F"; }
+.fr-bruce-1828-p241-cut-237 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-237::before { content: "\E020"; }
+.fr-bruce-1828-p241-cut-238 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-238::before { content: "\E021"; }
+.fr-bruce-1828-p241-cut-239 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-239::before { content: "\E022"; }
+.fr-bruce-1828-p241-cut-240 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-240::before { content: "\E023"; }
+.fr-bruce-1828-p241-cut-241 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-241::before { content: "\E024"; }
+.fr-bruce-1828-p241-cut-242 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-242::before { content: "\E025"; }
+.fr-bruce-1828-p241-cut-243 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-243::before { content: "\E026"; }
+.fr-bruce-1828-p241-cut-244 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-244::before { content: "\E027"; }
+.fr-bruce-1828-p241-cut-245 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-245::before { content: "\E028"; }
+.fr-bruce-1828-p241-cut-246 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-246::before { content: "\E029"; }
+.fr-bruce-1828-p241-cut-247 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p241-cut-247::before { content: "\E02A"; }
+.fr-bruce-1828-p243-cut-248 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-248::before { content: "\E02B"; }
+.fr-bruce-1828-p243-cut-249 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-249::before { content: "\E02C"; }
+.fr-bruce-1828-p243-cut-250 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-250::before { content: "\E02D"; }
+.fr-bruce-1828-p243-cut-270 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-270::before { content: "\E02E"; }
+.fr-bruce-1828-p243-cut-280 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-280::before { content: "\E02F"; }
+.fr-bruce-1828-p243-cut-281 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-281::before { content: "\E030"; }
+.fr-bruce-1828-p243-cut-284 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-284::before { content: "\E031"; }
+.fr-bruce-1828-p243-cut-285 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-285::before { content: "\E032"; }
+.fr-bruce-1828-p243-cut-289 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-289::before { content: "\E033"; }
+.fr-bruce-1828-p243-cut-290 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-290::before { content: "\E034"; }
+.fr-bruce-1828-p243-cut-291 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p243-cut-291::before { content: "\E035"; }
+.fr-bruce-1828-p245-cut-292 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-292::before { content: "\E036"; }
+.fr-bruce-1828-p245-cut-293 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-293::before { content: "\E037"; }
+.fr-bruce-1828-p245-cut-294 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-294::before { content: "\E038"; }
+.fr-bruce-1828-p245-cut-295 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-295::before { content: "\E039"; }
+.fr-bruce-1828-p245-cut-296 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-296::before { content: "\E03A"; }
+.fr-bruce-1828-p245-cut-297 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-297::before { content: "\E03B"; }
+.fr-bruce-1828-p245-cut-298 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-298::before { content: "\E03C"; }
+.fr-bruce-1828-p245-cut-299 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-299::before { content: "\E03D"; }
+.fr-bruce-1828-p245-cut-300 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-300::before { content: "\E03E"; }
+.fr-bruce-1828-p245-cut-301 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-301::before { content: "\E03F"; }
+.fr-bruce-1828-p245-cut-302 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-302::before { content: "\E040"; }
+.fr-bruce-1828-p245-cut-303 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-303::before { content: "\E041"; }
+.fr-bruce-1828-p245-cut-304 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-304::before { content: "\E042"; }
+.fr-bruce-1828-p245-cut-305 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-305::before { content: "\E043"; }
+.fr-bruce-1828-p245-cut-306 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-306::before { content: "\E044"; }
+.fr-bruce-1828-p245-cut-307 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-307::before { content: "\E045"; }
+.fr-bruce-1828-p245-cut-308 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-308::before { content: "\E046"; }
+.fr-bruce-1828-p245-cut-309 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-309::before { content: "\E047"; }
+.fr-bruce-1828-p245-cut-310 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-310::before { content: "\E048"; }
+.fr-bruce-1828-p245-cut-311 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-311::before { content: "\E049"; }
+.fr-bruce-1828-p245-cut-312 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-312::before { content: "\E04A"; }
+.fr-bruce-1828-p245-cut-313 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-313::before { content: "\E04B"; }
+.fr-bruce-1828-p245-cut-314 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-314::before { content: "\E04C"; }
+.fr-bruce-1828-p245-cut-315 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-315::before { content: "\E04D"; }
+.fr-bruce-1828-p245-cut-316 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-316::before { content: "\E04E"; }
+.fr-bruce-1828-p245-cut-317 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-317::before { content: "\E04F"; }
+.fr-bruce-1828-p245-cut-318 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p245-cut-318::before { content: "\E050"; }
+.fr-bruce-1828-p247-cut-322 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p247-cut-322::before { content: "\E051"; }
+.fr-bruce-1828-p247-cut-355 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p247-cut-355::before { content: "\E052"; }
+.fr-bruce-1828-p247-cut-359 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p247-cut-359::before { content: "\E053"; }
+.fr-bruce-1828-p247-cut-364 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p247-cut-364::before { content: "\E054"; }
+.fr-bruce-1828-p249-cut-366 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-366::before { content: "\E055"; }
+.fr-bruce-1828-p249-cut-369 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-369::before { content: "\E056"; }
+.fr-bruce-1828-p249-cut-370 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-370::before { content: "\E057"; }
+.fr-bruce-1828-p249-cut-372 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-372::before { content: "\E058"; }
+.fr-bruce-1828-p249-cut-373 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-373::before { content: "\E059"; }
+.fr-bruce-1828-p249-cut-374 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-374::before { content: "\E05A"; }
+.fr-bruce-1828-p249-cut-375 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-375::before { content: "\E05B"; }
+.fr-bruce-1828-p249-cut-376 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-376::before { content: "\E05C"; }
+.fr-bruce-1828-p249-cut-377 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-377::before { content: "\E05D"; }
+.fr-bruce-1828-p249-cut-378 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-378::before { content: "\E05E"; }
+.fr-bruce-1828-p249-cut-379 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-379::before { content: "\E05F"; }
+.fr-bruce-1828-p249-cut-380 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-380::before { content: "\E060"; }
+.fr-bruce-1828-p249-cut-381 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-381::before { content: "\E061"; }
+.fr-bruce-1828-p249-cut-382 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-382::before { content: "\E062"; }
+.fr-bruce-1828-p249-cut-383 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-383::before { content: "\E063"; }
+.fr-bruce-1828-p249-cut-384 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-384::before { content: "\E064"; }
+.fr-bruce-1828-p249-cut-385 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-385::before { content: "\E065"; }
+.fr-bruce-1828-p249-cut-386 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-386::before { content: "\E066"; }
+.fr-bruce-1828-p249-cut-387 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-387::before { content: "\E067"; }
+.fr-bruce-1828-p249-cut-388 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-388::before { content: "\E068"; }
+.fr-bruce-1828-p249-cut-389 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p249-cut-389::before { content: "\E069"; }
+.fr-bruce-1828-p251-cut-390 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-390::before { content: "\E06A"; }
+.fr-bruce-1828-p251-cut-391 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-391::before { content: "\E06B"; }
+.fr-bruce-1828-p251-cut-393 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-393::before { content: "\E06C"; }
+.fr-bruce-1828-p251-cut-394 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-394::before { content: "\E06D"; }
+.fr-bruce-1828-p251-cut-395 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-395::before { content: "\E06E"; }
+.fr-bruce-1828-p251-cut-396 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-396::before { content: "\E06F"; }
+.fr-bruce-1828-p251-cut-397 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-397::before { content: "\E070"; }
+.fr-bruce-1828-p251-cut-398 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-398::before { content: "\E071"; }
+.fr-bruce-1828-p251-cut-399 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-399::before { content: "\E072"; }
+.fr-bruce-1828-p251-cut-400 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-400::before { content: "\E073"; }
+.fr-bruce-1828-p251-cut-401 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-401::before { content: "\E074"; }
+.fr-bruce-1828-p251-cut-402 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-402::before { content: "\E075"; }
+.fr-bruce-1828-p251-cut-403 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-403::before { content: "\E076"; }
+.fr-bruce-1828-p251-cut-404 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-404::before { content: "\E077"; }
+.fr-bruce-1828-p251-cut-405 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-405::before { content: "\E078"; }
+.fr-bruce-1828-p251-cut-406 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-406::before { content: "\E079"; }
+.fr-bruce-1828-p251-cut-407 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p251-cut-407::before { content: "\E07A"; }
+.fr-bruce-1828-p253-cut-408 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-408::before { content: "\E07B"; }
+.fr-bruce-1828-p253-cut-409 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-409::before { content: "\E07C"; }
+.fr-bruce-1828-p253-cut-410 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-410::before { content: "\E07D"; }
+.fr-bruce-1828-p253-cut-411 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-411::before { content: "\E07E"; }
+.fr-bruce-1828-p253-cut-412 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-412::before { content: "\E07F"; }
+.fr-bruce-1828-p253-cut-413 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-413::before { content: "\E080"; }
+.fr-bruce-1828-p253-cut-414 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-414::before { content: "\E081"; }
+.fr-bruce-1828-p253-cut-415 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-415::before { content: "\E082"; }
+.fr-bruce-1828-p253-cut-416 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-416::before { content: "\E083"; }
+.fr-bruce-1828-p253-cut-417 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-417::before { content: "\E084"; }
+.fr-bruce-1828-p253-cut-418 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-418::before { content: "\E085"; }
+.fr-bruce-1828-p253-cut-419 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-419::before { content: "\E086"; }
+.fr-bruce-1828-p253-cut-420 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-420::before { content: "\E087"; }
+.fr-bruce-1828-p253-cut-421 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-421::before { content: "\E088"; }
+.fr-bruce-1828-p253-cut-422 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-422::before { content: "\E089"; }
+.fr-bruce-1828-p253-cut-423 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p253-cut-423::before { content: "\E08A"; }
+.fr-bruce-1828-p255-cut-424 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-424::before { content: "\E08B"; }
+.fr-bruce-1828-p255-cut-425 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-425::before { content: "\E08C"; }
+.fr-bruce-1828-p255-cut-426 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-426::before { content: "\E08D"; }
+.fr-bruce-1828-p255-cut-427 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-427::before { content: "\E08E"; }
+.fr-bruce-1828-p255-cut-428 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-428::before { content: "\E08F"; }
+.fr-bruce-1828-p255-cut-429 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-429::before { content: "\E090"; }
+.fr-bruce-1828-p255-cut-430 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-430::before { content: "\E091"; }
+.fr-bruce-1828-p255-cut-431 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-431::before { content: "\E092"; }
+.fr-bruce-1828-p255-cut-432 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-432::before { content: "\E093"; }
+.fr-bruce-1828-p255-cut-455 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-455::before { content: "\E094"; }
+.fr-bruce-1828-p255-cut-456 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-456::before { content: "\E095"; }
+.fr-bruce-1828-p255-cut-457 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p255-cut-457::before { content: "\E096"; }
+.fr-bruce-1828-p257-cut-459 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-459::before { content: "\E097"; }
+.fr-bruce-1828-p257-cut-460 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-460::before { content: "\E098"; }
+.fr-bruce-1828-p257-cut-462 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-462::before { content: "\E099"; }
+.fr-bruce-1828-p257-cut-463 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-463::before { content: "\E09A"; }
+.fr-bruce-1828-p257-cut-464 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-464::before { content: "\E09B"; }
+.fr-bruce-1828-p257-cut-465 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-465::before { content: "\E09C"; }
+.fr-bruce-1828-p257-cut-466 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-466::before { content: "\E09D"; }
+.fr-bruce-1828-p257-cut-468 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-468::before { content: "\E09E"; }
+.fr-bruce-1828-p257-cut-470 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-470::before { content: "\E09F"; }
+.fr-bruce-1828-p257-cut-471 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-471::before { content: "\E0A0"; }
+.fr-bruce-1828-p257-cut-472 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-472::before { content: "\E0A1"; }
+.fr-bruce-1828-p257-cut-473 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-473::before { content: "\E0A2"; }
+.fr-bruce-1828-p257-cut-474 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-474::before { content: "\E0A3"; }
+.fr-bruce-1828-p257-cut-475 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-475::before { content: "\E0A4"; }
+.fr-bruce-1828-p257-cut-476 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-476::before { content: "\E0A5"; }
+.fr-bruce-1828-p257-cut-477 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-477::before { content: "\E0A6"; }
+.fr-bruce-1828-p257-cut-478 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-478::before { content: "\E0A7"; }
+.fr-bruce-1828-p257-cut-479 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-479::before { content: "\E0A8"; }
+.fr-bruce-1828-p257-cut-480 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-480::before { content: "\E0A9"; }
+.fr-bruce-1828-p257-cut-481 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-481::before { content: "\E0AA"; }
+.fr-bruce-1828-p257-cut-482 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p257-cut-482::before { content: "\E0AB"; }
+.fr-bruce-1828-p259-cut-484 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-484::before { content: "\E0AC"; }
+.fr-bruce-1828-p259-cut-488 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-488::before { content: "\E0AD"; }
+.fr-bruce-1828-p259-cut-490 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-490::before { content: "\E0AE"; }
+.fr-bruce-1828-p259-cut-492 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-492::before { content: "\E0AF"; }
+.fr-bruce-1828-p259-cut-493 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-493::before { content: "\E0B0"; }
+.fr-bruce-1828-p259-cut-497 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-497::before { content: "\E0B1"; }
+.fr-bruce-1828-p259-cut-498 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-498::before { content: "\E0B2"; }
+.fr-bruce-1828-p259-cut-499 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-499::before { content: "\E0B3"; }
+.fr-bruce-1828-p259-cut-501 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-501::before { content: "\E0B4"; }
+.fr-bruce-1828-p259-cut-502 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p259-cut-502::before { content: "\E0B5"; }
+.fr-bruce-1828-p261-cut-504 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-504::before { content: "\E0B6"; }
+.fr-bruce-1828-p261-cut-506 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-506::before { content: "\E0B7"; }
+.fr-bruce-1828-p261-cut-508 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-508::before { content: "\E0B8"; }
+.fr-bruce-1828-p261-cut-509 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-509::before { content: "\E0B9"; }
+.fr-bruce-1828-p261-cut-510 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-510::before { content: "\E0BA"; }
+.fr-bruce-1828-p261-cut-511 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-511::before { content: "\E0BB"; }
+.fr-bruce-1828-p261-cut-512 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-512::before { content: "\E0BC"; }
+.fr-bruce-1828-p261-cut-513 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-513::before { content: "\E0BD"; }
+.fr-bruce-1828-p261-cut-514 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-514::before { content: "\E0BE"; }
+.fr-bruce-1828-p261-cut-515 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-515::before { content: "\E0BF"; }
+.fr-bruce-1828-p261-cut-516 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-516::before { content: "\E0C0"; }
+.fr-bruce-1828-p261-cut-517 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-517::before { content: "\E0C1"; }
+.fr-bruce-1828-p261-cut-518 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-518::before { content: "\E0C2"; }
+.fr-bruce-1828-p261-cut-519 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-519::before { content: "\E0C3"; }
+.fr-bruce-1828-p261-cut-520 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-520::before { content: "\E0C4"; }
+.fr-bruce-1828-p261-cut-521 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-521::before { content: "\E0C5"; }
+.fr-bruce-1828-p261-cut-522 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-522::before { content: "\E0C6"; }
+.fr-bruce-1828-p261-cut-523 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-523::before { content: "\E0C7"; }
+.fr-bruce-1828-p261-cut-524 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-524::before { content: "\E0C8"; }
+.fr-bruce-1828-p261-cut-525 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-525::before { content: "\E0C9"; }
+.fr-bruce-1828-p261-cut-526 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-526::before { content: "\E0CA"; }
+.fr-bruce-1828-p261-cut-527 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p261-cut-527::before { content: "\E0CB"; }
+.fr-bruce-1828-p263-cut-528 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-528::before { content: "\E0CC"; }
+.fr-bruce-1828-p263-cut-529 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-529::before { content: "\E0CD"; }
+.fr-bruce-1828-p263-cut-530 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-530::before { content: "\E0CE"; }
+.fr-bruce-1828-p263-cut-531 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-531::before { content: "\E0CF"; }
+.fr-bruce-1828-p263-cut-532 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-532::before { content: "\E0D0"; }
+.fr-bruce-1828-p263-cut-533 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-533::before { content: "\E0D1"; }
+.fr-bruce-1828-p263-cut-535 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-535::before { content: "\E0D2"; }
+.fr-bruce-1828-p263-cut-536 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-536::before { content: "\E0D3"; }
+.fr-bruce-1828-p263-cut-537 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-537::before { content: "\E0D4"; }
+.fr-bruce-1828-p263-cut-538 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-538::before { content: "\E0D5"; }
+.fr-bruce-1828-p263-cut-539 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-539::before { content: "\E0D6"; }
+.fr-bruce-1828-p263-cut-540 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-540::before { content: "\E0D7"; }
+.fr-bruce-1828-p263-cut-541 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-541::before { content: "\E0D8"; }
+.fr-bruce-1828-p263-cut-542 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-542::before { content: "\E0D9"; }
+.fr-bruce-1828-p263-cut-543 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-543::before { content: "\E0DA"; }
+.fr-bruce-1828-p263-cut-544 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-544::before { content: "\E0DB"; }
+.fr-bruce-1828-p263-cut-545 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-545::before { content: "\E0DC"; }
+.fr-bruce-1828-p263-cut-546 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-546::before { content: "\E0DD"; }
+.fr-bruce-1828-p263-cut-547 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-547::before { content: "\E0DE"; }
+.fr-bruce-1828-p263-cut-548 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-548::before { content: "\E0DF"; }
+.fr-bruce-1828-p265-cut-549 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-549::before { content: "\E0E0"; }
+.fr-bruce-1828-p265-cut-550 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-550::before { content: "\E0E1"; }
+.fr-bruce-1828-p265-cut-551 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-551::before { content: "\E0E2"; }
+.fr-bruce-1828-p265-cut-552 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-552::before { content: "\E0E3"; }
+.fr-bruce-1828-p265-cut-553 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-553::before { content: "\E0E4"; }
+.fr-bruce-1828-p265-cut-554 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-554::before { content: "\E0E5"; }
+.fr-bruce-1828-p265-cut-555 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-555::before { content: "\E0E6"; }
+.fr-bruce-1828-p265-cut-556 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-556::before { content: "\E0E7"; }
+.fr-bruce-1828-p265-cut-557 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-557::before { content: "\E0E8"; }
+.fr-bruce-1828-p265-cut-558 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-558::before { content: "\E0E9"; }
+.fr-bruce-1828-p265-cut-559 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-559::before { content: "\E0EA"; }
+.fr-bruce-1828-p265-cut-560 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-560::before { content: "\E0EB"; }
+.fr-bruce-1828-p265-cut-561 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-561::before { content: "\E0EC"; }
+.fr-bruce-1828-p265-cut-562 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-562::before { content: "\E0ED"; }
+.fr-bruce-1828-p265-cut-563 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-563::before { content: "\E0EE"; }
+.fr-bruce-1828-p265-cut-564 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-564::before { content: "\E0EF"; }
+.fr-bruce-1828-p265-cut-565 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-565::before { content: "\E0F0"; }
+.fr-bruce-1828-p265-cut-566 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p265-cut-566::before { content: "\E0F1"; }
+.fr-bruce-1828-p267-cut-567 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p267-cut-567::before { content: "\E0F2"; }
+.fr-bruce-1828-p267-cut-568 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p267-cut-568::before { content: "\E0F3"; }
+.fr-bruce-1828-p267-cut-569 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p267-cut-569::before { content: "\E0F4"; }
+.fr-bruce-1828-p267-cut-570 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p267-cut-570::before { content: "\E0F5"; }
+.fr-bruce-1828-p267-cut-571 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p267-cut-571::before { content: "\E0F6"; }
+.fr-bruce-1828-p267-cut-605 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p267-cut-605::before { content: "\E0F7"; }
+.fr-bruce-1828-p269-cut-618 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p269-cut-618::before { content: "\E0F8"; }
+.fr-bruce-1828-p269-cut-620 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p269-cut-620::before { content: "\E0F9"; }
+.fr-bruce-1828-p269-cut-623 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p269-cut-623::before { content: "\E0FA"; }
+.fr-bruce-1828-p271-cut-627 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p271-cut-627::before { content: "\E0FB"; }
+.fr-bruce-1828-p271-cut-628 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p271-cut-628::before { content: "\E0FC"; }
+.fr-bruce-1828-p271-cut-629 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p271-cut-629::before { content: "\E0FD"; }
+.fr-bruce-1828-p271-cut-635 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p271-cut-635::before { content: "\E0FE"; }
+.fr-bruce-1828-p271-cut-636 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p271-cut-636::before { content: "\E0FF"; }
+.fr-bruce-1828-p271-cut-637 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p271-cut-637::before { content: "\E100"; }
+.fr-bruce-1828-p273-cut-654 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-654::before { content: "\E101"; }
+.fr-bruce-1828-p273-cut-655 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-655::before { content: "\E102"; }
+.fr-bruce-1828-p273-cut-656 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-656::before { content: "\E103"; }
+.fr-bruce-1828-p273-cut-657 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-657::before { content: "\E104"; }
+.fr-bruce-1828-p273-cut-658 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-658::before { content: "\E105"; }
+.fr-bruce-1828-p273-cut-662 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-662::before { content: "\E106"; }
+.fr-bruce-1828-p273-cut-663 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-663::before { content: "\E107"; }
+.fr-bruce-1828-p273-cut-664 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-664::before { content: "\E108"; }
+.fr-bruce-1828-p273-cut-665 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p273-cut-665::before { content: "\E109"; }
+.fr-bruce-1828-p275-cut-667 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-667::before { content: "\E10A"; }
+.fr-bruce-1828-p275-cut-668 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-668::before { content: "\E10B"; }
+.fr-bruce-1828-p275-cut-669 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-669::before { content: "\E10C"; }
+.fr-bruce-1828-p275-cut-671 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-671::before { content: "\E10D"; }
+.fr-bruce-1828-p275-cut-672 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-672::before { content: "\E10E"; }
+.fr-bruce-1828-p275-cut-673 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-673::before { content: "\E10F"; }
+.fr-bruce-1828-p275-cut-674 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-674::before { content: "\E110"; }
+.fr-bruce-1828-p275-cut-675 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-675::before { content: "\E111"; }
+.fr-bruce-1828-p275-cut-676 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-676::before { content: "\E112"; }
+.fr-bruce-1828-p275-cut-677 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-677::before { content: "\E113"; }
+.fr-bruce-1828-p275-cut-678 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-678::before { content: "\E114"; }
+.fr-bruce-1828-p275-cut-680 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-680::before { content: "\E115"; }
+.fr-bruce-1828-p275-cut-681 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p275-cut-681::before { content: "\E116"; }
+.fr-bruce-1828-p277-cut-682 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-682::before { content: "\E117"; }
+.fr-bruce-1828-p277-cut-683 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-683::before { content: "\E118"; }
+.fr-bruce-1828-p277-cut-684 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-684::before { content: "\E119"; }
+.fr-bruce-1828-p277-cut-685 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-685::before { content: "\E11A"; }
+.fr-bruce-1828-p277-cut-686 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-686::before { content: "\E11B"; }
+.fr-bruce-1828-p277-cut-687 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-687::before { content: "\E11C"; }
+.fr-bruce-1828-p277-cut-688 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-688::before { content: "\E11D"; }
+.fr-bruce-1828-p277-cut-689 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-689::before { content: "\E11E"; }
+.fr-bruce-1828-p277-cut-690 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-690::before { content: "\E11F"; }
+.fr-bruce-1828-p277-cut-692 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-692::before { content: "\E120"; }
+.fr-bruce-1828-p277-cut-693 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-693::before { content: "\E121"; }
+.fr-bruce-1828-p277-cut-694 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-694::before { content: "\E122"; }
+.fr-bruce-1828-p277-cut-695 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-695::before { content: "\E123"; }
+.fr-bruce-1828-p277-cut-699 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p277-cut-699::before { content: "\E124"; }
+.fr-bruce-1828-p279-cut-700 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-700::before { content: "\E125"; }
+.fr-bruce-1828-p279-cut-701 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-701::before { content: "\E126"; }
+.fr-bruce-1828-p279-cut-702 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-702::before { content: "\E127"; }
+.fr-bruce-1828-p279-cut-703 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-703::before { content: "\E128"; }
+.fr-bruce-1828-p279-cut-704 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-704::before { content: "\E129"; }
+.fr-bruce-1828-p279-cut-705 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-705::before { content: "\E12A"; }
+.fr-bruce-1828-p279-cut-706 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-706::before { content: "\E12B"; }
+.fr-bruce-1828-p279-cut-707 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-707::before { content: "\E12C"; }
+.fr-bruce-1828-p279-cut-708 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-708::before { content: "\E12D"; }
+.fr-bruce-1828-p279-cut-709 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-709::before { content: "\E12E"; }
+.fr-bruce-1828-p279-cut-710 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-710::before { content: "\E12F"; }
+.fr-bruce-1828-p279-cut-711 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-711::before { content: "\E130"; }
+.fr-bruce-1828-p279-cut-712 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-712::before { content: "\E131"; }
+.fr-bruce-1828-p279-cut-713 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-713::before { content: "\E132"; }
+.fr-bruce-1828-p279-cut-714 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-714::before { content: "\E133"; }
+.fr-bruce-1828-p279-cut-715 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p279-cut-715::before { content: "\E134"; }
+.fr-bruce-1828-p281-cut-716 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-716::before { content: "\E135"; }
+.fr-bruce-1828-p281-cut-717 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-717::before { content: "\E136"; }
+.fr-bruce-1828-p281-cut-718 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-718::before { content: "\E137"; }
+.fr-bruce-1828-p281-cut-719 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-719::before { content: "\E138"; }
+.fr-bruce-1828-p281-cut-720 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-720::before { content: "\E139"; }
+.fr-bruce-1828-p281-cut-721 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-721::before { content: "\E13A"; }
+.fr-bruce-1828-p281-cut-722 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-722::before { content: "\E13B"; }
+.fr-bruce-1828-p281-cut-723 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-723::before { content: "\E13C"; }
+.fr-bruce-1828-p281-cut-754 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p281-cut-754::before { content: "\E13D"; }
+.fr-bruce-1828-p283-cut-758 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p283-cut-758::before { content: "\E13E"; }
+.fr-bruce-1828-p283-cut-759 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p283-cut-759::before { content: "\E13F"; }
+.fr-bruce-1828-p283-cut-762 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p283-cut-762::before { content: "\E140"; }
+.fr-bruce-1828-p283-cut-763 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p283-cut-763::before { content: "\E141"; }
+.fr-bruce-1828-p283-cut-765 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p283-cut-765::before { content: "\E142"; }
+.fr-bruce-1828-p283-cut-767 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p283-cut-767::before { content: "\E143"; }
+.fr-bruce-1828-p285-cut-770 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-770::before { content: "\E144"; }
+.fr-bruce-1828-p285-cut-771 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-771::before { content: "\E145"; }
+.fr-bruce-1828-p285-cut-772 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-772::before { content: "\E146"; }
+.fr-bruce-1828-p285-cut-773 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-773::before { content: "\E147"; }
+.fr-bruce-1828-p285-cut-774 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-774::before { content: "\E148"; }
+.fr-bruce-1828-p285-cut-775 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-775::before { content: "\E149"; }
+.fr-bruce-1828-p285-cut-776 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-776::before { content: "\E14A"; }
+.fr-bruce-1828-p285-cut-777 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-777::before { content: "\E14B"; }
+.fr-bruce-1828-p285-cut-778 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p285-cut-778::before { content: "\E14C"; }
+.fr-bruce-1828-p287-cut-779 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-779::before { content: "\E14D"; }
+.fr-bruce-1828-p287-cut-780 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-780::before { content: "\E14E"; }
+.fr-bruce-1828-p287-cut-781 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-781::before { content: "\E14F"; }
+.fr-bruce-1828-p287-cut-782 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-782::before { content: "\E150"; }
+.fr-bruce-1828-p287-cut-783 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-783::before { content: "\E151"; }
+.fr-bruce-1828-p287-cut-784 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-784::before { content: "\E152"; }
+.fr-bruce-1828-p287-cut-785 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-785::before { content: "\E153"; }
+.fr-bruce-1828-p287-cut-786 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-786::before { content: "\E154"; }
+.fr-bruce-1828-p287-cut-787 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-787::before { content: "\E155"; }
+.fr-bruce-1828-p287-cut-788 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-788::before { content: "\E156"; }
+.fr-bruce-1828-p287-cut-789 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-789::before { content: "\E157"; }
+.fr-bruce-1828-p287-cut-790 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p287-cut-790::before { content: "\E158"; }
+.fr-bruce-1828-p289-cut-791 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-791::before { content: "\E159"; }
+.fr-bruce-1828-p289-cut-792 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-792::before { content: "\E15A"; }
+.fr-bruce-1828-p289-cut-794 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-794::before { content: "\E15B"; }
+.fr-bruce-1828-p289-cut-795 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-795::before { content: "\E15C"; }
+.fr-bruce-1828-p289-cut-796 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-796::before { content: "\E15D"; }
+.fr-bruce-1828-p289-cut-797 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-797::before { content: "\E15E"; }
+.fr-bruce-1828-p289-cut-798 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-798::before { content: "\E15F"; }
+.fr-bruce-1828-p289-cut-821 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-821::before { content: "\E160"; }
+.fr-bruce-1828-p289-cut-824 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p289-cut-824::before { content: "\E161"; }
+.fr-bruce-1828-p263-cut-534 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p263-cut-534::before { content: "\E162"; }
+.fr-bruce-1828-p291-cut-826 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p291-cut-826::before { content: "\E163"; }
+.fr-bruce-1828-p293-cut-847 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p293-cut-847::before { content: "\E164"; }
+.fr-bruce-1828-p297-cut-861 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p297-cut-861::before { content: "\E165"; }
+.fr-bruce-1828-p307-cut-873 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-873::before { content: "\E166"; }
+.fr-bruce-1828-p307-cut-874 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-874::before { content: "\E167"; }
+.fr-bruce-1828-p307-cut-875 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-875::before { content: "\E168"; }
+.fr-bruce-1828-p307-cut-876 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-876::before { content: "\E169"; }
+.fr-bruce-1828-p307-cut-877 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-877::before { content: "\E16A"; }
+.fr-bruce-1828-p307-cut-878 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-878::before { content: "\E16B"; }
+.fr-bruce-1828-p307-cut-880 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-880::before { content: "\E16C"; }
+.fr-bruce-1828-p307-cut-883 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p307-cut-883::before { content: "\E16D"; }
+.fr-bruce-1828-p309-cut-885 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-885::before { content: "\E16E"; }
+.fr-bruce-1828-p309-cut-886 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-886::before { content: "\E16F"; }
+.fr-bruce-1828-p309-cut-888 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-888::before { content: "\E170"; }
+.fr-bruce-1828-p309-cut-889 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-889::before { content: "\E171"; }
+.fr-bruce-1828-p309-cut-890 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-890::before { content: "\E172"; }
+.fr-bruce-1828-p309-cut-891 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-891::before { content: "\E173"; }
+.fr-bruce-1828-p309-cut-892 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-892::before { content: "\E174"; }
+.fr-bruce-1828-p309-cut-893 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-893::before { content: "\E175"; }
+.fr-bruce-1828-p309-cut-894 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-894::before { content: "\E176"; }
+.fr-bruce-1828-p309-cut-895 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-895::before { content: "\E177"; }
+.fr-bruce-1828-p309-cut-896 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-896::before { content: "\E178"; }
+.fr-bruce-1828-p309-cut-897 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p309-cut-897::before { content: "\E179"; }
+.fr-bruce-1828-p311-cut-898 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-898::before { content: "\E17A"; }
+.fr-bruce-1828-p311-cut-899 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-899::before { content: "\E17B"; }
+.fr-bruce-1828-p311-cut-900 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-900::before { content: "\E17C"; }
+.fr-bruce-1828-p311-cut-901 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-901::before { content: "\E17D"; }
+.fr-bruce-1828-p311-cut-902 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-902::before { content: "\E17E"; }
+.fr-bruce-1828-p311-cut-903 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-903::before { content: "\E17F"; }
+.fr-bruce-1828-p311-cut-904 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-904::before { content: "\E180"; }
+.fr-bruce-1828-p311-cut-905 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-905::before { content: "\E181"; }
+.fr-bruce-1828-p311-cut-906 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-906::before { content: "\E182"; }
+.fr-bruce-1828-p311-cut-907 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-907::before { content: "\E183"; }
+.fr-bruce-1828-p311-cut-908 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-908::before { content: "\E184"; }
+.fr-bruce-1828-p311-cut-909 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-909::before { content: "\E185"; }
+.fr-bruce-1828-p311-cut-910 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-910::before { content: "\E186"; }
+.fr-bruce-1828-p311-cut-911 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-911::before { content: "\E187"; }
+.fr-bruce-1828-p311-cut-912 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p311-cut-912::before { content: "\E188"; }
+.fr-bruce-1828-p313-cut-913 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-913::before { content: "\E189"; }
+.fr-bruce-1828-p313-cut-914 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-914::before { content: "\E18A"; }
+.fr-bruce-1828-p313-cut-916 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-916::before { content: "\E18B"; }
+.fr-bruce-1828-p313-cut-917 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-917::before { content: "\E18C"; }
+.fr-bruce-1828-p313-cut-918 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-918::before { content: "\E18D"; }
+.fr-bruce-1828-p313-cut-919 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-919::before { content: "\E18E"; }
+.fr-bruce-1828-p313-cut-920 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-920::before { content: "\E18F"; }
+.fr-bruce-1828-p313-cut-921 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-921::before { content: "\E190"; }
+.fr-bruce-1828-p313-cut-922 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-922::before { content: "\E191"; }
+.fr-bruce-1828-p313-cut-923 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-923::before { content: "\E192"; }
+.fr-bruce-1828-p313-cut-924 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-924::before { content: "\E193"; }
+.fr-bruce-1828-p313-cut-925 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-925::before { content: "\E194"; }
+.fr-bruce-1828-p313-cut-724-a { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-724-a::before { content: "\E195"; }
+.fr-bruce-1828-p313-cut-724-b { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-724-b::before { content: "\E196"; }
+.fr-bruce-1828-p313-cut-724-c { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p313-cut-724-c::before { content: "\E197"; }
+.fr-bruce-1828-p315-cut-951 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p315-cut-951::before { content: "\E198"; }
+.fr-bruce-1828-p315-cut-952 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p315-cut-952::before { content: "\E199"; }
+.fr-bruce-1828-p315-cut-955 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p315-cut-955::before { content: "\E19A"; }
+.fr-bruce-1828-p315-cut-956 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p315-cut-956::before { content: "\E19B"; }
+.fr-bruce-1828-p315-cut-957 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p315-cut-957::before { content: "\E19C"; }
+.fr-bruce-1828-p315-cut-927 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p315-cut-927::before { content: "\E19D"; }
+.fr-bruce-1828-p317-cut-958 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p317-cut-958::before { content: "\E19E"; }
+.fr-bruce-1828-p317-cut-799 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p317-cut-799::before { content: "\E19F"; }
+.fr-bruce-1828-p317-cut-725 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p317-cut-725::before { content: "\E1A0"; }
+.fr-bruce-1828-p317-cut-981 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p317-cut-981::before { content: "\E1A1"; }
+.fr-bruce-1828-p317-cut-982 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p317-cut-982::before { content: "\E1A2"; }
+.fr-bruce-1828-p319-cut-984 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p319-cut-984::before { content: "\E1A3"; }
+.fr-bruce-1828-p319-cut-985 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p319-cut-985::before { content: "\E1A4"; }
+.fr-bruce-1828-p319-cut-986 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p319-cut-986::before { content: "\E1A5"; }
+.fr-bruce-1828-p323-cut-1003 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p323-cut-1003::before { content: "\E1A6"; }
+.fr-bruce-1828-p333-cut-1007 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p333-cut-1007::before { content: "\E1A7"; }
+.fr-bruce-1828-p333-cut-1008 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p333-cut-1008::before { content: "\E1A8"; }
+.fr-bruce-1828-p333-cut-1009 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p333-cut-1009::before { content: "\E1A9"; }
+.fr-bruce-1828-p333-cut-1010 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p333-cut-1010::before { content: "\E1AA"; }
+.fr-bruce-1828-p333-cut-1011 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p333-cut-1011::before { content: "\E1AB"; }
+.fr-bruce-1828-p333-cut-1012 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p333-cut-1012::before { content: "\E1AC"; }
+.fr-bruce-1828-p335-cut-1013 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p335-cut-1013::before { content: "\E1AD"; }
+.fr-bruce-1828-p335-cut-1014 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p335-cut-1014::before { content: "\E1AE"; }
+.fr-bruce-1828-p337-cut-1022 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p337-cut-1022::before { content: "\E1AF"; }
+.fr-bruce-1828-p339-cut-1026 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p339-cut-1026::before { content: "\E1B0"; }
+.fr-bruce-1828-p339-cut-1029 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p339-cut-1029::before { content: "\E1B1"; }
+.fr-bruce-1828-p339-cut-1030 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p339-cut-1030::before { content: "\E1B2"; }
+.fr-bruce-1828-p341-cut-1031 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p341-cut-1031::before { content: "\E1B3"; }
+.fr-bruce-1828-p341-cut-1032 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p341-cut-1032::before { content: "\E1B4"; }
+.fr-bruce-1828-p341-cut-1034 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p341-cut-1034::before { content: "\E1B5"; }
+.fr-bruce-1828-p341-cut-1035 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p341-cut-1035::before { content: "\E1B6"; }
+.fr-bruce-1828-p341-cut-1036 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p341-cut-1036::before { content: "\E1B7"; }
+.fr-bruce-1828-p343-cut-1037 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p343-cut-1037::before { content: "\E1B8"; }
+.fr-bruce-1828-p343-cut-1038 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p343-cut-1038::before { content: "\E1B9"; }
+.fr-bruce-1828-p343-cut-1039 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p343-cut-1039::before { content: "\E1BA"; }
+.fr-bruce-1828-p343-cut-1040 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p343-cut-1040::before { content: "\E1BB"; }
+.fr-bruce-1828-p343-cut-1041 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p343-cut-1041::before { content: "\E1BC"; }
+.fr-bruce-1828-p343-cut-1042 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p343-cut-1042::before { content: "\E1BD"; }
+.fr-bruce-1828-p345-cut-1043 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p345-cut-1043::before { content: "\E1BE"; }
+.fr-bruce-1828-p345-cut-1044 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p345-cut-1044::before { content: "\E1BF"; }
+.fr-bruce-1828-p345-cut-1045 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p345-cut-1045::before { content: "\E1C0"; }
+.fr-bruce-1828-p345-cut-1046 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p345-cut-1046::before { content: "\E1C1"; }
+.fr-bruce-1828-p345-cut-1047 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p345-cut-1047::before { content: "\E1C2"; }
+.fr-bruce-1828-p345-cut-1048 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p345-cut-1048::before { content: "\E1C3"; }
+.fr-bruce-1828-p347-cut-1050 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p347-cut-1050::before { content: "\E1C4"; }
+.fr-bruce-1828-p347-cut-1051 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p347-cut-1051::before { content: "\E1C5"; }
+.fr-bruce-1828-p347-cut-1052 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p347-cut-1052::before { content: "\E1C6"; }
+.fr-bruce-1828-p347-cut-1054 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p347-cut-1054::before { content: "\E1C7"; }
+.fr-bruce-1828-p349-cut-1063 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p349-cut-1063::before { content: "\E1C8"; }
+.fr-bruce-1828-p349-cut-1064 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p349-cut-1064::before { content: "\E1C9"; }
+.fr-bruce-1828-p349-cut-1065 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p349-cut-1065::before { content: "\E1CA"; }
+.fr-bruce-1828-p351-cut-1067 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p351-cut-1067::before { content: "\E1CB"; }
+.fr-bruce-1828-p351-cut-1068 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p351-cut-1068::before { content: "\E1CC"; }
+.fr-bruce-1828-p351-cut-1069 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p351-cut-1069::before { content: "\E1CD"; }
+.fr-bruce-1828-p353-cut-1070 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p353-cut-1070::before { content: "\E1CE"; }
+.fr-bruce-1828-p353-cut-1071 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p353-cut-1071::before { content: "\E1CF"; }
+.fr-bruce-1828-p353-cut-1072 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p353-cut-1072::before { content: "\E1D0"; }
+.fr-bruce-1828-p353-cut-1073 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p353-cut-1073::before { content: "\E1D1"; }
+.fr-bruce-1828-p353-cut-1074 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p353-cut-1074::before { content: "\E1D2"; }
+.fr-bruce-1828-p353-cut-1075 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p353-cut-1075::before { content: "\E1D3"; }
+.fr-bruce-1828-p355-cut-1076 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p355-cut-1076::before { content: "\E1D4"; }
+.fr-bruce-1828-p355-cut-1077 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p355-cut-1077::before { content: "\E1D5"; }
+.fr-bruce-1828-p357-cut-1079 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p357-cut-1079::before { content: "\E1D6"; }
+.fr-bruce-1828-p359-cut-1092 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p359-cut-1092::before { content: "\E1D7"; }
+.fr-bruce-1828-p361-cut-1093 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p361-cut-1093::before { content: "\E1D8"; }
+.fr-bruce-1828-p361-cut-1094 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p361-cut-1094::before { content: "\E1D9"; }
+.fr-bruce-1828-p363-cut-1095 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p363-cut-1095::before { content: "\E1DA"; }
+.fr-bruce-1828-p365-cut-1097 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p365-cut-1097::before { content: "\E1DB"; }
+.fr-bruce-1828-p365-cut-1098 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p365-cut-1098::before { content: "\E1DC"; }
+.fr-bruce-1828-p367-cut-1199 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p367-cut-1199::before { content: "\E1DD"; }
+.fr-bruce-1828-p367-cut-1101 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p367-cut-1101::before { content: "\E1DE"; }
+.fr-bruce-1828-p369-cut-1112 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p369-cut-1112::before { content: "\E1DF"; }
+.fr-bruce-1828-p369-cut-1113 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p369-cut-1113::before { content: "\E1E0"; }
+.fr-bruce-1828-p371-cut-1114 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p371-cut-1114::before { content: "\E1E1"; }
+.fr-bruce-1828-p371-cut-1115 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p371-cut-1115::before { content: "\E1E2"; }
+.fr-bruce-1828-p371-cut-1116 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p371-cut-1116::before { content: "\E1E3"; }
+.fr-bruce-1828-p373-cut-1116 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p373-cut-1116::before { content: "\E1E4"; }
+.fr-bruce-1828-p373-cut-1117 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p373-cut-1117::before { content: "\E1E5"; }
+.fr-bruce-1828-p375-cut-1118 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p375-cut-1118::before { content: "\E1E6"; }
+.fr-bruce-1828-p375-cut-1119 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p375-cut-1119::before { content: "\E1E7"; }
+.fr-bruce-1828-p377-cut-1120 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p377-cut-1120::before { content: "\E1E8"; }
+.fr-bruce-1828-p379-cut-1121 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p379-cut-1121::before { content: "\E1E9"; }
+.fr-bruce-1828-p383-cut-1126 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p383-cut-1126::before { content: "\E1EA"; }
+.fr-bruce-1828-p385-cut-1131 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p385-cut-1131::before { content: "\E1EB"; }
+.fr-bruce-1828-p385-cut-1132 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p385-cut-1132::before { content: "\E1EC"; }
+.fr-bruce-1828-p387-cut-1135 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p387-cut-1135::before { content: "\E1ED"; }
+.fr-bruce-1828-p393-cut-1076 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p393-cut-1076::before { content: "\E1EE"; }
+.fr-bruce-1828-p393-cut-1128 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p393-cut-1128::before { content: "\E1EF"; }
+.fr-bruce-1828-p393-cut-928 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p393-cut-928::before { content: "\E1F0"; }
+.fr-bruce-1828-p393-cut-433 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p393-cut-433::before { content: "\E1F1"; }
+.fr-bruce-1828-p393-cut-573 { font-family: "Bruce Cuts 1828"; }
+.fr-bruce-1828-p393-cut-573::before { content: "\E1F2"; }

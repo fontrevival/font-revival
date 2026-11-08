@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 700
+  },
+  "review_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ£$1234567890,;:.",
+  "review_words": [
+    "GEORGE BRUCE TYPE",
+    "QUICK BROWN FOX",
+    "JAZZ VEXES WALTZ",
+    "0123456789 $"
+  ],
+  "glyphs": {
+    "A": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1039,
+        1090,
+        1172,
+        1213
+      ],
+      "rotation": 0,
+      "height": 726,
+      "y_min": -3,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 0. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "B": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1180,
+        1096,
+        1300,
+        1215
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -15,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 1. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "C": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1311,
+        1097,
+        1426,
+        1217
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -27,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 2. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "D": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1437,
+        1097,
+        1572,
+        1216
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -21,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 3. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "E": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1577,
+        1097,
+        1702,
+        1218
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 4. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "F": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1709,
+        1098,
+        1833,
+        1218
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 5. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "G": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1847,
+        1098,
+        1972,
+        1218
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 6. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "H": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        1973,
+        1098,
+        2112,
+        1218
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 7. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "I": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2117,
+        1099,
+        2201,
+        1218
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 8. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "J": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2201,
+        1099,
+        2305,
+        1219
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -39,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 9. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "K": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2306,
+        1098,
+        2441,
+        1219
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -39,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 10. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "L": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2444,
+        1100,
+        2566,
+        1239
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -52,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 11. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "M": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2571,
+        1103,
+        2719,
+        1221
+      ],
+      "rotation": 0,
+      "height": 695,
+      "y_min": -52,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 12. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "N": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2723,
+        1101,
+        2861,
+        1220
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -45,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 13. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "O": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        2871,
+        1100,
+        2998,
+        1219
+      ],
+      "rotation": 0,
+      "height": 695,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 14. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "P": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3009,
+        1099,
+        3133,
+        1218
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 15. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "Q": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3148,
+        1097,
+        3286,
+        1236
+      ],
+      "rotation": 0,
+      "height": 823,
+      "y_min": -143,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 16. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "R": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3285,
+        1098,
+        3421,
+        1216
+      ],
+      "rotation": 0,
+      "height": 695,
+      "y_min": -21,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 17. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "S": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3432,
+        1097,
+        3527,
+        1216
+      ],
+      "rotation": 0,
+      "height": 701,
+      "y_min": -21,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 18. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "T": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3539,
+        1098,
+        3673,
+        1216
+      ],
+      "rotation": 0,
+      "height": 695,
+      "y_min": -21,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 19. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "U": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3673,
+        1097,
+        3812,
+        1217
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -27,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 20. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "V": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3816,
+        1097,
+        3953,
+        1215
+      ],
+      "rotation": 0,
+      "height": 695,
+      "y_min": -15,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 21. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "W": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3958,
+        1096,
+        4138,
+        1217
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -27,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 22. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "X": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4144,
+        1095,
+        4277,
+        1216
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -21,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 23. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "Y": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4282,
+        1096,
+        4409,
+        1217
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -27,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 24. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "Z": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4411,
+        1098,
+        4534,
+        1234
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -33,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 25. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "Æ": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4535,
+        1098,
+        4708,
+        1220
+      ],
+      "rotation": 0,
+      "height": 720,
+      "y_min": -45,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 26. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "Œ": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4711,
+        1100,
+        4890,
+        1220
+      ],
+      "rotation": 0,
+      "height": 707,
+      "y_min": -45,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 0, sort 27. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "£": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3758,
+        1540,
+        3852,
+        1661
+      ],
+      "rotation": 0,
+      "height": 710,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 0. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement.",
+      "keep_components": 1
+    },
+    "$": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3857,
+        1561,
+        3936,
+        1671
+      ],
+      "rotation": 0,
+      "height": 801,
+      "y_min": -122,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 1. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "1": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        3940,
+        1564,
+        4018,
+        1662
+      ],
+      "rotation": 0,
+      "height": 710,
+      "y_min": -54,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 2. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "2": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4025,
+        1563,
+        4106,
+        1662
+      ],
+      "rotation": 0,
+      "height": 718,
+      "y_min": -54,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 3. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "3": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4106,
+        1564,
+        4185,
+        1661
+      ],
+      "rotation": 0,
+      "height": 703,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 4. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "4": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4189,
+        1563,
+        4272,
+        1677
+      ],
+      "rotation": 0,
+      "height": 710,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 5. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "5": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4276,
+        1561,
+        4351,
+        1661
+      ],
+      "rotation": 0,
+      "height": 725,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 6. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "6": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4361,
+        1563,
+        4438,
+        1661
+      ],
+      "rotation": 0,
+      "height": 710,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 7. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "7": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4442,
+        1562,
+        4517,
+        1661
+      ],
+      "rotation": 0,
+      "height": 718,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 8. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "8": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4529,
+        1565,
+        4600,
+        1662
+      ],
+      "rotation": 0,
+      "height": 703,
+      "y_min": -54,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 9. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "9": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4608,
+        1564,
+        4689,
+        1661
+      ],
+      "rotation": 0,
+      "height": 703,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 10. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    "0": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4689,
+        1563,
+        4775,
+        1661
+      ],
+      "rotation": 0,
+      "height": 710,
+      "y_min": -46,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 11. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    ",": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4775,
+        1545,
+        4824,
+        1670
+      ],
+      "rotation": 0,
+      "height": 423,
+      "y_min": -114,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 12. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    ";": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4826,
+        1571,
+        4877,
+        1672
+      ],
+      "rotation": 0,
+      "height": 733,
+      "y_min": -129,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 13. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    ":": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4876,
+        1566,
+        4932,
+        1659
+      ],
+      "rotation": 0,
+      "height": 672,
+      "y_min": -31,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 14. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    },
+    ".": {
+      "file": "reference/bruce1828-hathi-p127-deskewed.png",
+      "box": [
+        4929,
+        1610,
+        4981,
+        1658
+      ],
+      "rotation": 0,
+      "height": 332,
+      "y_min": -23,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.3,
+      "threshold": 135,
+      "fill_holes": 1,
+      "component_min_area": 100,
+      "tolerance": 0.2,
+      "notes": "Observed impression; transcribed row 1, sort 15. Pixel measurements retained in source/rows.json. Bounds and baseline recomputed after component cleanup, keeping a uniform source scale. No noise-based enlargement."
+    }
+  }
+}
