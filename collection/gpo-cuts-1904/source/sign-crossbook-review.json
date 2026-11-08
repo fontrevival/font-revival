@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "scope": "Explicit cross-book comparisons; unseen or unmatched document-division signs are not assigned.",
+  "sources": [
+    {
+      "source_index": 58,
+      "file": "reference/document-1904-leaf-111.jp2",
+      "sha256": "af6584623b924a4266a726cef0734b0f2567cc34517713f6741412d90373c7e2",
+      "archive_leaf": 111,
+      "pdf_page": 111,
+      "printed_page": 53
+    }
+  ],
+  "new_designs": [
+    {
+      "query_index": 7,
+      "id": "gpo-1904-sign-percent-narrow",
+      "codepoint": "E232",
+      "glyph": "uniE232",
+      "name": "Percent sign, narrow italic",
+      "repeat_queries": [
+        13
+      ],
+      "threshold": 230,
+      "identity_reason": "The complete eight-point impression is visibly narrower than every reviewed Boston italic percent counterpart; the ten-point GPO impression repeats its construction with weaker ink. Threshold 230 follows the observed faint slash and closes both printed oval counters. The threshold 225 trial left the upper counter open and was rejected; no missing connection is drawn by hand. No diagonal is redrawn.",
+      "document_witnesses": [],
+      "selected_witness": {
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          1527,
+          698,
+          1553,
+          737
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": 8
+      }
+    },
+    {
+      "query_index": 26,
+      "id": "gpo-1904-sign-scruple-open",
+      "codepoint": "E233",
+      "glyph": "uniE233",
+      "name": "Scruple, open arc and detached centre bar",
+      "repeat_queries": [
+        22
+      ],
+      "threshold": 215,
+      "identity_reason": "The eight- and ten-point GPO settings share a plain-ended open arc with a short detached central wedge/bar. The matching document-division ten-point impression independently repeats both features. All reviewed Boston scruples have inward end serifs and a connected centre bar. The selected larger GPO impression is complete.",
+      "document_witnesses": [
+        {
+          "candidate_id": "gpo-document-1904:leaf111:medical10:2",
+          "source_index": 58,
+          "file": "reference/document-1904-leaf-111.png",
+          "box": [
+            1710,
+            3003,
+            1754,
+            3049
+          ],
+          "archive_leaf": 111,
+          "pdf_page": 111,
+          "printed_page": 53,
+          "row": "medical10",
+          "position": 2,
+          "quality_selection": "retain-jobroom",
+          "reason": "Independent construction/proportion evidence; the selected jobroom impression has sharper native ink."
+        }
+      ],
+      "selected_witness": {
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          1314,
+          1267,
+          1349,
+          1306
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": 10
+      }
+    },
+    {
+      "query_index": 110,
+      "id": "gpo-1904-sign-equality-wide",
+      "codepoint": "E234",
+      "glyph": "uniE234",
+      "name": "Equality sign, widely separated strokes",
+      "repeat_queries": [
+        140
+      ],
+      "threshold": 195,
+      "identity_reason": "The two twelve-point GPO impressions have centre separation about0.37of stroke length, wider than the reviewed Boston settings. The document-division twelve-point row independently repeats the wide separation. The cleaner algebraic impression avoids paper flecks between the repeated mathematical impression.",
+      "document_witnesses": [
+        {
+          "candidate_id": "gpo-document-1904:leaf111:math12:5",
+          "source_index": 58,
+          "file": "reference/document-1904-leaf-111.png",
+          "box": [
+            1943,
+            1220,
+            2011,
+            1261
+          ],
+          "archive_leaf": 111,
+          "pdf_page": 111,
+          "printed_page": 53,
+          "row": "math12",
+          "position": 5,
+          "quality_selection": "retain-jobroom",
+          "reason": "Independent construction/proportion evidence; the selected jobroom impression has sharper native ink."
+        }
+      ],
+      "selected_witness": {
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          2231,
+          1099,
+          2284,
+          1127
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": 12
+      }
+    },
+    {
+      "query_index": 114,
+      "id": "gpo-1904-sign-greater-broad",
+      "codepoint": "E235",
+      "glyph": "uniE235",
+      "name": "Greater-than sign, broad angle",
+      "repeat_queries": [],
+      "threshold": 215,
+      "identity_reason": "The broad angle measures52by43nativepixels, differing from the nearly equal-width/height Boston angles. The document-division twelve-point counterpart measures60by48 and repeats the wider opening. Both native arms and the meeting point are complete.",
+      "document_witnesses": [
+        {
+          "candidate_id": "gpo-document-1904:leaf111:misc12:11",
+          "source_index": 58,
+          "file": "reference/document-1904-leaf-111.png",
+          "box": [
+            1288,
+            3381,
+            1362,
+            3444
+          ],
+          "archive_leaf": 111,
+          "pdf_page": 111,
+          "printed_page": 53,
+          "row": "misc12",
+          "position": 11,
+          "quality_selection": "retain-jobroom",
+          "reason": "Independent construction/proportion evidence; the selected jobroom impression has sharper native ink."
+        }
+      ],
+      "selected_witness": {
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          1858,
+          1174,
+          1916,
+          1223
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": 12
+      }
+    },
+    {
+      "query_index": 146,
+      "id": "gpo-1904-sign-plus-minus-detached",
+      "codepoint": "E236",
+      "glyph": "uniE236",
+      "name": "Plus-minus sign, detached lower bar",
+      "repeat_queries": [],
+      "threshold": 225,
+      "identity_reason": "The legend shows a complete upright cross separated from the lower bar by a clear gap persisting throughout the threshold comparison. All seven Boston plus-minus forms have an attached descending stem. The document-division eight-point row also prints a separated lower bar, but its broader proportions are recorded as related evidence rather than an exact counterpart.",
+      "document_witnesses": [],
+      "selected_witness": {
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          358,
+          871,
+          382,
+          896
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": null
+      }
+    },
+    {
+      "query_index": 151,
+      "id": "gpo-1904-sign-acute-angle-narrow",
+      "codepoint": "E237",
+      "glyph": "uniE237",
+      "name": "Acute angle, narrow upright form",
+      "repeat_queries": [],
+      "threshold": 225,
+      "identity_reason": "The native13by23pixel angle is substantially narrower than the reviewed Boston counterparts. Threshold225retains its observed faint sloping arm and complete foot without geometric reconstruction. The document-division six-point miscellaneous row independently shows the same narrow construction; its blurred impression is inferior as a drawing source.",
+      "document_witnesses": [
+        {
+          "candidate_id": "gpo-document-1904:leaf111:misc6c:11",
+          "source_index": 58,
+          "file": "reference/document-1904-leaf-111.png",
+          "box": [
+            1259,
+            2228,
+            1288,
+            2270
+          ],
+          "archive_leaf": 111,
+          "pdf_page": 111,
+          "printed_page": 53,
+          "row": "misc6c",
+          "position": 11,
+          "quality_selection": "retain-jobroom",
+          "reason": "Independent construction/proportion evidence; the selected jobroom impression has sharper native ink."
+        }
+      ],
+      "selected_witness": {
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          361,
+          1042,
+          380,
+          1071
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": null
+      }
+    }
+  ],
+  "existing_correspondences": [
+    {
+      "query_index": 4,
+      "icon_id": "boston-1889-p255-10pt-61",
+      "reason": "The same looped per/each construction appears with a curled head, tall lower loop and crossing oval in the eight- and ten-point GPO rows. Native31by39 and38by46 impressions agree with the Boston37by46 construction within the small-print edge uncertainty.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the already preferred ten-point GPO witness: its larger, complete bowl and crossing are better resolved than query4."
+    },
+    {
+      "query_index": 12,
+      "icon_id": "boston-1889-p255-10pt-67",
+      "reason": "The commercial pound-weight ligature has the same separated lower bowl, two upright stems, high crossing rule and serif feet as Boston10pt67. Native32by32 versus36by35 proportions support the correspondence.",
+      "quality_selection": "prefer-gpo",
+      "quality_reason": "The matching GPO commercial pound-weight impression preserves separate upright stems, a clean crossing rule and the open round lower bowl. The earlier drawing overfilled the left crossbar junction and distorted the upper serif. Threshold225retains the complete bowl hairlines; the195trial drops them. Original identity and advance are preserved.",
+      "preferred_witness": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          1201,
+          825,
+          1239,
+          863
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "body_points": 10
+      }
+    },
+    {
+      "query_index": 16,
+      "icon_id": "boston-1889-p255-6pt-64",
+      "reason": "The small ounce impressions share the stacked-z head, narrow middle turn, round lower bowl and left ball terminal of the Boston six-point ounce. The head is coarsely resolved at13nativepixels wide; its apparent bars do not establish another design.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the larger Boston source. The GPO impressions add labelled medical provenance but have less resolved head diagonals."
+    },
+    {
+      "query_index": 179,
+      "icon_id": "boston-1889-p255-6pt-64",
+      "reason": "The small ounce impressions share the stacked-z head, narrow middle turn, round lower bowl and left ball terminal of the Boston six-point ounce. The head is coarsely resolved at13nativepixels wide; its apparent bars do not establish another design.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the larger Boston source. The GPO impressions add labelled medical provenance but have less resolved head diagonals."
+    },
+    {
+      "query_index": 17,
+      "icon_id": "boston-1889-p255-6pt-65",
+      "reason": "The small drachm repeats the single-z head and round lower bowl of the Boston six-point drachm. The weak connecting diagonal in both GPO impressions is a printing defect, not a distinct interrupted construction. Document1904 medical rows independently distinguish the one-z drachm from the two-z ounce.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the complete Boston drachm; both GPO six-point impressions have a persistent weak diagonal."
+    },
+    {
+      "query_index": 180,
+      "icon_id": "boston-1889-p255-6pt-65",
+      "reason": "The small drachm repeats the single-z head and round lower bowl of the Boston six-point drachm. The weak connecting diagonal in both GPO impressions is a printing defect, not a distinct interrupted construction. Document1904 medical rows independently distinguish the one-z drachm from the two-z ounce.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the complete Boston drachm; both GPO six-point impressions have a persistent weak diagonal."
+    },
+    {
+      "query_index": 18,
+      "icon_id": "boston-1889-p255-7pt-69",
+      "reason": "The scruple has the same open round bowl, inward left end serifs and central wedge with a rightward bar as Boston7pt69. Query18measures17by19pixels and Boston24by28; the repeated legend impression confirms its labelled scruple use.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the larger, complete Boston witness. The GPO small impressions have weak centre joins and less reliable inner contours."
+    },
+    {
+      "query_index": 181,
+      "icon_id": "boston-1889-p255-7pt-69",
+      "reason": "The scruple has the same open round bowl, inward left end serifs and central wedge with a rightward bar as Boston7pt69. Query18measures17by19pixels and Boston24by28; the repeated legend impression confirms its labelled scruple use.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the larger, complete Boston witness. The GPO small impressions have weak centre joins and less reliable inner contours."
+    },
+    {
+      "query_index": 79,
+      "icon_id": "boston-1889-p255-10pt-80",
+      "reason": "The close proportion colon has the same relatively large dots and short separation as Boston10pt80. Native bounds6by17 and7by19 agree with Boston11by29 within one pixel of uniform reduction; the narrower-dot Boston alternatives have materially greater relative spacing.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain Boston10pt80. Its larger dots preserve the intended contour more clearly; one-pixel spread in these small GPO settings is not a new optical construction."
+    },
+    {
+      "query_index": 92,
+      "icon_id": "boston-1889-p255-10pt-80",
+      "reason": "The close proportion colon has the same relatively large dots and short separation as Boston10pt80. Native bounds6by17 and7by19 agree with Boston11by29 within one pixel of uniform reduction; the narrower-dot Boston alternatives have materially greater relative spacing.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain Boston10pt80. Its larger dots preserve the intended contour more clearly; one-pixel spread in these small GPO settings is not a new optical construction."
+    },
+    {
+      "query_index": 107,
+      "icon_id": "boston-1889-p255-8pt-36",
+      "reason": "Both twelve-point impressions are the same plain fine horizontal minus construction as Boston8pt36. The longer stock length and threshold-dependent3–4pixel ink thickness add no distinct terminals or internal structure. Document1904 shows the same fine stroke at several lengths.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the complete Boston thin minus. The additional GPO lengths do not supply missing terminal detail or justify duplicate artwork."
+    },
+    {
+      "query_index": 137,
+      "icon_id": "boston-1889-p255-8pt-36",
+      "reason": "Both twelve-point impressions are the same plain fine horizontal minus construction as Boston8pt36. The longer stock length and threshold-dependent3–4pixel ink thickness add no distinct terminals or internal structure. Document1904 shows the same fine stroke at several lengths.",
+      "quality_selection": "retain-current",
+      "quality_reason": "Retain the complete Boston thin minus. The additional GPO lengths do not supply missing terminal detail or justify duplicate artwork."
+    }
+  ],
+  "limitations": [
+    "Six jobroom impressions remain unresolved. The Earth centre dot is independently confirmed, but its enclosed-bar form still lacks an intact matching left arc.",
+    "The narrow right angle has a broken foot; the document-division impression has a different foot proportion and is not substituted.",
+    "The detached-bar plus-minus has related, differently proportioned evidence in document eight-point math; no exact-cut correspondence is asserted."
+  ]
+}

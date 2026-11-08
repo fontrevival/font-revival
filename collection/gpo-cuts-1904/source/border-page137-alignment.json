@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "method": "Five native straight-reference fits at175/195/215; annotated proof reviewed. No consistent skew between top/bottom edges of the same bar; native geometry retained. Other motifs have curved/asymmetric edges without reliable affine references.",
+  "records": [
+    {
+      "key": "elzevir-111-repeat",
+      "edge": "baseline-bottom",
+      "native_interval": [
+        934,
+        1001,
+        985,
+        1012
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": 0.010826403442801537,
+          "offset": 998.356990644734,
+          "correction_degrees_ccw_positive_up": 0.6202829906702855,
+          "points": 51,
+          "median_residual_pixels": 0.07382178695274888
+        },
+        {
+          "threshold": 195,
+          "slope": 0.011684591539646228,
+          "offset": 997.7547721156592,
+          "correction_degrees_ccw_positive_up": 0.6694473151893555,
+          "points": 51,
+          "median_residual_pixels": 0.06469537137240877
+        },
+        {
+          "threshold": 215,
+          "slope": 0.013463352942707445,
+          "offset": 996.32711023108,
+          "correction_degrees_ccw_positive_up": 0.7713466987157196,
+          "points": 51,
+          "median_residual_pixels": 0.06084695447634658
+        }
+      ],
+      "file": "reference/leaf-153.png",
+      "icon_id": "gpo-1904-elzevir-111-repeat",
+      "status": "retain-native-alignment",
+      "decision": "Opposite edge trends or threshold-sensitive direction do not support a common rigid skew. Preserve the printed geometry; no shear or independent axis normalization."
+    },
+    {
+      "key": "elzevir-111-repeat",
+      "edge": "baseline-top",
+      "native_interval": [
+        934,
+        998,
+        985,
+        1008
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.005746582935653775,
+          "offset": 1011.2826269235292,
+          "correction_degrees_ccw_positive_up": -0.3292513245543014,
+          "points": 46,
+          "median_residual_pixels": 0.10295269045121813
+        },
+        {
+          "threshold": 195,
+          "slope": -0.00554389246203231,
+          "offset": 1010.8687219967183,
+          "correction_degrees_ccw_positive_up": -0.31763838599739264,
+          "points": 44,
+          "median_residual_pixels": 0.08383333610680666
+        },
+        {
+          "threshold": 215,
+          "slope": -0.005275696633680161,
+          "offset": 1010.388160654399,
+          "correction_degrees_ccw_positive_up": -0.3022723467425096,
+          "points": 44,
+          "median_residual_pixels": 0.06223398774073985
+        }
+      ],
+      "file": "reference/leaf-153.png",
+      "icon_id": "gpo-1904-elzevir-111-repeat",
+      "status": "retain-native-alignment",
+      "decision": "Opposite edge trends or threshold-sensitive direction do not support a common rigid skew. Preserve the printed geometry; no shear or independent axis normalization."
+    },
+    {
+      "key": "elzevir-111-repeat",
+      "edge": "bar-top",
+      "native_interval": [
+        942,
+        961,
+        962,
+        967
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.01993404319598572,
+          "offset": 982.3787470892998,
+          "correction_degrees_ccw_positive_up": -1.141985297713484,
+          "points": 16,
+          "median_residual_pixels": 0.08726461509695582
+        },
+        {
+          "threshold": 195,
+          "slope": -0.02547160257055439,
+          "offset": 987.5021444915432,
+          "correction_degrees_ccw_positive_up": -1.4590998234150836,
+          "points": 17,
+          "median_residual_pixels": 0.1118257435302894
+        },
+        {
+          "threshold": 215,
+          "slope": -0.023826527739356593,
+          "offset": 985.7311373837094,
+          "correction_degrees_ccw_positive_up": -1.3649012326384578,
+          "points": 17,
+          "median_residual_pixels": 0.11616855189743092
+        }
+      ],
+      "file": "reference/leaf-153.png",
+      "icon_id": "gpo-1904-elzevir-111-repeat",
+      "status": "retain-native-alignment",
+      "decision": "Opposite edge trends or threshold-sensitive direction do not support a common rigid skew. Preserve the printed geometry; no shear or independent axis normalization."
+    },
+    {
+      "key": "elzevir-105-repeat",
+      "edge": "baseline-bottom",
+      "native_interval": [
+        1021,
+        1200,
+        1090,
+        1211
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": 0.005638320767947942,
+          "offset": 1202.3189913818865,
+          "correction_degrees_ccw_positive_up": 0.32304856026430145,
+          "points": 65,
+          "median_residual_pixels": 0.10971050800094417
+        },
+        {
+          "threshold": 195,
+          "slope": 0.004234739155932542,
+          "offset": 1204.0009520892252,
+          "correction_degrees_ccw_positive_up": 0.24263123061077224,
+          "points": 66,
+          "median_residual_pixels": 0.09525778183467537
+        },
+        {
+          "threshold": 215,
+          "slope": 0.003502110941889621,
+          "offset": 1204.980915877495,
+          "correction_degrees_ccw_positive_up": 0.20065535602820772,
+          "points": 66,
+          "median_residual_pixels": 0.07368988268308385
+        }
+      ],
+      "file": "reference/leaf-153.png",
+      "icon_id": "gpo-1904-elzevir-105-repeat",
+      "status": "retain-native-alignment",
+      "decision": "Opposite edge trends or threshold-sensitive direction do not support a common rigid skew. Preserve the printed geometry; no shear or independent axis normalization."
+    },
+    {
+      "key": "elzevir-105-repeat",
+      "edge": "baseline-top",
+      "native_interval": [
+        1021,
+        1197,
+        1090,
+        1206
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.0008800336443889821,
+          "offset": 1202.8050609417426,
+          "correction_degrees_ccw_positive_up": -0.05042220063636212,
+          "points": 26,
+          "median_residual_pixels": 0.338203867232437
+        },
+        {
+          "threshold": 195,
+          "slope": -0.0037248400985777502,
+          "offset": 1205.3837899252983,
+          "correction_degrees_ccw_positive_up": -0.21341663000161828,
+          "points": 31,
+          "median_residual_pixels": 0.49057555801300623
+        },
+        {
+          "threshold": 215,
+          "slope": 0.006409876705228761,
+          "offset": 1194.7886281432986,
+          "correction_degrees_ccw_positive_up": 0.3672538527364241,
+          "points": 22,
+          "median_residual_pixels": 0.22201916628966956
+        }
+      ],
+      "file": "reference/leaf-153.png",
+      "icon_id": "gpo-1904-elzevir-105-repeat",
+      "status": "retain-native-alignment",
+      "decision": "Opposite edge trends or threshold-sensitive direction do not support a common rigid skew. Preserve the printed geometry; no shear or independent axis normalization."
+    }
+  ]
+}

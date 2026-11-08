@@ -1,0 +1,235 @@
+{
+  "status": "accepted",
+  "method": "Refresh compact font outlines against the current aligned canonical masters. Full SVG geometry and existing advances are unchanged. Compare identical frames at four display sizes.",
+  "icons": [
+    {
+      "id": "gpo-1904-29",
+      "glyph": "uniE02C",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "1b4340938f426ac4496dcf73403fbe5548a081a2156ebd9243d7ea571fc95f23",
+      "old_master_sha256": "4ceb04f5cb8aa7f6574c3333976c0fb280e6328bc877e152eb6166069ea7aac0",
+      "raster_em_pixels": 1536,
+      "quadratic_points_before": 141631,
+      "quadratic_points_after": 18102
+    },
+    {
+      "id": "gpo-1904-31",
+      "glyph": "uniE02E",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "a500987ad567e3faf760672ef44c431095f1d0bd6c8fdab2c4c851033aa5d5a7",
+      "old_master_sha256": "5fa48ac3caa254dd32a9df51a8e6b456ae6911145c45d1a5c5fe9c7105a0db03",
+      "raster_em_pixels": 1024,
+      "quadratic_points_before": 42519,
+      "quadratic_points_after": 21576
+    },
+    {
+      "id": "gpo-1904-32",
+      "glyph": "uniE02F",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "7db1b0a9cb95b5ac7ec1317e42c8ded2a47ec7f644d04bf6d55b087d9e81b27c",
+      "old_master_sha256": "ee3d2baaaf787fd12483dbe3a3b5b24c5ed3beadf2e0fc64946524cae0cba6e4",
+      "raster_em_pixels": 1536,
+      "quadratic_points_before": 131749,
+      "quadratic_points_after": 19952
+    }
+  ],
+  "review": "All three current-master and compact-font pairs inspected at 48, 96, 192 and 384 pixels. No. 31 retains binary reduction. Nos. 29 and 32 use the existing coverage-screen method to retain the faint frame and apparent shading; screening is explicitly a modern font-format interpretation. Full SVG retains engraved detail for enlarged artwork.",
+  "bound_review": [
+    {
+      "glyph": "uniE02C",
+      "before": {
+        "characters": "\ue02c",
+        "advance_width": [
+          1928,
+          1928
+        ],
+        "notes": "United States Capitol with bare trees in a rectangular frame: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+        "y_min": [
+          521,
+          526
+        ],
+        "y_max": [
+          1271,
+          1276
+        ],
+        "ink_width": [
+          1793,
+          1797
+        ],
+        "ink_height": [
+          747,
+          753
+        ]
+      },
+      "after": {
+        "characters": "\ue02c",
+        "advance_width": [
+          1928,
+          1928
+        ],
+        "notes": "Reviewed aligned Capitol source and coverage-preserving font reduction, measured across the canonical source and all four delivery formats. Range includes the documented screening edge allowance and curve rounding; original advance is unchanged. See capitol-font-format-review.json.",
+        "y_min": [
+          516,
+          525
+        ],
+        "y_max": [
+          1272,
+          1281
+        ],
+        "ink_width": [
+          1793,
+          1806
+        ],
+        "ink_height": [
+          749,
+          763
+        ]
+      },
+      "measurements": {
+        "canonical_source": {
+          "glyph": "uniE02C",
+          "codepoint": "U+E02C",
+          "y_min": 523,
+          "y_max": 1274,
+          "ink_width": 1795.4444444444443,
+          "ink_height": 751,
+          "advance_width": 1928
+        },
+        "otf": {
+          "y_min": 518.265625,
+          "y_max": 1278.671875,
+          "ink_width": 1803.328125,
+          "ink_height": 760.40625,
+          "advance_width": 1928
+        },
+        "ttf": {
+          "y_min": 518,
+          "y_max": 1279,
+          "ink_width": 1803.5,
+          "ink_height": 761,
+          "advance_width": 1928
+        },
+        "woff": {
+          "y_min": 518,
+          "y_max": 1279,
+          "ink_width": 1803.5,
+          "ink_height": 761,
+          "advance_width": 1928
+        },
+        "woff2": {
+          "y_min": 518,
+          "y_max": 1279,
+          "ink_width": 1803.5,
+          "ink_height": 761,
+          "advance_width": 1928
+        }
+      }
+    },
+    {
+      "glyph": "uniE02F",
+      "before": {
+        "characters": "\ue02f",
+        "advance_width": [
+          1928,
+          1928
+        ],
+        "notes": "United States Capitol above trees with a ruled sky: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+        "y_min": [
+          480,
+          484
+        ],
+        "y_max": [
+          1313,
+          1320
+        ],
+        "ink_width": [
+          1790,
+          1799
+        ],
+        "ink_height": [
+          831,
+          838
+        ]
+      },
+      "after": {
+        "characters": "\ue02f",
+        "advance_width": [
+          1928,
+          1928
+        ],
+        "notes": "Reviewed aligned Capitol source and coverage-preserving font reduction, measured across the canonical source and all four delivery formats. Range includes the documented screening edge allowance and curve rounding; original advance is unchanged. See capitol-font-format-review.json.",
+        "y_min": [
+          475,
+          484
+        ],
+        "y_max": [
+          1316,
+          1324
+        ],
+        "ink_width": [
+          1795,
+          1805
+        ],
+        "ink_height": [
+          834,
+          847
+        ]
+      },
+      "measurements": {
+        "canonical_source": {
+          "glyph": "uniE02F",
+          "codepoint": "U+E02F",
+          "y_min": 482,
+          "y_max": 1318.3923048454133,
+          "ink_width": 1797,
+          "ink_height": 836.3923048454133,
+          "advance_width": 1928
+        },
+        "otf": {
+          "y_min": 477.203125,
+          "y_max": 1321.328125,
+          "ink_width": 1801.7585691524569,
+          "ink_height": 844.125,
+          "advance_width": 1928
+        },
+        "ttf": {
+          "y_min": 477,
+          "y_max": 1321.5,
+          "ink_width": 1802.25,
+          "ink_height": 844.5,
+          "advance_width": 1928
+        },
+        "woff": {
+          "y_min": 477,
+          "y_max": 1321.5,
+          "ink_width": 1802.25,
+          "ink_height": 844.5,
+          "advance_width": 1928
+        },
+        "woff2": {
+          "y_min": 477,
+          "y_max": 1321.5,
+          "ink_width": 1802.25,
+          "ink_height": 844.5,
+          "advance_width": 1928
+        }
+      }
+    }
+  ],
+  "bound_review_status": "measured-source-and-all-four-formats;spacing-preserved"
+}

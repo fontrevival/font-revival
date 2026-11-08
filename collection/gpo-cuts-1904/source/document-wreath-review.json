@@ -1,0 +1,1274 @@
+{
+  "id": "gpo-1904-leaf-wreath-two-dots",
+  "name": "Leaf wreath with two dots",
+  "glyph": "uniE254",
+  "codepoint": "E254",
+  "source_index": 64,
+  "archive_leaf": 85,
+  "pdf_page": 85,
+  "printed_page": 40,
+  "native_box": [
+    1208,
+    3195,
+    1415,
+    3382
+  ],
+  "context_box": [
+    1205,
+    3192,
+    1418,
+    3385
+  ],
+  "sampling_factor": 4,
+  "alignment": {
+    "method": "One rigid rotation aligns the contrast-weighted centroids of the two separate round dots. Weights include native darkness above30 percent of each local maximum. No independent-axis scaling or circularisation.",
+    "dots": [
+      {
+        "box": [
+          1302,
+          3204,
+          1322,
+          3224
+        ],
+        "centroid": [
+          1311.4638619201726,
+          3213.473067241999
+        ],
+        "paper": 230.0
+      },
+      {
+        "box": [
+          1300,
+          3355,
+          1324,
+          3377
+        ],
+        "centroid": [
+          1311.0021589343132,
+          3365.267891593937
+        ],
+        "paper": 230.0
+      }
+    ],
+    "rotation_degrees": 0.17427175803431594
+  },
+  "recipe": {
+    "file": "reference/document-wreath-sampling-4.png",
+    "box": [
+      12,
+      12,
+      840,
+      760
+    ],
+    "height": 1800,
+    "max_ink_dimension": 1800,
+    "center_vertical": true,
+    "y_min": 0,
+    "bearings": [
+      64,
+      64
+    ],
+    "advance_width": 1928,
+    "threshold": 225,
+    "frame_threshold": 230,
+    "paper_normalization_radius": 48,
+    "blur": 0,
+    "component_min_area": 16,
+    "fill_holes": 0,
+    "tolerance": 0.15,
+    "alphamax": 1.334,
+    "post_trace_transform": [
+      0.9999953742897089,
+      0.003041611281058148,
+      -0.003041611281058148,
+      0.9999953742897089,
+      2.741909337672978,
+      -2.9279501356780884
+    ],
+    "multitone": {
+      "thresholds": {
+        "primary": 200,
+        "secondary": 225,
+        "tertiary": 230
+      },
+      "round_inputs": false
+    },
+    "notes": "Complete observed Document Division ornament, printed40/archive85. Eighteen three-bladed leaf groups and two dots; no replacement leaves or filled gaps. Fourfold bilinear source sampling, paper radius48sample pixels, monochrome225, frame230 and disjoint ink-strength regions200/225/230. The crop excludes a detached paper fleck to the right. One rigid rotation +0.174271758 degrees aligns measured dot centroids; uniform scaling preserves the original oval proportions."
+  },
+  "recommended_min_px": 256,
+  "identity_reason": "Complete open-centred wreath of eighteen separate three-bladed leaf groups, nine on each side, and two round dots. The semantic and rotated visual comparisons establish no matching whole design or isolated leaf component. The internal leaf repetitions are recorded as features of this complete ornament; separate movable border pieces are not established by this page.",
+  "quality_todo": "The native scan is soft, especially at the upper-left and lower inner leaf strokes. Seek a sharper matching impression during the remaining book survey. Preserve native weak joins and unequal dot shapes; do not copy stronger neighbouring leaves into weaker positions.",
+  "schema_version": 1,
+  "native_file": "reference/gpo-document-1904-leaf-85.png",
+  "original_file": "reference/gpo-document-1904-leaf-85.jp2",
+  "original_sha256": "3f2f6bceaee806242f5049da38873923a24cda29078544ea3033eb24b33f7e85",
+  "native_png_sha256": "b0327c7df1edb707cf676c05ba7b9b380ed0980e552a9f96ce112583ff052f34",
+  "comparison_method": "100 semantic native comparisons and the40 closest whole/40 closest component retrieval results from3813 canonical designs. Whole-query rotations0/90/180/270; component query every15degrees. Retrieval proposes comparisons only; inspected forms differ in leaf construction, centre content or arrangement.",
+  "compared_designs": [
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p201-10",
+      "name": "Eagle above a ship medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p215-48",
+      "name": "Lyre in a laurel wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p219-64",
+      "name": "Massachusetts arms with garlands and motto",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p281-284",
+      "name": "Eagle perched on a wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p311-423",
+      "name": "Arm holding a hammer in an oval wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p355-504",
+      "name": "Arm holding a hammer within an oval wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p357-519",
+      "name": "Eagle medallion between two spiral ovals",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p361-534",
+      "name": "Small lyre in a wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p365-548",
+      "name": "Eagle-topped oval frame with garlands and scrollwork",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p371-558",
+      "name": "Arm holding a hammer within a wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p129-83",
+      "name": "Finis with palm and laurel",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p151-163",
+      "name": "Arm and hammer in a laurel wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p187-289",
+      "name": "Harp in a floral wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "gpo-cuts-1897",
+      "icon_id": "gpo-1897-seal-34",
+      "name": "United States Agricultural Society, instituted 1852, seated allegory",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-3",
+      "name": "Eagle medallion with farming and transport scenes",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-seal-39",
+      "name": "Agricultural allegory with wreath and cornucopia in a circular wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-seal-73",
+      "name": "Essayons emblem with eagle fort shield and wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-seal-75",
+      "name": "United States Artillery School, eagle flags and wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-seal-77",
+      "name": "Essayons emblem with eagle fort shield wreath and shaded background",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-post-3",
+      "name": "Staff with rose garland and upper ribbons",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-post-12",
+      "name": "Fasces and axe within a wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-post-19",
+      "name": "Ionic column with rose garland in a panel",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-post-21",
+      "name": "Round medallion on a handle with ribbons",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-post-23",
+      "name": "Crossed quills with wreath and inkwell",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-post-33",
+      "name": "Pendant rose garland with long ribbons",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-job-ornament-4",
+      "name": "Square rosette of outlined rounded petals",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-unique-border-145",
+      "name": "Eight-petalled rosette with four larger pointed petals",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-old-english-10-rose",
+      "name": "Layered five-petal rose with pointed sepals",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p261-k-14",
+      "name": "Circular star medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p261-k-18",
+      "name": "Four-leaf medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-f-9",
+      "name": "Moonlit harbour medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p269-corner-99-small-left",
+      "name": "Tiny square rosette, left corner",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p269-corner-99-small-right",
+      "name": "Tiny square rosette, right corner",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p264-border-13-frame",
+      "name": "Dotted flower medallions frame",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p264-border-16-frame",
+      "name": "Circular radiating rosettes frame",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p265-border-41-frame",
+      "name": "Polygonal flower medallions frame",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p266-border-27-frame",
+      "name": "Small dark rosettes frame",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p267-border-42-frame",
+      "name": "Fine rosette chain frame",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p264-border-16-unit",
+      "name": "Radiating circular rosette",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p268-grimaldi-9",
+      "name": "Grimaldi dotted rosette corner",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p268-grimaldi-13",
+      "name": "Grimaldi dark flower medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-foundry-emblem",
+      "name": "Boston and Central foundry copper-alloy emblem",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-a",
+      "name": "Curled leaf medallion initial A",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-b",
+      "name": "Curled leaf medallion initial B",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-c",
+      "name": "Curled leaf medallion initial C",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-d",
+      "name": "Curled leaf medallion initial D",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-e",
+      "name": "Curled leaf medallion initial E",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-f",
+      "name": "Curled leaf medallion initial F",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-g",
+      "name": "Curled leaf medallion initial G",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-h",
+      "name": "Curled leaf medallion initial H",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-i",
+      "name": "Curled leaf medallion initial I",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-j",
+      "name": "Curled leaf medallion initial J",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-k",
+      "name": "Curled leaf medallion initial K",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-l",
+      "name": "Curled leaf medallion initial L",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-m",
+      "name": "Curled leaf medallion initial M",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-n",
+      "name": "Curled leaf medallion initial N",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-o",
+      "name": "Curled leaf medallion initial O",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-p",
+      "name": "Curled leaf medallion initial P",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-q",
+      "name": "Curled leaf medallion initial Q",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-r",
+      "name": "Curled leaf medallion initial R",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-s",
+      "name": "Curled leaf medallion initial S",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-t",
+      "name": "Curled leaf medallion initial T",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-u",
+      "name": "Curled leaf medallion initial U",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-v",
+      "name": "Curled leaf medallion initial V",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-w",
+      "name": "Curled leaf medallion initial W",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-x",
+      "name": "Curled leaf medallion initial X",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-y",
+      "name": "Curled leaf medallion initial Y",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p238-series15-z",
+      "name": "Curled leaf medallion initial Z",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p79-pica-3",
+      "name": "Rosette and ring dash, pica",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p79-pica-6",
+      "name": "Leaf and rosette dash, pica",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p79-long-primer-10",
+      "name": "Rosette dash, long primer",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p79-burgeois-5",
+      "name": "Rosette dash, burgeois",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p79-brevier-5",
+      "name": "Rosette dash, brevier",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p79-minion-5",
+      "name": "Rosette dash, minion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p89-four-line-pica-9-rosette",
+      "name": "Four-petal rosette in a square",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p95-six-line-pica-1-corner",
+      "name": "Star medallion with curling corners",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p95-six-line-pica-2",
+      "name": "Leaf medallion with fan base",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p97-double-english-4-rosette",
+      "name": "Eight-petal rosette in a square, double english",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p101-double-small-pica-6",
+      "name": "Round star rosette, double small pica",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p103-great-primer-3",
+      "name": "Fine rosette square, great primer",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p107-great-primer-11",
+      "name": "Pointed rosette, great primer",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p107-double-great-primer-flower",
+      "name": "Paired rosettes with leafy stems, double great primer",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p111-long-primer-1-strip",
+      "name": "Sun rosette, long primer border 1, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p111-long-primer-1-piece",
+      "name": "Sun rosette, long primer",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-minion-1-strip",
+      "name": "Tiny sun rosette, minion border 1, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-minion-1-piece",
+      "name": "Tiny sun rosette, minion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-minion-5-strip",
+      "name": "Oval sun rosette, minion border 5, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-minion-5-piece",
+      "name": "Oval sun rosette, minion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p113-long-primer-20-strip",
+      "name": "Diamonds and petal rosettes, long primer border 20, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-brevier-5-strip",
+      "name": "Small sun rosette, brevier border 5, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-brevier-5-piece",
+      "name": "Small sun rosette, brevier",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-brevier-8-strip",
+      "name": "Alternating rosette and four petals, brevier border 8, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p115-brevier-11-strip",
+      "name": "Alternating rosette and dots, brevier border 11, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p119-pica-1-strip",
+      "name": "Eight-petal rosette, pica border 1, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p119-pica-1-piece",
+      "name": "Eight-petal rosette, pica",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p119-pica-2-strip",
+      "name": "Alternating rosettes and leaf fans, pica border 2, composed strip",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-4218",
+      "name": "Girl in a circular medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-4221",
+      "name": "Girl in a star medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-4240",
+      "name": "Happy New Year round medallion",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p274-4096",
+      "name": "Arm and hammer in a wreath",
+      "selection": "Semantic wreath, rosette, circular ornament, laurel, garland or medallion query; native crop reviewed."
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-word-23-5",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-9pt-23",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p270-corner-31-right",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p241-piece-30",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-11pt-23",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p267-border-73-unit",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p241-piece-32",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-11pt-42",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p240-piece-7",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p270-head-second-1",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-d48-2",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-7pt-17",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-d12-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-8pt-26",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-6pt-24",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-symbols-1832",
+      "icon_id": "baltimore-1832-p183-278",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p270-head-6",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p274-2662",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "gpo-cuts-1897",
+      "icon_id": "gpo-1897-seal-35",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p270-head-9",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-word-24-5",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-10pt-26",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-g24-3",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p179-257",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-d24-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-9pt-52",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-d24-2",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-g36-3",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-7pt-13",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p117-english-2-piece",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-d18-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p270-corner-31-left",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-h12-3",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p163-230",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-cuts-1832",
+      "icon_id": "boston-1832-p327-454",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-d36-2",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole"
+      ]
+    },
+    {
+      "family": "gpo-cuts-1897",
+      "icon_id": "gpo-1897-seal-31",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p267-border-71-unit",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "whole",
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-initials-1832",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-8pt-3",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p274-2572",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-12pt-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-crochet-10",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-4222",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p270-head-12",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "gpo-cuts-1904",
+      "icon_id": "gpo-1904-job-ornament-5",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p155-186",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-word-23-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p127-67",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p240-piece-34",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p276-checker-44",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-commercial5-2",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p269-corner-120-right",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-word-25-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p271-4174",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-word-25-5",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p258-word-24-4",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-ornaments-1832",
+      "icon_id": "baltimore-1832-p119-pica-10-piece",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "icon_id": "baltimore-1832-p207-353",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-6pt-10",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p271-4184",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-10pt-71",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p271-card-club",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-ornaments-1889",
+      "icon_id": "boston-1889-p259-i12-1",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p271-card-heart",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-cuts-1889",
+      "icon_id": "boston-1889-p271-4192",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-11pt-57",
+      "selection": "Rotated visual retrieval; native crop reviewed.",
+      "visual_queries": [
+        "component"
+      ]
+    }
+  ],
+  "internal_features": {
+    "leaf_groups": 18,
+    "left": 9,
+    "right": 9,
+    "dots": 2,
+    "separate_component_identity": "Not established: the page shows only the complete ornament."
+  },
+  "classification": "Descriptive botanical wreath; no botanical species or foundry attribution is inferred.",
+  "sampling": "Fourfold bilinear resampling adds no source detail. Tightened native crop excludes the detached paper mark to the right without masking the ornament. No hole filling or replicated leaf units.",
+  "proof": "specimens/document-wreath-review.pdf"
+}

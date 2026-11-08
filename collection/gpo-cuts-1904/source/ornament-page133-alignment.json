@@ -1,0 +1,1289 @@
+{
+  "schema_version": 1,
+  "method": "Robust subpixel fits at175/195/215 on deliberately straight native edges; native annotations reviewed. Seven rigid rotations preserve proportions, advances and tone registration. No automatic square normalization.",
+  "records": [
+    {
+      "candidate_id": "gpo-jobroom-1904:art-6",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.014171206073750895,
+          "offset": 64.93471185183078,
+          "degrees": -0.8118959523972996,
+          "points_used": 92,
+          "median_residual_pixels": 0.05505152805674385
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.014299599483735399,
+          "offset": 65.11888370968369,
+          "degrees": -0.8192508624484152,
+          "points_used": 92,
+          "median_residual_pixels": 0.05311768552012808
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.014641341504220265,
+          "offset": 65.33496636884857,
+          "degrees": -0.8388271385492433,
+          "points_used": 93,
+          "median_residual_pixels": 0.07529186170891222
+        }
+      ],
+      "native_x_interval": [
+        7,
+        124
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.8192508624484152,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-ornament-6",
+      "file": "reference/leaf-149.png",
+      "box": [
+        235,
+        743,
+        366,
+        819
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.8192508624484152,
+      "post_trace_transform": [
+        0.9998977764039344,
+        -0.014298137727253874,
+        0.014298137727253874,
+        0.9998977764039344,
+        -12.769780407921198,
+        13.875406005531772
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:capital-1",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0025782556730312967,
+          "offset": 8.232390313804006,
+          "degrees": -0.1477228412465494,
+          "points_used": 100,
+          "median_residual_pixels": 0.0873799283373966
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.002601952853627867,
+          "offset": 8.004674649071328,
+          "degrees": -0.1490805805724442,
+          "points_used": 100,
+          "median_residual_pixels": 0.09636838011473836
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0016480105756086839,
+          "offset": 7.672152907441081,
+          "degrees": -0.09442396509212633,
+          "points_used": 100,
+          "median_residual_pixels": 0.07287345067650586
+        }
+      ],
+      "native_x_interval": [
+        12,
+        112
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.1490805805724442,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-capital-ornament-1",
+      "file": "reference/leaf-149.png",
+      "box": [
+        148,
+        2311,
+        273,
+        2351
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:capital-1",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.001043412640440095,
+          "offset": 25.23765147116212,
+          "degrees": 0.05978311889233313,
+          "points_used": 100,
+          "median_residual_pixels": 0.04361705373769276
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0011456245970476017,
+          "offset": 25.41672063530592,
+          "degrees": 0.06563942560093342,
+          "points_used": 100,
+          "median_residual_pixels": 0.039866276218265995
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.0012478365536552098,
+          "offset": 25.595789799449722,
+          "degrees": 0.07149573093803506,
+          "points_used": 100,
+          "median_residual_pixels": 0.027229332095055625
+        }
+      ],
+      "native_x_interval": [
+        12,
+        112
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.06563942560093342,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-capital-ornament-1",
+      "file": "reference/leaf-149.png",
+      "box": [
+        148,
+        2311,
+        273,
+        2351
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:capital-2",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0038351092668628896,
+          "offset": 7.716676573197234,
+          "degrees": -0.21973449767736197,
+          "points_used": 108,
+          "median_residual_pixels": 0.0693714215613146
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.004713486315324418,
+          "offset": 7.553887237595504,
+          "degrees": -0.2700608726960135,
+          "points_used": 108,
+          "median_residual_pixels": 0.09448188541572788
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.005623452749197124,
+          "offset": 7.388836302512223,
+          "degrees": -0.32219671254961196,
+          "points_used": 108,
+          "median_residual_pixels": 0.1362663553794774
+        }
+      ],
+      "native_x_interval": [
+        13,
+        121
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.2700608726960135,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-capital-ornament-2",
+      "file": "reference/leaf-149.png",
+      "box": [
+        447,
+        2311,
+        581,
+        2349
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.234,
+      "post_trace_transform": [
+        0.9999916601958732,
+        -0.004084059096211222,
+        0.004084059096211222,
+        0.9999916601958732,
+        -3.6676136154117986,
+        3.944538792461799
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:capital-2",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0034497124746027644,
+          "offset": 25.672493436258502,
+          "degrees": -0.19765318127256531,
+          "points_used": 108,
+          "median_residual_pixels": 0.0489850486911898
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.003454518314580776,
+          "offset": 25.85785904869464,
+          "degrees": -0.19792853233893373,
+          "points_used": 108,
+          "median_residual_pixels": 0.040722409063677745
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0035078005347156686,
+          "offset": 26.04760370137965,
+          "degrees": -0.20098134167964654,
+          "points_used": 108,
+          "median_residual_pixels": 0.04132612261108903
+        }
+      ],
+      "native_x_interval": [
+        13,
+        121
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.19792853233893373,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-capital-ornament-2",
+      "file": "reference/leaf-149.png",
+      "box": [
+        447,
+        2311,
+        581,
+        2349
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.234,
+      "post_trace_transform": [
+        0.9999916601958732,
+        -0.004084059096211222,
+        0.004084059096211222,
+        0.9999916601958732,
+        -3.6676136154117986,
+        3.944538792461799
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:capital-3-component-1",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.02340503003309619,
+          "offset": 15.010478876785658,
+          "degrees": -1.3407646544424798,
+          "points_used": 16,
+          "median_residual_pixels": 0.045851489413357704
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.02070655166979447,
+          "offset": 14.793741093746748,
+          "degrees": -1.1862285020441485,
+          "points_used": 16,
+          "median_residual_pixels": 0.03376218704262879
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.016828356937771665,
+          "offset": 14.553015744543844,
+          "degrees": -0.9641028262967004,
+          "points_used": 16,
+          "median_residual_pixels": 0.02763956755047836
+        }
+      ],
+      "native_x_interval": [
+        10,
+        26
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -1.1862285020441485,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-capital-ornament-3-component-1",
+      "file": "reference/leaf-149.png",
+      "box": [
+        755,
+        2308,
+        793,
+        2349
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:capital-17",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0018342715280999424,
+          "offset": 48.29001872752899,
+          "degrees": -0.10509589917437069,
+          "points_used": 297,
+          "median_residual_pixels": 0.11641009960622029
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0016713062198424177,
+          "offset": 48.50127894590637,
+          "degrees": -0.09575870351120559,
+          "points_used": 297,
+          "median_residual_pixels": 0.09402209501562453
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0012828604409979706,
+          "offset": 48.70069648506799,
+          "degrees": -0.07350244865174238,
+          "points_used": 295,
+          "median_residual_pixels": 0.06819811408285403
+        }
+      ],
+      "native_x_interval": [
+        37,
+        334
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.09575870351120559,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-capital-ornament-17",
+      "file": "reference/leaf-149.png",
+      "box": [
+        784,
+        2755,
+        1155,
+        2819
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-8",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0020280728286298367,
+          "offset": 48.76466129455949,
+          "degrees": -0.11619985431274743,
+          "points_used": 174,
+          "median_residual_pixels": 0.05504915624168305
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0017020349173813547,
+          "offset": 48.933618862253,
+          "degrees": -0.09751932318126993,
+          "points_used": 174,
+          "median_residual_pixels": 0.054406474413898565
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0015921928214605457,
+          "offset": 49.14016167205502,
+          "degrees": -0.09122585175255196,
+          "points_used": 174,
+          "median_residual_pixels": 0.056100778510515426
+        }
+      ],
+      "native_x_interval": [
+        38,
+        212
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.09751932318126993,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-protean-ornament-8",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1980,
+        2459,
+        2230,
+        2523
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-11",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.012244537128294883,
+          "offset": 18.740115458094813,
+          "degrees": -0.7015252413574478,
+          "points_used": 61,
+          "median_residual_pixels": 0.14265085804429134
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.011182692039110476,
+          "offset": 18.309917724203245,
+          "degrees": -0.640694351494367,
+          "points_used": 65,
+          "median_residual_pixels": 0.17087072283179694
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.011564095377200448,
+          "offset": 18.057456192670738,
+          "degrees": -0.6625443264108868,
+          "points_used": 77,
+          "median_residual_pixels": 0.19442979933159776
+        }
+      ],
+      "native_x_interval": [
+        14,
+        122
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.640694351494367,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-protean-ornament-11",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1948,
+        2592,
+        2084,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.74,
+      "post_trace_transform": [
+        0.9999165969098341,
+        -0.012915077400324203,
+        0.012915077400324203,
+        0.9999165969098341,
+        -11.543169081371861,
+        12.52519739506181
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-11",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.018147914357242324,
+          "offset": 131.29959680601542,
+          "degrees": -1.0396847707082804,
+          "points_used": 56,
+          "median_residual_pixels": 0.11519930102205933
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.016085692609290624,
+          "offset": 131.51031932971017,
+          "degrees": -0.9215628178993056,
+          "points_used": 68,
+          "median_residual_pixels": 0.13729120628971714
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.015291372316168726,
+          "offset": 131.8245163855791,
+          "degrees": -0.8760628188288878,
+          "points_used": 76,
+          "median_residual_pixels": 0.1309158108229127
+        }
+      ],
+      "native_x_interval": [
+        14,
+        122
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.9215628178993056,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-protean-ornament-11",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1948,
+        2592,
+        2084,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.74,
+      "post_trace_transform": [
+        0.9999165969098341,
+        -0.012915077400324203,
+        0.012915077400324203,
+        0.9999165969098341,
+        -11.543169081371861,
+        12.52519739506181
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-12",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.006940092963833192,
+          "offset": 18.775544617261012,
+          "degrees": -0.3976316523764289,
+          "points_used": 98,
+          "median_residual_pixels": 0.19527034038761037
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.008168362202265,
+          "offset": 18.54103262104502,
+          "degrees": -0.46800227120464244,
+          "points_used": 105,
+          "median_residual_pixels": 0.1909289490187902
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.009004381347054394,
+          "offset": 18.238642785075427,
+          "degrees": -0.5158991057728305,
+          "points_used": 108,
+          "median_residual_pixels": 0.19354060206641321
+        }
+      ],
+      "native_x_interval": [
+        14,
+        126
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.46800227120464244,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-protean-ornament-12",
+      "file": "reference/leaf-149.png",
+      "box": [
+        2238,
+        2592,
+        2378,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-12",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.001982891066678798,
+          "offset": 131.37945208373372,
+          "degrees": -0.11361114045412654,
+          "points_used": 108,
+          "median_residual_pixels": 0.06559696927946845
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0015459271205614396,
+          "offset": 131.6433536112877,
+          "degrees": -0.08857502888148264,
+          "points_used": 108,
+          "median_residual_pixels": 0.052037105739842104
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0012420880878359455,
+          "offset": 131.9125122390979,
+          "degrees": -0.07116636861840585,
+          "points_used": 109,
+          "median_residual_pixels": 0.06020917604996612
+        }
+      ],
+      "native_x_interval": [
+        14,
+        126
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.08857502888148264,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-protean-ornament-12",
+      "file": "reference/leaf-149.png",
+      "box": [
+        2238,
+        2592,
+        2378,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-14-left",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0035129877725122395,
+          "offset": 16.70307521691591,
+          "degrees": -0.20127854485032495,
+          "points_used": 75,
+          "median_residual_pixels": 0.04376637055464272
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.003891915471971602,
+          "offset": 16.521883654617202,
+          "degrees": -0.2229892048972417,
+          "points_used": 75,
+          "median_residual_pixels": 0.05435082064114383
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.005717896571155258,
+          "offset": 16.421925242002285,
+          "degrees": -0.32760777094390076,
+          "points_used": 75,
+          "median_residual_pixels": 0.08000413073957269
+        }
+      ],
+      "native_x_interval": [
+        49,
+        125
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.2229892048972417,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-protean-ornament-14-left",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1800,
+        2787,
+        1939,
+        2932
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.334,
+      "post_trace_transform": [
+        0.9999830090976745,
+        -0.0058293666860366805,
+        0.0058293666860366805,
+        0.9999830090976745,
+        -5.230050787591167,
+        5.634801297432318
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-15",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.00506725113535234,
+          "offset": 126.05045582966376,
+          "degrees": -0.2903296188710734,
+          "points_used": 54,
+          "median_residual_pixels": 0.05194172726280044
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0067969969346888155,
+          "offset": 126.42714868953247,
+          "degrees": -0.38943324063109275,
+          "points_used": 54,
+          "median_residual_pixels": 0.08792683238901589
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.006578680689431097,
+          "offset": 126.86421733660022,
+          "degrees": -0.3769252006778077,
+          "points_used": 55,
+          "median_residual_pixels": 0.08142470351120323
+        }
+      ],
+      "native_x_interval": [
+        9,
+        78
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.38943324063109275,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-protean-ornament-15",
+      "file": "reference/leaf-149.png",
+      "box": [
+        2206,
+        2790,
+        2293,
+        2923
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.38943324063109275,
+      "post_trace_transform": [
+        0.9999769012166903,
+        -0.006796839932329464,
+        0.006796839932329464,
+        0.9999769012166903,
+        -6.1047403430675455,
+        3.674090368605789
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:wave-11",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0012962621022050318,
+          "offset": 41.77809953002986,
+          "degrees": 0.07427030600043728,
+          "points_used": 163,
+          "median_residual_pixels": 0.05607666610160322
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0013069148948167122,
+          "offset": 42.0974163980056,
+          "degrees": 0.07488066502307981,
+          "points_used": 163,
+          "median_residual_pixels": 0.04340612294430457
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.001398508674090466,
+          "offset": 42.395829751160754,
+          "degrees": 0.08012859239863925,
+          "points_used": 163,
+          "median_residual_pixels": 0.04302113299497279
+        }
+      ],
+      "native_x_interval": [
+        44,
+        207
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.07488066502307981,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-wave-ornament-11",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1600,
+        1039,
+        1843,
+        1089
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:wave-12",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0011505145444123187,
+          "offset": 41.92496641513603,
+          "degrees": 0.06591959857768641,
+          "points_used": 163,
+          "median_residual_pixels": 0.05323113029144366
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0011330843606812747,
+          "offset": 42.26927819121376,
+          "degrees": 0.06492092391576343,
+          "points_used": 163,
+          "median_residual_pixels": 0.044002172106289095
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.001043090178264623,
+          "offset": 42.626260564586545,
+          "degrees": 0.05976464319073445,
+          "points_used": 163,
+          "median_residual_pixels": 0.04354065014425146
+        }
+      ],
+      "native_x_interval": [
+        44,
+        207
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.06492092391576343,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-wave-ornament-12",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1893,
+        1039,
+        2137,
+        1089
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:wave-13",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0031600407644449754,
+          "offset": 115.86356231374815,
+          "degrees": -0.1810563962257975,
+          "points_used": 156,
+          "median_residual_pixels": 0.04067586292406844
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0032489929376809273,
+          "offset": 116.13254962846027,
+          "degrees": -0.18615292799145472,
+          "points_used": 156,
+          "median_residual_pixels": 0.044456730182041326
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.003987736951949839,
+          "offset": 116.51090823375698,
+          "degrees": -0.22847928606418574,
+          "points_used": 156,
+          "median_residual_pixels": 0.060650489108219574
+        }
+      ],
+      "native_x_interval": [
+        43,
+        205
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.18615292799145472,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-wave-ornament-13",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1370,
+        1129,
+        1611,
+        1254
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:wave-14",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.002848728752799613,
+          "offset": 77.99269335840056,
+          "degrees": -0.1632196929907693,
+          "points_used": 162,
+          "median_residual_pixels": 0.1247641823314467
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.002939910510103805,
+          "offset": 78.27856212383314,
+          "degrees": -0.16844397908497163,
+          "points_used": 162,
+          "median_residual_pixels": 0.13829391057074503
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0028777114014705,
+          "offset": 78.56011755292685,
+          "degrees": -0.16488026282520532,
+          "points_used": 162,
+          "median_residual_pixels": 0.14305638617400263
+        }
+      ],
+      "native_x_interval": [
+        43,
+        205
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.16844397908497163,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-wave-ornament-14",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1623,
+        1167,
+        1864,
+        1254
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:wave-15",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.008327223857439421,
+          "offset": 78.95370403529962,
+          "degrees": -0.4771037544151486,
+          "points_used": 158,
+          "median_residual_pixels": 0.09501531049713918
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.007401996617695505,
+          "offset": 79.22258665992244,
+          "degrees": -0.4240954209442442,
+          "points_used": 160,
+          "median_residual_pixels": 0.0981893447582678
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.006710645591391692,
+          "offset": 79.49684625574628,
+          "degrees": -0.3844858987765102,
+          "points_used": 162,
+          "median_residual_pixels": 0.09753125315698696
+        }
+      ],
+      "native_x_interval": [
+        44,
+        207
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.4240954209442442,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-wave-ornament-15",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1875,
+        1167,
+        2119,
+        1254
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": -0.4240954209442442,
+      "post_trace_transform": [
+        0.9999726063486951,
+        -0.0074017938499812,
+        0.0074017938499812,
+        0.9999726063486951,
+        -6.6352069851252,
+        7.159983557556302
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:wave-16",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.005305801178080262,
+          "offset": 115.54115826911745,
+          "degrees": 0.3039971617996049,
+          "points_used": 160,
+          "median_residual_pixels": 0.09890357925299043
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.005924276100711494,
+          "offset": 115.96870267161492,
+          "degrees": 0.3394320462572909,
+          "points_used": 162,
+          "median_residual_pixels": 0.12116163385520906
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.006532342757917098,
+          "offset": 116.42694210333337,
+          "degrees": 0.37427034686280064,
+          "points_used": 161,
+          "median_residual_pixels": 0.10263187093033821
+        }
+      ],
+      "native_x_interval": [
+        44,
+        207
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.3394320462572909,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-wave-ornament-16",
+      "file": "reference/leaf-149.png",
+      "box": [
+        2125,
+        1129,
+        2369,
+        1254
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "applied_degrees_ccw_positive_up": 0.3394320462572909,
+      "post_trace_transform": [
+        0.9999824519382537,
+        0.005924172141148676,
+        -0.005924172141148676,
+        0.9999824519382537,
+        5.348671258557171,
+        -5.695108688495679
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-11",
+      "edge": "left",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_x_per_y": 0.015117893431929449,
+          "offset": 7.412995877770209,
+          "correction_degrees": -0.8661255082682473,
+          "points": 51,
+          "residual_pixels": 0.2038076052490041
+        },
+        {
+          "threshold": 195,
+          "native_slope_x_per_y": 0.014646163317997046,
+          "offset": 7.136015588523795,
+          "correction_degrees": -0.8391033488978454,
+          "points": 57,
+          "residual_pixels": 0.18470202867964147
+        },
+        {
+          "threshold": 215,
+          "native_slope_x_per_y": 0.01627374520530733,
+          "offset": 6.648074392142588,
+          "correction_degrees": -0.9323346180683929,
+          "points": 60,
+          "residual_pixels": 0.18245987006454367
+        }
+      ],
+      "icon_id": "gpo-1904-protean-ornament-11",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1948,
+        2592,
+        2084,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "status": "applied-source-and-vector-reviewed",
+      "applied_degrees_ccw_positive_up": -0.74,
+      "post_trace_transform": [
+        0.9999165969098341,
+        -0.012915077400324203,
+        0.012915077400324203,
+        0.9999165969098341,
+        -11.543169081371861,
+        12.52519739506181
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-11",
+      "edge": "right",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_x_per_y": -0.008903320620287366,
+          "offset": 120.75141798323314,
+          "correction_degrees": 0.5101092168432573,
+          "points": 103,
+          "residual_pixels": 2.6944848467159233
+        },
+        {
+          "threshold": 195,
+          "native_slope_x_per_y": 0.007558807153341814,
+          "offset": 122.80544162475363,
+          "correction_degrees": -0.4330795000847209,
+          "points": 45,
+          "residual_pixels": 0.13728568606984481
+        },
+        {
+          "threshold": 215,
+          "native_slope_x_per_y": 0.007171049126584668,
+          "offset": 123.20790771454814,
+          "correction_degrees": -0.41086380698483516,
+          "points": 50,
+          "residual_pixels": 0.12127744662488027
+        }
+      ],
+      "icon_id": "gpo-1904-protean-ornament-11",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1948,
+        2592,
+        2084,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "status": "applied-source-and-vector-reviewed",
+      "applied_degrees_ccw_positive_up": -0.74,
+      "post_trace_transform": [
+        0.9999165969098341,
+        -0.012915077400324203,
+        0.012915077400324203,
+        0.9999165969098341,
+        -11.543169081371861,
+        12.52519739506181
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-12",
+      "edge": "left",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_x_per_y": 0.00253359921896149,
+          "offset": 9.257664361858408,
+          "correction_degrees": -0.14516423161555062,
+          "points": 100,
+          "residual_pixels": 0.16788701973015563
+        },
+        {
+          "threshold": 195,
+          "native_slope_x_per_y": 0.002409895609023339,
+          "offset": 8.946911908719096,
+          "correction_degrees": -0.1380765801668566,
+          "points": 101,
+          "residual_pixels": 0.19147346145573074
+        },
+        {
+          "threshold": 215,
+          "native_slope_x_per_y": 0.0024758846863668603,
+          "offset": 8.558783673586916,
+          "correction_degrees": -0.14185745322806817,
+          "points": 101,
+          "residual_pixels": 0.2564487918818035
+        }
+      ],
+      "icon_id": "gpo-1904-protean-ornament-12",
+      "file": "reference/leaf-149.png",
+      "box": [
+        2238,
+        2592,
+        2378,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "status": "retain-native-alignment",
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-12",
+      "edge": "right",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_x_per_y": 0.003128440205151125,
+          "offset": 122.527080880753,
+          "correction_degrees": -0.1792458354478109,
+          "points": 73,
+          "residual_pixels": 0.15444070401295562
+        },
+        {
+          "threshold": 195,
+          "native_slope_x_per_y": 0.003039722712201339,
+          "offset": 122.99494353884421,
+          "correction_degrees": -0.17416274588424385,
+          "points": 87,
+          "residual_pixels": 0.1375062792679671
+        },
+        {
+          "threshold": 215,
+          "native_slope_x_per_y": 0.002912890795780886,
+          "offset": 123.54948841185428,
+          "correction_degrees": -0.16689587674838433,
+          "points": 98,
+          "residual_pixels": 0.14728064128085805
+        }
+      ],
+      "icon_id": "gpo-1904-protean-ornament-12",
+      "file": "reference/leaf-149.png",
+      "box": [
+        2238,
+        2592,
+        2378,
+        2729
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "status": "retain-native-alignment",
+      "decision": "Below0.2degrees or inconsistent independent edges/thresholds. Protean12 verticals and lower edge are nearly upright; its sloping top alone does not justify distorting the complete square. Capital3 edge is short and threshold-unstable."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:protean-14-left",
+      "edge": "left",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_x_per_y": 0.008809058438308072,
+          "offset": 8.666778911613683,
+          "correction_degrees": -0.5047088152169494,
+          "points": 72,
+          "residual_pixels": 0.060318757935614364
+        },
+        {
+          "threshold": 195,
+          "native_slope_x_per_y": 0.007766622704025552,
+          "offset": 8.519603234974117,
+          "correction_degrees": -0.44498575491129944,
+          "points": 72,
+          "residual_pixels": 0.0671132767236795
+        },
+        {
+          "threshold": 215,
+          "native_slope_x_per_y": 0.008061060984591861,
+          "offset": 8.208206590161495,
+          "correction_degrees": -0.4618547691053177,
+          "points": 72,
+          "residual_pixels": 0.11105755637228576
+        }
+      ],
+      "icon_id": "gpo-1904-protean-ornament-14-left",
+      "file": "reference/leaf-149.png",
+      "box": [
+        1800,
+        2787,
+        1939,
+        2932
+      ],
+      "printed_page": 133,
+      "pdf_page": 149,
+      "archive_leaf": 149,
+      "status": "applied-source-and-vector-reviewed",
+      "applied_degrees_ccw_positive_up": -0.334,
+      "post_trace_transform": [
+        0.9999830090976745,
+        -0.0058293666860366805,
+        0.0058293666860366805,
+        0.9999830090976745,
+        -5.230050787591167,
+        5.634801297432318
+      ],
+      "decision": "Rigid rotation: single stable baseline, or mean corroborated directions (Capital2 top/bottom; Protean11 top/left; Protean14 top/left). Opposite edges affected by uneven printed thickness do not justify an affine warp."
+    }
+  ]
+}

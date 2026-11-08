@@ -1,0 +1,4702 @@
+{
+  "schema_version": 1,
+  "method": "Native four-connected ink components at thresholds 195, 215 and 225. Areas, boxes and centroids are pixels within retained crops. Measurements support visual identity review; they do not generate replacement geometry. Boston labels identify printed-page 255 counterpart names, and GPO query numbers map to the native crop records below.",
+  "new_designs": [
+    {
+      "icon_id": "gpo-1904-sign-geometrical-proportion-balanced",
+      "source_index": 57,
+      "file": "reference/leaf-34.png",
+      "box": [
+        2147,
+        956,
+        2192,
+        985
+      ],
+      "archive_leaf": 34,
+      "pdf_page": 34,
+      "printed_page": 18,
+      "reason": "Four dots form a nearly square grid around the rule, with dot-center pitch about 0.44 of the bar length. The six-point and legend witnesses repeat the construction within their native pixel uncertainty. All six Boston proportion variants have a visibly rectangular dot grid or different pitch; none matches both axes and the bar length.",
+      "comparison_label": "GPO 099"
+    },
+    {
+      "icon_id": "gpo-1904-sign-geometrical-proportion-close",
+      "source_index": 57,
+      "file": "reference/leaf-34.png",
+      "box": [
+        2148,
+        826,
+        2193,
+        851
+      ],
+      "archive_leaf": 34,
+      "pdf_page": 34,
+      "printed_page": 18,
+      "reason": "Four dots form a nearly square grid with center pitch about 0.31 of the bar length, leaving distinctly longer outer rule portions. This differs from the balanced and wide GPO settings and all six reviewed Boston proportion variants.",
+      "comparison_label": "GPO 087"
+    },
+    {
+      "icon_id": "gpo-1904-sign-geometrical-proportion-wide",
+      "source_index": 57,
+      "file": "reference/leaf-34.png",
+      "box": [
+        2350,
+        1094,
+        2401,
+        1131
+      ],
+      "archive_leaf": 34,
+      "pdf_page": 34,
+      "printed_page": 18,
+      "reason": "Four dots form a nearly square grid with horizontal center pitch about 0.54 and vertical pitch about 0.56 of the bar length. The short outer rule portions distinguish it from the balanced and close settings. The Boston eight-point form has substantially greater vertical than horizontal dot spacing.",
+      "comparison_label": "GPO 111"
+    },
+    {
+      "icon_id": "gpo-1904-sign-triangle-tall",
+      "source_index": 57,
+      "file": "reference/leaf-34.png",
+      "box": [
+        2225,
+        704,
+        2254,
+        734
+      ],
+      "archive_leaf": 34,
+      "pdf_page": 34,
+      "printed_page": 18,
+      "reason": "The complete six-point triangle has native bounds 23 by 24 pixels, repeated in the astronomical row and both legends. Its side slopes differ from the broader Boston triangles and the more elongated Boston eleven-point small triangle (21 by 26 at the dark-ink threshold). The selected algebraic impression has continuous sides and base; the weaker legend impressions are references only.",
+      "comparison_label": "GPO 075"
+    }
+  ],
+  "measurements": {
+    "GPO 073": {
+      "components": {
+        "195": [
+          {
+            "area": 16,
+            "box": [
+              8,
+              3,
+              13,
+              7
+            ],
+            "centroid": [
+              10.0,
+              4.5
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              20,
+              3,
+              24,
+              7
+            ],
+            "centroid": [
+              21.286,
+              4.5
+            ]
+          },
+          {
+            "area": 54,
+            "box": [
+              4,
+              10,
+              29,
+              13
+            ],
+            "centroid": [
+              15.648,
+              10.611
+            ]
+          },
+          {
+            "area": 15,
+            "box": [
+              20,
+              15,
+              24,
+              19
+            ],
+            "centroid": [
+              21.4,
+              16.6
+            ]
+          },
+          {
+            "area": 13,
+            "box": [
+              9,
+              15,
+              13,
+              20
+            ],
+            "centroid": [
+              10.308,
+              17.077
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 18,
+            "box": [
+              8,
+              3,
+              13,
+              7
+            ],
+            "centroid": [
+              10.0,
+              4.333
+            ]
+          },
+          {
+            "area": 18,
+            "box": [
+              19,
+              3,
+              24,
+              7
+            ],
+            "centroid": [
+              21.222,
+              4.5
+            ]
+          },
+          {
+            "area": 71,
+            "box": [
+              3,
+              9,
+              30,
+              13
+            ],
+            "centroid": [
+              16.535,
+              10.634
+            ]
+          },
+          {
+            "area": 18,
+            "box": [
+              20,
+              15,
+              24,
+              20
+            ],
+            "centroid": [
+              21.389,
+              16.778
+            ]
+          },
+          {
+            "area": 17,
+            "box": [
+              8,
+              15,
+              13,
+              20
+            ],
+            "centroid": [
+              10.235,
+              17.235
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 20,
+            "box": [
+              8,
+              3,
+              13,
+              7
+            ],
+            "centroid": [
+              10.0,
+              4.5
+            ]
+          },
+          {
+            "area": 20,
+            "box": [
+              19,
+              3,
+              24,
+              8
+            ],
+            "centroid": [
+              21.1,
+              4.55
+            ]
+          },
+          {
+            "area": 86,
+            "box": [
+              3,
+              9,
+              30,
+              13
+            ],
+            "centroid": [
+              16.43,
+              10.674
+            ]
+          },
+          {
+            "area": 20,
+            "box": [
+              20,
+              14,
+              24,
+              20
+            ],
+            "centroid": [
+              21.4,
+              16.75
+            ]
+          },
+          {
+            "area": 19,
+            "box": [
+              8,
+              15,
+              13,
+              20
+            ],
+            "centroid": [
+              10.158,
+              17.158
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          2093,
+          705,
+          2126,
+          728
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:sign-algebraic-6-310-6"
+      }
+    },
+    "GPO 087": {
+      "components": {
+        "195": [
+          {
+            "area": 23,
+            "box": [
+              14,
+              4,
+              19,
+              9
+            ],
+            "centroid": [
+              16.0,
+              6.174
+            ]
+          },
+          {
+            "area": 25,
+            "box": [
+              26,
+              4,
+              31,
+              10
+            ],
+            "centroid": [
+              28.08,
+              6.2
+            ]
+          },
+          {
+            "area": 79,
+            "box": [
+              3,
+              12,
+              42,
+              15
+            ],
+            "centroid": [
+              22.203,
+              12.544
+            ]
+          },
+          {
+            "area": 26,
+            "box": [
+              14,
+              16,
+              19,
+              22
+            ],
+            "centroid": [
+              16.0,
+              18.5
+            ]
+          },
+          {
+            "area": 25,
+            "box": [
+              26,
+              16,
+              31,
+              22
+            ],
+            "centroid": [
+              28.08,
+              18.8
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 29,
+            "box": [
+              13,
+              3,
+              19,
+              10
+            ],
+            "centroid": [
+              15.828,
+              6.103
+            ]
+          },
+          {
+            "area": 30,
+            "box": [
+              25,
+              4,
+              31,
+              10
+            ],
+            "centroid": [
+              27.8,
+              6.333
+            ]
+          },
+          {
+            "area": 93,
+            "box": [
+              3,
+              12,
+              42,
+              15
+            ],
+            "centroid": [
+              23.892,
+              12.742
+            ]
+          },
+          {
+            "area": 31,
+            "box": [
+              13,
+              16,
+              19,
+              22
+            ],
+            "centroid": [
+              15.742,
+              18.581
+            ]
+          },
+          {
+            "area": 31,
+            "box": [
+              25,
+              16,
+              32,
+              22
+            ],
+            "centroid": [
+              28.097,
+              18.71
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 33,
+            "box": [
+              25,
+              3,
+              31,
+              10
+            ],
+            "centroid": [
+              27.697,
+              6.182
+            ]
+          },
+          {
+            "area": 32,
+            "box": [
+              13,
+              3,
+              19,
+              10
+            ],
+            "centroid": [
+              15.688,
+              6.188
+            ]
+          },
+          {
+            "area": 118,
+            "box": [
+              3,
+              11,
+              42,
+              15
+            ],
+            "centroid": [
+              22.025,
+              12.627
+            ]
+          },
+          {
+            "area": 32,
+            "box": [
+              13,
+              16,
+              19,
+              22
+            ],
+            "centroid": [
+              15.656,
+              18.625
+            ]
+          },
+          {
+            "area": 35,
+            "box": [
+              25,
+              16,
+              32,
+              23
+            ],
+            "centroid": [
+              28.143,
+              18.714
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          2148,
+          826,
+          2193,
+          851
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:sign-algebraic-8-361-6"
+      }
+    },
+    "GPO 099": {
+      "components": {
+        "195": [
+          {
+            "area": 30,
+            "box": [
+              27,
+              3,
+              33,
+              9
+            ],
+            "centroid": [
+              29.667,
+              5.5
+            ]
+          },
+          {
+            "area": 33,
+            "box": [
+              10,
+              3,
+              17,
+              9
+            ],
+            "centroid": [
+              13.121,
+              5.636
+            ]
+          },
+          {
+            "area": 91,
+            "box": [
+              4,
+              13,
+              41,
+              16
+            ],
+            "centroid": [
+              23.681,
+              13.802
+            ]
+          },
+          {
+            "area": 34,
+            "box": [
+              10,
+              20,
+              16,
+              26
+            ],
+            "centroid": [
+              12.5,
+              22.353
+            ]
+          },
+          {
+            "area": 34,
+            "box": [
+              27,
+              20,
+              34,
+              26
+            ],
+            "centroid": [
+              29.676,
+              22.412
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 36,
+            "box": [
+              27,
+              3,
+              34,
+              10
+            ],
+            "centroid": [
+              29.917,
+              5.639
+            ]
+          },
+          {
+            "area": 39,
+            "box": [
+              10,
+              3,
+              17,
+              10
+            ],
+            "centroid": [
+              13.0,
+              5.846
+            ]
+          },
+          {
+            "area": 112,
+            "box": [
+              3,
+              13,
+              42,
+              16
+            ],
+            "centroid": [
+              22.08,
+              13.991
+            ]
+          },
+          {
+            "area": 39,
+            "box": [
+              10,
+              19,
+              17,
+              26
+            ],
+            "centroid": [
+              12.744,
+              22.256
+            ]
+          },
+          {
+            "area": 36,
+            "box": [
+              27,
+              20,
+              34,
+              26
+            ],
+            "centroid": [
+              29.833,
+              22.5
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 41,
+            "box": [
+              10,
+              2,
+              17,
+              10
+            ],
+            "centroid": [
+              13.073,
+              5.707
+            ]
+          },
+          {
+            "area": 39,
+            "box": [
+              27,
+              3,
+              34,
+              10
+            ],
+            "centroid": [
+              29.897,
+              5.718
+            ]
+          },
+          {
+            "area": 117,
+            "box": [
+              3,
+              13,
+              42,
+              16
+            ],
+            "centroid": [
+              22.0,
+              14.0
+            ]
+          },
+          {
+            "area": 44,
+            "box": [
+              10,
+              19,
+              17,
+              27
+            ],
+            "centroid": [
+              12.75,
+              22.227
+            ]
+          },
+          {
+            "area": 45,
+            "box": [
+              27,
+              19,
+              34,
+              27
+            ],
+            "centroid": [
+              29.844,
+              22.578
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          2147,
+          956,
+          2192,
+          985
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:sign-algebraic-10-419-6"
+      }
+    },
+    "GPO 111": {
+      "components": {
+        "195": [
+          {
+            "area": 32,
+            "box": [
+              35,
+              3,
+              41,
+              9
+            ],
+            "centroid": [
+              37.5,
+              5.5
+            ]
+          },
+          {
+            "area": 31,
+            "box": [
+              11,
+              3,
+              17,
+              9
+            ],
+            "centroid": [
+              13.419,
+              5.548
+            ]
+          },
+          {
+            "area": 133,
+            "box": [
+              3,
+              17,
+              48,
+              20
+            ],
+            "centroid": [
+              25.331,
+              18.0
+            ]
+          },
+          {
+            "area": 32,
+            "box": [
+              11,
+              28,
+              17,
+              34
+            ],
+            "centroid": [
+              13.5,
+              30.5
+            ]
+          },
+          {
+            "area": 30,
+            "box": [
+              35,
+              28,
+              41,
+              34
+            ],
+            "centroid": [
+              37.633,
+              30.633
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 36,
+            "box": [
+              10,
+              3,
+              17,
+              9
+            ],
+            "centroid": [
+              13.167,
+              5.5
+            ]
+          },
+          {
+            "area": 34,
+            "box": [
+              35,
+              3,
+              41,
+              9
+            ],
+            "centroid": [
+              37.353,
+              5.5
+            ]
+          },
+          {
+            "area": 135,
+            "box": [
+              3,
+              17,
+              48,
+              20
+            ],
+            "centroid": [
+              25.0,
+              18.0
+            ]
+          },
+          {
+            "area": 36,
+            "box": [
+              10,
+              28,
+              17,
+              34
+            ],
+            "centroid": [
+              13.333,
+              30.556
+            ]
+          },
+          {
+            "area": 33,
+            "box": [
+              35,
+              28,
+              41,
+              34
+            ],
+            "centroid": [
+              37.545,
+              30.727
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 36,
+            "box": [
+              34,
+              3,
+              41,
+              9
+            ],
+            "centroid": [
+              37.333,
+              5.444
+            ]
+          },
+          {
+            "area": 37,
+            "box": [
+              10,
+              3,
+              17,
+              9
+            ],
+            "centroid": [
+              13.081,
+              5.459
+            ]
+          },
+          {
+            "area": 135,
+            "box": [
+              3,
+              17,
+              48,
+              20
+            ],
+            "centroid": [
+              25.0,
+              18.0
+            ]
+          },
+          {
+            "area": 37,
+            "box": [
+              10,
+              28,
+              17,
+              34
+            ],
+            "centroid": [
+              13.243,
+              30.568
+            ]
+          },
+          {
+            "area": 36,
+            "box": [
+              35,
+              28,
+              42,
+              35
+            ],
+            "centroid": [
+              37.611,
+              30.75
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          2350,
+          1094,
+          2401,
+          1131
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:sign-algebraic-12-480-6"
+      }
+    },
+    "GPO 163": {
+      "components": {
+        "195": [
+          {
+            "area": 12,
+            "box": [
+              7,
+              3,
+              11,
+              7
+            ],
+            "centroid": [
+              8.5,
+              4.5
+            ]
+          },
+          {
+            "area": 10,
+            "box": [
+              19,
+              3,
+              22,
+              7
+            ],
+            "centroid": [
+              20.0,
+              4.8
+            ]
+          },
+          {
+            "area": 35,
+            "box": [
+              3,
+              11,
+              28,
+              13
+            ],
+            "centroid": [
+              15.429,
+              11.286
+            ]
+          },
+          {
+            "area": 12,
+            "box": [
+              19,
+              16,
+              23,
+              20
+            ],
+            "centroid": [
+              20.083,
+              17.333
+            ]
+          },
+          {
+            "area": 10,
+            "box": [
+              7,
+              17,
+              11,
+              20
+            ],
+            "centroid": [
+              8.8,
+              17.9
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 16,
+            "box": [
+              7,
+              3,
+              11,
+              7
+            ],
+            "centroid": [
+              8.5,
+              4.5
+            ]
+          },
+          {
+            "area": 17,
+            "box": [
+              18,
+              3,
+              22,
+              8
+            ],
+            "centroid": [
+              19.588,
+              4.882
+            ]
+          },
+          {
+            "area": 49,
+            "box": [
+              3,
+              10,
+              28,
+              13
+            ],
+            "centroid": [
+              15.735,
+              11.408
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              18,
+              16,
+              23,
+              20
+            ],
+            "centroid": [
+              20.0,
+              17.429
+            ]
+          },
+          {
+            "area": 16,
+            "box": [
+              7,
+              16,
+              12,
+              20
+            ],
+            "centroid": [
+              8.75,
+              17.562
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 16,
+            "box": [
+              7,
+              3,
+              11,
+              7
+            ],
+            "centroid": [
+              8.5,
+              4.5
+            ]
+          },
+          {
+            "area": 18,
+            "box": [
+              18,
+              3,
+              22,
+              8
+            ],
+            "centroid": [
+              19.667,
+              5.0
+            ]
+          },
+          {
+            "area": 54,
+            "box": [
+              3,
+              10,
+              28,
+              13
+            ],
+            "centroid": [
+              15.407,
+              11.389
+            ]
+          },
+          {
+            "area": 15,
+            "box": [
+              18,
+              16,
+              23,
+              20
+            ],
+            "centroid": [
+              19.867,
+              17.467
+            ]
+          },
+          {
+            "area": 18,
+            "box": [
+              7,
+              16,
+              12,
+              20
+            ],
+            "centroid": [
+              9.0,
+              17.667
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          356,
+          1358,
+          387,
+          1381
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:legend-mathematical-23"
+      }
+    },
+    "GPO 075": {
+      "components": {
+        "195": [
+          {
+            "area": 133,
+            "box": [
+              3,
+              3,
+              26,
+              27
+            ],
+            "centroid": [
+              14.218,
+              17.286
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 157,
+            "box": [
+              3,
+              3,
+              26,
+              27
+            ],
+            "centroid": [
+              14.013,
+              17.338
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 166,
+            "box": [
+              3,
+              2,
+              26,
+              27
+            ],
+            "centroid": [
+              14.187,
+              17.47
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          2225,
+          704,
+          2254,
+          734
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:sign-algebraic-6-310-8"
+      }
+    },
+    "GPO 064": {
+      "components": {
+        "195": [
+          {
+            "area": 13,
+            "box": [
+              11,
+              3,
+              15,
+              9
+            ],
+            "centroid": [
+              12.615,
+              5.154
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              16,
+              7,
+              17,
+              9
+            ],
+            "centroid": [
+              16.0,
+              7.5
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              17,
+              9,
+              19,
+              13
+            ],
+            "centroid": [
+              17.6,
+              10.4
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              9,
+              11,
+              10,
+              13
+            ],
+            "centroid": [
+              9.0,
+              11.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              19,
+              13,
+              20,
+              15
+            ],
+            "centroid": [
+              19.0,
+              13.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              7,
+              15,
+              8,
+              17
+            ],
+            "centroid": [
+              7.0,
+              15.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              20,
+              15,
+              21,
+              17
+            ],
+            "centroid": [
+              20.0,
+              15.5
+            ]
+          },
+          {
+            "area": 20,
+            "box": [
+              17,
+              17,
+              25,
+              25
+            ],
+            "centroid": [
+              21.5,
+              22.0
+            ]
+          },
+          {
+            "area": 16,
+            "box": [
+              3,
+              21,
+              15,
+              25
+            ],
+            "centroid": [
+              7.312,
+              23.562
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 115,
+            "box": [
+              3,
+              3,
+              26,
+              26
+            ],
+            "centroid": [
+              14.548,
+              16.861
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 137,
+            "box": [
+              3,
+              2,
+              26,
+              26
+            ],
+            "centroid": [
+              13.832,
+              16.496
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          1391,
+          1537,
+          1420,
+          1566
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:sign-astronomical-unlabeled-668-9"
+      }
+    },
+    "GPO 149": {
+      "components": {
+        "195": [
+          {
+            "area": 3,
+            "box": [
+              12,
+              7,
+              13,
+              10
+            ],
+            "centroid": [
+              12.0,
+              8.0
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              10,
+              11,
+              11,
+              13
+            ],
+            "centroid": [
+              10.0,
+              11.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              9,
+              13,
+              10,
+              15
+            ],
+            "centroid": [
+              9.0,
+              13.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              8,
+              15,
+              9,
+              17
+            ],
+            "centroid": [
+              8.0,
+              15.5
+            ]
+          },
+          {
+            "area": 70,
+            "box": [
+              4,
+              4,
+              26,
+              27
+            ],
+            "centroid": [
+              17.629,
+              18.957
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              6,
+              19,
+              7,
+              21
+            ],
+            "centroid": [
+              6.0,
+              19.5
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 130,
+            "box": [
+              3,
+              3,
+              27,
+              28
+            ],
+            "centroid": [
+              15.162,
+              17.546
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 149,
+            "box": [
+              3,
+              3,
+              27,
+              28
+            ],
+            "centroid": [
+              14.785,
+              17.718
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          358,
+          973,
+          388,
+          1003
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:legend-mathematical-9"
+      }
+    },
+    "GPO 213": {
+      "components": {
+        "195": [
+          {
+            "area": 7,
+            "box": [
+              12,
+              4,
+              15,
+              7
+            ],
+            "centroid": [
+              13.0,
+              5.286
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              11,
+              7,
+              12,
+              9
+            ],
+            "centroid": [
+              11.0,
+              7.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              8,
+              13,
+              9,
+              15
+            ],
+            "centroid": [
+              8.0,
+              13.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              7,
+              15,
+              8,
+              17
+            ],
+            "centroid": [
+              7.0,
+              15.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              21,
+              20,
+              23,
+              21
+            ],
+            "centroid": [
+              21.5,
+              20.0
+            ]
+          },
+          {
+            "area": 6,
+            "box": [
+              3,
+              23,
+              5,
+              26
+            ],
+            "centroid": [
+              3.5,
+              24.0
+            ]
+          },
+          {
+            "area": 23,
+            "box": [
+              7,
+              23,
+              25,
+              27
+            ],
+            "centroid": [
+              16.609,
+              25.478
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 26,
+            "box": [
+              10,
+              3,
+              18,
+              13
+            ],
+            "centroid": [
+              13.462,
+              7.385
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              18,
+              13,
+              20,
+              17
+            ],
+            "centroid": [
+              18.6,
+              14.4
+            ]
+          },
+          {
+            "area": 16,
+            "box": [
+              5,
+              11,
+              10,
+              22
+            ],
+            "centroid": [
+              7.0,
+              15.875
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              20,
+              17,
+              21,
+              19
+            ],
+            "centroid": [
+              20.0,
+              17.5
+            ]
+          },
+          {
+            "area": 55,
+            "box": [
+              3,
+              19,
+              25,
+              27
+            ],
+            "centroid": [
+              14.182,
+              24.545
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 132,
+            "box": [
+              2,
+              3,
+              25,
+              27
+            ],
+            "centroid": [
+              13.098,
+              17.848
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "gpo-cuts-1904",
+        "source_index": 57,
+        "file": "reference/leaf-34.png",
+        "box": [
+          348,
+          3344,
+          376,
+          3374
+        ],
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "candidate_id": "gpo-jobroom-1904:legend-astronomical-29"
+      }
+    },
+    "Boston 6pt-42": {
+      "components": {
+        "195": [
+          {
+            "area": 20,
+            "box": [
+              25,
+              6,
+              30,
+              11
+            ],
+            "centroid": [
+              26.95,
+              8.1
+            ]
+          },
+          {
+            "area": 19,
+            "box": [
+              14,
+              6,
+              19,
+              11
+            ],
+            "centroid": [
+              16.0,
+              8.211
+            ]
+          },
+          {
+            "area": 94,
+            "box": [
+              7,
+              16,
+              38,
+              20
+            ],
+            "centroid": [
+              22.085,
+              17.947
+            ]
+          },
+          {
+            "area": 22,
+            "box": [
+              25,
+              25,
+              30,
+              31
+            ],
+            "centroid": [
+              27.182,
+              27.682
+            ]
+          },
+          {
+            "area": 22,
+            "box": [
+              13,
+              26,
+              19,
+              31
+            ],
+            "centroid": [
+              15.682,
+              27.864
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 33,
+            "box": [
+              13,
+              6,
+              20,
+              12
+            ],
+            "centroid": [
+              16.061,
+              8.333
+            ]
+          },
+          {
+            "area": 30,
+            "box": [
+              24,
+              6,
+              30,
+              12
+            ],
+            "centroid": [
+              26.633,
+              8.367
+            ]
+          },
+          {
+            "area": 122,
+            "box": [
+              6,
+              16,
+              38,
+              21
+            ],
+            "centroid": [
+              21.918,
+              17.607
+            ]
+          },
+          {
+            "area": 33,
+            "box": [
+              25,
+              25,
+              31,
+              32
+            ],
+            "centroid": [
+              27.273,
+              27.788
+            ]
+          },
+          {
+            "area": 34,
+            "box": [
+              13,
+              25,
+              20,
+              32
+            ],
+            "centroid": [
+              15.647,
+              27.794
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 41,
+            "box": [
+              23,
+              5,
+              31,
+              12
+            ],
+            "centroid": [
+              26.707,
+              8.098
+            ]
+          },
+          {
+            "area": 45,
+            "box": [
+              13,
+              5,
+              20,
+              12
+            ],
+            "centroid": [
+              16.111,
+              8.244
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              33,
+              12,
+              35,
+              13
+            ],
+            "centroid": [
+              33.5,
+              12.0
+            ]
+          },
+          {
+            "area": 178,
+            "box": [
+              4,
+              14,
+              39,
+              21
+            ],
+            "centroid": [
+              21.483,
+              17.646
+            ]
+          },
+          {
+            "area": 46,
+            "box": [
+              24,
+              25,
+              32,
+              32
+            ],
+            "centroid": [
+              27.239,
+              27.826
+            ]
+          },
+          {
+            "area": 43,
+            "box": [
+              13,
+              25,
+              20,
+              32
+            ],
+            "centroid": [
+              15.744,
+              27.86
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          598,
+          2640,
+          643,
+          2677
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-6pt-42"
+      }
+    },
+    "Boston 7pt-40": {
+      "components": {
+        "195": [
+          {
+            "area": 17,
+            "box": [
+              25,
+              7,
+              30,
+              11
+            ],
+            "centroid": [
+              26.882,
+              8.588
+            ]
+          },
+          {
+            "area": 19,
+            "box": [
+              14,
+              7,
+              19,
+              12
+            ],
+            "centroid": [
+              16.0,
+              9.211
+            ]
+          },
+          {
+            "area": 95,
+            "box": [
+              7,
+              17,
+              38,
+              21
+            ],
+            "centroid": [
+              22.737,
+              18.884
+            ]
+          },
+          {
+            "area": 19,
+            "box": [
+              14,
+              27,
+              19,
+              32
+            ],
+            "centroid": [
+              16.0,
+              28.789
+            ]
+          },
+          {
+            "area": 21,
+            "box": [
+              25,
+              27,
+              30,
+              32
+            ],
+            "centroid": [
+              27.0,
+              29.0
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 31,
+            "box": [
+              24,
+              6,
+              30,
+              12
+            ],
+            "centroid": [
+              26.581,
+              8.548
+            ]
+          },
+          {
+            "area": 31,
+            "box": [
+              13,
+              7,
+              20,
+              13
+            ],
+            "centroid": [
+              16.065,
+              9.161
+            ]
+          },
+          {
+            "area": 118,
+            "box": [
+              7,
+              16,
+              38,
+              21
+            ],
+            "centroid": [
+              23.144,
+              18.551
+            ]
+          },
+          {
+            "area": 36,
+            "box": [
+              13,
+              26,
+              20,
+              33
+            ],
+            "centroid": [
+              16.083,
+              28.778
+            ]
+          },
+          {
+            "area": 35,
+            "box": [
+              24,
+              26,
+              31,
+              33
+            ],
+            "centroid": [
+              27.114,
+              28.886
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 5,
+            "box": [
+              32,
+              5,
+              34,
+              8
+            ],
+            "centroid": [
+              32.4,
+              5.8
+            ]
+          },
+          {
+            "area": 45,
+            "box": [
+              22,
+              6,
+              31,
+              13
+            ],
+            "centroid": [
+              26.378,
+              8.733
+            ]
+          },
+          {
+            "area": 42,
+            "box": [
+              13,
+              6,
+              20,
+              13
+            ],
+            "centroid": [
+              15.952,
+              8.929
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              32,
+              10,
+              34,
+              12
+            ],
+            "centroid": [
+              32.333,
+              10.667
+            ]
+          },
+          {
+            "area": 171,
+            "box": [
+              5,
+              15,
+              41,
+              22
+            ],
+            "centroid": [
+              22.474,
+              18.363
+            ]
+          },
+          {
+            "area": 9,
+            "box": [
+              10,
+              23,
+              19,
+              24
+            ],
+            "centroid": [
+              14.0,
+              23.0
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              26,
+              23,
+              31,
+              24
+            ],
+            "centroid": [
+              28.0,
+              23.0
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              35,
+              23,
+              37,
+              24
+            ],
+            "centroid": [
+              35.5,
+              23.0
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              22,
+              24,
+              23,
+              26
+            ],
+            "centroid": [
+              22.0,
+              24.5
+            ]
+          },
+          {
+            "area": 51,
+            "box": [
+              12,
+              26,
+              21,
+              33
+            ],
+            "centroid": [
+              16.0,
+              28.804
+            ]
+          },
+          {
+            "area": 50,
+            "box": [
+              22,
+              26,
+              32,
+              33
+            ],
+            "centroid": [
+              27.04,
+              28.98
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              14,
+              35,
+              19,
+              36
+            ],
+            "centroid": [
+              16.0,
+              35.0
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          484,
+          3175,
+          529,
+          3211
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-7pt-40"
+      }
+    },
+    "Boston 8pt-40": {
+      "components": {
+        "195": [
+          {
+            "area": 30,
+            "box": [
+              27,
+              10,
+              33,
+              16
+            ],
+            "centroid": [
+              29.5,
+              12.333
+            ]
+          },
+          {
+            "area": 29,
+            "box": [
+              10,
+              10,
+              16,
+              16
+            ],
+            "centroid": [
+              12.276,
+              12.414
+            ]
+          },
+          {
+            "area": 118,
+            "box": [
+              7,
+              22,
+              40,
+              26
+            ],
+            "centroid": [
+              23.093,
+              23.627
+            ]
+          },
+          {
+            "area": 28,
+            "box": [
+              27,
+              33,
+              33,
+              39
+            ],
+            "centroid": [
+              29.5,
+              35.214
+            ]
+          },
+          {
+            "area": 26,
+            "box": [
+              12,
+              33,
+              17,
+              39
+            ],
+            "centroid": [
+              14.0,
+              35.5
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 40,
+            "box": [
+              26,
+              9,
+              33,
+              16
+            ],
+            "centroid": [
+              29.2,
+              12.35
+            ]
+          },
+          {
+            "area": 40,
+            "box": [
+              9,
+              10,
+              16,
+              17
+            ],
+            "centroid": [
+              12.225,
+              12.7
+            ]
+          },
+          {
+            "area": 160,
+            "box": [
+              6,
+              22,
+              41,
+              27
+            ],
+            "centroid": [
+              22.356,
+              23.869
+            ]
+          },
+          {
+            "area": 40,
+            "box": [
+              26,
+              32,
+              34,
+              39
+            ],
+            "centroid": [
+              29.6,
+              35.125
+            ]
+          },
+          {
+            "area": 33,
+            "box": [
+              11,
+              33,
+              18,
+              39
+            ],
+            "centroid": [
+              14.091,
+              35.485
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 46,
+            "box": [
+              26,
+              9,
+              34,
+              17
+            ],
+            "centroid": [
+              29.348,
+              12.391
+            ]
+          },
+          {
+            "area": 53,
+            "box": [
+              8,
+              9,
+              17,
+              17
+            ],
+            "centroid": [
+              12.547,
+              12.491
+            ]
+          },
+          {
+            "area": 178,
+            "box": [
+              5,
+              21,
+              42,
+              27
+            ],
+            "centroid": [
+              23.022,
+              23.944
+            ]
+          },
+          {
+            "area": 51,
+            "box": [
+              26,
+              31,
+              34,
+              39
+            ],
+            "centroid": [
+              29.471,
+              35.039
+            ]
+          },
+          {
+            "area": 48,
+            "box": [
+              11,
+              32,
+              18,
+              40
+            ],
+            "centroid": [
+              14.021,
+              35.625
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1415,
+          2417,
+          1461,
+          2459
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-8pt-40"
+      }
+    },
+    "Boston 9pt-44": {
+      "components": {
+        "195": [
+          {
+            "area": 32,
+            "box": [
+              32,
+              10,
+              38,
+              16
+            ],
+            "centroid": [
+              34.5,
+              12.5
+            ]
+          },
+          {
+            "area": 28,
+            "box": [
+              15,
+              11,
+              21,
+              17
+            ],
+            "centroid": [
+              17.321,
+              13.321
+            ]
+          },
+          {
+            "area": 155,
+            "box": [
+              7,
+              23,
+              47,
+              27
+            ],
+            "centroid": [
+              26.129,
+              24.497
+            ]
+          },
+          {
+            "area": 33,
+            "box": [
+              32,
+              33,
+              38,
+              40
+            ],
+            "centroid": [
+              34.697,
+              35.909
+            ]
+          },
+          {
+            "area": 28,
+            "box": [
+              17,
+              34,
+              22,
+              40
+            ],
+            "centroid": [
+              19.0,
+              36.679
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 47,
+            "box": [
+              31,
+              9,
+              39,
+              17
+            ],
+            "centroid": [
+              34.404,
+              12.596
+            ]
+          },
+          {
+            "area": 41,
+            "box": [
+              14,
+              10,
+              22,
+              17
+            ],
+            "centroid": [
+              17.366,
+              13.073
+            ]
+          },
+          {
+            "area": 187,
+            "box": [
+              6,
+              22,
+              48,
+              28
+            ],
+            "centroid": [
+              26.578,
+              24.551
+            ]
+          },
+          {
+            "area": 45,
+            "box": [
+              31,
+              33,
+              39,
+              40
+            ],
+            "centroid": [
+              34.689,
+              35.978
+            ]
+          },
+          {
+            "area": 44,
+            "box": [
+              16,
+              33,
+              23,
+              41
+            ],
+            "centroid": [
+              19.0,
+              36.5
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 60,
+            "box": [
+              31,
+              9,
+              39,
+              18
+            ],
+            "centroid": [
+              34.517,
+              12.867
+            ]
+          },
+          {
+            "area": 56,
+            "box": [
+              13,
+              9,
+              22,
+              18
+            ],
+            "centroid": [
+              17.429,
+              13.089
+            ]
+          },
+          {
+            "area": 254,
+            "box": [
+              5,
+              21,
+              48,
+              29
+            ],
+            "centroid": [
+              26.264,
+              24.575
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              33,
+              30,
+              37,
+              31
+            ],
+            "centroid": [
+              34.5,
+              30.0
+            ]
+          },
+          {
+            "area": 54,
+            "box": [
+              31,
+              33,
+              40,
+              41
+            ],
+            "centroid": [
+              34.537,
+              36.074
+            ]
+          },
+          {
+            "area": 55,
+            "box": [
+              15,
+              33,
+              24,
+              41
+            ],
+            "centroid": [
+              19.055,
+              36.545
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1404,
+          3110,
+          1458,
+          3158
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-9pt-44"
+      }
+    },
+    "Boston 10pt-44": {
+      "components": {
+        "195": [
+          {
+            "area": 45,
+            "box": [
+              17,
+              9,
+              24,
+              16
+            ],
+            "centroid": [
+              20.0,
+              12.0
+            ]
+          },
+          {
+            "area": 56,
+            "box": [
+              35,
+              8,
+              43,
+              17
+            ],
+            "centroid": [
+              38.375,
+              12.0
+            ]
+          },
+          {
+            "area": 274,
+            "box": [
+              7,
+              21,
+              53,
+              29
+            ],
+            "centroid": [
+              29.967,
+              24.478
+            ]
+          },
+          {
+            "area": 51,
+            "box": [
+              35,
+              33,
+              43,
+              41
+            ],
+            "centroid": [
+              38.216,
+              36.686
+            ]
+          },
+          {
+            "area": 48,
+            "box": [
+              18,
+              33,
+              26,
+              41
+            ],
+            "centroid": [
+              21.833,
+              36.938
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 71,
+            "box": [
+              16,
+              7,
+              25,
+              17
+            ],
+            "centroid": [
+              20.056,
+              11.845
+            ]
+          },
+          {
+            "area": 73,
+            "box": [
+              34,
+              8,
+              44,
+              17
+            ],
+            "centroid": [
+              38.425,
+              12.041
+            ]
+          },
+          {
+            "area": 340,
+            "box": [
+              7,
+              21,
+              54,
+              29
+            ],
+            "centroid": [
+              30.476,
+              24.338
+            ]
+          },
+          {
+            "area": 68,
+            "box": [
+              34,
+              32,
+              43,
+              42
+            ],
+            "centroid": [
+              38.088,
+              36.691
+            ]
+          },
+          {
+            "area": 65,
+            "box": [
+              17,
+              33,
+              27,
+              42
+            ],
+            "centroid": [
+              21.892,
+              37.123
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 15,
+            "box": [
+              3,
+              0,
+              8,
+              4
+            ],
+            "centroid": [
+              5.333,
+              1.2
+            ]
+          },
+          {
+            "area": 17,
+            "box": [
+              30,
+              0,
+              38,
+              6
+            ],
+            "centroid": [
+              33.882,
+              1.529
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              33,
+              7,
+              35,
+              8
+            ],
+            "centroid": [
+              33.5,
+              7.0
+            ]
+          },
+          {
+            "area": 135,
+            "box": [
+              50,
+              0,
+              60,
+              25
+            ],
+            "centroid": [
+              56.081,
+              9.741
+            ]
+          },
+          {
+            "area": 117,
+            "box": [
+              15,
+              3,
+              30,
+              18
+            ],
+            "centroid": [
+              20.735,
+              10.487
+            ]
+          },
+          {
+            "area": 98,
+            "box": [
+              33,
+              7,
+              45,
+              18
+            ],
+            "centroid": [
+              38.531,
+              11.939
+            ]
+          },
+          {
+            "area": 9,
+            "box": [
+              46,
+              10,
+              50,
+              15
+            ],
+            "centroid": [
+              47.556,
+              12.0
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              28,
+              12,
+              30,
+              15
+            ],
+            "centroid": [
+              28.25,
+              13.0
+            ]
+          },
+          {
+            "area": 18,
+            "box": [
+              6,
+              11,
+              13,
+              20
+            ],
+            "centroid": [
+              9.556,
+              15.611
+            ]
+          },
+          {
+            "area": 7,
+            "box": [
+              44,
+              16,
+              49,
+              18
+            ],
+            "centroid": [
+              46.143,
+              16.714
+            ]
+          },
+          {
+            "area": 423,
+            "box": [
+              7,
+              19,
+              55,
+              31
+            ],
+            "centroid": [
+              31.208,
+              24.421
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              3,
+              25,
+              5,
+              27
+            ],
+            "centroid": [
+              3.5,
+              25.5
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              59,
+              26,
+              60,
+              31
+            ],
+            "centroid": [
+              59.0,
+              28.0
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              22,
+              30,
+              24,
+              31
+            ],
+            "centroid": [
+              22.5,
+              30.0
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              9,
+              31,
+              14,
+              32
+            ],
+            "centroid": [
+              11.0,
+              31.0
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              42,
+              31,
+              46,
+              33
+            ],
+            "centroid": [
+              43.6,
+              31.2
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              17,
+              31,
+              20,
+              33
+            ],
+            "centroid": [
+              18.2,
+              31.4
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              5,
+              33,
+              7,
+              36
+            ],
+            "centroid": [
+              5.6,
+              33.8
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              46,
+              35,
+              47,
+              37
+            ],
+            "centroid": [
+              46.0,
+              35.5
+            ]
+          },
+          {
+            "area": 93,
+            "box": [
+              33,
+              32,
+              46,
+              43
+            ],
+            "centroid": [
+              38.559,
+              36.968
+            ]
+          },
+          {
+            "area": 27,
+            "box": [
+              53,
+              35,
+              60,
+              40
+            ],
+            "centroid": [
+              56.667,
+              37.0
+            ]
+          },
+          {
+            "area": 84,
+            "box": [
+              17,
+              31,
+              27,
+              44
+            ],
+            "centroid": [
+              21.893,
+              37.286
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              30,
+              37,
+              31,
+              39
+            ],
+            "centroid": [
+              30.0,
+              37.5
+            ]
+          },
+          {
+            "area": 8,
+            "box": [
+              13,
+              36,
+              15,
+              41
+            ],
+            "centroid": [
+              13.625,
+              38.0
+            ]
+          },
+          {
+            "area": 52,
+            "box": [
+              36,
+              40,
+              52,
+              48
+            ],
+            "centroid": [
+              45.481,
+              44.038
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              1,
+              44,
+              4,
+              46
+            ],
+            "centroid": [
+              2.0,
+              44.75
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          2338,
+          2403,
+          2398,
+          2451
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-10pt-44"
+      }
+    },
+    "Boston 11pt-35": {
+      "components": {
+        "195": [
+          {
+            "area": 37,
+            "box": [
+              38,
+              15,
+              44,
+              22
+            ],
+            "centroid": [
+              40.541,
+              18.081
+            ]
+          },
+          {
+            "area": 36,
+            "box": [
+              16,
+              15,
+              23,
+              22
+            ],
+            "centroid": [
+              19.028,
+              18.083
+            ]
+          },
+          {
+            "area": 189,
+            "box": [
+              7,
+              24,
+              55,
+              29
+            ],
+            "centroid": [
+              30.81,
+              26.503
+            ]
+          },
+          {
+            "area": 36,
+            "box": [
+              38,
+              32,
+              45,
+              39
+            ],
+            "centroid": [
+              40.694,
+              35.306
+            ]
+          },
+          {
+            "area": 35,
+            "box": [
+              16,
+              32,
+              23,
+              39
+            ],
+            "centroid": [
+              18.714,
+              35.4
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 54,
+            "box": [
+              37,
+              14,
+              45,
+              23
+            ],
+            "centroid": [
+              40.463,
+              18.019
+            ]
+          },
+          {
+            "area": 48,
+            "box": [
+              16,
+              15,
+              24,
+              23
+            ],
+            "centroid": [
+              19.167,
+              18.062
+            ]
+          },
+          {
+            "area": 271,
+            "box": [
+              6,
+              24,
+              56,
+              30
+            ],
+            "centroid": [
+              31.579,
+              26.439
+            ]
+          },
+          {
+            "area": 6,
+            "box": [
+              11,
+              30,
+              17,
+              31
+            ],
+            "centroid": [
+              13.5,
+              30.0
+            ]
+          },
+          {
+            "area": 51,
+            "box": [
+              37,
+              32,
+              45,
+              39
+            ],
+            "centroid": [
+              40.569,
+              35.137
+            ]
+          },
+          {
+            "area": 47,
+            "box": [
+              16,
+              32,
+              23,
+              40
+            ],
+            "centroid": [
+              18.936,
+              35.447
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 3004,
+            "box": [
+              0,
+              0,
+              62,
+              57
+            ],
+            "centroid": [
+              31.302,
+              28.368
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              25,
+              33,
+              26,
+              37
+            ],
+            "centroid": [
+              25.0,
+              34.5
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          2213,
+          3149,
+          2275,
+          3206
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-11pt-35"
+      }
+    },
+    "Boston 6pt-28": {
+      "components": {
+        "195": [
+          {
+            "area": 215,
+            "box": [
+              7,
+              11,
+              34,
+              34
+            ],
+            "centroid": [
+              19.642,
+              25.019
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 273,
+            "box": [
+              6,
+              11,
+              34,
+              35
+            ],
+            "centroid": [
+              19.531,
+              24.89
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 3,
+            "box": [
+              13,
+              11,
+              15,
+              13
+            ],
+            "centroid": [
+              13.667,
+              11.667
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              8,
+              22,
+              9,
+              24
+            ],
+            "centroid": [
+              8.0,
+              22.5
+            ]
+          },
+          {
+            "area": 327,
+            "box": [
+              6,
+              10,
+              35,
+              35
+            ],
+            "centroid": [
+              19.569,
+              24.636
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          452,
+          2570,
+          492,
+          2609
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-6pt-28"
+      }
+    },
+    "Boston 7pt-28": {
+      "components": {
+        "195": [
+          {
+            "area": 215,
+            "box": [
+              7,
+              9,
+              33,
+              33
+            ],
+            "centroid": [
+              19.265,
+              23.567
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 281,
+            "box": [
+              7,
+              8,
+              34,
+              33
+            ],
+            "centroid": [
+              19.598,
+              23.327
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 3,
+            "box": [
+              10,
+              14,
+              11,
+              17
+            ],
+            "centroid": [
+              10.0,
+              15.0
+            ]
+          },
+          {
+            "area": 330,
+            "box": [
+              7,
+              8,
+              35,
+              34
+            ],
+            "centroid": [
+              19.848,
+              23.245
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              3,
+              28,
+              5,
+              30
+            ],
+            "centroid": [
+              3.667,
+              28.667
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              32,
+              35,
+              34,
+              36
+            ],
+            "centroid": [
+              32.5,
+              35.0
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              27,
+              35,
+              29,
+              37
+            ],
+            "centroid": [
+              27.667,
+              35.333
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              4,
+              35,
+              5,
+              37
+            ],
+            "centroid": [
+              4.0,
+              35.5
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          380,
+          3101,
+          420,
+          3141
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-7pt-28"
+      }
+    },
+    "Boston 7pt-45": {
+      "components": {
+        "195": [
+          {
+            "area": 203,
+            "box": [
+              7,
+              6,
+              32,
+              29
+            ],
+            "centroid": [
+              18.818,
+              19.956
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 264,
+            "box": [
+              6,
+              5,
+              33,
+              30
+            ],
+            "centroid": [
+              18.742,
+              19.636
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 2,
+            "box": [
+              25,
+              8,
+              26,
+              10
+            ],
+            "centroid": [
+              25.0,
+              8.5
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              15,
+              19,
+              17,
+              21
+            ],
+            "centroid": [
+              15.333,
+              19.333
+            ]
+          },
+          {
+            "area": 319,
+            "box": [
+              6,
+              4,
+              33,
+              30
+            ],
+            "centroid": [
+              18.759,
+              19.699
+            ]
+          },
+          {
+            "area": 6,
+            "box": [
+              19,
+              21,
+              23,
+              24
+            ],
+            "centroid": [
+              20.5,
+              22.0
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          797,
+          3175,
+          836,
+          3211
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-7pt-45"
+      }
+    },
+    "Boston 8pt-30": {
+      "components": {
+        "195": [
+          {
+            "area": 338,
+            "box": [
+              7,
+              6,
+              44,
+              39
+            ],
+            "centroid": [
+              25.518,
+              25.938
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 459,
+            "box": [
+              6,
+              4,
+              45,
+              40
+            ],
+            "centroid": [
+              25.024,
+              25.845
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 11,
+            "box": [
+              41,
+              0,
+              44,
+              5
+            ],
+            "centroid": [
+              41.727,
+              2.455
+            ]
+          },
+          {
+            "area": 58,
+            "box": [
+              10,
+              0,
+              22,
+              10
+            ],
+            "centroid": [
+              14.586,
+              3.086
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              33,
+              4,
+              35,
+              6
+            ],
+            "centroid": [
+              33.333,
+              4.667
+            ]
+          },
+          {
+            "area": 13,
+            "box": [
+              33,
+              10,
+              38,
+              15
+            ],
+            "centroid": [
+              35.0,
+              11.923
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              15,
+              14,
+              16,
+              16
+            ],
+            "centroid": [
+              15.0,
+              14.5
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              8,
+              16,
+              10,
+              19
+            ],
+            "centroid": [
+              8.75,
+              17.0
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              41,
+              16,
+              43,
+              19
+            ],
+            "centroid": [
+              41.4,
+              17.2
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              39,
+              20,
+              41,
+              22
+            ],
+            "centroid": [
+              39.5,
+              20.5
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              45,
+              24,
+              46,
+              27
+            ],
+            "centroid": [
+              45.0,
+              25.0
+            ]
+          },
+          {
+            "area": 687,
+            "box": [
+              2,
+              0,
+              47,
+              42
+            ],
+            "centroid": [
+              24.563,
+              25.408
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              17,
+              27,
+              21,
+              31
+            ],
+            "centroid": [
+              18.286,
+              28.5
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              43,
+              28,
+              45,
+              30
+            ],
+            "centroid": [
+              43.5,
+              28.5
+            ]
+          },
+          {
+            "area": 16,
+            "box": [
+              23,
+              27,
+              30,
+              31
+            ],
+            "centroid": [
+              25.938,
+              28.625
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              5,
+              29,
+              6,
+              32
+            ],
+            "centroid": [
+              5.0,
+              30.0
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              26,
+              33,
+              29,
+              34
+            ],
+            "centroid": [
+              27.0,
+              33.0
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              46,
+              37,
+              48,
+              40
+            ],
+            "centroid": [
+              46.75,
+              38.25
+            ]
+          },
+          {
+            "area": 35,
+            "box": [
+              16,
+              41,
+              35,
+              45
+            ],
+            "centroid": [
+              24.6,
+              41.743
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              36,
+              43,
+              39,
+              44
+            ],
+            "centroid": [
+              37.0,
+              43.0
+            ]
+          },
+          {
+            "area": 27,
+            "box": [
+              0,
+              42,
+              5,
+              48
+            ],
+            "centroid": [
+              1.889,
+              44.778
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              11,
+              45,
+              16,
+              46
+            ],
+            "centroid": [
+              13.0,
+              45.0
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              31,
+              45,
+              35,
+              47
+            ],
+            "centroid": [
+              32.6,
+              45.2
+            ]
+          },
+          {
+            "area": 24,
+            "box": [
+              44,
+              44,
+              51,
+              48
+            ],
+            "centroid": [
+              47.375,
+              45.708
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          591,
+          3667,
+          642,
+          3715
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-8pt-30"
+      }
+    },
+    "Boston 9pt-28": {
+      "components": {
+        "195": [
+          {
+            "area": 346,
+            "box": [
+              8,
+              7,
+              49,
+              44
+            ],
+            "centroid": [
+              27.474,
+              29.607
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 470,
+            "box": [
+              7,
+              6,
+              49,
+              44
+            ],
+            "centroid": [
+              27.874,
+              29.847
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 590,
+            "box": [
+              6,
+              5,
+              49,
+              45
+            ],
+            "centroid": [
+              27.812,
+              30.436
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1395,
+          2949,
+          1451,
+          2999
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-9pt-28"
+      }
+    },
+    "Boston 10pt-29": {
+      "components": {
+        "195": [
+          {
+            "area": 409,
+            "box": [
+              6,
+              3,
+              51,
+              41
+            ],
+            "centroid": [
+              28.174,
+              26.756
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 527,
+            "box": [
+              6,
+              3,
+              51,
+              42
+            ],
+            "centroid": [
+              28.29,
+              27.15
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 24,
+            "box": [
+              5,
+              0,
+              13,
+              4
+            ],
+            "centroid": [
+              8.292,
+              1.167
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              22,
+              3,
+              24,
+              6
+            ],
+            "centroid": [
+              22.75,
+              4.0
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              35,
+              3,
+              37,
+              6
+            ],
+            "centroid": [
+              35.25,
+              4.0
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              13,
+              12,
+              17,
+              13
+            ],
+            "centroid": [
+              14.5,
+              12.0
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              55,
+              13,
+              58,
+              18
+            ],
+            "centroid": [
+              56.071,
+              15.143
+            ]
+          },
+          {
+            "area": 39,
+            "box": [
+              46,
+              7,
+              53,
+              23
+            ],
+            "centroid": [
+              48.436,
+              15.59
+            ]
+          },
+          {
+            "area": 13,
+            "box": [
+              9,
+              16,
+              16,
+              21
+            ],
+            "centroid": [
+              12.769,
+              18.615
+            ]
+          },
+          {
+            "area": 12,
+            "box": [
+              30,
+              19,
+              34,
+              24
+            ],
+            "centroid": [
+              31.167,
+              21.167
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              21,
+              20,
+              26,
+              27
+            ],
+            "centroid": [
+              23.143,
+              22.714
+            ]
+          },
+          {
+            "area": 6,
+            "box": [
+              27,
+              25,
+              29,
+              29
+            ],
+            "centroid": [
+              27.333,
+              26.5
+            ]
+          },
+          {
+            "area": 12,
+            "box": [
+              33,
+              25,
+              38,
+              30
+            ],
+            "centroid": [
+              34.5,
+              27.083
+            ]
+          },
+          {
+            "area": 747,
+            "box": [
+              4,
+              2,
+              53,
+              46
+            ],
+            "centroid": [
+              28.53,
+              27.985
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              19,
+              28,
+              21,
+              31
+            ],
+            "centroid": [
+              19.4,
+              29.2
+            ]
+          },
+          {
+            "area": 8,
+            "box": [
+              21,
+              33,
+              27,
+              35
+            ],
+            "centroid": [
+              23.5,
+              33.75
+            ]
+          },
+          {
+            "area": 12,
+            "box": [
+              24,
+              44,
+              33,
+              46
+            ],
+            "centroid": [
+              27.75,
+              44.25
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              6,
+              44,
+              14,
+              47
+            ],
+            "centroid": [
+              10.357,
+              44.571
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              22,
+              48,
+              24,
+              49
+            ],
+            "centroid": [
+              22.5,
+              48.0
+            ]
+          },
+          {
+            "area": 28,
+            "box": [
+              45,
+              47,
+              54,
+              51
+            ],
+            "centroid": [
+              49.179,
+              48.643
+            ]
+          },
+          {
+            "area": 14,
+            "box": [
+              5,
+              48,
+              10,
+              51
+            ],
+            "centroid": [
+              6.857,
+              48.929
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              36,
+              50,
+              40,
+              51
+            ],
+            "centroid": [
+              37.5,
+              50.0
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1653,
+          3568,
+          1711,
+          3619
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-10pt-29"
+      }
+    },
+    "Boston 10pt-48": {
+      "components": {
+        "195": [
+          {
+            "area": 400,
+            "box": [
+              7,
+              12,
+              51,
+              47
+            ],
+            "centroid": [
+              27.887,
+              34.193
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 514,
+            "box": [
+              7,
+              11,
+              51,
+              48
+            ],
+            "centroid": [
+              28.023,
+              34.012
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 3,
+            "box": [
+              26,
+              9,
+              29,
+              10
+            ],
+            "centroid": [
+              27.0,
+              9.0
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              40,
+              21,
+              42,
+              22
+            ],
+            "centroid": [
+              40.5,
+              21.0
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              46,
+              25,
+              47,
+              28
+            ],
+            "centroid": [
+              46.0,
+              26.0
+            ]
+          },
+          {
+            "area": 640,
+            "box": [
+              6,
+              10,
+              52,
+              48
+            ],
+            "centroid": [
+              28.283,
+              33.984
+            ]
+          },
+          {
+            "area": 3,
+            "box": [
+              39,
+              37,
+              41,
+              39
+            ],
+            "centroid": [
+              39.667,
+              37.333
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              50,
+              37,
+              51,
+              39
+            ],
+            "centroid": [
+              50.0,
+              37.5
+            ]
+          },
+          {
+            "area": 2,
+            "box": [
+              52,
+              40,
+              53,
+              42
+            ],
+            "centroid": [
+              52.0,
+              40.5
+            ]
+          },
+          {
+            "area": 5,
+            "box": [
+              3,
+              42,
+              5,
+              45
+            ],
+            "centroid": [
+              3.6,
+              42.8
+            ]
+          },
+          {
+            "area": 8,
+            "box": [
+              54,
+              43,
+              57,
+              48
+            ],
+            "centroid": [
+              54.875,
+              45.0
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              13,
+              49,
+              17,
+              50
+            ],
+            "centroid": [
+              14.5,
+              49.0
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1904,
+          2485,
+          1962,
+          2539
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-10pt-48"
+      }
+    },
+    "Boston 11pt-43": {
+      "components": {
+        "195": [
+          {
+            "area": 226,
+            "box": [
+              7,
+              14,
+              28,
+              40
+            ],
+            "centroid": [
+              17.447,
+              29.518
+            ]
+          }
+        ],
+        "215": [
+          {
+            "area": 300,
+            "box": [
+              6,
+              13,
+              29,
+              40
+            ],
+            "centroid": [
+              17.233,
+              29.487
+            ]
+          }
+        ],
+        "225": [
+          {
+            "area": 1450,
+            "box": [
+              0,
+              0,
+              35,
+              56
+            ],
+            "centroid": [
+              16.71,
+              28.983
+            ]
+          },
+          {
+            "area": 19,
+            "box": [
+              33,
+              23,
+              35,
+              36
+            ],
+            "centroid": [
+              33.684,
+              29.789
+            ]
+          },
+          {
+            "area": 4,
+            "box": [
+              29,
+              31,
+              31,
+              33
+            ],
+            "centroid": [
+              29.5,
+              31.5
+            ]
+          }
+        ]
+      },
+      "source": {
+        "source_family": "boston-symbols-1889",
+        "source_index": 0,
+        "file": "reference/boston-255.jp2",
+        "box": [
+          2183,
+          3240,
+          2218,
+          3296
+        ],
+        "pdf_page": 263,
+        "printed_page": 255,
+        "icon_id": "boston-1889-p255-11pt-43"
+      }
+    }
+  }
+}

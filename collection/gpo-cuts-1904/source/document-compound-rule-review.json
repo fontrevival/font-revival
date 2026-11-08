@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "native_file": "reference/gpo-document-1904-leaf-137.png",
+  "original_file": "reference/gpo-document-1904-leaf-137.jp2",
+  "original_sha256": "1b7b1c5cd6856b0993dff9f960f836bb48309618d6eeeecc4477a3b10ec6e3a2",
+  "entries": [
+    {
+      "number": 20,
+      "id": "gpo-1904-wave-and-straight-rule",
+      "name": "Waved rule above a fine straight rule",
+      "glyph": "uniE24E",
+      "codepoint": "E24E",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1754,
+        2403,
+        1860,
+        2441
+      ],
+      "context_box": [
+        1751,
+        2400,
+        1863,
+        2444
+      ],
+      "sampling_factor": 4,
+      "period_count": 3,
+      "source_phase": "successive downward troughs in upper wave",
+      "source_candidate": 3,
+      "alignment": {
+        "native_slope": 0.00104237580594659,
+        "rotation_degrees": 0.05972371271641356,
+        "method": "Robust grayscale centroid fit to lower straight rule",
+        "residual_std": 0.16340736259804253
+      },
+      "bounds": [
+        62.9075,
+        673.3006327130669,
+        1864.1879155094534,
+        1126.1865693189945
+      ],
+      "recipe": {
+        "file": "reference/compound-rule-20-sampling-4.png",
+        "box": [
+          12,
+          12,
+          436,
+          164
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "threshold": 210,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999994567267823,
+          0.001042375239651732,
+          -0.001042375239651732,
+          0.9999994567267823,
+          0.9386614310684186,
+          -1.0043607851282559
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 185,
+            "secondary": 210,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Three consecutive observed periods from Document Division rule No.20, printed66/archive137. Fourfold bilinear sampling of the retained context supports subpixel fitting without adding source detail. Local paper normalization radius48 sample pixels, threshold210, tones185/210/235. One measured rigid rotation 0.059723713 degrees; uniform source proportions and native ink variation retained. Period boundaries are measured interior repeat sections, not invented isolated terminals. No reconstructed waveform or forced seamless join."
+      },
+      "recommended_min_px": 64,
+      "identity_reason": "Two-line construction, with a broad shallow wave above a separate straight hairline. Existing fine waves lack the lower straight rule; Boston Floriated4–6 have deep pointed scallops and variable stroke weight.",
+      "quality_todo": "Seek sharper matching complete impressions and compare repeat-end phase. The three-period source strip preserves native edge and ink variation; joins are not geometrically perfected."
+    },
+    {
+      "number": 21,
+      "id": "gpo-1904-scalloped-band-and-wave-rule",
+      "name": "Scalloped band above a fine waved rule",
+      "glyph": "uniE24F",
+      "codepoint": "E24F",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1715,
+        2518,
+        1824,
+        2555
+      ],
+      "context_box": [
+        1712,
+        2515,
+        1827,
+        2558
+      ],
+      "sampling_factor": 4,
+      "period_count": 3,
+      "source_phase": "successive upward crests in lower fine wave",
+      "source_candidate": 2,
+      "alignment": {
+        "native_slope": 0.0003988740848965084,
+        "rotation_degrees": 0.022853800409695584,
+        "method": "Robust subpixel half-depth fit to straight lower edge of upper scalloped band",
+        "residual_std": 0.28078572616793773
+      },
+      "bounds": [
+        63.967996873127944,
+        677.7117746807978,
+        1864.0477340295542,
+        1122.0807316439132
+      ],
+      "recipe": {
+        "file": "reference/compound-rule-21-sampling-4.png",
+        "box": [
+          12,
+          12,
+          448,
+          160
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "threshold": 210,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999999204497417,
+          0.0003988740531659719,
+          -0.0003988740531659719,
+          0.9999999204497417,
+          0.3590633342983808,
+          -0.3844429920194443
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 185,
+            "secondary": 210,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Three consecutive observed periods from Document Division rule No.21, printed66/archive137. Fourfold bilinear sampling of the retained context supports subpixel fitting without adding source detail. Local paper normalization radius48 sample pixels, threshold210, tones185/210/235. One measured rigid rotation 0.022853800 degrees; uniform source proportions and native ink variation retained. Period boundaries are measured interior repeat sections, not invented isolated terminals. No reconstructed waveform or forced seamless join."
+      },
+      "recommended_min_px": 128,
+      "identity_reason": "Two-line construction, with a filled scalloped upper band and a separate fine waved line. Existing Boston Floriated4–6 lack both this filled band and the paired fine wave. GPO dotted-wave constructions include dots and different outer lines.",
+      "quality_todo": "Seek sharper matching complete impressions and compare repeat-end phase. The three-period source strip preserves native edge and ink variation; joins are not geometrically perfected."
+    }
+  ],
+  "classification": "Two distinct compound printing faces from the five-point metal bodies Nos.20 and21. Body width is context; the revived outlines contain the printing face alone.",
+  "comparison": "Compared with the existing single fine waved rules, Boston1889 Floriated4–6 and GPO dotted-wave ornaments5/8. Their line count, filled-versus-outline construction, wave contour and component sequence differ.",
+  "sampling": "Fourfold bilinear sampling of the retained native context, followed by local paper normalization at48 sample pixels. Sampling adds no source detail. The tracing crop selects three complete measured periods.",
+  "proof": "specimens/document-compound-rule-review.pdf"
+}

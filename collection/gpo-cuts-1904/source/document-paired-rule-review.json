@@ -1,0 +1,2141 @@
+{
+  "schema_version": 1,
+  "native_file": "reference/gpo-document-1904-leaf-137.png",
+  "original_file": "reference/gpo-document-1904-leaf-137.jp2",
+  "original_sha256": "1b7b1c5cd6856b0993dff9f960f836bb48309618d6eeeecc4477a3b10ec6e3a2",
+  "entries": [
+    {
+      "number": 18,
+      "id": "gpo-1904-wide-fine-parallel-rule",
+      "name": "Widely spaced fine parallel rules",
+      "glyph": "uniE250",
+      "codepoint": "E250",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1918,
+        2190,
+        2043,
+        2224
+      ],
+      "context_box": [
+        1915,
+        2187,
+        2046,
+        2227
+      ],
+      "sampling_factor": 4,
+      "source_box": [
+        1615,
+        2190,
+        2325,
+        2224
+      ],
+      "extraction_kind": "interior continuous-rule segment; terminals are not isolated historical ends",
+      "alignment": {
+        "method": "Mean of two robust native grayscale-centroid line fits across the full printing-face run, excluding30 pixels at each end. One rigid rotation preserves relative line spacing and native source variation.",
+        "stroke_fits": [
+          {
+            "slope": 0.0005348006224799219,
+            "residual_std": 0.13255868495926906,
+            "sample_count": 645
+          },
+          {
+            "slope": 0.0012629056076094902,
+            "residual_std": 0.1653102076602872,
+            "sample_count": 636
+          }
+        ],
+        "native_slope": 0.000898853115044706,
+        "rotation_degrees": 0.051500476024539645
+      },
+      "bounds": [
+        63.879795673618304,
+        749.39842224128,
+        1864.3506944444443,
+        1050.6669339755701
+      ],
+      "recipe": {
+        "file": "reference/document-pair-18-sampling-4.png",
+        "box": [
+          12,
+          12,
+          512,
+          148
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "threshold": 205,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999995960317836,
+          0.0008988527519366163,
+          -0.0008988527519366163,
+          0.9999995960317836,
+          0.8093569021035496,
+          -0.8661304814720552
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 205,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Observed interior continuous-rule segment from Document Division No.18, printed66/archive137. The complete pair profile is preserved; crop boundaries are not claimed as isolated historical terminals. Fourfold bilinear native-context sampling, paper radius48sample pixels, threshold205 and disjoint tones180/205/235. One rigid rotation 0.051500476 degrees from both full-run centroid fits. Uniform scaling retains stroke widths and gap proportions; native edge irregularity remains."
+      },
+      "recommended_min_px": 128,
+      "identity_reason": "The two fine strokes are separated by15.5–15.8 native pixels, compared with10.6–11.1 for No17 in the same scan. Both have roughly2-pixel fine strokes. Wider separation is a measured construction difference, independent of line length.",
+      "quality_todo": "Compare sharper complete matching profiles, retaining native ink variation and the original face/body contexts. Final repeat-layout and browser review remain pending."
+    },
+    {
+      "number": 19,
+      "id": "gpo-1904-light-unequal-double-rule",
+      "name": "Light unequal double rule",
+      "glyph": "uniE251",
+      "codepoint": "E251",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1918,
+        2299,
+        2042,
+        2333
+      ],
+      "context_box": [
+        1915,
+        2296,
+        2045,
+        2336
+      ],
+      "sampling_factor": 4,
+      "source_box": [
+        1615,
+        2299,
+        2325,
+        2333
+      ],
+      "extraction_kind": "interior continuous-rule segment; terminals are not isolated historical ends",
+      "alignment": {
+        "method": "Mean of two robust native grayscale-centroid line fits across the full printing-face run, excluding30 pixels at each end. One rigid rotation preserves relative line spacing and native source variation.",
+        "stroke_fits": [
+          {
+            "slope": 0.000828897509070714,
+            "residual_std": 0.1605741691112428,
+            "sample_count": 631
+          },
+          {
+            "slope": 0.0010568501621264499,
+            "residual_std": 0.15555139385675162,
+            "sample_count": 647
+          }
+        ],
+        "native_slope": 0.000942873835598582,
+        "rotation_degrees": 0.05402267538419556
+      },
+      "bounds": [
+        63.88884083044983,
+        749.5626689646261,
+        1864.1101307967235,
+        1049.6611701072868
+      ],
+      "recipe": {
+        "file": "reference/document-pair-19-sampling-4.png",
+        "box": [
+          12,
+          12,
+          508,
+          148
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "threshold": 205,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999995554947615,
+          0.0009428734164862227,
+          -0.0009428734164862227,
+          0.9999995554947615,
+          0.8490145778874754,
+          -0.908529918778072
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 205,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Observed interior continuous-rule segment from Document Division No.19, printed66/archive137. The complete pair profile is preserved; crop boundaries are not claimed as isolated historical terminals. Fourfold bilinear native-context sampling, paper radius48sample pixels, threshold205 and disjoint tones180/205/235. One rigid rotation 0.054022675 degrees from both full-run centroid fits. Uniform scaling retains stroke widths and gap proportions; native edge irregularity remains."
+      },
+      "recommended_min_px": 128,
+      "identity_reason": "At the same15.4–15.7-pixel separation as No18, the upper stroke has2.4–2.9-pixel half-depth width and higher ink depth, while the lower remains1.9–2.3. The upper is lighter relative to its gap than the existing1897 four-point pair. The modest unequal weighting is preserved.",
+      "quality_todo": "Compare sharper complete matching profiles, retaining native ink variation and the original face/body contexts. Final repeat-layout and browser review remain pending."
+    },
+    {
+      "number": 22,
+      "id": "gpo-1904-heavy-double-rule-narrow-gap",
+      "name": "Heavy and fine rules with a narrow gap",
+      "glyph": "uniE252",
+      "codepoint": "E252",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1878,
+        2630,
+        2082,
+        2674
+      ],
+      "context_box": [
+        1875,
+        2627,
+        2085,
+        2677
+      ],
+      "sampling_factor": 4,
+      "source_box": [
+        1615,
+        2630,
+        2325,
+        2674
+      ],
+      "extraction_kind": "interior continuous-rule segment; terminals are not isolated historical ends",
+      "alignment": {
+        "method": "Mean of two robust native grayscale-centroid line fits across the full printing-face run, excluding30 pixels at each end. One rigid rotation preserves relative line spacing and native source variation.",
+        "stroke_fits": [
+          {
+            "slope": -0.0007435736220679847,
+            "residual_std": 0.20273097154186298,
+            "sample_count": 608
+          },
+          {
+            "slope": -0.0008055741512618922,
+            "residual_std": 0.2587817906686943,
+            "sample_count": 639
+          }
+        ],
+        "native_slope": -0.0007745738866649385,
+        "rotation_degrees": -0.04437980575150791
+      },
+      "bounds": [
+        63.90593892177905,
+        754.6280148434369,
+        1864.09375,
+        1046.375
+      ],
+      "recipe": {
+        "file": "reference/document-pair-22-sampling-4.png",
+        "box": [
+          12,
+          12,
+          828,
+          188
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "threshold": 205,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.999999700017782,
+          -0.000774573654306546,
+          0.000774573654306546,
+          0.999999700017782,
+          -0.6968271060178227,
+          0.7469589867476998
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 205,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Observed interior continuous-rule segment from Document Division No.22, printed66/archive137. The complete pair profile is preserved; crop boundaries are not claimed as isolated historical terminals. Fourfold bilinear native-context sampling, paper radius48sample pixels, threshold205 and disjoint tones180/205/235. One rigid rotation -0.044379806 degrees from both full-run centroid fits. Uniform scaling retains stroke widths and gap proportions; native edge irregularity remains."
+      },
+      "recommended_min_px": 128,
+      "identity_reason": "Heavy upper stroke5.0–5.5 native pixels and fine lower2.0–2.5, separated by25.5–25.7. This narrower gap-to-heavy-stroke relation differs from Nos23/24 and the existing Jobroom6/10-point pairs; the1897 four-point source has a much broader upper stroke relative to its gap.",
+      "quality_todo": "Compare sharper complete matching profiles, retaining native ink variation and the original face/body contexts. Final repeat-layout and browser review remain pending."
+    },
+    {
+      "number": 23,
+      "id": "gpo-1904-heavy-double-rule-medium-gap",
+      "name": "Heavy and fine rules with a medium gap",
+      "glyph": "uniE253",
+      "codepoint": "E253",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1860,
+        2748,
+        2100,
+        2798
+      ],
+      "context_box": [
+        1857,
+        2745,
+        2103,
+        2801
+      ],
+      "sampling_factor": 4,
+      "source_box": [
+        1615,
+        2748,
+        2325,
+        2798
+      ],
+      "extraction_kind": "interior continuous-rule segment; terminals are not isolated historical ends",
+      "alignment": {
+        "method": "Mean of two robust native grayscale-centroid line fits across the full printing-face run, excluding30 pixels at each end. One rigid rotation preserves relative line spacing and native source variation.",
+        "stroke_fits": [
+          {
+            "slope": -0.0012409030422052053,
+            "residual_std": 0.16237974061709803,
+            "sample_count": 619
+          },
+          {
+            "slope": -0.0015607109660878491,
+            "residual_std": 0.19821538400742114,
+            "sample_count": 623
+          }
+        ],
+        "native_slope": -0.0014008070041465273,
+        "rotation_degrees": -0.08026027675280438
+      },
+      "bounds": [
+        63.827341263290336,
+        758.1268465908239,
+        1864.1584994242212,
+        1040.75
+      ],
+      "recipe": {
+        "file": "reference/document-pair-23-sampling-4.png",
+        "box": [
+          12,
+          12,
+          972,
+          212
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "threshold": 205,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999990188713125,
+          -0.0014008056297745899,
+          0.0014008056297745899,
+          0.9999990188713125,
+          -1.2597792587423506,
+          1.351259642921491
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 205,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Observed interior continuous-rule segment from Document Division No.23, printed66/archive137. The complete pair profile is preserved; crop boundaries are not claimed as isolated historical terminals. Fourfold bilinear native-context sampling, paper radius48sample pixels, threshold205 and disjoint tones180/205/235. One rigid rotation -0.080260277 degrees from both full-run centroid fits. Uniform scaling retains stroke widths and gap proportions; native edge irregularity remains."
+      },
+      "recommended_min_px": 128,
+      "identity_reason": "Heavy upper stroke5.1 native pixels and fine lower2.1–2.3, separated by30.0–30.3. It differs from No22 mainly in relative separation and from No24 in relative weight/gap geometry. The same-page comparison distinguishes these measured profiles from mere printed body labels.",
+      "quality_todo": "Compare sharper complete matching profiles, retaining native ink variation and the original face/body contexts. Final repeat-layout and browser review remain pending."
+    }
+  ],
+  "classification": "Four distinct paired printing-face profiles, Nos.18/19/22/23. Interior segments preserve relative stroke widths and separation; cropped boundaries are not claimed as isolated source terminals. No24 is an additional witness of the existing Jobroom6-point profile E23A.",
+  "comparison": "Native half-depth widths and grayscale centroids at20/50/80 percent of each run, supported by uniform native-detail comparisons at equal line-centre spacing. Neither run length nor nominal metal-body size establishes identity.",
+  "sampling": "Fourfold bilinear sampling of the retained native context, followed by local paper normalization at48 sample pixels. Sampling adds no source detail. The tracing crop selects a complete two-stroke interior segment from the continuous construction.",
+  "proof": "specimens/document-paired-rule-review.pdf",
+  "additional_witnesses": [
+    {
+      "candidate_id": "gpo-document-1904:rule-24-face",
+      "key": "rule-24-face",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2873,
+        2325,
+        2930
+      ],
+      "role": "printing-face specimen",
+      "status": "duplicate-existing",
+      "body_points": 8,
+      "printed_number": 24,
+      "context_review": "All fifteen native face/body compositions and both terminal/boundary contexts reviewed. Draft boxes retain caption or attached-body context; refine before isolated tracing. No new assignment from body width alone.",
+      "icon_id": "gpo-1904-double-rule-6point",
+      "canonical_family": "gpo-cuts-1904",
+      "name": "Unequal double rule, 6-point",
+      "codepoint": "E23A",
+      "source_index": 63,
+      "reason": "The upper/lower half-depth widths relative to centre separation closely agree with the existing Job Room6-point profile at all three measured positions. The8-point metal-body caption denotes this witness, not a separate construction. This is a profile correspondence, not a claim of shared metal stock.",
+      "quality_selection": "Retain the sharper Job Room drawing; the Document impression has softer edges and more uneven upper-band ink."
+    }
+  ],
+  "profile_measurements": [
+    {
+      "key": "rule-17-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        540,
+        2908,
+        1255,
+        2938
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-17-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            123,
+            163
+          ],
+          "paper": 230.0,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                7,
+                12
+              ],
+              "half_depth_width": 2.0551378446115294,
+              "centre": 8.912806539509537,
+              "peak_darkness": 86.47826086956522,
+              "equivalent_black_width": 0.7978260869565218
+            },
+            {
+              "peak": 19,
+              "interval": [
+                17,
+                23
+              ],
+              "half_depth_width": 2.675350701402806,
+              "centre": 19.527433628318583,
+              "peak_darkness": 101.44565217391305,
+              "equivalent_black_width": 1.2282608695652173
+            }
+          ],
+          "centre_separations": [
+            10.614627088809046
+          ],
+          "width_to_separation": [
+            0.1936137583936653,
+            0.2520437768580129
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            338,
+            378
+          ],
+          "paper": 231.05,
+          "bands": [
+            {
+              "peak": 7,
+              "interval": [
+                5,
+                10
+              ],
+              "half_depth_width": 1.9348370927318292,
+              "centre": 6.8785185185185185,
+              "peak_darkness": 85.03678857390176,
+              "equivalent_black_width": 0.730361393637741
+            },
+            {
+              "peak": 18,
+              "interval": [
+                16,
+                21
+              ],
+              "half_depth_width": 2.63659147869674,
+              "centre": 17.847210300429182,
+              "peak_darkness": 115.93919065137418,
+              "equivalent_black_width": 1.2605496645747676
+            }
+          ],
+          "centre_separations": [
+            10.968691781910664
+          ],
+          "width_to_separation": [
+            0.17639634071245597,
+            0.24037428812111863
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            552,
+            592
+          ],
+          "paper": 227.0,
+          "bands": [
+            {
+              "peak": 5,
+              "interval": [
+                3,
+                8
+              ],
+              "half_depth_width": 1.904761904761905,
+              "centre": 5.071428571428571,
+              "peak_darkness": 67.40088105726872,
+              "equivalent_black_width": 0.5550660792951543
+            },
+            {
+              "peak": 16,
+              "interval": [
+                14,
+                20
+              ],
+              "half_depth_width": 2.785571142284569,
+              "centre": 16.155555555555555,
+              "peak_darkness": 115.1431718061674,
+              "equivalent_black_width": 1.288546255506608
+            }
+          ],
+          "centre_separations": [
+            11.084126984126984
+          ],
+          "width_to_separation": [
+            0.1718459114993556,
+            0.2513117312959013
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-18-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2190,
+        2325,
+        2224
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-18-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 230.7,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                7,
+                12
+              ],
+              "half_depth_width": 2.1152882205513794,
+              "centre": 8.770408163265305,
+              "peak_darkness": 93.06892067620285,
+              "equivalent_black_width": 0.849588209796272
+            },
+            {
+              "peak": 24,
+              "interval": [
+                22,
+                27
+              ],
+              "half_depth_width": 2.2055137844611536,
+              "centre": 24.307174887892376,
+              "peak_darkness": 100.80624187256176,
+              "equivalent_black_width": 0.966623320329432
+            }
+          ],
+          "centre_separations": [
+            15.536766724627071
+          ],
+          "width_to_separation": [
+            0.13614726011162098,
+            0.14195448921590811
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 230.0,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                7,
+                12
+              ],
+              "half_depth_width": 2.0852130325814535,
+              "centre": 8.804295942720763,
+              "peak_darkness": 100.8913043478261,
+              "equivalent_black_width": 0.9108695652173913
+            },
+            {
+              "peak": 24,
+              "interval": [
+                22,
+                28
+              ],
+              "half_depth_width": 2.2845691382765523,
+              "centre": 24.4238683127572,
+              "peak_darkness": 104.77173913043478,
+              "equivalent_black_width": 1.0565217391304351
+            }
+          ],
+          "centre_separations": [
+            15.619572370036437
+          ],
+          "width_to_separation": [
+            0.1335000077583167,
+            0.14626323206255762
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 229.85,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                7,
+                12
+              ],
+              "half_depth_width": 2.015037593984962,
+              "centre": 9.002372479240808,
+              "peak_darkness": 104.67370023928649,
+              "equivalent_black_width": 0.9169023276049596
+            },
+            {
+              "peak": 25,
+              "interval": [
+                23,
+                28
+              ],
+              "half_depth_width": 2.265664160401002,
+              "centre": 24.805151175811872,
+              "peak_darkness": 100.23602349358278,
+              "equivalent_black_width": 0.9712856210572111
+            }
+          ],
+          "centre_separations": [
+            15.802778696571064
+          ],
+          "width_to_separation": [
+            0.12751159986959706,
+            0.14337125159467132
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-19-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2299,
+        2325,
+        2333
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-19-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 229.85,
+          "bands": [
+            {
+              "peak": 8,
+              "interval": [
+                6,
+                11
+              ],
+              "half_depth_width": 2.406015037593984,
+              "centre": 7.824938067712633,
+              "peak_darkness": 130.1903415270829,
+              "equivalent_black_width": 1.3171633674135304
+            },
+            {
+              "peak": 23,
+              "interval": [
+                21,
+                26
+              ],
+              "half_depth_width": 1.9348370927318292,
+              "centre": 23.207518796992485,
+              "peak_darkness": 87.47770284968458,
+              "equivalent_black_width": 0.7232978029149444
+            }
+          ],
+          "centre_separations": [
+            15.382580729279852
+          ],
+          "width_to_separation": [
+            0.15641166329225067,
+            0.1257810458975183
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 228.0,
+          "bands": [
+            {
+              "peak": 8,
+              "interval": [
+                6,
+                11
+              ],
+              "half_depth_width": 2.8571428571428577,
+              "centre": 7.919354838709676,
+              "peak_darkness": 132.5328947368421,
+              "equivalent_black_width": 1.4956140350877196
+            },
+            {
+              "peak": 23,
+              "interval": [
+                21,
+                26
+              ],
+              "half_depth_width": 2.265664160401002,
+              "centre": 23.35251798561151,
+              "peak_darkness": 93.94736842105263,
+              "equivalent_black_width": 0.9144736842105263
+            }
+          ],
+          "centre_separations": [
+            15.433163146901833
+          ],
+          "width_to_separation": [
+            0.18513008836535377,
+            0.14680491217743835
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 228.0,
+          "bands": [
+            {
+              "peak": 8,
+              "interval": [
+                6,
+                11
+              ],
+              "half_depth_width": 2.6766917293233092,
+              "centre": 7.998389694041866,
+              "peak_darkness": 128.6184210526316,
+              "equivalent_black_width": 1.3618421052631582
+            },
+            {
+              "peak": 24,
+              "interval": [
+                22,
+                27
+              ],
+              "half_depth_width": 2.315789473684209,
+              "centre": 23.714697406340058,
+              "peak_darkness": 74.9342105263158,
+              "equivalent_black_width": 0.7609649122807018
+            }
+          ],
+          "centre_separations": [
+            15.716307712298192
+          ],
+          "width_to_separation": [
+            0.1703130136112547,
+            0.14734946121423143
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-20-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2400,
+        2325,
+        2449
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-20-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 231.0,
+          "bands": [
+            {
+              "peak": 14,
+              "interval": [
+                11,
+                18
+              ],
+              "half_depth_width": 3.365609348914859,
+              "centre": 14.161895360315894,
+              "peak_darkness": 151.78571428571428,
+              "equivalent_black_width": 2.1926406926406927
+            },
+            {
+              "peak": 34,
+              "interval": [
+                32,
+                37
+              ],
+              "half_depth_width": 2.3057644110275675,
+              "centre": 34.343453510436426,
+              "peak_darkness": 114.8051948051948,
+              "equivalent_black_width": 1.1406926406926408
+            }
+          ],
+          "centre_separations": [
+            20.18155815012053
+          ],
+          "width_to_separation": [
+            0.16676657589467433,
+            0.11425105999626678
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 229.0,
+          "bands": [
+            {
+              "peak": 14,
+              "interval": [
+                11,
+                18
+              ],
+              "half_depth_width": 3.936560934891485,
+              "centre": 14.216535433070867,
+              "peak_darkness": 137.52183406113537,
+              "equivalent_black_width": 2.2183406113537116
+            },
+            {
+              "peak": 34,
+              "interval": [
+                32,
+                38
+              ],
+              "half_depth_width": 2.2745490981963883,
+              "centre": 34.45039682539682,
+              "peak_darkness": 108.56986899563319,
+              "equivalent_black_width": 1.1004366812227075
+            }
+          ],
+          "centre_separations": [
+            20.233861392325956
+          ],
+          "width_to_separation": [
+            0.19455312352710366,
+            0.11241300185337094
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 228.0,
+          "bands": [
+            {
+              "peak": 14,
+              "interval": [
+                12,
+                18
+              ],
+              "half_depth_width": 3.557114228456914,
+              "centre": 14.43975283213182,
+              "peak_darkness": 150.98684210526315,
+              "equivalent_black_width": 2.1293859649122813
+            },
+            {
+              "peak": 35,
+              "interval": [
+                33,
+                38
+              ],
+              "half_depth_width": 2.265664160401002,
+              "centre": 34.813253012048186,
+              "peak_darkness": 109.60526315789474,
+              "equivalent_black_width": 1.092105263157895
+            }
+          ],
+          "centre_separations": [
+            20.373500179916366
+          ],
+          "width_to_separation": [
+            0.17459514550982355,
+            0.11120642699551603
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-21-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2505,
+        2325,
+        2562
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-21-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 229.0,
+          "bands": [
+            {
+              "peak": 26,
+              "interval": [
+                18,
+                30
+              ],
+              "half_depth_width": 9.328480436760692,
+              "centre": 23.474230370114146,
+              "peak_darkness": 180.3930131004367,
+              "equivalent_black_width": 6.312227074235809
+            },
+            {
+              "peak": 41,
+              "interval": [
+                39,
+                44
+              ],
+              "half_depth_width": 2.0451127819548915,
+              "centre": 40.76903553299492,
+              "peak_darkness": 99.10480349344978,
+              "equivalent_black_width": 0.8602620087336246
+            }
+          ],
+          "centre_separations": [
+            17.294805162880774
+          ],
+          "width_to_separation": [
+            0.5393804873143109,
+            0.11825011977262655
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 230.0,
+          "bands": [
+            {
+              "peak": 25,
+              "interval": [
+                17,
+                30
+              ],
+              "half_depth_width": 9.668056713928273,
+              "centre": 23.50200364298725,
+              "peak_darkness": 161.8695652173913,
+              "equivalent_black_width": 5.967391304347825
+            },
+            {
+              "peak": 41,
+              "interval": [
+                39,
+                44
+              ],
+              "half_depth_width": 2.075187969924812,
+              "centre": 40.84276729559748,
+              "peak_darkness": 116.41304347826087,
+              "equivalent_black_width": 1.0369565217391303
+            }
+          ],
+          "centre_separations": [
+            17.34076365261023
+          ],
+          "width_to_separation": [
+            0.5575335035762962,
+            0.1196710832058681
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 228.7,
+          "bands": [
+            {
+              "peak": 25,
+              "interval": [
+                18,
+                30
+              ],
+              "half_depth_width": 9.348498635122837,
+              "centre": 23.714541788034957,
+              "peak_darkness": 166.91517271534764,
+              "equivalent_black_width": 5.85439440314823
+            },
+            {
+              "peak": 41,
+              "interval": [
+                39,
+                44
+              ],
+              "half_depth_width": 2.335839598997488,
+              "centre": 41.01002506265663,
+              "peak_darkness": 91.65282028858766,
+              "equivalent_black_width": 0.8723218189768254
+            }
+          ],
+          "centre_separations": [
+            17.295483274621674
+          ],
+          "width_to_separation": [
+            0.5405167630580319,
+            0.1350548904536802
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-22-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2630,
+        2325,
+        2674
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-22-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 230.7,
+          "bands": [
+            {
+              "peak": 10,
+              "interval": [
+                5,
+                14
+              ],
+              "half_depth_width": 5.476846057571965,
+              "centre": 8.882788776873557,
+              "peak_darkness": 162.1521456436931,
+              "equivalent_black_width": 3.568703944516688
+            },
+            {
+              "peak": 35,
+              "interval": [
+                32,
+                38
+              ],
+              "half_depth_width": 2.464929859719433,
+              "centre": 34.562674094707525,
+              "peak_darkness": 113.51755526657996,
+              "equivalent_black_width": 1.2449068053749457
+            }
+          ],
+          "centre_separations": [
+            25.679885317833968
+          ],
+          "width_to_separation": [
+            0.21327377399806563,
+            0.09598679391327374
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 230.0,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                5,
+                13
+              ],
+              "half_depth_width": 5.257510729613733,
+              "centre": 8.524752475247524,
+              "peak_darkness": 177.3913043478261,
+              "equivalent_black_width": 3.5130434782608697
+            },
+            {
+              "peak": 34,
+              "interval": [
+                32,
+                37
+              ],
+              "half_depth_width": 2.1253132832080226,
+              "centre": 34.08061002178649,
+              "peak_darkness": 112.53260869565217,
+              "equivalent_black_width": 0.9978260869565216
+            }
+          ],
+          "centre_separations": [
+            25.555857546538967
+          ],
+          "width_to_separation": [
+            0.20572624964900693,
+            0.08316345007549371
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 228.7,
+          "bands": [
+            {
+              "peak": 8,
+              "interval": [
+                5,
+                13
+              ],
+              "half_depth_width": 5.01716738197425,
+              "centre": 8.713923374716325,
+              "peak_darkness": 165.80017490161785,
+              "equivalent_black_width": 3.275470048097945
+            },
+            {
+              "peak": 34,
+              "interval": [
+                32,
+                37
+              ],
+              "half_depth_width": 2.0451127819548844,
+              "centre": 34.23785166240409,
+              "peak_darkness": 97.22780935723654,
+              "equivalent_black_width": 0.8548316571928287
+            }
+          ],
+          "centre_separations": [
+            25.523928287687767
+          ],
+          "width_to_separation": [
+            0.19656721040054134,
+            0.08012531452462221
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-23-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2748,
+        2325,
+        2798
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-23-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 232.0,
+          "bands": [
+            {
+              "peak": 10,
+              "interval": [
+                6,
+                14
+              ],
+              "half_depth_width": 5.127324749642346,
+              "centre": 9.664420485175201,
+              "peak_darkness": 160.47413793103448,
+              "equivalent_black_width": 3.1982758620689657
+            },
+            {
+              "peak": 40,
+              "interval": [
+                38,
+                43
+              ],
+              "half_depth_width": 2.0551378446115294,
+              "centre": 39.926289926289925,
+              "peak_darkness": 101.67025862068965,
+              "equivalent_black_width": 0.877155172413793
+            }
+          ],
+          "centre_separations": [
+            30.261869441114726
+          ],
+          "width_to_separation": [
+            0.16943185746073577,
+            0.06791179403541259
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 231.0,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                6,
+                14
+              ],
+              "half_depth_width": 5.097281831187409,
+              "centre": 9.210204081632652,
+              "peak_darkness": 157.30519480519482,
+              "equivalent_black_width": 3.181818181818182
+            },
+            {
+              "peak": 39,
+              "interval": [
+                37,
+                42
+              ],
+              "half_depth_width": 2.275689223057647,
+              "centre": 39.273148148148145,
+              "peak_darkness": 94.93506493506493,
+              "equivalent_black_width": 0.9350649350649352
+            }
+          ],
+          "centre_separations": [
+            30.06294406651549
+          ],
+          "width_to_separation": [
+            0.1695536478366678,
+            0.07569748385329765
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 230.0,
+          "bands": [
+            {
+              "peak": 9,
+              "interval": [
+                6,
+                14
+              ],
+              "half_depth_width": 5.087267525035766,
+              "centre": 9.237812911725955,
+              "peak_darkness": 164.6413043478261,
+              "equivalent_black_width": 3.3
+            },
+            {
+              "peak": 39,
+              "interval": [
+                37,
+                42
+              ],
+              "half_depth_width": 2.175438596491226,
+              "centre": 39.26650943396226,
+              "peak_darkness": 98.1195652173913,
+              "equivalent_black_width": 0.9217391304347826
+            }
+          ],
+          "centre_separations": [
+            30.02869652223631
+          ],
+          "width_to_separation": [
+            0.16941353152870403,
+            0.07244532225633935
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rule-24-face",
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1615,
+        2873,
+        2325,
+        2930
+      ],
+      "role": "printing-face specimen",
+      "candidate_id": "gpo-document-1904:rule-24-face",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            122,
+            162
+          ],
+          "paper": 230.2,
+          "bands": [
+            {
+              "peak": 12,
+              "interval": [
+                7,
+                16
+              ],
+              "half_depth_width": 5.386733416770962,
+              "centre": 11.113849618416115,
+              "peak_darkness": 159.1811468288445,
+              "equivalent_black_width": 3.4721980886185926
+            },
+            {
+              "peak": 48,
+              "interval": [
+                46,
+                52
+              ],
+              "half_depth_width": 2.985971943887776,
+              "centre": 48.27782021899669,
+              "peak_darkness": 138.13423110338834,
+              "equivalent_black_width": 1.705907906168549
+            }
+          ],
+          "centre_separations": [
+            37.16397060058057
+          ],
+          "width_to_separation": [
+            0.14494504569129144,
+            0.08034588058362983
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            335,
+            375
+          ],
+          "paper": 229.7,
+          "bands": [
+            {
+              "peak": 11,
+              "interval": [
+                7,
+                15
+              ],
+              "half_depth_width": 5.497854077253218,
+              "centre": 10.550088764899822,
+              "peak_darkness": 163.41314758380497,
+              "equivalent_black_width": 3.43317370483239
+            },
+            {
+              "peak": 47,
+              "interval": [
+                45,
+                51
+              ],
+              "half_depth_width": 2.6152304609218433,
+              "centre": 47.433322874176355,
+              "peak_darkness": 121.78276012189812,
+              "equivalent_black_width": 1.3874619068350018
+            }
+          ],
+          "centre_separations": [
+            36.88323410927653
+          ],
+          "width_to_separation": [
+            0.14906106283858792,
+            0.07090567093909167
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            548,
+            588
+          ],
+          "paper": 229.7,
+          "bands": [
+            {
+              "peak": 10,
+              "interval": [
+                7,
+                15
+              ],
+              "half_depth_width": 5.5379113018598,
+              "centre": 10.41279435839315,
+              "peak_darkness": 160.63778841967786,
+              "equivalent_black_width": 3.457117979973879
+            },
+            {
+              "peak": 47,
+              "interval": [
+                45,
+                51
+              ],
+              "half_depth_width": 3.0561122244488956,
+              "centre": 47.209850668063915,
+              "peak_darkness": 133.43926861123202,
+              "equivalent_black_width": 1.6617326948193294
+            }
+          ],
+          "centre_separations": [
+            36.797056309670765
+          ],
+          "width_to_separation": [
+            0.15049875879349517,
+            0.083053171393107
+          ]
+        }
+      ]
+    },
+    {
+      "key": "baltimore-1832-p11-brass-rule-8",
+      "file": "collection/baltimore-ornaments-1832/reference/pdf-011.png",
+      "box": [
+        489,
+        2380,
+        2504,
+        2462
+      ],
+      "role": "previously reviewed comparison source",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            383,
+            423
+          ],
+          "paper": 222.0,
+          "bands": [
+            {
+              "peak": 24,
+              "interval": [
+                21,
+                30
+              ],
+              "half_depth_width": 6.017521902377972,
+              "centre": 25.05487122060471,
+              "peak_darkness": 170.0,
+              "equivalent_black_width": 4.022522522522522
+            },
+            {
+              "peak": 49,
+              "interval": [
+                44,
+                53
+              ],
+              "half_depth_width": 5.326658322903626,
+              "centre": 48.166771951989894,
+              "peak_darkness": 167.7027027027027,
+              "equivalent_black_width": 3.565315315315315
+            }
+          ],
+          "centre_separations": [
+            23.111900731385184
+          ],
+          "width_to_separation": [
+            0.26036464816614496,
+            0.23047253381761904
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            988,
+            1028
+          ],
+          "paper": 223.0,
+          "bands": [
+            {
+              "peak": 20,
+              "interval": [
+                17,
+                26
+              ],
+              "half_depth_width": 5.536921151439298,
+              "centre": 20.95790115924344,
+              "peak_darkness": 164.0919282511211,
+              "equivalent_black_width": 3.674887892376682
+            },
+            {
+              "peak": 45,
+              "interval": [
+                42,
+                49
+              ],
+              "half_depth_width": 4.868113522537563,
+              "centre": 45.00789662598708,
+              "peak_darkness": 166.37892376681614,
+              "equivalent_black_width": 3.123318385650224
+            }
+          ],
+          "centre_separations": [
+            24.04999546674364
+          ],
+          "width_to_separation": [
+            0.23022545509814166,
+            0.20241640083754675
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            1592,
+            1632
+          ],
+          "paper": 221.0,
+          "bands": [
+            {
+              "peak": 18,
+              "interval": [
+                13,
+                22
+              ],
+              "half_depth_width": 5.817271589486859,
+              "centre": 16.913196480938417,
+              "peak_darkness": 169.6153846153846,
+              "equivalent_black_width": 3.8574660633484164
+            },
+            {
+              "peak": 39,
+              "interval": [
+                36,
+                44
+              ],
+              "half_depth_width": 5.017167381974247,
+              "centre": 39.6900742741391,
+              "peak_darkness": 167.30769230769232,
+              "equivalent_black_width": 3.3506787330316743
+            }
+          ],
+          "centre_separations": [
+            22.776877793200683
+          ],
+          "width_to_separation": [
+            0.25540250258634756,
+            0.22027458844565445
+          ]
+        }
+      ]
+    },
+    {
+      "key": "comparison-left-9-face",
+      "file": "reference/leaf-32.png",
+      "box": [
+        321,
+        3102,
+        1027,
+        3126
+      ],
+      "role": "previously reviewed comparison source",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            121,
+            161
+          ],
+          "paper": 254.7,
+          "bands": [
+            {
+              "peak": 5,
+              "interval": [
+                2,
+                8
+              ],
+              "half_depth_width": 3.2565130260521036,
+              "centre": 4.721393791844188,
+              "peak_darkness": 207.94464075382805,
+              "equivalent_black_width": 2.5802905378877106
+            },
+            {
+              "peak": 19,
+              "interval": [
+                18,
+                22
+              ],
+              "half_depth_width": 1.936454849498329,
+              "centre": 19.457298136645964,
+              "peak_darkness": 67.27915194346289,
+              "equivalent_black_width": 0.5056929721240674
+            }
+          ],
+          "centre_separations": [
+            14.735904344801774
+          ],
+          "width_to_separation": [
+            0.22099173215662657,
+            0.13141065551103628
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            333,
+            373
+          ],
+          "paper": 255.0,
+          "bands": [
+            {
+              "peak": 6,
+              "interval": [
+                3,
+                9
+              ],
+              "half_depth_width": 3.1963927855711427,
+              "centre": 5.657616892911011,
+              "peak_darkness": 210.5,
+              "equivalent_black_width": 2.6
+            },
+            {
+              "peak": 20,
+              "interval": [
+                19,
+                23
+              ],
+              "half_depth_width": 1.6555183946488299,
+              "centre": 20.33587786259542,
+              "peak_darkness": 77.0,
+              "equivalent_black_width": 0.5137254901960784
+            }
+          ],
+          "centre_separations": [
+            14.678260969684409
+          ],
+          "width_to_separation": [
+            0.21776372501979482,
+            0.11278709365285419
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            545,
+            585
+          ],
+          "paper": 254.7,
+          "bands": [
+            {
+              "peak": 7,
+              "interval": [
+                4,
+                10
+              ],
+              "half_depth_width": 3.1663326653306614,
+              "centre": 6.579510947738533,
+              "peak_darkness": 198.4334511189635,
+              "equivalent_black_width": 2.4566156262269336
+            },
+            {
+              "peak": 21,
+              "interval": [
+                19,
+                24
+              ],
+              "half_depth_width": 1.5939849624060152,
+              "centre": 21.021089630931453,
+              "peak_darkness": 61.77267373380447,
+              "equivalent_black_width": 0.44680015704750675
+            }
+          ],
+          "centre_separations": [
+            14.441578683192919
+          ],
+          "width_to_separation": [
+            0.21925114523771788,
+            0.11037470330450035
+          ]
+        }
+      ]
+    },
+    {
+      "key": "comparison-left-10-face",
+      "file": "reference/leaf-32.png",
+      "box": [
+        321,
+        3204,
+        1027,
+        3237
+      ],
+      "role": "previously reviewed comparison source",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            121,
+            161
+          ],
+          "paper": 254.8,
+          "bands": [
+            {
+              "peak": 5,
+              "interval": [
+                2,
+                9
+              ],
+              "half_depth_width": 3.1953255425709517,
+              "centre": 5.058002481389578,
+              "peak_darkness": 199.9568288854003,
+              "equivalent_black_width": 2.530612244897959
+            },
+            {
+              "peak": 28,
+              "interval": [
+                26,
+                31
+              ],
+              "half_depth_width": 1.9649122807017534,
+              "centre": 28.069478908188582,
+              "peak_darkness": 100.3787284144427,
+              "equivalent_black_width": 0.7908163265306124
+            }
+          ],
+          "centre_separations": [
+            23.011476426799003
+          ],
+          "width_to_separation": [
+            0.1388579108661493,
+            0.08538836206152467
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            333,
+            373
+          ],
+          "paper": 254.9,
+          "bands": [
+            {
+              "peak": 6,
+              "interval": [
+                4,
+                10
+              ],
+              "half_depth_width": 3.306613226452906,
+              "centre": 6.157484857225266,
+              "peak_darkness": 210.48254217340133,
+              "equivalent_black_width": 2.7202824637112593
+            },
+            {
+              "peak": 29,
+              "interval": [
+                28,
+                32
+              ],
+              "half_depth_width": 1.6655518394648823,
+              "centre": 29.23859465128474,
+              "peak_darkness": 112.44409572381326,
+              "equivalent_black_width": 0.7481365241271087
+            }
+          ],
+          "centre_separations": [
+            23.081109794059472
+          ],
+          "width_to_separation": [
+            0.1432605821798027,
+            0.07216082130910167
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            545,
+            585
+          ],
+          "paper": 254.7,
+          "bands": [
+            {
+              "peak": 7,
+              "interval": [
+                4,
+                11
+              ],
+              "half_depth_width": 3.1051752921535893,
+              "centre": 7.040996287128713,
+              "peak_darkness": 204.4405182567727,
+              "equivalent_black_width": 2.5378877110325875
+            },
+            {
+              "peak": 30,
+              "interval": [
+                28,
+                33
+              ],
+              "half_depth_width": 2.0551378446115294,
+              "centre": 30.00672107537206,
+              "peak_darkness": 101.81978798586572,
+              "equivalent_black_width": 0.8178248920298389
+            }
+          ],
+          "centre_separations": [
+            22.965724788243346
+          ],
+          "width_to_separation": [
+            0.13520911361539942,
+            0.08948717550005647
+          ]
+        }
+      ]
+    },
+    {
+      "key": "comparison-left-12-face",
+      "file": "reference/leaf-32.png",
+      "box": [
+        321,
+        3450,
+        1027,
+        3494
+      ],
+      "role": "previously reviewed comparison source",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            121,
+            161
+          ],
+          "paper": 254.0,
+          "bands": [
+            {
+              "peak": 6,
+              "interval": [
+                3,
+                10
+              ],
+              "half_depth_width": 3.7061769616026714,
+              "centre": 5.9627942293090355,
+              "peak_darkness": 181.71259842519686,
+              "equivalent_black_width": 2.5925196850393704
+            },
+            {
+              "peak": 39,
+              "interval": [
+                37,
+                41
+              ],
+              "half_depth_width": 1.9063545150501682,
+              "centre": 38.54077253218884,
+              "peak_darkness": 63.24803149606299,
+              "equivalent_black_width": 0.45866141732283466
+            }
+          ],
+          "centre_separations": [
+            32.57797830287981
+          ],
+          "width_to_separation": [
+            0.11376325833193447,
+            0.05851666108088885
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            333,
+            373
+          ],
+          "paper": 254.0,
+          "bands": [
+            {
+              "peak": 7,
+              "interval": [
+                4,
+                11
+              ],
+              "half_depth_width": 3.866444073455761,
+              "centre": 7.295382669196712,
+              "peak_darkness": 207.81496062992127,
+              "equivalent_black_width": 3.1122047244094486
+            },
+            {
+              "peak": 40,
+              "interval": [
+                38,
+                43
+              ],
+              "half_depth_width": 1.904761904761905,
+              "centre": 40.04294478527607,
+              "peak_darkness": 83.3267716535433,
+              "equivalent_black_width": 0.6417322834645669
+            }
+          ],
+          "centre_separations": [
+            32.74756211607936
+          ],
+          "width_to_separation": [
+            0.11806814992061046,
+            0.058164998603870095
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            545,
+            585
+          ],
+          "paper": 255.0,
+          "bands": [
+            {
+              "peak": 8,
+              "interval": [
+                6,
+                12
+              ],
+              "half_depth_width": 3.8476953907815634,
+              "centre": 8.461684610512982,
+              "peak_darkness": 209.0,
+              "equivalent_black_width": 3.096078431372549
+            },
+            {
+              "peak": 41,
+              "interval": [
+                39,
+                44
+              ],
+              "half_depth_width": 1.8546365914786946,
+              "centre": 40.87012987012987,
+              "peak_darkness": 101.5,
+              "equivalent_black_width": 0.7549019607843137
+            }
+          ],
+          "centre_separations": [
+            32.40844525961689
+          ],
+          "width_to_separation": [
+            0.11872508415502583,
+            0.057226953549348356
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gpo1897-4point-double",
+      "file": "reference/gpo-job-1897-leaf-167.png",
+      "box": [
+        75,
+        2385,
+        2185,
+        2440
+      ],
+      "role": "previously reviewed comparison source",
+      "sections": [
+        {
+          "fraction": 0.2,
+          "x_range": [
+            402,
+            442
+          ],
+          "paper": 232.0,
+          "bands": [
+            {
+              "peak": 21,
+              "interval": [
+                18,
+                25
+              ],
+              "half_depth_width": 4.377295492487477,
+              "centre": 21.19152046783626,
+              "peak_darkness": 171.4655172413793,
+              "equivalent_black_width": 2.9482758620689653
+            },
+            {
+              "peak": 35,
+              "interval": [
+                33,
+                38
+              ],
+              "half_depth_width": 2.3859649122807056,
+              "centre": 34.77575757575758,
+              "peak_darkness": 109.91379310344827,
+              "equivalent_black_width": 1.066810344827586
+            }
+          ],
+          "centre_separations": [
+            13.584237107921322
+          ],
+          "width_to_separation": [
+            0.3222334429023594,
+            0.1756421721238499
+          ]
+        },
+        {
+          "fraction": 0.5,
+          "x_range": [
+            1035,
+            1075
+          ],
+          "paper": 237.0,
+          "bands": [
+            {
+              "peak": 21,
+              "interval": [
+                18,
+                25
+              ],
+              "half_depth_width": 4.26711185308848,
+              "centre": 21.106427818756583,
+              "peak_darkness": 118.35443037974683,
+              "equivalent_black_width": 2.0021097046413505
+            },
+            {
+              "peak": 35,
+              "interval": [
+                33,
+                38
+              ],
+              "half_depth_width": 2.345864661654133,
+              "centre": 34.81120943952803,
+              "peak_darkness": 74.77848101265823,
+              "equivalent_black_width": 0.7151898734177216
+            }
+          ],
+          "centre_separations": [
+            13.704781620771445
+          ],
+          "width_to_separation": [
+            0.31135934677142874,
+            0.17117125442543782
+          ]
+        },
+        {
+          "fraction": 0.8,
+          "x_range": [
+            1668,
+            1708
+          ],
+          "paper": 233.0,
+          "bands": [
+            {
+              "peak": 21,
+              "interval": [
+                18,
+                25
+              ],
+              "half_depth_width": 4.677796327212018,
+              "centre": 20.834774255523534,
+              "peak_darkness": 127.5,
+              "equivalent_black_width": 2.2339055793991416
+            },
+            {
+              "peak": 34,
+              "interval": [
+                32,
+                37
+              ],
+              "half_depth_width": 2.506265664160402,
+              "centre": 34.119101123595506,
+              "peak_darkness": 87.55364806866953,
+              "equivalent_black_width": 0.9549356223175967
+            }
+          ],
+          "centre_separations": [
+            13.284326868071972
+          ],
+          "width_to_separation": [
+            0.3521289692483254,
+            0.18866335412026417
+          ]
+        }
+      ]
+    }
+  ]
+}

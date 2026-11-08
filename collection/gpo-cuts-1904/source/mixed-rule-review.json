@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "method": "Compare native line weights and gaps at three positions; retain complete source impressions with one rigid alignment. Printed body points are historical labels, not normalized font point sizes.",
+  "entries": [
+    {
+      "id": "gpo-1904-double-rule-4point",
+      "name": "Unequal double rule, 4-point",
+      "codepoint": "E239",
+      "source_book": "gpo-job-1897",
+      "archive_leaf": 167,
+      "printed_page": 80,
+      "alignment": {
+        "method": "Least-squares fit to native heavier-stroke centroids, excluding10pixels at each terminal; apply one rigid rotation to the complete pair and all tones.",
+        "native_slope": 0.00018273002387817297,
+        "rotation_degrees": 0.01046965904201585,
+        "residual_std_native_pixels": 0.2940579555726905,
+        "residual_range_native_pixels": [
+          -1.2470973521420206,
+          0.6790797182111952
+        ]
+      },
+      "contours": 2,
+      "bounds": [
+        64.37939124647568,
+        890.9202400987859,
+        1863.0,
+        907.84375
+      ],
+      "quality_todo": "Compare later matching witnesses for finer and more even native hairlines; preserve observed line-width variation.",
+      "source_index": 60,
+      "original_file": "reference/gpo-job-1897-leaf-167.jp2",
+      "original_sha256": "581d1df2f7bd4b2e67333971d51e8d7a1c3156dea3e9339e713ec230389ea90e",
+      "recipe": {
+        "file": "reference/gpo-job-1897-leaf-167.png",
+        "box": [
+          75,
+          2385,
+          2185,
+          2440
+        ],
+        "threshold": 195,
+        "frame_threshold": 225,
+        "paper_normalization_radius": 48,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 175,
+            "secondary": 195,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "post_trace_transform": [
+          0.9999999833048696,
+          0.0001827300208274714,
+          -0.0001827300208274714,
+          0.9999999833048696,
+          0.16447311285044172,
+          -0.17613671446031276
+        ],
+        "notes": "Complete observed 4-point double-rule printing face. Uniform source proportions retained; rigid rotation of 0.0104697 degrees follows a least-squares fit to the heavier stroke centroid. No synthetic rectangles, independent axis stretching or filled source gaps. Local paper normalization with radius 48 removes uneven illumination around the historical rule without filling ink. Each parallel stroke remains independently outlined."
+      },
+      "identity_reason": "Different line-weight and gap proportions from the existing Baltimore pairs; neither arbitrary stock length nor the printed body size alone defines this design. The four-point pair has a narrower gap relative to its heavier line than the six- and ten-point pairs. The six- and ten-point faces retain different gap-to-stroke proportions. The twelve-point form combines a broad solid band and a much finer lower rule with a wider relative gap than the closest Baltimore heavy/fine examples.",
+      "recommended_min_px": 512,
+      "quality_selection": "The 1897 impression has a complete fine lower stroke; the corresponding 1904 impression has larger weak-ink breaks."
+    },
+    {
+      "id": "gpo-1904-double-rule-6point",
+      "name": "Unequal double rule, 6-point",
+      "codepoint": "E23A",
+      "source_book": "gpo-jobroom-1904",
+      "archive_leaf": 32,
+      "printed_page": 16,
+      "alignment": {
+        "method": "Least-squares fit to native heavier-stroke centroids, excluding10pixels at each terminal; apply one rigid rotation to the complete pair and all tones.",
+        "native_slope": 0.004920903677591829,
+        "rotation_degrees": 0.28194473633964573,
+        "residual_std_native_pixels": 0.1971746955245246,
+        "residual_range_native_pixels": [
+          -0.433782513096471,
+          0.439149612951649
+        ]
+      },
+      "contours": 2,
+      "bounds": [
+        63.828125,
+        865.6244255754038,
+        1864.1562503201067,
+        934.421875
+      ],
+      "quality_todo": "Compare later matching witnesses for finer and more even native hairlines; preserve observed line-width variation.",
+      "source_index": 59,
+      "original_file": "reference/leaf-32.jp2",
+      "original_sha256": "8d09e0173d201e14881633b83af6c9f3be515c794a4f4bdba395a0430f8f5a2f",
+      "recipe": {
+        "file": "reference/leaf-32.png",
+        "box": [
+          321,
+          3204,
+          1027,
+          3237
+        ],
+        "threshold": 215,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 0,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 215,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "post_trace_transform": [
+          0.9999878925733862,
+          0.004920844098111678,
+          -0.004920844098111678,
+          0.9999878925733862,
+          4.440431247556284,
+          -4.732797026627281
+        ],
+        "notes": "Complete observed 6-point double-rule printing face. Uniform source proportions retained; rigid rotation of 0.2819447 degrees follows a least-squares fit to the heavier stroke centroid. No synthetic rectangles, independent axis stretching or filled source gaps. Each parallel stroke remains independently outlined."
+      },
+      "identity_reason": "Different line-weight and gap proportions from the existing Baltimore pairs; neither arbitrary stock length nor the printed body size alone defines this design. The four-point pair has a narrower gap relative to its heavier line than the six- and ten-point pairs. The six- and ten-point faces retain different gap-to-stroke proportions. The twelve-point form combines a broad solid band and a much finer lower rule with a wider relative gap than the closest Baltimore heavy/fine examples.",
+      "recommended_min_px": 256,
+      "quality_selection": "The complete 1904 pair retains both source strokes. No clearer exact counterpart was established in the compared 1897, Census 1900, document 1904, Boston or Baltimore specimens."
+    },
+    {
+      "id": "gpo-1904-double-rule-10point",
+      "name": "Unequal double rule, 10-point",
+      "codepoint": "E23B",
+      "source_book": "gpo-jobroom-1904",
+      "archive_leaf": 32,
+      "printed_page": 16,
+      "alignment": {
+        "method": "Least-squares fit to native heavier-stroke centroids, excluding10pixels at each terminal; apply one rigid rotation to the complete pair and all tones.",
+        "native_slope": 0.0059930766438915815,
+        "rotation_degrees": 0.343373887049857,
+        "residual_std_native_pixels": 0.2468368608273535,
+        "residual_range_native_pixels": [
+          -0.630635755369406,
+          0.6681742772952788
+        ]
+      },
+      "contours": 2,
+      "bounds": [
+        64.09680736704199,
+        850.6332027178105,
+        1863.828125,
+        945.390625
+      ],
+      "quality_todo": "Compare later matching witnesses for finer and more even native hairlines; preserve observed line-width variation.",
+      "source_index": 59,
+      "original_file": "reference/leaf-32.jp2",
+      "original_sha256": "8d09e0173d201e14881633b83af6c9f3be515c794a4f4bdba395a0430f8f5a2f",
+      "recipe": {
+        "file": "reference/leaf-32.png",
+        "box": [
+          321,
+          3450,
+          1027,
+          3494
+        ],
+        "threshold": 225,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 0,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 205,
+            "secondary": 225,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "post_trace_transform": [
+          0.9999820419999165,
+          0.0059929690202207096,
+          -0.0059929690202207096,
+          0.9999820419999165,
+          5.410983630279121,
+          -5.76105993541762
+        ],
+        "notes": "Complete observed 10-point double-rule printing face. Uniform source proportions retained; rigid rotation of 0.3433739 degrees follows a least-squares fit to the heavier stroke centroid. No synthetic rectangles, independent axis stretching or filled source gaps. Each parallel stroke remains independently outlined."
+      },
+      "identity_reason": "Different line-weight and gap proportions from the existing Baltimore pairs; neither arbitrary stock length nor the printed body size alone defines this design. The four-point pair has a narrower gap relative to its heavier line than the six- and ten-point pairs. The six- and ten-point faces retain different gap-to-stroke proportions. The twelve-point form combines a broad solid band and a much finer lower rule with a wider relative gap than the closest Baltimore heavy/fine examples.",
+      "recommended_min_px": 256,
+      "quality_selection": "The complete 1904 pair retains both source strokes. No clearer exact counterpart was established in the compared 1897, Census 1900, document 1904, Boston or Baltimore specimens."
+    },
+    {
+      "id": "gpo-1904-double-rule-12point",
+      "name": "Broad band and hairline rule, 12-point",
+      "codepoint": "E23C",
+      "source_book": "gpo-job-1897",
+      "archive_leaf": 167,
+      "printed_page": 80,
+      "alignment": {
+        "method": "Least-squares fit to native heavier-stroke centroids, excluding10pixels at each terminal; apply one rigid rotation to the complete pair and all tones.",
+        "native_slope": -0.002947091578496488,
+        "rotation_degrees": -0.1688554204314559,
+        "residual_std_native_pixels": 0.8451547763268932,
+        "residual_range_native_pixels": [
+          -2.9105890371854386,
+          2.139789973467856
+        ]
+      },
+      "contours": 3,
+      "bounds": [
+        65.0,
+        874.3819413803341,
+        1864.0001840628681,
+        926.640625
+      ],
+      "quality_todo": "Seek an intact matching lower hairline at the small native break near source x833–836; preserve the source contour until then.",
+      "source_index": 60,
+      "original_file": "reference/gpo-job-1897-leaf-167.jp2",
+      "original_sha256": "581d1df2f7bd4b2e67333971d51e8d7a1c3156dea3e9339e713ec230389ea90e",
+      "recipe": {
+        "file": "reference/gpo-job-1897-leaf-167.png",
+        "box": [
+          75,
+          2770,
+          2185,
+          2860
+        ],
+        "threshold": 195,
+        "frame_threshold": 225,
+        "paper_normalization_radius": 48,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 175,
+            "secondary": 195,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "post_trace_transform": [
+          0.9999956573539021,
+          -0.002947078780320744,
+          0.002947078780320744,
+          0.9999956573539021,
+          -2.6481845914502062,
+          2.8448923257172964
+        ],
+        "notes": "Complete observed 12-point double-rule printing face. Uniform source proportions retained; rigid rotation of -0.1688554 degrees follows a least-squares fit to the heavier stroke centroid. No synthetic rectangles, independent axis stretching or filled source gaps. Local paper normalization with radius 48 removes uneven illumination around the historical rule without filling ink. The earlier witness preserves the solid broad band more clearly than the 1904 impression; its tiny lower hairline break is retained and flagged for a better witness."
+      },
+      "identity_reason": "Different line-weight and gap proportions from the existing Baltimore pairs; neither arbitrary stock length nor the printed body size alone defines this design. The four-point pair has a narrower gap relative to its heavier line than the six- and ten-point pairs. The six- and ten-point faces retain different gap-to-stroke proportions. The twelve-point form combines a broad solid band and a much finer lower rule with a wider relative gap than the closest Baltimore heavy/fine examples.",
+      "recommended_min_px": 512,
+      "quality_selection": "The 1897 broad band has substantially fewer white printing defects. Its tiny lower-hairline break near native x833–836 and mild source bow remain visible."
+    }
+  ],
+  "comparison_limits": "Document No24 is an additional corresponding profile of the Jobroom6-point design; Nos18/19/22/23 have distinct measured profiles. See document-paired-rule-review.json for native measurements and source choices.",
+  "proof": "specimens/mixed-rule-review.pdf"
+}

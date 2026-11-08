@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "file": "reference/leaf-151.png",
+  "printed_page": 135,
+  "pdf_page": 151,
+  "archive_leaf": 151,
+  "native_pixels": [
+    2903,
+    3878
+  ],
+  "context_boxes": "Inventory repeat boxes locate impressions; only selected tracing boxes are extraction boundaries.",
+  "flame": {
+    "repeat_box": [
+      1465,
+      2057,
+      1640,
+      2125
+    ],
+    "repeat_span_pixels": 175,
+    "flames_per_period": 6,
+    "correlation": 0.9660042814626153,
+    "corner_box": [
+      1301,
+      2058,
+      1381,
+      2138
+    ],
+    "rotated_corner_witnesses": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "reason": "Six-curve cycle recurs in all four runs. Do not replace it with repetitions of one arbitrarily chosen flame. Complete three-period and native-strip comparisons support the measured seam.",
+    "layout_review": "Source and vector seam reviewed at three periods in monochrome, three tones and32px. Contours rasterized together to avoid separate-surface antialias hairlines. Final browser and font formats pending.",
+    "phase_review": "The selected175pixel span crosses solid joining strokes at both ends. Earlier1520–1695phase ran across a sloping flame edge and showed a thin vector seam; retained as rejected local proof.",
+    "layout": {
+      "kind": "repeat",
+      "inkBox": [
+        64.0,
+        -1204.0,
+        1800.0,
+        607.031982
+      ],
+      "tile": [
+        64.0,
+        -1266.07055,
+        1800.0,
+        699.428571
+      ],
+      "join": "continuous"
+    },
+    "phase_decision": "Move the175pixel repeat boundary from1520 to1465 into matching solid ink. This preserves the same six recurring curves; no contour invented."
+  },
+  "existing_design": {
+    "specimen": "24 Point Unique Border No.205",
+    "icon_id": "gpo-1904-art-ornament-19",
+    "impressions": 20,
+    "preferred_source": "Art19 on printed133 has a larger complete isolated impression; retain its drawing and metrics."
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "book": "gpo-jobroom-1904",
+  "archive_leaf": 55,
+  "pdf_page": 55,
+  "printed_page": 39,
+  "source_index": 65,
+  "file": "reference/gpo-jobroom-1904-leaf-55.png",
+  "original_file": "reference/gpo-jobroom-1904-leaf-55.jp2",
+  "original_sha256": "330f02f2867c19286a654ddbf9ac4c446c399b109afa28967cdb081ead8e669f",
+  "native_png_sha256": "2bd803fb0e6a4471e4be9ac40a35b87d9992c75341e5d01b96f02e00fd233069",
+  "composition": {
+    "book": "gpo-jobroom-1904",
+    "archive_leaf": 55,
+    "pdf_page": 55,
+    "printed_page": 39,
+    "source_index": 65,
+    "file": "reference/gpo-jobroom-1904-leaf-55.png",
+    "candidate_id": "gpo-jobroom-1904:composition:celtic-card",
+    "box": [
+      1020,
+      1480,
+      2470,
+      2410
+    ],
+    "status": "composed-example",
+    "role": "Business card assembled from Celtic No.2 type and four straight rule spans.",
+    "components": [
+      "gpo-jobroom-1904:celtic-card-rule-top",
+      "gpo-jobroom-1904:celtic-card-rule-right",
+      "gpo-jobroom-1904:celtic-card-rule-bottom",
+      "gpo-jobroom-1904:celtic-card-rule-left"
+    ],
+    "type_rows": [
+      {
+        "row": "card-heading",
+        "box": [
+          1090,
+          1545,
+          2390,
+          1595
+        ],
+        "transcription": "PRACTICEBEFORETHESUPREMECOURTOFTHEUNITEDSTATES",
+        "point_size": 6,
+        "canonical_family": "celtic-no2-6pt-1897",
+        "disposition": "canonical-type-components;repeated-letters-not-new-designs"
+      },
+      {
+        "row": "card-name",
+        "box": [
+          1340,
+          1795,
+          2145,
+          1885
+        ],
+        "transcription": "SPRATT&HOWE",
+        "point_size": 12,
+        "canonical_family": "celtic-no2-1897",
+        "disposition": "canonical-type-components;repeated-letters-not-new-designs"
+      },
+      {
+        "row": "card-role",
+        "box": [
+          1535,
+          1935,
+          1975,
+          1995
+        ],
+        "transcription": "ATTORNEYS",
+        "point_size": 8,
+        "canonical_family": "celtic-no2-8pt-1897",
+        "disposition": "canonical-type-components;repeated-letters-not-new-designs"
+      },
+      {
+        "row": "card-service",
+        "box": [
+          1435,
+          2050,
+          2045,
+          2095
+        ],
+        "transcription": "PATENTCLAIMSASPECIALTY",
+        "point_size": 6,
+        "canonical_family": "celtic-no2-6pt-1897",
+        "disposition": "canonical-type-components;repeated-letters-not-new-designs"
+      },
+      {
+        "row": "card-address",
+        "box": [
+          1090,
+          2290,
+          1520,
+          2335
+        ],
+        "transcription": "TREMONTBUILDING",
+        "point_size": 6,
+        "canonical_family": "celtic-no2-6pt-1897",
+        "disposition": "canonical-type-components;repeated-letters-not-new-designs"
+      },
+      {
+        "row": "card-city",
+        "box": [
+          1995,
+          2290,
+          2395,
+          2340
+        ],
+        "transcription": "WASHINGTON,D.C.",
+        "point_size": 6,
+        "canonical_family": "celtic-no2-6pt-1897",
+        "disposition": "canonical-type-components;repeated-letters-not-new-designs"
+      }
+    ],
+    "corner_centres_native": {
+      "top_left": [
+        1031.0879074840952,
+        1493.3501173496268
+      ],
+      "top_right": [
+        2445.662243698078,
+        1490.5607229494103
+      ],
+      "bottom_right": [
+        2443.986911592467,
+        2389.1469884852268
+      ],
+      "bottom_left": [
+        1031.2409675941944,
+        2393.6161025411716
+      ]
+    },
+    "join_review": {
+      "top_left": "Small light separation at the meeting of the two strokes.",
+      "bottom_left": "Distinct native gap between vertical and horizontal ends.",
+      "top_right": "Soft joined corner; no isolated corner piece established.",
+      "bottom_right": "Soft joined corner; no isolated corner piece established."
+    },
+    "reason": "Four uses of the existing plain-rule construction surround six settings of already identified Celtic No. 2 cuts. Preserve source geometry and uneven joins as assembly evidence; no whole-frame icon or isolated corner identity is created."
+  },
+  "span_records": [
+    {
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 55,
+      "pdf_page": 55,
+      "printed_page": 39,
+      "source_index": 65,
+      "file": "reference/gpo-jobroom-1904-leaf-55.png",
+      "candidate_id": "gpo-jobroom-1904:celtic-card-rule-top",
+      "side": "top",
+      "box": [
+        1030,
+        1481,
+        2449,
+        1504
+      ],
+      "status": "duplicate-existing",
+      "canonical_family": "boston-ornaments-1889",
+      "canonical_icon_id": "boston-1889-p260-e-3",
+      "icon_id": "boston-1889-p260-e-3",
+      "codepoint": "E07C",
+      "role": "Plain printing rule in an assembled card frame",
+      "relationship": "Unornamented rectangular rule construction; dimensions and native optical weight retained separately. No shared physical stock or exact isolated-terminal identity is claimed.",
+      "native_profiles": [
+        {
+          "along_position": 1300,
+          "centre_native": 1492.8198529411766,
+          "half_depth_width_native": 2.31873015873016,
+          "peak_contrast": 104.0
+        },
+        {
+          "along_position": 1740,
+          "centre_native": 1491.9522111269614,
+          "half_depth_width_native": 2.4436336559940433,
+          "peak_contrast": 108.80000000000001
+        },
+        {
+          "along_position": 2190,
+          "centre_native": 1491.0648648648648,
+          "half_depth_width_native": 2.549999999999999,
+          "peak_contrast": 69.0
+        }
+      ],
+      "native_axis": {
+        "slope": -0.001971896653859958,
+        "intercept": 1495.38331614423,
+        "equation": "y = slope*x + intercept"
+      },
+      "reason": "The unornamented single straight stroke corresponds at construction level to the existing plain-rule design. Stock length, source rotation and native optical weight remain dimensional evidence, not extra icon identities.",
+      "quality_selection": "Retain the existing isolated drawing. The card is a longer, differently proportioned setting with soft or joined endpoints; it does not establish a better exact isolated witness."
+    },
+    {
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 55,
+      "pdf_page": 55,
+      "printed_page": 39,
+      "source_index": 65,
+      "file": "reference/gpo-jobroom-1904-leaf-55.png",
+      "candidate_id": "gpo-jobroom-1904:celtic-card-rule-right",
+      "side": "right",
+      "box": [
+        2435,
+        1485,
+        2457,
+        2399
+      ],
+      "status": "duplicate-existing",
+      "canonical_family": "boston-ornaments-1889",
+      "canonical_icon_id": "boston-1889-p260-e-3",
+      "icon_id": "boston-1889-p260-e-3",
+      "codepoint": "E07C",
+      "role": "Plain printing rule in an assembled card frame",
+      "relationship": "Unornamented rectangular rule construction; dimensions and native optical weight retained separately. No shared physical stock or exact isolated-terminal identity is claimed.",
+      "native_profiles": [
+        {
+          "along_position": 1670,
+          "centre_native": 2445.2360248447203,
+          "half_depth_width_native": 3.6605000000000008,
+          "peak_contrast": 48.900000000000006
+        },
+        {
+          "along_position": 1940,
+          "centre_native": 2445.007646559048,
+          "half_depth_width_native": 3.689333333333334,
+          "peak_contrast": 58.80000000000001
+        },
+        {
+          "along_position": 2210,
+          "centre_native": 2444.2292441140025,
+          "half_depth_width_native": 3.183422459893049,
+          "peak_contrast": 48.80000000000001
+        }
+      ],
+      "native_axis": {
+        "slope": -0.0018644087605895507,
+        "intercept": 2448.4412581681354,
+        "equation": "x = slope*y + intercept"
+      },
+      "reason": "The unornamented single straight stroke corresponds at construction level to the existing plain-rule design. Stock length, source rotation and native optical weight remain dimensional evidence, not extra icon identities.",
+      "quality_selection": "Retain the existing isolated drawing. The card is a longer, differently proportioned setting with soft or joined endpoints; it does not establish a better exact isolated witness."
+    },
+    {
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 55,
+      "pdf_page": 55,
+      "printed_page": 39,
+      "source_index": 65,
+      "file": "reference/gpo-jobroom-1904-leaf-55.png",
+      "candidate_id": "gpo-jobroom-1904:celtic-card-rule-bottom",
+      "side": "bottom",
+      "box": [
+        1025,
+        2382,
+        2449,
+        2406
+      ],
+      "status": "duplicate-existing",
+      "canonical_family": "boston-ornaments-1889",
+      "canonical_icon_id": "boston-1889-p260-e-3",
+      "icon_id": "boston-1889-p260-e-3",
+      "codepoint": "E07C",
+      "role": "Plain printing rule in an assembled card frame",
+      "relationship": "Unornamented rectangular rule construction; dimensions and native optical weight retained separately. No shared physical stock or exact isolated-terminal identity is claimed.",
+      "native_profiles": [
+        {
+          "along_position": 1300,
+          "centre_native": 2392.9060283687945,
+          "half_depth_width_native": 2.0611426201578187,
+          "peak_contrast": 95.69999999999999
+        },
+        {
+          "along_position": 1740,
+          "centre_native": 2391.0968622100954,
+          "half_depth_width_native": 2.23764705882353,
+          "peak_contrast": 118.4
+        },
+        {
+          "along_position": 2190,
+          "centre_native": 2390.087467362924,
+          "half_depth_width_native": 2.3547019597169294,
+          "peak_contrast": 92.1
+        }
+      ],
+      "native_axis": {
+        "slope": -0.003163423738663554,
+        "intercept": 2396.8783546983414,
+        "equation": "y = slope*x + intercept"
+      },
+      "reason": "The unornamented single straight stroke corresponds at construction level to the existing plain-rule design. Stock length, source rotation and native optical weight remain dimensional evidence, not extra icon identities.",
+      "quality_selection": "Retain the existing isolated drawing. The card is a longer, differently proportioned setting with soft or joined endpoints; it does not establish a better exact isolated witness."
+    },
+    {
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 55,
+      "pdf_page": 55,
+      "printed_page": 39,
+      "source_index": 65,
+      "file": "reference/gpo-jobroom-1904-leaf-55.png",
+      "candidate_id": "gpo-jobroom-1904:celtic-card-rule-left",
+      "side": "left",
+      "box": [
+        1020,
+        1488,
+        1045,
+        2400
+      ],
+      "status": "duplicate-existing",
+      "canonical_family": "boston-ornaments-1889",
+      "canonical_icon_id": "boston-1889-p260-e-3",
+      "icon_id": "boston-1889-p260-e-3",
+      "codepoint": "E07C",
+      "role": "Plain printing rule in an assembled card frame",
+      "relationship": "Unornamented rectangular rule construction; dimensions and native optical weight retained separately. No shared physical stock or exact isolated-terminal identity is claimed.",
+      "native_profiles": [
+        {
+          "along_position": 1670,
+          "centre_native": 1031.147657359205,
+          "half_depth_width_native": 1.6894851994851994,
+          "peak_contrast": 209.2
+        },
+        {
+          "along_position": 1940,
+          "centre_native": 1031.1044124071648,
+          "half_depth_width_native": 1.898535324073345,
+          "peak_contrast": 207.6
+        },
+        {
+          "along_position": 2210,
+          "centre_native": 1031.239466292135,
+          "half_depth_width_native": 1.9794291940663715,
+          "peak_contrast": 126.6
+        }
+      ],
+      "native_axis": {
+        "slope": 0.00017001654246289526,
+        "intercept": 1030.834013260457,
+        "equation": "x = slope*y + intercept"
+      },
+      "reason": "The unornamented single straight stroke corresponds at construction level to the existing plain-rule design. Stock length, source rotation and native optical weight remain dimensional evidence, not extra icon identities.",
+      "quality_selection": "Retain the existing isolated drawing. The card is a longer, differently proportioned setting with soft or joined endpoints; it does not establish a better exact isolated witness."
+    }
+  ],
+  "measurement_method": "Median25-pixel native grayscale profiles at three positions per edge; contrast-weighted centroid within5pixels of the peak; linearly interpolated half-depth width. Three measured centroids define each fitted edge axis. Geometry documents the assembled impression; no scan warping, analytic redraw or new icon is performed.",
+  "construction_decision": "Four dimensional and rotational uses of the existing plain-rule construction. Retain the composition with original type rows and corner joins. The longer blurred source and joined endpoints do not supersede the isolated Boston drawing.",
+  "comparison": {
+    "canonical_family": "boston-ornaments-1889",
+    "canonical_icon_id": "boston-1889-p260-e-3",
+    "codepoint": "E07C",
+    "source_file": "collection/boston-ornaments-1889/reference/boston-260.jp2",
+    "source_box": [
+      851,
+      1826,
+      973,
+      1891
+    ],
+    "identity_scope": "Construction correspondence only. The sources do not establish common punches, matrices or physical rule stock. Long/short and vertical/horizontal dimensions are not substituted into the canonical outline."
+  },
+  "type_identity_evidence": [
+    "collection/celtic-no2-1897/source/card-source-review.json",
+    "collection/celtic-no2-6pt-1897/source/card-source-review.json"
+  ],
+  "proof": "specimens/celtic-card-frame-review.pdf"
+}
