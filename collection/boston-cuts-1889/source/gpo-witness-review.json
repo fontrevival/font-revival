@@ -1,0 +1,805 @@
+{
+  "scope": "Six matching GPO impressions improve existing Boston1889 pointing hands. A design match does not prove reuse of the same physical printing block.",
+  "native_files": [
+    {
+      "file": "leaf-176.jp2",
+      "archive_member": "123459_1904_jp2/123459_1904_0176.jp2",
+      "sha256": "3e7835e09730a7b2faee11adab193d71794a69f4a9d9aafd0da837dc3cda2b27",
+      "png_sha256": "3a2369412718661f1d6a81f0d6abd768acc54d0f1b2acf2a72f76cefc0680fa3",
+      "native_pixels": [
+        2850,
+        3878
+      ],
+      "archive_leaf": 176,
+      "pdf_page": 176,
+      "printed_page": 160,
+      "conversion": "Pillow grayscale L; no resampling"
+    },
+    {
+      "file": "leaf-177.jp2",
+      "archive_member": "123459_1904_jp2/123459_1904_0177.jp2",
+      "sha256": "9a43b88eb80a7180cad86427315cae284e8df006878a0a8f1af842c816ed2688",
+      "png_sha256": "067f10662dad5f3fffae5b9b8e20bb66c62be434a35600186ef38c67fcde2531",
+      "native_pixels": [
+        2903,
+        3878
+      ],
+      "archive_leaf": 177,
+      "pdf_page": 177,
+      "printed_page": 161,
+      "conversion": "Pillow grayscale L; no resampling"
+    }
+  ],
+  "entries": [
+    {
+      "icon_id": "boston-1889-p271-2519",
+      "glyph": "uniE15B",
+      "codepoint": "E15B",
+      "historical_identity": {
+        "id": "boston-1889-p271-2519",
+        "name": "Outlined pointing hand, right",
+        "specimen_number": "2519",
+        "printed_page": 271,
+        "pdf_page": 279,
+        "tags": [
+          "hand",
+          "pointing",
+          "right",
+          "manicule",
+          "pointer"
+        ],
+        "codepoint": "E15B",
+        "glyph": "uniE15B",
+        "source_index": 4,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE15B.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE15B.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE15B.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-271.jp2",
+        "box": [
+          1730,
+          729,
+          1948,
+          823
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 195,
+        "frame_threshold": 195,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance. Retain pale outlined hand details at the lightest reviewed threshold.",
+        "multitone": {
+          "thresholds": {
+            "primary": 130,
+            "secondary": 165,
+            "tertiary": 195
+          },
+          "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
+        }
+      },
+      "selected_witness": {
+        "source_index": 6,
+        "archive_leaf": 176,
+        "pdf_page": 176,
+        "printed_page": 160,
+        "specimen_number": "17",
+        "file": "reference/gpo-1904-leaf-176.png",
+        "box": [
+          1211,
+          3235,
+          1425,
+          3332
+        ]
+      },
+      "quality_reason": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity.",
+      "advance_width": 1928,
+      "review_status": "Native source and full-detail monochrome/three-tone before-and-after proofs reviewed. Final family format checks remain separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf",
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-176.png",
+        "box": [
+          1211,
+          3235,
+          1425,
+          3332
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "paper_normalization_radius": 0,
+        "threshold": 155,
+        "frame_threshold": 210,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Preferred GPO1904 Index Cut No.17, matching Boston1889 No.2519. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json."
+      }
+    },
+    {
+      "icon_id": "boston-1889-p271-2520",
+      "glyph": "uniE15C",
+      "codepoint": "E15C",
+      "historical_identity": {
+        "id": "boston-1889-p271-2520",
+        "name": "Outlined pointing hand, left",
+        "specimen_number": "2520",
+        "printed_page": 271,
+        "pdf_page": 279,
+        "tags": [
+          "hand",
+          "pointing",
+          "left",
+          "manicule",
+          "pointer"
+        ],
+        "codepoint": "E15C",
+        "glyph": "uniE15C",
+        "source_index": 4,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE15C.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE15C.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE15C.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-271.jp2",
+        "box": [
+          1996,
+          729,
+          2214,
+          823
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 195,
+        "frame_threshold": 195,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance. Retain pale outlined hand details at the lightest reviewed threshold.",
+        "multitone": {
+          "thresholds": {
+            "primary": 130,
+            "secondary": 165,
+            "tertiary": 195
+          },
+          "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
+        }
+      },
+      "selected_witness": {
+        "source_index": 6,
+        "archive_leaf": 176,
+        "pdf_page": 176,
+        "printed_page": 160,
+        "specimen_number": "18",
+        "file": "reference/gpo-1904-leaf-176.png",
+        "box": [
+          1587,
+          3232,
+          1804,
+          3326
+        ]
+      },
+      "quality_reason": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity.",
+      "advance_width": 1928,
+      "review_status": "Native source and full-detail monochrome/three-tone before-and-after proofs reviewed. Final family format checks remain separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf",
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-176.png",
+        "box": [
+          1587,
+          3232,
+          1804,
+          3326
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "paper_normalization_radius": 0,
+        "threshold": 155,
+        "frame_threshold": 210,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Preferred GPO1904 Index Cut No.18, matching Boston1889 No.2520. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json."
+      }
+    },
+    {
+      "icon_id": "boston-1889-p271-4014",
+      "glyph": "uniE14A",
+      "codepoint": "E14A",
+      "historical_identity": {
+        "id": "boston-1889-p271-4014",
+        "name": "Broad solid pointing hand, right",
+        "specimen_number": "4014",
+        "printed_page": 271,
+        "pdf_page": 279,
+        "tags": [
+          "hand",
+          "pointing",
+          "right",
+          "manicule",
+          "pointer"
+        ],
+        "codepoint": "E14A",
+        "glyph": "uniE14A",
+        "source_index": 4,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE14A.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE14A.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE14A.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-271.jp2",
+        "box": [
+          144,
+          893,
+          438,
+          1024
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 175,
+        "frame_threshold": 195,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
+        "multitone": {
+          "thresholds": {
+            "primary": 130,
+            "secondary": 165,
+            "tertiary": 195
+          },
+          "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
+        }
+      },
+      "selected_witness": {
+        "source_index": 7,
+        "archive_leaf": 177,
+        "pdf_page": 177,
+        "printed_page": 161,
+        "specimen_number": "28",
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          801,
+          546,
+          1083,
+          679
+        ]
+      },
+      "quality_reason": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity.",
+      "advance_width": 1928,
+      "review_status": "Native source and full-detail monochrome/three-tone before-and-after proofs reviewed. Final family format checks remain separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf",
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          801,
+          546,
+          1083,
+          679
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 210,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Preferred GPO1904 Index Cut No.28, matching Boston1889 No.4014. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds. Isolated top edge of printed No.28 below the hand is masked in blank paper; cuff remains intact.",
+        "erase": [
+          [
+            105,
+            119,
+            192,
+            162
+          ]
+        ]
+      }
+    },
+    {
+      "icon_id": "boston-1889-p271-4006",
+      "glyph": "uniE147",
+      "codepoint": "E147",
+      "historical_identity": {
+        "id": "boston-1889-p271-4006",
+        "name": "Small solid pointing hand, right",
+        "specimen_number": "4006",
+        "printed_page": 271,
+        "pdf_page": 279,
+        "tags": [
+          "hand",
+          "pointing",
+          "right",
+          "manicule",
+          "pointer"
+        ],
+        "codepoint": "E147",
+        "glyph": "uniE147",
+        "source_index": 4,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE147.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE147.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE147.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-271.jp2",
+        "box": [
+          520,
+          721,
+          684,
+          800
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 175,
+        "frame_threshold": 195,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
+        "multitone": {
+          "thresholds": {
+            "primary": 130,
+            "secondary": 165,
+            "tertiary": 195
+          },
+          "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
+        }
+      },
+      "selected_witness": {
+        "source_index": 7,
+        "archive_leaf": 177,
+        "pdf_page": 177,
+        "printed_page": 161,
+        "specimen_number": "33",
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          1065,
+          935,
+          1222,
+          1010
+        ]
+      },
+      "quality_reason": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity.",
+      "advance_width": 1928,
+      "review_status": "Native source and full-detail monochrome/three-tone before-and-after proofs reviewed. Final family format checks remain separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf",
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          1065,
+          935,
+          1222,
+          1010
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 210,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Preferred GPO1904 Index Cut No.33, matching Boston1889 No.4006. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds."
+      }
+    },
+    {
+      "icon_id": "boston-1889-p271-4005",
+      "glyph": "uniE148",
+      "codepoint": "E148",
+      "historical_identity": {
+        "id": "boston-1889-p271-4005",
+        "name": "Small solid pointing hand, left",
+        "specimen_number": "4005",
+        "printed_page": 271,
+        "pdf_page": 279,
+        "tags": [
+          "hand",
+          "pointing",
+          "left",
+          "manicule",
+          "pointer"
+        ],
+        "codepoint": "E148",
+        "glyph": "uniE148",
+        "source_index": 4,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE148.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE148.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE148.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-271.jp2",
+        "box": [
+          735,
+          721,
+          907,
+          806
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 175,
+        "frame_threshold": 195,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
+        "multitone": {
+          "thresholds": {
+            "primary": 130,
+            "secondary": 165,
+            "tertiary": 195
+          },
+          "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
+        }
+      },
+      "selected_witness": {
+        "source_index": 7,
+        "archive_leaf": 177,
+        "pdf_page": 177,
+        "printed_page": 161,
+        "specimen_number": "34",
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          1327,
+          935,
+          1489,
+          1016
+        ]
+      },
+      "quality_reason": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity.",
+      "advance_width": 1928,
+      "review_status": "Native source and full-detail monochrome/three-tone before-and-after proofs reviewed. Final family format checks remain separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf",
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          1327,
+          935,
+          1489,
+          1016
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 210,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Preferred GPO1904 Index Cut No.34, matching Boston1889 No.4005. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds."
+      }
+    },
+    {
+      "icon_id": "boston-1889-p271-4013",
+      "glyph": "uniE14D",
+      "codepoint": "E14D",
+      "historical_identity": {
+        "id": "boston-1889-p271-4013",
+        "name": "Broad solid pointing hand, left",
+        "specimen_number": "4013",
+        "printed_page": 271,
+        "pdf_page": 279,
+        "tags": [
+          "hand",
+          "pointing",
+          "left",
+          "manicule",
+          "pointer"
+        ],
+        "codepoint": "E14D",
+        "glyph": "uniE14D",
+        "source_index": 4,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE14D.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE14D.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE14D.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-271.jp2",
+        "box": [
+          987,
+          896,
+          1275,
+          1040
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 175,
+        "frame_threshold": 195,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
+        "multitone": {
+          "thresholds": {
+            "primary": 130,
+            "secondary": 165,
+            "tertiary": 195
+          },
+          "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
+        }
+      },
+      "selected_witness": {
+        "source_index": 7,
+        "archive_leaf": 177,
+        "pdf_page": 177,
+        "printed_page": 161,
+        "specimen_number": "45",
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          1362,
+          2973,
+          1640,
+          3118
+        ]
+      },
+      "quality_reason": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity.",
+      "advance_width": 1928,
+      "review_status": "Native source and full-detail monochrome/three-tone before-and-after proofs reviewed. Final family format checks remain separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf",
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-177.png",
+        "box": [
+          1362,
+          2973,
+          1640,
+          3118
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 210,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Preferred GPO1904 Index Cut No.45, matching Boston1889 No.4013. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds."
+      }
+    }
+  ]
+}

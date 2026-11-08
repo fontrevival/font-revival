@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "scope": "Post Old Style ornaments; printed pages 140–141.",
+  "method": "Robust fits to opposite dark outer rules, averaged as two directions. Positive-up affine applies to all traced layers without raster resampling. Directions below 0.2 degrees are retained.",
+  "records": [
+    {
+      "number": 2,
+      "icon_id": "gpo-1904-post-2",
+      "outer_rule_fits": {
+        "left": {
+          "slope": -0.010595822662574906,
+          "intercept": 20.402717949572892,
+          "samples": 286,
+          "residual_rms_pixels": 0.5479139071809154
+        },
+        "right": {
+          "slope": -0.0018007666274674706,
+          "intercept": 299.5281201468621,
+          "samples": 286,
+          "residual_rms_pixels": 0.2964619500126532
+        },
+        "top": {
+          "slope": -0.00044005767987670793,
+          "intercept": 16.045860474367267,
+          "samples": 169,
+          "residual_rms_pixels": 0.15049101556561206
+        },
+        "bottom": {
+          "slope": -1.2436990595072033e-16,
+          "intercept": 491.00000000000006,
+          "samples": 169,
+          "residual_rms_pixels": 5.4438065971036834e-14
+        }
+      },
+      "horizontal_degrees_image_down": -0.012606723696188973,
+      "vertical_degrees_image_right": -0.35513157546849916,
+      "linear_matrix_positive_up": [
+        [
+          1.0000013880118184,
+          -0.0061983032483274095
+        ],
+        [
+          -0.00022003336660832905,
+          1.000020573075394
+        ]
+      ],
+      "status": "applied-and-source-vector-reviewed",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "post_trace_transform": [
+        1.0000013880118184,
+        -0.00022003336660832905,
+        -0.0061983032483274095,
+        1.000020573075394,
+        5.577643586433137,
+        0.11295416869393193
+      ],
+      "advance_width": 1195,
+      "centre": [
+        597.5,
+        900
+      ],
+      "decision": "Correct averaged horizontal and vertical scan directions together; preserve irregular rule contours and established spacing."
+    },
+    {
+      "number": 5,
+      "icon_id": "gpo-1904-post-5",
+      "outer_rule_fits": {
+        "left": {
+          "slope": 0.011979803348392229,
+          "intercept": 19.927889825076996,
+          "samples": 425,
+          "residual_rms_pixels": 0.7384195636041971
+        },
+        "right": {
+          "slope": 0.006533272889277548,
+          "intercept": 436.0485954573165,
+          "samples": 425,
+          "residual_rms_pixels": 0.8525932498260631
+        },
+        "top": {
+          "slope": 0.004879656260126282,
+          "intercept": 26.016028867119356,
+          "samples": 254,
+          "residual_rms_pixels": 0.6672739427622306
+        },
+        "bottom": {
+          "slope": 0.002706200901824057,
+          "intercept": 733.1963491368977,
+          "samples": 254,
+          "residual_rms_pixels": 0.32619733184210986
+        }
+      },
+      "horizontal_degrees_image_down": 0.21731775755507793,
+      "vertical_degrees_image_right": 0.530345420173716,
+      "linear_matrix_positive_up": [
+        [
+          1.000042304000999,
+          0.009256929707432715
+        ],
+        [
+          0.0037932242509706236,
+          1.0000779529561767
+        ]
+      ],
+      "status": "applied-and-source-vector-reviewed",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "post_trace_transform": [
+        1.000042304000999,
+        0.0037932242509706236,
+        0.009256929707432715,
+        1.0000779529561767,
+        -8.357422913307797,
+        -2.4181634719099065
+      ],
+      "advance_width": 1238,
+      "centre": [
+        619.0,
+        900
+      ],
+      "decision": "Correct averaged horizontal and vertical scan directions together; preserve irregular rule contours and established spacing."
+    },
+    {
+      "number": 10,
+      "icon_id": "gpo-1904-post-10",
+      "outer_rule_fits": {
+        "left": {
+          "slope": -0.002635616722665146,
+          "intercept": 18.42035915969466,
+          "samples": 283,
+          "residual_rms_pixels": 0.37149577514874393
+        },
+        "right": {
+          "slope": -0.00611412252176269,
+          "intercept": 297.97185428184474,
+          "samples": 283,
+          "residual_rms_pixels": 0.340444905038183
+        },
+        "top": {
+          "slope": -0.0012127429607781944,
+          "intercept": 16.407441332185325,
+          "samples": 170,
+          "residual_rms_pixels": 0.4083318427275932
+        },
+        "bottom": {
+          "slope": 0.002950641483625246,
+          "intercept": 487.9499893136951,
+          "samples": 170,
+          "residual_rms_pixels": 0.6399085213851031
+        }
+      },
+      "horizontal_degrees_image_down": 0.0497871127596154,
+      "vertical_degrees_image_right": -0.2506599661135243,
+      "linear_matrix_positive_up": [
+        [
+          0.9999965760096277,
+          -0.00437485464270245
+        ],
+        [
+          0.0008689542736398795,
+          1.0000057681346612
+        ]
+      ],
+      "status": "applied-and-source-vector-reviewed",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "post_trace_transform": [
+        0.9999965760096277,
+        0.0008689542736398795,
+        -0.00437485464270245,
+        1.0000057681346612,
+        3.9394338446267474,
+        -0.529170748199931
+      ],
+      "advance_width": 1206,
+      "centre": [
+        603.0,
+        900
+      ],
+      "decision": "Correct averaged horizontal and vertical scan directions together; preserve irregular rule contours and established spacing."
+    },
+    {
+      "number": 14,
+      "icon_id": "gpo-1904-post-14",
+      "outer_rule_fits": {
+        "left": {
+          "slope": 0.003590087507706955,
+          "intercept": 14.002865363605878,
+          "samples": 281,
+          "residual_rms_pixels": 0.5850331272719218
+        },
+        "right": {
+          "slope": -0.0004245584051746265,
+          "intercept": 288.85660472260383,
+          "samples": 281,
+          "residual_rms_pixels": 0.4311244885982136
+        },
+        "top": {
+          "slope": -0.003955084667154563,
+          "intercept": 15.912550114916472,
+          "samples": 167,
+          "residual_rms_pixels": 0.4219808454761983
+        },
+        "bottom": {
+          "slope": -0.0002860028651831421,
+          "intercept": 484.03149638760357,
+          "samples": 167,
+          "residual_rms_pixels": 0.10790053043429729
+        }
+      },
+      "horizontal_degrees_image_down": -0.12149802596084153,
+      "vertical_degrees_image_right": 0.09068565302365757,
+      "linear_matrix_positive_up": [
+        [
+          0.9999988920326207,
+          0.0015827627976146722
+        ],
+        [
+          -0.0021205393050888707,
+          0.9999978962565863
+        ]
+      ],
+      "status": "retained-source-alignment",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "decision": "Both averaged directions are under 0.2 degrees. Retain small printed irregularities; no further geometric correction."
+    },
+    {
+      "number": 19,
+      "icon_id": "gpo-1904-post-19",
+      "outer_rule_fits": {
+        "left": {
+          "slope": -0.0008756595590020828,
+          "intercept": 18.27261316432326,
+          "samples": 421,
+          "residual_rms_pixels": 0.2927565362868046
+        },
+        "right": {
+          "slope": -0.0014263013541255614,
+          "intercept": 425.3753177394271,
+          "samples": 393,
+          "residual_rms_pixels": 0.9299457225631425
+        },
+        "top": {
+          "slope": 0.005890496812924867,
+          "intercept": 22.703799165563353,
+          "samples": 246,
+          "residual_rms_pixels": 0.9956277762265718
+        },
+        "bottom": {
+          "slope": -3.735975938130455e-17,
+          "intercept": 723.0,
+          "samples": 249,
+          "residual_rms_pixels": 0.0
+        }
+      },
+      "horizontal_degrees_image_down": 0.16874981536963024,
+      "vertical_degrees_image_right": -0.06594629334224168,
+      "linear_matrix_positive_up": [
+        [
+          1.0000009473081153,
+          -0.0011509815468969489
+        ],
+        [
+          0.0029452403731904052,
+          0.9999972724636769
+        ]
+      ],
+      "status": "retained-source-alignment",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "decision": "Both averaged directions are under 0.2 degrees. Retain small printed irregularities; no further geometric correction."
+    },
+    {
+      "number": 20,
+      "icon_id": "gpo-1904-post-20",
+      "outer_rule_fits": {
+        "left": {
+          "slope": 0.005019652218596093,
+          "intercept": 12.403868125140075,
+          "samples": 280,
+          "residual_rms_pixels": 0.36402252713931454
+        },
+        "right": {
+          "slope": -0.001099594929235059,
+          "intercept": 289.058145694278,
+          "samples": 280,
+          "residual_rms_pixels": 0.4251603260613357
+        },
+        "top": {
+          "slope": -0.00817990156760888,
+          "intercept": 26.776307793084253,
+          "samples": 160,
+          "residual_rms_pixels": 0.42269547061435103
+        },
+        "bottom": {
+          "slope": -0.0004947076586942145,
+          "intercept": 492.05074876065436,
+          "samples": 167,
+          "residual_rms_pixels": 0.1510285642629814
+        }
+      },
+      "horizontal_degrees_image_down": -0.24850769047762836,
+      "vertical_degrees_image_right": 0.1123012252554221,
+      "linear_matrix_positive_up": [
+        [
+          1.000000904812442,
+          0.0019600304181388215
+        ],
+        [
+          -0.00433727607225136,
+          0.9999934196689576
+        ]
+      ],
+      "status": "applied-and-source-vector-reviewed",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "post_trace_transform": [
+        1.000000904812442,
+        -0.00433727607225136,
+        0.0019600304181388215,
+        0.9999934196689576,
+        -1.7645652873217939,
+        2.5844329228915512
+      ],
+      "advance_width": 1189,
+      "centre": [
+        594.5,
+        900
+      ],
+      "decision": "Correct averaged horizontal and vertical scan directions together; preserve irregular rule contours and established spacing."
+    },
+    {
+      "number": 40,
+      "icon_id": "gpo-1904-post-40",
+      "outer_rule_fits": {
+        "left": {
+          "slope": -1.554942936831169e-05,
+          "intercept": 16.87910599419703,
+          "samples": 210,
+          "residual_rms_pixels": 0.34351658854933226
+        },
+        "right": {
+          "slope": -0.0010204313022968124,
+          "intercept": 227.11037848822826,
+          "samples": 210,
+          "residual_rms_pixels": 0.5201658154732085
+        },
+        "top": {
+          "slope": -0.005712176602924611,
+          "intercept": 14.555153262092237,
+          "samples": 127,
+          "residual_rms_pixels": 0.278910234618049
+        },
+        "bottom": {
+          "slope": 5.026369610973854e-16,
+          "intercept": 363.0,
+          "samples": 127,
+          "residual_rms_pixels": 6.672634777286764e-14
+        }
+      },
+      "horizontal_degrees_image_down": -0.1636413606374596,
+      "vertical_degrees_image_right": -0.029678659136243412,
+      "linear_matrix_positive_up": [
+        [
+          1.0000055580463223,
+          -0.0005179932448470098
+        ],
+        [
+          -0.002856092910005043,
+          1.0000016135856118
+        ]
+      ],
+      "status": "retained-source-alignment",
+      "measurement": "Dark outer edge threshold130, central60percent of each edge, robust line fits. Average opposite edge directions; retain irregular printed contours.",
+      "decision": "Both averaged directions are under 0.2 degrees. Retain small printed irregularities; no further geometric correction."
+    }
+  ]
+}

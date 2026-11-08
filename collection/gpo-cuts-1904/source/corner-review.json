@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "gpo-1904-half-blunt-rule-corner",
+      "name": "Half-blunt brass-rule corner",
+      "codepoint": "E241",
+      "glyph": "uniE241",
+      "witness": "corner-half-blunt",
+      "native_box": [
+        725,
+        999,
+        922,
+        1189
+      ],
+      "native_neighbor_erases": [
+        [
+          725,
+          999,
+          891,
+          1165
+        ]
+      ],
+      "native_paper_erases": [],
+      "threshold": 195,
+      "contours": 1,
+      "alignment_measurement": {
+        "horizontal": {
+          "slope": -0.004308091536730544,
+          "intercept": 183.38306711483847,
+          "median_native_halfdepth_width": 2.0780780780780788,
+          "angle_from_axis_degrees": -0.24683393576754034,
+          "residual_std": 0.10134059041194403
+        },
+        "vertical": {
+          "slope": -4.996891962376029e-05,
+          "intercept": 187.0022264381028,
+          "median_native_halfdepth_width": 2.002002002002002,
+          "angle_from_axis_degrees": -0.002863008198887027,
+          "residual_std": 0.17516069976915788
+        },
+        "rigid_rotation_font_degrees": -0.12198546378432666,
+        "axis_nonorthogonality_degrees": -0.24969694396642733
+      },
+      "post_trace_transform": [
+        1.000009495056011,
+        -0.004308092469514959,
+        -4.996939408145093e-05,
+        1.0000002165191728,
+        0.03581922067865333,
+        4.152806273356873
+      ],
+      "bounds": [
+        75.63894515458674,
+        16.242759471095326,
+        1860.7617645263672,
+        1784.701495171439
+      ],
+      "quality_todo": "Compare intact matching period witnesses, especially the small single-rule corner join gap. Review thin strokes and source phase in final family formats and browser after the whole-library gate.",
+      "identity_reason": "The separately labeled half-blunt and single printing faces have roughly 180-pixel arms and different ink weight. Existing Boston nonpareil/long-primer corners have much shorter arms relative to their stroke width; short-ended components, mathematical angles and map junctions are also distinct. Handedness alone does not establish a design. Arbitrary straight stock lengths remain witnesses.",
+      "recommended_min_px": 128,
+      "source_index": 59,
+      "archive_leaf": 32,
+      "printed_page": 16,
+      "native_file": "reference/leaf-32.png",
+      "original_file": "reference/leaf-32.jp2",
+      "original_sha256": "8d09e0173d201e14881633b83af6c9f3be515c794a4f4bdba395a0430f8f5a2f",
+      "working_file": "reference/half-blunt-corner-sampling-4.png",
+      "working_sha256": "f3434c11f4a4ce5db665871b5ee5d44c09494009f3699c4ad6d2ad06a39c8dfd",
+      "sampling": {
+        "factor": 4,
+        "method": "Pillow BILINEAR",
+        "purpose": "Subpixel contour fitting only; interpolation adds no source detail."
+      },
+      "recipe": {
+        "file": "reference/half-blunt-corner-sampling-4.png",
+        "box": [
+          0,
+          0,
+          788,
+          760
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 195,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 0,
+        "blur": 0,
+        "component_min_area": 32,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          1.000009495056011,
+          -0.004308092469514959,
+          -4.996939408145093e-05,
+          1.0000002165191728,
+          0.03581922067865333,
+          4.152806273356873
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 175,
+            "secondary": 195,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed corner. Fourfold bilinear sampling supports subpixel contour fitting without new detail. Neighboring stock rules and an explicitly recorded isolated paper cloud are masked before sampling. The small global measured-axis correction makes the two fitted straight directions perpendicular while preserving distance along each. Native outline variation and the single-rule join gap remain; no synthetic lines or filled gaps."
+      }
+    },
+    {
+      "id": "gpo-1904-single-rule-corner",
+      "name": "Fine brass-rule corner",
+      "codepoint": "E242",
+      "glyph": "uniE242",
+      "witness": "corner-single",
+      "native_box": [
+        1956,
+        999,
+        2148,
+        1189
+      ],
+      "native_neighbor_erases": [
+        [
+          1980,
+          999,
+          2148,
+          1165
+        ]
+      ],
+      "native_paper_erases": [
+        [
+          1996,
+          1165,
+          2066,
+          1178
+        ]
+      ],
+      "threshold": 215,
+      "contours": 2,
+      "alignment_measurement": {
+        "horizontal": {
+          "slope": 0.0003501784283448943,
+          "intercept": 183.44998774814692,
+          "median_native_halfdepth_width": 1.9819819819819822,
+          "angle_from_axis_degrees": 0.02006374520058166,
+          "residual_std": 0.04840390615393263
+        },
+        "vertical": {
+          "slope": -0.0020601937776318123,
+          "intercept": 6.632924069785961,
+          "median_native_halfdepth_width": 1.8418418418418416,
+          "angle_from_axis_degrees": -0.11804024143433481,
+          "residual_std": 0.02944806920453911
+        },
+        "rigid_rotation_font_degrees": 0.06905199331745823,
+        "axis_nonorthogonality_degrees": -0.09797649623375315
+      },
+      "post_trace_transform": [
+        0.9999993398775211,
+        0.0003501789188610114,
+        -0.002060192417651589,
+        1.0000014007605191,
+        1.8548095339560715,
+        -0.338833162249216
+      ],
+      "bounds": [
+        69.54681614481738,
+        9.8783814269463,
+        1858.8125,
+        1787.581413258569
+      ],
+      "quality_todo": "Compare intact matching period witnesses, especially the small single-rule corner join gap. Review thin strokes and source phase in final family formats and browser after the whole-library gate.",
+      "identity_reason": "The separately labeled half-blunt and single printing faces have roughly 180-pixel arms and different ink weight. Existing Boston nonpareil/long-primer corners have much shorter arms relative to their stroke width; short-ended components, mathematical angles and map junctions are also distinct. Handedness alone does not establish a design. Arbitrary straight stock lengths remain witnesses.",
+      "recommended_min_px": 256,
+      "source_index": 59,
+      "archive_leaf": 32,
+      "printed_page": 16,
+      "native_file": "reference/leaf-32.png",
+      "original_file": "reference/leaf-32.jp2",
+      "original_sha256": "8d09e0173d201e14881633b83af6c9f3be515c794a4f4bdba395a0430f8f5a2f",
+      "working_file": "reference/single-corner-sampling-4.png",
+      "working_sha256": "d9a3c39d58b6c16215a7f4a0017dfcdeb6f5988714848bb53ac572e7ecf43eb2",
+      "sampling": {
+        "factor": 4,
+        "method": "Pillow BILINEAR",
+        "purpose": "Subpixel contour fitting only; interpolation adds no source detail."
+      },
+      "recipe": {
+        "file": "reference/single-corner-sampling-4.png",
+        "box": [
+          0,
+          0,
+          768,
+          760
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 215,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 0,
+        "blur": 0,
+        "component_min_area": 32,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999993398775211,
+          0.0003501789188610114,
+          -0.002060192417651589,
+          1.0000014007605191,
+          1.8548095339560715,
+          -0.338833162249216
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 215,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed corner. Fourfold bilinear sampling supports subpixel contour fitting without new detail. Neighboring stock rules and an explicitly recorded isolated paper cloud are masked before sampling. The small global measured-axis correction makes the two fitted straight directions perpendicular while preserving distance along each. Native outline variation and the single-rule join gap remain; no synthetic lines or filled gaps."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p240-piece-26",
+      "name": "Fine right-angle rule (nonpareil)",
+      "source_index": 3,
+      "printed_page": 240,
+      "pdf_page": 246,
+      "file": "reference/boston-240.jp2",
+      "box": [
+        1057,
+        2691,
+        1119,
+        2742
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p241-piece-7",
+      "name": "Fine right-angle rule (long primer)",
+      "source_index": 4,
+      "printed_page": 241,
+      "pdf_page": 247,
+      "file": "reference/boston-241.jp2",
+      "box": [
+        1224,
+        3274,
+        1312,
+        3347
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p241-piece-17",
+      "name": "Fine right-angle end, left (long primer and pearl)",
+      "source_index": 4,
+      "printed_page": 241,
+      "pdf_page": 247,
+      "file": "reference/boston-241.jp2",
+      "box": [
+        727,
+        3412,
+        794,
+        3472
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-initials-1889",
+      "icon_id": "boston-1889-p241-piece-18",
+      "name": "Fine right-angle end, right (long primer and pearl)",
+      "source_index": 4,
+      "printed_page": 241,
+      "pdf_page": 247,
+      "file": "reference/boston-241.jp2",
+      "box": [
+        800,
+        3412,
+        868,
+        3472
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-6pt-50",
+      "name": "Right angle, 6-point",
+      "source_index": 0,
+      "printed_page": 255,
+      "pdf_page": 263,
+      "file": "reference/boston-255.jp2",
+      "box": [
+        445,
+        2711,
+        481,
+        2748
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-7pt-50",
+      "name": "Right angle, 7-point",
+      "source_index": 0,
+      "printed_page": 255,
+      "pdf_page": 263,
+      "file": "reference/boston-255.jp2",
+      "box": [
+        382,
+        3248,
+        417,
+        3288
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-7pt-55",
+      "name": "Serif right angle, 7-point",
+      "source_index": 0,
+      "printed_page": 255,
+      "pdf_page": 263,
+      "file": "reference/boston-255.jp2",
+      "box": [
+        663,
+        3248,
+        699,
+        3288
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-8pt-48",
+      "name": "Right angle, 8-point",
+      "source_index": 0,
+      "printed_page": 255,
+      "pdf_page": 263,
+      "file": "reference/boston-255.jp2",
+      "box": [
+        1229,
+        2496,
+        1269,
+        2539
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-9pt-46",
+      "name": "Right angle, 9-point",
+      "source_index": 0,
+      "printed_page": 255,
+      "pdf_page": 263,
+      "file": "reference/boston-255.jp2",
+      "box": [
+        1547,
+        3110,
+        1592,
+        3158
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p255-10pt-57",
+      "name": "Right angle, 10-point",
+      "source_index": 0,
+      "printed_page": 255,
+      "pdf_page": 263,
+      "file": "reference/boston-255.jp2",
+      "box": [
+        1912,
+        2570,
+        1957,
+        2626
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    },
+    {
+      "family": "boston-symbols-1889",
+      "icon_id": "boston-1889-p257-map-14",
+      "name": "Right-angle junction map type",
+      "source_index": 1,
+      "printed_page": 257,
+      "pdf_page": 265,
+      "file": "reference/boston-257.jp2",
+      "box": [
+        642,
+        1241,
+        715,
+        1309
+      ],
+      "decision": "Related construction, not an exact optical match: compare relative stroke width, arm lengths, terminations and source function. Existing artwork and assignments retained."
+    }
+  ],
+  "measurement_method": "Native ink-weight centroids over positions 20–164 of each isolated arm; robust linear fit excludes residual outliers. Horizontal and vertical directions are mapped to perpendicular axes with unit-length basis vectors, preserving distance along either fitted direction. Axis nonorthogonality is approximately 0.250 and 0.098 degrees. The transformation is global; local width variation and printed gaps remain.",
+  "proof": "specimens/corner-review.pdf"
+}

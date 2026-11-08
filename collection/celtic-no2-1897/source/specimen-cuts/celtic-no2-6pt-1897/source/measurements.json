@@ -1,0 +1,1104 @@
+{
+  "method": "Native fitted capline and baseline regressions, one uniform scale and measured rigid rotation per source row.",
+  "rows": {
+    "census6": {
+      "anchor_ids": [
+        "census6-02",
+        "census6-05",
+        "census6-06",
+        "census6-08",
+        "census6-09",
+        "census6-11",
+        "census6-12",
+        "census6-13",
+        "census6-14",
+        "census6-16",
+        "census6-20",
+        "census6-24",
+        "census6-25",
+        "census6-26"
+      ],
+      "top_slope": 0.010550946872083957,
+      "bottom_slope": 0.010414743398427349,
+      "slope": 0.010482845135255653,
+      "rotation_degrees": 0.6006007841688886,
+      "baseline_intercept": 443.08532091779523,
+      "capline_intercept": 412.5775456449257,
+      "cap_height_pixels": 30.506099160654294,
+      "scale": 22.946231057389195
+    },
+    "doc6": {
+      "anchor_ids": [
+        "doc6-06",
+        "doc6-07",
+        "doc6-08",
+        "doc6-09",
+        "doc6-12",
+        "doc6-14",
+        "doc6-15",
+        "doc6-17",
+        "doc6-19",
+        "doc6-20",
+        "doc6-22",
+        "doc6-24",
+        "doc6-25",
+        "doc6-28",
+        "doc6-30",
+        "doc6-32",
+        "doc6-36",
+        "doc6-37",
+        "doc6-38",
+        "doc6-40",
+        "doc6-42"
+      ],
+      "top_slope": 0.00045277652191070823,
+      "bottom_slope": 0.0007270221223323504,
+      "slope": 0.0005898993221215294,
+      "rotation_degrees": 0.03379873757475037,
+      "baseline_intercept": 783.3506404101817,
+      "capline_intercept": 759.3141889378121,
+      "cap_height_pixels": 24.036447290253903,
+      "scale": 29.122440248639826
+    },
+    "census6-figures": {
+      "anchor_ids": [
+        "census6-27",
+        "census6-30",
+        "census6-33"
+      ],
+      "slope": 0.012240701063167773,
+      "rotation_degrees": 0.7013054839533456,
+      "baseline_intercept": 432.7085979031696,
+      "scale": 22.946231057389195,
+      "scale_reference": "census6",
+      "reason": "Local baseline of separated figure group from1/4/7 feet; cap scale inherited without independent size fitting."
+    },
+    "card-city/205": {
+      "cap_height_pixels": 21.43445585855567,
+      "scale": 32.657698642748215,
+      "slope": -0.0010935657269263853,
+      "top_slope": 0.00017568987201572333,
+      "bottom_slope": -0.002362821325868494,
+      "rotation_degrees": -0.06265667579629862,
+      "baseline_intercept": 2324.792514461856,
+      "capline_intercept": 2303.3580457867215,
+      "anchors": [
+        "card-city-04",
+        "card-city-05",
+        "card-city-06",
+        "card-city-08",
+        "card-city-10"
+      ]
+    }
+  },
+  "glyphs": [
+    {
+      "id": "census6-01",
+      "row": "census6",
+      "character": "A",
+      "native_fitted_bounds": [
+        142.1982431478208,
+        415.0,
+        173.3530518733399,
+        445.0
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-02",
+      "row": "census6",
+      "character": "B",
+      "native_fitted_bounds": [
+        182.575,
+        413.2876784433968,
+        212.317990859406,
+        443.7626462206061
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-03",
+      "row": "census6",
+      "character": "C",
+      "native_fitted_bounds": [
+        219.68964283875965,
+        415.075,
+        247.0,
+        445.9849093632719
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-04",
+      "row": "census6",
+      "character": "D",
+      "native_fitted_bounds": [
+        254.0,
+        416.0,
+        285.2136270652824,
+        445.9994154313734
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-05",
+      "row": "census6",
+      "character": "E",
+      "native_fitted_bounds": [
+        294.0539755029842,
+        416.36505757697296,
+        325.0,
+        446.8408221652004
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-06",
+      "row": "census6",
+      "character": "F",
+      "native_fitted_bounds": [
+        333.061461293353,
+        416.0,
+        360.0,
+        446.5966339033137
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-07",
+      "row": "census6",
+      "character": "G",
+      "native_fitted_bounds": [
+        365.3004077586139,
+        417.18767059389813,
+        395.3520038500444,
+        447.94770245959984
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-08",
+      "row": "census6",
+      "character": "H",
+      "native_fitted_bounds": [
+        403.5,
+        417.0,
+        438.565625,
+        448.0495246306249
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-09",
+      "row": "census6",
+      "character": "I",
+      "native_fitted_bounds": [
+        448.8517559903457,
+        418.1314039411727,
+        461.4378839369893,
+        448.3846747879945
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-10",
+      "row": "census6",
+      "character": "J",
+      "native_fitted_bounds": [
+        466.63279728383753,
+        418.0,
+        484.56651810699867,
+        448.8650891008563
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-11",
+      "row": "census6",
+      "character": "K",
+      "native_fitted_bounds": [
+        495.0,
+        417.98336994738196,
+        528.5932338161507,
+        449.29631670643295
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-12",
+      "row": "census6",
+      "character": "L",
+      "native_fitted_bounds": [
+        536.0,
+        419.0,
+        564.5265306122449,
+        448.77086992702476
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-13",
+      "row": "census6",
+      "character": "M",
+      "native_fitted_bounds": [
+        569.7,
+        418.9466533561568,
+        608.5578879853815,
+        449.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-14",
+      "row": "census6",
+      "character": "N",
+      "native_fitted_bounds": [
+        620.7030951430048,
+        419.0914632394355,
+        652.6178153778789,
+        449.8138438763306
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-15",
+      "row": "census6",
+      "character": "O",
+      "native_fitted_bounds": [
+        664.0,
+        419.210776983946,
+        692.7548246599204,
+        450.9089166797596
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-16",
+      "row": "census6",
+      "character": "P",
+      "native_fitted_bounds": [
+        700.5772171477574,
+        420.39512124899943,
+        728.943608869678,
+        450.8
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-17",
+      "row": "census6",
+      "character": "Q",
+      "native_fitted_bounds": [
+        734.1419105263458,
+        420.1973464417914,
+        764.4024995372298,
+        458.6392215803556
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-18",
+      "row": "census6",
+      "character": "R",
+      "native_fitted_bounds": [
+        775.4358571613068,
+        420.9536401853044,
+        805.4678571428572,
+        455.5891680169249
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-19",
+      "row": "census6",
+      "character": "S",
+      "native_fitted_bounds": [
+        811.124199845511,
+        422.1835201520998,
+        835.1193557058862,
+        453.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-20",
+      "row": "census6",
+      "character": "T",
+      "native_fitted_bounds": [
+        839.9967676756658,
+        421.3666666666667,
+        869.3378293432231,
+        451.99015584793824
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-21",
+      "row": "census6",
+      "character": "U",
+      "native_fitted_bounds": [
+        875.1,
+        422.0,
+        905.3371815488076,
+        452.93173223041805
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-22",
+      "row": "census6",
+      "character": "V",
+      "native_fitted_bounds": [
+        911.6,
+        422.0,
+        943.7584461474473,
+        453.8856366362409
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "census6-23",
+      "row": "census6",
+      "character": "W",
+      "native_fitted_bounds": [
+        951.0,
+        422.0,
+        998.953125,
+        453.35714285714283
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "census6-24",
+      "row": "census6",
+      "character": "X",
+      "native_fitted_bounds": [
+        1005.849096154905,
+        423.0,
+        1035.462694359557,
+        453.8879459237034
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-25",
+      "row": "census6",
+      "character": "Y",
+      "native_fitted_bounds": [
+        1042.8,
+        423.490983005625,
+        1072.4,
+        454.0169346578841
+      ],
+      "threshold": 185
+    },
+    {
+      "id": "census6-26",
+      "row": "census6",
+      "character": "Z",
+      "native_fitted_bounds": [
+        1076.9512193220442,
+        424.0,
+        1104.0,
+        454.0
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-27",
+      "row": "census6",
+      "character": "1",
+      "native_fitted_bounds": [
+        2341.6371032226984,
+        431.23794200734073,
+        2357.289201785887,
+        461.4782466227673
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "census6-28",
+      "row": "census6",
+      "character": "2",
+      "native_fitted_bounds": [
+        2363.3381144163295,
+        431.4374566230226,
+        2389.4524891161327,
+        462.94770245959984
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "census6-29",
+      "row": "census6",
+      "character": "3",
+      "native_fitted_bounds": [
+        2393.712313130404,
+        431.1235562667479,
+        2419.9535039895172,
+        462.96985654498604
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "census6-30",
+      "row": "census6",
+      "character": "4",
+      "native_fitted_bounds": [
+        2423.6399493401927,
+        431.0,
+        2450.165623612498,
+        462.0
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "census6-31",
+      "row": "census6",
+      "character": "5",
+      "native_fitted_bounds": [
+        2454.0,
+        431.3114561800017,
+        2479.664661654237,
+        462.00754944238304
+      ],
+      "threshold": 175
+    },
+    {
+      "id": "census6-32",
+      "row": "census6",
+      "character": "6",
+      "native_fitted_bounds": [
+        2486.151438072978,
+        431.18767059389813,
+        2511.95409099226,
+        462.7758667234947
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "census6-33",
+      "row": "census6",
+      "character": "7",
+      "native_fitted_bounds": [
+        2517.0,
+        431.12540754817735,
+        2542.2016039214473,
+        463.6726851291203
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "census6-34",
+      "row": "census6",
+      "character": "8",
+      "native_fitted_bounds": [
+        2546.592380242467,
+        431.106792009845,
+        2573.641097136546,
+        462.8437193053344
+      ],
+      "threshold": 205
+    },
+    {
+      "id": "census6-35",
+      "row": "census6",
+      "character": "9",
+      "native_fitted_bounds": [
+        2577.6557181589355,
+        431.07766564249584,
+        2603.5330404209444,
+        462.5774607502804
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "census6-36",
+      "row": "census6",
+      "character": "0",
+      "native_fitted_bounds": [
+        2607.967299335455,
+        432.0533398741859,
+        2635.0,
+        463.7964285714286
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "doc6-01",
+      "row": "doc6",
+      "character": "1",
+      "native_fitted_bounds": [
+        494.96332495277034,
+        761.4353676638129,
+        503.9010406516427,
+        785.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-02",
+      "row": "doc6",
+      "character": "2",
+      "native_fitted_bounds": [
+        519.5,
+        761.0893575072157,
+        533.963311658066,
+        776.8999337563595
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-03",
+      "row": "doc6",
+      "character": "3",
+      "native_fitted_bounds": [
+        538.2086928276052,
+        761.484203867185,
+        559.8998446236525,
+        784.596780372885
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-04",
+      "row": "doc6",
+      "character": "4",
+      "native_fitted_bounds": [
+        562.0,
+        768.0494886128353,
+        583.0,
+        784.9747514043171
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-05",
+      "row": "doc6",
+      "character": "U",
+      "native_fitted_bounds": [
+        707.5571773065698,
+        760.0,
+        734.5673469387755,
+        784.4405425489344
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-06",
+      "row": "doc6",
+      "character": "N",
+      "native_fitted_bounds": [
+        744.5075057935131,
+        760.0,
+        770.005350524073,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-07",
+      "row": "doc6",
+      "character": "I",
+      "native_fitted_bounds": [
+        779.0,
+        760.0,
+        788.6587171602415,
+        783.9092334365214
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-08",
+      "row": "doc6",
+      "character": "T",
+      "native_fitted_bounds": [
+        794.305538129986,
+        760.0,
+        819.0,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-09",
+      "row": "doc6",
+      "character": "E",
+      "native_fitted_bounds": [
+        824.5486595732528,
+        760.5,
+        848.2,
+        783.8783395588138
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-10",
+      "row": "doc6",
+      "character": "D",
+      "native_fitted_bounds": [
+        854.4875,
+        760.4685356144088,
+        878.8898315024124,
+        783.9296115413078
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-11",
+      "row": "doc6",
+      "character": "S",
+      "native_fitted_bounds": [
+        903.8,
+        761.8785523038829,
+        923.0,
+        784.3149534652867
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-12",
+      "row": "doc6",
+      "character": "T",
+      "native_fitted_bounds": [
+        927.0,
+        759.8,
+        951.0,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-13",
+      "row": "doc6",
+      "character": "A",
+      "native_fitted_bounds": [
+        955.5137248741602,
+        761.0,
+        978.9781616151355,
+        784.0633534503099
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-14",
+      "row": "doc6",
+      "character": "T",
+      "native_fitted_bounds": [
+        984.0,
+        760.1215390309173,
+        1007.8617044797036,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-15",
+      "row": "doc6",
+      "character": "E",
+      "native_fitted_bounds": [
+        1013.585886532849,
+        760.0,
+        1036.9589545862111,
+        783.930048422237
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-16",
+      "row": "doc6",
+      "character": "S",
+      "native_fitted_bounds": [
+        1042.0,
+        760.2959481645096,
+        1062.0,
+        784.4398696175006
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-17",
+      "row": "doc6",
+      "character": "N",
+      "native_fitted_bounds": [
+        1087.0,
+        760.0,
+        1114.5946296836787,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-18",
+      "row": "doc6",
+      "character": "A",
+      "native_fitted_bounds": [
+        1121.0787297257232,
+        760.0,
+        1145.0081713800248,
+        784.601619513055
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-19",
+      "row": "doc6",
+      "character": "T",
+      "native_fitted_bounds": [
+        1150.3105987181204,
+        760.0,
+        1174.8694327536566,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-20",
+      "row": "doc6",
+      "character": "I",
+      "native_fitted_bounds": [
+        1179.8,
+        760.0,
+        1189.2,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-21",
+      "row": "doc6",
+      "character": "O",
+      "native_fitted_bounds": [
+        1195.2372570339812,
+        762.0,
+        1220.0,
+        784.8977260463399
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-22",
+      "row": "doc6",
+      "character": "N",
+      "native_fitted_bounds": [
+        1227.4699652376135,
+        760.0,
+        1252.7482071476409,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-23",
+      "row": "doc6",
+      "character": "A",
+      "native_fitted_bounds": [
+        1261.108485549828,
+        761.1554624394719,
+        1283.1719481945736,
+        784.6744333162063
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-24",
+      "row": "doc6",
+      "character": "L",
+      "native_fitted_bounds": [
+        1292.585886532849,
+        760.0,
+        1315.0,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-25",
+      "row": "doc6",
+      "character": "M",
+      "native_fitted_bounds": [
+        1341.5003952708119,
+        760.0151371795563,
+        1370.6569618398141,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-26",
+      "row": "doc6",
+      "character": "U",
+      "native_fitted_bounds": [
+        1379.0,
+        759.9996734693877,
+        1404.6877920219931,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-27",
+      "row": "doc6",
+      "character": "S",
+      "native_fitted_bounds": [
+        1413.0331914251185,
+        760.3235953132627,
+        1432.0,
+        785.0490535469925
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-28",
+      "row": "doc6",
+      "character": "E",
+      "native_fitted_bounds": [
+        1438.6027268621574,
+        760.4,
+        1460.7300682467053,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-29",
+      "row": "doc6",
+      "character": "U",
+      "native_fitted_bounds": [
+        1467.0,
+        760.0,
+        1492.7440450931797,
+        783.8271160018979
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-30",
+      "row": "doc6",
+      "character": "M",
+      "native_fitted_bounds": [
+        1502.0728440129294,
+        760.0,
+        1531.0,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-31",
+      "row": "doc6",
+      "character": "A",
+      "native_fitted_bounds": [
+        1558.119960860119,
+        761.0,
+        1581.2885375370563,
+        785.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-32",
+      "row": "doc6",
+      "character": "T",
+      "native_fitted_bounds": [
+        1587.2398101038,
+        760.0813466520527,
+        1610.95,
+        784.61697794069
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-33",
+      "row": "doc6",
+      "character": "W",
+      "native_fitted_bounds": [
+        1635.4045222104457,
+        760.3621706567769,
+        1674.8688488188732,
+        783.891699796952
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-34",
+      "row": "doc6",
+      "character": "A",
+      "native_fitted_bounds": [
+        1680.0,
+        761.2344681707486,
+        1704.7378233399563,
+        785.0669907317051
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-35",
+      "row": "doc6",
+      "character": "S",
+      "native_fitted_bounds": [
+        1710.0120184227324,
+        762.0916144983651,
+        1730.0,
+        784.9618188897441
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-36",
+      "row": "doc6",
+      "character": "H",
+      "native_fitted_bounds": [
+        1734.4326614994652,
+        760.0968893189483,
+        1761.300777670263,
+        785.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-37",
+      "row": "doc6",
+      "character": "I",
+      "native_fitted_bounds": [
+        1770.5003952708119,
+        760.137353779394,
+        1778.3914479563637,
+        784.3608513994227
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-38",
+      "row": "doc6",
+      "character": "N",
+      "native_fitted_bounds": [
+        1789.5620534025666,
+        760.2511561130655,
+        1814.8818181818183,
+        784.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-39",
+      "row": "doc6",
+      "character": "G",
+      "native_fitted_bounds": [
+        1820.9233907858563,
+        760.4003952708117,
+        1845.9045571176011,
+        784.8818359906844
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-40",
+      "row": "doc6",
+      "character": "T",
+      "native_fitted_bounds": [
+        1849.9981281133396,
+        761.0,
+        1874.3444444444444,
+        785.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-41",
+      "row": "doc6",
+      "character": "O",
+      "native_fitted_bounds": [
+        1877.5848111350863,
+        761.1843576419043,
+        1902.4400326923073,
+        785.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-42",
+      "row": "doc6",
+      "character": "N",
+      "native_fitted_bounds": [
+        1908.409281367866,
+        760.9997229916897,
+        1935.8054403676754,
+        785.0
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-43",
+      "row": "doc6",
+      "character": ".",
+      "native_fitted_bounds": [
+        1943.191896329019,
+        781.2087287832189,
+        1947.8374841555171,
+        785.8294686184706
+      ],
+      "threshold": 195
+    },
+    {
+      "id": "doc6-44",
+      "row": "doc6",
+      "character": "5",
+      "native_fitted_bounds": [
+        2072.5,
+        768.0980150089478,
+        2092.5478749654344,
+        784.8
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-45",
+      "row": "doc6",
+      "character": "6",
+      "native_fitted_bounds": [
+        2096.5675118500085,
+        760.0827886774065,
+        2116.924611797498,
+        784.5561686488254
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-46",
+      "row": "doc6",
+      "character": "7",
+      "native_fitted_bounds": [
+        2121.0033120744797,
+        760.2438008673893,
+        2140.47249021721,
+        785.044705030902
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "doc6-47",
+      "row": "doc6",
+      "character": "8",
+      "native_fitted_bounds": [
+        2145.174107480007,
+        761.4655949153151,
+        2165.0,
+        784.7543556094373
+      ],
+      "threshold": 190
+    },
+    {
+      "id": "card-city-11",
+      "row": "card-city",
+      "character": ",",
+      "native_fitted_bounds": [
+        2280.317867908303,
+        2318.1479740822547,
+        2284.8332382906306,
+        2327.53806679461
+      ],
+      "threshold": 215
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Historical ornaments from A specimen of printing types and ornaments from the Ba
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**396 icon(s) · Version 1.004 · MIT**
+**396 icon(s) · Version 1.006 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreOrnaments1832-Regular.otf) · [TTF](fonts/BaltimoreOrnaments1832-Regular.ttf) · [WOFF2](web/BaltimoreOrnaments1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -16,7 +16,7 @@ Historical ornaments from A specimen of printing types and ornaments from the Ba
 the extracted `collection` folder beside your HTML file. Keep its subfolders
 together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
-and the license. No JavaScript or font installation is needed for SVG use.
+and license notices. No JavaScript or font installation is needed for SVG use.
 
 ### Three-tone image — works from disk too
 
@@ -92,6 +92,8 @@ The example above uses U+E000 and is recommended from
 64 px. The 16–192 pt proofs show how detail holds up at different sizes.
 Keep the included LICENSE with redistributed assets.
 
+The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
+
 ## Evidence and editing
 
 **Foundry:** Baltimore Type Foundry; F. Lucas, Jr., agent
@@ -129,6 +131,10 @@ Keep the included LICENSE with redistributed assets.
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 167, Internet Archive leaf 166](https://archive.org/details/ldpd_12198261_000/page/n166/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 169, Internet Archive leaf 168](https://archive.org/details/ldpd_12198261_000/page/n168/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 187, Internet Archive leaf 186](https://archive.org/details/ldpd_12198261_000/page/n186/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
+- [Job room type faces, Government Printing Office (1904), parallel rule; printed page 16, Internet Archive leaf 32](https://archive.org/details/123459_1904/page/n32/mode/1up) — Historical United States Government Printing Office publication, 1904. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced. [Rights basis](https://archive.org/metadata/123459_1904).
+- [Specimens of job and display types, Government Printing Office (1897), parallel rule; printed page 80, Internet Archive leaf 167](https://archive.org/details/specimensofjobdi00unit/page/n167/mode/1up) — Historical United States Government Printing Office publication, 1897. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced. [Rights basis](https://archive.org/metadata/specimensofjobdi00unit).
+- [Specimens of type faces, brass rule, etc., Census Printing Division (1900), parallel rule; printed page 28, Internet Archive leaf 57](https://archive.org/details/specimensoftypef00unit_0/page/n57/mode/1up) — Historical United States Government Printing Office publication, 1900. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced. [Rights basis](https://archive.org/metadata/specimensoftypef00unit_0).
+- [Specimen book of the type faces in use in the Government Printing Office (1904), Document Division, rule No.17; printed page 66, Internet Archive leaf 137](https://archive.org/details/specimenbookofty00unit_0/page/n137/mode/1up) — Historical United States Government Printing Office publication, 1904. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced. [Rights basis](https://archive.org/metadata/specimenbookofty00unit_0).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and

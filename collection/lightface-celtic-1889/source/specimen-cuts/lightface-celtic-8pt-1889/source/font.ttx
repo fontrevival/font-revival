@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="4.64">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="A"/>
+    <GlyphID id="2" name="B"/>
+    <GlyphID id="3" name="C"/>
+    <GlyphID id="4" name="D"/>
+    <GlyphID id="5" name="E"/>
+    <GlyphID id="6" name="F"/>
+    <GlyphID id="7" name="G"/>
+    <GlyphID id="8" name="H"/>
+    <GlyphID id="9" name="I"/>
+    <GlyphID id="10" name="J"/>
+    <GlyphID id="11" name="K"/>
+    <GlyphID id="12" name="L"/>
+    <GlyphID id="13" name="M"/>
+    <GlyphID id="14" name="N"/>
+    <GlyphID id="15" name="O"/>
+    <GlyphID id="16" name="P"/>
+    <GlyphID id="17" name="Q"/>
+    <GlyphID id="18" name="R"/>
+    <GlyphID id="19" name="S"/>
+    <GlyphID id="20" name="T"/>
+    <GlyphID id="21" name="U"/>
+    <GlyphID id="22" name="V"/>
+    <GlyphID id="23" name="W"/>
+    <GlyphID id="24" name="X"/>
+    <GlyphID id="25" name="Y"/>
+    <GlyphID id="26" name="Z"/>
+    <GlyphID id="27" name="a"/>
+    <GlyphID id="28" name="b"/>
+    <GlyphID id="29" name="c"/>
+    <GlyphID id="30" name="d"/>
+    <GlyphID id="31" name="e"/>
+    <GlyphID id="32" name="f"/>
+    <GlyphID id="33" name="g"/>
+    <GlyphID id="34" name="h"/>
+    <GlyphID id="35" name="i"/>
+    <GlyphID id="36" name="j"/>
+    <GlyphID id="37" name="k"/>
+    <GlyphID id="38" name="l"/>
+    <GlyphID id="39" name="m"/>
+    <GlyphID id="40" name="n"/>
+    <GlyphID id="41" name="o"/>
+    <GlyphID id="42" name="p"/>
+    <GlyphID id="43" name="q"/>
+    <GlyphID id="44" name="r"/>
+    <GlyphID id="45" name="s"/>
+    <GlyphID id="46" name="t"/>
+    <GlyphID id="47" name="u"/>
+    <GlyphID id="48" name="v"/>
+    <GlyphID id="49" name="w"/>
+    <GlyphID id="50" name="x"/>
+    <GlyphID id="51" name="y"/>
+    <GlyphID id="52" name="z"/>
+    <GlyphID id="53" name="zero"/>
+    <GlyphID id="54" name="one"/>
+    <GlyphID id="55" name="two"/>
+    <GlyphID id="56" name="three"/>
+    <GlyphID id="57" name="four"/>
+    <GlyphID id="58" name="five"/>
+    <GlyphID id="59" name="six"/>
+    <GlyphID id="60" name="seven"/>
+    <GlyphID id="61" name="eight"/>
+    <GlyphID id="62" name="nine"/>
+    <GlyphID id="63" name="period"/>
+    <GlyphID id="64" name="comma"/>
+    <GlyphID id="65" name="semicolon"/>
+    <GlyphID id="66" name="hyphen"/>
+    <GlyphID id="67" name="emdash"/>
+    <GlyphID id="68" name="quoteright"/>
+    <GlyphID id="69" name="space"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0x2a21d87a"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00000011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Thu Jan  1 00:00:00 2026"/>
+    <modified value="Thu Jan  1 00:00:00 2026"/>
+    <xMin value="34"/>
+    <yMin value="-220"/>
+    <xMax value="1422"/>
+    <yMax value="750"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="3"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="920"/>
+    <descent value="-320"/>
+    <lineGap value="100"/>
+    <advanceWidthMax value="1456"/>
+    <minLeftSideBearing value="35"/>
+    <minRightSideBearing value="33"/>
+    <xMaxExtent value="1422"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="70"/>
+  </hhea>
+
+  <maxp>
+    <tableVersion value="0x5000"/>
+    <numGlyphs value="70"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="3"/>
+    <xAvgCharWidth value="724"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="0"/>
+    <ySubscriptYSize value="0"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="0"/>
+    <ySuperscriptXSize value="0"/>
+    <ySuperscriptYSize value="0"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="0"/>
+    <yStrikeoutSize value="0"/>
+    <yStrikeoutPosition value="0"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="10000000 00000000 00000000 00000001"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="????"/>
+    <fsSelection value="00000000 00000000"/>
+    <usFirstCharIndex value="32"/>
+    <usLastCharIndex value="8217"/>
+    <sTypoAscender value="920"/>
+    <sTypoDescender value="-320"/>
+    <sTypoLineGap value="100"/>
+    <usWinAscent value="950"/>
+    <usWinDescent value="350"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="510"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <name>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      Copyright (c) 2026 Harold Lehmann. Historical design: Unidentified in the consulted historical specimens.
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Lightface Celtic Eight-Point 1889
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      LightfaceCelticEightPoint1889-Regular;1.000
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Lightface Celtic Eight-Point 1889 Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      LightfaceCelticEightPoint1889-Regular
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Harold Lehmann
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Unidentified in the consulted historical specimens
+    </namerecord>
+    <namerecord nameID="10" platformID="3" platEncID="1" langID="0x409">
+      The intermediate eight-point Light-face Celtic cut, with broader lowercase than the twelve-point design, single-storey a and g, and curling figures.
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      https://github.com/haroldus-/font-revival
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      Font Revival font licensing
+
+Copyright (c) 2026 Harold Lehmann
+SPDX-License-Identifier: MIT OR OFL-1.1
+
+The Font Software is available under your choice of the MIT License (LICENSE)
+or the SIL Open Font License, Version 1.1 (OFL.txt). You may choose either
+license; you do not have to comply with both. No Reserved Font Names are
+declared. Keep the notices required by the license you choose when
+redistributing the Font Software.
+
+Within each collection/&lt;family&gt;/ directory, or its corresponding directory
+in a release archive, this choice covers the following original project work:
+
+- Desktop fonts in fonts/ (.otf and .ttf).
+- Webfonts in web/ (.woff and .woff2).
+- Editable font source data under source/ (.ttx, .json and .svg), including
+  masters, glyph outlines, tracing data and reviewed font approximations.
+
+It also covers the generated browsing fonts in site/icon-fonts/ (.woff2).
+The license field in font.json describes this Font Software, rather than
+every file in a family directory.
+
+Other original project work, including standalone SVG/PNG artwork outside
+source/, CSS, scripts, documentation and specimen layouts, uses the MIT
+License. Historical reference material retains its recorded rights status;
+no ownership of underlying public-domain designs is claimed. These grants
+apply only to rights held by the project copyright holder.
+
+The separately developed Font Revival editor is proprietary and is covered
+by its own notices. These licenses do not license the editor.
+
+License texts accompany this notice in LICENSE and OFL.txt.
+https://font-revival.com/FONT-LICENSES.txt
+
+MIT License
+
+Copyright (c) 2026 Harold Lehmann
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright (c) 2026 Harold Lehmann
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://openfontlicense.org
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION &amp; CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      https://font-revival.com/FONT-LICENSES.txt
+    </namerecord>
+    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+      Lightface Celtic Eight-Point 1889
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+  </name>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
+      <map code="0x2e" name="period"/><!-- FULL STOP -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
+      <map code="0x3b" name="semicolon"/><!-- SEMICOLON -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x61" name="a"/><!-- LATIN SMALL LETTER A -->
+      <map code="0x62" name="b"/><!-- LATIN SMALL LETTER B -->
+      <map code="0x63" name="c"/><!-- LATIN SMALL LETTER C -->
+      <map code="0x64" name="d"/><!-- LATIN SMALL LETTER D -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x66" name="f"/><!-- LATIN SMALL LETTER F -->
+      <map code="0x67" name="g"/><!-- LATIN SMALL LETTER G -->
+      <map code="0x68" name="h"/><!-- LATIN SMALL LETTER H -->
+      <map code="0x69" name="i"/><!-- LATIN SMALL LETTER I -->
+      <map code="0x6a" name="j"/><!-- LATIN SMALL LETTER J -->
+      <map code="0x6b" name="k"/><!-- LATIN SMALL LETTER K -->
+      <map code="0x6c" name="l"/><!-- LATIN SMALL LETTER L -->
+      <map code="0x6d" name="m"/><!-- LATIN SMALL LETTER M -->
+      <map code="0x6e" name="n"/><!-- LATIN SMALL LETTER N -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0x70" name="p"/><!-- LATIN SMALL LETTER P -->
+      <map code="0x71" name="q"/><!-- LATIN SMALL LETTER Q -->
+      <map code="0x72" name="r"/><!-- LATIN SMALL LETTER R -->
+      <map code="0x73" name="s"/><!-- LATIN SMALL LETTER S -->
+      <map code="0x74" name="t"/><!-- LATIN SMALL LETTER T -->
+      <map code="0x75" name="u"/><!-- LATIN SMALL LETTER U -->
+      <map code="0x76" name="v"/><!-- LATIN SMALL LETTER V -->
+      <map code="0x77" name="w"/><!-- LATIN SMALL LETTER W -->
+      <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
+      <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
+      <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+      <map code="0x2014" name="emdash"/><!-- EM DASH -->
+      <map code="0x2019" name="quoteright"/><!-- RIGHT SINGLE QUOTATION MARK -->
+    </cmap_format_4>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
+      <map code="0x2e" name="period"/><!-- FULL STOP -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
+      <map code="0x3b" name="semicolon"/><!-- SEMICOLON -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x61" name="a"/><!-- LATIN SMALL LETTER A -->
+      <map code="0x62" name="b"/><!-- LATIN SMALL LETTER B -->
+      <map code="0x63" name="c"/><!-- LATIN SMALL LETTER C -->
+      <map code="0x64" name="d"/><!-- LATIN SMALL LETTER D -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x66" name="f"/><!-- LATIN SMALL LETTER F -->
+      <map code="0x67" name="g"/><!-- LATIN SMALL LETTER G -->
+      <map code="0x68" name="h"/><!-- LATIN SMALL LETTER H -->
+      <map code="0x69" name="i"/><!-- LATIN SMALL LETTER I -->
+      <map code="0x6a" name="j"/><!-- LATIN SMALL LETTER J -->
+      <map code="0x6b" name="k"/><!-- LATIN SMALL LETTER K -->
+      <map code="0x6c" name="l"/><!-- LATIN SMALL LETTER L -->
+      <map code="0x6d" name="m"/><!-- LATIN SMALL LETTER M -->
+      <map code="0x6e" name="n"/><!-- LATIN SMALL LETTER N -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0x70" name="p"/><!-- LATIN SMALL LETTER P -->
+      <map code="0x71" name="q"/><!-- LATIN SMALL LETTER Q -->
+      <map code="0x72" name="r"/><!-- LATIN SMALL LETTER R -->
+      <map code="0x73" name="s"/><!-- LATIN SMALL LETTER S -->
+      <map code="0x74" name="t"/><!-- LATIN SMALL LETTER T -->
+      <map code="0x75" name="u"/><!-- LATIN SMALL LETTER U -->
+      <map code="0x76" name="v"/><!-- LATIN SMALL LETTER V -->
+      <map code="0x77" name="w"/><!-- LATIN SMALL LETTER W -->
+      <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
+      <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
+      <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+      <map code="0x2014" name="emdash"/><!-- EM DASH -->
+      <map code="0x2019" name="quoteright"/><!-- RIGHT SINGLE QUOTATION MARK -->
+    </cmap_format_4>
+  </cmap>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="0"/>
+    <underlineThickness value="0"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <CFF>
+    <major value="1"/>
+    <minor value="0"/>
+    <CFFFont name="LightfaceCelticEightPoint1889-Regular">
+      <version value="1.000"/>
+      <Notice value="Copyright (c) 2026 Harold Lehmann. Historical design: Unidentified in the consulted historical specimens."/>
+      <Copyright value="Copyright (c) 2026 Harold Lehmann"/>
+      <FullName value="Lightface Celtic Eight-Point 1889 Regular"/>
+      <FamilyName value="Lightface Celtic Eight-Point 1889"/>
+      <Weight value="Regular"/>
+      <isFixedPitch value="0"/>
+      <ItalicAngle value="0"/>
+      <UnderlinePosition value="-100"/>
+      <UnderlineThickness value="50"/>
+      <PaintType value="0"/>
+      <CharstringType value="2"/>
+      <FontMatrix value="0.001 0 0 0.001 0 0"/>
+      <FontBBox value="34 -220 1422 750"/>
+      <StrokeWidth value="0"/>
+      <!-- charset is dumped separately as the 'GlyphOrder' element -->
+      <Encoding name="StandardEncoding"/>
+      <Private>
+        <BlueScale value="0.039625"/>
+        <BlueShift value="7"/>
+        <BlueFuzz value="1"/>
+        <ForceBold value="0"/>
+        <LanguageGroup value="0"/>
+        <ExpansionFactor value="0.06"/>
+        <initialRandomSeed value="0"/>
+        <defaultWidthX value="0"/>
+        <nominalWidthX value="0"/>
+      </Private>
+      <CharStrings>
+        <CharString name=".notdef">
+          600 60 hmoveto
+          480 700 -480 -700 hlineto
+          40 40 rmoveto
+          620 400 -620 -400 vlineto
+          endchar
+        </CharString>
+        <CharString name="A">
+          937 409.46875 696.89062 rmoveto
+          -14.92188 -20.0625 -54.53125 -118.20312 -159.59375 -365.625 rrcurveto
+          -44.60938 -98.17188 -28.84375 -42.10938 -39.92188 -20.15625 rrcurveto
+          -53.89062 -27.21875 2 -1.98438 153 2.59375 rrcurveto
+          148 0.5625 6 0.03125 -48.10938 26.8125 rrcurveto
+          -60.125 30.76562 -8.23438 62.96875 49.76562 58.1875 rrcurveto
+          26.85938 37.10938 18.98438 4.07812 139.03125 -5.46875 rrcurveto
+          153.01562 -4.40625 3 -1.98438 33.21875 -54.875 rrcurveto
+          41.26562 -69.84375 -8.85938 -35.03125 -67.90625 -25.26562 rrcurveto
+          -40.9375 -17.15625 22.01562 -3.90625 149.01562 -0.42188 rrcurveto
+          97 -1.625 80.98438 5.3125 -0.04688 9 rrcurveto
+          -0.03125 8 -27.0625 17.89062 -32.0625 14.875 rrcurveto
+          -40.07812 19.84375 -35.15625 41.875 -44.32812 84.82812 rrcurveto
+          -123.92188 236.51562 -146 258.4375 -13.03125 8.95312 rrcurveto
+          -7.01562 4.96875 -14.98438 -7.0625 -8.95312 -13.03125 rrcurveto
+          87.04688 -269.67188 rmoveto
+          31.25 -60.875 24.20312 -55.90625 0.04688 -11 rrcurveto
+          0.04688 -12 -48.96875 -7.1875 -70 -0.26562 rrcurveto
+          -105 -0.40625 -14.01562 3.9375 -0.125 31 rrcurveto
+          -0.20312 55 89.26562 189.34375 20.04688 -12.92188 rrcurveto
+          11.03125 -6.95312 33.20312 -52.875 29.21875 -58.89062 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="B">
+          861 46.95312 683.46875 rmoveto
+          -15.95312 -11.0625 0.01562 -4 16 0.0625 rrcurveto
+          11 0.04688 24.04688 -12.90625 15.0625 -15.95312 rrcurveto
+          24.09375 -23.90625 5.20312 -52.96875 0.875 -224 rrcurveto
+          1.01562 -261 -0.95312 -15 -38.89062 -26.15625 rrcurveto
+          -39.89062 -29.15625 0 0 71 -1.71875 rrcurveto
+          255.01562 -3.01562 277.98438 7.07812 32.95312 11.125 rrcurveto
+          78.90625 24.3125 61.70312 77.23438 -0.29688 75 rrcurveto
+          -0.23438 63 -9.0625 13.96875 -73.20312 51.71875 rrcurveto
+          -83.21875 58.67188 rlineto
+          69.84375 38.26562 rlineto
+          96.79688 53.375 5.70312 78.03125 -89.29688 76.65625 rrcurveto
+          -51.17188 43.79688 -35.0625 12.85938 -94.03125 8.64062 rrcurveto
+          -143.04688 13.4375 -342.96875 -8.32812 -29.9375 -18.10938 rrcurveto
+          612.3125 -76.625 rmoveto
+          51.17188 -45.79688 -2.67188 -85.01562 -54.85938 -34.21875 rrcurveto
+          -47.89062 -32.1875 -321.92188 -17.25 -40.10938 24.84375 rrcurveto
+          -29.0625 18.89062 -2.40625 103 25.73438 68.09375 rrcurveto
+          19.8125 49.07812 rlineto
+          182.03125 -8.29688 rlineto
+          143.03125 -6.4375 49.03125 -8.8125 28.10938 -25.89062 rrcurveto
+          -131 -259.51562 rmoveto
+          128.0625 -16.5 68.23438 -59.73438 -15.67188 -83.0625 rrcurveto
+          -5.875 -33.03125 -21.85938 -39.07812 -19.9375 -16.07812 rrcurveto
+          -43.84375 -39.17188 -161.92188 -20.625 -123.0625 16.51562 rrcurveto
+          -93.04688 12.64062 rlineto
+          -1.125 288 rlineto
+          97 0.375 rlineto
+          51 0.20312 88.03125 -5.65625 54.01562 -4.79688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="C">
+          804 330.32812 710.32812 rmoveto
+          -232.79688 -52.89062 -136.8125 -303.54688 116.78125 -204.54688 rrcurveto
+          24.17188 -42.90625 53.20312 -52.78125 53.125 -32.79688 rrcurveto
+          79.1875 -47.70312 29.03125 -6.89062 114 0.45312 rrcurveto
+          114 0.4375 27.96875 7.10938 67.82812 44.26562 rrcurveto
+          45.89062 30.17188 43.79688 49.17188 13.875 35.0625 rrcurveto
+          53.5 129.20312 -39.15625 37.84375 -61.53125 -121.23438 rrcurveto
+          -66.5 -128.26562 -127.79688 -52.48438 -156.15625 40.39062 rrcurveto
+          -134.14062 34.48438 -52.29688 77.79688 -0.67188 173 rrcurveto
+          -0.54688 143 36.625 96.14062 74.8125 49.28125 rrcurveto
+          108.70312 74.42188 183.10938 -28.28125 107.42188 -106.59375 rrcurveto
+          35.125 -32.85938 31.10938 -27.875 6 0.01562 rrcurveto
+          5 0.01562 3.8125 48.01562 -0.21875 57 rrcurveto
+          -0.375 97 -2.03125 6 -27.89062 -28.10938 rrcurveto
+          -28.89062 -27.10938 -7 -0.03125 -79.10938 28.6875 rrcurveto
+          -109.17188 41.57812 -88.04688 12.65625 -76.9375 -16.29688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="D">
+          919 57.04688 678.07812 rmoveto
+          -31.95312 -11.125 2.01562 -3.98438 41.0625 -17.84375 rrcurveto
+          58.10938 -27.78125 13.29688 -76.9375 -5.89062 -285.03125 rrcurveto
+          -5.1875 -209.01562 rlineto
+          -63.90625 -24.25 rlineto
+          -56.92188 -20.21875 31.01562 -3.89062 277.98438 1.07812 rrcurveto
+          181.01562 -1.29688 156.95312 10.60938 28.96875 11.10938 rrcurveto
+          27.95312 9.10938 50.875 35.20312 32.85938 33.125 rrcurveto
+          184.3125 178.71875 -120.3125 340.53125 -266.23438 59.96875 rrcurveto
+          -92.09375 21.64062 -395 0.46875 -48.92188 -20.1875 rrcurveto
+          598.32812 -85.67188 rmoveto
+          74.17188 -42.71875 29.3125 -79.89062 0.60938 -158 rrcurveto
+          2.78125 -200.98438 -67.78125 -57.26562 -252 -0.96875 rrcurveto
+          -84 -0.32812 -83.01562 5.67188 -16.03125 5.9375 rrcurveto
+          -26.03125 8.90625 -4.15625 41.98438 -0.89062 229 rrcurveto
+          -0.57812 149 5.5 129.01562 8.96875 7.03125 rrcurveto
+          25.89062 28.10938 325.125 -30.75 62.125 -33.75 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="E">
+          854 67.65625 682.45312 rmoveto
+          -15.95312 -10.04688 7.03125 -10.98438 33.0625 -13.875 rrcurveto
+          50.09375 -23.79688 -0.01562 3 -1.39062 -158.01562 rrcurveto
+          0.23438 -60 0.45312 -117.98438 -1.6875 -80.01562 rrcurveto
+          0.57812 -149 0.01562 -2 -54.92188 -22.20312 rrcurveto
+          -30.9375 -13.125 -21.95312 -13.09375 3 -2.98438 rrcurveto
+          4.01562 -3.98438 176.03125 -5.3125 212 -0.1875 rrcurveto
+          383.01562 -4.51562 rlineto
+          5.76562 61.03125 rlineto
+          3.875 33.01562 -0.1875 49 -4.10938 27.98438 rrcurveto
+          -6.1875 48.96875 rlineto
+          -32.78125 -58.125 rlineto
+          -37.70312 -74.14062 -32.96875 -9.125 -206 -0.8125 rrcurveto
+          -281 -1.07812 29.0625 -14.89062 5.4375 144.01562 rrcurveto
+          4.51562 123.03125 rlineto
+          117.98438 5.45312 rlineto
+          105.98438 6.40625 15.01562 -3.9375 48.17188 -45.8125 rrcurveto
+          53.20312 -50.79688 rlineto
+          -0.4375 113 rlineto
+          -0.46875 120 -7.03125 8.96875 -56.84375 -40.21875 rrcurveto
+          -39.89062 -28.15625 -154.92188 -20.59375 -55.0625 12.78125 rrcurveto
+          -31.03125 8.875 -6.0625 14.98438 5.65625 90.01562 rrcurveto
+          4.60938 102.01562 rlineto
+          174.96875 6.6875 rlineto
+          238.96875 7.92188 46.04688 -10.8125 27.25 -65.90625 rrcurveto
+          33.32812 -80.85938 21.9375 13.07812 -0.39062 103 rrcurveto
+          -0.28125 72 -7.09375 21.96875 -24.01562 6.90625 rrcurveto
+          -51.0625 14.8125 -624.96875 -8.4375 -23.95312 -14.09375 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="F">
+          829 48.92188 656.34375 rmoveto
+          61.125 -32.76562 11.20312 -50.95312 1.04688 -269 rrcurveto
+          0.82812 -216 -14.75 -63.0625 -54.98438 -3.20312 rrcurveto
+          -17 -2.07812 48.03125 -7.8125 75.03125 -6.70312 rrcurveto
+          162.0625 -15.375 61.92188 18.23438 -102.125 34.60938 rrcurveto
+          -68.09375 21.73438 rlineto
+          4.53125 121.01562 rlineto
+          5.53125 123.03125 rlineto
+          98.96875 6.375 rlineto
+          133.96875 7.53125 40.04688 -10.84375 30.21875 -56.89062 rrcurveto
+          40.29688 -74.84375 14.90625 22.0625 -0.51562 136 rrcurveto
+          -0.28125 71 -4.21875 56.98438 -5 -0.03125 rrcurveto
+          -4 -0.01562 -25.92188 -20.09375 -25.90625 -26.10938 rrcurveto
+          -41.82812 -42.15625 -13.98438 -5.04688 -114.01562 4.54688 rrcurveto
+          -123.03125 5.53125 rlineto
+          -6.4375 114.96875 rlineto
+          -5.45312 113.98438 rlineto
+          105.98438 4.40625 rlineto
+          332.96875 12.29688 112.07812 -21.5625 3.32812 -83 rrcurveto
+          0.0625 -18 7.96875 7.03125 10.90625 26.04688 rrcurveto
+          8.89062 26.03125 2.84375 42.01562 -5.10938 28.98438 rrcurveto
+          -13.20312 51.95312 rlineto
+          -387 -1.5 rlineto
+          -346.98438 -3.35938 -37 -2.14062 42.09375 -23.82812 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="G">
+          882 295.25 684.85938 rmoveto
+          -162.76562 -59.64062 -113.3125 -176.4375 17.64062 -166.9375 rrcurveto
+          12.46875 -121.95312 48.29688 -76.8125 107.26562 -65.57812 rrcurveto
+          114.26562 -69.5625 141.01562 -4.45312 124.76562 62.48438 rrcurveto
+          98.8125 48.39062 14.98438 2.04688 33.15625 -39.85938 rrcurveto
+          22.10938 -25.92188 4.9375 15.01562 7.51562 126.03125 rrcurveto
+          6.5 127.03125 6.92188 20.03125 36.92188 19.14062 rrcurveto
+          36.9375 18.14062 1.98438 4.01562 -26.04688 10.89062 rrcurveto
+          -44.0625 15.82812 -172.98438 -4.67188 -28.92188 -18.10938 rrcurveto
+          -18.95312 -13.07812 10.03125 -6.95312 42.03125 -8.84375 rrcurveto
+          49.04688 -10.8125 8.03125 -8.96875 0.1875 -50 rrcurveto
+          -1.375 -158 -225.60938 -101.875 -165.3125 80.35938 rrcurveto
+          -70.125 32.73438 -16.07812 17.9375 -26.29688 76.89062 rrcurveto
+          -46.54688 141.82812 32.1875 209.125 80.75 66.3125 rrcurveto
+          12.95312 11.04688 45.92188 19.17188 43.95312 12.17188 rrcurveto
+          98.90625 26.39062 145.14062 -36.4375 75.26562 -70.70312 rrcurveto
+          28.10938 -25.89062 27.07812 -19.90625 6 0.03125 rrcurveto
+          5 0.01562 3.82812 42.01562 -0.20312 53 rrcurveto
+          -0.34375 89 -2.01562 4.98438 -26.90625 -27.09375 rrcurveto
+          -27.89062 -28.10938 -11 -0.04688 -94.125 32.64062 rrcurveto
+          -112.14062 38.5625 -75.01562 2.70312 -82.89062 -29.3125 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="H">
+          1023 42.20312 691.32812 rmoveto
+          -4.96875 -9.01562 4.03125 -8.98438 9 0.03125 rrcurveto
+          11 0.04688 25.07812 -16.90625 21.07812 -19.92188 rrcurveto
+          31.10938 -30.875 5.125 -29.98438 0.64062 -167 rrcurveto
+          1.09375 -281 -13.70312 -77.04688 -51.95312 -13.20312 rrcurveto
+          -92.90625 -24.35938 57.07812 -19.78125 158 0.60938 rrcurveto
+          91 0.35938 73.98438 4.28125 -0.01562 5 rrcurveto
+          -0.03125 6 -30.04688 14.89062 -34.0625 15.85938 rrcurveto
+          -67.10938 25.75 rlineto
+          5.51562 125.01562 rlineto
+          4.51562 125.01562 rlineto
+          253.98438 5.98438 rlineto
+          287.96875 7.125 -7.01562 2.96875 -19.375 -161.07812 rrcurveto
+          -10.64062 -90.04688 -7.95312 -15.03125 -50.89062 -27.1875 rrcurveto
+          -58.85938 -34.23438 rlineto
+          165.03125 -10.35938 rlineto
+          158.04688 -11.39062 80.9375 16.3125 -81.09375 25.6875 rrcurveto
+          -84.10938 25.67188 -9.10938 28.96875 -0.84375 218 rrcurveto
+          -1.04688 270 10.8125 50.04688 65.84375 40.25 rrcurveto
+          28.92188 19.10938 18.9375 16.07812 -10.01562 3.95312 rrcurveto
+          -7.01562 3.98438 -81 -0.32812 -91.96875 -6.34375 rrcurveto
+          -157.96875 -9.625 -5 -2.01562 55.09375 -21.78125 rrcurveto
+          53.07812 -21.79688 8.04688 -12.96875 11.35938 -91.95312 rrcurveto
+          7.21875 -56.96875 -1.79688 -51.01562 -8.96875 -9.03125 rrcurveto
+          -8.95312 -9.03125 -119.98438 -6.46875 -135 1.46875 rrcurveto
+          -247.01562 4.04688 rlineto
+          -5.45312 115.98438 rlineto
+          -6.45312 113.96875 0 2 58.90625 24.23438 rrcurveto
+          56.90625 24.21875 rlineto
+          -70.04688 10.73438 rlineto
+          -106.0625 17.57812 -117.98438 -4.45312 -12.92188 -20.04688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="I">
+          348 35 687.28125 rmoveto
+          0.03125 -6 20.04688 -12.92188 26.03125 -8.89062 rrcurveto
+          46.0625 -17.82812 rlineto
+          2.28125 -586 rlineto
+          -51.89062 -28.20312 rlineto
+          -46.89062 -27.17188 3 0.01562 138 -1.46875 rrcurveto
+          83 0.3125 57.96875 7.23438 -0.04688 11 rrcurveto
+          -0.03125 11 -5.03125 7.98438 -7 -0.03125 rrcurveto
+          -61.01562 1.76562 -7.14062 35.96875 -7.04688 271.96875 rrcurveto
+          -6 256.98438 0.92188 22 34.85938 35.14062 rrcurveto
+          36.85938 37.14062 rlineto
+          -128 -0.5 rlineto
+          -70 -0.26562 -58.98438 -4.23438 0.01562 -5 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="J">
+          504 202.67188 670.73438 rmoveto
+          83.23438 -58.6875 0 0 0.95312 -246 rrcurveto
+          0.5 -132 -9.51562 -123.03125 -8.92188 -20.03125 rrcurveto
+          -23.82812 -44.09375 -112.98438 -6.4375 -17.17188 43.92188 rrcurveto
+          -20.20312 51.92188 8.90625 27.04688 38.95312 11.14062 rrcurveto
+          54.92188 19.21875 -43.125 34.82812 -57.95312 -15.21875 rrcurveto
+          -89.90625 -22.34375 11.46875 -120.96875 95.23438 -62.625 rrcurveto
+          59.15625 -37.76562 104.92188 18.40625 57.78125 59.21875 rrcurveto
+          42.82812 42.17188 0.95312 11 -1.03125 268 rrcurveto
+          -1.0625 276 rlineto
+          45.92188 18.17188 rlineto
+          25.96875 9.10938 19.95312 11.07812 0 2 rrcurveto
+          -0.01562 4 -68.01562 2.73438 -84.01562 1.67188 rrcurveto
+          -136.01562 3.46875 -10.98438 -2.04688 33.09375 -23.85938 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="K">
+          1025 93.45312 659.04688 rmoveto
+          38.15625 -40.85938 2.07812 -19.98438 0.96875 -250 rrcurveto
+          1.04688 -268 rlineto
+          -49.85938 -38.1875 rlineto
+          -50.84375 -37.20312 rlineto
+          145 -1.4375 rlineto
+          145 0.5625 rlineto
+          -49.1875 45.8125 rlineto
+          -78.26562 71.6875 12.6875 78.04688 100.70312 76.39062 rrcurveto
+          43.89062 31.17188 51.89062 28.20312 18 0.07812 rrcurveto
+          30 0.10938 249.90625 -236.03125 0.10938 -28 rrcurveto
+          0.03125 -5 -26.9375 -17.10938 -30.9375 -15.10938 rrcurveto
+          -56.92188 -22.21875 11 -0.96875 187.01562 -1.26562 rrcurveto
+          202 0.78125 rlineto
+          -92.17188 41.64062 rlineto
+          -62.10938 28.76562 -74.25 62.70312 -93.39062 102.64062 rrcurveto
+          -76.3125 81.70312 -62.29688 76.76562 -0.04688 10 rrcurveto
+          -0.09375 23 249.20312 208.96875 28.98438 2.10938 rrcurveto
+          11 0.04688 16.96875 9.0625 4.96875 9.01562 rrcurveto
+          6.95312 11.03125 -36.03125 6.85938 -68 -0.26562 rrcurveto
+          -99 -0.39062 -10.98438 -3.03125 9.10938 -29.96875 rrcurveto
+          9.14062 -35.96875 -152.4375 -144.59375 -155.59375 -104.59375 rrcurveto
+          -113.70312 -77.45312 -5.01562 4.98438 12.28125 184.04688 rrcurveto
+          4.65625 88.01562 10.71875 73.04688 9.98438 4.04688 rrcurveto
+          7 2.01562 21.9375 15.09375 17.95312 14.0625 rrcurveto
+          31.90625 24.125 -11.01562 1.95312 -131 1.5 rrcurveto
+          -145 -0.5625 rlineto
+          39.15625 -41.84375 rlineto
+          endchar
+        </CharString>
+        <CharString name="L">
+          842 42.35938 668.78125 rmoveto
+          5.03125 -9.98438 19.04688 -8.92188 13 0.04688 rrcurveto
+          49 0.1875 15.28125 -72.9375 0.98438 -257 rrcurveto
+          1.01562 -259 rlineto
+          -58.90625 -26.23438 rlineto
+          -32.9375 -15.125 -23.95312 -11.09375 6 -0.96875 rrcurveto
+          5 0.01562 171.01562 -3.34375 204 -1.20312 rrcurveto
+          409.03125 -5.40625 -17.98438 -4.07812 -0.48438 123 rrcurveto
+          -0.42188 110 -26.07812 18.89062 -39.67188 -83.14062 rrcurveto
+          -34.73438 -70.14062 rlineto
+          -183.9375 -15.71875 rlineto
+          -281.92188 -21.09375 16.0625 -15.9375 -3.07812 277 rrcurveto
+          -4.15625 298.98438 0 2 45.84375 39.17188 rrcurveto
+          35.89062 29.14062 -5.01562 1.98438 -143 -0.5625 rrcurveto
+          -96 -0.35938 -50.96875 -7.20312 7.04688 -10.96875 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="M">
+          1126 58.4375 682.71875 rmoveto
+          13.0625 -15.95312 22.04688 -12.90625 14 0.04688 rrcurveto
+          48 0.1875 15.28125 -73.9375 0.96875 -247 rrcurveto
+          0.96875 -250 rlineto
+          -67.89062 -31.26562 rlineto
+          -69.875 -32.26562 rlineto
+          136.01562 -4.46875 rlineto
+          178.03125 -7.3125 32.95312 13.125 -75.17188 45.70312 rrcurveto
+          -57.125 32.78125 -0.01562 4 -13.73438 186.95312 rrcurveto
+          -15.82812 214.9375 5.59375 103.03125 27.01562 -1.90625 rrcurveto
+          21 0.09375 186.42188 -368.28125 61.625 -159.76562 rrcurveto
+          16.17188 -45.9375 8.01562 -2.96875 19.92188 22.07812 rrcurveto
+          12.9375 14.04688 35.6875 79.14062 32.67188 85.125 rrcurveto
+          65.34375 172.25 93.25 193.375 25.9375 15.09375 rrcurveto
+          19.95312 13.07812 7.5625 -403.96875 -18.64062 -92.07812 rrcurveto
+          -8.84375 -42.03125 -16.92188 -20.0625 -41.95312 -13.17188 rrcurveto
+          -30.95312 -11.125 -19.95312 -13.07812 4.01562 -3.98438 rrcurveto
+          16.0625 -12.9375 349.04688 -14.64062 -0.04688 13 rrcurveto
+          -0.03125 9 -28.0625 17.89062 -33.0625 14.875 rrcurveto
+          -73.14062 34.71875 -9.125 34.95312 -2.96875 246 rrcurveto
+          -2.85938 223.98438 16.75 66.0625 59.98438 2.23438 rrcurveto
+          42 0.17188 0 0 -46.0625 17.8125 rrcurveto
+          -23.04688 8.92188 -63.03125 7.75 -48.98438 -4.1875 rrcurveto
+          -89.96875 -6.34375 -4 -1.01562 -45.64062 -90.1875 rrcurveto
+          -25.8125 -52.09375 -43.64062 -92.17188 -26.75 -64.10938 rrcurveto
+          -27.75 -62.10938 -30.8125 -52.10938 -9 -0.04688 rrcurveto
+          -11 -0.03125 -52.34375 89.79688 -57.42188 109.76562 rrcurveto
+          -55.4375 110.79688 -55.375 96.78125 -11.01562 6.95312 rrcurveto
+          -13.03125 7.95312 -71.04688 8.73438 -77.01562 4.6875 rrcurveto
+          -129.03125 9.5 -9 -2.03125 24.125 -29.90625 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="N">
+          915 35 676.95312 rmoveto
+          0.03125 -9 8.03125 -8.96875 9 0.04688 rrcurveto
+          9 0.03125 22.04688 -12.92188 15.0625 -16.9375 rrcurveto
+          24.09375 -23.90625 5.21875 -52.98438 0.8125 -213 rrcurveto
+          1.07812 -275 -6.90625 -24.01562 -84.89062 -28.32812 rrcurveto
+          -13.98438 -5.0625 55.01562 -3.78125 83.98438 2.32812 rrcurveto
+          83 0.3125 67.96875 7.26562 -0.03125 8 rrcurveto
+          -0.03125 9 -11.01562 4.95312 -13 -0.04688 rrcurveto
+          -15 -0.0625 -24.0625 14.90625 -16.0625 17.9375 rrcurveto
+          -26.10938 27.90625 -5.1875 47.98438 -0.73438 191 rrcurveto
+          -0.5 128 6.59375 105.01562 7 0.03125 rrcurveto
+          24 0.09375 50.1875 -47.8125 163.70312 -181.35938 rrcurveto
+          83.35938 -91.67188 108.45312 -118.59375 52.21875 -54.79688 rrcurveto
+          93.39062 -100.64062 rlineto
+          -1.23438 316 rlineto
+          -1.01562 261 5.78125 58.03125 23.90625 24.09375 rrcurveto
+          13.9375 17.04688 21.95312 13.09375 10 0.03125 rrcurveto
+          9 0.03125 6.95312 9.03125 -0.03125 9 rrcurveto
+          -0.04688 11 -55.01562 6.78125 -73 -0.28125 rrcurveto
+          -134 -0.51562 -25.9375 -16.09375 75.125 -34.71875 rrcurveto
+          42.07812 -17.82812 2.04688 -11 8.6875 -179.96875 rrcurveto
+          3.40625 -104.98438 -1.64062 -92.01562 -4.96875 -7.01562 rrcurveto
+          -12.9375 -15.04688 -187.71875 185.28125 -133.60938 153.46875 rrcurveto
+          -121.53125 140.53125 2 -1.98438 -117 -0.45312 rrcurveto
+          -61 -0.23438 -49.96875 -7.20312 0.04688 -11 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="O">
+          935 364.4375 720.60938 rmoveto
+          -82.92188 -20.3125 -54.85938 -35.21875 -85.67188 -84.32812 rrcurveto
+          -170.35938 -165.65625 40.01562 -260.85938 214.45312 -119.15625 rrcurveto
+          232.51562 -129.10938 287.73438 69.125 108.17188 211.42188 rrcurveto
+          57.54688 116.21875 3.73438 71.01562 -46.42188 106.8125 rrcurveto
+          -83.75 194.6875 -205.39062 98.20312 -214.79688 -52.84375 rrcurveto
+          283.42188 -104.89062 rmoveto
+          117.34375 -89.54688 39.75 -192.84375 -71.42188 -151.28125 rrcurveto
+          -61.48438 -132.25 -190.79688 -51.73438 -175.26562 69.32812 rrcurveto
+          -194.3125 78.23438 -12.375 355.96875 190.54688 117.73438 rrcurveto
+          65.82812 41.25 23.98438 5.09375 102.03125 -6.60938 rrcurveto
+          78.01562 -5.6875 55.0625 -15.79688 33.09375 -21.85938 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="P">
+          878 35 688.82812 rmoveto
+          0.01562 -6.98438 24.0625 -14.92188 27.04688 -10.89062 rrcurveto
+          52.07812 -19.79688 2.01562 -5.98438 11.59375 -151.96875 rrcurveto
+          5.32812 -85.96875 0.51562 -131 -4.71875 -73.01562 rrcurveto
+          -10.51562 -125.04688 -3.96875 -7.01562 -52.90625 -24.20312 rrcurveto
+          -53.92188 -22.21875 10.01562 -1.95312 161 -1.375 rrcurveto
+          175 0.67188 rlineto
+          -61.14062 36.76562 rlineto
+          -59.14062 35.76562 -1.01562 4 4.59375 103.01562 rrcurveto
+          5.59375 105.03125 rlineto
+          228.96875 9.89062 rlineto
+          133.98438 5.51562 111.9375 13.4375 23.95312 15.09375 rrcurveto
+          118.73438 68.45312 -20.70312 179.92188 -136.32812 83.46875 rrcurveto
+          -57.125 34.78125 -33.01562 3.875 -288 -1.125 rrcurveto
+          -173 -0.67188 -140.96875 -7.54688 0.03125 -8 rrcurveto
+          591.21875 -56.70312 rmoveto
+          83.09375 -22.67188 28.17188 -44.89062 -7.64062 -93.03125 rrcurveto
+          -6.625 -98.03125 -47.92188 -18.1875 -226.03125 5.125 rrcurveto
+          -183.01562 4.29688 rlineto
+          -6.375 98.96875 rlineto
+          -11.70312 179.95312 5.96875 6.03125 163 0.625 rrcurveto
+          77 0.29688 96.03125 -8.625 36.04688 -9.85938 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="Q">
+          996 363.42188 732.4375 rmoveto
+          -296.60938 -102.14062 -118.98438 -261.46875 155.85938 -219.39062 rrcurveto
+          82.45312 -117.6875 105.1875 -48.59375 172 -1.32812 rrcurveto
+          116.01562 -1.5625 37.03125 -8.84375 31.125 -29.89062 rrcurveto
+          99.32812 -87.60938 65.04688 -8.75 87.73438 66.34375 rrcurveto
+          61.82812 46.23438 rlineto
+          -80.96875 -11.3125 rlineto
+          -72.95312 -9.28125 -15.01562 3.9375 -38.17188 41.85938 rrcurveto
+          -44.17188 45.82812 rlineto
+          74.6875 82.28125 rlineto
+          69.70312 76.28125 43.60938 101.17188 -0.32812 82 rrcurveto
+          -2.25 65.98438 -64.45312 115.75 -78.26562 69.70312 rrcurveto
+          -102.35938 91.59375 -188.21875 54.28125 -98.85938 -35.39062 rrcurveto
+          254.375 -96.01562 rmoveto
+          62.10938 -27.75 24.09375 -25.90625 31.28125 -68.89062 rrcurveto
+          63.54688 -141.75 -40.04688 -246.15625 -91.85938 -35.35938 rrcurveto
+          -12.98438 -5.04688 -42.09375 21.84375 -35.10938 28.85938 rrcurveto
+          -35.10938 30.85938 -62.15625 36.76562 -40.03125 10.84375 rrcurveto
+          -65.07812 19.75 -20 -2.07812 -54.90625 -25.21875 rrcurveto
+          -34.92188 -17.14062 -39.95312 -14.14062 -17 -0.07812 rrcurveto
+          -70 -0.26562 -11.875 224.95312 66.48438 133.26562 rrcurveto
+          61.5 130.23438 195.8125 48.76562 168.29688 -76.35938 rrcurveto
+          -158.04688 -502.60938 rmoveto
+          93.23438 -61.64062 -10.875 -33.04688 -113 1.5625 rrcurveto
+          -98.01562 2.625 -93.17188 43.64062 -0.15625 43 rrcurveto
+          -0.23438 57 139 3.53125 83.21875 -56.67188 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="R">
+          903 42.10938 698.1875 rmoveto
+          -15.98438 -5.0625 11.0625 -16.95312 37.09375 -21.85938 rrcurveto
+          57.125 -34.78125 rlineto
+          2.14062 -550 rlineto
+          -58.90625 -26.21875 rlineto
+          -58.89062 -26.23438 6 0.01562 167 -1.34375 rrcurveto
+          174.01562 -1.32812 rlineto
+          -60.15625 36.76562 rlineto
+          -57.125 34.78125 -2.03125 6 -0.4375 114.98438 rrcurveto
+          -0.46875 120 rlineto
+          165 0.64062 rlineto
+          197 0.76562 42.09375 -25.82812 0.46875 -119 rrcurveto
+          0.39062 -101 60.26562 -69.76562 92.01562 -3.64062 rrcurveto
+          74.01562 -1.71875 19.875 31.07812 -66.0625 14.73438 rrcurveto
+          -35.03125 8.875 -9.0625 16.96875 -8.28125 70.95312 rrcurveto
+          -7.21875 58.98438 -18.17188 41.92188 -35.14062 36.875 rrcurveto
+          -28.10938 27.89062 -22.10938 28.90625 -0.03125 6 rrcurveto
+          -0.01562 5 25.9375 15.10938 28.95312 13.10938 rrcurveto
+          71.89062 29.28125 43.6875 81.15625 -22.23438 58.92188 rrcurveto
+          -22.21875 56.90625 -68.21875 57.75 -75.10938 25.70312 rrcurveto
+          -63.07812 19.75 -494.01562 6.09375 -47.92188 -21.1875 rrcurveto
+          575.25 -65.76562 rmoveto
+          68.125 -28.75 28.21875 -58.89062 -19.70312 -75.07812 rrcurveto
+          -14.75 -64.04688 -71.92188 -22.28125 -189 -0.73438 rrcurveto
+          -171 -0.65625 rlineto
+          -13.42188 111.9375 rlineto
+          -9.29688 74.96875 3.82812 44.01562 14.9375 18.0625 rrcurveto
+          28.85938 35.10938 261 1.01562 84.125 -34.67188 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="S">
+          758 175.29688 685.5 rmoveto
+          -80.125 -31.67188 -68.45312 -113.73438 20.75 -63.09375 rrcurveto
+          22.70312 -77.07812 95.79688 -53.375 213.79688 -50.84375 rrcurveto
+          205.79688 -50.8125 62.78125 -56.23438 -50.3125 -80.8125 rrcurveto
+          -69.4375 -110.71875 -205.96875 5.79688 -168.5625 113.67188 rrcurveto
+          -52.85938 37.20312 -49.875 30.1875 -8 0.03125 rrcurveto
+          -8 0.03125 -3.15625 -39.98438 5.8125 -48.01562 rrcurveto
+          4.8125 -47.03125 15.85938 -35.0625 18.01562 2.9375 rrcurveto
+          19.01562 4.92188 76.95312 -13.29688 75.92188 -21.29688 rrcurveto
+          171.82812 -42.67188 156.10938 28.39062 84.35938 91.65625 rrcurveto
+          130.57812 145.5 -76.5625 111.29688 -279.76562 61.09375 rrcurveto
+          -110.90625 24.4375 -112.875 32.4375 -23.95312 13.09375 rrcurveto
+          -55.89062 27.21875 -4.70312 76.03125 45.17188 44.8125 rrcurveto
+          50.20312 49.8125 210.9375 -13.82812 97.78125 -58.39062 rrcurveto
+          108.73438 -66.42188 2 -0.01562 0.34375 87 rrcurveto
+          0.25 63 -9.96875 8.04688 -73.98438 3.28125 rrcurveto
+          -48 3.1875 -91.95312 10.375 -65.96875 8.25 rrcurveto
+          -65.96875 8.26562 -80.01562 -2.6875 -31.04688 -14.89062 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="T">
+          886 254.78125 686.90625 rmoveto
+          -219.04688 -10.14062 rlineto
+          -0.73438 -190 rlineto
+          63.25 65.75 rlineto
+          48.21875 52.8125 34.04688 12.85938 68.98438 -5.26562 rrcurveto
+          49.96875 -6.1875 47.98438 -5.1875 13 -0.0625 rrcurveto
+          28.98438 -3.10938 -7.04688 -522.96875 -32.07812 -17.875 rrcurveto
+          -55.125 -34.79688 30.90625 -24.10938 98.01562 5.60938 rrcurveto
+          167.03125 9.34375 15.03125 5.9375 -62.90625 23.25 rrcurveto
+          -54.92188 22.21875 -5.90625 21.01562 0.625 161 rrcurveto
+          0.39062 98 8.48438 125.96875 8.21875 55.96875 rrcurveto
+          16.375 94.9375 5.01562 2.98438 111 -0.4375 rrcurveto
+          87 -0.34375 36.9375 -13.14062 23.84375 -40.09375 rrcurveto
+          49.6875 -79.1875 29.0625 14.875 -9.60938 98.04688 rrcurveto
+          -7.67188 85.03125 rlineto
+          -184.98438 2.71875 rlineto
+          -100 0.39062 -183.01562 -1.28125 -119.01562 -4.53125 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="U">
+          895 35 682.29688 rmoveto
+          -0.04688 -10 10.92188 -21.03125 12.9375 -14.0625 rrcurveto
+          12.9375 -16.04688 17.57812 -111.0625 10.5 -124.04688 rrcurveto
+          19.96875 -264.07812 12.875 -32.04688 121.78125 -58.48438 rrcurveto
+          165.6875 -79.64062 259.17188 45.98438 64.46875 116.75 rrcurveto
+          16.125 30.9375 13.5 129.9375 0.5 129 rrcurveto
+          0.85938 217 5.07812 20.98438 56.10938 26.78125 rrcurveto
+          47.09375 22.8125 -15.98438 6.0625 -137 0.53125 rrcurveto
+          -158.98438 2.625 -63.125 -30.75 105.89062 -29.42188 rrcurveto
+          99.89062 -27.39062 6.26562 -441.01562 -98.26562 -70.625 rrcurveto
+          -58.1875 -44.76562 -277 1.07812 -36.8125 45.14062 rrcurveto
+          -50.78125 58.20312 -12.54688 116.04688 19.70312 176.92188 rrcurveto
+          13.54688 139.95312 16.14062 36.9375 39.04688 10.84375 rrcurveto
+          101.09375 25.60938 -52.85938 34.20312 -143 0.5625 rrcurveto
+          -79 0.3125 -66.04688 -9.75 -0.03125 -11 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="V">
+          938 35 688.65625 rmoveto
+          0.125 -11 31.23438 -22.67188 40.125 -11.57812 rrcurveto
+          54.21875 -20.4375 49.71875 -68.48438 122.42188 -230.73438 rrcurveto
+          85.70312 -162.10938 82.375 -132.14062 16 0.15625 rrcurveto
+          15 0.15625 75.5625 138.8125 77.23438 168.8125 rrcurveto
+          89.875 202.95312 61.90625 105.65625 26 0.26562 rrcurveto
+          22.98438 0.23438 17.875 12.1875 -0.125 13 rrcurveto
+          -0.15625 15 -64.125 10.32812 -81.95312 -3.84375 rrcurveto
+          -125 -1.3125 -14.9375 -5.15625 51.23438 -22.46875 rrcurveto
+          71.375 -35.25 0.15625 -15 -89.04688 -186.95312 rrcurveto
+          -43.10938 -85.45312 -32.15625 -81.34375 0.17188 -15.98438 rrcurveto
+          0.17188 -17 -14.8125 -18.15625 -20.90625 -8.21875 rrcurveto
+          -22.89062 -10.25 -41.60938 57.57812 -64.42188 135.32812 rrcurveto
+          -102.21875 210.9375 -13.73438 70.85938 59 0.625 rrcurveto
+          19.98438 0.20312 17.90625 10.1875 -0.14062 13 rrcurveto
+          -0.14062 13 -79.09375 9.17188 -99 -1.03125 rrcurveto
+          -97.01562 1.98438 -81.89062 -11.85938 0.125 -12 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="W">
+          1456 746.76562 690.59375 rmoveto
+          -82.03125 -7.6875 -37.04688 -12.85938 21.95312 -13.07812 rrcurveto
+          49.85938 -35.20312 -11.20312 -49.95312 -100.82812 -213.60938 rrcurveto
+          -53.46875 -118.78125 -50.28125 -73.8125 -15.96875 11.0625 rrcurveto
+          -15.95312 10.0625 -60.59375 103.23438 -57.53125 119.23438 rrcurveto
+          -102.21875 201.40625 -2.95312 13 45.14062 34.82812 rrcurveto
+          40.10938 28.84375 -12.98438 5.04688 -134.98438 0.53125 rrcurveto
+          -148 0.57812 -5.01562 -2.96875 52.85938 -37.21875 rrcurveto
+          30.90625 -21.10938 97.39062 -156.39062 89.34375 -166.34375 rrcurveto
+          86.35938 -167.34375 81.45312 -137.32812 11 -0.03125 rrcurveto
+          10 -0.04688 61.45312 113.76562 66.54688 139.73438 rrcurveto
+          63.53125 136.75 61.46875 118.76562 11.03125 7.95312 rrcurveto
+          10.01562 4.96875 68.57812 -108.28125 73.45312 -138.28125 rrcurveto
+          76.46875 -137.29688 67.54688 -114.26562 14 -0.0625 rrcurveto
+          18 -0.0625 58.46875 116.76562 152.32812 340.40625 rrcurveto
+          37.32812 83.85938 47.29688 73.8125 21.03125 7.92188 rrcurveto
+          80.125 31.6875 -42.89062 31.15625 -120.98438 0.48438 rrcurveto
+          -119 0.46875 -3 0 47.79688 -52.1875 rrcurveto
+          44.79688 -51.17188 -0.03125 -8 -90.76562 -194.64062 rrcurveto
+          -50.42188 -107.8125 -50.35938 -92.79688 -14.01562 -2.95312 rrcurveto
+          -29.01562 -4.875 -193.625 354.75 0.25 61 rrcurveto
+          0.09375 24 16.09375 23.9375 18.03125 7.9375 rrcurveto
+          64.07812 22.75 -60.96875 8.23438 -130.04688 -12.48438 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="X">
+          999 66.3125 664.71875 rmoveto
+          8.14062 -12.90625 23.125 -12.76562 18 0.1875 rrcurveto
+          46 0.48438 226.42188 -229.64062 0.48438 -46 rrcurveto
+          0.60938 -59 -247.35938 -252.59375 -59 -0.625 rrcurveto
+          -25 -0.26562 -22.89062 -10.23438 0.15625 -15 rrcurveto
+          0.15625 -16 74.10938 -9.21875 99.98438 1.04688 rrcurveto
+          171 1.78125 rlineto
+          -64.53125 50.32812 rlineto
+          -64.51562 48.32812 rlineto
+          105.85938 110.10938 rlineto
+          108.875 108.15625 rlineto
+          103.03125 -97.9375 rlineto
+          106.0625 -100.89062 25.67188 -63.73438 -64 -0.67188 rrcurveto
+          -20 -0.20312 -22.89062 -10.25 -9.875 -13.09375 rrcurveto
+          -7.84375 -15.09375 77.10938 -9.1875 121.96875 3.28125 rrcurveto
+          112 1.17188 84.89062 10.89062 -8.14062 12.90625 rrcurveto
+          -8.14062 12.92188 -33.09375 9.65625 -33 -0.34375 rrcurveto
+          -38 -0.40625 -67.53125 50.29688 -98.09375 103.98438 rrcurveto
+          -79.875 83.17188 -64.79688 76.3125 -0.10938 10 rrcurveto
+          -0.35938 35 230.625 227.4375 35 0.35938 rrcurveto
+          18 0.1875 25.85938 13.26562 6.85938 13.07812 rrcurveto
+          10.84375 15.10938 -54.09375 9.4375 -99 -1.03125 rrcurveto
+          -140.98438 -1.48438 -12.95312 -5.125 39.29688 -27.59375 rrcurveto
+          53.39062 -37.4375 -19.375 -59.21875 -91.09375 -87.95312 rrcurveto
+          -55.5 -48.57812 0 0 -96 96 rrcurveto
+          -91.95312 91.03125 -0.0625 5 44.64062 35.46875 rrcurveto
+          45.64062 34.48438 -10.03125 1.89062 -157.98438 -1.64062 rrcurveto
+          -107 -1.125 -58.89062 -10.625 10.15625 -14.89062 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="Y">
+          850 35.75 690.3125 rmoveto
+          -5.03125 -7.98438 20.89062 -26.07812 33.89062 -27.14062 rrcurveto
+          33.89062 -29.125 79.6875 -79.3125 57.71875 -71.23438 rrcurveto
+          120.4375 -146.46875 42.34375 -166.17188 -69.28125 -71.71875 rrcurveto
+          -61.23438 -59.76562 10.96875 -8.04688 150 1.42188 rrcurveto
+          132 -0.53125 3.01562 3 -54.84375 40.20312 rrcurveto
+          -47.875 31.1875 -12.85938 35.0625 0.34375 87 rrcurveto
+          0.25 66 16.23438 60.9375 21.07812 17.90625 rrcurveto
+          21.0625 15.92188 55.28125 71.78125 45.28125 70.82812 rrcurveto
+          45.26562 70.82812 61.26562 65.75 29.03125 7.89062 rrcurveto
+          90.10938 28.64062 -36.84375 37.15625 -122 0.46875 rrcurveto
+          -66 0.26562 -52.04688 -9.79688 -0.0625 -16 rrcurveto
+          -0.04688 -13 12.9375 -14.04688 13 -0.0625 rrcurveto
+          48 -0.1875 -22.26562 -70.90625 -84.46875 -115.67188 rrcurveto
+          -82.4375 -113.67188 rlineto
+          -115.48438 130.45312 rlineto
+          -105.54688 119.40625 -4.9375 15.01562 42.10938 28.84375 rrcurveto
+          34.10938 26.85938 3.03125 8 -31.98438 2.125 rrcurveto
+          -173.95312 14.67188 -64 0.25 -10.03125 -10.95312 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="Z">
+          728 80.03125 604.20312 rmoveto
+          0.82812 -79 rlineto
+          58.45312 53.625 rlineto
+          50.51562 46.53125 24.90625 8.25 115.15625 -14.79688 rrcurveto
+          74.07812 -6.21875 59.1875 -17.375 0.09375 -10 rrcurveto
+          0.14062 -13 -71.03125 -92.75 -87.95312 -99.9375 rrcurveto
+          -249.95312 -293.625 -16.75 -23.17188 -2.70312 -28.03125 rrcurveto
+          0.15625 -16 120.10938 -8.75 190.98438 2 rrcurveto
+          313.98438 3.29688 rlineto
+          22.28125 69.23438 rlineto
+          27.20312 76.28125 -28.57812 53.70312 -34.375 -59.35938 rrcurveto
+          -25.57812 -40.26562 -356.51562 -47.73438 -36.34375 32.625 rrcurveto
+          -26.28125 25.71875 50.26562 71.53125 237.32812 255.5 rrcurveto
+          95.90625 106 80.96875 97.85938 -0.125 12 rrcurveto
+          -0.125 13 -130.10938 8.64062 -162.98438 -1.70312 rrcurveto
+          -293.98438 -3.07812 rlineto
+          0.84375 -81 rlineto
+          endchar
+        </CharString>
+        <CharString name="a">
+          717 162.10938 511.78125 rmoveto
+          -86.125 -43.75 -28.15625 -58.92188 40.84375 -51.10938 rrcurveto
+          28.90625 -33.09375 70 -0.1875 27.09375 32.92188 rrcurveto
+          17.0625 19.9375 -3.98438 7.01562 -28.96875 8.07812 rrcurveto
+          -20 5.0625 -16.95312 13.04688 0.03125 9 rrcurveto
+          0.21875 81 215.09375 28.39062 74.79688 -69.21875 rrcurveto
+          21.9375 -22.0625 18.90625 -35.04688 -0.07812 -24 rrcurveto
+          -0.10938 -39 -13.01562 -4.96875 -165.07812 -27.53125 rrcurveto
+          -160.0625 -24.53125 -26.03125 -9.9375 -44.14062 -48.875 rrcurveto
+          -61.20312 -67.82812 -3.125 -43.98438 48.875 -46.14062 rrcurveto
+          73.8125 -66.20312 156 1.54688 132.20312 67.625 rrcurveto
+          57.07812 28.84375 4 -0.01562 39.89062 -37.10938 rrcurveto
+          43.89062 -38.125 85.92188 -30.25 19.04688 18.9375 rrcurveto
+          5.01562 5 -13.9375 24.03125 -23.9375 22.0625 rrcurveto
+          -40.90625 33.125 -4.92188 24.01562 -5.60938 138.01562 rrcurveto
+          -8.42188 200.03125 -14.92188 29.03125 -123.90625 35.35938 rrcurveto
+          -133.89062 39.375 -57 -1.82812 -96.14062 -47.73438 rrcurveto
+          333.32812 -239.95312 rmoveto
+          20.84375 -55.04688 -43.23438 -80.89062 -64.09375 -30.8125 rrcurveto
+          -95.125 -45.73438 -126.98438 4.375 -25.85938 50.0625 rrcurveto
+          -30.84375 57.09375 49.1875 63.85938 96.0625 23.71875 rrcurveto
+          44.03125 10.875 44.03125 12.875 9.01562 2.98438 rrcurveto
+          43.04688 14.875 72.96875 -7.20312 6.95312 -21.03125 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="b">
+          731 35.92188 697.35938 rmoveto
+          -5.01562 -8.98438 15.95312 -13.04688 25.98438 -7.07812 rrcurveto
+          45.96875 -11.125 rlineto
+          -0.90625 -320 rlineto
+          -0.89062 -312 10.84375 -53.03125 44.23438 81.875 rrcurveto
+          24.125 43.9375 40.01562 3.875 16.875 -40.04688 rrcurveto
+          4.96875 -15.01562 40.90625 -30.10938 43.95312 -18.125 rrcurveto
+          70.90625 -31.20312 19 -2.0625 69.04688 19.8125 rrcurveto
+          178.15625 51.48438 74.59375 208.79688 -109.59375 143.3125 rrcurveto
+          -98.625 129.28125 -108.9375 26.3125 -143.21875 -77.59375 rrcurveto
+          -84.125 -43.76562 rlineto
+          0.82812 292 rlineto
+          -81 0.23438 rlineto
+          -46 0.125 -42.01562 -6.875 -6.03125 -10.98438 rrcurveto
+          499.1875 -284.42188 rmoveto
+          44.89062 -40.125 5.95312 -15.03125 -0.3125 -109.98438 rrcurveto
+          -0.29688 -105 -7.0625 -21.98438 -39.10938 -39.89062 rrcurveto
+          -53.15625 -53.84375 -116.03125 -11.67188 -63.89062 38.17188 rrcurveto
+          -45.92188 30.14062 -50.70312 101.14062 0.17188 64 rrcurveto
+          0.48438 167 202.29688 102.42188 122.6875 -105.34375 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="c">
+          599 163.71875 464.65625 rmoveto
+          -149.29688 -103.57812 -20.40625 -146.9375 113.65625 -118.32812 rrcurveto
+          109.67188 -114.3125 166.96875 -11.48438 112.28125 99.6875 rrcurveto
+          74.1875 63.78125 -18.92188 27.0625 -79.15625 -54.78125 rrcurveto
+          -33.0625 -23.90625 -62.0625 -21.8125 -44.01562 -4.875 rrcurveto
+          -72.03125 -6.79688 -17.98438 5.04688 -45.875 44.125 rrcurveto
+          -65.8125 63.1875 -18.75 86.0625 30.25 89.90625 rrcurveto
+          40.34375 120.89062 164.15625 56.53125 91.79688 -73.26562 rrcurveto
+          48.89062 -41.14062 -13.17188 -54.95312 -58.98438 0.17188 rrcurveto
+          -33 0.09375 -1.01562 -4 17.9375 -23.0625 rrcurveto
+          30.89062 -37.07812 48 1.85938 51.125 41.85938 rrcurveto
+          37.07812 28.89062 4.03125 12.98438 -16.90625 28.04688 rrcurveto
+          -70.67188 117.20312 -201.90625 35.57812 -118.23438 -82.65625 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="comma">
+          217 38.95312 85.4375 rmoveto
+          -10.10938 -23.95312 9.8125 -37.04688 23.89062 -23.10938 rrcurveto
+          31.85938 -32.15625 1.875 -26 -18.25 -50.92188 rrcurveto
+          -32.39062 -83.84375 23.89062 -24.10938 50.3125 65.75 rrcurveto
+          58.34375 73.73438 19.46875 97.90625 -28.78125 47.14062 rrcurveto
+          -36.71875 58.17188 -73.95312 11.34375 -19.25 -52.90625 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="d">
+          747 392.29688 703.51562 rmoveto
+          -0.01562 -6 25.95312 -16.0625 28.95312 -17.09375 rrcurveto
+          51.92188 -26.14062 2.96875 -9.01562 -0.26562 -95 rrcurveto
+          -0.29688 -103 0 0 -39.92188 25.125 rrcurveto
+          -23.95312 15.0625 -47.9375 22.14062 -35.96875 13.09375 rrcurveto
+          -60.95312 18.17188 -18 -0.9375 -92.10938 -40.75 rrcurveto
+          -118.15625 -50.65625 -29.125 -47.92188 -0.39062 -134 rrcurveto
+          -0.3125 -108 76.71875 -103.21875 98.90625 -28.28125 rrcurveto
+          56.96875 -14.15625 28 2.92188 77.09375 32.78125 rrcurveto
+          49.0625 21.85938 43.07812 23.875 0.01562 9 rrcurveto
+          0.10938 37 35.9375 -24.10938 10.875 -42.03125 rrcurveto
+          10.875 -42.03125 10 -4.01562 86 -0.25 rrcurveto
+          94 1.73438 rlineto
+          -54.875 44.15625 rlineto
+          -55.85938 46.15625 rlineto
+          1.6875 597 rlineto
+          -103.98438 5.29688 rlineto
+          -58.98438 4.17188 -48 -1.875 -0.01562 -5 rrcurveto
+          36.21875 -272.09375 rmoveto
+          76.85938 -52.21875 21.78125 -75.0625 -27.29688 -102.92188 rrcurveto
+          -24.23438 -85.9375 -42.10938 -36.875 -100.04688 -17.71875 rrcurveto
+          -132.07812 -23.625 -67.79688 70.1875 0.45312 159 rrcurveto
+          0.32812 114 33.17188 60.90625 68.04688 14.8125 rrcurveto
+          99.0625 21.71875 32.98438 -6.09375 60.875 -40.17188 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="e">
+          621 265.75 504.39062 rmoveto
+          -118.07812 -26.67188 -112.375 -130.67188 -0.29688 -106 rrcurveto
+          -0.21875 -79 56.78125 -75.17188 96.85938 -48.26562 rrcurveto
+          102.85938 -52.29688 17.98438 -1.04688 96.07812 24.71875 rrcurveto
+          101.07812 29.71875 129.34375 116.625 -70 0.20312 rrcurveto
+          -11 0.03125 -33.0625 -19.90625 -30.07812 -25.92188 rrcurveto
+          -137.3125 -113.60938 -209.82812 63.60938 0.45312 156 rrcurveto
+          0.14062 51 rlineto
+          203.98438 -2.59375 rlineto
+          121 -1.34375 90.01562 6.75 11.03125 10.96875 rrcurveto
+          35.10938 34.90625 -100.59375 143.28125 -83.90625 35.23438 rrcurveto
+          -40.95312 17.125 -34.95312 12.09375 -3.01562 -0.98438 rrcurveto
+          -2 -2 -35.01562 -7.90625 -40.03125 -8.875 rrcurveto
+          184.71875 -99.53125 rmoveto
+          25.92188 -26.07812 17.90625 -31.04688 -5.03125 -12.98438 rrcurveto
+          -10.07812 -28.96875 -319 -1.09375 -8.92188 29.03125 rrcurveto
+          -3.96875 11 18.09375 31.95312 28.0625 24.92188 rrcurveto
+          68.20312 67.79688 123 1.65625 65.8125 -66.1875 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="eight">
+          707 270.35938 738.42188 rmoveto
+          -182.96875 -37.17188 -71.85938 -151.07812 112.10938 -111.89062 rrcurveto
+          31.03125 -28.96875 24.03125 -29.98438 0 -5 rrcurveto
+          0 -6 -32.96875 -33.03125 -39.96875 -35.03125 rrcurveto
+          -95.92188 -82.09375 -2.9375 -66 86.07812 -86.92188 rrcurveto
+          110.10938 -109.89062 197.01562 -15.8125 157.92188 92.14062 rrcurveto
+          136.92188 78.125 10.875 135.01562 -125.07812 83.89062 rrcurveto
+          -35.03125 23.95312 -29.01562 23.98438 -2.01562 7 rrcurveto
+          -3 6.98438 22.98438 21.03125 29.98438 16.03125 rrcurveto
+          83.95312 48.07812 20.9375 61.01562 -45.0625 74.95312 rrcurveto
+          -56.09375 98.95312 -160.0625 54.84375 -141.96875 -27.125 rrcurveto
+          248.07812 -91.76562 rmoveto
+          44.04688 -42.96875 2.07812 -86 -41.9375 -62.03125 rrcurveto
+          -38.9375 -59.03125 -22 -2.03125 -158.04688 49.85938 rrcurveto
+          -99.03125 28.90625 -27.01562 16.96875 -15.03125 37.98438 rrcurveto
+          -24.0625 62.98438 51.92188 75.04688 76.98438 18.0625 rrcurveto
+          81.98438 19.07812 133.01562 -18.875 36.03125 -37.95312 rrcurveto
+          -160.6875 -322.15625 rmoveto
+          187.04688 -48.82812 68.0625 -62.9375 -43.9375 -80.03125 rrcurveto
+          -34.92188 -68.03125 -60.98438 -26.0625 -117 -0.10938 rrcurveto
+          -142 -0.14062 -25 8.98438 -33.0625 65.96875 rrcurveto
+          -41.07812 76.95312 7.95312 46.01562 57.9375 61.04688 rrcurveto
+          62.95312 60.0625 -8 0 122.03125 -32.89062 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="emdash">
+          1033 361.21875 256.14062 rmoveto
+          -188.04688 3.53125 -137.57812 -9.78125 -0.59375 -12.98438 rrcurveto
+          -1.45312 -31.96875 126.875 -5.75 489.59375 1.8125 rrcurveto
+          198.15625 -0.98438 156.65625 10.92188 -7.35938 14.34375 rrcurveto
+          -7.54688 10.35938 -73.5625 11.34375 -82.04688 0.71875 rrcurveto
+          -82 1.71875 -214.14062 1.70312 -176.95312 5.01562 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="f">
+          512 217.625 678.75 rmoveto
+          -28.03125 -13.90625 -29.125 -40.92188 -13.10938 -37.96875 rrcurveto
+          -13.09375 -34.95312 -28.10938 -36.92188 -22.03125 -8.9375 rrcurveto
+          -38.04688 -16.89062 rlineto
+          39.96875 -11.125 rlineto
+          34.96875 -11.09375 5.95312 -20.01562 10.65625 -117.03125 rrcurveto
+          17.48438 -184.04688 -17.21875 -76.95312 -56.04688 -14.84375 rrcurveto
+          -90.0625 -21.75 44.9375 -22.125 136 -0.39062 rrcurveto
+          136 -0.375 rlineto
+          -43.8125 66.125 rlineto
+          -37.84375 57.10938 -7.90625 31.01562 0.34375 123 rrcurveto
+          0.4375 149 22.14062 50.9375 66 -0.1875 rrcurveto
+          22 -0.0625 -4.98438 8.01562 -30.95312 16.07812 rrcurveto
+          -91.85938 46.26562 51.3125 113.85938 102.9375 -26.29688 rrcurveto
+          41.96875 -11.125 3.98438 -5 -18.09375 -32.95312 rrcurveto
+          -26.14062 -49.92188 16.95312 -14.04688 56.07812 24.82812 rrcurveto
+          52.0625 23.85938 9.15625 54.96875 -41.90625 35.125 rrcurveto
+          -41.89062 35.125 -133.98438 6.375 -57.09375 -31.84375 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="five">
+          694 346.17188 690.35938 rmoveto
+          -78.96875 -33.07812 -78 -2.07812 -49.01562 25.95312 rrcurveto
+          -20.01562 10.98438 -19 4.98438 -3 -4 rrcurveto
+          -2 -3 -8.92188 -83.01562 -5.90625 -97 rrcurveto
+          -14.8125 -200.01562 11.01562 -21 89.95312 55.09375 rrcurveto
+          89.95312 52.07812 132.98438 13.125 71.03125 -34.92188 rrcurveto
+          33.01562 -16.96875 31.03125 -23.98438 8 -10.98438 rrcurveto
+          22.03125 -30.98438 -5.89062 -119 -21.9375 -52.01562 rrcurveto
+          -48.90625 -106.04688 -318 -2.3125 -28.09375 107.98438 rrcurveto
+          -16.0625 67.98438 38.96875 33.03125 78 -10.92188 rrcurveto
+          67.01562 -8.9375 rlineto
+          -57.03125 29.9375 rlineto
+          -140.0625 72.875 -138.875 -143.125 110.09375 -100.90625 rrcurveto
+          104.09375 -93.89062 224.01562 -14.79688 117.92188 78.10938 rrcurveto
+          105.9375 71.10938 31.95312 44.01562 -0.07812 87 rrcurveto
+          -0.0625 66 -9.01562 20 -56.04688 47.95312 rrcurveto
+          -36.03125 30.95312 -46.03125 28.96875 -24 3.96875 rrcurveto
+          -22 4.98438 -41.01562 7.95312 -25 4.98438 rrcurveto
+          -26 5.96875 -70 -8.0625 -57.98438 -14.04688 rrcurveto
+          -58.98438 -17.0625 -50 -9.04688 -4 4 rrcurveto
+          -3 3 2.96875 39 7.95312 46 rrcurveto
+          12.92188 81.01562 rlineto
+          109.98438 11.10938 rlineto
+          60 7.04688 86.98438 11.09375 44 7.03125 rrcurveto
+          56.98438 11.0625 25 -2.98438 12.01562 -16.98438 rrcurveto
+          25.04688 -41.98438 -26.96875 -33.01562 -61 1.9375 rrcurveto
+          -90.01562 4.92188 -6.98438 -5.01562 55.03125 -29.9375 rrcurveto
+          46.01562 -24.96875 11 0.01562 61.96875 31.0625 rrcurveto
+          78.96875 38.0625 12.95312 50.01562 -51.0625 61.95312 rrcurveto
+          -46.04688 53.95312 -118.01562 13.89062 -92.96875 -36.07812 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="four">
+          693 270.6875 700.125 rmoveto
+          0 -7 9.01562 -16.98438 11.01562 -11 rrcurveto
+          26.01562 -24.96875 -83.84375 -155.07812 -121.85938 -158.10938 rrcurveto
+          -109.85938 -141.10938 4 -11 152 11.14062 rrcurveto
+          67.98438 5.0625 83 2.07812 33.01562 -4.96875 rrcurveto
+          53 -8.9375 6.01562 -8 0.04688 -55 rrcurveto
+          0.04688 -42 -8.98438 -20.01562 -17 -0.01562 rrcurveto
+          -15 0 -18 -8.03125 -5.98438 -11 rrcurveto
+          -6.98438 -11 48 -6.95312 90 0.07812 rrcurveto
+          141 0.125 rlineto
+          -49.03125 38.96875 rlineto
+          -33.03125 24.96875 -15.03125 29.98438 -0.03125 38 rrcurveto
+          -0.04688 52 4 1 64 -4.9375 rrcurveto
+          71 -5.9375 23.98438 30.01562 -24.0625 65.98438 rrcurveto
+          -11.03125 25.98438 -3 0 -19.96875 -30.01562 rrcurveto
+          -14.98438 -16.01562 -25.98438 -11.03125 -20.01562 2.98438 rrcurveto
+          -29 5.98438 -6.01562 15.98438 -0.07812 89 rrcurveto
+          -0.0625 57 -5.04688 53 -8 6.98438 rrcurveto
+          -27.03125 27.98438 -58.90625 -103.0625 -1.92188 -77 rrcurveto
+          0.0625 -76 rlineto
+          -118.98438 -12.10938 rlineto
+          -64.98438 -8.0625 -68 -2.0625 -16.01562 7.98438 rrcurveto
+          -33.01562 12.96875 21.96875 33.01562 131.875 141.125 rrcurveto
+          36.96875 40.03125 43.9375 57.04688 16.96875 32.01562 rrcurveto
+          13.96875 29.01562 29.96875 40.03125 21.98438 19.01562 rrcurveto
+          57.95312 53.0625 -11.01562 12.98438 -110 -0.10938 rrcurveto
+          -55 -0.04688 -46 -7.04688 0.01562 -8 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="g">
+          670 233.76562 521.85938 rmoveto
+          -123.09375 -36.65625 -75.29688 -102.78125 -0.375 -130 rrcurveto
+          -0.20312 -75 8.9375 -17.03125 71.79688 -72.20312 rrcurveto
+          67.8125 -68.1875 21.96875 -12.0625 62 -0.1875 rrcurveto
+          48 -0.125 50.04688 15.85938 44.07812 29.85938 rrcurveto
+          36.07812 24.90625 35.04688 19.90625 4 -0.01562 rrcurveto
+          5 -0.01562 3.89062 -40.01562 -0.14062 -50 rrcurveto
+          -0.21875 -73 -7.0625 -23.98438 -33.0625 -21.90625 rrcurveto
+          -22.04688 -14.92188 -24.01562 -8.9375 -10.98438 8.03125 rrcurveto
+          -8.98438 5.03125 -28.01562 -4.92188 -24.04688 -14.9375 rrcurveto
+          -62.09375 -32.82812 -38.89062 37.10938 44.14062 48.875 rrcurveto
+          35.10938 38.90625 -10.9375 20.03125 -55 0.15625 rrcurveto
+          -61 0.17188 -64.15625 -52.8125 6.875 -44.01562 rrcurveto
+          12.73438 -92.04688 222.92188 -28.625 112.21875 74.67188 rrcurveto
+          95.1875 64.73438 13.10938 39.95312 0.78125 274 rrcurveto
+          0.57812 204 5.14062 48.98438 26.07812 27.9375 rrcurveto
+          28.09375 30.90625 -2 2.01562 -63 0.17188 rrcurveto
+          -42 0.125 -29.03125 -10.92188 -11.04688 -19.96875 rrcurveto
+          -17.07812 -27.95312 -7 2.03125 -74.90625 35.20312 rrcurveto
+          -88.875 44.26562 -3 0 -74.0625 -21.78125 rrcurveto
+          152.8125 -66.4375 rmoveto
+          83.90625 -35.25 23.875 -44.0625 -0.34375 -121 rrcurveto
+          -0.20312 -68 -9.04688 -18.96875 -55.14062 -48.84375 rrcurveto
+          -86.21875 -75.75 -68 0.1875 -73.78125 76.20312 rrcurveto
+          -94.73438 95.28125 -3.64062 123 92.26562 95.75 rrcurveto
+          57.17188 57.82812 29.01562 3.92188 104.875 -40.29688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="h">
+          762 52.9375 705.21875 rmoveto
+          -20.04688 -12.9375 2.98438 -5.01562 27.98438 -9.07812 rrcurveto
+          48.95312 -17.14062 10.8125 -62.03125 -0.78125 -274 rrcurveto
+          -0.5 -180 -5.15625 -50.98438 -24.0625 -21.9375 rrcurveto
+          -15.04688 -16.95312 -24.03125 -12.92188 -11 0.03125 rrcurveto
+          -12 0.03125 0.96875 -7 16.96875 -11.0625 rrcurveto
+          36.9375 -24.09375 178 -0.51562 15.0625 23.96875 rrcurveto
+          7.03125 10.96875 -14.92188 24.04688 -23.95312 18.0625 rrcurveto
+          -35.90625 31.10938 -5.95312 19.01562 4.26562 89.98438 rrcurveto
+          5.4375 153.98438 46.15625 56.875 142.07812 25.59375 rrcurveto
+          55.01562 8.84375 20 -4.0625 30.90625 -31.07812 rrcurveto
+          30.90625 -31.09375 5.92188 -30.01562 -0.375 -132 rrcurveto
+          -0.4375 -150 -2.01562 -6 -50.0625 -25.85938 rrcurveto
+          -47.07812 -26.85938 3 0 135.98438 -2.39062 rrcurveto
+          142 -0.40625 rlineto
+          -43.85938 46.125 rlineto
+          -40.89062 38.10938 -4.9375 22.01562 0.35938 127 rrcurveto
+          0.46875 167 -21.85938 46.0625 -99.92188 31.28125 rrcurveto
+          -72.92188 26.21875 -66.03125 -12.8125 -74.15625 -50.79688 rrcurveto
+          -27.04688 -19.92188 -31.04688 -12.90625 -9.98438 5.03125 rrcurveto
+          -8.98438 6.01562 -12.79688 68.04688 -6.78125 75.01562 rrcurveto
+          -12.60938 138.03125 rlineto
+          -57 0.17188 rlineto
+          -33 0.09375 -37.03125 -7.90625 -14.01562 -8.95312 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="hyphen">
+          491 52.01562 274.51562 rmoveto
+          -47.21875 -44.78125 46.92188 -16.21875 193 -0.92188 rrcurveto
+          169 -0.8125 42.03125 7.79688 0.15625 32 rrcurveto
+          0.15625 31 -38.96875 8.1875 -153 0.73438 rrcurveto
+          -109 0.51562 -95.03125 -7.54688 -8.04688 -9.95312 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="i">
+          233 84.70312 668.78125 rmoveto
+          -19.64062 -36.20312 48.46875 -47.53125 35.79688 20.35938 rrcurveto
+          27.82812 18.26562 -18.73438 73.82812 -33 -0.32812 rrcurveto
+          -13 -0.125 -17.85938 -13.17188 -9.85938 -15.09375 rrcurveto
+          -46.04688 -199.46875 rmoveto
+          -7.875 -13.07812 5.17188 -17.95312 15.10938 -9.84375 rrcurveto
+          36.21875 -22.65625 0.21875 -329 -37.625 -38.375 rrcurveto
+          -22.76562 -23.21875 16.07812 -7.84375 75.98438 0.73438 rrcurveto
+          77 0.76562 14.92188 8.14062 -23.21875 22.76562 rrcurveto
+          -18.17188 16.82812 -13.875 89.875 -1.17188 119.98438 rrcurveto
+          -1.53125 155 -7.42188 43.92188 -33.125 12.6875 rrcurveto
+          -52.20312 19.48438 -5 -0.04688 -16.71875 -28.17188 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="j">
+          389 251.625 657.92188 rmoveto
+          13.625 -63.85938 58.07812 -7.4375 -0.60938 61 rrcurveto
+          -0.29688 31 -15.21875 22.84375 -25 -0.23438 rrcurveto
+          -23 -0.23438 -12.82812 -18.125 5.25 -24.95312 rrcurveto
+          -2.79688 -225.03125 rmoveto
+          46.54688 -55.54688 -15.96875 -513.1875 -50.70312 -31.5 rrcurveto
+          -47.70312 -30.46875 -5 -0.04688 -49.29688 29.51562 rrcurveto
+          -30.20312 20.71875 -3.10938 11.96875 25.59375 41.25 rrcurveto
+          32.5 51.3125 -13.28125 27.875 -53.98438 -0.53125 rrcurveto
+          -56 -0.54688 -11 -102.10938 48.51562 -52.53125 rrcurveto
+          56.625 -63.45312 119.96875 3.1875 63.375 64.625 rrcurveto
+          45.54688 46.4375 4.625 38.04688 -2.5625 261 rrcurveto
+          -2.85938 292.98438 rlineto
+          -66 -0.65625 rlineto
+          -57 -0.54688 -6.95312 -5.07812 28.32812 -32.71875 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="k">
+          706 38.85938 709.89062 rmoveto
+          -0.01562 -4 12.92188 -27.03125 14.92188 -28.04688 rrcurveto
+          19.89062 -40.04688 6.76562 -79.03125 -0.57812 -201.98438 rrcurveto
+          -0.73438 -259 -2.01562 -9 -38.0625 -20.89062 rrcurveto
+          -35.04688 -15.90625 14.98438 -4.03125 106 -0.3125 rrcurveto
+          129 -0.35938 rlineto
+          -41.90625 35.10938 rlineto
+          -56.85938 48.17188 9.21875 72.96875 70.14062 51.79688 rrcurveto
+          51.10938 37.85938 rlineto
+          71.76562 -82.20312 rlineto
+          76.75 -90.21875 10.90625 -33.03125 -46.0625 -18.875 rrcurveto
+          -55.0625 -19.84375 69.9375 -22.20312 124 -0.34375 rrcurveto
+          120 -0.34375 rlineto
+          -47.90625 33.14062 rlineto
+          -58.89062 39.15625 -177.375 218.51562 0.09375 33 rrcurveto
+          0.04688 13 39.10938 41.89062 46.10938 38.85938 rrcurveto
+          82.1875 65.76562 2.01562 4 -41.96875 9.125 rrcurveto
+          -23.98438 5.0625 -42 2.125 -30 -2.92188 rrcurveto
+          -47.03125 -7.85938 0 -2 28.92188 -24.09375 rrcurveto
+          30.9375 -23.07812 -3.01562 -8 -68.17188 -59.79688 rrcurveto
+          -87.21875 -76.75 -68.14062 -47.8125 -10.96875 9.03125 rrcurveto
+          -3 4.01562 -9.70312 104.01562 -6.64062 125.03125 rrcurveto
+          -12.35938 224.03125 rlineto
+          -60 0.17188 rlineto
+          -35 0.09375 -28 -2.92188 -0.01562 -4 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="l">
+          312 49.07812 696.17188 rmoveto
+          -17.03125 -10.95312 -1.01562 -7 12 -0.03125 rrcurveto
+          11 -0.03125 23.95312 -13.07812 14.96875 -16.03125 rrcurveto
+          25.92188 -24.07812 2.85938 -52.01562 -1.625 -217.98438 rrcurveto
+          -0.75 -261 -2 -4 -46.10938 -35.875 rrcurveto
+          -52.10938 -40.84375 0 0 143.98438 -4.40625 rrcurveto
+          120.98438 -5.34375 18.01562 8.9375 -54.875 42.15625 rrcurveto
+          -39.90625 32.125 -1.98438 7 -1.1875 285 rrcurveto
+          0.45312 159 -6.59375 142.01562 -7.95312 13.03125 rrcurveto
+          -17.9375 25.04688 -83.98438 4.25 -39.07812 -25.89062 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="m">
+          1263 330.9375 483.57812 rmoveto
+          -81.15625 -54.78125 4 0 -12.875 45.03125 rrcurveto
+          -7.90625 32.03125 -15.98438 5.03125 -85 0.25 rrcurveto
+          -97.01562 -1.71875 rlineto
+          49.89062 -40.14062 rlineto
+          41.90625 -35.125 6.9375 -22.01562 3.73438 -94.01562 rrcurveto
+          8.39062 -213.03125 -7.09375 -32.96875 -50.07812 -23.85938 rrcurveto
+          -64.07812 -28.82812 37.9375 -22.09375 118 -0.34375 rrcurveto
+          121 -0.34375 30.0625 19.90625 -49.875 44.15625 rrcurveto
+          -41.89062 39.10938 -9.59375 145.03125 35.28125 96.90625 rrcurveto
+          28.21875 76.90625 97.17188 58.73438 87.96875 -7.25 rrcurveto
+          64.98438 -6.1875 6.98438 -5.01562 23.79688 -74.07812 rrcurveto
+          15.84375 -55.04688 3.82812 -60 -9.23438 -82.98438 rrcurveto
+          -11.29688 -102.96875 -7.0625 -19.96875 -39.04688 -16.89062 rrcurveto
+          -68.07812 -30.8125 39.96875 -11.10938 151.01562 5.5625 rrcurveto
+          132.01562 6.625 rlineto
+          -50.89062 40.14062 rlineto
+          -49.875 41.15625 -1.98438 5 11.34375 121.96875 rrcurveto
+          8.29688 105.96875 9.07812 27.98438 40.10938 34.875 rrcurveto
+          94.21875 79.73438 130.03125 7.64062 47.78125 -72.14062 rrcurveto
+          7.96875 -11.03125 6.78125 -77.01562 -0.23438 -83 rrcurveto
+          -0.39062 -141 -2.03125 -8.98438 -48.10938 -36.875 rrcurveto
+          -51.10938 -36.84375 rlineto
+          147 -2.42188 rlineto
+          147 -0.42188 rlineto
+          -53.875 43.15625 rlineto
+          -50.875 42.14062 -2 4.01562 13.32812 111.95312 rrcurveto
+          24.57812 204.9375 -73.6875 109.20312 -165 0.46875 rrcurveto
+          -70 0.20312 -25.03125 -10.92188 -57.15625 -53.84375 rrcurveto
+          -37.09375 -34.89062 -35.07812 -28.90625 -4 0.01562 rrcurveto
+          -3 0 -30.92188 29.09375 -33.90625 35.09375 rrcurveto
+          -52.84375 55.15625 -19.96875 10.0625 -70 0.1875 rrcurveto
+          -59 0.17188 -44.04688 -14.875 -47.07812 -30.85938 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="n">
+          769 340.46875 503.54688 rmoveto
+          -20.03125 -10.95312 -33.0625 -23.90625 -22.0625 -19.9375 rrcurveto
+          -39.09375 -34.89062 0 0 -30.875 47.09375 rrcurveto
+          -21.89062 35.0625 -23.96875 11.0625 -48 0.14062 rrcurveto
+          -71 0.20312 -13.07812 -24.96875 56.92188 -30.15625 rrcurveto
+          32.9375 -18.09375 3.95312 -20.01562 -0.5 -171 rrcurveto
+          -0.5 -176 -4.04688 -16.98438 -37.07812 -25.89062 rrcurveto
+          -24.03125 -13.9375 -14.04688 -16.95312 4.98438 -5.01562 rrcurveto
+          14.95312 -15.04688 261.07812 23.26562 0.03125 14 rrcurveto
+          0.03125 10 -23.96875 14.0625 -30.96875 11.09375 rrcurveto
+          -53.9375 19.14062 -2 3.01562 0.29688 103 rrcurveto
+          0.1875 65 13.1875 66.95312 20.10938 38.95312 rrcurveto
+          39.21875 76.89062 107.1875 60.6875 65.9375 -17.1875 rrcurveto
+          89.9375 -22.25 13.90625 -33.04688 -0.48438 -174 rrcurveto
+          -0.45312 -155 -1.01562 -7 -45.0625 -19.85938 rrcurveto
+          -82.10938 -38.76562 30.95312 -20.09375 143 -0.40625 rrcurveto
+          79 -0.23438 59.01562 6.84375 0.03125 11 rrcurveto
+          0.03125 11 -12.98438 8.03125 -15 0.04688 rrcurveto
+          -45 0.125 -18.8125 66.04688 0.46875 162 rrcurveto
+          0.4375 156 rlineto
+          -67.82812 55.20312 rlineto
+          -72.84375 60.20312 -91.95312 13.26562 -70.10938 -37.79688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="nine">
+          711 273.76562 738.42188 rmoveto
+          -144.95312 -46.14062 -93.90625 -99.07812 0.09375 -104 rrcurveto
+          0.14062 -155 231.10938 -103.78125 179.92188 75.17188 rrcurveto
+          97.96875 40.09375 27.01562 -19.98438 -30.90625 -94.03125 rrcurveto
+          -38.90625 -108.03125 -79.9375 -66.07812 -98 -0.09375 rrcurveto
+          -108 -0.09375 -48.01562 15.95312 -13.04688 42.98438 rrcurveto
+          -16.03125 48.98438 39.95312 44.03125 52.01562 -11.9375 rrcurveto
+          33 -9.96875 7 4 -7.01562 20 rrcurveto
+          -17.04688 41.98438 -57 10.9375 -56.98438 -27.04688 rrcurveto
+          -63.96875 -29.0625 -14.92188 -83.01562 50.04688 -52.95312 rrcurveto
+          140.15625 -157.875 300.90625 86.29688 91.79688 224.07812 rrcurveto
+          76.82812 187.07812 -35.17188 176.96875 -138.09375 103.85938 rrcurveto
+          -70.04688 51.9375 -115.03125 19.89062 -80.96875 -26.07812 rrcurveto
+          193.0625 -65.8125 rmoveto
+          68.03125 -32.9375 33.0625 -60.96875 0.07812 -88 rrcurveto
+          0.09375 -95 -97.9375 -66.09375 -145 -2.14062 rrcurveto
+          -73 -2.0625 -24.01562 8.96875 -42.03125 40.96875 rrcurveto
+          -67.0625 67.9375 -3.125 123 63.9375 68.0625 rrcurveto
+          63.9375 68.04688 122.98438 16.125 100.04688 -45.90625 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="o">
+          705 181.92188 451.3125 rmoveto
+          -123.20312 -70.65625 -46.23438 -86.85938 32.6875 -106.09375 rrcurveto
+          36.65625 -123.10938 133.73438 -92.39062 142 -0.39062 rrcurveto
+          135 1.60938 177.4375 149.5 0.32812 118 rrcurveto
+          0.375 131.98438 -157.625 129.45312 -164 2.46875 rrcurveto
+          -47 0.14062 -59.04688 -18.82812 -61.10938 -34.82812 rrcurveto
+          235 -2.67188 rmoveto
+          17 -0.04688 37.9375 -22.10938 31.92188 -25.09375 rrcurveto
+          50.875 -43.14062 5.96875 -14.01562 -0.28125 -96 rrcurveto
+          -0.35938 -126 -32.14062 -49.92188 -95.07812 -28.71875 rrcurveto
+          -142.125 -42.59375 -125.82812 61.35938 -27.65625 121.07812 rrcurveto
+          -26.64062 125.07812 38.25 85.89062 109.14062 47.6875 rrcurveto
+          31.03125 14.90625 40.03125 6.89062 19.98438 -5.0625 rrcurveto
+          20.98438 -6.0625 30.98438 -4.07812 16 -0.04688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="one">
+          373 190.875 679.89062 rmoveto
+          -25.96875 -28.03125 -43.96875 -40.03125 -30.96875 -24.03125 rrcurveto
+          -54.96875 -40.0625 rlineto
+          64 5.0625 rlineto
+          64.98438 4.0625 rlineto
+          5.21875 -227.98438 rlineto
+          4.1875 -193 -3.96875 -40 -25.96875 -28.03125 rrcurveto
+          -17.98438 -20.01562 -23.98438 -14.03125 -15 0 rrcurveto
+          -12 -0.01562 -10.98438 -10.01562 0 -11 rrcurveto
+          0.01562 -14 20 -1.98438 36 7.04688 rrcurveto
+          31.98438 6.01562 62 5.0625 44 0.04688 rrcurveto
+          83 0.07812 25.98438 26.01562 -65.01562 15.9375 rrcurveto
+          -35.01562 9.96875 -1.01562 16 -0.29688 316 rrcurveto
+          -0.17188 184 -6.14062 148 -9 -0.01562 rrcurveto
+          -7 0 -27.98438 -22.03125 -23.96875 -29.01562 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="p">
+          722 287.92188 465.01562 rmoveto
+          -92.1875 -65.75 4.01562 2 -12.875 46.03125 rrcurveto
+          -6.92188 29.01562 -16.96875 8.04688 -57 -1.82812 rrcurveto
+          -68 0.1875 -1 0 39.90625 -29.10938 rrcurveto
+          39.92188 -28.10938 1.96875 -11.01562 -0.76562 -271.98438 rrcurveto
+          -0.8125 -281 rlineto
+          -48.0625 -24.875 rlineto
+          -71.10938 -36.79688 39.96875 -13.10938 151.03125 12.5625 rrcurveto
+          130.03125 10.64062 rlineto
+          -54.90625 33.15625 rlineto
+          -50.90625 33.14062 -3.96875 9.01562 0.28125 103 rrcurveto
+          0.1875 61 5.14062 48.98438 10 -0.03125 rrcurveto
+          7 -0.01562 38.92188 -22.10938 39.9375 -24.125 rrcurveto
+          85.84375 -53.23438 68 -4.20312 88.10938 42.75 rrcurveto
+          85.10938 37.76562 49.25 84.85938 0.28125 99 rrcurveto
+          0.28125 101 -41.79688 71.10938 -85.85938 50.25 rrcurveto
+          -96.82812 55.28125 -85.01562 -4.76562 -90.20312 -66.73438 rrcurveto
+          254.875 -47.73438 rmoveto
+          38.875 -41.10938 4.9375 -22.01562 -5.26562 -96.98438 rrcurveto
+          -6.42188 -146.98438 -49.17188 -58.85938 -115.98438 4.32812 rrcurveto
+          -100.98438 5.29688 -56.89062 41.15625 -24.75 86.07812 rrcurveto
+          -25.76562 85.0625 26.28125 98.9375 62.17188 56.8125 rrcurveto
+          59.15625 56.82812 136.98438 -8.39062 56.82812 -60.15625 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="period">
+          191 39.01562 81.03125 rmoveto
+          -21.25 -57.90625 67.8125 -40.3125 48.20312 44.79688 rrcurveto
+          19.09375 21.90625 7.14062 28.96875 -6.9375 15.03125 rrcurveto
+          -26.8125 43.125 -69.03125 -7.70312 -18.21875 -47.90625 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="q">
+          749 223.51562 511.70312 rmoveto
+          -90.09375 -33.73438 -60.20312 -72.82812 -28.29688 -102.92188 rrcurveto
+          -16.20312 -70.95312 1.95312 -19.01562 32.79688 -71.09375 rrcurveto
+          76.54688 -158.21875 144.875 -43.40625 158.26562 91.54688 rrcurveto
+          79.125 47.78125 rlineto
+          -0.10938 -42 rlineto
+          -0.23438 -81 -39.28125 -98.89062 -38.0625 -19.89062 rrcurveto
+          -57.07812 -31.84375 45.9375 -18.125 133.98438 -4.39062 rrcurveto
+          170 -5.48438 -1 0.01562 -56.84375 59.15625 rrcurveto
+          -51.84375 53.14062 rlineto
+          2.89062 314 rlineto
+          0.5 172 -4.59375 142.01562 -10 0.03125 rrcurveto
+          -22 0.0625 -53.1875 -63.85938 -0.07812 -28 rrcurveto
+          -0.04688 -15 -23.96875 13.07812 -34.90625 33.09375 rrcurveto
+          -72.79688 68.20312 -89.95312 19.26562 -96.09375 -32.73438 rrcurveto
+          207.76562 -85.59375 rmoveto
+          80.875 -40.21875 21.85938 -52.0625 -17.29688 -103.95312 rrcurveto
+          -15.26562 -91.95312 -60.15625 -56.82812 -96.04688 -14.73438 rrcurveto
+          -112.04688 -15.67188 -54.89062 38.15625 -13.6875 107.03125 rrcurveto
+          -21.57812 147.0625 67.34375 120.8125 107 -0.3125 rrcurveto
+          22 -0.0625 52.9375 -17.14062 38.95312 -20.125 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="quoteright">
+          251 37.23438 709.20312 rmoveto
+          -7.98438 -24 14 -40 26.01562 -28.98438 rrcurveto
+          38 -43 3 -16 -26.98438 -32 rrcurveto
+          -63.98438 -81.01562 53 -28.98438 71.98438 72.01562 rrcurveto
+          77.98438 78.01562 15.98438 99 -53.01562 52.98438 rrcurveto
+          -46 46 -80 -5.01562 -22 -49.01562 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="r">
+          610 327 497.04688 rmoveto
+          -22.01562 -6.9375 -28.0625 -19.92188 -12.04688 -16.96875 rrcurveto
+          -34.10938 -37.89062 -17.98438 2.04688 -14.875 44.04688 rrcurveto
+          -8.92188 29.01562 -17.98438 7.0625 -61 0.17188 rrcurveto
+          -75 0.20312 rlineto
+          39.90625 -36.10938 rlineto
+          36.89062 -35.10938 3.9375 -22 -0.46875 -164 rrcurveto
+          -0.375 -134 -8.15625 -52.98438 -20.04688 -19.9375 rrcurveto
+          -22.07812 -23.9375 6 -4.01562 61.96875 -11.1875 rrcurveto
+          38.98438 -5.10938 51 1.85938 22.01562 6.9375 rrcurveto
+          42.04688 15.875 rlineto
+          -39.96875 10.125 rlineto
+          -34.96875 9.09375 -4.96875 14.01562 0.28125 96 rrcurveto
+          0.42188 152 27.23438 80.92188 70.15625 52.79688 rrcurveto
+          95.20312 71.73438 39.01562 5.89062 36.84375 -54.10938 rrcurveto
+          32.84375 -53.09375 -9.14062 -49.96875 -44 0.125 rrcurveto
+          -37 0.09375 1.92188 -29 35.95312 -15.10938 rrcurveto
+          73.92188 -27.20312 71.26562 91.79688 -35.79688 73.10938 rrcurveto
+          -34.79688 66.09375 -111.9375 26.3125 -92.10938 -38.73438 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="s">
+          596 105.8125 446.79688 rmoveto
+          -55.3125 -60.71875 -3.4375 -86.98438 49.78125 -42.25 rrcurveto
+          20.92188 -16.10938 87.875 -26.45312 86.90625 -16.4375 rrcurveto
+          171.84375 -32.85938 57.71875 -56.29688 -82.3125 -59.57812 rrcurveto
+          -66.23438 -47.67188 -63.96875 5.32812 -120.70312 61.60938 rrcurveto
+          -102.71875 53.51562 -66.01562 -2.67188 17.71875 -55.07812 rrcurveto
+          12.79688 -40.07812 227.71875 -56.14062 103.0625 12.46875 rrcurveto
+          84.04688 7.57812 95.39062 78.51562 0.32812 66 rrcurveto
+          0.32812 64 -102.6875 60.53125 -139.90625 19.70312 rrcurveto
+          -75.9375 11.375 -79.9375 15.40625 -17.92188 14.09375 rrcurveto
+          -55.82812 34.28125 21.3125 60.89062 77.14062 28.60938 rrcurveto
+          58.125 23.71875 31.96875 -6.17188 86.76562 -45.4375 rrcurveto
+          129.65625 -68.65625 15 -0.07812 0.3125 63 rrcurveto
+          0.17188 34 -17.90625 16.09375 -39.98438 3.20312 rrcurveto
+          -34 0.17188 -78.96875 8.39062 -65.9375 10.34375 rrcurveto
+          -97.9375 14.5 -32.03125 -7.84375 -37.20312 -39.8125 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="semicolon">
+          217 53.98438 472.28125 rmoveto
+          -37.1875 -34.8125 20.73438 -53.10938 50 -0.25 rrcurveto
+          34 -0.17188 19.09375 18.89062 0.17188 34 rrcurveto
+          0.26562 51 -52.89062 21.28125 -34.1875 -36.82812 rrcurveto
+          -10.07812 -409.95312 rmoveto
+          -11.07812 -15.95312 12.84375 -29.0625 23.92188 -16.125 rrcurveto
+          34.875 -26.17188 4.85938 -27.03125 -13.28125 -54.92188 rrcurveto
+          -19.34375 -68.90625 2.96875 -5.01562 39.17188 31.79688 rrcurveto
+          61.25 49.6875 19.39062 76.90625 -34.6875 63.17188 rrcurveto
+          -30.70312 58.15625 -60.9375 11.3125 -29.25 -47.84375 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="seven">
+          656 60.90625 692.75 rmoveto
+          -14.98438 -9.01562 -10.96875 -35.01562 0.04688 -46 rrcurveto
+          0.0625 -75 rlineto
+          41.95312 46.04688 rlineto
+          40.96875 44.03125 9 2.01562 183 -6.82812 rrcurveto
+          105 -3.90625 88.01562 -5.90625 4 -2 rrcurveto
+          2 -3 -23.96875 -42.03125 -34.9375 -52.03125 rrcurveto
+          -32.95312 -49.03125 -41.9375 -70.03125 -19.96875 -35.01562 rrcurveto
+          -18.96875 -35.03125 -25.95312 -42.01562 -11 -15.01562 rrcurveto
+          -10.98438 -15 -19.95312 -42.03125 -12.96875 -35 rrcurveto
+          -11.96875 -35.01562 -23.95312 -44.03125 -14.98438 -18 rrcurveto
+          -36.96875 -42.04688 15.01562 -10.98438 112.01562 -10.89062 rrcurveto
+          92 -9.92188 2 2.01562 -24.03125 36.96875 rrcurveto
+          -20.03125 30.98438 -0.01562 24 17.92188 72.01562 rrcurveto
+          25.92188 93.03125 166.67188 342.15625 45.95312 53.03125 rrcurveto
+          13.98438 17.01562 8.98438 18.01562 -3.01562 4 rrcurveto
+          -15 13.98438 -520.01562 5.5 -24.98438 -15.01562 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="six">
+          704 260.51562 692.10938 rmoveto
+          -74.95312 -34.0625 -107.89062 -123.10938 -27.92188 -85.01562 rrcurveto
+          -30.90625 -94.03125 20.15625 -177.98438 48.07812 -67.95312 rrcurveto
+          69.09375 -98.9375 76.03125 -37.92188 114 3.09375 rrcurveto
+          141 2.14062 95.9375 53.09375 54.90625 103.04688 rrcurveto
+          48.90625 96.04688 -7.04688 62 -75.07812 69.92188 rrcurveto
+          -92.07812 85.92188 -114.01562 14.89062 -153.95312 -52.15625 rrcurveto
+          -47.98438 -16.04688 -41.98438 -9.03125 -6 5 rrcurveto
+          -5.01562 5.98438 2.96875 37 10.96875 40.01562 rrcurveto
+          40.85938 145.04688 146.92188 83.125 137.04688 -43.85938 rrcurveto
+          116.03125 -38.89062 -8.89062 -121.01562 -118.03125 28.89062 rrcurveto
+          -40 10.96875 -4 -2.01562 24.01562 -26.96875 rrcurveto
+          35.04688 -41.96875 101 1.09375 38.95312 44.03125 rrcurveto
+          37.96875 45.04688 -11.04688 44.98438 -62.0625 58.9375 rrcurveto
+          -57.04688 52.95312 -186.01562 18.82812 -87.96875 -41.09375 rrcurveto
+          243.3125 -327.76562 rmoveto
+          58.04688 -47.95312 22.07812 -72.96875 -19.9375 -76.01562 rrcurveto
+          -59.78125 -227.0625 -381.04688 52.64062 -0.23438 237 rrcurveto
+          -0.0625 66 12.98438 22.01562 60.96875 31.04688 rrcurveto
+          100.95312 55.10938 149.98438 6.14062 56.04688 -45.95312 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="space">
+          300 endchar
+        </CharString>
+        <CharString name="t">
+          392 133.59375 636.14062 rmoveto
+          -0.125 -27 -29.21875 -46.85938 -32.15625 -31.84375 rrcurveto
+          -37.1875 -36.8125 -10.10938 -23.95312 20.96875 -7.10938 rrcurveto
+          20.96875 -6.09375 9.6875 -66.04688 -0.5 -103 rrcurveto
+          -0.9375 -195 47.59375 -85.23438 111 -0.53125 rrcurveto
+          50 -0.23438 37.09375 17.82812 19.17188 36.90625 rrcurveto
+          37.3125 66.8125 -28.79688 42.14062 -37.3125 -65.8125 rrcurveto
+          -32.26562 -55.85938 -87.01562 -1.57812 -20.73438 55.10938 rrcurveto
+          -31.59375 85.14062 17.14062 234.92188 39.15625 33.8125 rrcurveto
+          35.14062 28.82812 0.03125 8 -31.85938 27.15625 rrcurveto
+          -20.9375 16.10938 -23.79688 42.10938 -4.8125 37.03125 rrcurveto
+          -4.82812 37.01562 -7.95312 8.03125 -3.125 -23.98438 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="three">
+          693 222.21875 712.73438 rmoveto
+          -48.98438 -19.04688 -56.96875 -33.0625 -16.96875 -22.01562 rrcurveto
+          -39.96875 -48.03125 -1.89062 -102 39.03125 -38.96875 rrcurveto
+          33.03125 -34.96875 68 -3.9375 30.96875 32.03125 rrcurveto
+          32.96875 33.03125 -7.01562 18 -48 -0.04688 rrcurveto
+          -52 -0.04688 -42.03125 43.95312 14.95312 37.01562 rrcurveto
+          30.9375 81.03125 214.95312 49.20312 84.04688 -52.92188 rrcurveto
+          101.0625 -65.90625 -22.85938 -151.03125 -117.96875 -33.10938 rrcurveto
+          -37 -9.03125 -39.98438 -9.03125 -11 -0.01562 rrcurveto
+          -57 -0.04688 40.03125 -32.96875 68.01562 -10.9375 rrcurveto
+          110.01562 -18.89062 32.01562 -21.96875 14.0625 -72.98438 rrcurveto
+          24.125 -129.98438 -89.92188 -79.07812 -172 -0.17188 rrcurveto
+          -68 -0.0625 -26.01562 10.98438 -48.03125 45.95312 rrcurveto
+          -70.0625 67.92188 12.95312 45.01562 93.98438 10.09375 rrcurveto
+          73 7.0625 -0.03125 24 -75.01562 25.9375 rrcurveto
+          -51.01562 17.95312 -15 -2.01562 -39.96875 -29.04688 rrcurveto
+          -100.9375 -76.09375 58.14062 -151.9375 144.03125 -32.875 rrcurveto
+          167.04688 -38.82812 136.96875 28.125 99.90625 92.09375 rrcurveto
+          89.92188 86.07812 -0.07812 88 -92.07812 85.92188 rrcurveto
+          -65.0625 62.9375 rlineto
+          55.95312 57.04688 rlineto
+          30.96875 31.03125 25.95312 44.03125 -0.01562 22 rrcurveto
+          -0.09375 90 -109.0625 76.89062 -167.04688 34.84375 rrcurveto
+          -26 3.96875 -59.98438 -11.04688 -51.98438 -20.04688 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="two">
+          723 219.60938 722.96875 rmoveto
+          -162.9375 -59.15625 -69.84375 -176.0625 106.07812 -84.90625 rrcurveto
+          28.03125 -21.96875 42.01562 -15.95312 24 0.01562 rrcurveto
+          46 0.04688 105.90625 90.09375 -0.03125 36 rrcurveto
+          -0.03125 35 -32.98438 -13.03125 -12.96875 -38.01562 rrcurveto
+          -21.9375 -72.01562 -152.03125 41.85938 -0.07812 78 rrcurveto
+          -0.04688 53 39.95312 49.03125 60.96875 26.0625 rrcurveto
+          65.98438 28.0625 118.98438 7.10938 54.01562 -19.95312 rrcurveto
+          27.01562 -10.96875 74.125 -122.9375 0.03125 -36.98438 rrcurveto
+          0.04688 -46 -128.90625 -112.125 -127.9375 -64.125 rrcurveto
+          -143.92188 -72.14062 -138.89062 -128.125 16.04688 -42.98438 rrcurveto
+          8.01562 -18 75 -5.92188 231 2.21875 rrcurveto
+          167 2.15625 140 4.125 2 4 rrcurveto
+          15.96875 20.01562 9.82812 180.01562 -15 -0.01562 rrcurveto
+          -11 -0.01562 -6.98438 -8 0 -7 rrcurveto
+          0.01562 -9 -16.98438 -24.01562 -19.96875 -22.01562 rrcurveto
+          -34.96875 -37.03125 -20 -3.01562 -186 -0.1875 rrcurveto
+          -176 -0.15625 -26 2.96875 5.96875 26 rrcurveto
+          6.96875 37.01562 87.95312 49.07812 148.95312 53.14062 rrcurveto
+          118.96875 41.10938 146.875 130.14062 -0.0625 63 rrcurveto
+          -0.04688 55 -79.10938 100.92188 -68.03125 32.9375 rrcurveto
+          -95.03125 45.92188 -140.01562 10.85938 -85.96875 -33.07812 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="u">
+          771 473.875 500.5 rmoveto
+          -34.10938 -20.84375 4.96875 -8.01562 47.9375 -13.23438 rrcurveto
+          73.89062 -22.35938 17.75 -52.07812 -21.65625 -137.90625 rrcurveto
+          -18.64062 -131.90625 -32.15625 -33.84375 -124.10938 -20.40625 rrcurveto
+          -140.09375 -21.32812 -39.71875 59.1875 1.0625 221 rrcurveto
+          0.875 183 rlineto
+          -98 0.46875 rlineto
+          -84.01562 -2.59375 -8.01562 -4.96875 33.85938 -27.15625 rrcurveto
+          25.92188 -18.125 21.625 -77.10938 9.5 -105.04688 rrcurveto
+          27.73438 -262.14062 113.60938 -82.54688 201.48438 100.04688 rrcurveto
+          95.21875 46.53125 18.01562 2.92188 18.82812 -35.09375 rrcurveto
+          23.8125 -42.10938 125.9375 -13.60938 0.1875 40 rrcurveto
+          0.0625 13 -12.92188 16.0625 -15.98438 5.07812 rrcurveto
+          -12.96875 5.0625 -20.53125 98.09375 -7.45312 116.04688 rrcurveto
+          -7.4375 116.03125 -20.5 104.09375 -15.95312 10.07812 rrcurveto
+          -38.85938 29.1875 -61.01562 -1.70312 -48.14062 -31.76562 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="v">
+          678 35.75 486.59375 rmoveto
+          -5.04688 -10.96875 20.89062 -23.10938 33.875 -24.15625 rrcurveto
+          31.90625 -21.15625 73.51562 -101.35938 57.48438 -105.26562 rrcurveto
+          57.51562 -103.28125 60.59375 -85.29688 16 -0.07812 rrcurveto
+          15 -0.0625 45.375 78.78125 43.45312 94.79688 rrcurveto
+          42.46875 97.79688 55.5 105.73438 27.15625 31.85938 rrcurveto
+          47.29688 59.78125 -2 0.01562 -78.95312 11.375 rrcurveto
+          -42.95312 8.20312 -42.03125 -4.79688 -8.0625 -13.96875 rrcurveto
+          -8.04688 -9.95312 7.9375 -11.04688 13 -0.0625 rrcurveto
+          16 -0.0625 12.92188 -18.0625 -0.10938 -21 rrcurveto
+          -0.26562 -56 -100.9375 -194.53125 -29 0.14062 rrcurveto
+          -29 0.14062 -131.03125 200.64062 0.23438 48 rrcurveto
+          0.09375 21 15.10938 20.92188 19.03125 7.90625 rrcurveto
+          16.01562 4.92188 -41.9375 11.20312 -68.98438 5.32812 rrcurveto
+          -70.96875 6.34375 -64.01562 -2.6875 -5.03125 -7.98438 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="w">
+          1328 64.09375 464.54688 rmoveto
+          31.92188 -16.15625 94.45312 -113.45312 81.42188 -122.39062 rrcurveto
+          81.42188 -121.40625 78.53125 -96.375 13.03125 5.9375 rrcurveto
+          11.01562 1.95312 45.39062 81.78125 42.4375 92.79688 rrcurveto
+          43.45312 91.79688 42.39062 81.79688 13.01562 2.9375 rrcurveto
+          11.01562 4.95312 62.60938 -82.3125 60.5 -103.28125 rrcurveto
+          62.53125 -100.3125 65.60938 -80.3125 13.01562 2.9375 rrcurveto
+          16.01562 4.92188 58.40625 81.71875 53.4375 92.75 rrcurveto
+          56.45312 94.73438 76.51562 107.625 40.20312 42.8125 rrcurveto
+          74.34375 70.64062 rlineto
+          -124 0.59375 rlineto
+          -111 0.54688 -8.01562 -4.96875 25.79688 -43.125 rrcurveto
+          26.79688 -42.125 -8.15625 -31.96875 -61.53125 -110.70312 rrcurveto
+          -42.375 -75.79688 -45.28125 -60.78125 -16 0.07812 rrcurveto
+          -16 0.07812 -54.6875 66.25 -47.59375 85.23438 rrcurveto
+          -83.32812 140.40625 -2.95312 10.01562 45.17188 34.78125 rrcurveto
+          45.14062 28.78125 -12.98438 5.0625 -137.98438 0.65625 rrcurveto
+          -140 0.67188 -10.01562 -2.95312 46.82812 -34.21875 rrcurveto
+          49.82812 -37.23438 -2.01562 -3 -69.6875 -144.65625 rrcurveto
+          -40.40625 -81.8125 -45.3125 -65.78125 -10 0.04688 rrcurveto
+          -27 0.125 -188.67188 277.90625 0.1875 37 rrcurveto
+          0.0625 14 16.07812 17.92188 18.03125 4.92188 rrcurveto
+          16.03125 7.92188 -49.96875 6.23438 -78.98438 2.375 rrcurveto
+          -124 0.59375 -14.01562 -4.92188 52.875 -24.25 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="x">
+          745 35 499.39062 rmoveto
+          0.14062 -15 10.125 -12.90625 16 0.15625 rrcurveto
+          45 0.45312 185.78125 -181.20312 0.4375 -43.98438 rrcurveto
+          0.45312 -46 -100.95312 -108 -88.53125 -48.875 rrcurveto
+          -43.73438 -26.42188 16.01562 -1.84375 112.03125 -1.90625 rrcurveto
+          124.98438 1.23438 4.96875 3.04688 -28.4375 44.71875 rrcurveto
+          -23.375 38.78125 2.82812 18.01562 34.64062 35.34375 rrcurveto
+          22.78125 23.23438 35.84375 16.34375 21.07812 -7.79688 rrcurveto
+          45.17188 -17.54688 58 -101.4375 -39 -0.39062 rrcurveto
+          -12 -0.10938 -12.90625 -10.14062 0.15625 -14.98438 rrcurveto
+          0.15625 -16 69.09375 -9.32812 91.98438 0.90625 rrcurveto
+          129.96875 4.26562 17.95312 5.17188 -41.21875 22.60938 rrcurveto
+          -72.375 37.28125 -121.09375 110.82812 -30.57812 58.70312 rrcurveto
+          -21.34375 35.78125 10.75 25.10938 55.42188 59.54688 rrcurveto
+          37.59375 41.375 47.67188 33.46875 18 0.17188 rrcurveto
+          18 0.17188 15.875 13.15625 -0.125 12 rrcurveto
+          -0.15625 16 -54.09375 9.46875 -64 -0.625 rrcurveto
+          -96.98438 -0.9375 -14.92188 -8.15625 23.23438 -24.76562 rrcurveto
+          20.26562 -25.8125 -1.78125 -23.01562 -27.65625 -35.26562 rrcurveto
+          -27.60938 -39.28125 -15.95312 -5.15625 -38.23438 22.625 rrcurveto
+          -26.17188 17.75 -20.34375 35.79688 2.70312 30.03125 rrcurveto
+          -0.32812 33 -16.20312 20.84375 -23 -0.23438 rrcurveto
+          -23 -0.21875 -61.07812 7.40625 -51.0625 6.5 rrcurveto
+          -64.125 12.375 -32.95312 -5.32812 0.21875 -21 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="y">
+          661 38.78125 492.92188 rmoveto
+          -8.03125 -9.96875 4.96875 -11.03125 16 -0.04688 rrcurveto
+          16 -0.0625 41.79688 -55.14062 39.76562 -69.14062 rrcurveto
+          38.75 -72.125 57.65625 -100.20312 34.8125 -53.125 rrcurveto
+          94.5 -148.32812 -21.39062 -110.92188 -124 0.42188 rrcurveto
+          -37 0.14062 -10.95312 13.03125 11.14062 39.96875 rrcurveto
+          15.20312 57.9375 -46.95312 13.17188 -50.17188 -49.82812 rrcurveto
+          -45.15625 -44.84375 4.92188 -23.01562 70.84375 -45.25 rrcurveto
+          131.6875 -88.45312 88.35938 102.6875 143.4375 417.51562 rrcurveto
+          29.28125 78.89062 43.29688 86.85938 23.09375 26.92188 rrcurveto
+          40.15625 44.85938 -3 2 -81 0.28125 rrcurveto
+          -69 0.25 -13.01562 -6.96875 12.875 -37.03125 rrcurveto
+          17.84375 -45.0625 -71.84375 -242.76562 -37.07812 -23.85938 rrcurveto
+          -29.07812 -18.90625 -159.95312 299.54688 16.125 38.95312 rrcurveto
+          13.125 36.95312 -176.89062 30.60938 -21.125 -34.92188 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="z">
+          552 48.85938 453.625 rmoveto
+          -7.79688 -20.07812 3.26562 -27.96875 13.17188 -17.875 rrcurveto
+          12.26562 -25.875 9.96875 3.09375 10.70312 30.10938 rrcurveto
+          17.5625 44.17188 203.8125 20 0.4375 -44 rrcurveto
+          0.10938 -12 -63.15625 -85.625 -76.09375 -92.75 rrcurveto
+          -75.125 -89.73438 -63.125 -89.625 0.14062 -15 rrcurveto
+          0.21875 -21 69.0625 -7.32812 167.9375 7.65625 rrcurveto
+          224.92188 9.20312 9.96875 3.09375 7.45312 56.07812 rrcurveto
+          6.45312 56.0625 -2.03125 2.98438 -55.67188 -34.54688 rrcurveto
+          -71.59375 -40.70312 -182.96875 -4.79688 -13.40625 40.875 rrcurveto
+          -5.14062 14.95312 62.14062 87.60938 84.09375 92.82812 rrcurveto
+          85.125 89.84375 68.20312 82.67188 -0.10938 10 rrcurveto
+          -0.07812 7.98438 -97.0625 6.0625 -116.98438 -1.15625 rrcurveto
+          -156 -1.53125 -60.89062 -10.59375 -9.78125 -23.09375 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="zero">
+          789 198.46875 676.8125 rmoveto
+          -217.84375 -167.20312 0.26562 -288 216.14062 -152.79688 rrcurveto
+          99.0625 -67.90625 146.01562 -17.85938 92.96875 48.07812 rrcurveto
+          142.92188 73.14062 75.90625 107.0625 -0.125 132 rrcurveto
+          -0.10938 105 -41.09375 96.96875 -75.0625 78.92188 rrcurveto
+          -83.09375 87.92188 -60.01562 25.95312 -116 -0.10938 rrcurveto
+          -84 -0.07812 -28 -9.03125 -67.9375 -52.0625 rrcurveto
+          356.04688 -52.67188 rmoveto
+          83.09375 -107.92188 22.21875 -235.96875 -61.89062 -108.0625 rrcurveto
+          -86.85938 -145.07812 -215 -7.20312 -97.125 138.90625 rrcurveto
+          -119.17188 172.89062 92.6875 334.07812 172.98438 20.17188 rrcurveto
+          82.98438 11.07812 92.03125 -26.92188 34.04688 -45.96875 rrcurveto
+          endchar
+        </CharString>
+      </CharStrings>
+    </CFFFont>
+
+    <GlobalSubrs>
+      <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+    </GlobalSubrs>
+  </CFF>
+
+  <hmtx>
+    <mtx name=".notdef" width="600" lsb="60"/>
+    <mtx name="A" width="937" lsb="35"/>
+    <mtx name="B" width="861" lsb="35"/>
+    <mtx name="C" width="804" lsb="35"/>
+    <mtx name="D" width="919" lsb="35"/>
+    <mtx name="E" width="854" lsb="35"/>
+    <mtx name="F" width="829" lsb="35"/>
+    <mtx name="G" width="882" lsb="35"/>
+    <mtx name="H" width="1023" lsb="35"/>
+    <mtx name="I" width="348" lsb="35"/>
+    <mtx name="J" width="504" lsb="35"/>
+    <mtx name="K" width="1025" lsb="35"/>
+    <mtx name="L" width="842" lsb="35"/>
+    <mtx name="M" width="1126" lsb="35"/>
+    <mtx name="N" width="915" lsb="35"/>
+    <mtx name="O" width="935" lsb="35"/>
+    <mtx name="P" width="878" lsb="35"/>
+    <mtx name="Q" width="996" lsb="35"/>
+    <mtx name="R" width="903" lsb="35"/>
+    <mtx name="S" width="758" lsb="35"/>
+    <mtx name="T" width="886" lsb="35"/>
+    <mtx name="U" width="895" lsb="35"/>
+    <mtx name="V" width="938" lsb="35"/>
+    <mtx name="W" width="1456" lsb="35"/>
+    <mtx name="X" width="999" lsb="35"/>
+    <mtx name="Y" width="850" lsb="35"/>
+    <mtx name="Z" width="728" lsb="35"/>
+    <mtx name="a" width="717" lsb="35"/>
+    <mtx name="b" width="731" lsb="35"/>
+    <mtx name="c" width="599" lsb="35"/>
+    <mtx name="comma" width="217" lsb="35"/>
+    <mtx name="d" width="747" lsb="35"/>
+    <mtx name="e" width="621" lsb="35"/>
+    <mtx name="eight" width="707" lsb="35"/>
+    <mtx name="emdash" width="1033" lsb="35"/>
+    <mtx name="f" width="512" lsb="35"/>
+    <mtx name="five" width="694" lsb="35"/>
+    <mtx name="four" width="693" lsb="35"/>
+    <mtx name="g" width="670" lsb="35"/>
+    <mtx name="h" width="762" lsb="35"/>
+    <mtx name="hyphen" width="491" lsb="35"/>
+    <mtx name="i" width="233" lsb="35"/>
+    <mtx name="j" width="389" lsb="35"/>
+    <mtx name="k" width="706" lsb="35"/>
+    <mtx name="l" width="312" lsb="35"/>
+    <mtx name="m" width="1263" lsb="35"/>
+    <mtx name="n" width="769" lsb="35"/>
+    <mtx name="nine" width="711" lsb="35"/>
+    <mtx name="o" width="705" lsb="35"/>
+    <mtx name="one" width="373" lsb="35"/>
+    <mtx name="p" width="722" lsb="35"/>
+    <mtx name="period" width="191" lsb="35"/>
+    <mtx name="q" width="749" lsb="35"/>
+    <mtx name="quoteright" width="251" lsb="35"/>
+    <mtx name="r" width="610" lsb="35"/>
+    <mtx name="s" width="596" lsb="35"/>
+    <mtx name="semicolon" width="217" lsb="35"/>
+    <mtx name="seven" width="656" lsb="35"/>
+    <mtx name="six" width="704" lsb="35"/>
+    <mtx name="space" width="300" lsb="0"/>
+    <mtx name="t" width="392" lsb="35"/>
+    <mtx name="three" width="693" lsb="35"/>
+    <mtx name="two" width="723" lsb="35"/>
+    <mtx name="u" width="771" lsb="35"/>
+    <mtx name="v" width="678" lsb="35"/>
+    <mtx name="w" width="1328" lsb="35"/>
+    <mtx name="x" width="745" lsb="35"/>
+    <mtx name="y" width="661" lsb="35"/>
+    <mtx name="z" width="552" lsb="35"/>
+    <mtx name="zero" width="789" lsb="35"/>
+  </hmtx>
+
+</ttFont>

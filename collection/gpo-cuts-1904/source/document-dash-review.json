@@ -1,0 +1,1316 @@
+{
+  "schema_version": 1,
+  "native_file": "reference/gpo-document-1904-leaf-137.png",
+  "original_file": "reference/gpo-document-1904-leaf-137.jp2",
+  "original_sha256": "1b7b1c5cd6856b0993dff9f960f836bb48309618d6eeeecc4477a3b10ec6e3a2",
+  "entries": [
+    {
+      "letter": "H",
+      "id": "gpo-1904-diamond-bead-rule",
+      "name": "Diamond and two beads on a fine rule",
+      "glyph": "uniE244",
+      "codepoint": "E244",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1550,
+        3403,
+        2065,
+        3436
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.00484080597764965,
+        "rotation_degrees": -0.2773555855128716,
+        "residual_std": 0.1694411176931256,
+        "sample_count": 185
+      },
+      "bounds": [
+        64.26919867642735,
+        860.0153808615826,
+        1864.180824662049,
+        940.0415679953285
+      ],
+      "recipe": {
+        "file": "reference/dash-H-sampling-4.png",
+        "box": [
+          0,
+          0,
+          2060,
+          132
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 205,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.999988283504661,
+          -0.004840749260368976,
+          0.004840749260368976,
+          0.999988283504661,
+          -4.345379632825265,
+          4.677027132800845
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 205,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 256,
+      "identity_reason": "A and H share the central diamond and two side beads; arbitrary outer line length is not a new design. H has the more continuous plain arms. Native ink variation and the small left bead-to-diamond gap remain.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "B",
+      "id": "gpo-1904-oval-bead-rule",
+      "name": "Pointed oval and two beads on a fine rule",
+      "glyph": "uniE245",
+      "codepoint": "E245",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        745,
+        3334,
+        1098,
+        3365
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.008888617286086423,
+        "rotation_degrees": -0.5092668445126716,
+        "residual_std": 0.24152922391718046,
+        "sample_count": 124
+      },
+      "bounds": [
+        63.82572665863056,
+        843.828909613873,
+        1863.9954235434561,
+        955.9286744584437
+      ],
+      "recipe": {
+        "file": "reference/dash-B-sampling-4.png",
+        "box": [
+          0,
+          0,
+          1412,
+          124
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 220,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999604985820371,
+          -0.008888266173099893,
+          0.008888266173099893,
+          0.9999604985820371,
+          -7.961360188873668,
+          8.603839867034935
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 220,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 256,
+      "identity_reason": "The two separate side beads distinguish this from the existing bare oval dashes. Higher threshold recovers weak observed left-arm ink; a small native gap remains.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "C",
+      "id": "gpo-1904-compact-diamond-rule",
+      "name": "Compact diamond on a fine rule",
+      "glyph": "uniE246",
+      "codepoint": "E246",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        720,
+        3411,
+        1115,
+        3440
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.011250396419695705,
+        "rotation_degrees": -0.6445730387739678,
+        "residual_std": 0.17962453688121255,
+        "sample_count": 138
+      },
+      "bounds": [
+        63.95000929425668,
+        839.0771335910619,
+        1864.0625,
+        960.9844680655975
+      ],
+      "recipe": {
+        "file": "reference/dash-C-sampling-4.png",
+        "box": [
+          0,
+          0,
+          1580,
+          116
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 185,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999367202971878,
+          -0.011249684497953749,
+          0.011249684497953749,
+          0.9999367202971878,
+          -10.06371441464742,
+          10.901647588558376
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 160,
+            "secondary": 185,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 256,
+      "identity_reason": "Compact diamond with relatively steep sides on a fine line. The Boston No80 has a much narrower upright point; the Baltimore diamonds have broader horizontal lozenges and broad tapered joins. These are optical contour differences, not merely arbitrary line lengths.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "D",
+      "id": "gpo-1904-round-bead-collar-rule",
+      "name": "Round bead with flared collars on a fine rule",
+      "glyph": "uniE247",
+      "codepoint": "E247",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        640,
+        3488,
+        1195,
+        3520
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.008974503570299398,
+        "rotation_degrees": -0.5141873735888698,
+        "residual_std": 0.2233352500279561,
+        "sample_count": 214
+      },
+      "bounds": [
+        63.967174551526305,
+        857.2432210879634,
+        1864.0154485565959,
+        942.0149534794972
+      ],
+      "recipe": {
+        "file": "reference/dash-D-sampling-4.png",
+        "box": [
+          0,
+          0,
+          2220,
+          128
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 185,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.999959731575283,
+          -0.008974142181178004,
+          0.008974142181178004,
+          0.999959731575283,
+          -8.037909201632953,
+          8.68731464490088
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 160,
+            "secondary": 185,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 512,
+      "identity_reason": "Round central bead with flared collars and smaller outer flares. No matching construction in the native comparison atlas.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "E",
+      "id": "gpo-1904-oval-bead-wedge-rule",
+      "name": "Pointed oval with alternating beads and wedges",
+      "glyph": "uniE248",
+      "codepoint": "E248",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        595,
+        3565,
+        1240,
+        3602
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.018213924853867747,
+        "rotation_degrees": -1.0434656438152403,
+        "residual_std": 0.23338147926291727,
+        "sample_count": 246
+      },
+      "bounds": [
+        63.8320554482451,
+        870.3756660015871,
+        1864.401259160645,
+        929.5045559901383
+      ],
+      "recipe": {
+        "file": "reference/dash-E-sampling-4.png",
+        "box": [
+          0,
+          0,
+          2580,
+          148
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 220,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9998341677303441,
+          -0.01821090439736989,
+          0.01821090439736989,
+          0.9998341677303441,
+          -16.229951649684615,
+          17.7045608817549
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 220,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 512,
+      "identity_reason": "Pointed oval, small inner wedges, paired larger wedges and beads, with long tapered outer shoulders. Higher threshold recovers weak right-arm ink.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "F",
+      "id": "gpo-1904-oval-flared-shoulder-rule",
+      "name": "Pointed oval and beads between flared shoulders",
+      "glyph": "uniE249",
+      "codepoint": "E249",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1580,
+        3250,
+        2045,
+        3280
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.007420976809856737,
+        "rotation_degrees": -0.4251828461169856,
+        "residual_std": 0.1881351639358189,
+        "sample_count": 168
+      },
+      "bounds": [
+        63.9992893606193,
+        854.3912201197934,
+        1864.088292027604,
+        948.2111434999392
+      ],
+      "recipe": {
+        "file": "reference/dash-F-sampling-4.png",
+        "box": [
+          0,
+          0,
+          1860,
+          120
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 185,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.999972465688843,
+          -0.007420772478372166,
+          0.007420772478372166,
+          0.999972465688843,
+          -6.652152154579575,
+          7.178405549192007
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 160,
+            "secondary": 185,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 256,
+      "identity_reason": "The beads are rounded and the outer shoulders flare sharply beside them. Baltimore long-primer23 has angular diamond beads and elongated polygonal lance ends; long-primer24 omits the beads.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "G",
+      "id": "gpo-1904-diamond-flared-shoulder-rule",
+      "name": "Diamond and beads between flared shoulders",
+      "glyph": "uniE24A",
+      "codepoint": "E24A",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1565,
+        3326,
+        2055,
+        3356
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.012355083617564514,
+        "rotation_degrees": -0.7078581305528757,
+        "residual_std": 0.2212332328990801,
+        "sample_count": 178
+      },
+      "bounds": [
+        64.04086664885168,
+        857.587890625,
+        1864.1257286667935,
+        946.9163063443309
+      ],
+      "recipe": {
+        "file": "reference/dash-G-sampling-4.png",
+        "box": [
+          0,
+          0,
+          1960,
+          120
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 185,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.99992368469133,
+          -0.012354140735544597,
+          0.012354140735544597,
+          0.99992368469133,
+          -11.045158704432254,
+          11.978075446868047
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 160,
+            "secondary": 185,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 256,
+      "identity_reason": "Central diamond, two side beads and sharply flared outer shoulders form a construction distinct from the simpler A/H and the oval F.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "K",
+      "id": "gpo-1904-three-bead-tapered-rule",
+      "name": "Three beads between long tapered shoulders",
+      "glyph": "uniE24B",
+      "codepoint": "E24B",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1465,
+        3481,
+        2160,
+        3514
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.0038217898751740204,
+        "rotation_degrees": -0.21897136393319064,
+        "residual_std": 0.2927385596691009,
+        "sample_count": 270
+      },
+      "bounds": [
+        63.981940226672705,
+        864.240130570393,
+        1863.7636832304916,
+        935.5874409568942
+      ],
+      "recipe": {
+        "file": "reference/dash-K-sampling-4.png",
+        "box": [
+          0,
+          0,
+          2780,
+          132
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 185,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999926970410756,
+          -0.0038217619647995444,
+          0.0038217619647995444,
+          0.9999926970410756,
+          -3.432545715916477,
+          3.6907511970987343
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 160,
+            "secondary": 185,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 512,
+      "identity_reason": "Three round beads, intermediate flared collars and long tapered outer shoulders; existing ring-and-arrow and three-bead dashes have different hollow forms and terminal outlines.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "L",
+      "id": "gpo-1904-oval-triangular-shoulder-rule",
+      "name": "Pointed oval with beads and paired triangular shoulders",
+      "glyph": "uniE24C",
+      "codepoint": "E24C",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1470,
+        3561,
+        2160,
+        3594
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.004905784652728641,
+        "rotation_degrees": -0.2810785009363945,
+        "residual_std": 0.18167357311219243,
+        "sample_count": 269
+      },
+      "bounds": [
+        63.999285968178896,
+        864.6262792282528,
+        1863.7639557168138,
+        935.03125
+      ],
+      "recipe": {
+        "file": "reference/dash-L-sampling-4.png",
+        "box": [
+          0,
+          0,
+          2760,
+          132
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 185,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999879668556688,
+          -0.004905725620713857,
+          0.004905725620713857,
+          0.9999879668556688,
+          -4.40355310750719,
+          4.739949328266221
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 160,
+            "secondary": 185,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 512,
+      "identity_reason": "Pointed oval with side beads and paired triangular shoulders on each side; distinct from the round center and collar sequence of D/K.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    },
+    {
+      "letter": "M",
+      "id": "gpo-1904-long-spindle-rule",
+      "name": "Long spindle on a fine rule",
+      "glyph": "uniE24D",
+      "codepoint": "E24D",
+      "source_index": 63,
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "native_box": [
+        1020,
+        3640,
+        1720,
+        3670
+      ],
+      "sampling_factor": 4,
+      "alignment": {
+        "method": "Robust fit to native grayscale centroids along both outer plain arms; terminals and central ornament excluded. One rigid rotation, no independent-axis scaling.",
+        "native_slope": -0.008447322862618966,
+        "rotation_degrees": -0.48398443649648787,
+        "residual_std": 0.17774492547441215,
+        "sample_count": 271
+      },
+      "bounds": [
+        63.96856642241632,
+        871.1813567263346,
+        1864.0,
+        928.9122115703307
+      ],
+      "recipe": {
+        "file": "reference/dash-M-sampling-4.png",
+        "box": [
+          0,
+          0,
+          2800,
+          120
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 205,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 48,
+        "blur": 0,
+        "component_min_area": 16,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "alphamax": 1.334,
+        "post_trace_transform": [
+          0.9999643232775609,
+          -0.008447021489825842,
+          0.008447021489825842,
+          0.9999643232775609,
+          -7.56792698041196,
+          8.17503776638739
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 205,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete observed Document Room ornamental dash. Fourfold bilinear grayscale sampling adds no source detail. A 48-sample-pixel local paper correction supports the fine ink. Uniform scaling and one measured rigid arm rotation preserve native proportions; native weak ink is retained. See document-dash-review.json."
+      },
+      "recommended_min_px": 256,
+      "identity_reason": "Long, shallow spindle with gradual tapered joins to a fine rule; existing oval dashes have much broader curved oval centers and abrupt joins.",
+      "quality_todo": "Seek sharper complete matching impressions during remaining surveys. Retain native line variation and residual weak ink; no synthetic line, mirrored side, copied bead or filled gap is substituted."
+    }
+  ],
+  "witnesses": [
+    {
+      "candidate_id": "gpo-document-1904:dash-A",
+      "key": "dash-A",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        740,
+        3259,
+        1110,
+        3292
+      ],
+      "role": "named ornamental dash",
+      "status": "repeat",
+      "printed_number": "A",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-diamond-bead-rule",
+      "identity_review": "A and H share the central diamond and two side beads; arbitrary outer line length is not a new design. H has the more continuous plain arms. Native ink variation and the small left bead-to-diamond gap remain.",
+      "icon_id": "gpo-1904-diamond-bead-rule",
+      "codepoint": "E244",
+      "name": "Diamond and two beads on a fine rule",
+      "source_index": 63,
+      "reason": "A and H share the central diamond and two side beads; arbitrary outer line length is not a new design. H has the more continuous plain arms. Native ink variation and the small left bead-to-diamond gap remain.",
+      "duplicate_of": "gpo-1904-diamond-bead-rule"
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-H",
+      "key": "dash-H",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1550,
+        3403,
+        2065,
+        3436
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "H",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-diamond-bead-rule",
+      "identity_review": "A and H share the central diamond and two side beads; arbitrary outer line length is not a new design. H has the more continuous plain arms. Native ink variation and the small left bead-to-diamond gap remain.",
+      "icon_id": "gpo-1904-diamond-bead-rule",
+      "codepoint": "E244",
+      "name": "Diamond and two beads on a fine rule",
+      "source_index": 63,
+      "reason": "A and H share the central diamond and two side beads; arbitrary outer line length is not a new design. H has the more continuous plain arms. Native ink variation and the small left bead-to-diamond gap remain."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-B",
+      "key": "dash-B",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        745,
+        3334,
+        1098,
+        3365
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "B",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-oval-bead-rule",
+      "identity_review": "The two separate side beads distinguish this from the existing bare oval dashes. Higher threshold recovers weak observed left-arm ink; a small native gap remains.",
+      "icon_id": "gpo-1904-oval-bead-rule",
+      "codepoint": "E245",
+      "name": "Pointed oval and two beads on a fine rule",
+      "source_index": 63,
+      "reason": "The two separate side beads distinguish this from the existing bare oval dashes. Higher threshold recovers weak observed left-arm ink; a small native gap remains."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-C",
+      "key": "dash-C",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        720,
+        3411,
+        1115,
+        3440
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "C",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-compact-diamond-rule",
+      "identity_review": "Compact diamond with relatively steep sides on a fine line. The Boston No80 has a much narrower upright point; the Baltimore diamonds have broader horizontal lozenges and broad tapered joins. These are optical contour differences, not merely arbitrary line lengths.",
+      "icon_id": "gpo-1904-compact-diamond-rule",
+      "codepoint": "E246",
+      "name": "Compact diamond on a fine rule",
+      "source_index": 63,
+      "reason": "Compact diamond with relatively steep sides on a fine line. The Boston No80 has a much narrower upright point; the Baltimore diamonds have broader horizontal lozenges and broad tapered joins. These are optical contour differences, not merely arbitrary line lengths."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-D",
+      "key": "dash-D",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        640,
+        3488,
+        1195,
+        3520
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "D",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-round-bead-collar-rule",
+      "identity_review": "Round central bead with flared collars and smaller outer flares. No matching construction in the native comparison atlas.",
+      "icon_id": "gpo-1904-round-bead-collar-rule",
+      "codepoint": "E247",
+      "name": "Round bead with flared collars on a fine rule",
+      "source_index": 63,
+      "reason": "Round central bead with flared collars and smaller outer flares. No matching construction in the native comparison atlas."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-E",
+      "key": "dash-E",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        595,
+        3565,
+        1240,
+        3602
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "E",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-oval-bead-wedge-rule",
+      "identity_review": "Pointed oval, small inner wedges, paired larger wedges and beads, with long tapered outer shoulders. Higher threshold recovers weak right-arm ink.",
+      "icon_id": "gpo-1904-oval-bead-wedge-rule",
+      "codepoint": "E248",
+      "name": "Pointed oval with alternating beads and wedges",
+      "source_index": 63,
+      "reason": "Pointed oval, small inner wedges, paired larger wedges and beads, with long tapered outer shoulders. Higher threshold recovers weak right-arm ink."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-F",
+      "key": "dash-F",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1580,
+        3250,
+        2045,
+        3280
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "F",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-oval-flared-shoulder-rule",
+      "identity_review": "The beads are rounded and the outer shoulders flare sharply beside them. Baltimore long-primer23 has angular diamond beads and elongated polygonal lance ends; long-primer24 omits the beads.",
+      "icon_id": "gpo-1904-oval-flared-shoulder-rule",
+      "codepoint": "E249",
+      "name": "Pointed oval and beads between flared shoulders",
+      "source_index": 63,
+      "reason": "The beads are rounded and the outer shoulders flare sharply beside them. Baltimore long-primer23 has angular diamond beads and elongated polygonal lance ends; long-primer24 omits the beads."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-G",
+      "key": "dash-G",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1565,
+        3326,
+        2055,
+        3356
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "G",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-diamond-flared-shoulder-rule",
+      "identity_review": "Central diamond, two side beads and sharply flared outer shoulders form a construction distinct from the simpler A/H and the oval F.",
+      "icon_id": "gpo-1904-diamond-flared-shoulder-rule",
+      "codepoint": "E24A",
+      "name": "Diamond and beads between flared shoulders",
+      "source_index": 63,
+      "reason": "Central diamond, two side beads and sharply flared outer shoulders form a construction distinct from the simpler A/H and the oval F."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-K",
+      "key": "dash-K",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1465,
+        3481,
+        2160,
+        3514
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "K",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-three-bead-tapered-rule",
+      "identity_review": "Three round beads, intermediate flared collars and long tapered outer shoulders; existing ring-and-arrow and three-bead dashes have different hollow forms and terminal outlines.",
+      "icon_id": "gpo-1904-three-bead-tapered-rule",
+      "codepoint": "E24B",
+      "name": "Three beads between long tapered shoulders",
+      "source_index": 63,
+      "reason": "Three round beads, intermediate flared collars and long tapered outer shoulders; existing ring-and-arrow and three-bead dashes have different hollow forms and terminal outlines."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-L",
+      "key": "dash-L",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1470,
+        3561,
+        2160,
+        3594
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "L",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-oval-triangular-shoulder-rule",
+      "identity_review": "Pointed oval with side beads and paired triangular shoulders on each side; distinct from the round center and collar sequence of D/K.",
+      "icon_id": "gpo-1904-oval-triangular-shoulder-rule",
+      "codepoint": "E24C",
+      "name": "Pointed oval with beads and paired triangular shoulders",
+      "source_index": 63,
+      "reason": "Pointed oval with side beads and paired triangular shoulders on each side; distinct from the round center and collar sequence of D/K."
+    },
+    {
+      "candidate_id": "gpo-document-1904:dash-M",
+      "key": "dash-M",
+      "book": "gpo-document-1904",
+      "archive_leaf": 137,
+      "pdf_page": 137,
+      "printed_page": 66,
+      "file": "reference/gpo-document-1904-leaf-137.png",
+      "box": [
+        1020,
+        3640,
+        1720,
+        3670
+      ],
+      "role": "named ornamental dash",
+      "status": "new",
+      "printed_number": "M",
+      "decision_note": "Review the complete native motif and both terminals; compare central ornament independently of arbitrary line length.",
+      "crop_review": "Complete full impression and both terminal regions visually reviewed; caption excluded. Native ink loss remains for source-quality comparison.",
+      "identity_group": "gpo-1904-long-spindle-rule",
+      "identity_review": "Long, shallow spindle with gradual tapered joins to a fine rule; existing oval dashes have much broader curved oval centers and abrupt joins.",
+      "icon_id": "gpo-1904-long-spindle-rule",
+      "codepoint": "E24D",
+      "name": "Long spindle on a fine rule",
+      "source_index": 63,
+      "reason": "Long, shallow spindle with gradual tapered joins to a fine rule; existing oval dashes have much broader curved oval centers and abrupt joins."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "boston-1889-p270-dash-80",
+      "name": "Fine pointed dash",
+      "family": "boston-ornaments-1889",
+      "source_index": 7,
+      "printed_page": 270,
+      "pdf_page": 278,
+      "source": {
+        "title": "Specimen book from the Boston type foundry (1889), printed p. 270; PDF page 278, Internet Archive leaf 278",
+        "url": "https://archive.org/details/specimenbookfrom00unse/page/270/mode/1up",
+        "file": "reference/boston-270.jp2",
+        "rights": "1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used.",
+        "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+      },
+      "native_box": [
+        2086,
+        2570,
+        2290,
+        2629
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-long-primer-27",
+      "name": "Short diamond dash, long primer",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        472,
+        1027,
+        820,
+        1149
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-long-primer-30",
+      "name": "Fine four-point dash, long primer",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        1835,
+        1027,
+        2088,
+        1149
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-burgeois-9",
+      "name": "Four-point diamond dash, burgeois",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        887,
+        1265,
+        1225,
+        1393
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-brevier-6",
+      "name": "Four-point diamond dash, brevier",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        649,
+        1506,
+        985,
+        1625
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-minion-7",
+      "name": "Fine four-point dash, minion",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        1350,
+        1740,
+        1606,
+        1847
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-nonpareil-unnumbered",
+      "name": "Tiny diamond dash, nonpareil",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        1292,
+        1978,
+        1490,
+        2057
+      ],
+      "comparison_group": "c"
+    },
+    {
+      "id": "baltimore-1832-p81-long-primer-23",
+      "name": "Oval and diamond dash, long primer",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        469,
+        753,
+        1433,
+        853
+      ],
+      "comparison_group": "f"
+    },
+    {
+      "id": "baltimore-1832-p81-long-primer-24",
+      "name": "Oval and spear dash, long primer",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        1530,
+        753,
+        2371,
+        853
+      ],
+      "comparison_group": "f"
+    },
+    {
+      "id": "baltimore-1832-p81-long-primer-28",
+      "name": "Oval dash, long primer",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        930,
+        1027,
+        1277,
+        1149
+      ],
+      "comparison_group": "oval"
+    },
+    {
+      "id": "baltimore-1832-p81-burgeois-8",
+      "name": "Oval dash, burgeois",
+      "family": "baltimore-ornaments-1832",
+      "source_index": 3,
+      "printed_page": null,
+      "pdf_page": 81,
+      "source": {
+        "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 81, Internet Archive leaf 80",
+        "url": "https://archive.org/details/ldpd_12198261_000/page/n80/mode/1up",
+        "file": "reference/pdf-081.jp2",
+        "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+        "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+      },
+      "native_box": [
+        442,
+        1265,
+        780,
+        1393
+      ],
+      "comparison_group": "oval"
+    }
+  ],
+  "classification": "Eleven named specimens preserve ten ornamental constructions. A and H differ in outer line length and print quality and share one canonical design. Plain five-em and nine-em dashes remain with the separate plain-rule inventory.",
+  "identity_method": "Full runs and central motifs were compared independently; 290 existing native dash, rule, lozenge and spindle candidates were visually reviewed. Exact central contour and component sequences determine the closest decisions recorded here.",
+  "sampling": "Fourfold Pillow bilinear sampling of complete native crops, followed by local paper normalization at 48 sample pixels. This adds no image detail. Sampling is reproducible with prepare_document_dash_sampling.py.",
+  "proof": "specimens/document-dash-review.pdf"
+}

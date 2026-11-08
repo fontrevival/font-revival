@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "celtic-no2-1897",
+  "name": "Celtic No. 2 1897",
+  "style": "Regular",
+  "version": "1.001",
+  "postscript_name": "CelticNo21897-Regular",
+  "year": 1897,
+  "designer": "Unidentified in the consulted historical specimens",
+  "foundry": "Farmer, as credited in the Government Printing Office document specimen",
+  "description": "Light serif capitals and flowing figures from the twelve-point Celtic No. 2 cut, with gently bowed crossbars and a sweeping Q tail.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "MONARCH OF HIGH MOUNTAINS",
+  "character_style": "capitals-only",
+  "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.&",
+  "character_set_notes": "Complete observed A–Z capitals, all ten figures, period and ampersand from the twelve-point cut. Space is a modern layout advance. Lowercase and unsupported punctuation are not encoded.",
+  "observed": "All 26 capitals, ten figures and period are directly observed in the labelled twelve-point Celtic No. 2 cut. The 1897 GPO specimen supplies QUVWXYZ; the 1900 census specimen supplies A–P and all ten figures; the 1904 document specimen supplies RST and period, and explicitly attributes the cut to Farmer. Exact crops, comparisons and measurements accompany the sources. The assembled business card on job-room printed page39 (archive leaf55) supplies the ampersand; matching native letter construction and measured physical size identify the twelve-point setting.",
+  "reconstructed": "No letter or figure forms are invented. Spacing, digital metrics, paper illumination correction and measured scan rotation are modern preparation choices.",
+  "sources": [
+    {
+      "title": "Specimens of the job division type, Government Printing Office (1897), Celtic No. 2; printed p. 25, archive leaf 59",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n59/mode/1up",
+      "file": "reference/gpo-job-1897-leaf-59.jp2",
+      "rights": "1897 United States publication, public domain by age. Library of Congress scan hosted by Internet Archive; institutional metadata and exact historical JP2 retained. No modern digital typeface was traced.",
+      "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+    },
+    {
+      "title": "Specimens of type faces, brass, rule, etc (1900), Celtic No. 2; printed p. 1, archive leaf 3",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n3/mode/1up",
+      "file": "reference/leaf-3.jp2",
+      "rights": "1900 United States publication, public domain by age. Library of Congress scan hosted by Internet Archive; institutional metadata and exact historical JP2 retained. No modern digital typeface was traced.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "Specimen book of type (1904), Celtic No. 2; printed p. 39, archive leaf 83",
+      "url": "https://archive.org/details/specimenbookofty00unit_0/page/n83/mode/1up",
+      "file": "reference/gpo-document-1904-leaf-83.jp2",
+      "rights": "1904 United States publication, public domain by age. Library of Congress scan hosted by Internet Archive; institutional metadata and exact historical JP2 retained. No modern digital typeface was traced.",
+      "rights_url": "https://archive.org/metadata/specimenbookofty00unit_0"
+    },
+    {
+      "title": "Job room type faces (1904), Celtic No. 2; printed p.39, archive leaf55; assembled card ampersand",
+      "url": "https://archive.org/details/123459_1904/page/n55/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-55.jp2",
+      "rights": "1904 United States publication, public domain by age. Historical native scan retained for comparison; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "One uniform scale and a measured rigid rotation per source row preserve historical proportions. No missing letterforms, synthetic lowercase or punctuation companions are supplied. Native comparisons include the matching job-room specimen; the retained source decisions distinguish sharper imagery from heavier printing. Historical source sizes are archived under source/specimen-cuts. The public family uses one coherent complete alphabet and figures; source size is provenance, not a separate font product."
+  }
+}

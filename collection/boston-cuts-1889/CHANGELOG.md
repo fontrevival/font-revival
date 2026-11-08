@@ -1,5 +1,18 @@
 # Changes
 
+## 1.005
+
+- Split long OpenType/CFF drawing programs into lossless subroutines so strict font sanitizers can load the OTF. Preserve every contour, character and advance.
+
+- Improve boston-1889-p275-2562 from clearer Bruce1828 impressions; preserve character assignments, advances and earlier source witnesses.
+
+## 1.004
+
+- Offer fonts and editable font data under the choice MIT or SIL OFL 1.1,
+  with both license notices in the fonts and download packages.
+- Improve six pointing hands from clearer matching impressions in the GPO1904 specimen; retain both source witnesses and a comparison proof.
+- Describe the folded and crosshatched cuffs more precisely. Preserve every ID, codepoint, advance width and feature. Standalone artwork and other original project files remain MIT licensed.
+
 ## 1.003
 
 - Expand the Father Christmas pilot to 478 cuts from printed pages 271–276:

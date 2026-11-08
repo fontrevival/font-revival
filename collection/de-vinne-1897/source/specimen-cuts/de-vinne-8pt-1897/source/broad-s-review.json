@@ -1,0 +1,897 @@
+{
+  "schema_version": 1,
+  "selected": [
+    {
+      "glyph": "S.broad",
+      "character": "S",
+      "source_id": "atf-handy-byu-1897-600-8-cap-06",
+      "native_file": "reference/atf-handy-byu-1897-leaf-600.jp2",
+      "native_box": [
+        959,
+        2639,
+        1015,
+        2698
+      ],
+      "threshold": 150,
+      "recipe": {
+        "box": [
+          0,
+          0,
+          224,
+          236
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8,
+        "height": 720.3639322437693,
+        "y_min": 0,
+        "bearings": [
+          0,
+          0
+        ],
+        "advance_width": 750,
+        "post_trace_transform": [
+          1.0,
+          0.0,
+          -0.0,
+          1.0,
+          34.900603509299,
+          -17.928792268574465
+        ],
+        "file": "reference/crops/atf-handy-byu-1897-600-8-cap-06.png",
+        "native_file": "reference/atf-handy-byu-1897-leaf-600.jp2",
+        "native_box": [
+          959,
+          2639,
+          1015,
+          2698
+        ],
+        "sampling_scale": 4,
+        "notes": "Observed whole broad S from BYU printed page 598, archive leaf 600, in SPEAKING. HOUSE in the same heading has the narrow form; four BYU series impressions also match the narrow default. One independent non-S capital scale and fifteen measured serif-foot anchors preserve size and baseline. Threshold 150; no hole filling or drawn repair. Modern 35-unit sidebearings."
+      },
+      "expected_contours": 1,
+      "expected_bounds": {
+        "y_min": -17.975070016769223,
+        "y_max": 702.4923385623731,
+        "ink_width": 679.9917822201282,
+        "ink_height": 720.4674085791423
+      },
+      "advance_width": 750,
+      "decision": "Observed whole broad S from BYU printed page 598, archive leaf 600, in SPEAKING. HOUSE in the same heading has the narrow form; four BYU series impressions also match the narrow default. One independent non-S capital scale and fifteen measured serif-foot anchors preserve size and baseline. Threshold 150; no hole filling or drawn repair. Modern 35-unit sidebearings."
+    }
+  ],
+  "physical_scale": {
+    "scale": 13.416387583392352,
+    "dimension_pairs": 22,
+    "pairs": [
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-00",
+        "character": "P",
+        "native_dimensions": [
+          48.84589131665503,
+          54.28220917330076
+        ],
+        "canonical_dimensions": [
+          663.925297963192,
+          730.093596810867
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-03",
+        "character": "L",
+        "native_dimensions": [
+          46.06702461913569,
+          54.09782796104622
+        ],
+        "canonical_dimensions": [
+          629.7731213815334,
+          720.1926856358289
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-08",
+        "character": "E",
+        "native_dimensions": [
+          49.571858903828506,
+          57.75584763573994
+        ],
+        "canonical_dimensions": [
+          684.9224953913316,
+          769.7577963245998
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-10",
+        "character": "K",
+        "native_dimensions": [
+          50.70499776326202,
+          52.80354349567257
+        ],
+        "canonical_dimensions": [
+          650.5702799671074,
+          694.1497374603657
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-12",
+        "character": "N",
+        "native_dimensions": [
+          49.69839077209608,
+          53.56675828780558
+        ],
+        "canonical_dimensions": [
+          674.6106817494839,
+          710.2989428849814
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-15",
+        "character": "N",
+        "native_dimensions": [
+          50.04101498025033,
+          53.32524383390628
+        ],
+        "canonical_dimensions": [
+          674.6106817494839,
+          710.2989428849814
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-17",
+        "character": "H",
+        "native_dimensions": [
+          51.43722423688753,
+          52.99226527265177
+        ],
+        "canonical_dimensions": [
+          695.7108929838196,
+          710.7474799773164
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-19",
+        "character": "C",
+        "native_dimensions": [
+          47.925272996880985,
+          55.35683711643116
+        ],
+        "canonical_dimensions": [
+          655.2559081944427,
+          741.2631514439593
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-22",
+        "character": "R",
+        "native_dimensions": [
+          52.395409233248195,
+          60.53193232657095
+        ],
+        "canonical_dimensions": [
+          672.8349416731812,
+          807.2730664574681
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-25",
+        "character": "O",
+        "native_dimensions": [
+          49.672915206211215,
+          53.93985292054643
+        ],
+        "canonical_dimensions": [
+          679.1075823663539,
+          735.0958415072951
+        ]
+      },
+      {
+        "source": "atf-handy-byu-1897-600-8-cap-28",
+        "character": "E",
+        "native_dimensions": [
+          49.58546934304603,
+          57.56563887470571
+        ],
+        "canonical_dimensions": [
+          684.9224953913316,
+          769.7577963245998
+        ]
+      }
+    ],
+    "rms_residual_font_units": 13.00391925151568,
+    "method": "One isotropic fit to eleven non-S capitals after independent fifteen-serif-foot row rotation. U, M and both S excluded."
+  },
+  "rows": {
+    "byu-600-8-caps": {
+      "status": "native-foot-windows-and-baseline-reviewed;accepted",
+      "anchors": [
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-00",
+          "character": "P",
+          "x": 636.5,
+          "y": 2696.0,
+          "box": [
+            632,
+            2682,
+            642,
+            2706
+          ],
+          "column_bottoms": [
+            2695,
+            2695,
+            2695,
+            2695,
+            2695,
+            2695,
+            2695,
+            2695,
+            2695,
+            2695
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-02",
+          "character": "B",
+          "x": 739.5,
+          "y": 2694.0,
+          "box": [
+            736,
+            2682,
+            744,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-03",
+          "character": "L",
+          "x": 806.0,
+          "y": 2695.0,
+          "box": [
+            802,
+            2682,
+            811,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-04",
+          "character": "I",
+          "x": 857.0,
+          "y": 2694.0,
+          "box": [
+            853,
+            2682,
+            862,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-07",
+          "character": "P",
+          "x": 1032.5,
+          "y": 2695.0,
+          "box": [
+            1028,
+            2682,
+            1038,
+            2706
+          ],
+          "column_bottoms": [
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-10",
+          "character": "K",
+          "x": 1208.5,
+          "y": 2694.0,
+          "box": [
+            1204,
+            2682,
+            1214,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-11",
+          "character": "I",
+          "x": 1262.5,
+          "y": 2694.0,
+          "box": [
+            1259,
+            2682,
+            1267,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-12",
+          "character": "N",
+          "x": 1289.5,
+          "y": 2694.0,
+          "box": [
+            1286,
+            2682,
+            1294,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-14",
+          "character": "I",
+          "x": 1444.5,
+          "y": 2694.0,
+          "box": [
+            1441,
+            2682,
+            1449,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-15",
+          "character": "N",
+          "x": 1470.5,
+          "y": 2694.0,
+          "box": [
+            1467,
+            2682,
+            1475,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-16",
+          "character": "T",
+          "x": 1584.5,
+          "y": 2695.0,
+          "box": [
+            1580,
+            2682,
+            1590,
+            2706
+          ],
+          "column_bottoms": [
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-17",
+          "character": "H",
+          "x": 1626.5,
+          "y": 2694.0,
+          "box": [
+            1623,
+            2682,
+            1631,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-23",
+          "character": "T",
+          "x": 2016.5,
+          "y": 2695.0,
+          "box": [
+            2012,
+            2682,
+            2022,
+            2706
+          ],
+          "column_bottoms": [
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694,
+            2694
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-24",
+          "character": "H",
+          "x": 2099.5,
+          "y": 2694.0,
+          "box": [
+            2096,
+            2682,
+            2104,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2694,
+            2694,
+            2693
+          ]
+        },
+        {
+          "id": "atf-handy-byu-1897-600-8-cap-28",
+          "character": "E",
+          "x": 2324.5,
+          "y": 2694.0,
+          "box": [
+            2320,
+            2682,
+            2330,
+            2706
+          ],
+          "column_bottoms": [
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693,
+            2693
+          ]
+        }
+      ],
+      "slope": 0.0,
+      "rotation_degrees": 0.0,
+      "baseline_intercept": 2694.0,
+      "residuals_native_pixels": [
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "max_absolute_residual_native_pixels": 2.0,
+      "method": "Fifteen native stem-foot windows excluding U, both S forms, round overshoots and R tail; median column bottoms at T150, Theil-Sen slope and median intercept. Shape traces remain whole.",
+      "coordinate_convention": "Native pixel rows occupy [y,y+1); anchors use last black pixel row plus one.",
+      "review": "All fifteen native foot windows and full line overlay visually reviewed. Windows follow stem feet, avoiding rounded overshoots and R tail. Median baseline 2694, robust slope zero, maximum two-pixel residual at first P; no measurable common skew to correct.",
+      "scale": 13.416387583392352
+    }
+  },
+  "decision": "Retain the complete BYU broad S in SPEAKING as an unencoded ss04 alternate, preserving narrow default. Threshold150 retains the whole broad shape, open apertures and smooth main curves; all five thresholds confirm its broader body and flatter diagonal. No filled holes or drawn repair.",
+  "comparison": "BYU HOUSE has the narrow S in the same setting; four BYU series S and NYPL CONVENTIONS also agree with the narrow default. Both S and all U/M are excluded from common-capital scale. Ten whole trials reviewed across T110/130/150/170/190.",
+  "reviewed": [
+    "eight-S-threshold-proof-1.png",
+    "eight-S-threshold-proof-2.png",
+    "eight-byu-foot-baseline-line.png",
+    "eight-byu-foot-baseline-windows.png",
+    "eight-u-posters-proof-1.png",
+    "eight-u-posters-proof-2.png",
+    "eight-u-posters-proof-3.png",
+    "eight-u-posters-proof-4.png"
+  ],
+  "identity_limit": "Two optical forms are supported within one eight-point setting; this does not identify their punches, matrices or designer.",
+  "quality_todo": "Retain slight native edge variation. Compare future whole eight-point broad S impressions for sharper edges; do not borrow twelve-point geometry.",
+  "comparison_impressions": [
+    {
+      "source_id": "atf-handy-byu-1897-600-8-cap-27",
+      "native_file": "reference/atf-handy-byu-1897-leaf-600.jp2",
+      "native_box": [
+        2257,
+        2640,
+        2306,
+        2698
+      ],
+      "role": "Same-setting narrow S"
+    },
+    {
+      "source_id": "regular-8-document-00-11",
+      "native_file": "reference/gpo-document-1904-leaf-65.jp2",
+      "native_box": [
+        1038,
+        1605,
+        1072,
+        1647
+      ],
+      "role": "Retained GPO default narrow S"
+    }
+  ],
+  "common_capitals": [
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-00",
+      "character": "P",
+      "box": [
+        622,
+        2638,
+        676,
+        2698
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          216,
+          240
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-03",
+      "character": "L",
+      "box": [
+        791,
+        2639,
+        842,
+        2699
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          204,
+          240
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-08",
+      "character": "E",
+      "box": [
+        1072,
+        2637,
+        1127,
+        2700
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          220,
+          252
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-10",
+      "character": "K",
+      "box": [
+        1193,
+        2638,
+        1249,
+        2696
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          224,
+          232
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-12",
+      "character": "N",
+      "box": [
+        1279,
+        2639,
+        1334,
+        2697
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          220,
+          232
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-15",
+      "character": "N",
+      "box": [
+        1461,
+        2639,
+        1516,
+        2697
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          220,
+          232
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-17",
+      "character": "H",
+      "box": [
+        1613,
+        2638,
+        1670,
+        2696
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          228,
+          232
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-19",
+      "character": "C",
+      "box": [
+        1768,
+        2638,
+        1821,
+        2699
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          212,
+          244
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-22",
+      "character": "R",
+      "box": [
+        1935,
+        2639,
+        1993,
+        2704
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          232,
+          260
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-25",
+      "character": "O",
+      "box": [
+        2144,
+        2639,
+        2198,
+        2698
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          216,
+          236
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    },
+    {
+      "id": "atf-handy-byu-1897-600-8-cap-28",
+      "character": "E",
+      "box": [
+        2308,
+        2638,
+        2363,
+        2700
+      ],
+      "threshold": 150,
+      "settings": {
+        "box": [
+          0,
+          0,
+          220,
+          248
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      }
+    }
+  ]
+}

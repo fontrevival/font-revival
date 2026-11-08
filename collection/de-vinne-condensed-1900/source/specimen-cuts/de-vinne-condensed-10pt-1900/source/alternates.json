@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "notes": "Observed R alternatives; named glyphs are selected through stylistic sets and have no additional Unicode assignment.",
+  "glyphs": {
+    "R.straight": {
+      "box": [
+        0,
+        0,
+        212,
+        280
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 705.4489674828496,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 616,
+      "post_trace_transform": [
+        0.9999961668311257,
+        -0.002768812571400458,
+        0.002768812571400458,
+        0.9999961668311257,
+        33.17681293915092,
+        -5.078777399118581
+      ],
+      "file": "reference/crops/condensed-10-byu-00-13.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+      "native_box": [
+        1129,
+        2973,
+        1182,
+        3043
+      ],
+      "native_rotation_clockwise": 0,
+      "native_coordinate_frame": "after the recorded exact clockwise quarter-turn",
+      "sampling_scale": 4,
+      "notes": "Observed 10-point R; condensed-10-byu-00-13. Uniform physical source scale and measured row baseline rotation. Modern 35-unit sidebearings. Threshold 155; no hole filling or drawn repair.",
+      "character": "R",
+      "feature": "ss01"
+    }
+  }
+}

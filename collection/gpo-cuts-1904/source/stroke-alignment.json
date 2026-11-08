@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "method": "Subpixel threshold crossings on deliberately straight source edges, robust linear fits at175/195/215. Correct only angles at least0.2degrees with threshold spread below0.15degrees. Rotate fitted vectors about the unchanged advance centre; native pixels are retained unwarped.",
+  "records": [
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-1",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.004188484136420984,
+          "offset": 42.31567651964186,
+          "degrees": 0.23998106021979207,
+          "points_used": 281,
+          "median_residual_pixels": 0.10084391379909619
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0038598027279493617,
+          "offset": 42.583754714944014,
+          "degrees": 0.2211493078357972,
+          "points_used": 285,
+          "median_residual_pixels": 0.08736743352813647
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.0035821148675955748,
+          "offset": 42.87320064929266,
+          "degrees": 0.20523918580187941,
+          "points_used": 286,
+          "median_residual_pixels": 0.10448320968984959
+        }
+      ],
+      "native_x_interval": [
+        45,
+        331
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.2211493078357972,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-1",
+      "glyph": "uniE11C",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        442,
+        1368,
+        818,
+        1422
+      ],
+      "post_trace_transform": [
+        0.9999925510446819,
+        0.0038597739764513043,
+        -0.0038597739764513043,
+        0.9999925510446819,
+        3.4809773717328207,
+        -3.7141180535127205
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-2",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0013080624851081206,
+          "offset": 44.14866052400377,
+          "degrees": 0.07494641699098296,
+          "points_used": 290,
+          "median_residual_pixels": 0.09420965262038905
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0011292126052690836,
+          "offset": 44.35547670652743,
+          "degrees": 0.06469908895517536,
+          "points_used": 290,
+          "median_residual_pixels": 0.07814674038148084
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.0009189642975950864,
+          "offset": 44.56997671829032,
+          "degrees": 0.05265276095373484,
+          "points_used": 290,
+          "median_residual_pixels": 0.07087709575987944
+        }
+      ],
+      "native_x_interval": [
+        46,
+        336
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.06469908895517536,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-art-strokes-2-2",
+      "glyph": "uniE11D",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        875,
+        1368,
+        1257,
+        1422
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-5",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0041092829026930094,
+          "offset": 44.59728888967763,
+          "degrees": 0.2354432419078524,
+          "points_used": 212,
+          "median_residual_pixels": 0.09466841208159238
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.004072133663965911,
+          "offset": 44.787658683863285,
+          "degrees": 0.2333147829343179,
+          "points_used": 217,
+          "median_residual_pixels": 0.11399962289832644
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.004245350802974858,
+          "offset": 44.981972039043654,
+          "degrees": 0.24323922226951097,
+          "points_used": 222,
+          "median_residual_pixels": 0.11830088849408327
+        }
+      ],
+      "native_x_interval": [
+        45,
+        331
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.2333147829343179,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-5",
+      "glyph": "uniE120",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        590,
+        1493,
+        966,
+        1550
+      ],
+      "post_trace_transform": [
+        0.9999917089668244,
+        0.004072099901770608,
+        -0.004072099901770608,
+        0.9999917089668244,
+        3.672882467574765,
+        -3.918042375448863
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-6",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0018195434222764287,
+          "offset": 45.99823739644476,
+          "degrees": 0.10425204368692098,
+          "points_used": 234,
+          "median_residual_pixels": 0.11910883830437413
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.001730366607104675,
+          "offset": 46.18533229683654,
+          "degrees": 0.09914260464765773,
+          "points_used": 241,
+          "median_residual_pixels": 0.11218322601984454
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.0017001975611259065,
+          "offset": 46.38480216459478,
+          "degrees": 0.09741405072700787,
+          "points_used": 246,
+          "median_residual_pixels": 0.11531637720604238
+        }
+      ],
+      "native_x_interval": [
+        45,
+        331
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.09914260464765773,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-art-strokes-2-6",
+      "glyph": "uniE121",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1029,
+        1493,
+        1405,
+        1550
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-11",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0026405484082247803,
+          "offset": 51.362688495318174,
+          "degrees": 0.1512919277644728,
+          "points_used": 259,
+          "median_residual_pixels": 0.18349628045380229
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0036151999404003925,
+          "offset": 51.27327120496209,
+          "degrees": 0.20713479628951456,
+          "points_used": 248,
+          "median_residual_pixels": 0.18640947954303755
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.0012485194209613283,
+          "offset": 52.06150826477825,
+          "degrees": 0.07153485629168785,
+          "points_used": 290,
+          "median_residual_pixels": 0.31125485039621026
+        }
+      ],
+      "native_x_interval": [
+        46,
+        336
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.20713479628951456,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-11",
+      "glyph": "uniE126",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1704,
+        1636,
+        2086,
+        1699
+      ],
+      "post_trace_transform": [
+        0.9999934652287509,
+        0.003615176315895762,
+        -0.003615176315895762,
+        0.9999934652287509,
+        3.2599582037903594,
+        -3.479148674399198
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-12",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.0057369882883414975,
+          "offset": 51.793696153100065,
+          "degrees": 0.328701609880445,
+          "points_used": 292,
+          "median_residual_pixels": 0.0879274123720748
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.005695026857933304,
+          "offset": 51.95924586865541,
+          "degrees": 0.3262974755657379,
+          "points_used": 292,
+          "median_residual_pixels": 0.0786864184496352
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.00542927929395561,
+          "offset": 52.209661035173085,
+          "degrees": 0.3110717328706557,
+          "points_used": 292,
+          "median_residual_pixels": 0.07418549326780877
+        }
+      ],
+      "native_x_interval": [
+        46,
+        338
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.3262974755657379,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-12",
+      "glyph": "uniE127",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        2138,
+        1636,
+        2522,
+        1699
+      ],
+      "post_trace_transform": [
+        0.9999837837290034,
+        0.005694934505834443,
+        -0.005694934505834443,
+        0.9999837837290034,
+        5.141073540491643,
+        -5.475322219727559
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-13",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.004756855839128713,
+          "offset": 71.19256389226639,
+          "degrees": 0.27254570765451763,
+          "points_used": 283,
+          "median_residual_pixels": 0.09962003568891475
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.004666418591640748,
+          "offset": 71.38297775852145,
+          "degrees": 0.26736415009432635,
+          "points_used": 283,
+          "median_residual_pixels": 0.134690586961824
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.004536717728585556,
+          "offset": 71.58501235270461,
+          "degrees": 0.25993299540293746,
+          "points_used": 283,
+          "median_residual_pixels": 0.16766498676061303
+        }
+      ],
+      "native_x_interval": [
+        45,
+        331
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.26736415009432635,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-13",
+      "glyph": "uniE128",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        590,
+        1770,
+        966,
+        1850
+      ],
+      "post_trace_transform": [
+        0.9999891124465746,
+        0.004666367785759026,
+        -0.004666367785759026,
+        0.9999891124465746,
+        4.210226608685167,
+        -4.48857974738894
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-14",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.00380617208184622,
+          "offset": 72.32977490373607,
+          "degrees": 0.2180765433066826,
+          "points_used": 280,
+          "median_residual_pixels": 0.09417423724870844
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0038650947466460773,
+          "offset": 72.50338614767517,
+          "degrees": 0.2214525136488436,
+          "points_used": 281,
+          "median_residual_pixels": 0.08022045004720724
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.003765863520059512,
+          "offset": 72.73531808938256,
+          "degrees": 0.2157670659422633,
+          "points_used": 281,
+          "median_residual_pixels": 0.0917554604420161
+        }
+      ],
+      "native_x_interval": [
+        45,
+        331
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.2214525136488436,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-14",
+      "glyph": "uniE129",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1029,
+        1770,
+        1405,
+        1850
+      ],
+      "post_trace_transform": [
+        0.9999925306049884,
+        0.003865065876726658,
+        -0.003865065876726658,
+        0.9999925306049884,
+        3.4857597858451346,
+        -3.719201049653975
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-15",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.00017166742356531023,
+          "offset": 73.35580951438781,
+          "degrees": 0.00983581875355737,
+          "points_used": 289,
+          "median_residual_pixels": 0.07909121395113061
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.0001275957289927323,
+          "offset": 73.53264571212328,
+          "degrees": 0.007310696715504249,
+          "points_used": 289,
+          "median_residual_pixels": 0.05646421143640623
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 8.352403442031229e-05,
+          "offset": 73.70948190985871,
+          "degrees": 0.004785574649060834,
+          "points_used": 289,
+          "median_residual_pixels": 0.031228693297777
+        }
+      ],
+      "native_x_interval": [
+        45,
+        334
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.007310696715504249,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-art-strokes-2-15",
+      "glyph": "uniE12A",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1559,
+        1770,
+        1938,
+        1850
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:art-strokes-2-16",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": 0.004061445475016385,
+          "offset": 73.21271239843865,
+          "degrees": 0.23270240494486077,
+          "points_used": 289,
+          "median_residual_pixels": 0.06917108484209677
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.004170240178212516,
+          "offset": 73.35769975673438,
+          "degrees": 0.23893577667090168,
+          "points_used": 289,
+          "median_residual_pixels": 0.061656108653792785
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": 0.004060642900973002,
+          "offset": 73.58716596851691,
+          "degrees": 0.23265642159778918,
+          "points_used": 289,
+          "median_residual_pixels": 0.06652392782960703
+        }
+      ],
+      "native_x_interval": [
+        45,
+        334
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.23893577667090168,
+      "status": "applied-source-and-vector-reviewed",
+      "icon_id": "gpo-1904-art-strokes-2-16",
+      "glyph": "uniE12B",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1995,
+        1770,
+        2374,
+        1850
+      ],
+      "post_trace_transform": [
+        0.9999913046618427,
+        0.00417020391656397,
+        -0.00417020391656397,
+        0.9999913046618427,
+        3.7615658308912456,
+        -4.0122507712261495
+      ],
+      "advance_width": 1928,
+      "centre": [
+        964.0,
+        900
+      ],
+      "decision": "Correct the robust straight-edge direction; preserve the individual outline and all designed curves."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:embellishers-5",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0011796381236528258,
+          "offset": 26.447984475396314,
+          "degrees": -0.06758825448732604,
+          "points_used": 200,
+          "median_residual_pixels": 0.11265081308965463
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0012780894070863285,
+          "offset": 26.318888296712586,
+          "degrees": -0.07322908899289689,
+          "points_used": 200,
+          "median_residual_pixels": 0.13708123414463103
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0012075824624996634,
+          "offset": 26.132164634249214,
+          "degrees": -0.06918934488334677,
+          "points_used": 200,
+          "median_residual_pixels": 0.2014703581639523
+        }
+      ],
+      "native_x_interval": [
+        31,
+        231
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.07322908899289689,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-embellisher-5",
+      "glyph": "uniE149",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1334,
+        3138,
+        1596,
+        3198
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:embellishers-6",
+      "edge": "top",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0031375016523585817,
+          "offset": 25.886026961718304,
+          "degrees": -0.1797650130330841,
+          "points_used": 198,
+          "median_residual_pixels": 0.10671257615926422
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0032304905162908342,
+          "offset": 25.721925740012413,
+          "degrees": -0.18509282846178673,
+          "points_used": 198,
+          "median_residual_pixels": 0.10043874110371931
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.003682401253410473,
+          "offset": 25.588629138463254,
+          "degrees": -0.21098509663936071,
+          "points_used": 198,
+          "median_residual_pixels": 0.11482718484056775
+        }
+      ],
+      "native_x_interval": [
+        31,
+        229
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.18509282846178673,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-embellisher-6",
+      "glyph": "uniE14A",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1627,
+        3138,
+        1887,
+        3198
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:embellishers-18",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.0025412619374313044,
+          "offset": 77.17162371154085,
+          "degrees": -0.14560327021669206,
+          "points_used": 200,
+          "median_residual_pixels": 0.08799205326217674
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": -0.0028097696861559443,
+          "offset": 77.36560787072493,
+          "degrees": -0.16098752076636044,
+          "points_used": 200,
+          "median_residual_pixels": 0.11367111467030355
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0028102046621913666,
+          "offset": 77.56469391725605,
+          "degrees": -0.16101244286059394,
+          "points_used": 201,
+          "median_residual_pixels": 0.15500287421104986
+        }
+      ],
+      "native_x_interval": [
+        33,
+        238
+      ],
+      "proposed_correction_degrees_ccw_positive_up": -0.16098752076636044,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-embellisher-18",
+      "glyph": "uniE155",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        1955,
+        3417,
+        2226,
+        3506
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:embellishers-19",
+      "edge": "bottom",
+      "fits": [
+        {
+          "threshold": 175,
+          "native_slope_y_down": -0.00020068142034451904,
+          "offset": 76.18187770776537,
+          "degrees": -0.011498198258075987,
+          "points_used": 200,
+          "median_residual_pixels": 0.23258675065537204
+        },
+        {
+          "threshold": 195,
+          "native_slope_y_down": 0.00023285682345134843,
+          "offset": 76.31680391457454,
+          "degrees": 0.013341712973445745,
+          "points_used": 206,
+          "median_residual_pixels": 0.2067528478800824
+        },
+        {
+          "threshold": 215,
+          "native_slope_y_down": -0.0002849244989041269,
+          "offset": 76.57981862051778,
+          "degrees": -0.0163249708253219,
+          "points_used": 201,
+          "median_residual_pixels": 0.15549967662316533
+        }
+      ],
+      "native_x_interval": [
+        32,
+        238
+      ],
+      "proposed_correction_degrees_ccw_positive_up": 0.013341712973445745,
+      "status": "retain-native-alignment",
+      "icon_id": "gpo-1904-embellisher-19",
+      "glyph": "uniE156",
+      "printed_page": 132,
+      "pdf_page": 148,
+      "archive_leaf": 148,
+      "file": "reference/leaf-148.png",
+      "box": [
+        2249,
+        3417,
+        2519,
+        3506
+      ],
+      "decision": "Measured direction is below 0.2 degrees; retain source alignment."
+    }
+  ]
+}

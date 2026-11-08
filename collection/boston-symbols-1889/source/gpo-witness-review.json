@@ -1,0 +1,4866 @@
+{
+  "schema_version": 1,
+  "scope": "35 existing Boston symbol identities use preferred matching GPO1904 witnesses. Correspondence does not establish shared physical matrices. Original Boston size contexts and advances remain; GPO sizes are recorded only where printed.",
+  "source_file": "reference/gpo-1904-leaf-34.jp2",
+  "source_sha256": "cb7b4acdd3e11d4c44addd090b19b5b8b6bf62821a3b3e3d685bfa53b31fecb1",
+  "entries": [
+    {
+      "icon_id": "boston-1889-p255-6pt-1",
+      "glyph": "uniE000",
+      "codepoint": "E000",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-1",
+        "name": "Aries zodiac sign, 6-point",
+        "specimen_number": "6pt-1",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "aries"
+        ],
+        "codepoint": "E000",
+        "glyph": "uniE000",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE000.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE000.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE000.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          244,
+          2434,
+          285,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 230,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          349,
+          2456,
+          382,
+          2487
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          349,
+          2456,
+          382,
+          2487
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1680.0,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1808,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. Continuous open horns replace the earlier broken and overfilled interpretation. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "Continuous open horns replace the earlier broken and overfilled interpretation.",
+      "advance_width": 1808,
+      "font_limits": {
+        "quadratic_points": 93,
+        "cubic_points": 45,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-2",
+      "glyph": "uniE001",
+      "codepoint": "E001",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-2",
+        "name": "Taurus zodiac sign, 6-point",
+        "specimen_number": "6pt-2",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "taurus"
+        ],
+        "codepoint": "E001",
+        "glyph": "uniE001",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE001.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE001.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE001.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          309,
+          2434,
+          340,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 205,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          355,
+          2492,
+          377,
+          2522
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          355,
+          2492,
+          377,
+          2522
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1386,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The two open horns and round counter remain separate, with less ink spread. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The two open horns and round counter remain separate, with less ink spread.",
+      "advance_width": 1386,
+      "font_limits": {
+        "quadratic_points": 108,
+        "cubic_points": 54,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-3",
+      "glyph": "uniE002",
+      "codepoint": "E002",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-3",
+        "name": "Gemini zodiac sign, 6-point",
+        "specimen_number": "6pt-3",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "gemini"
+        ],
+        "codepoint": "E002",
+        "glyph": "uniE002",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE002.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE002.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE002.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          365,
+          2434,
+          404,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 203,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          957,
+          1418,
+          990,
+          1445
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          957,
+          1418,
+          990,
+          1445
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. Both stems and both overhanging horizontal bars are resolved; the earlier outline obscured this construction. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "Both stems and both overhanging horizontal bars are resolved; the earlier outline obscured this construction.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 76,
+        "cubic_points": 42,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-4",
+      "glyph": "uniE003",
+      "codepoint": "E003",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-4",
+        "name": "Cancer zodiac sign, 6-point",
+        "specimen_number": "6pt-4",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "cancer"
+        ],
+        "codepoint": "E003",
+        "glyph": "uniE003",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE003.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE003.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE003.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          422,
+          2434,
+          465,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 202,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          349,
+          2564,
+          383,
+          2587
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          349,
+          2564,
+          383,
+          2587
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1799.8000222197534,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. Larger counters and finer horizontal strokes preserve the paired loops. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "Larger counters and finer horizontal strokes preserve the paired loops.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 118,
+        "cubic_points": 60,
+        "contours": 4,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-5",
+      "glyph": "uniE004",
+      "codepoint": "E004",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-5",
+        "name": "Leo zodiac sign, 6-point",
+        "specimen_number": "6pt-5",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "leo"
+        ],
+        "codepoint": "E004",
+        "glyph": "uniE004",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE004.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE004.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE004.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          480,
+          2434,
+          526,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 208,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          348,
+          2592,
+          383,
+          2627
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          348,
+          2592,
+          383,
+          2627
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The small lower loop and fine upper arc are more clearly resolved. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The small lower loop and fine upper arc are more clearly resolved.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 102,
+        "cubic_points": 51,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-7",
+      "glyph": "uniE006",
+      "codepoint": "E006",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-7",
+        "name": "Libra zodiac sign, 6-point",
+        "specimen_number": "6pt-7",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "libra"
+        ],
+        "codepoint": "E006",
+        "glyph": "uniE006",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE006.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE006.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE006.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          601,
+          2434,
+          643,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 203,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1511,
+          1540,
+          1545,
+          1560
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1511,
+          1540,
+          1545,
+          1560
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The shallow arched top and separate fine baseline retain their native proportions. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The shallow arched top and separate fine baseline retain their native proportions.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 86,
+        "cubic_points": 48,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-9",
+      "glyph": "uniE008",
+      "codepoint": "E008",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-9",
+        "name": "Sagittarius zodiac sign, 6-point",
+        "specimen_number": "6pt-9",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "sagittarius"
+        ],
+        "codepoint": "E008",
+        "glyph": "uniE008",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE008.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE008.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE008.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          726,
+          2434,
+          755,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 191,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          354,
+          2729,
+          378,
+          2761
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          354,
+          2729,
+          378,
+          2761
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1394,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The arrowhead and low crossbar are clearer and less swollen. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The arrowhead and low crossbar are clearer and less swollen.",
+      "advance_width": 1394,
+      "font_limits": {
+        "quadratic_points": 85,
+        "cubic_points": 48,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-10",
+      "glyph": "uniE009",
+      "codepoint": "E009",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-10",
+        "name": "Capricorn zodiac sign, 6-point",
+        "specimen_number": "6pt-10",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "capricorn"
+        ],
+        "codepoint": "E009",
+        "glyph": "uniE009",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE009.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE009.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE009.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          778,
+          2434,
+          816,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 206,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          348,
+          2767,
+          381,
+          2797
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          348,
+          2767,
+          381,
+          2797
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The right loop, lower curved terminal and thin rising diagonal are more clearly separated. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The right loop, lower curved terminal and thin rising diagonal are more clearly separated.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 120,
+        "cubic_points": 69,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-11",
+      "glyph": "uniE00A",
+      "codepoint": "E00A",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-11",
+        "name": "Aquarius zodiac sign, 6-point",
+        "specimen_number": "6pt-11",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "aquarius"
+        ],
+        "codepoint": "E00A",
+        "glyph": "uniE00A",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE00A.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE00A.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE00A.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          839,
+          2434,
+          880,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 200,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1466,
+          1422,
+          1498,
+          1445
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1466,
+          1422,
+          1498,
+          1445
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The three repeated crests in each row are more clearly separated. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The three repeated crests in each row are more clearly separated.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 132,
+        "cubic_points": 78,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-12",
+      "glyph": "uniE00B",
+      "codepoint": "E00B",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-12",
+        "name": "Pisces zodiac sign, 6-point",
+        "specimen_number": "6pt-12",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "zodiac",
+          "astrology",
+          "astronomy",
+          "pisces"
+        ],
+        "codepoint": "E00B",
+        "glyph": "uniE00B",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE00B.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE00B.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE00B.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          897,
+          2434,
+          937,
+          2474
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 206,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          349,
+          2834,
+          381,
+          2865
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          349,
+          2834,
+          381,
+          2865
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1799.9169910200392,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. Four thin curved arms and the short crossbar retain their native contrast. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "Four thin curved arms and the short crossbar retain their native contrast.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 134,
+        "cubic_points": 75,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-13",
+      "glyph": "uniE00C",
+      "codepoint": "E00C",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-13",
+        "name": "Sun with a face, 6-point",
+        "specimen_number": "6pt-13",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "sun"
+        ],
+        "codepoint": "E00C",
+        "glyph": "uniE00C",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE00C.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE00C.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE00C.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          244,
+          2502,
+          285,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 180,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          429,
+          2866,
+          462,
+          2900
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          429,
+          2866,
+          462,
+          2900
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1767.6343547309432,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1811,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 205,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The complete ring of rays is visible around the face; the earlier monochrome lost most of those rays. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The complete ring of rays is visible around the face; the earlier monochrome lost most of those rays.",
+      "advance_width": 1811,
+      "font_limits": {
+        "quadratic_points": 212,
+        "cubic_points": 144,
+        "contours": 6,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-15",
+      "glyph": "uniE00E",
+      "codepoint": "E00E",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-15",
+        "name": "Venus sign, 6-point",
+        "specimen_number": "6pt-15",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "venus"
+        ],
+        "codepoint": "E00E",
+        "glyph": "uniE00E",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE00E.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE00E.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE00E.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          368,
+          2502,
+          399,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 211,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          354,
+          2936,
+          376,
+          2968
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          354,
+          2936,
+          376,
+          2968
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1732.7102803738317,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1158,
+        "paper_normalization_radius": 0,
+        "threshold": 225,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The open circle and cross stem are lighter and clearer; threshold225 retains the faint lower stem. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The open circle and cross stem are lighter and clearer; threshold225 retains the faint lower stem.",
+      "advance_width": 1158,
+      "font_limits": {
+        "quadratic_points": 94,
+        "cubic_points": 57,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-16",
+      "glyph": "uniE00F",
+      "codepoint": "E00F",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-16",
+        "name": "Earth cross in a circle, 6-point",
+        "specimen_number": "6pt-16",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "earth",
+          "circle",
+          "cross"
+        ],
+        "codepoint": "E00F",
+        "glyph": "uniE00F",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE00F.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE00F.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE00F.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          421,
+          2502,
+          464,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 211,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1593,
+          1476,
+          1626,
+          1509
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1593,
+          1476,
+          1626,
+          1509
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The four quadrants and thin circle are more clearly separated. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The four quadrants and thin circle are more clearly separated.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 155,
+        "cubic_points": 72,
+        "contours": 5,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-18",
+      "glyph": "uniE011",
+      "codepoint": "E011",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-18",
+        "name": "Mars sign, 6-point",
+        "specimen_number": "6pt-18",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "mars"
+        ],
+        "codepoint": "E011",
+        "glyph": "uniE011",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE011.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE011.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE011.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          544,
+          2502,
+          580,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 199,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          896,
+          1474,
+          923,
+          1505
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          896,
+          1474,
+          923,
+          1505
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1738,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. Both arrowhead branches are visible above the open circular counter. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "Both arrowhead branches are visible above the open circular counter.",
+      "advance_width": 1738,
+      "font_limits": {
+        "quadratic_points": 95,
+        "cubic_points": 47,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-19",
+      "glyph": "uniE012",
+      "codepoint": "E012",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-19",
+        "name": "Jupiter sign, 6-point",
+        "specimen_number": "6pt-19",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "jupiter"
+        ],
+        "codepoint": "E012",
+        "glyph": "uniE012",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE012.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE012.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE012.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          602,
+          2502,
+          641,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 199,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          348,
+          3038,
+          379,
+          3069
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          348,
+          3038,
+          379,
+          3069
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1666.6673477641284,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1717,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The upper hooked terminal and lower crossbar retain finer stroke contrast. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The upper hooked terminal and lower crossbar retain finer stroke contrast.",
+      "advance_width": 1717,
+      "font_limits": {
+        "quadratic_points": 113,
+        "cubic_points": 65,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-20",
+      "glyph": "uniE013",
+      "codepoint": "E013",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-20",
+        "name": "Saturn sign, 6-point",
+        "specimen_number": "6pt-20",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "saturn"
+        ],
+        "codepoint": "E013",
+        "glyph": "uniE013",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE013.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE013.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE013.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          661,
+          2502,
+          694,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 230,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1022,
+          1473,
+          1048,
+          1507
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1022,
+          1473,
+          1048,
+          1507
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1517,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The stem, arched shoulder and curled lower terminal retain finer contrast. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The stem, arched shoulder and curled lower terminal retain finer contrast.",
+      "advance_width": 1517,
+      "font_limits": {
+        "quadratic_points": 89,
+        "cubic_points": 51,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-21",
+      "glyph": "uniE014",
+      "codepoint": "E014",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-21",
+        "name": "Uranus sign, 6-point",
+        "specimen_number": "6pt-21",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "astronomy",
+          "uranus"
+        ],
+        "codepoint": "E014",
+        "glyph": "uniE014",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE014.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE014.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE014.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          719,
+          2502,
+          760,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 230,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          347,
+          3105,
+          379,
+          3138
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          347,
+          3105,
+          379,
+          3138
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1795.3231630989808,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1797,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The thin central stem and small lower ring are recovered; the earlier ring was filled. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The thin central stem and small lower ring are recovered; the earlier ring was filled.",
+      "advance_width": 1797,
+      "font_limits": {
+        "quadratic_points": 169,
+        "cubic_points": 95,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-23",
+      "glyph": "uniE016",
+      "codepoint": "E016",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-23",
+        "name": "Outlined circle, 6-point",
+        "specimen_number": "6pt-23",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "circle"
+        ],
+        "codepoint": "E016",
+        "glyph": "uniE016",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE016.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE016.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE016.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          838,
+          2502,
+          880,
+          2541
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 211,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1466,
+          1475,
+          1499,
+          1508
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1466,
+          1475,
+          1499,
+          1508
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1736.4395091269932,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1825,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The complete fine circle retains the original outline irregularity with less ink spread. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The complete fine circle retains the original outline irregularity with less ink spread.",
+      "advance_width": 1825,
+      "font_limits": {
+        "quadratic_points": 79,
+        "cubic_points": 39,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-27",
+      "glyph": "uniE01A",
+      "codepoint": "E01A",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-27",
+        "name": "Opposition, two joined circles, 6-point",
+        "specimen_number": "6pt-27",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "circle",
+          "opposition",
+          "astronomy"
+        ],
+        "codepoint": "E01A",
+        "glyph": "uniE01A",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE01A.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE01A.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE01A.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          397,
+          2570,
+          429,
+          2609
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 206,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          350,
+          3308,
+          373,
+          3341
+        ],
+        "body_points": null,
+        "location": "Explanatory astronomical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          350,
+          3308,
+          373,
+          3341
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1350,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The two circular counters are more open, with a short diagonal connection. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The two circular counters are more open, with a short diagonal connection.",
+      "advance_width": 1350,
+      "font_limits": {
+        "quadratic_points": 84,
+        "cubic_points": 45,
+        "contours": 3,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-30",
+      "glyph": "uniE01D",
+      "codepoint": "E01D",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-30",
+        "name": "Sextile, six-ray asterisk, 6-point",
+        "specimen_number": "6pt-30",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "asterisk",
+          "sextile",
+          "astronomy"
+        ],
+        "codepoint": "E01D",
+        "glyph": "uniE01D",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE01D.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE01D.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE01D.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          572,
+          2570,
+          610,
+          2609
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 197,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1030,
+          1533,
+          1059,
+          1565
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1030,
+          1533,
+          1059,
+          1565
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1795,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The six narrow rays are less swollen at their intersection. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The six narrow rays are less swollen at their intersection.",
+      "advance_width": 1795,
+      "font_limits": {
+        "quadratic_points": 113,
+        "cubic_points": 68,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-33",
+      "glyph": "uniE020",
+      "codepoint": "E020",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-33",
+        "name": "Ceres, crescent over a cross, 6-point",
+        "specimen_number": "6pt-33",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "cross",
+          "cent",
+          "ceres",
+          "astronomy"
+        ],
+        "codepoint": "E020",
+        "glyph": "uniE020",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE020.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE020.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE020.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          753,
+          2570,
+          785,
+          2609
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 196,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1150,
+          1532,
+          1172,
+          1566
+        ],
+        "body_points": null,
+        "location": "Main astronomical table"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1150,
+          1532,
+          1172,
+          1566
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1277,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 205,
+            "tertiary": 225
+          },
+          "notes": "Disjoint native ink-strength regions; no separately coloured printing inks are inferred."
+        },
+        "notes": "Preferred matching GPO1904 sign impression. The upper crescent serif and thin cross stem are more clearly resolved. The Boston 6-point identity and original advance are retained; the supplying GPO row has no printed point size. Uniform scaling only; no inferred strokes or geometric redraw."
+      },
+      "quality_reason": "The upper crescent serif and thin cross stem are more clearly resolved.",
+      "advance_width": 1277,
+      "font_limits": {
+        "quadratic_points": 75,
+        "cubic_points": 48,
+        "contours": 1,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and three-tone before/after proofs reviewed at 165 and 32 pixels; source sizing and outline limits pass. Final release formats remain a separate review.",
+      "review_proof": "specimens/gpo-sign-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-commercial5half-2",
+      "glyph": "uniE1BA",
+      "codepoint": "E1BA",
+      "historical_identity": {
+        "id": "boston-1889-p255-commercial5half-2",
+        "name": "Looped commercial sign, 5½-point commercial",
+        "specimen_number": "commercial5half-2",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "commercial",
+          "small",
+          "accounting"
+        ],
+        "codepoint": "E1BA",
+        "glyph": "uniE1BA",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE1BA.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE1BA.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE1BA.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          678,
+          1348,
+          724,
+          1385
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 230,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed printing symbol isolated from catalogue captions; native source proportions preserved.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          832,
+          694,
+          861,
+          725
+        ],
+        "body_points": 6,
+        "location": "Six-point commercial row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          832,
+          694,
+          861,
+          725
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1694.7151237943722,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1643,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          }
+        },
+        "notes": "Preferred matching GPO1904 source. The GPO impression separates the curled head, tall lower loop and right oval; the earlier interpretation filled most of these counters. Original Boston identity and advance retained; uniform scaling only. No invented strokes or ideal geometric substitution."
+      },
+      "quality_reason": "The GPO impression separates the curled head, tall lower loop and right oval; the earlier interpretation filled most of these counters.",
+      "advance_width": 1643,
+      "font_limits": {
+        "quadratic_points": 184,
+        "cubic_points": 104,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and tonal before/after proofs reviewed at165 and32pixels. Strict sizing passes; final release formats pending the whole-library gate.",
+      "review_proof": "specimens/gpo-commercial-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-57",
+      "glyph": "uniE038",
+      "codepoint": "E038",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-57",
+        "name": "Small ring, 6-point",
+        "specimen_number": "6pt-57",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "ring"
+        ],
+        "codepoint": "E038",
+        "glyph": "uniE038",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE038.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE038.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE038.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          278,
+          2782,
+          302,
+          2821
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 210,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          353,
+          1524,
+          373,
+          1542
+        ],
+        "body_points": null,
+        "location": "Explanatory mathematical legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          353,
+          1524,
+          373,
+          1542
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 205,
+            "tertiary": 225
+          }
+        },
+        "notes": "Preferred matching GPO1904 source. The clearer GPO impression retains a large open counter and the native slightly wider-than-tall ring. The earlier interpretation nearly filled the counter. Original Boston identity and advance retained; uniform scaling only. No invented strokes or ideal geometric substitution."
+      },
+      "quality_reason": "The clearer GPO impression retains a large open counter and the native slightly wider-than-tall ring. The earlier interpretation nearly filled the counter.",
+      "advance_width": 1928,
+      "font_limits": {
+        "quadratic_points": 63,
+        "cubic_points": 24,
+        "contours": 2,
+        "approximation_required": false
+      },
+      "review_status": "Both native witnesses, monochrome and tonal before/after proofs reviewed at165 and32pixels. Strict sizing passes; final release formats pending the whole-library gate.",
+      "review_proof": "specimens/gpo-commercial-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-63",
+      "glyph": "uniE03E",
+      "codepoint": "E03E",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-63",
+        "name": "Pound-weight ligature, 6-point",
+        "specimen_number": "6pt-63",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "medical",
+          "pharmacy",
+          "medicine",
+          "pound",
+          "weight",
+          "commercial"
+        ],
+        "codepoint": "E03E",
+        "glyph": "uniE03E",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE03E.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE03E.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE03E.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          566,
+          2782,
+          602,
+          2821
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 194,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1023,
+          692,
+          1052,
+          720
+        ],
+        "body_points": 6,
+        "location": "commercial sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1023,
+          692,
+          1052,
+          720
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The complete GPO impression restores the observed lower bowl join and foot serifs lost in the previous interpretation. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The complete GPO impression restores the observed lower bowl join and foot serifs lost in the previous interpretation.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE03E",
+          "quadratic_points": 144,
+          "cubic_points": 80,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE03E.primary",
+          "quadratic_points": 144,
+          "cubic_points": 80,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE03E.secondary",
+          "quadratic_points": 171,
+          "cubic_points": 135,
+          "contours": 11
+        },
+        {
+          "glyph": "uniE03E.tertiary",
+          "quadratic_points": 132,
+          "cubic_points": 107,
+          "contours": 7
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-7pt-65",
+      "glyph": "uniE084",
+      "codepoint": "E084",
+      "historical_identity": {
+        "id": "boston-1889-p255-7pt-65",
+        "name": "Apothecary pound sign, small, 7-point",
+        "specimen_number": "7pt-65",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "medical",
+          "pharmacy",
+          "medicine"
+        ],
+        "codepoint": "E084",
+        "glyph": "uniE084",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE084.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE084.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE084.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          506,
+          3322,
+          545,
+          3364
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 189,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1460,
+          696,
+          1492,
+          729
+        ],
+        "body_points": 8,
+        "location": "commercial sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1460,
+          696,
+          1492,
+          729
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The clearer matching impression retains the complete lower bowl and both foot serifs without the previous detached bowl terminal. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The clearer matching impression retains the complete lower bowl and both foot serifs without the previous detached bowl terminal.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE084",
+          "quadratic_points": 174,
+          "cubic_points": 87,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE084.primary",
+          "quadratic_points": 174,
+          "cubic_points": 87,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE084.secondary",
+          "quadratic_points": 234,
+          "cubic_points": 195,
+          "contours": 18
+        },
+        {
+          "glyph": "uniE084.tertiary",
+          "quadratic_points": 275,
+          "cubic_points": 252,
+          "contours": 20
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-10pt-61",
+      "glyph": "uniE144",
+      "codepoint": "E144",
+      "historical_identity": {
+        "id": "boston-1889-p255-10pt-61",
+        "name": "Looped commercial sign, curled, 10-point",
+        "specimen_number": "10pt-61",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "curl",
+          "commercial"
+        ],
+        "codepoint": "E144",
+        "glyph": "uniE144",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE144.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE144.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE144.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          2172,
+          2570,
+          2221,
+          2626
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 192,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          964,
+          820,
+          1008,
+          872
+        ],
+        "body_points": 10,
+        "location": "commercial sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          964,
+          820,
+          1008,
+          872
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1428,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1556,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The clearer matching impression retains the continuous left oval, curled head and low loop; the previous drawing lost the left oval join. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The clearer matching impression retains the continuous left oval, curled head and low loop; the previous drawing lost the left oval join.",
+      "advance_width": 1556,
+      "font_limits": [
+        {
+          "glyph": "uniE144",
+          "quadratic_points": 217,
+          "cubic_points": 141,
+          "contours": 6
+        },
+        {
+          "glyph": "uniE144.primary",
+          "quadratic_points": 217,
+          "cubic_points": 141,
+          "contours": 6
+        },
+        {
+          "glyph": "uniE144.secondary",
+          "quadratic_points": 289,
+          "cubic_points": 255,
+          "contours": 22
+        },
+        {
+          "glyph": "uniE144.tertiary",
+          "quadratic_points": 364,
+          "cubic_points": 384,
+          "contours": 30
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-10pt-65",
+      "glyph": "uniE148",
+      "codepoint": "E148",
+      "historical_identity": {
+        "id": "boston-1889-p255-10pt-65",
+        "name": "Cent sign, 10-point",
+        "specimen_number": "10pt-65",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "cent"
+        ],
+        "codepoint": "E148",
+        "glyph": "uniE148",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE148.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE148.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE148.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          2444,
+          2570,
+          2479,
+          2626
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 196,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1526,
+          824,
+          1552,
+          871
+        ],
+        "body_points": 10,
+        "location": "commercial sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1526,
+          824,
+          1552,
+          871
+        ],
+        "height": 1800,
+        "max_ink_dimension": 939,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1067,
+        "paper_normalization_radius": 0,
+        "threshold": 225,
+        "frame_threshold": 235,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 225,
+            "secondary": 230,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The faint matching strokes are continuous at threshold225, preserving the thin c and diagonal with a smaller upper join than the previous swollen interpretation. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The faint matching strokes are continuous at threshold225, preserving the thin c and diagonal with a smaller upper join than the previous swollen interpretation.",
+      "advance_width": 1067,
+      "font_limits": [
+        {
+          "glyph": "uniE148",
+          "quadratic_points": 89,
+          "cubic_points": 63,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE148.primary",
+          "quadratic_points": 89,
+          "cubic_points": 63,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE148.secondary",
+          "quadratic_points": 167,
+          "cubic_points": 147,
+          "contours": 8
+        },
+        {
+          "glyph": "uniE148.tertiary",
+          "quadratic_points": 197,
+          "cubic_points": 198,
+          "contours": 16
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-10pt-75",
+      "glyph": "uniE152",
+      "codepoint": "E152",
+      "historical_identity": {
+        "id": "boston-1889-p255-10pt-75",
+        "name": "Plus sign, small, 10-point",
+        "specimen_number": "10pt-75",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "mathematics",
+          "algebra",
+          "geometry"
+        ],
+        "codepoint": "E152",
+        "glyph": "uniE152",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE152.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE152.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE152.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1957,
+          2742,
+          2005,
+          2799
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 199,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1780,
+          946,
+          1826,
+          992
+        ],
+        "body_points": 10,
+        "location": "algebraic sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1780,
+          946,
+          1826,
+          992
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The higher-resolution matching plus preserves the thin, nearly uniform arms rather than the previous broad middle and swollen terminals. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The higher-resolution matching plus preserves the thin, nearly uniform arms rather than the previous broad middle and swollen terminals.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE152",
+          "quadratic_points": 59,
+          "cubic_points": 35,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE152.primary",
+          "quadratic_points": 59,
+          "cubic_points": 35,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE152.secondary",
+          "quadratic_points": 55,
+          "cubic_points": 41,
+          "contours": 4
+        },
+        {
+          "glyph": "uniE152.tertiary",
+          "quadratic_points": 47,
+          "cubic_points": 43,
+          "contours": 4
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-10pt-39",
+      "glyph": "uniE12E",
+      "codepoint": "E12E",
+      "historical_identity": {
+        "id": "boston-1889-p255-10pt-39",
+        "name": "Heavy plus sign, 10-point",
+        "specimen_number": "10pt-39",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "mathematics",
+          "algebra",
+          "geometry"
+        ],
+        "codepoint": "E12E",
+        "glyph": "uniE12E",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE12E.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE12E.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE12E.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1976,
+          2403,
+          2034,
+          2451
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 186,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2260,
+          1516,
+          2312,
+          1567
+        ],
+        "body_points": 12,
+        "location": "mathematical sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2260,
+          1516,
+          2312,
+          1567
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 225,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 205,
+            "secondary": 215,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The larger matching GPO impression preserves the near-uniform arms and their observed blunt ends; the earlier interpretation tapered the arms excessively. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The larger matching GPO impression preserves the near-uniform arms and their observed blunt ends; the earlier interpretation tapered the arms excessively.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE12E",
+          "quadratic_points": 72,
+          "cubic_points": 39,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE12E.primary",
+          "quadratic_points": 66,
+          "cubic_points": 42,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE12E.secondary",
+          "quadratic_points": 85,
+          "cubic_points": 78,
+          "contours": 7
+        },
+        {
+          "glyph": "uniE12E.tertiary",
+          "quadratic_points": 57,
+          "cubic_points": 59,
+          "contours": 7
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-7pt-38",
+      "glyph": "uniE069",
+      "codepoint": "E069",
+      "historical_identity": {
+        "id": "boston-1889-p255-7pt-38",
+        "name": "Division sign, 7-point",
+        "specimen_number": "7pt-38",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "mathematics",
+          "algebra",
+          "geometry"
+        ],
+        "codepoint": "E069",
+        "glyph": "uniE069",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE069.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE069.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE069.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          359,
+          3175,
+          403,
+          3211
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 202,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2512,
+          1393,
+          2550,
+          1418
+        ],
+        "body_points": 8,
+        "location": "mathematical sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2512,
+          1393,
+          2550,
+          1418
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 215,
+            "secondary": 220,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The matching GPO impression preserves the full upper dot and separate lower dot, replacing the flattened upper-dot boundary in the earlier interpretation. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The matching GPO impression preserves the full upper dot and separate lower dot, replacing the flattened upper-dot boundary in the earlier interpretation.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE069",
+          "quadratic_points": 74,
+          "cubic_points": 42,
+          "contours": 3
+        },
+        {
+          "glyph": "uniE069.primary",
+          "quadratic_points": 74,
+          "cubic_points": 42,
+          "contours": 3
+        },
+        {
+          "glyph": "uniE069.secondary",
+          "quadratic_points": 45,
+          "cubic_points": 33,
+          "contours": 4
+        },
+        {
+          "glyph": "uniE069.tertiary",
+          "quadratic_points": 30,
+          "cubic_points": 18,
+          "contours": 2
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-53",
+      "glyph": "uniE034",
+      "codepoint": "E034",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-53",
+        "name": "Check mark, 6-point",
+        "specimen_number": "6pt-53",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "check"
+        ],
+        "codepoint": "E034",
+        "glyph": "uniE034",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE034.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE034.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE034.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          620,
+          2711,
+          661,
+          2748
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 230,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2064,
+          1174,
+          2112,
+          1215
+        ],
+        "body_points": 12,
+        "location": "algebraic sign row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2064,
+          1174,
+          2112,
+          1215
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 225,
+        "frame_threshold": 235,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 225,
+            "secondary": 230,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The larger matching radical preserves the fine ascending stroke against the heavy short hook; the earlier interpretation lost this stroke contrast. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The larger matching radical preserves the fine ascending stroke against the heavy short hook; the earlier interpretation lost this stroke contrast.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE034",
+          "quadratic_points": 76,
+          "cubic_points": 42,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE034.primary",
+          "quadratic_points": 76,
+          "cubic_points": 42,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE034.secondary",
+          "quadratic_points": 152,
+          "cubic_points": 98,
+          "contours": 4
+        },
+        {
+          "glyph": "uniE034.tertiary",
+          "quadratic_points": 146,
+          "cubic_points": 118,
+          "contours": 8
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-6pt-58",
+      "glyph": "uniE039",
+      "codepoint": "E039",
+      "historical_identity": {
+        "id": "boston-1889-p255-6pt-58",
+        "name": "Prime stroke, 6-point",
+        "specimen_number": "6pt-58",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "stroke"
+        ],
+        "codepoint": "E039",
+        "glyph": "uniE039",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE039.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE039.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE039.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          323,
+          2782,
+          342,
+          2821
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 213,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          363,
+          1558,
+          377,
+          1576
+        ],
+        "body_points": null,
+        "location": "Explanatory legend"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          363,
+          1558,
+          377,
+          1576
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1094,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1222,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 205,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The matching GPO prime preserves its long pointed lower end and sloping axis; the earlier soft source produced a blunt teardrop. Original Boston identity and advance retained; uniform scaling only. Vector differences of nested ink contours preserve shared tone boundaries; no strokes are invented."
+      },
+      "quality_reason": "The matching GPO prime preserves its long pointed lower end and sloping axis; the earlier soft source produced a blunt teardrop.",
+      "advance_width": 1222,
+      "font_limits": [
+        {
+          "glyph": "uniE039",
+          "quadratic_points": 26,
+          "cubic_points": 9,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE039.primary",
+          "quadratic_points": 26,
+          "cubic_points": 9,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE039.secondary",
+          "quadratic_points": 21,
+          "cubic_points": 15,
+          "contours": 1
+        },
+        {
+          "glyph": "uniE039.tertiary",
+          "quadratic_points": 55,
+          "cubic_points": 36,
+          "contours": 1
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at165and32pixels; final release formats pending",
+      "review_proof": "specimens/gpo-matched-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-9pt-28",
+      "glyph": "uniE0EA",
+      "codepoint": "E0EA",
+      "historical_identity": {
+        "id": "boston-1889-p255-9pt-28",
+        "name": "Outlined triangle, 9-point",
+        "specimen_number": "9pt-28",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "mathematics",
+          "algebra",
+          "geometry",
+          "triangle"
+        ],
+        "codepoint": "E0EA",
+        "glyph": "uniE0EA",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0EA.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0EA.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0EA.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1395,
+          2949,
+          1451,
+          2999
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 203,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2585,
+          1094,
+          2629,
+          1134
+        ],
+        "body_points": 12,
+        "location": "Twelve-point algebraic row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2585,
+          1094,
+          2629,
+          1134
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 215,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Preferred matching GPO 1904 witness. The matching complete GPO triangle preserves the lower-right join missing in the earlier drawing. Its native 38 by 34 pixel outline matches the Boston 42 by 38 proportions. A tight crop removes the isolated paper fleck to its left without removing any triangle ink. Original Boston identity and advance retained; uniform scaling only. Vector differences separate nested ink contours. No invented joins or analytic geometric replacement.",
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 205,
+            "tertiary": 215
+          },
+          "round_inputs": false
+        }
+      },
+      "quality_reason": "The matching complete GPO triangle preserves the lower-right join missing in the earlier drawing. Its native 38 by 34 pixel outline matches the Boston 42 by 38 proportions. A tight crop removes the isolated paper fleck to its left without removing any triangle ink.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE0EA",
+          "quadratic_points": 76,
+          "cubic_points": 32,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE0EA.primary",
+          "quadratic_points": 76,
+          "cubic_points": 32,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE0EA.secondary",
+          "quadratic_points": 94,
+          "cubic_points": 63,
+          "contours": 7
+        },
+        {
+          "glyph": "uniE0EA.tertiary",
+          "quadratic_points": 141,
+          "cubic_points": 102,
+          "contours": 6
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at 165 and 32 pixels; final formats pending",
+      "review_proof": "specimens/gpo-geometric-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-8pt-42",
+      "glyph": "uniE0B4",
+      "codepoint": "E0B4",
+      "historical_identity": {
+        "id": "boston-1889-p255-8pt-42",
+        "name": "Outlined square, 8-point",
+        "specimen_number": "8pt-42",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "square"
+        ],
+        "codepoint": "E0B4",
+        "glyph": "uniE0B4",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0B4.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0B4.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0B4.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          1544,
+          2417,
+          1588,
+          2459
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 215,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2471,
+          1089,
+          2518,
+          1137
+        ],
+        "body_points": 12,
+        "location": "Twelve-point algebraic row"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          2471,
+          1089,
+          2518,
+          1137
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 215,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 205,
+            "tertiary": 215
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO 1904 witness. The larger matching GPO square preserves four complete thin sides and a more even open center; the earlier interpretation distorted the right side and lower corners. Native edge irregularity is retained. Original Boston identity and advance retained; uniform scaling only. Vector differences separate nested ink contours. No invented joins or analytic geometric replacement."
+      },
+      "quality_reason": "The larger matching GPO square preserves four complete thin sides and a more even open center; the earlier interpretation distorted the right side and lower corners. Native edge irregularity is retained.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE0B4",
+          "quadratic_points": 61,
+          "cubic_points": 30,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE0B4.primary",
+          "quadratic_points": 59,
+          "cubic_points": 28,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE0B4.secondary",
+          "quadratic_points": 55,
+          "cubic_points": 44,
+          "contours": 6
+        },
+        {
+          "glyph": "uniE0B4.tertiary",
+          "quadratic_points": 73,
+          "cubic_points": 58,
+          "contours": 4
+        }
+      ],
+      "review_status": "Native, monochrome and tonal proofs reviewed at 165 and 32 pixels; final formats pending",
+      "review_proof": "specimens/gpo-geometric-witness-review.pdf"
+    },
+    {
+      "icon_id": "boston-1889-p255-10pt-67",
+      "glyph": "uniE14A",
+      "codepoint": "E14A",
+      "historical_identity": {
+        "id": "boston-1889-p255-10pt-67",
+        "name": "Apothecary pound sign, large, 10-point",
+        "specimen_number": "10pt-67",
+        "printed_page": 255,
+        "pdf_page": 263,
+        "tags": [
+          "symbol",
+          "medical",
+          "pharmacy",
+          "medicine"
+        ],
+        "codepoint": "E14A",
+        "glyph": "uniE14A",
+        "source_index": 0,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE14A.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE14A.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE14A.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/boston-255.jp2",
+        "box": [
+          2560,
+          2570,
+          2607,
+          2626
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 12,
+        "threshold": 230,
+        "frame_threshold": 230,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Individually catalogued technical symbol; caption number excluded. Printed size variant retained separately. Horizontal boundaries measured from ink-row whitespace, then visually reviewed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 180,
+            "secondary": 215,
+            "tertiary": 230
+          },
+          "notes": "Three disjoint regions interpret scan ink strengths after local paper correction; the printed page does not establish separately coloured inks."
+        }
+      },
+      "selected_witness": {
+        "source_index": 2,
+        "archive_leaf": 34,
+        "pdf_page": 34,
+        "printed_page": 18,
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1201,
+          825,
+          1239,
+          863
+        ],
+        "body_points": 10,
+        "location": "Ten-point commercial row, pound-weight ligature"
+      },
+      "current_recipe": {
+        "file": "reference/gpo-1904-leaf-34.png",
+        "box": [
+          1201,
+          825,
+          1239,
+          863
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "center": true,
+        "advance_width": 1928,
+        "paper_normalization_radius": 0,
+        "threshold": 225,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 205,
+            "secondary": 215,
+            "tertiary": 225
+          },
+          "round_inputs": false
+        },
+        "notes": "Preferred matching GPO1904 witness. The matching GPO commercial pound-weight impression preserves separate upright stems, a clean crossing rule and the open round lower bowl. The earlier drawing overfilled the left crossbar junction and distorted the upper serif. Threshold225retains the complete bowl hairlines; the195trial drops them. Original identity and advance are preserved. Uniform scaling only; nested vector differences separate tones."
+      },
+      "quality_reason": "The matching GPO commercial pound-weight impression preserves separate upright stems, a clean crossing rule and the open round lower bowl. The earlier drawing overfilled the left crossbar junction and distorted the upper serif. Threshold225retains the complete bowl hairlines; the195trial drops them. Original identity and advance are preserved.",
+      "advance_width": 1928,
+      "font_limits": [
+        {
+          "glyph": "uniE14A",
+          "quadratic_points": 179,
+          "cubic_points": 100,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE14A.primary",
+          "quadratic_points": 183,
+          "cubic_points": 111,
+          "contours": 2
+        },
+        {
+          "glyph": "uniE14A.secondary",
+          "quadratic_points": 316,
+          "cubic_points": 227,
+          "contours": 12
+        },
+        {
+          "glyph": "uniE14A.tertiary",
+          "quadratic_points": 345,
+          "cubic_points": 312,
+          "contours": 22
+        }
+      ],
+      "review_status": "Native, monochrome and tone proof reviewed at165and32pixels; final formats pending",
+      "review_proof": "specimens/gpo-pound-witness-review.pdf"
+    }
+  ]
+}

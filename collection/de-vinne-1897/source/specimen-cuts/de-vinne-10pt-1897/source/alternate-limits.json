@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "notes": "Explicit limits for seven unencoded observed alternatives, allowing format conversion rounding. Validate with verify_alternates.py.",
+  "glyphs": {
+    "M.census": {
+      "character": "M",
+      "feature": "ss01",
+      "bounds": {
+        "y_min": [
+          -2,
+          5
+        ],
+        "y_max": [
+          705,
+          712
+        ],
+        "ink_width": [
+          769,
+          776
+        ],
+        "ink_height": [
+          704,
+          711
+        ]
+      },
+      "advance": 843,
+      "contours": 1
+    },
+    "one.oldstyle": {
+      "character": "1",
+      "feature": "ss02",
+      "bounds": {
+        "y_min": [
+          3,
+          10
+        ],
+        "y_max": [
+          478,
+          485
+        ],
+        "ink_width": [
+          216,
+          223
+        ],
+        "ink_height": [
+          471,
+          478
+        ]
+      },
+      "advance": 290,
+      "contours": 1
+    },
+    "three.oldstyle": {
+      "character": "3",
+      "feature": "ss02",
+      "bounds": {
+        "y_min": [
+          -180,
+          -173
+        ],
+        "y_max": [
+          481,
+          488
+        ],
+        "ink_width": [
+          448,
+          455
+        ],
+        "ink_height": [
+          657,
+          664
+        ]
+      },
+      "advance": 522,
+      "contours": 1
+    },
+    "four.oldstyle": {
+      "character": "4",
+      "feature": "ss02",
+      "bounds": {
+        "y_min": [
+          -185,
+          -178
+        ],
+        "y_max": [
+          467,
+          474
+        ],
+        "ink_width": [
+          458,
+          465
+        ],
+        "ink_height": [
+          648,
+          655
+        ]
+      },
+      "advance": 532,
+      "contours": 2
+    },
+    "five.oldstyle": {
+      "character": "5",
+      "feature": "ss02",
+      "bounds": {
+        "y_min": [
+          -179,
+          -172
+        ],
+        "y_max": [
+          490,
+          497
+        ],
+        "ink_width": [
+          457,
+          464
+        ],
+        "ink_height": [
+          666,
+          673
+        ]
+      },
+      "advance": 531,
+      "contours": 1
+    },
+    "zero.lining": {
+      "character": "0",
+      "feature": "ss03",
+      "bounds": {
+        "y_min": [
+          -46,
+          -39
+        ],
+        "y_max": [
+          686,
+          693
+        ],
+        "ink_width": [
+          542,
+          549
+        ],
+        "ink_height": [
+          728,
+          735
+        ]
+      },
+      "advance": 616,
+      "contours": 2
+    },
+    "seven.lining": {
+      "character": "7",
+      "feature": "ss03",
+      "bounds": {
+        "y_min": [
+          -24,
+          -17
+        ],
+        "y_max": [
+          635,
+          642
+        ],
+        "ink_width": [
+          486,
+          493
+        ],
+        "ink_height": [
+          656,
+          663
+        ]
+      },
+      "advance": 560,
+      "contours": 1
+    },
+    "S.broad": {
+      "character": "S",
+      "feature": "ss04",
+      "bounds": {
+        "y_min": [
+          -5,
+          2
+        ],
+        "y_max": [
+          703,
+          710
+        ],
+        "ink_width": [
+          648,
+          655
+        ],
+        "ink_height": [
+          705,
+          712
+        ]
+      },
+      "advance": 722,
+      "contours": 1
+    }
+  }
+}

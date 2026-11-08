@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed Two Line Minion No.1 rows. Rectangles and baselines in a 1000-pixel-wide upright preview; source upright PNG is a lossless 270-degree counterclockwise rotation of the retained native page.",
+  "rows": [
+    {
+      "file": "reference/bruce1828-hathi-p121-upright.png",
+      "box": [
+        135,
+        110,
+        820,
+        137
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ&",
+      "baseline": 132.1,
+      "cap_height": 18.43,
+      "threshold": 150,
+      "fill_holes": 3,
+      "component_min_area": 3
+    },
+    {
+      "file": "reference/bruce1828-hathi-p121-upright.png",
+      "box": [
+        333,
+        137,
+        637,
+        162
+      ],
+      "text": "1234567890£,;:.’-?!",
+      "baseline": 156.0,
+      "cap_height": 18.43,
+      "threshold": 150,
+      "fill_holes": 3,
+      "component_min_area": 3,
+      "single_component": false
+    },
+    {
+      "file": "reference/bruce1828-hathi-p121-upright.png",
+      "box": [
+        308,
+        135,
+        331,
+        161
+      ],
+      "text": "$",
+      "baseline": 156.0,
+      "cap_height": 18.43,
+      "threshold": 150,
+      "fill_holes": 3,
+      "component_min_area": 3,
+      "single_component": false
+    }
+  ]
+}

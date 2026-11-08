@@ -4,7 +4,7 @@ Pictorial cuts and ornaments from the Boston Type & Stereotype Foundry specimen 
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**391 icon(s) · Version 1.000 · MIT**
+**391 icon(s) · Version 1.002 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonCuts1832-Regular.otf) · [TTF](fonts/BostonCuts1832-Regular.ttf) · [WOFF2](web/BostonCuts1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -16,7 +16,7 @@ Pictorial cuts and ornaments from the Boston Type & Stereotype Foundry specimen 
 the extracted `collection` folder beside your HTML file. Keep its subfolders
 together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
-and the license. No JavaScript or font installation is needed for SVG use.
+and license notices. No JavaScript or font installation is needed for SVG use.
 
 ### Three-tone image — works from disk too
 
@@ -91,6 +91,8 @@ text characters; IDs and codepoints are permanent within this collection.
 The example above uses U+E000 and is recommended from
 64 px. The 16–192 pt proofs show how detail holds up at different sizes.
 Keep the included LICENSE with redistributed assets.
+
+The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
 
 ## Evidence and editing
 
@@ -199,6 +201,7 @@ Keep the included LICENSE with redistributed assets.
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unnumbered leaf; PDF page 387, Internet Archive leaf 387](https://archive.org/details/specimenofprinti00bost/page/n387/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unnumbered leaf; PDF page 389, Internet Archive leaf 389](https://archive.org/details/specimenofprinti00bost/page/n389/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unnumbered leaf; PDF page 391, Internet Archive leaf 391](https://archive.org/details/specimenofprinti00bost/page/n391/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
+- [A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), numbered cuts; unnumbered leaf, PDF page 243](https://hdl.handle.net/2027/nyp.33433006349736) — 1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface. [Rights basis](https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and

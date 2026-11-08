@@ -1,0 +1,72 @@
+{
+  "method": "Exact source-local ten-point coverage. Matching samples jointly support the full observed character set.",
+  "entries": [
+    {
+      "id": "gpo-job-1897:type-sample:lightface-celtic-10pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 61,
+      "printed_page": 26,
+      "point_size": 10,
+      "source_label": "10-point Light-face Celtic",
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:lightface-celtic-10pt",
+      "book": "gpo-census-1900",
+      "archive_leaf": 5,
+      "printed_page": 2,
+      "point_size": 10,
+      "source_label": "10-point Light-face Celtic, No. 40",
+      "sample_transcription": "ABCDEFGHIJKLMNO / abcdefghijklmno / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOabcdefghijklmno0123456789",
+      "missing_alphanumeric_in_this_sample": "PQRSTUVWXYZpqrstuvwxyz",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+      "id": "boston-1889:type-sample:lightface-celtic-10pt",
+      "book": "boston-1889",
+      "archive_leaf": 200,
+      "printed_page": 194,
+      "point_size": 10,
+      "source_label": "10-point Light-face Celtic",
+      "sample_transcription": "DEPARTED HEROES FORGOTTEN / Neglected Warriors 25 / Underneath Flowery Meadows",
+      "observed_alphanumeric": "ADEFGHMNOPRSTUWacdeghilnorstwy25",
+      "missing_alphanumeric_in_this_sample": "BCIJKLQVXYZbfjkmpquvxz01346789",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+      "id": "atf-collective-1896:type-sample:lightface-celtic-10pt",
+      "book": "atf-collective-1896",
+      "archive_leaf": null,
+      "printed_page": 181,
+      "point_size": 10,
+      "source_label": "10-point Lightface Celtic No. 40",
+      "sample_transcription": "Spectacular Theatrical Combinations / Delighted Proprietor / RAPID CHANGE ARTIST",
+      "observed_alphanumeric": "ACDEGHINPRSTabcdeghilmnoprstu",
+      "missing_alphanumeric_in_this_sample": "BFJKLMOQUVWXYZfjkqvwxyz0123456789",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "provider_part": 11,
+      "pdf_page": 4
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:lightface-celtic-10pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 54,
+      "printed_page": 38,
+      "point_size": 10,
+      "source_label": "10-point Light-face Celtic",
+      "sample_transcription": "OLD-TIME MINSTRELSY 468 / The Minstrels were a class of men / in the middle ages who subsisted by / the arts of poetry and music; who / went about from place to place and / offered their poetical and musical / wares wherever they could find a / market for them. They appear to / have accompanied their songs with / mimicry and action, and in short to / have practiced such various means / of diverting as were much admired / in those rude times, and supplied the / want of more refined entertainment",
+      "observed_alphanumeric": "DEILMNORSTYabcdefghiklmnoprstuvwy468",
+      "missing_alphanumeric_in_this_sample": "ABCFGHJKPQUVWXZjqxz0123579",
+      "observed_punctuation": ",-.;",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    }
+  ]
+}

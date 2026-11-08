@@ -1,0 +1,400 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-bruce-1828-p169-nonpareil-3 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-nonpareil-3::before { content: "\E000"; }
+.fr-bruce-1828-p169-minion-7 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-minion-7::before { content: "\E001"; }
+.fr-bruce-1828-p169-minion-8 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-minion-8::before { content: "\E002"; }
+.fr-bruce-1828-p169-brevier-10 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-10::before { content: "\E003"; }
+.fr-bruce-1828-p169-brevier-13 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-13::before { content: "\E004"; }
+.fr-bruce-1828-p169-brevier-15 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-15::before { content: "\E005"; }
+.fr-bruce-1828-p169-brevier-16 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-16::before { content: "\E006"; }
+.fr-bruce-1828-p169-brevier-17 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-17::before { content: "\E007"; }
+.fr-bruce-1828-p169-brevier-18 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-18::before { content: "\E008"; }
+.fr-bruce-1828-p169-brevier-19 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-brevier-19::before { content: "\E009"; }
+.fr-bruce-1828-p169-bourgeois-10 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-bourgeois-10::before { content: "\E00A"; }
+.fr-bruce-1828-p169-bourgeois-12 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-bourgeois-12::before { content: "\E00B"; }
+.fr-bruce-1828-p169-bourgeois-13 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-bourgeois-13::before { content: "\E00C"; }
+.fr-bruce-1828-p169-bourgeois-14 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-bourgeois-14::before { content: "\E00D"; }
+.fr-bruce-1828-p169-bourgeois-15 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p169-bourgeois-15::before { content: "\E00E"; }
+.fr-bruce-1828-p171-long-primer-1 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-1::before { content: "\E00F"; }
+.fr-bruce-1828-p171-long-primer-7 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-7::before { content: "\E010"; }
+.fr-bruce-1828-p171-long-primer-9 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-9::before { content: "\E011"; }
+.fr-bruce-1828-p171-long-primer-11 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-11::before { content: "\E012"; }
+.fr-bruce-1828-p171-long-primer-12 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-12::before { content: "\E013"; }
+.fr-bruce-1828-p171-long-primer-13 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-13::before { content: "\E014"; }
+.fr-bruce-1828-p171-long-primer-15 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-15::before { content: "\E015"; }
+.fr-bruce-1828-p171-long-primer-16 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-16::before { content: "\E016"; }
+.fr-bruce-1828-p171-long-primer-17 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-17::before { content: "\E017"; }
+.fr-bruce-1828-p171-long-primer-18 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-18::before { content: "\E018"; }
+.fr-bruce-1828-p171-long-primer-19 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-19::before { content: "\E019"; }
+.fr-bruce-1828-p171-long-primer-20 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-20::before { content: "\E01A"; }
+.fr-bruce-1828-p171-long-primer-21 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-21::before { content: "\E01B"; }
+.fr-bruce-1828-p171-long-primer-22 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-22::before { content: "\E01C"; }
+.fr-bruce-1828-p171-long-primer-23 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-23::before { content: "\E01D"; }
+.fr-bruce-1828-p171-long-primer-25 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-25::before { content: "\E01E"; }
+.fr-bruce-1828-p171-long-primer-26 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-26::before { content: "\E01F"; }
+.fr-bruce-1828-p171-long-primer-28 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-28::before { content: "\E020"; }
+.fr-bruce-1828-p171-long-primer-29 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-29::before { content: "\E021"; }
+.fr-bruce-1828-p171-long-primer-30 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-30::before { content: "\E022"; }
+.fr-bruce-1828-p171-long-primer-31 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-long-primer-31::before { content: "\E023"; }
+.fr-bruce-1828-p171-pica-1 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-pica-1::before { content: "\E024"; }
+.fr-bruce-1828-p171-pica-2 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-pica-2::before { content: "\E025"; }
+.fr-bruce-1828-p171-pica-3 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-pica-3::before { content: "\E026"; }
+.fr-bruce-1828-p171-pica-4 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p171-pica-4::before { content: "\E027"; }
+.fr-bruce-1828-p173-double-english-1 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p173-double-english-1::before { content: "\E028"; }
+.fr-bruce-1828-p173-double-english-2 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p173-double-english-2::before { content: "\E029"; }
+.fr-bruce-1828-p173-double-english-3 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p173-double-english-3::before { content: "\E02A"; }
+.fr-bruce-1828-p173-six-line-pica-1 { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p173-six-line-pica-1::before { content: "\E02B"; }
+.fr-bruce-1828-p175-eight-line-pica-1-mask { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p175-eight-line-pica-1-mask::before { content: "\E02C"; }
+.fr-bruce-1828-p177-eleven-line-pica-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p177-eleven-line-pica-1-repeat::before { content: "\E02D"; }
+.fr-bruce-1828-p177-eleven-line-pica-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p177-eleven-line-pica-1-corner::before { content: "\E02E"; }
+.fr-bruce-1828-p181-seven-line-pica-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p181-seven-line-pica-1-repeat::before { content: "\E02F"; }
+.fr-bruce-1828-p181-seven-line-pica-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p181-seven-line-pica-2-repeat::before { content: "\E030"; }
+.fr-bruce-1828-p181-seven-line-pica-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p181-seven-line-pica-2-corner::before { content: "\E031"; }
+.fr-bruce-1828-p183-six-line-pica-2-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p183-six-line-pica-2-motif::before { content: "\E032"; }
+.fr-bruce-1828-p185-five-line-pica-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p185-five-line-pica-1-repeat::before { content: "\E033"; }
+.fr-bruce-1828-p185-five-line-pica-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p185-five-line-pica-1-corner::before { content: "\E034"; }
+.fr-bruce-1828-p185-five-line-pica-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p185-five-line-pica-2-repeat::before { content: "\E035"; }
+.fr-bruce-1828-p185-five-line-pica-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p185-five-line-pica-2-corner::before { content: "\E036"; }
+.fr-bruce-1828-p185-five-line-pica-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p185-five-line-pica-3-repeat::before { content: "\E037"; }
+.fr-bruce-1828-p185-five-line-pica-4-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p185-five-line-pica-4-corner::before { content: "\E038"; }
+.fr-bruce-1828-p187-four-line-pica-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-1-repeat::before { content: "\E039"; }
+.fr-bruce-1828-p187-four-line-pica-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-1-corner::before { content: "\E03A"; }
+.fr-bruce-1828-p187-four-line-pica-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-2-repeat::before { content: "\E03B"; }
+.fr-bruce-1828-p187-four-line-pica-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-2-corner::before { content: "\E03C"; }
+.fr-bruce-1828-p187-four-line-pica-3-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-3-corner::before { content: "\E03D"; }
+.fr-bruce-1828-p187-four-line-pica-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-4-repeat::before { content: "\E03E"; }
+.fr-bruce-1828-p187-four-line-pica-4-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p187-four-line-pica-4-corner::before { content: "\E03F"; }
+.fr-bruce-1828-p189-meridian-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p189-meridian-1-repeat::before { content: "\E040"; }
+.fr-bruce-1828-p189-meridian-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p189-meridian-2-repeat::before { content: "\E041"; }
+.fr-bruce-1828-p189-meridian-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p189-meridian-2-corner::before { content: "\E042"; }
+.fr-bruce-1828-p189-meridian-3-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p189-meridian-3-motif::before { content: "\E043"; }
+.fr-bruce-1828-p189-meridian-4-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p189-meridian-4-motif::before { content: "\E044"; }
+.fr-bruce-1828-p189-meridian-6-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p189-meridian-6-motif::before { content: "\E045"; }
+.fr-bruce-1828-p191-double-paragon-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p191-double-paragon-1-repeat::before { content: "\E046"; }
+.fr-bruce-1828-p191-double-paragon-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p191-double-paragon-2-repeat::before { content: "\E047"; }
+.fr-bruce-1828-p191-double-paragon-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p191-double-paragon-2-corner::before { content: "\E048"; }
+.fr-bruce-1828-p191-double-paragon-4-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p191-double-paragon-4-motif::before { content: "\E049"; }
+.fr-bruce-1828-p191-double-paragon-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p191-double-paragon-6-repeat::before { content: "\E04A"; }
+.fr-bruce-1828-p193-double-great-primer-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p193-double-great-primer-4-repeat::before { content: "\E04B"; }
+.fr-bruce-1828-p193-double-great-primer-4-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p193-double-great-primer-4-corner::before { content: "\E04C"; }
+.fr-bruce-1828-p193-double-great-primer-5-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p193-double-great-primer-5-motif::before { content: "\E04D"; }
+.fr-bruce-1828-p193-double-great-primer-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p193-double-great-primer-6-repeat::before { content: "\E04E"; }
+.fr-bruce-1828-p193-double-great-primer-7-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p193-double-great-primer-7-motif::before { content: "\E04F"; }
+.fr-bruce-1828-p195-double-columbian-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-1-repeat::before { content: "\E050"; }
+.fr-bruce-1828-p195-double-columbian-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-1-corner::before { content: "\E051"; }
+.fr-bruce-1828-p195-double-columbian-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-2-repeat::before { content: "\E052"; }
+.fr-bruce-1828-p195-double-columbian-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-2-corner::before { content: "\E053"; }
+.fr-bruce-1828-p195-double-columbian-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-3-repeat::before { content: "\E054"; }
+.fr-bruce-1828-p195-double-columbian-5-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-5-motif::before { content: "\E055"; }
+.fr-bruce-1828-p195-double-columbian-6-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-6-motif::before { content: "\E056"; }
+.fr-bruce-1828-p195-double-columbian-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-7-repeat::before { content: "\E057"; }
+.fr-bruce-1828-p195-double-columbian-7-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p195-double-columbian-7-corner::before { content: "\E058"; }
+.fr-bruce-1828-p197-double-english-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-1-repeat::before { content: "\E059"; }
+.fr-bruce-1828-p197-double-english-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-1-corner::before { content: "\E05A"; }
+.fr-bruce-1828-p197-double-english-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-2-repeat::before { content: "\E05B"; }
+.fr-bruce-1828-p197-double-english-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-2-corner::before { content: "\E05C"; }
+.fr-bruce-1828-p197-double-english-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-3-repeat::before { content: "\E05D"; }
+.fr-bruce-1828-p197-double-english-3-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-3-corner::before { content: "\E05E"; }
+.fr-bruce-1828-p197-double-english-4-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-4-motif::before { content: "\E05F"; }
+.fr-bruce-1828-p197-double-english-5-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-5-repeat::before { content: "\E060"; }
+.fr-bruce-1828-p197-double-english-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-7-repeat::before { content: "\E061"; }
+.fr-bruce-1828-p197-double-english-8-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p197-double-english-8-motif::before { content: "\E062"; }
+.fr-bruce-1828-p199-real-double-pica-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-1-repeat::before { content: "\E063"; }
+.fr-bruce-1828-p199-real-double-pica-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-3-repeat::before { content: "\E064"; }
+.fr-bruce-1828-p199-real-double-pica-3-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-3-corner::before { content: "\E065"; }
+.fr-bruce-1828-p199-real-double-pica-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-4-repeat::before { content: "\E066"; }
+.fr-bruce-1828-p199-real-double-pica-5-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-5-motif::before { content: "\E067"; }
+.fr-bruce-1828-p199-real-double-pica-6-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-6-motif::before { content: "\E068"; }
+.fr-bruce-1828-p199-real-double-pica-7-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p199-real-double-pica-7-motif::before { content: "\E069"; }
+.fr-bruce-1828-p201-double-small-pica-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-1-corner::before { content: "\E06A"; }
+.fr-bruce-1828-p201-double-small-pica-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-2-repeat::before { content: "\E06B"; }
+.fr-bruce-1828-p201-double-small-pica-3-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-3-motif::before { content: "\E06C"; }
+.fr-bruce-1828-p201-double-small-pica-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-4-repeat::before { content: "\E06D"; }
+.fr-bruce-1828-p201-double-small-pica-5-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-5-repeat::before { content: "\E06E"; }
+.fr-bruce-1828-p201-double-small-pica-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-6-repeat::before { content: "\E06F"; }
+.fr-bruce-1828-p201-double-small-pica-6-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-6-corner::before { content: "\E070"; }
+.fr-bruce-1828-p201-double-small-pica-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-7-repeat::before { content: "\E071"; }
+.fr-bruce-1828-p201-double-small-pica-7-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p201-double-small-pica-7-corner::before { content: "\E072"; }
+.fr-bruce-1828-p203-paragon-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-1-repeat::before { content: "\E073"; }
+.fr-bruce-1828-p203-paragon-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-2-repeat::before { content: "\E074"; }
+.fr-bruce-1828-p203-paragon-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-3-repeat::before { content: "\E075"; }
+.fr-bruce-1828-p203-paragon-3-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-3-corner::before { content: "\E076"; }
+.fr-bruce-1828-p203-paragon-4-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-4-motif::before { content: "\E077"; }
+.fr-bruce-1828-p203-paragon-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-7-repeat::before { content: "\E078"; }
+.fr-bruce-1828-p203-paragon-8-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-8-repeat::before { content: "\E079"; }
+.fr-bruce-1828-p203-paragon-9-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p203-paragon-9-motif::before { content: "\E07A"; }
+.fr-bruce-1828-p205-great-primer-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p205-great-primer-2-repeat::before { content: "\E07B"; }
+.fr-bruce-1828-p205-great-primer-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p205-great-primer-3-repeat::before { content: "\E07C"; }
+.fr-bruce-1828-p205-great-primer-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p205-great-primer-4-repeat::before { content: "\E07D"; }
+.fr-bruce-1828-p205-great-primer-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p205-great-primer-6-repeat::before { content: "\E07E"; }
+.fr-bruce-1828-p205-great-primer-7-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p205-great-primer-7-motif::before { content: "\E07F"; }
+.fr-bruce-1828-p205-great-primer-9-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p205-great-primer-9-motif::before { content: "\E080"; }
+.fr-bruce-1828-p207-columbian-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-1-repeat::before { content: "\E081"; }
+.fr-bruce-1828-p207-columbian-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-2-repeat::before { content: "\E082"; }
+.fr-bruce-1828-p207-columbian-3-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-3-motif::before { content: "\E083"; }
+.fr-bruce-1828-p207-columbian-5-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-5-repeat::before { content: "\E084"; }
+.fr-bruce-1828-p207-columbian-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-6-repeat::before { content: "\E085"; }
+.fr-bruce-1828-p207-columbian-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-7-repeat::before { content: "\E086"; }
+.fr-bruce-1828-p207-columbian-7-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-7-corner::before { content: "\E087"; }
+.fr-bruce-1828-p207-columbian-8-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-8-repeat::before { content: "\E088"; }
+.fr-bruce-1828-p207-columbian-9-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-9-repeat::before { content: "\E089"; }
+.fr-bruce-1828-p207-columbian-10-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p207-columbian-10-repeat::before { content: "\E08A"; }
+.fr-bruce-1828-p209-english-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p209-english-7-repeat::before { content: "\E08B"; }
+.fr-bruce-1828-p209-english-8-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p209-english-8-motif::before { content: "\E08C"; }
+.fr-bruce-1828-p209-english-11-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p209-english-11-repeat::before { content: "\E08D"; }
+.fr-bruce-1828-p209-english-13-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p209-english-13-motif::before { content: "\E08E"; }
+.fr-bruce-1828-p211-pica-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-2-corner::before { content: "\E08F"; }
+.fr-bruce-1828-p211-pica-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-3-repeat::before { content: "\E090"; }
+.fr-bruce-1828-p211-pica-3-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-3-corner::before { content: "\E091"; }
+.fr-bruce-1828-p211-pica-5-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-5-motif::before { content: "\E092"; }
+.fr-bruce-1828-p211-pica-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-6-repeat::before { content: "\E093"; }
+.fr-bruce-1828-p211-pica-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-7-repeat::before { content: "\E094"; }
+.fr-bruce-1828-p211-pica-8-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-8-motif::before { content: "\E095"; }
+.fr-bruce-1828-p211-pica-9-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-9-repeat::before { content: "\E096"; }
+.fr-bruce-1828-p211-pica-9-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-9-corner::before { content: "\E097"; }
+.fr-bruce-1828-p211-pica-14-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p211-pica-14-motif::before { content: "\E098"; }
+.fr-bruce-1828-p213-small-pica-1-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-1-motif::before { content: "\E099"; }
+.fr-bruce-1828-p213-small-pica-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-3-repeat::before { content: "\E09A"; }
+.fr-bruce-1828-p213-small-pica-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-4-repeat::before { content: "\E09B"; }
+.fr-bruce-1828-p213-small-pica-4-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-4-corner::before { content: "\E09C"; }
+.fr-bruce-1828-p213-small-pica-5-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-5-motif::before { content: "\E09D"; }
+.fr-bruce-1828-p213-small-pica-6-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-6-repeat::before { content: "\E09E"; }
+.fr-bruce-1828-p213-small-pica-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-7-repeat::before { content: "\E09F"; }
+.fr-bruce-1828-p213-small-pica-8-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-8-motif::before { content: "\E0A0"; }
+.fr-bruce-1828-p213-small-pica-10-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-10-repeat::before { content: "\E0A1"; }
+.fr-bruce-1828-p213-small-pica-12-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-12-motif::before { content: "\E0A2"; }
+.fr-bruce-1828-p213-small-pica-13-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p213-small-pica-13-repeat::before { content: "\E0A3"; }
+.fr-bruce-1828-p215-long-primer-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-2-repeat::before { content: "\E0A4"; }
+.fr-bruce-1828-p215-long-primer-2-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-2-corner::before { content: "\E0A5"; }
+.fr-bruce-1828-p215-long-primer-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-3-repeat::before { content: "\E0A6"; }
+.fr-bruce-1828-p215-long-primer-5-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-5-motif::before { content: "\E0A7"; }
+.fr-bruce-1828-p215-long-primer-6-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-6-motif::before { content: "\E0A8"; }
+.fr-bruce-1828-p215-long-primer-8-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-8-repeat::before { content: "\E0A9"; }
+.fr-bruce-1828-p215-long-primer-8-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-8-corner::before { content: "\E0AA"; }
+.fr-bruce-1828-p215-long-primer-9-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-9-repeat::before { content: "\E0AB"; }
+.fr-bruce-1828-p215-long-primer-11-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-11-repeat::before { content: "\E0AC"; }
+.fr-bruce-1828-p215-long-primer-14-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-14-repeat::before { content: "\E0AD"; }
+.fr-bruce-1828-p215-long-primer-15-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p215-long-primer-15-repeat::before { content: "\E0AE"; }
+.fr-bruce-1828-p217-bourgeois-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-bourgeois-2-repeat::before { content: "\E0AF"; }
+.fr-bruce-1828-p217-bourgeois-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-bourgeois-3-repeat::before { content: "\E0B0"; }
+.fr-bruce-1828-p217-bourgeois-7-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-bourgeois-7-motif::before { content: "\E0B1"; }
+.fr-bruce-1828-p217-brevier-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-1-repeat::before { content: "\E0B2"; }
+.fr-bruce-1828-p217-brevier-1-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-1-corner::before { content: "\E0B3"; }
+.fr-bruce-1828-p217-brevier-2-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-2-repeat::before { content: "\E0B4"; }
+.fr-bruce-1828-p217-brevier-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-3-repeat::before { content: "\E0B5"; }
+.fr-bruce-1828-p217-brevier-10-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-10-motif::before { content: "\E0B6"; }
+.fr-bruce-1828-p217-brevier-12-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-12-repeat::before { content: "\E0B7"; }
+.fr-bruce-1828-p217-brevier-13-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-13-repeat::before { content: "\E0B8"; }
+.fr-bruce-1828-p217-brevier-14-rhomboid { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p217-brevier-14-rhomboid::before { content: "\E0B9"; }
+.fr-bruce-1828-p233-minion-1-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-minion-1-motif::before { content: "\E0BA"; }
+.fr-bruce-1828-p233-minion-2-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-minion-2-motif::before { content: "\E0BB"; }
+.fr-bruce-1828-p233-minion-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-minion-4-repeat::before { content: "\E0BC"; }
+.fr-bruce-1828-p233-minion-7-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-minion-7-repeat::before { content: "\E0BD"; }
+.fr-bruce-1828-p233-minion-10-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-minion-10-repeat::before { content: "\E0BE"; }
+.fr-bruce-1828-p233-nonpareil-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-nonpareil-4-repeat::before { content: "\E0BF"; }
+.fr-bruce-1828-p233-nonpareil-13-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p233-nonpareil-13-repeat::before { content: "\E0C0"; }
+.fr-bruce-1828-p235-agate-3-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p235-agate-3-repeat::before { content: "\E0C1"; }
+.fr-bruce-1828-p235-agate-3-corner { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p235-agate-3-corner::before { content: "\E0C2"; }
+.fr-bruce-1828-p235-pearl-1-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p235-pearl-1-repeat::before { content: "\E0C3"; }
+.fr-bruce-1828-p235-pearl-4-repeat { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p235-pearl-4-repeat::before { content: "\E0C4"; }
+.fr-bruce-1828-p235-pearl-7-motif { font-family: "Bruce Ornaments 1828"; }
+.fr-bruce-1828-p235-pearl-7-motif::before { content: "\E0C5"; }

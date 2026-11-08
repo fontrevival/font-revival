@@ -1,0 +1,1614 @@
+{
+  "schema_version": 1,
+  "notes": "Complete observed twelve-point uppercase, lowercase, figures and four punctuation marks; individual limits preserve historical proportions. No cross-size harmonisation.",
+  "rules": [
+    {
+      "characters": " ",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        0,
+        0
+      ],
+      "y_max": [
+        0,
+        0
+      ],
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        300,
+        300
+      ]
+    },
+    {
+      "characters": ",",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -240,
+        -233
+      ],
+      "y_max": [
+        73,
+        80
+      ],
+      "ink_width": [
+        149,
+        156
+      ],
+      "ink_height": [
+        309,
+        316
+      ],
+      "advance_width": [
+        223,
+        223
+      ]
+    },
+    {
+      "characters": "-",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        153,
+        160
+      ],
+      "y_max": [
+        241,
+        248
+      ],
+      "ink_width": [
+        410,
+        417
+      ],
+      "ink_height": [
+        84,
+        91
+      ],
+      "advance_width": [
+        483,
+        483
+      ]
+    },
+    {
+      "characters": ".",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -25,
+        -18
+      ],
+      "y_max": [
+        68,
+        75
+      ],
+      "ink_width": [
+        81,
+        88
+      ],
+      "ink_height": [
+        90,
+        97
+      ],
+      "advance_width": [
+        154,
+        154
+      ]
+    },
+    {
+      "characters": "0",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -32,
+        -25
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        669,
+        676
+      ],
+      "ink_height": [
+        724,
+        731
+      ],
+      "advance_width": [
+        743,
+        743
+      ]
+    },
+    {
+      "characters": "1",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        10,
+        17
+      ],
+      "y_max": [
+        680,
+        687
+      ],
+      "ink_width": [
+        338,
+        345
+      ],
+      "ink_height": [
+        666,
+        673
+      ],
+      "advance_width": [
+        412,
+        412
+      ]
+    },
+    {
+      "characters": "2",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        10,
+        17
+      ],
+      "y_max": [
+        706,
+        713
+      ],
+      "ink_width": [
+        603,
+        610
+      ],
+      "ink_height": [
+        692,
+        699
+      ],
+      "advance_width": [
+        676,
+        676
+      ]
+    },
+    {
+      "characters": "3",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -32,
+        -25
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        608,
+        615
+      ],
+      "ink_height": [
+        725,
+        732
+      ],
+      "advance_width": [
+        682,
+        682
+      ]
+    },
+    {
+      "characters": "4",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        578,
+        585
+      ],
+      "ink_height": [
+        699,
+        706
+      ],
+      "advance_width": [
+        652,
+        652
+      ]
+    },
+    {
+      "characters": "5",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -36,
+        -29
+      ],
+      "y_max": [
+        685,
+        692
+      ],
+      "ink_width": [
+        606,
+        613
+      ],
+      "ink_height": [
+        717,
+        724
+      ],
+      "advance_width": [
+        679,
+        679
+      ]
+    },
+    {
+      "characters": "6",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -41,
+        -34
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        608,
+        615
+      ],
+      "ink_height": [
+        735,
+        742
+      ],
+      "advance_width": [
+        682,
+        682
+      ]
+    },
+    {
+      "characters": "7",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -12,
+        -5
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        578,
+        585
+      ],
+      "ink_height": [
+        701,
+        708
+      ],
+      "advance_width": [
+        651,
+        651
+      ]
+    },
+    {
+      "characters": "8",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -40,
+        -33
+      ],
+      "y_max": [
+        708,
+        715
+      ],
+      "ink_width": [
+        599,
+        606
+      ],
+      "ink_height": [
+        745,
+        752
+      ],
+      "advance_width": [
+        673,
+        673
+      ]
+    },
+    {
+      "characters": "9",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -44,
+        -37
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        619,
+        626
+      ],
+      "ink_height": [
+        737,
+        744
+      ],
+      "advance_width": [
+        693,
+        693
+      ]
+    },
+    {
+      "characters": "A",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        680,
+        687
+      ],
+      "ink_width": [
+        922,
+        929
+      ],
+      "ink_height": [
+        678,
+        685
+      ],
+      "advance_width": [
+        995,
+        995
+      ]
+    },
+    {
+      "characters": "B",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        0,
+        7
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        768,
+        775
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        841,
+        841
+      ]
+    },
+    {
+      "characters": "C",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -35,
+        -28
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        667,
+        674
+      ],
+      "ink_height": [
+        729,
+        736
+      ],
+      "advance_width": [
+        741,
+        741
+      ]
+    },
+    {
+      "characters": "D",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        4,
+        11
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        826,
+        833
+      ],
+      "ink_height": [
+        689,
+        696
+      ],
+      "advance_width": [
+        899,
+        899
+      ]
+    },
+    {
+      "characters": "E",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -9,
+        -2
+      ],
+      "y_max": [
+        690,
+        697
+      ],
+      "ink_width": [
+        797,
+        804
+      ],
+      "ink_height": [
+        696,
+        703
+      ],
+      "advance_width": [
+        871,
+        871
+      ]
+    },
+    {
+      "characters": "F",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        713,
+        720
+      ],
+      "ink_width": [
+        751,
+        758
+      ],
+      "ink_height": [
+        712,
+        719
+      ],
+      "advance_width": [
+        824,
+        824
+      ]
+    },
+    {
+      "characters": "G",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -22,
+        -15
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        759,
+        766
+      ],
+      "ink_height": [
+        717,
+        724
+      ],
+      "advance_width": [
+        832,
+        832
+      ]
+    },
+    {
+      "characters": "H",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        0,
+        7
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        893,
+        900
+      ],
+      "ink_height": [
+        696,
+        703
+      ],
+      "advance_width": [
+        966,
+        966
+      ]
+    },
+    {
+      "characters": "I",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -8,
+        -1
+      ],
+      "y_max": [
+        695,
+        702
+      ],
+      "ink_width": [
+        269,
+        276
+      ],
+      "ink_height": [
+        699,
+        706
+      ],
+      "advance_width": [
+        342,
+        342
+      ]
+    },
+    {
+      "characters": "J",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -15,
+        -8
+      ],
+      "y_max": [
+        688,
+        695
+      ],
+      "ink_width": [
+        453,
+        460
+      ],
+      "ink_height": [
+        699,
+        706
+      ],
+      "advance_width": [
+        527,
+        527
+      ]
+    },
+    {
+      "characters": "K",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -15,
+        -8
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        930,
+        937
+      ],
+      "ink_height": [
+        705,
+        712
+      ],
+      "advance_width": [
+        1003,
+        1003
+      ]
+    },
+    {
+      "characters": "L",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        4,
+        11
+      ],
+      "y_max": [
+        706,
+        713
+      ],
+      "ink_width": [
+        772,
+        779
+      ],
+      "ink_height": [
+        698,
+        705
+      ],
+      "advance_width": [
+        846,
+        846
+      ]
+    },
+    {
+      "characters": "M",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        6,
+        13
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        1018,
+        1025
+      ],
+      "ink_height": [
+        688,
+        695
+      ],
+      "advance_width": [
+        1091,
+        1091
+      ]
+    },
+    {
+      "characters": "N",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -6,
+        1
+      ],
+      "y_max": [
+        690,
+        697
+      ],
+      "ink_width": [
+        867,
+        874
+      ],
+      "ink_height": [
+        692,
+        699
+      ],
+      "advance_width": [
+        940,
+        940
+      ]
+    },
+    {
+      "characters": "O",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -35,
+        -28
+      ],
+      "y_max": [
+        703,
+        710
+      ],
+      "ink_width": [
+        803,
+        810
+      ],
+      "ink_height": [
+        735,
+        742
+      ],
+      "advance_width": [
+        876,
+        876
+      ]
+    },
+    {
+      "characters": "P",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -18,
+        -11
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        795,
+        802
+      ],
+      "ink_height": [
+        711,
+        718
+      ],
+      "advance_width": [
+        868,
+        868
+      ]
+    },
+    {
+      "characters": "Q",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -143,
+        -136
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        866,
+        873
+      ],
+      "ink_height": [
+        839,
+        846
+      ],
+      "advance_width": [
+        939,
+        939
+      ]
+    },
+    {
+      "characters": "R",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -22,
+        -15
+      ],
+      "y_max": [
+        687,
+        694
+      ],
+      "ink_width": [
+        897,
+        904
+      ],
+      "ink_height": [
+        706,
+        713
+      ],
+      "advance_width": [
+        971,
+        971
+      ]
+    },
+    {
+      "characters": "S",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -20,
+        -13
+      ],
+      "y_max": [
+        702,
+        709
+      ],
+      "ink_width": [
+        665,
+        672
+      ],
+      "ink_height": [
+        719,
+        726
+      ],
+      "advance_width": [
+        739,
+        739
+      ]
+    },
+    {
+      "characters": "T",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        814,
+        821
+      ],
+      "ink_height": [
+        695,
+        702
+      ],
+      "advance_width": [
+        887,
+        887
+      ]
+    },
+    {
+      "characters": "U",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -24,
+        -17
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        848,
+        855
+      ],
+      "ink_height": [
+        719,
+        726
+      ],
+      "advance_width": [
+        922,
+        922
+      ]
+    },
+    {
+      "characters": "V",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        1,
+        8
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        877,
+        884
+      ],
+      "ink_height": [
+        688,
+        695
+      ],
+      "advance_width": [
+        951,
+        951
+      ]
+    },
+    {
+      "characters": "W",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        716,
+        723
+      ],
+      "ink_width": [
+        1515,
+        1522
+      ],
+      "ink_height": [
+        714,
+        721
+      ],
+      "advance_width": [
+        1588,
+        1588
+      ]
+    },
+    {
+      "characters": "X",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        0,
+        7
+      ],
+      "y_max": [
+        694,
+        701
+      ],
+      "ink_width": [
+        886,
+        893
+      ],
+      "ink_height": [
+        690,
+        697
+      ],
+      "advance_width": [
+        959,
+        959
+      ]
+    },
+    {
+      "characters": "Y",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -7,
+        0
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        870,
+        877
+      ],
+      "ink_height": [
+        700,
+        707
+      ],
+      "advance_width": [
+        943,
+        943
+      ]
+    },
+    {
+      "characters": "Z",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        4,
+        11
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        689,
+        696
+      ],
+      "ink_height": [
+        685,
+        692
+      ],
+      "advance_width": [
+        762,
+        762
+      ]
+    },
+    {
+      "characters": "a",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        507,
+        514
+      ],
+      "ink_width": [
+        531,
+        538
+      ],
+      "ink_height": [
+        505,
+        512
+      ],
+      "advance_width": [
+        604,
+        604
+      ]
+    },
+    {
+      "characters": "b",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -13,
+        -6
+      ],
+      "y_max": [
+        691,
+        698
+      ],
+      "ink_width": [
+        591,
+        598
+      ],
+      "ink_height": [
+        700,
+        707
+      ],
+      "advance_width": [
+        664,
+        664
+      ]
+    },
+    {
+      "characters": "c",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -18,
+        -11
+      ],
+      "y_max": [
+        501,
+        508
+      ],
+      "ink_width": [
+        478,
+        485
+      ],
+      "ink_height": [
+        515,
+        522
+      ],
+      "advance_width": [
+        552,
+        552
+      ]
+    },
+    {
+      "characters": "d",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        1,
+        8
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        582,
+        589
+      ],
+      "ink_height": [
+        692,
+        699
+      ],
+      "advance_width": [
+        656,
+        656
+      ]
+    },
+    {
+      "characters": "e",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -11,
+        -4
+      ],
+      "y_max": [
+        495,
+        502
+      ],
+      "ink_width": [
+        482,
+        489
+      ],
+      "ink_height": [
+        503,
+        510
+      ],
+      "advance_width": [
+        555,
+        555
+      ]
+    },
+    {
+      "characters": "f",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        2,
+        9
+      ],
+      "y_max": [
+        711,
+        718
+      ],
+      "ink_width": [
+        349,
+        356
+      ],
+      "ink_height": [
+        706,
+        713
+      ],
+      "advance_width": [
+        423,
+        423
+      ]
+    },
+    {
+      "characters": "g",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -226,
+        -219
+      ],
+      "y_max": [
+        497,
+        504
+      ],
+      "ink_width": [
+        590,
+        597
+      ],
+      "ink_height": [
+        720,
+        727
+      ],
+      "advance_width": [
+        663,
+        663
+      ]
+    },
+    {
+      "characters": "h",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        667,
+        674
+      ],
+      "ink_height": [
+        698,
+        705
+      ],
+      "advance_width": [
+        741,
+        741
+      ]
+    },
+    {
+      "characters": "i",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        200,
+        207
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        273,
+        273
+      ]
+    },
+    {
+      "characters": "j",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -233,
+        -226
+      ],
+      "y_max": [
+        680,
+        687
+      ],
+      "ink_width": [
+        264,
+        271
+      ],
+      "ink_height": [
+        910,
+        917
+      ],
+      "advance_width": [
+        338,
+        338
+      ]
+    },
+    {
+      "characters": "k",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        684,
+        691
+      ],
+      "ink_width": [
+        650,
+        657
+      ],
+      "ink_height": [
+        682,
+        689
+      ],
+      "advance_width": [
+        723,
+        723
+      ]
+    },
+    {
+      "characters": "l",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -4,
+        3
+      ],
+      "y_max": [
+        687,
+        694
+      ],
+      "ink_width": [
+        244,
+        250
+      ],
+      "ink_height": [
+        688,
+        695
+      ],
+      "advance_width": [
+        317,
+        317
+      ]
+    },
+    {
+      "characters": "m",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -10,
+        -3
+      ],
+      "y_max": [
+        482,
+        489
+      ],
+      "ink_width": [
+        1008,
+        1015
+      ],
+      "ink_height": [
+        488,
+        495
+      ],
+      "advance_width": [
+        1082,
+        1082
+      ]
+    },
+    {
+      "characters": "n",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -6,
+        1
+      ],
+      "y_max": [
+        504,
+        511
+      ],
+      "ink_width": [
+        563,
+        570
+      ],
+      "ink_height": [
+        507,
+        514
+      ],
+      "advance_width": [
+        636,
+        636
+      ]
+    },
+    {
+      "characters": "o",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        478,
+        485
+      ],
+      "ink_width": [
+        555,
+        562
+      ],
+      "ink_height": [
+        477,
+        484
+      ],
+      "advance_width": [
+        628,
+        628
+      ]
+    },
+    {
+      "characters": "p",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -229,
+        -222
+      ],
+      "y_max": [
+        479,
+        486
+      ],
+      "ink_width": [
+        593,
+        600
+      ],
+      "ink_height": [
+        704,
+        711
+      ],
+      "advance_width": [
+        666,
+        666
+      ]
+    },
+    {
+      "characters": "q",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -205,
+        -198
+      ],
+      "y_max": [
+        492,
+        499
+      ],
+      "ink_width": [
+        608,
+        615
+      ],
+      "ink_height": [
+        694,
+        701
+      ],
+      "advance_width": [
+        681,
+        681
+      ]
+    },
+    {
+      "characters": "r",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        5,
+        12
+      ],
+      "y_max": [
+        498,
+        505
+      ],
+      "ink_width": [
+        454,
+        461
+      ],
+      "ink_height": [
+        489,
+        496
+      ],
+      "advance_width": [
+        527,
+        527
+      ]
+    },
+    {
+      "characters": "s",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        476,
+        483
+      ],
+      "ink_width": [
+        416,
+        423
+      ],
+      "ink_height": [
+        474,
+        481
+      ],
+      "advance_width": [
+        490,
+        490
+      ]
+    },
+    {
+      "characters": "t",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -25,
+        -18
+      ],
+      "y_max": [
+        619,
+        626
+      ],
+      "ink_width": [
+        295,
+        302
+      ],
+      "ink_height": [
+        641,
+        648
+      ],
+      "advance_width": [
+        368,
+        368
+      ]
+    },
+    {
+      "characters": "u",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -12,
+        -5
+      ],
+      "y_max": [
+        487,
+        494
+      ],
+      "ink_width": [
+        583,
+        590
+      ],
+      "ink_height": [
+        495,
+        502
+      ],
+      "advance_width": [
+        657,
+        657
+      ]
+    },
+    {
+      "characters": "v",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -7,
+        0
+      ],
+      "y_max": [
+        483,
+        490
+      ],
+      "ink_width": [
+        611,
+        618
+      ],
+      "ink_height": [
+        487,
+        494
+      ],
+      "advance_width": [
+        684,
+        684
+      ]
+    },
+    {
+      "characters": "w",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        7,
+        14
+      ],
+      "y_max": [
+        490,
+        497
+      ],
+      "ink_width": [
+        1010,
+        1017
+      ],
+      "ink_height": [
+        479,
+        486
+      ],
+      "advance_width": [
+        1084,
+        1084
+      ]
+    },
+    {
+      "characters": "x",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        473,
+        480
+      ],
+      "ink_width": [
+        645,
+        652
+      ],
+      "ink_height": [
+        472,
+        479
+      ],
+      "advance_width": [
+        718,
+        718
+      ]
+    },
+    {
+      "characters": "y",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -210,
+        -203
+      ],
+      "y_max": [
+        472,
+        479
+      ],
+      "ink_width": [
+        592,
+        599
+      ],
+      "ink_height": [
+        679,
+        686
+      ],
+      "advance_width": [
+        665,
+        665
+      ]
+    },
+    {
+      "characters": "z",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        469,
+        476
+      ],
+      "ink_width": [
+        463,
+        470
+      ],
+      "ink_height": [
+        467,
+        474
+      ],
+      "advance_width": [
+        536,
+        536
+      ]
+    },
+    {
+      "characters": "’",
+      "notes": "Reviewed twelve-point source proportions; conversion-rounding tolerance preserves the measured bounds, overshoots, dots and descenders.",
+      "y_min": [
+        416,
+        423
+      ],
+      "y_max": [
+        679,
+        686
+      ],
+      "ink_width": [
+        133,
+        140
+      ],
+      "ink_height": [
+        259,
+        266
+      ],
+      "advance_width": [
+        207,
+        207
+      ]
+    }
+  ]
+}

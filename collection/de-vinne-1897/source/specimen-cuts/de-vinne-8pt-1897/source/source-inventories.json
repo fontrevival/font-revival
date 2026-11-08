@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "gpo-job-1897:type-sample:de-vinne-8pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 109,
+      "pdf_page": 109,
+      "printed_page": 50,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8 Point, DeVinne. Caps, lower case, and figures.",
+      "case": null,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Left stock marks read Keystone—10 for6–18 andKeystone—6 for24. These marks are retained as printed evidence; no unverified designer or matrix attribution.",
+      "canonical_family": "de-vinne-8pt-1897"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:de-vinne-8pt-case25",
+      "book": "gpo-census-1900",
+      "archive_leaf": 35,
+      "pdf_page": 35,
+      "printed_page": 17,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8-point De Vinne",
+      "case": 25,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWX / abcdefghijklmnopqrstuvwx / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijklmnopqrstuvwx0123456789",
+      "missing_alphanumeric_in_this_sample": "YZyz",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "",
+      "canonical_family": "de-vinne-8pt-1897"
+    },
+    {
+      "id": "gpo-document-1904:type-sample:de-vinne-8pt",
+      "book": "gpo-document-1904",
+      "archive_leaf": 65,
+      "pdf_page": 65,
+      "printed_page": 30,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8-point De Vinne. (American.)",
+      "case": null,
+      "sample_transcription": "THE PICTURES OF SAINTS AND RELIGIOUS SUBJECTS / Were printed by monks to counteract the evil tendencies of playing cards. / A print dated 1423 is still in existence.",
+      "observed_alphanumeric": "ABCDEFGHIJLNOPRSTUWabcdefghiklmnoprstuvxy1234",
+      "missing_alphanumeric_in_this_sample": "KMQVXYZjqwz056789",
+      "observed_punctuation": ".",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Case259. All135native letters/figures/punctuation in three rows reviewed. The n in playing has disconnected stem and arch projection groups, reunited without drawing ink. L/S and the distinct lining three are selected after cross-source fitted review. J/R use clearer1897/census witnesses. Other designs on the page remain separate.",
+      "canonical_family": "de-vinne-8pt-1897"
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-8pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 85,
+      "pdf_page": 85,
+      "printed_page": 69,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8 Point De Vinne",
+      "sample_transcription": "WE NOW COME TO THE COMMENCEMENT / of the third period of Grecian history, at which / time the Grecians became intermixed with the / Persians in their late history. Darius, son of / Hystaspes, being in possession of the Persian / throne, resolved to conquer the Greeks, and / bring their territory under his immediate con- / trol. He therefore sent his army, under the / command of his most able officers, into Greece, / and the Persians were so sure of success that / they carried marble with them for the purpose / of erecting a monument to their glory, as con- / querors, when the Grecians should be defeated.",
+      "observed_alphanumeric": "CDEGHMNOPTWabcdefghiklmnopqrstuvwxy",
+      "missing_alphanumeric_in_this_sample": "ABFIJKLQRSUVXYZjz0123456789",
+      "observed_punctuation": ",.-",
+      "notes": "Both line-end hyphens have two bars. The second in con-querors supplies two separately printed bars at threshold155. Native paragraph has no figures. Adjacent re/ro/ry projections and a pale ta bridge in Hystaspes are recorded in the native row inventory.",
+      "scope_warning": "This paragraph alone is not a complete alphabet. Compare matching eight-point witnesses; no other point size supplies a glyph.",
+      "status": "reviewed-complete-family-witness",
+      "canonical_family": "de-vinne-8pt-1897"
+    },
+    {
+      "id": "atf-new-york-1897:type-sample:de-vinne-8pt-fractions-p436",
+      "book": "atf-new-york-1897",
+      "archive_leaf": 506,
+      "printed_page": 436,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-8pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-desk-1898:type-sample:de-vinne-8pt-fractions-p771",
+      "book": "atf-desk-1898",
+      "archive_leaf": 755,
+      "printed_page": 771,
+      "point_size": 8,
+      "design": "De Vinne",
+      "source_label": "8 Point; De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-8pt-poster-p598",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 600,
+      "printed_page": 598,
+      "point_size": 8,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 8 Point",
+      "sample_transcription": "PUBLIC SPEAKING IN THE COURT HOUSE / Hon. E. Pluribus Unum will address his fellow-citi- / zens on the political issues of the day at the Court / House in this city at 7:23 o’clock this evening. Every- / body invited. Frauds exposed and a powerful search / light turned on the dark ways of the opposition party.",
+      "transcribed_rows": [
+        "PUBLIC SPEAKING IN THE COURT HOUSE",
+        "Hon. E. Pluribus Unum will address his fellow-citi-",
+        "zens on the political issues of the day at the Court",
+        "House in this city at 7:23 o’clock this evening. Every-",
+        "body invited. Frauds exposed and a powerful search",
+        "light turned on the dark ways of the opposition party."
+      ],
+      "observed_alphanumeric": "ABCEFGHIKLNOPRSTUabcdefghiklmnoprstuvwxyz237",
+      "missing_alphanumeric_in_this_sample": "DJMQVWXYZjq0145689",
+      "observed_punctuation": "-.:’",
+      "observed_companions": "",
+      "status": "common-capital-scale-and-both-S-forms-reviewed",
+      "native_sha256": "22201f58253c6024f7b8ddb3ef25c14271077b59f76732076f10daa99e11ae91",
+      "native_context_box": [
+        412,
+        2610,
+        2556,
+        3201
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "native_source": "reference/atf-handy-byu-1897-leaf-600.jp2"
+    },
+    {
+      "id": "atf-desk-nypl-1898:type-sample:de-vinne-8pt-poster-p523",
+      "book": "atf-desk-nypl-1898",
+      "archive_leaf": 540,
+      "printed_page": 523,
+      "point_size": 8,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 8 Point",
+      "sample_transcription": "REVOLUTIONARY CONVENTIONS / When, in the course of events, it / becomes necessary for one people / to dissolve the political bands which / have connected them with another, / and to assume, among the powers / of the earth, the separate and equal / station to which the laws of nature / and of nature’s God entitle them, a / decent respect to the opinions 1358",
+      "transcribed_rows": [
+        "REVOLUTIONARY CONVENTIONS",
+        "When, in the course of events, it",
+        "becomes necessary for one people",
+        "to dissolve the political bands which",
+        "have connected them with another,",
+        "and to assume, among the powers",
+        "of the earth, the separate and equal",
+        "station to which the laws of nature",
+        "and of nature’s God entitle them, a",
+        "decent respect to the opinions 1358"
+      ],
+      "observed_alphanumeric": "ACEGILNORSTUVWYabcdefghilmnopqrstuvwy1358",
+      "missing_alphanumeric_in_this_sample": "BDFHJKMPQXZjkxz024679",
+      "observed_punctuation": ",’",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "4344c5cf10061616ab6a3c543628b8061a4597f84bfebd1f7fdfb7372b84e72b",
+      "native_context_box": [
+        652,
+        7058,
+        3055,
+        8602
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "repeated_text_group": "de-vinne-8-caecb93963ab",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    },
+    {
+      "id": "atf-desk-1898:type-sample:de-vinne-8pt-poster-p108",
+      "book": "atf-desk-1898",
+      "archive_leaf": 130,
+      "printed_page": 108,
+      "point_size": 8,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 8 Point",
+      "sample_transcription": "GREAT REAL ESTATE BARGAIN / A valuable farm in Westborough, in the County of / Worcester, situated on the Great Country Road leading / from Boston to Connecticut. Said farm contains about / 90 acres of Upland and Meadow, the most part under / improvement; it has a good Orchard, with a good Dwell- / ing-House and Barn, together with Potash Works. Said",
+      "transcribed_rows": [
+        "GREAT REAL ESTATE BARGAIN",
+        "A valuable farm in Westborough, in the County of",
+        "Worcester, situated on the Great Country Road leading",
+        "from Boston to Connecticut. Said farm contains about",
+        "90 acres of Upland and Meadow, the most part under",
+        "improvement; it has a good Orchard, with a good Dwell-",
+        "ing-House and Barn, together with Potash Works. Said"
+      ],
+      "observed_alphanumeric": "ABCDEGHILMNOPRSTUWabcdefghiklmnoprstuvwy09",
+      "missing_alphanumeric_in_this_sample": "FJKQVXYZjqxz12345678",
+      "observed_punctuation": ",-.;",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "c016c644bfcc8fb1302f3a0b6a709b8cfc9f37986a1144ff20b1511e7898a437",
+      "native_context_box": [
+        251,
+        2276,
+        1876,
+        2791
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "repeated_text_group": "de-vinne-8-ec42501d89ac",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-desk-loc-1898-leaf-130.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    }
+  ],
+  "witness_rows": [
+    {
+      "id": "regular-8-U",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "box": [
+        350,
+        850,
+        1190,
+        930
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 28,
+      "expected_count": 26,
+      "segmentation": "Native W has separated right-tip fragments: unite original projection groups23–25 without drawing a connection or removing their ink."
+    },
+    {
+      "id": "regular-8-l",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "box": [
+        1210,
+        850,
+        1850,
+        930
+      ],
+      "text": "abcdefghijklmnopqrstuvwxyz",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 26,
+      "expected_count": 26
+    },
+    {
+      "id": "regular-8-n",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "box": [
+        1870,
+        850,
+        2190,
+        930
+      ],
+      "text": "1234567890",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 10,
+      "expected_count": 10
+    },
+    {
+      "id": "regular-8-census-U",
+      "file": "reference/gpo-census-1900-leaf-35.jp2",
+      "box": [
+        40,
+        2770,
+        1140,
+        2850
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWX",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 24,
+      "expected_count": 24
+    },
+    {
+      "id": "regular-8-census-l",
+      "file": "reference/gpo-census-1900-leaf-35.jp2",
+      "box": [
+        1250,
+        2770,
+        2100,
+        2850
+      ],
+      "text": "abcdefghijklmnopqrstuvwx",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 24,
+      "expected_count": 24
+    },
+    {
+      "id": "regular-8-census-n",
+      "file": "reference/gpo-census-1900-leaf-35.jp2",
+      "box": [
+        2180,
+        2770,
+        2600,
+        2850
+      ],
+      "text": "1234567890",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 10,
+      "expected_count": 10
+    },
+    {
+      "id": "regular-8-job-00",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1677,
+        1010,
+        1727
+      ],
+      "text": "WENOWCOMETOTHECOMMENCEMENT",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 26,
+      "expected_count": 26
+    },
+    {
+      "id": "regular-8-job-01",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1727,
+        1010,
+        1777
+      ],
+      "text": "ofthethirdperiodofGrecianhistory,atwhich",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 40,
+      "expected_count": 40
+    },
+    {
+      "id": "regular-8-job-02",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1777,
+        1010,
+        1825
+      ],
+      "text": "timetheGreciansbecameintermixedwiththe",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 38,
+      "expected_count": 38
+    },
+    {
+      "id": "regular-8-job-03",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1825,
+        1010,
+        1875
+      ],
+      "text": "Persiansintheirlatehistory.Darius,sonof",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 39,
+      "expected_count": 39
+    },
+    {
+      "id": "regular-8-job-04",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1875,
+        1010,
+        1925
+      ],
+      "text": "Hystaspes,beinginpossessionofthePersian",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 38,
+      "expected_count": 39,
+      "segmentation": "Native re/ro/ry pairs have separate connected bodies with adjacent horizontal projections, split at their measured boundary. The ta pair in Hystaspes shares a pale printing bridge above threshold120; lower-threshold native contours locate the boundary at local x108. No missing ink is drawn."
+    },
+    {
+      "id": "regular-8-job-05",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1925,
+        1010,
+        1973
+      ],
+      "text": "throne,resolvedtoconquertheGreeks,and",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 36,
+      "expected_count": 37,
+      "segmentation": "Native re/ro/ry pairs have separate connected bodies with adjacent horizontal projections, split at their measured boundary. The ta pair in Hystaspes shares a pale printing bridge above threshold120; lower-threshold native contours locate the boundary at local x108. No missing ink is drawn."
+    },
+    {
+      "id": "regular-8-job-06",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        1973,
+        1010,
+        2023
+      ],
+      "text": "bringtheirterritoryunderhisimmediatecon-",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 39,
+      "expected_count": 40,
+      "segmentation": "Native re/ro/ry pairs have separate connected bodies with adjacent horizontal projections, split at their measured boundary. The ta pair in Hystaspes shares a pale printing bridge above threshold120; lower-threshold native contours locate the boundary at local x108. No missing ink is drawn."
+    },
+    {
+      "id": "regular-8-job-07",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2023,
+        1010,
+        2071
+      ],
+      "text": "trol.Hethereforesenthisarmy,underthe",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 33,
+      "expected_count": 36,
+      "segmentation": "Native re/ro/ry pairs have separate connected bodies with adjacent horizontal projections, split at their measured boundary. The ta pair in Hystaspes shares a pale printing bridge above threshold120; lower-threshold native contours locate the boundary at local x108. No missing ink is drawn."
+    },
+    {
+      "id": "regular-8-job-08",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2071,
+        1010,
+        2118
+      ],
+      "text": "commandofhismostableofficers,intoGreece,",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 40,
+      "expected_count": 40
+    },
+    {
+      "id": "regular-8-job-09",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2118,
+        1010,
+        2166
+      ],
+      "text": "andthePersiansweresosureofsuccessthat",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 37,
+      "expected_count": 37
+    },
+    {
+      "id": "regular-8-job-10",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2166,
+        1010,
+        2219
+      ],
+      "text": "theycarriedmarblewiththemforthepurpose",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 38,
+      "expected_count": 38
+    },
+    {
+      "id": "regular-8-job-11",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2219,
+        1010,
+        2267
+      ],
+      "text": "oferectingamonumenttotheirglory,ascon-",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 37,
+      "expected_count": 38,
+      "segmentation": "Native re/ro/ry pairs have separate connected bodies with adjacent horizontal projections, split at their measured boundary. The ta pair in Hystaspes shares a pale printing bridge above threshold120; lower-threshold native contours locate the boundary at local x108. No missing ink is drawn."
+    },
+    {
+      "id": "regular-8-job-12",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2267,
+        1010,
+        2316
+      ],
+      "text": "querors,whentheGreciansshouldbedefeated.",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 39,
+      "expected_count": 40,
+      "segmentation": "Native re/ro/ry pairs have separate connected bodies with adjacent horizontal projections, split at their measured boundary. The ta pair in Hystaspes shares a pale printing bridge above threshold120; lower-threshold native contours locate the boundary at local x108. No missing ink is drawn."
+    },
+    {
+      "id": "regular-8-document-00",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        1600,
+        2225,
+        1655
+      ],
+      "text": "THEPICTURESOFSAINTSANDRELIGIOUSSUBJECTS",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 39,
+      "expected_count": 39
+    },
+    {
+      "id": "regular-8-document-01",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        1655,
+        2225,
+        1709
+      ],
+      "text": "Wereprintedbymonkstocounteracttheeviltendenciesofplayingcards.",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 63,
+      "expected_count": 62,
+      "segmentation": "The n in playing has disconnected stem and arch projection groups55/56, reunited as one native crop. No connection is drawn."
+    },
+    {
+      "id": "regular-8-document-02",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        1709,
+        2225,
+        1760
+      ],
+      "text": "Aprintdated1423isstillinexistence.",
+      "point_size": 8,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 34,
+      "expected_count": 34
+    }
+  ],
+  "notes": "Exact native transcriptions and reviewed crop boundaries. Slash separators denote rows, not printed characters. Labels, stock counts, frames, rules and other point sizes do not provide glyph evidence. Native mapping and fitted trial review are complete. Matching ATF poster samples and punctuation decisions are documented in punctuation-review.json; native source inventory includes their comparison pages."
+}

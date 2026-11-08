@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Baltimore Ornaments 1832",
   "style": "Regular",
-  "version": "1.004",
+  "version": "1.006",
   "postscript_name": "BaltimoreOrnaments1832-Regular",
   "year": 1832,
   "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
@@ -204,6 +204,34 @@
       "file": "reference/pdf-187.jp2",
       "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
       "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    },
+    {
+      "title": "Job room type faces, Government Printing Office (1904), parallel rule; printed page 16, Internet Archive leaf 32",
+      "url": "https://archive.org/details/123459_1904/page/n32/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-32.jp2",
+      "rights": "Historical United States Government Printing Office publication, 1904. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    },
+    {
+      "title": "Specimens of job and display types, Government Printing Office (1897), parallel rule; printed page 80, Internet Archive leaf 167",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n167/mode/1up",
+      "file": "reference/gpo-job-1897-leaf-167.jp2",
+      "rights": "Historical United States Government Printing Office publication, 1897. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced.",
+      "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+    },
+    {
+      "title": "Specimens of type faces, brass rule, etc., Census Printing Division (1900), parallel rule; printed page 28, Internet Archive leaf 57",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n57/mode/1up",
+      "file": "reference/gpo-census-1900-leaf-57.jp2",
+      "rights": "Historical United States Government Printing Office publication, 1900. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "Specimen book of the type faces in use in the Government Printing Office (1904), Document Division, rule No.17; printed page 66, Internet Archive leaf 137",
+      "url": "https://archive.org/details/specimenbookofty00unit_0/page/n137/mode/1up",
+      "file": "reference/gpo-document-1904-leaf-137.jp2",
+      "rights": "Historical United States Government Printing Office publication, 1904. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced.",
+      "rights_url": "https://archive.org/metadata/specimenbookofty00unit_0"
     }
   ],
   "icons": [
@@ -15104,15 +15132,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-1",
-      "name": "Brass rule 1",
+      "name": "Brass rule No. 1, thin and thick sections",
       "specimen_number": "brass-rule-1",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17B",
       "glyph": "uniE17B",
@@ -15138,15 +15166,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-2",
-      "name": "Brass rule 2",
+      "name": "Brass rule No. 2, thin and thick sections",
       "specimen_number": "brass-rule-2",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17C",
       "glyph": "uniE17C",
@@ -15172,15 +15200,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-3",
-      "name": "Brass rule 3",
+      "name": "Brass rule No. 3, thin and thick sections",
       "specimen_number": "brass-rule-3",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17D",
       "glyph": "uniE17D",
@@ -15206,15 +15234,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-4",
-      "name": "Brass rule 4",
+      "name": "Brass rule No. 4, thin and thick sections",
       "specimen_number": "brass-rule-4",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17E",
       "glyph": "uniE17E",
@@ -15240,15 +15268,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-5",
-      "name": "Brass rule 5",
+      "name": "Brass rule No. 5, thin and thick sections",
       "specimen_number": "brass-rule-5",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17F",
       "glyph": "uniE17F",
@@ -15274,15 +15302,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-6",
-      "name": "Brass rule 6",
+      "name": "Brass rule No. 6, thin and thick sections",
       "specimen_number": "brass-rule-6",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E180",
       "glyph": "uniE180",
@@ -15342,7 +15370,7 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-8",
-      "name": "Brass rule 8",
+      "name": "Two fine parallel rules",
       "specimen_number": "brass-rule-8",
       "printed_page": null,
       "pdf_page": 11,
@@ -15350,7 +15378,10 @@
         "rule",
         "line",
         "divider",
-        "brass"
+        "brass",
+        "parallel",
+        "paired",
+        "fine"
       ],
       "codepoint": "E182",
       "glyph": "uniE182",

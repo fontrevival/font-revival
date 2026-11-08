@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hatchet: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Hatchet — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="../site/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+    .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
+    @media(max-width:780px){.editor-preview{height:713px}}
+    @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="../editor/index.html">Editor ↗</a><a href="https://github.com/fontrevival/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="bruce-1828-p241-cut-227">
+  <p class="card-meta"><a href="../icons.html?collection=bruce-cuts-1828#collection">Bruce Cuts 1828</a><span>No. 227</span></p>
+  <h1>Hatchet</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>cut</li><li>tool</li></ul>
+  <div class="section-links"><a href="../icons.html?section=tools-and-machinery#collection">Tools and machinery</a></div>
+  <p>Specimen PDF page 241 (unnumbered leaf).</p>
+  <p class="source-citation"><a href="https://hdl.handle.net/2027/nyp.33433006349736">George Bruce, 1828 / No. 227 / unnumbered PDF page 241</a></p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Hatchet">
+
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Hatchet" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M323 1274C321 1273 315 1271 310 1271C305 1271 299 1268 293 1262C289 1258 284 1253 282 1253C280 1253 275 1251 271 1247C264 1242 263 1239 263 1226C263 1204 255 1167 246 1150C239 1136 238 1135 229 1137C198 1142 186 1142 182 1137C179 1134 176 1119 175 1093C173 1071 171 1046 169 1038C166 1026 166 1021 169 1015C175 1002 181 999 197 1000H211L213 977C214 964 217 949 218 944C222 931 220 924 204 901C193 883 182 871 165 855C153 844 132 820 128 812C126 807 121 799 118 795C90 754 69 703 66 669L64 648L77 635C100 611 145 578 153 578C156 578 162 576 166 574C181 565 195 560 220 553C233 549 248 543 253 540C278 528 395 519 453 527C465 528 484 530 494 531C511 533 549 543 559 548C562 550 569 551 575 551C583 551 588 553 593 558C599 565 632 584 639 584C644 584 667 609 667 614C667 617 666 620 663 622C661 625 661 626 663 626C665 626 669 629 670 633C673 638 673 644 669 662C667 675 663 692 661 701C659 712 654 724 648 733C642 741 637 749 637 750C637 752 635 757 631 761C611 791 592 825 592 833C592 835 588 841 584 846C580 851 577 856 577 857C577 858 572 867 567 877C561 891 558 899 559 909C559 916 559 922 558 923C556 925 556 929 556 934C556 939 561 947 572 959C586 974 589 977 601 978C643 983 998 974 1014 968C1022 965 1042 965 1098 966C1186 968 1185 968 1252 964C1281 962 1337 960 1376 959C1415 958 1455 956 1466 955C1476 953 1491 953 1499 954C1507 955 1518 954 1525 952C1532 950 1558 947 1584 946C1609 944 1650 942 1674 940C1757 933 1757 933 1800 945C1840 954 1854 960 1861 968C1864 971 1865 985 1864 1018L1863 1062L1852 1076C1843 1087 1839 1091 1825 1095C1809 1100 1796 1100 1701 1098C1557 1096 1475 1096 1374 1098C1328 1099 1230 1100 1157 1101C1084 1102 992 1103 954 1104C832 1107 700 1109 673 1109C659 1109 631 1110 611 1113L575 1116L572 1127C571 1132 567 1141 564 1145C559 1152 558 1159 559 1194C559 1216 559 1236 559 1239C558 1247 525 1267 504 1272C490 1276 328 1278 323 1274ZM220 1103C221 1100 219 1099 214 1100C211 1100 207 1103 206 1105C205 1108 207 1109 212 1108C216 1108 219 1105 220 1103ZM217 1084C217 1081 216 1074 213 1067L207 1054L203 1062C199 1068 199 1071 204 1080C209 1091 215 1093 217 1084ZM654 1085C669 1083 701 1081 726 1080C752 1079 774 1076 778 1074C785 1071 788 1071 793 1074C798 1076 811 1077 831 1077C848 1076 921 1075 993 1073C1065 1071 1128 1068 1134 1067C1139 1065 1144 1065 1145 1066C1146 1067 1160 1068 1175 1068C1190 1069 1207 1069 1211 1070C1239 1071 1521 1066 1536 1064C1547 1063 1580 1062 1609 1062C1639 1063 1696 1064 1735 1064C1800 1065 1806 1065 1815 1059C1821 1055 1825 1051 1825 1047C1825 1041 1823 1040 1806 1040C1796 1040 1778 1041 1766 1043C1755 1044 1716 1046 1680 1047C1642 1048 1615 1049 1615 1051C1614 1053 1611 1053 1607 1051C1602 1048 1569 1047 1484 1047H1368L1365 1040C1363 1034 1360 1033 1350 1033C1340 1033 1337 1034 1337 1038C1337 1040 1335 1041 1332 1040C1330 1040 1323 1041 1316 1044C1302 1051 1286 1050 1284 1042C1282 1035 1276 1035 1268 1042C1260 1050 1240 1053 1228 1049C1222 1047 1216 1047 1208 1049C1200 1051 1196 1051 1190 1047C1185 1044 1183 1043 1182 1046C1181 1050 1153 1054 1151 1051C1150 1049 1147 1048 1146 1049C1135 1050 1128 1048 1128 1044C1128 1041 1127 1039 1125 1039C1124 1039 1122 1041 1121 1044C1119 1047 1115 1048 1105 1048C1098 1048 1090 1049 1087 1051C1084 1053 1067 1055 1049 1055C1024 1056 1016 1055 1014 1052C1013 1049 1012 1046 1013 1043C1014 1041 1013 1039 1010 1039C1008 1039 1005 1043 1003 1048C999 1059 991 1058 988 1046C986 1041 984 1039 976 1039C969 1040 968 1040 973 1043C981 1047 979 1054 967 1056C946 1060 932 1049 948 1042C954 1040 953 1039 943 1040C936 1041 914 1042 894 1043C861 1043 856 1043 852 1049C846 1056 840 1056 836 1049C834 1045 830 1044 807 1045C788 1045 779 1047 777 1050C775 1053 772 1053 769 1051C767 1049 762 1048 758 1048C753 1048 752 1050 752 1055C752 1062 750 1062 735 1061C726 1060 719 1059 720 1058C721 1057 727 1056 733 1057C740 1057 746 1056 747 1054C748 1053 746 1051 741 1051C737 1051 729 1050 724 1049C708 1048 676 1048 658 1050C627 1053 622 1054 620 1061C618 1067 616 1067 603 1062C600 1061 597 1062 594 1070C591 1075 589 1082 589 1085C589 1092 590 1092 654 1085ZM1315 1034C1314 1034 1311 1033 1309 1034C1306 1035 1307 1036 1311 1036C1314 1036 1316 1035 1315 1034ZM1398 1034C1396 1034 1391 1034 1389 1034C1386 1035 1388 1036 1392 1036C1397 1036 1400 1035 1398 1034ZM1785 1022C1784 1021 1781 1021 1779 1022C1777 1023 1778 1024 1781 1024C1784 1024 1786 1023 1785 1022ZM121 673 129 665 118 667C108 669 106 668 106 664C106 662 110 657 115 654C119 651 127 645 132 641C141 632 164 622 194 613C203 610 215 605 221 602C227 599 243 594 257 591C271 589 290 585 298 583C320 579 354 577 420 577C463 577 483 578 497 582C507 584 522 587 531 588C540 589 549 591 552 593C555 594 563 597 571 599C578 601 590 605 598 608C605 611 618 616 626 619C642 625 648 632 643 641C639 649 639 650 644 650C647 650 649 648 649 643C649 640 651 634 654 630C657 625 657 623 651 618C648 615 640 610 634 607C628 603 620 598 616 594C597 579 493 550 452 549C439 549 420 546 409 544C392 541 385 541 356 546C337 549 314 552 304 552C278 554 242 559 238 562C233 566 165 593 160 593C159 593 157 595 156 597C154 602 134 616 116 626C96 637 91 642 91 656C91 663 93 672 94 676C97 683 98 684 106 682C110 681 117 676 121 673ZM156 650C157 649 156 647 155 647C153 647 151 649 151 650C151 652 152 653 153 653C154 653 155 652 156 650ZM195 635C193 633 189 633 184 635C177 638 178 638 188 638C195 638 197 637 195 635ZM555 636C552 635 547 635 544 636C541 637 544 638 549 638C555 638 558 637 555 636ZM604 629C598 626 595 626 595 629C595 632 604 635 607 633C607 632 606 631 604 629ZM475 624C473 623 469 623 466 624C463 625 465 626 470 626C475 626 477 625 475 624ZM584 623C583 622 581 620 578 620C576 620 573 618 571 616C568 613 562 611 553 611C540 611 540 612 546 615C571 626 588 629 584 623ZM455 618C452 617 447 617 443 618C439 619 442 619 448 619C455 619 458 619 455 618ZM297 603C303 602 308 600 308 598C308 595 275 598 271 602C269 603 265 605 262 606C254 608 282 606 297 603ZM506 602C510 600 504 600 489 600C469 600 468 600 480 602C499 605 499 605 506 602ZM369 596C376 594 376 594 370 592C363 589 338 593 340 596C342 599 357 599 369 596ZM418 593C412 592 401 592 394 593C384 595 386 595 406 595C426 595 428 595 418 593Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Hatchet"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-bruce-cuts-1828'">&#xE016;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/bruce-cuts-1828/downloads/bruce-cuts-1828-web.zip">Download web bundle (ZIP)</a><a download href="../collection/bruce-cuts-1828/svg/bruce-1828-p241-cut-227.svg">Monochrome SVG</a><a download href="../collection/bruce-cuts-1828/web/icons.svg">Monochrome sprite</a><a download href="../collection/bruce-cuts-1828/fonts/BruceCuts1828-Regular.otf">OTF</a> <a download href="../collection/bruce-cuts-1828/fonts/BruceCuts1828-Regular.ttf">TTF</a> <a download href="../collection/bruce-cuts-1828/web/BruceCuts1828-Regular.woff2">WOFF2</a><a href="../collection/bruce-cuts-1828/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/bruce-cuts-1828/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/bruce-cuts-1828/downloads/bruce-cuts-1828-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.</p>
+    <h3>Monochrome image</h3>
+    <p>This displays the monochrome artwork with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/bruce-cuts-1828/svg/bruce-1828-p241-cut-227.svg&quot;
+     alt=&quot;Hatchet&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>SVG with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Hatchet&quot;&gt;
+  &lt;use href=&quot;collection/bruce-cuts-1828/web/icons.svg#bruce-1828-p241-cut-227&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/bruce-cuts-1828/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-bruce-1828-p241-cut-227&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Hatchet&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/bruce-cuts-1828/specimens/bruce-1828-p241-cut-227.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="../LICENSE">Artwork: MIT</a> · <a href="../FONT-LICENSES.txt">Fonts: MIT or SIL OFL 1.1</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

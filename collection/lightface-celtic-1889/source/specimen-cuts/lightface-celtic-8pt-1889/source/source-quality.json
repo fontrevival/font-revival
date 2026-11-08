@@ -1,0 +1,178 @@
+{
+  "coverage": {
+    "visible_observed": 68,
+    "encoded_with_space": 69,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+    "digits": "0123456789",
+    "punctuation": ".,;-—’",
+    "inferred_visible": 0
+  },
+  "identity": "Distinct eight-point optical cut. Wider lowercase recurs in native 1897 and census comparisons at several thresholds with a common cap reference. Final fitted a/e/n/o are about14–23percent wider than the twelve-point revival. Capitals are closer in width. Nominal size or impression weight alone was not used to distinguish the design.",
+  "optical_measurements": [
+    {
+      "character": "H",
+      "eight_point": {
+        "ink_width": 952.7274876809274,
+        "ink_height": 718.6588364399806
+      },
+      "twelve_point": {
+        "ink_width": 896.0000087137519,
+        "ink_height": 699.0840599141346
+      },
+      "width_ratio": 1.0633119178744321,
+      "height_ratio": 1.0280006048603803
+    },
+    {
+      "character": "N",
+      "eight_point": {
+        "ink_width": 844.9845128738201,
+        "ink_height": 724.8677977513549
+      },
+      "twelve_point": {
+        "ink_width": 870.015625,
+        "ink_height": 695.3853076778488
+      },
+      "width_ratio": 0.9712291234698458,
+      "height_ratio": 1.042397343958789
+    },
+    {
+      "character": "M",
+      "eight_point": {
+        "ink_width": 1056.046879720856,
+        "ink_height": 705.5527287515094
+      },
+      "twelve_point": {
+        "ink_width": 1021.0985475136008,
+        "ink_height": 691.9510955616154
+      },
+      "width_ratio": 1.0342262089123084,
+      "height_ratio": 1.0196569284695682
+    },
+    {
+      "character": "O",
+      "eight_point": {
+        "ink_width": 865.2461944166166,
+        "ink_height": 764.8485916167639
+      },
+      "twelve_point": {
+        "ink_width": 806.1035317046259,
+        "ink_height": 738.602024443823
+      },
+      "width_ratio": 1.0733685691550374,
+      "height_ratio": 1.0355354660619904
+    },
+    {
+      "character": "a",
+      "eight_point": {
+        "ink_width": 646.7081466247975,
+        "ink_height": 544.2056168254942
+      },
+      "twelve_point": {
+        "ink_width": 534.218239066341,
+        "ink_height": 508.2613913179621
+      },
+      "width_ratio": 1.2105692006230568,
+      "height_ratio": 1.0707199604800315
+    },
+    {
+      "character": "e",
+      "eight_point": {
+        "ink_width": 550.6678322049286,
+        "ink_height": 528.9075233470148
+      },
+      "twelve_point": {
+        "ink_width": 485.1660858811273,
+        "ink_height": 506.72293189073525
+      },
+      "width_ratio": 1.135008913916234,
+      "height_ratio": 1.0437805160573692
+    },
+    {
+      "character": "n",
+      "eight_point": {
+        "ink_width": 699.062958205295,
+        "ink_height": 541.2188752235681
+      },
+      "twelve_point": {
+        "ink_width": 566.148894776274,
+        "ink_height": 510.2710341061712
+      },
+      "width_ratio": 1.2347687413247443,
+      "height_ratio": 1.0606498097067325
+    },
+    {
+      "character": "o",
+      "eight_point": {
+        "ink_width": 635.3280995945562,
+        "ink_height": 533.0164070448008
+      },
+      "twelve_point": {
+        "ink_width": 558.0775367195723,
+        "ink_height": 480.52470744463943
+      },
+      "width_ratio": 1.1384226344766881,
+      "height_ratio": 1.109238294695198
+    },
+    {
+      "character": "x",
+      "eight_point": {
+        "ink_width": 675.141462625498,
+        "ink_height": 506.0616853755789
+      },
+      "twelve_point": {
+        "ink_width": 648.4239149192427,
+        "ink_height": 475.92087785155593
+      },
+      "width_ratio": 1.0412038283775864,
+      "height_ratio": 1.063331551370655
+    }
+  ],
+  "selected_characters_by_source": {
+    "reference/gpo-census-1900-leaf-5.jp2": "ABCDEFGHIJKLMNOPQRabcdefghklmnopqr0123456789",
+    "reference/gpo-jobroom-1904-leaf-54.jp2": "STUWYstuvwy.,;-—",
+    "reference/gpo-job-1897-leaf-61.jp2": "VXZijxz",
+    "reference/boston-1889-leaf-200.jp2": "’"
+  },
+  "thresholds": {
+    "census_default": 155,
+    "census_fm": 165,
+    "census_bn": 175,
+    "census_q": 195,
+    "jobroom_default": 165,
+    "jobroom_u": 175,
+    "jobroom_emdash": 185,
+    "alphabet1897_default": 165,
+    "alphabet1897_x": 175,
+    "boston_apostrophe": 205
+  },
+  "rejected_sources": [
+    {
+      "source": "Census eight-point joined ij",
+      "reason": "Ink joins the two impressions; excluded rather than divided by an invented cut. Separate1897i/j selected."
+    },
+    {
+      "source": "Original automatic1897b–g proposals",
+      "reason": "Equal proposal counts concealed a split b and merged f/g. Manual source review corrected labels and boxes."
+    },
+    {
+      "source": "ATF1896 eight-point",
+      "reason": "Larger pixels but heavily printed, rounded forms; retained for matching provenance."
+    },
+    {
+      "source": "Document1904 eight-point CelticNo642 and CelticAmerican",
+      "reason": "Separate explicitly labelled designs; not a witness for this revival."
+    }
+  ],
+  "rejected_trials": [
+    {
+      "trial": "Initial uniform thresholds",
+      "reason": "b/q lose counters; m/n/s/u/x lose whole connected portions. Individual threshold changes or a clearer repeated impression retain complete native forms."
+    },
+    {
+      "trial": "Job-room em dash165",
+      "reason": "Thin stroke is incompletely retained;185 preserves its observed full extent. Local native centreline regression also identifies a tilt distinct from the paragraph baseline."
+    }
+  ],
+  "geometry": "One uniform physical scale per source page; measured rigid rotations and native baselines. Em dash squared from its own native ink-column centreline while preserving vertical centre. No shear, independent width fitting, filled holes or reconstructed stroke.",
+  "visual_review": "All68visible forms compared with native crops at170px and32px; words at16/24/40/64/96px. Q retains two enclosed spaces; i/j and semicolon retain two separate components. Contour counts supplement visual completeness review."
+}

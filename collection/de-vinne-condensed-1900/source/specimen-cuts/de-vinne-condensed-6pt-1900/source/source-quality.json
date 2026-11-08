@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "cut": "De Vinne Condensed, six point",
+  "comparison": "Matching optical cut across census and ATF witnesses, with an explicit straight/sweeping R alternative. No punch, matrix or first-casting identity is inferred.",
+  "sampling": {
+    "native_sources": 4,
+    "derived_crops": 64,
+    "exact_pixels": true,
+    "exact_files": true,
+    "scale": 4,
+    "resampling": "Pillow LANCZOS",
+    "notes": "Interpolation adds no source evidence."
+  },
+  "contour_inventory": [
+    {
+      "character": " ",
+      "contours": 0,
+      "expected_design_contours": 0
+    },
+    {
+      "character": "A",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "B",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "C",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "D",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "E",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "F",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "G",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "H",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "I",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "J",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "K",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "L",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "M",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "N",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "O",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "P",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "Q",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "R",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "S",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "T",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "U",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "V",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "W",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "X",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "Y",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "Z",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "a",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "b",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "c",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "d",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "e",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "f",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "g",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "h",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "i",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "j",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "k",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "l",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "m",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "n",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "o",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "p",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "q",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "r",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "s",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "t",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "u",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "v",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "w",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "x",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "y",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "z",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "0",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "1",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "2",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "3",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "4",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "5",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "6",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "7",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "8",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "9",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": ",",
+      "contours": 1,
+      "expected_design_contours": 1
+    }
+  ],
+  "R_variant": {
+    "default": "condensed-6-ny-00-02",
+    "alternate": "condensed-6-byu-00-44",
+    "glyph": "R.sweeping",
+    "feature": "ss01",
+    "witnesses": [
+      {
+        "id": "condensed-6-U-18",
+        "row": "condensed-6-U",
+        "character": "R",
+        "native_file": "reference/gpo-census-1900-leaf-33.jp2",
+        "native_box": [
+          508,
+          822,
+          535,
+          864
+        ],
+        "bounds": [
+          35.000970825905746,
+          -12.41543804420273,
+          534.3719352812864,
+          697.4916652982512
+        ],
+        "width": 499.3709644553806,
+        "height": 709.9071033424539
+      },
+      {
+        "id": "condensed-6-ny-00-02",
+        "row": "condensed-6-ny-00",
+        "character": "R",
+        "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+        "native_box": [
+          1564,
+          3676,
+          1588,
+          3709
+        ],
+        "bounds": [
+          35.00131251098962,
+          0.8423510723541718,
+          539.588561539645,
+          690.4643352258465
+        ],
+        "width": 504.5872490286553,
+        "height": 689.6219841534923
+      },
+      {
+        "id": "condensed-6-ny-00-09",
+        "row": "condensed-6-ny-00",
+        "character": "R",
+        "native_file": "reference/atf-new-york-1897-leaf-397.jp2",
+        "native_box": [
+          1730,
+          3678,
+          1754,
+          3711
+        ],
+        "bounds": [
+          34.99614126420457,
+          -3.25,
+          527.2504142623987,
+          695.5625
+        ],
+        "width": 492.2542729981942,
+        "height": 698.8125
+      },
+      {
+        "id": "condensed-6-handy-00-02",
+        "row": "condensed-6-handy-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-1897-leaf-210.jp2",
+        "native_box": [
+          882,
+          1902,
+          902,
+          1929
+        ],
+        "bounds": [
+          34.992233155720605,
+          0.45147229260979505,
+          531.3520082999287,
+          689.9287669922613
+        ],
+        "width": 496.3597751442081,
+        "height": 689.4772946996516
+      },
+      {
+        "id": "condensed-6-handy-00-09",
+        "row": "condensed-6-handy-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-1897-leaf-210.jp2",
+        "native_box": [
+          1004,
+          1901,
+          1025,
+          1928
+        ],
+        "bounds": [
+          34.996280379338785,
+          16.37405742200256,
+          573.0443899671425,
+          708.8471798475399
+        ],
+        "width": 538.0481095878037,
+        "height": 692.4731224255373
+      },
+      {
+        "id": "condensed-6-byu-00-14",
+        "row": "condensed-6-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          949,
+          3875,
+          986,
+          3930
+        ],
+        "bounds": [
+          35.001477049470545,
+          -66.97827233952881,
+          544.316910394045,
+          707.267750587534
+        ],
+        "width": 509.3154333445744,
+        "height": 774.2460229270628
+      },
+      {
+        "id": "condensed-6-byu-00-36",
+        "row": "condensed-6-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          1871,
+          3874,
+          1910,
+          3925
+        ],
+        "bounds": [
+          34.995719910742935,
+          -11.720781603001205,
+          576.15625,
+          693.7329782495145
+        ],
+        "width": 541.160530089257,
+        "height": 705.4537598525158
+      },
+      {
+        "id": "condensed-6-byu-00-44",
+        "row": "condensed-6-byu-00",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          2206,
+          3872,
+          2246,
+          3928
+        ],
+        "bounds": [
+          35.00003319696371,
+          -78.53825125175061,
+          590.6628813549186,
+          703.9762851087435
+        ],
+        "width": 555.6628481579548,
+        "height": 782.514536360494
+      },
+      {
+        "id": "condensed-6-byu-01-31",
+        "row": "condensed-6-byu-01",
+        "character": "R",
+        "native_file": "reference/atf-handy-byu-1897-leaf-361.jp2",
+        "native_box": [
+          1835,
+          3967,
+          1876,
+          4023
+        ],
+        "bounds": [
+          35.0029411201281,
+          -86.19652750484433,
+          606.4925057859209,
+          698.9396301486807
+        ],
+        "width": 571.4895646657928,
+        "height": 785.1361576535251
+      },
+      {
+        "id": "condensed-6-pacific-00-14",
+        "row": "condensed-6-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          1310,
+          4347,
+          1344,
+          4397
+        ],
+        "bounds": [
+          34.999929265039185,
+          -67.84535031476481,
+          539.1403926870762,
+          690.1626178837216
+        ],
+        "width": 504.140463422037,
+        "height": 758.0079681984864
+      },
+      {
+        "id": "condensed-6-pacific-00-36",
+        "row": "condensed-6-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          2121,
+          4361,
+          2156,
+          4409
+        ],
+        "bounds": [
+          34.998378966675126,
+          -21.52522995075406,
+          580.3114537246922,
+          678.3854685677652
+        ],
+        "width": 545.3130747580171,
+        "height": 699.9106985185192
+      },
+      {
+        "id": "condensed-6-pacific-00-44",
+        "row": "condensed-6-pacific-00",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          2420,
+          4366,
+          2454,
+          4417
+        ],
+        "bounds": [
+          35.003488710869775,
+          -75.03486339779967,
+          547.0351362983846,
+          683.578125
+        ],
+        "width": 512.0316475875148,
+        "height": 758.6129883977997
+      },
+      {
+        "id": "condensed-6-pacific-01-31",
+        "row": "condensed-6-pacific-01",
+        "character": "R",
+        "native_file": "reference/atf-pacific-1896-leaf-422.jp2",
+        "native_box": [
+          2088,
+          4460,
+          2123,
+          4510
+        ],
+        "bounds": [
+          35.000213911183096,
+          -66.87942213088623,
+          567.1217370415151,
+          686.9156472819731
+        ],
+        "width": 532.121523130332,
+        "height": 753.7950694128593
+      }
+    ],
+    "decision": "The default straight leg agrees with the census and repeated ATF impressions. Six BYU/Pacific impressions have a sweeping leg descending about67–86 units below the measured baseline. Both observed constructions are retained."
+  },
+  "selected_corrections": [
+    {
+      "character": "J",
+      "selected": "condensed-6-U-10",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "K",
+      "selected": "condensed-6-U-11",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "Q",
+      "selected": "condensed-6-U-17",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "W",
+      "selected": "condensed-6-U-23",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "X",
+      "selected": "condensed-6-U-24",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "Z",
+      "selected": "condensed-6-U-26",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "f",
+      "selected": "condensed-6-l-06",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "j",
+      "selected": "condensed-6-l-10",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "k",
+      "selected": "condensed-6-l-11",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "q",
+      "selected": "condensed-6-l-17",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "w",
+      "selected": "condensed-6-l-23",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "x",
+      "selected": "condensed-6-l-24",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    },
+    {
+      "character": "z",
+      "selected": "condensed-6-l-26",
+      "threshold": 170,
+      "reason": "Preserve observed faint ink without drawing or filling. Retain the original measured source cap scale and row baseline."
+    }
+  ],
+  "selection_decisions": [
+    "BYU A21 and M33 avoid heavier or damaged repeat impressions. New York supplies complete figures, G, straight R and g/m/n/p/s/u. Pacific h07 has an open arch, unlike the bridged BYU impressions.",
+    "The repeated six-point ATF a retains two closed counters as printed; the Census a has a broken lower cross-stroke even at185. Do not invent a modern aperture."
+  ],
+  "cleanup": "No hole filling, drawn repair, width stretching or cross-size outline substitution.",
+  "quality_followup": [
+    "Seek clearer same-cut a with less ink spread before changing the upper aperture; selected ATF a has two closed counters in independent copies.",
+    "Seek sharper native Census edges, particularly J and the fine diagonals in K/X/k/w.",
+    "Collective dollar, hyphen and further punctuation require complete clear same-size witnesses."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "method": "Exact source-local coverage; matching impressions jointly support the declared complete character set.",
+  "entries": [
+    {
+      "id": "gpo-census-1900:type-sample:celtic-no2-6pt",
+      "book": "gpo-census-1900",
+      "archive_leaf": 3,
+      "pdf_page": 3,
+      "printed_page": "1",
+      "source_label": "6-point Celtic No. 2",
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:celtic-no2-6pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 55,
+      "pdf_page": 55,
+      "printed_page": "39",
+      "source_label": "6-point Celtic No. 2",
+      "sample_transcription": "MONARCH OF HIGH MOUNTAINS 6717 / MOUNT MITCHELL IS THE HIGHEST / PEAK EAST OF THE GREAT ROCKIES",
+      "observed_alphanumeric": "ACEFGHIKLMNOPRSTU167",
+      "missing_alphanumeric_in_this_sample": "BDJQVWXYZ0234589",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    },
+    {
+      "id": "gpo-document-1904:type-sample:celtic-no2-6pt",
+      "book": "gpo-document-1904",
+      "archive_leaf": 83,
+      "pdf_page": 83,
+      "printed_page": "39",
+      "source_label": "6 point Celtic No. 2 (Farmer.)",
+      "sample_transcription": "1234 UNITED STATES NATIONAL MUSEUM AT WASHINGTON. 5678",
+      "observed_alphanumeric": "ADEGHILMNOSTUW12345678",
+      "missing_alphanumeric_in_this_sample": "BCFJKPQRVXYZ09",
+      "observed_punctuation": ".",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    },
+    {
+      "id": "gpo-job-1897:type-sample:celtic-no2-combined-6pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 59,
+      "printed_page": 25,
+      "source_label": "6 and 7 Point. Celtic, No. 2. Caps and figures.",
+      "assigned_point_size": 6,
+      "assignment_basis": {
+        "upper_1897": 6,
+        "lower_1897": 7,
+        "basis": "The shared printed 6/7 heading is retained verbatim. Ordered sizes, native proportions and separately labelled document specimens support assigning the upper row to six point and the lower to seven point. Cap-height ratios agree across thresholds; the assignment does not rely on row order alone.",
+        "cap_height_ratios": {
+          "1897_upper_lower": {
+            "165": 0.7238161098767458,
+            "185": 0.7425507014447594,
+            "205": 0.7431083695179562
+          },
+          "document_six_seven": {
+            "165": 0.7381075302351323,
+            "185": 0.7442196732626433,
+            "205": 0.7488676932818721
+          }
+        }
+      },
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": ""
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:celtic-no2-card-6pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 55,
+      "printed_page": 39,
+      "source_label": "Unlabelled assembled card on Celtic No.2 page",
+      "assigned_point_size": 6,
+      "assignment_basis": "Same-page native construction and measured physical cap heights; see card-source-review.json.",
+      "sample_transcription": "WASHINGTON, D.C.",
+      "observed_alphanumeric": "ACDGHINOSTW",
+      "missing_alphanumeric_in_this_sample": "BEFJKLMPQRUVXYZ0123456789",
+      "observed_punctuation": ",.",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    }
+  ]
+}

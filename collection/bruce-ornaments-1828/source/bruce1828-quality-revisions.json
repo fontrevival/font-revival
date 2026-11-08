@@ -1,0 +1,55 @@
+{
+  "revisions": [
+    {
+      "id": "bruce-1828-p175-eight-line-pica-1-mask",
+      "revision": "1.006",
+      "previous_witness": {
+        "source_index": 3,
+        "pdf_page": 175,
+        "printed_page": null,
+        "specimen_number": "eight-line-pica-1 mask"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 307,
+        "archive_leaf": 306,
+        "specimen_number": "882",
+        "source_index": 34
+      },
+      "source_file": "reference/bruce1828-hathi-p307.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1461,
+        1234,
+        1922,
+        1651
+      ],
+      "output": "reference/crops/bruce-1828-p307-cut-882-upgrade.png",
+      "crop_sha256": "178279a1d45c1dd08885ec8c8ba70b05b790d121c93820710c25ca35da40b50b",
+      "reason": "Clearer cap, facial hatching, mouth and ruff in the matching larger impression. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p307-cut-882-upgrade.png",
+        "box": [
+          0,
+          0,
+          461,
+          417
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF307 No882 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+      }
+    }
+  ]
+}

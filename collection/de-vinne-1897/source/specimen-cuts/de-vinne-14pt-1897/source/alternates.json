@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "notes": "Observed alternatives without Unicode assignments. Prepare with source/prepare.py, which includes these glyphs and the stylistic-set features.",
+  "glyphs": {
+    "M.census": {
+      "box": [
+        941,
+        785,
+        1026,
+        868
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 12,
+      "blur": 0.3,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.2,
+      "height": 698.9442243682302,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/gpo-census-1900-leaf-37.jp2",
+      "advance_width": 795,
+      "post_trace_transform": [
+        0.9999992561596128,
+        0.0012197049729734775,
+        -0.0012197049729734775,
+        0.9999992561596128,
+        35.084875255477726,
+        -2.6306277188884617
+      ],
+      "notes": "Observed fourteen-point M; regular-14-census-U-13. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Shallow central join and thin left stem; complete observed form, not a broken conventional M."
+    },
+    "one.oldstyle": {
+      "box": [
+        1831,
+        2071,
+        1853,
+        2116
+      ],
+      "threshold": 170,
+      "paper_normalization_radius": 12,
+      "blur": 0.3,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.2,
+      "height": 482.1904202395891,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "advance_width": 267,
+      "post_trace_transform": [
+        0.999995664390361,
+        0.0029446902180808214,
+        -0.0029446902180808214,
+        0.999995664390361,
+        35.28255801826765,
+        -4.8170710557184275
+      ],
+      "notes": "Observed fourteen-point 1; regular-14-n-01. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Short 1897 one with horizontal top serif; distinct from taller census/job-room one with rising flag."
+    },
+    "three.oldstyle": {
+      "box": [
+        1891,
+        2071,
+        1929,
+        2130
+      ],
+      "threshold": 170,
+      "paper_normalization_radius": 12,
+      "blur": 0.3,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.2,
+      "height": 674.9155089486869,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "advance_width": 522,
+      "post_trace_transform": [
+        0.999995664390361,
+        0.0029446902180808214,
+        -0.0029446902180808214,
+        0.999995664390361,
+        35.29223241223805,
+        -197.61636579056497
+      ],
+      "notes": "Observed fourteen-point 3; regular-14-n-03. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. 1897 three starts at body height and descends; the census three sits on the baseline and reaches cap height."
+    },
+    "two.lining": {
+      "box": [
+        1297,
+        1955,
+        1339,
+        2012
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 12,
+      "blur": 0.3,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.2,
+      "height": 719.1009350520635,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "advance_width": 545,
+      "post_trace_transform": [
+        0.9999999424932939,
+        -0.00033913626890384084,
+        0.00033913626890384084,
+        0.9999999424932939,
+        35.170256777769794,
+        -3.6120779664282376
+      ],
+      "notes": "Observed fourteen-point 2; regular-14-job-11-20. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Tall narrow job-room2; census/1897 two is short and broad."
+    },
+    "four.lining": {
+      "box": [
+        1297,
+        1287,
+        1339,
+        1345
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 12,
+      "blur": 0.3,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.2,
+      "height": 672.6031331543642,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "advance_width": 563,
+      "post_trace_transform": [
+        0.999999772430092,
+        -0.0006746404704489089,
+        0.0006746404704489089,
+        0.999999772430092,
+        34.814148986707956,
+        3.82676540101614
+      ],
+      "notes": "Observed fourteen-point 4; regular-14-job-03-23. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Job-room4 sits on the baseline; census/1897 four descends."
+    },
+    "five.lining": {
+      "box": [
+        1433,
+        1018,
+        1474,
+        1075
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 12,
+      "blur": 0.3,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.2,
+      "height": 668.120965078788,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "advance_width": 529,
+      "post_trace_transform": [
+        0.9999992883658838,
+        -0.0011930078482288093,
+        0.0011930078482288093,
+        0.9999992883658838,
+        34.776687968856066,
+        -10.982077338962894
+      ],
+      "notes": "Observed fourteen-point 5; regular-14-job-00-16. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Job-room5 sits on the baseline; census/1897 five descends."
+    }
+  }
+}

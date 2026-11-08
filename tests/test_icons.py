@@ -514,7 +514,8 @@ class IconWorkflowTests(unittest.TestCase):
         for key in ['ships-steamers-and-yachts', 'horses-and-mules', 'american-flags-and-eagles',
                     'musical-instruments', 'maps-and-diagrams', 'borders-and-frames',
                     'art-initials', 'farming-and-harvest', 'books-and-printing']:
-            self.assertEqual(membership[key], {'boston', 'baltimore'}, key)
+            self.assertLessEqual({'boston', 'baltimore'}, membership[key], key)
+        self.assertIn('gpo', membership['ships-steamers-and-yachts'])
         self.assertIn('farming-and-harvest', icon_categories['baltimore-1832-p141-125'])
         self.assertIn('dogs', icon_categories['baltimore-1832-p209-357-04'])
         self.assertIn('american-flags-and-eagles', icon_categories['baltimore-1832-p135-103'])

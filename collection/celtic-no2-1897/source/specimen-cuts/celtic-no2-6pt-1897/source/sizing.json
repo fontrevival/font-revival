@@ -1,0 +1,942 @@
+{
+  "schema_version": 1,
+  "notes": "Individual observed proportions; no substitution or independent width fitting from another size.",
+  "rules": [
+    {
+      "characters": " ",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        0,
+        0
+      ],
+      "y_max": [
+        0,
+        0
+      ],
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        300,
+        300
+      ]
+    },
+    {
+      "characters": ".",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -42,
+        -35
+      ],
+      "y_max": [
+        92,
+        99
+      ],
+      "ink_width": [
+        132,
+        139
+      ],
+      "ink_height": [
+        131,
+        138
+      ],
+      "advance_width": [
+        205,
+        205
+      ]
+    },
+    {
+      "characters": "0",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        20,
+        27
+      ],
+      "y_max": [
+        748,
+        755
+      ],
+      "ink_width": [
+        617,
+        624
+      ],
+      "ink_height": [
+        725,
+        732
+      ],
+      "advance_width": [
+        690,
+        690
+      ]
+    },
+    {
+      "characters": "1",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        691,
+        698
+      ],
+      "ink_width": [
+        360,
+        367
+      ],
+      "ink_height": [
+        690,
+        697
+      ],
+      "advance_width": [
+        433,
+        433
+      ]
+    },
+    {
+      "characters": "2",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -33,
+        -26
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        600,
+        607
+      ],
+      "ink_height": [
+        722,
+        729
+      ],
+      "advance_width": [
+        674,
+        674
+      ]
+    },
+    {
+      "characters": "3",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -22,
+        -15
+      ],
+      "y_max": [
+        709,
+        716
+      ],
+      "ink_width": [
+        599,
+        606
+      ],
+      "ink_height": [
+        728,
+        735
+      ],
+      "advance_width": [
+        672,
+        672
+      ]
+    },
+    {
+      "characters": "4",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        10,
+        17
+      ],
+      "y_max": [
+        720,
+        727
+      ],
+      "ink_width": [
+        605,
+        612
+      ],
+      "ink_height": [
+        707,
+        714
+      ],
+      "advance_width": [
+        678,
+        678
+      ]
+    },
+    {
+      "characters": "5",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        17,
+        24
+      ],
+      "y_max": [
+        720,
+        727
+      ],
+      "ink_width": [
+        585,
+        592
+      ],
+      "ink_height": [
+        699,
+        706
+      ],
+      "advance_width": [
+        658,
+        658
+      ]
+    },
+    {
+      "characters": "6",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        9,
+        16
+      ],
+      "y_max": [
+        733,
+        740
+      ],
+      "ink_width": [
+        590,
+        597
+      ],
+      "ink_height": [
+        721,
+        728
+      ],
+      "advance_width": [
+        663,
+        663
+      ]
+    },
+    {
+      "characters": "7",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -4,
+        3
+      ],
+      "y_max": [
+        742,
+        749
+      ],
+      "ink_width": [
+        573,
+        580
+      ],
+      "ink_height": [
+        743,
+        750
+      ],
+      "advance_width": [
+        646,
+        646
+      ]
+    },
+    {
+      "characters": "8",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        24,
+        31
+      ],
+      "y_max": [
+        752,
+        759
+      ],
+      "ink_width": [
+        617,
+        624
+      ],
+      "ink_height": [
+        725,
+        732
+      ],
+      "advance_width": [
+        691,
+        691
+      ]
+    },
+    {
+      "characters": "9",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        38,
+        45
+      ],
+      "y_max": [
+        762,
+        769
+      ],
+      "ink_width": [
+        592,
+        599
+      ],
+      "ink_height": [
+        720,
+        727
+      ],
+      "advance_width": [
+        666,
+        666
+      ]
+    },
+    {
+      "characters": "A",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -7,
+        0
+      ],
+      "y_max": [
+        679,
+        686
+      ],
+      "ink_width": [
+        712,
+        719
+      ],
+      "ink_height": [
+        682,
+        689
+      ],
+      "advance_width": [
+        785,
+        785
+      ]
+    },
+    {
+      "characters": "B",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        26,
+        33
+      ],
+      "y_max": [
+        725,
+        732
+      ],
+      "ink_width": [
+        684,
+        691
+      ],
+      "ink_height": [
+        695,
+        702
+      ],
+      "advance_width": [
+        758,
+        758
+      ]
+    },
+    {
+      "characters": "C",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -14,
+        -7
+      ],
+      "y_max": [
+        695,
+        702
+      ],
+      "ink_width": [
+        625,
+        632
+      ],
+      "ink_height": [
+        705,
+        712
+      ],
+      "advance_width": [
+        698,
+        698
+      ]
+    },
+    {
+      "characters": "D",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -7,
+        0
+      ],
+      "y_max": [
+        679,
+        686
+      ],
+      "ink_width": [
+        716,
+        723
+      ],
+      "ink_height": [
+        682,
+        689
+      ],
+      "advance_width": [
+        790,
+        790
+      ]
+    },
+    {
+      "characters": "E",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -15,
+        -8
+      ],
+      "y_max": [
+        686,
+        693
+      ],
+      "ink_width": [
+        706,
+        713
+      ],
+      "ink_height": [
+        697,
+        704
+      ],
+      "advance_width": [
+        779,
+        779
+      ]
+    },
+    {
+      "characters": "F",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        609,
+        616
+      ],
+      "ink_height": [
+        697,
+        704
+      ],
+      "advance_width": [
+        682,
+        682
+      ]
+    },
+    {
+      "characters": "G",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -23,
+        -16
+      ],
+      "y_max": [
+        682,
+        689
+      ],
+      "ink_width": [
+        686,
+        693
+      ],
+      "ink_height": [
+        701,
+        708
+      ],
+      "advance_width": [
+        760,
+        760
+      ]
+    },
+    {
+      "characters": "H",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -18,
+        -11
+      ],
+      "y_max": [
+        692,
+        699
+      ],
+      "ink_width": [
+        808,
+        815
+      ],
+      "ink_height": [
+        706,
+        713
+      ],
+      "advance_width": [
+        882,
+        882
+      ]
+    },
+    {
+      "characters": "I",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -15,
+        -8
+      ],
+      "y_max": [
+        678,
+        685
+      ],
+      "ink_width": [
+        292,
+        299
+      ],
+      "ink_height": [
+        689,
+        696
+      ],
+      "advance_width": [
+        366,
+        366
+      ]
+    },
+    {
+      "characters": "J",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -22,
+        -15
+      ],
+      "y_max": [
+        687,
+        694
+      ],
+      "ink_width": [
+        403,
+        410
+      ],
+      "ink_height": [
+        706,
+        713
+      ],
+      "advance_width": [
+        477,
+        477
+      ]
+    },
+    {
+      "characters": "K",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -20,
+        -13
+      ],
+      "y_max": [
+        694,
+        701
+      ],
+      "ink_width": [
+        767,
+        774
+      ],
+      "ink_height": [
+        711,
+        718
+      ],
+      "advance_width": [
+        841,
+        841
+      ]
+    },
+    {
+      "characters": "L",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        679,
+        686
+      ],
+      "ink_width": [
+        656,
+        663
+      ],
+      "ink_height": [
+        679,
+        686
+      ],
+      "advance_width": [
+        730,
+        730
+      ]
+    },
+    {
+      "characters": "M",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        694,
+        701
+      ],
+      "ink_width": [
+        888,
+        895
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        961,
+        961
+      ]
+    },
+    {
+      "characters": "N",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -8,
+        -1
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        729,
+        736
+      ],
+      "ink_height": [
+        702,
+        709
+      ],
+      "advance_width": [
+        802,
+        802
+      ]
+    },
+    {
+      "characters": "O",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -20,
+        -13
+      ],
+      "y_max": [
+        707,
+        714
+      ],
+      "ink_width": [
+        656,
+        663
+      ],
+      "ink_height": [
+        723,
+        730
+      ],
+      "advance_width": [
+        730,
+        730
+      ]
+    },
+    {
+      "characters": "P",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -11,
+        -4
+      ],
+      "y_max": [
+        688,
+        695
+      ],
+      "ink_width": [
+        642,
+        649
+      ],
+      "ink_height": [
+        695,
+        702
+      ],
+      "advance_width": [
+        715,
+        715
+      ]
+    },
+    {
+      "characters": "Q",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -178,
+        -171
+      ],
+      "y_max": [
+        702,
+        709
+      ],
+      "ink_width": [
+        690,
+        697
+      ],
+      "ink_height": [
+        877,
+        884
+      ],
+      "advance_width": [
+        764,
+        764
+      ]
+    },
+    {
+      "characters": "R",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -97,
+        -90
+      ],
+      "y_max": [
+        691,
+        698
+      ],
+      "ink_width": [
+        693,
+        700
+      ],
+      "ink_height": [
+        785,
+        792
+      ],
+      "advance_width": [
+        767,
+        767
+      ]
+    },
+    {
+      "characters": "S",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -32,
+        -25
+      ],
+      "y_max": [
+        673,
+        680
+      ],
+      "ink_width": [
+        547,
+        554
+      ],
+      "ink_height": [
+        702,
+        709
+      ],
+      "advance_width": [
+        621,
+        621
+      ]
+    },
+    {
+      "characters": "T",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        699,
+        706
+      ],
+      "ink_width": [
+        669,
+        676
+      ],
+      "ink_height": [
+        698,
+        705
+      ],
+      "advance_width": [
+        743,
+        743
+      ]
+    },
+    {
+      "characters": "U",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -15,
+        -8
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        690,
+        697
+      ],
+      "ink_height": [
+        709,
+        716
+      ],
+      "advance_width": [
+        764,
+        764
+      ]
+    },
+    {
+      "characters": "V",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -28,
+        -21
+      ],
+      "y_max": [
+        700,
+        707
+      ],
+      "ink_width": [
+        735,
+        742
+      ],
+      "ink_height": [
+        725,
+        732
+      ],
+      "advance_width": [
+        808,
+        808
+      ]
+    },
+    {
+      "characters": "W",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        715,
+        722
+      ],
+      "ink_width": [
+        1097,
+        1104
+      ],
+      "ink_height": [
+        714,
+        721
+      ],
+      "advance_width": [
+        1170,
+        1170
+      ]
+    },
+    {
+      "characters": "X",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        705,
+        712
+      ],
+      "ink_width": [
+        676,
+        683
+      ],
+      "ink_height": [
+        705,
+        712
+      ],
+      "advance_width": [
+        749,
+        749
+      ]
+    },
+    {
+      "characters": "Y",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        0,
+        7
+      ],
+      "y_max": [
+        698,
+        705
+      ],
+      "ink_width": [
+        675,
+        682
+      ],
+      "ink_height": [
+        695,
+        702
+      ],
+      "advance_width": [
+        749,
+        749
+      ]
+    },
+    {
+      "characters": "Z",
+      "notes": "Reviewed native six-point bounds; conversion tolerance preserves overshoots and the Q/R tails.",
+      "y_min": [
+        8,
+        15
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        618,
+        625
+      ],
+      "ink_height": [
+        686,
+        693
+      ],
+      "advance_width": [
+        691,
+        691
+      ]
+    },
+    {
+      "characters": ",",
+      "notes": "Observed card comma, scaled with the measured six-point capitals; native tail and overshoot preserved.",
+      "y_min": [
+        -175,
+        -168
+      ],
+      "y_max": [
+        132,
+        139
+      ],
+      "ink_width": [
+        144,
+        151
+      ],
+      "ink_height": [
+        303,
+        310
+      ],
+      "advance_width": [
+        217,
+        217
+      ]
+    }
+  ]
+}

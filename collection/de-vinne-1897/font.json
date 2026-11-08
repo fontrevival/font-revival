@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "de-vinne-1897",
+  "name": "De Vinne",
+  "style": "Regular",
+  "version": "1.005",
+  "postscript_name": "DeVinne-Regular",
+  "year": 1897,
+  "designer": "Unidentified in the retained source pages",
+  "foundry": "Shown by the United States Government Printing Office; 1897 stock mark Keystone–10",
+  "description": "De Vinne with complete observed alphabets and figures, retained historical details, and source-supported companions. Scalable at any text size.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "Value of Mica",
+  "character_style": "mixed-case",
+  "character_set": " %,-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¢¼½¾—’⅓⅔⅛⅜⅝⅞",
+  "character_set_notes": "Complete observed A–Z, a–z and ten figures. Only the recorded punctuation and symbols are encoded; unsupported characters remain source gaps. One coherent source alphabet is retained. Supplementary whole characters from related specimen sizes preserve the combined coverage; source/consolidation.json identifies each donor. Source point sizes do not restrict digital use.",
+  "observed": "The 1897 specimen supplies both complete eighteen-point alphabets and a figure 2. Matching eighteen-point census and job-room impressions supply clearer selected letters, figures and punctuation. The census sets lowercase j before i; the recorded selections follow their actual shapes. The 1904 poster and figure page supply four punctuation characters and a lining set. Existing 3, 4, 6 and 8 serve both figure settings. The intact GPO tall zero supersedes the softer matching Handy impression; the short job-room zero remains the default. Matching ATF fraction assortments provide nine whole diagonal fractions, cent and percent; intact New York, Handy and BYU impressions are selected at one physical scale per source page. The NYPL 1898 Desk Book shows descending 3 and 4 beside text at the same optical size; whole impressions supply optional oldstyle forms. The consolidated offering also retains — from separately documented source-size witnesses; see source/consolidation.json.",
+  "reconstructed": "No visible glyph is invented. The default alphabet and its selected alternates remain unchanged. Supplementary whole glyphs retain their donor outlines, advances and existing 1000-unit coordinates; the donor specimen sizes are recorded explicitly. Modern spacing and placement conventions remain documented in the source methods. No missing character is reconstructed.",
+  "sources": [
+    {
+      "title": "Government Printing Office specimen (1897), De Vinne eighteen point; printed page 50, archive leaf 109",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n109/mode/1up",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+    },
+    {
+      "title": "Government Printing Office specimen (1900), De Vinne eighteen point; printed page 18, archive leaf 37",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n37/mode/1up",
+      "file": "reference/gpo-census-1900-leaf-37.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "Government Printing Office specimen (1904), De Vinne eighteen point; printed page 68, archive leaf 84",
+      "url": "https://archive.org/details/123459_1904/page/n84/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    },
+    {
+      "title": "American Type Founders Company, Handy Book of Specimens (1897), Poster De Vinne eighteen point, printed page 338, archive leaf 357",
+      "url": "https://archive.org/details/cu31924014559730/page/n357/mode/1up",
+      "file": "reference/atf-handy-1897-leaf-357.jp2",
+      "rights": "Public-domain United States specimen published in 1897.",
+      "rights_url": "https://archive.org/metadata/cu31924014559730"
+    },
+    {
+      "title": "Government Printing Office specimen (1904), De Vinne eighteen point; printed page 120, archive leaf 136; matched poster capitals and observed punctuation",
+      "url": "https://archive.org/details/123459_1904/page/n136/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-136.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    },
+    {
+      "title": "Government Printing Office specimen (1904), De Vinne eighteen point; printed page 124, archive leaf 140; complete lining-figure source and sharper tall zero",
+      "url": "https://archive.org/details/123459_1904/page/n140/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    },
+    {
+      "title": "Handy Book of Specimens (1897), De Vinne fraction assortment; printed page 40, archive leaf 59",
+      "url": "https://archive.org/details/cu31924014559730/page/n59/mode/1up",
+      "file": "reference/atf-handy-1897-leaf-59.jp2",
+      "rights": "Published in the United States in1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/cu31924014559730/page/n59/mode/1up"
+    },
+    {
+      "title": "ATF New York specimen (1897), De Vinne fraction assortment; printed page 436, archive leaf 506",
+      "url": "https://archive.org/details/specimensofprint00amerrich/page/n506/mode/1up",
+      "file": "reference/atf-new-york-1897-leaf-506.jp2",
+      "rights": "Published in the United States in1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/specimensofprint00amerrich/page/n506/mode/1up"
+    },
+    {
+      "title": "ATF specimen, BYU copy (1897), De Vinne fraction assortment; printed page 637, archive leaf 639",
+      "url": "https://archive.org/details/specimensoftypeb00amer/page/n639/mode/1up",
+      "file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "rights": "Published in the United States in1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/specimensoftypeb00amer/page/n639/mode/1up"
+    },
+    {
+      "title": "American Type Founders Desk Book (1898), NYPL copy, Poster De Vinne eighteen point; printed page 523, archive leaf 540",
+      "url": "https://archive.org/details/ATF1898DeskBook/page/n540/mode/1up",
+      "file": "reference/atf-desk-1898-leaf-540.jp2",
+      "rights": "Historical United States specimen published in 1898; public domain by age.",
+      "rights_url": "https://archive.org/metadata/ATF1898DeskBook"
+    },
+    {
+      "title": "Government Printing Office specimen (1904), De Vinne ten point; printed page 69, archive leaf 85",
+      "url": "https://archive.org/details/123459_1904/page/n85/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Complete observed alphabets, figures, punctuation and fraction companions; eight unencoded figure alternatives. lnum supplies lining forms, onum and ss02 select descending 3/4, and ss01 selects tall zero. Ten retained native pages document the sources. Fraction row centers use declared modern placement; descending 3/4 use an observed text baseline. This scalable offering consolidates source-size editions. Archived masters retain all earlier source-size drawings and alternatives. The alphabet is based on de-vinne-18pt-1897; source/consolidation.json records supplementary whole glyphs. No optical-size product is offered."
+  },
+  "specimen_cut_archive": [
+    {
+      "original_id": "de-vinne-6pt-1897",
+      "path": "source/specimen-cuts/de-vinne-6pt-1897",
+      "master_sha256": "b0607099a0f620ca2afdbf1ddef939fa03b0b795aa43c7addd2e2eb080f3fd0c",
+      "metadata_sha256": "177183db5d20d37a29d73b47f9dbd3c7ff511c8c0cd1ffbeff722bc9606d91fa",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-8pt-1897",
+      "path": "source/specimen-cuts/de-vinne-8pt-1897",
+      "master_sha256": "52fee97d33bf59031df14ef16722ad23f7b9bb876825436f644bfa72ae4f5d5a",
+      "metadata_sha256": "13a417d194a83a21a27558b675b1e0dcb55f15d8fe32270f7fbd22352df356ce",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-10pt-1897",
+      "path": "source/specimen-cuts/de-vinne-10pt-1897",
+      "master_sha256": "cd28effcc400523ac69ce6cc392f06db3346de41ff5d61e15b9152c9628afe24",
+      "metadata_sha256": "e91e8a4adc686028615f92b3f2808fe8572a6ffe304f376a79ffabf7c548e491",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-12pt-1897",
+      "path": "source/specimen-cuts/de-vinne-12pt-1897",
+      "master_sha256": "a00d610b5b7e71a8b49cd318801612fe3e0bc95ad204c327d7d033b57f677849",
+      "metadata_sha256": "09806dc4c8ca112c46e41ab9167fddf155edc89b9c97453f3138430c65936687",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-14pt-1897",
+      "path": "source/specimen-cuts/de-vinne-14pt-1897",
+      "master_sha256": "334f954fe8b28fcd72ff0fb87d3c73005464e5c95ebf4a95cf448370c6f85cce",
+      "metadata_sha256": "133fa0273f886be9b26a040307bb81fc12cd1b3b38fbfbd5792c5325296c4c0c",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-18pt-1897",
+      "path": "source/specimen-cuts/de-vinne-18pt-1897",
+      "master_sha256": "db8ec5ab0a36567b6e2aaf4b4860d619ebb1c6caa00d5f953e06a338806f9b7d",
+      "metadata_sha256": "a598516282b8a8e33a1a201f67f7bbd8ba81cd4811f362c8c8735ea78cc5367d",
+      "role": "default-alphabet-source",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    }
+  ]
+}

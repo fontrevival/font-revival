@@ -1,0 +1,40 @@
+{
+  "family": "lightface-celtic-1889",
+  "selected_source": "Twelve-point cut: complete observed alphabet and figures.",
+  "archive_policy": "Retain editable masters, exact source scans, tracing records and character coverage for the other historical sizes. Only the parent is a scalable product offering.",
+  "remaining_work": "Compare punctuation outside the selected character set for design compatibility in the chronological source survey. Do not silently synthesize or mix unreviewed glyphs.",
+  "cuts": [
+    {
+      "id": "lightface-celtic-6pt-1889",
+      "archive": "source/specimen-cuts/lightface-celtic-6pt-1889",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,-’“”",
+      "characters_outside_current_offering": [
+        "“",
+        "”"
+      ],
+      "master_sha256": "363cc54cab0e450f6ba695e3fd4ebe530838af846c85f38e5034c9cc14403528",
+      "status": "archived-historical-source-cut"
+    },
+    {
+      "id": "lightface-celtic-8pt-1889",
+      "archive": "source/specimen-cuts/lightface-celtic-8pt-1889",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;-—’",
+      "characters_outside_current_offering": [
+        ";",
+        "—"
+      ],
+      "master_sha256": "b866e336007fc69c5939fcaaa3f43dfec9e52dbe5d6954d2d3168a6f4d6d0756",
+      "status": "archived-historical-source-cut"
+    },
+    {
+      "id": "lightface-celtic-10pt-1889",
+      "archive": "source/specimen-cuts/lightface-celtic-10pt-1889",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;-",
+      "characters_outside_current_offering": [
+        ";"
+      ],
+      "master_sha256": "227963595acbf3ff7fc132fea46322d5647ee48b992a5f2a9ba0e03bff115685",
+      "status": "archived-historical-source-cut"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "family": "celtic-no2-1897",
+  "selected_source": "Twelve-point cut: complete observed alphabet and figures.",
+  "archive_policy": "Retain editable masters, exact source scans, tracing records and character coverage for the other historical sizes. Only the parent is a scalable product offering.",
+  "remaining_work": "Compare punctuation outside the selected character set for design compatibility in the chronological source survey. Do not silently synthesize or mix unreviewed glyphs.",
+  "cuts": [
+    {
+      "id": "celtic-no2-6pt-1897",
+      "archive": "source/specimen-cuts/celtic-no2-6pt-1897",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,",
+      "characters_outside_current_offering": [
+        ","
+      ],
+      "master_sha256": "38a4d8413abb4da84cc2a9fffe21d90eaf7e55fd67f599b3089ffcc91589de81",
+      "status": "archived-historical-source-cut"
+    },
+    {
+      "id": "celtic-no2-7pt-1897",
+      "archive": "source/specimen-cuts/celtic-no2-7pt-1897",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.",
+      "characters_outside_current_offering": [],
+      "master_sha256": "86e0b5b92ef8d5a6e752b91447e0616eb100e2dec67ab19ebaf99b213eb7ea21",
+      "status": "archived-historical-source-cut"
+    },
+    {
+      "id": "celtic-no2-8pt-1897",
+      "archive": "source/specimen-cuts/celtic-no2-8pt-1897",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.’",
+      "characters_outside_current_offering": [
+        "’"
+      ],
+      "master_sha256": "07aea72e3f3890d3f4d2086826f3f807cfbd1296bcdd150140cab9bc21cc525e",
+      "status": "archived-historical-source-cut"
+    },
+    {
+      "id": "celtic-no2-10pt-1897",
+      "archive": "source/specimen-cuts/celtic-no2-10pt-1897",
+      "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.",
+      "characters_outside_current_offering": [],
+      "master_sha256": "66727e81497ccdc4a9d9c80a6a653137df68cd1059746d20a3c667462b8f34c0",
+      "status": "archived-historical-source-cut"
+    }
+  ]
+}

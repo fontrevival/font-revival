@@ -1,5 +1,21 @@
 # Changes
 
+## 1.006
+
+- Identify brass rule 8 as two fine parallel rules and retain five matching
+  GPO impressions from four books as additional provenance. Preserve its artwork.
+
+- Describe brass rules 1–6 as specimens with thin and thick sections, retaining
+  their identities and artwork. Record the probable face/body interpretation
+  separately from the visible source evidence.
+
+## 1.005
+
+- Offer fonts and editable font data under the choice MIT or SIL OFL 1.1,
+  with both license notices in the fonts and download packages.
+- Retain the existing outlines, character assignments, spacing and features.
+  Standalone artwork and other original project files remain MIT licensed.
+
 ## 1.004
 
 - Remove documented neighbouring-cut fragments and isolated paper marks from 6 border pieces, preserving advances and historical contours elsewhere.

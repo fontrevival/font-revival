@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "notes": "Observed lining alternatives, tall zero and descending 3/4. Existing defaults remain unchanged; onum and ss02 select the two descending forms, lnum retains its lining mappings and ss01 selects the tall zero.",
+  "glyphs": {
+    "zero.tall": {
+      "box": [
+        0,
+        0,
+        192,
+        264
+      ],
+      "threshold": 150,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 702.5892328430285,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 555,
+      "post_trace_transform": [
+        0.9999993925863603,
+        -0.0011021918665014728,
+        0.0011021918665014728,
+        0.9999993925863603,
+        33.835409077058586,
+        -12.746640473076445
+      ],
+      "file": "reference/crops/gpo-140-18-close-figures-15.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "native_box": [
+        2556,
+        3390,
+        2604,
+        3456
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed eighteen-point zero.tall from GPO 1904, printed page 124. Whole native impression at four-times Lanczos sampling, threshold 150; fixed page scale and measured row rotation and baseline. No filled defects, stretched form or drawn repair. The 555-unit advance is preserved with centered sidebearings. Centering is rounded to the shared 1/64-unit outline grid."
+    },
+    "one.lining": {
+      "box": [
+        0,
+        0,
+        104,
+        248
+      ],
+      "threshold": 150,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 661.7387485468087,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 316,
+      "post_trace_transform": [
+        0.9999993925863603,
+        -0.0011021918665014728,
+        0.0011021918665014728,
+        0.9999993925863603,
+        34.467243543476826,
+        -1.9036720404798553
+      ],
+      "file": "reference/crops/gpo-140-18-close-figures-00.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "native_box": [
+        1682,
+        3394,
+        1708,
+        3456
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed eighteen-point one.lining from GPO 1904, printed page 124. Whole native impression at four-times Lanczos sampling, threshold 150; fixed page scale and measured row rotation and baseline. No filled defects, stretched form or drawn repair."
+    },
+    "two.lining": {
+      "box": [
+        0,
+        0,
+        192,
+        260
+      ],
+      "threshold": 150,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 690.5891852351574,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 563,
+      "post_trace_transform": [
+        0.9999993925863603,
+        -0.0011021918665014728,
+        0.0011021918665014728,
+        0.9999993925863603,
+        35.14282548753472,
+        3.703645378516112
+      ],
+      "file": "reference/crops/gpo-140-18-close-figures-04.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "native_box": [
+        1939,
+        3390,
+        1987,
+        3455
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed eighteen-point two.lining from GPO 1904, printed page 124. Whole native impression at four-times Lanczos sampling, threshold 150; fixed page scale and measured row rotation and baseline. No filled defects, stretched form or drawn repair."
+    },
+    "five.lining": {
+      "box": [
+        0,
+        0,
+        176,
+        256
+      ],
+      "threshold": 150,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 672.5978895499572,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 526,
+      "post_trace_transform": [
+        0.9999993925863603,
+        -0.0011021918665014728,
+        0.0011021918665014728,
+        0.9999993925863603,
+        34.79488147273638,
+        -5.1783702134072405
+      ],
+      "file": "reference/crops/gpo-140-18-close-figures-07.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "native_box": [
+        2088,
+        3392,
+        2132,
+        3456
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed eighteen-point five.lining from GPO 1904, printed page 124. Whole native impression at four-times Lanczos sampling, threshold 150; fixed page scale and measured row rotation and baseline. No filled defects, stretched form or drawn repair."
+    },
+    "seven.lining": {
+      "box": [
+        0,
+        0,
+        184,
+        256
+      ],
+      "threshold": 150,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 670.8410470173338,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 549,
+      "post_trace_transform": [
+        0.9999993719030587,
+        0.0011208003784301944,
+        -0.0011208003784301944,
+        0.9999993719030587,
+        35.67131077698619,
+        -0.8823327827532628
+      ],
+      "file": "reference/crops/gpo-140-18-spaced-figures-06.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "native_box": [
+        2230,
+        3508,
+        2276,
+        3572
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed eighteen-point seven.lining from GPO 1904, printed page 124. Whole native impression at four-times Lanczos sampling, threshold 150; fixed page scale and measured row rotation and baseline. No filled defects, stretched form or drawn repair."
+    },
+    "nine.lining": {
+      "box": [
+        0,
+        0,
+        184,
+        248
+      ],
+      "threshold": 150,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 660.9487731749509,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 539,
+      "post_trace_transform": [
+        0.9999993925863603,
+        -0.0011021918665014728,
+        0.0011021918665014728,
+        0.9999993925863603,
+        34.40607261116645,
+        -2.814487604532936
+      ],
+      "file": "reference/crops/gpo-140-18-close-figures-14.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-140.jp2",
+      "native_box": [
+        2508,
+        3393,
+        2554,
+        3455
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed eighteen-point nine.lining from GPO 1904, printed page 124. Whole native impression at four-times Lanczos sampling, threshold 150; fixed page scale and measured row rotation and baseline. No filled defects, stretched form or drawn repair."
+    },
+    "three.oldstyle": {
+      "box": [
+        0,
+        0,
+        596,
+        816
+      ],
+      "threshold": 110,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 675.0950523643731,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 559,
+      "post_trace_transform": [
+        0.9999982834189435,
+        -0.001852878616181441,
+        0.001852878616181441,
+        0.9999982834189435,
+        34.8125,
+        -199.5530460916658
+      ],
+      "file": "reference/crops/nypl-540-18-body-last-26.png",
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "native_box": [
+        5315,
+        2804,
+        5464,
+        3008
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed whole eighteen-point descending 3 from NYPL printed523/archive540. Four-times Lanczos sampling, threshold110, no hole filling or drawn repair. One independent capital scale and one text-row rotation/baseline preserve the source position. Modern 35-unit sidebearings; source edge variation retained."
+    },
+    "four.oldstyle": {
+      "box": [
+        0,
+        0,
+        604,
+        824
+      ],
+      "threshold": 110,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 682.0137745274825,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "advance_width": 566,
+      "post_trace_transform": [
+        0.9999982834189435,
+        -0.001852878616181441,
+        0.001852878616181441,
+        0.9999982834189435,
+        34.640625,
+        -180.30971708818154
+      ],
+      "file": "reference/crops/nypl-540-18-body-last-27.png",
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "native_box": [
+        5479,
+        2796,
+        5630,
+        3002
+      ],
+      "sampling_scale": 4,
+      "notes": "Observed whole eighteen-point descending 4 from NYPL printed523/archive540. Four-times Lanczos sampling, threshold110, no hole filling or drawn repair. One independent capital scale and one text-row rotation/baseline preserve the source position. Modern 35-unit sidebearings; source edge variation retained."
+    }
+  }
+}

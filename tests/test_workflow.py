@@ -88,9 +88,14 @@ class WorkflowTests(unittest.TestCase):
             source.importXML(self.family / 'source/font.ttx')
             self.assertEqual(source['name'].getDebugName(13), notice)
             self.assertEqual(source['name'].getDebugName(14), revival.FONT_LICENSE_URL)
+        cache = self.family / 'source/__pycache__/prepare.cpython-312.pyc'
+        cache.parent.mkdir(exist_ok=True)
+        cache.write_bytes(b'local interpreter cache')
         revival.package(['johnson-1892'], check_catalog=False)
         archive = next((self.root / 'dist').glob('johnson-1892-*.zip'))
         with zipfile.ZipFile(archive) as bundle:
+            self.assertNotIn('johnson-1892/source/__pycache__/prepare.cpython-312.pyc', bundle.namelist())
+            self.assertIn('johnson-1892/source/font.ttx', bundle.namelist())
             for name in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt'):
                 self.assertEqual(bundle.read(f'johnson-1892/{name}'), (REPO / name).read_bytes())
             self.assertIn(b'MIT OR OFL-1.1', bundle.read('johnson-1892/README.md'))
@@ -174,6 +179,26 @@ class WorkflowTests(unittest.TestCase):
         revival.write_json(self.family / 'font.json', original | {'character_set': ' ABC'})
         with self.assertRaisesRegex(ValueError, 'character_set_notes'):
             revival.metadata(self.family)
+
+    def test_capitals_without_lowercase_aliases_keep_full_specimen_title(self):
+        from fontTools import subset
+        m = revival.metadata(self.family)
+        file = self.family / 'fonts/Johnson1892-Regular.ttf'
+        original = file.read_bytes()
+        for lowercase in ('', 'abcdefghijklmnopqrstuvwxyz'):
+            with self.subTest(lowercase=bool(lowercase)):
+                characters = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' + lowercase
+                m.update(character_set=characters, character_style='capitals-only')
+                with TTFont(io.BytesIO(original)) as font:
+                    selection = subset.Subsetter()
+                    selection.populate(unicodes=map(ord, characters))
+                    selection.subset(font)
+                    font.save(file)
+                with patch.object(revival, 'fit_pdf', wraps=revival.fit_pdf) as fit:
+                    revival.specimen(self.family, m)
+                expected = m['name'] if lowercase else m['name'].upper()
+                self.assertEqual(fit.call_args_list[0].args[1], expected)
+                self.assertEqual(fit.call_args_list[4].args[1], '0123456789')
 
     def test_icon_artwork_reuse_does_not_skip_typeface_rebuilds(self):
         revival.build_family(self.family)
@@ -316,6 +341,20 @@ class WorkflowTests(unittest.TestCase):
         self.assertNotEqual(revival.digest(before), revival.digest(after))
         for font in (before, after):
             self.assertIn(revival.digest(font)[:12].encode(), data)
+
+        # A later comparison in the same process must not reuse the first
+        # comparison's registered font aliases.
+        second_before = self.root / "second-before.ttf"
+        shutil.copyfile(after, second_before)
+        data = json.loads(path.read_text())
+        data["path"] = "M20 0 L220 0 L220 700 L20 700 Z"
+        revival.write_json(path, data)
+        revival.build_family(self.family)
+        second_proof = self.root / "second-comparison.pdf"
+        revival.comparison(Namespace(id="johnson-1892", before=second_before,
+                                     text="j ij ji", output=second_proof))
+        for font in (second_before, after):
+            self.assertIn(revival.digest(font)[:12].encode(), second_proof.read_bytes())
 
     def test_reference_path_cannot_escape_family(self):
         m = json.loads((self.family / "font.json").read_text())

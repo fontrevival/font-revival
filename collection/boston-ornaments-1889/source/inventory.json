@@ -818,16 +818,17 @@
     },
     {
       "id": "boston-1889-p258-word-10-4",
-      "name": "Parallel hairline divider, 36 point",
+      "name": "Paired fine and heavy brackets, 36 point",
       "printed_page": 258,
       "pdf_page": 266,
       "specimen_number": "word-10-4",
       "tags": [
-        "ribbon",
-        "shield",
-        "stripes",
-        "divider",
-        "terminal"
+        "brackets",
+        "paired",
+        "vertical",
+        "fine",
+        "heavy",
+        "frame"
       ],
       "box": [
         865,
@@ -993,16 +994,17 @@
     },
     {
       "id": "boston-1889-p258-word-11-4",
-      "name": "Parallel hairline divider, 40 point",
+      "name": "Paired fine and heavy brackets, 40 point",
       "printed_page": 258,
       "pdf_page": 266,
       "specimen_number": "word-11-4",
       "tags": [
-        "ribbon",
-        "shield",
-        "stripes",
-        "divider",
-        "terminal"
+        "brackets",
+        "paired",
+        "vertical",
+        "fine",
+        "heavy",
+        "frame"
       ],
       "box": [
         1459,
@@ -3182,9 +3184,10 @@
       "specimen_number": "e-1",
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "box": [
         707,
@@ -3206,9 +3209,10 @@
       "specimen_number": "e-2",
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "box": [
         783,
@@ -3230,9 +3234,10 @@
       "specimen_number": "e-3",
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "box": [
         851,
@@ -3254,9 +3259,10 @@
       "specimen_number": "e-4",
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "box": [
         970,
@@ -4206,17 +4212,17 @@
     },
     {
       "id": "boston-1889-p261-k-2",
-      "name": "Fine hairline",
+      "name": "Hairline with curled ball end, left",
       "printed_page": 261,
       "pdf_page": 269,
       "specimen_number": "k-2",
       "tags": [
-        "leaves",
+        "rule",
+        "hairline",
         "curl",
-        "scroll",
-        "flourish",
-        "geometric",
-        "terminal"
+        "ball",
+        "terminal",
+        "left"
       ],
       "box": [
         1207,
@@ -4258,17 +4264,17 @@
     },
     {
       "id": "boston-1889-p261-k-3",
-      "name": "Short hairline",
+      "name": "Hairline with curled ball end, right",
       "printed_page": 261,
       "pdf_page": 269,
       "specimen_number": "k-3",
       "tags": [
-        "leaves",
+        "rule",
+        "hairline",
         "curl",
-        "scroll",
-        "flourish",
-        "geometric",
-        "terminal"
+        "ball",
+        "terminal",
+        "right"
       ],
       "box": [
         1416,
@@ -5118,17 +5124,16 @@
     },
     {
       "id": "boston-1889-p262-l-2",
-      "name": "Double rule",
+      "name": "Triple rule with heavy center",
       "printed_page": 262,
       "pdf_page": 270,
       "specimen_number": "l-2",
       "tags": [
-        "waves",
-        "curl",
-        "leaves",
-        "spiral",
         "rule",
-        "flower",
+        "parallel",
+        "triple",
+        "heavy",
+        "fine",
         "divider"
       ],
       "box": [
@@ -18969,12 +18974,15 @@
       "printed_page": 268,
       "pdf_page": 276,
       "file": "reference/boston-268.jp2",
-      "name": "Santa Claus border double vertical rule",
+      "name": "Santa Claus border triple vertical rule",
       "tags": [
         "border",
-        "santa-claus-border",
         "rule",
-        "line"
+        "parallel",
+        "triple",
+        "vertical",
+        "heavy",
+        "fine"
       ],
       "crop_notes": "Measured from the native specimen scan; source proportions and printed spacing retained.",
       "box": [

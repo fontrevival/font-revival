@@ -1,0 +1,1107 @@
+{
+  "schema_version": 1,
+  "selected": [
+    {
+      "glyph": "S.broad",
+      "character": "S",
+      "source_id": "handy-358-regular-10-cap-06",
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2",
+      "native_box": [
+        474,
+        1280,
+        504,
+        1312
+      ],
+      "threshold": 110,
+      "recipe": {
+        "box": [
+          0,
+          0,
+          120,
+          128
+        ],
+        "threshold": 110,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8,
+        "height": 708.2593578301367,
+        "y_min": 0,
+        "bearings": [
+          0,
+          0
+        ],
+        "advance_width": 722,
+        "post_trace_transform": [
+          1.0,
+          0.0,
+          -0.0,
+          1.0,
+          34.89683465432305,
+          -1.7187968254149182
+        ],
+        "file": "reference/crops/handy-358-regular-10-cap-06.png",
+        "native_file": "reference/atf-handy-1897-leaf-358.jp2",
+        "native_box": [
+          474,
+          1280,
+          504,
+          1312
+        ],
+        "sampling_scale": 4,
+        "notes": "Observed whole broad S from Handy printed page 339, archive leaf 358, in SPEAKING. Printed page 189 sets both narrow and broad S in MUSCLES. Eleven non-S capitals establish one isotropic scale; eight native stem-foot anchors establish baseline. Threshold 110; no hole filling or drawn repair. Modern 35-unit sidebearings."
+      },
+      "expected_contours": 1,
+      "expected_bounds": {
+        "y_min": -1.8642602725732793,
+        "y_max": 706.6162879667785,
+        "ink_width": 651.5321508496035,
+        "ink_height": 708.4805482393517
+      },
+      "advance_width": 722,
+      "decision": "Observed whole broad S from Handy printed page 339, archive leaf 358, in SPEAKING. Printed page 189 sets both narrow and broad S in MUSCLES. Eleven non-S capitals establish one isotropic scale; eight native stem-foot anchors establish baseline. Threshold 110; no hole filling or drawn repair. Modern 35-unit sidebearings."
+    }
+  ],
+  "physical_scale": {
+    "scale": 25.93776406924489,
+    "dimension_pairs": 22,
+    "pairs": [
+      {
+        "source": "handy-358-regular-10-cap-00",
+        "character": "P",
+        "native_dimensions": [
+          24.04102567817237,
+          27.043109775409288
+        ],
+        "canonical_dimensions": [
+          638.725736977415,
+          701.1534968114378
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-01",
+        "character": "U",
+        "native_dimensions": [
+          25.343471296615437,
+          27.564397397354384
+        ],
+        "canonical_dimensions": [
+          653.8560250663271,
+          708.6802817784464
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-02",
+        "character": "B",
+        "native_dimensions": [
+          25.409780154439183,
+          27.167123847766483
+        ],
+        "canonical_dimensions": [
+          668.9282265064425,
+          700.4534007684373
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-03",
+        "character": "L",
+        "native_dimensions": [
+          24.588569741981917,
+          26.900305659599717
+        ],
+        "canonical_dimensions": [
+          619.3487436325212,
+          699.4394582049426
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-04",
+        "character": "I",
+        "native_dimensions": [
+          10.142310674804266,
+          26.95042555121057
+        ],
+        "canonical_dimensions": [
+          245.14696646526147,
+          701.1344014852025
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-05",
+        "character": "C",
+        "native_dimensions": [
+          24.038685826261077,
+          27.024125217866043
+        ],
+        "canonical_dimensions": [
+          620.06925826153,
+          707.0660901982376
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-08",
+        "character": "E",
+        "native_dimensions": [
+          25.547942397304023,
+          28.894339056445972
+        ],
+        "canonical_dimensions": [
+          646.1087298245745,
+          738.1113112866806
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-09",
+        "character": "A",
+        "native_dimensions": [
+          27.29424386536276,
+          27.785424527128573
+        ],
+        "canonical_dimensions": [
+          720.2082517025494,
+          705.4581446348815
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-10",
+        "character": "K",
+        "native_dimensions": [
+          25.87215311617847,
+          26.9946958904153
+        ],
+        "canonical_dimensions": [
+          699.6519842874984,
+          705.3409370400599
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-12",
+        "character": "N",
+        "native_dimensions": [
+          27.628604797079124,
+          27.29719334264568
+        ],
+        "canonical_dimensions": [
+          716.3943189505882,
+          715.857628158109
+        ]
+      },
+      {
+        "source": "handy-358-regular-10-cap-13",
+        "character": "G",
+        "native_dimensions": [
+          26.058774971300725,
+          27.721919224322274
+        ],
+        "canonical_dimensions": [
+          676.9163722124514,
+          717.0620914309412
+        ]
+      }
+    ],
+    "rms_residual_font_units": 11.298258963795199,
+    "method": "One isotropic fit to non-S whole capitals after independently accepted native serif-foot row rotation. All S and joined groups excluded."
+  },
+  "rows": {
+    "handy-358-10-caps": {
+      "status": "native-foot-windows-and-baseline-reviewed;accepted",
+      "anchors": [
+        {
+          "id": "handy-358-regular-10-cap-00",
+          "character": "P",
+          "x": 317.0,
+          "y": 1310.0,
+          "box": [
+            315,
+            1300,
+            320,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-02",
+          "character": "B",
+          "x": 371.5,
+          "y": 1310.0,
+          "box": [
+            370,
+            1300,
+            374,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-03",
+          "character": "L",
+          "x": 401.5,
+          "y": 1310.0,
+          "box": [
+            400,
+            1300,
+            404,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-04",
+          "character": "I",
+          "x": 428.5,
+          "y": 1310.0,
+          "box": [
+            427,
+            1300,
+            431,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-08",
+          "character": "E",
+          "x": 535.5,
+          "y": 1310.0,
+          "box": [
+            534,
+            1300,
+            538,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-09",
+          "character": "A",
+          "x": 562.0,
+          "y": 1310.0,
+          "box": [
+            561,
+            1300,
+            564,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-10",
+          "character": "K",
+          "x": 595.5,
+          "y": 1310.0,
+          "box": [
+            594,
+            1300,
+            598,
+            1316
+          ],
+          "column_bottoms": [
+            1309,
+            1309,
+            1309,
+            1309
+          ]
+        },
+        {
+          "id": "handy-358-regular-10-cap-12",
+          "character": "N",
+          "x": 639.0,
+          "y": 1309.0,
+          "box": [
+            638,
+            1300,
+            641,
+            1316
+          ],
+          "column_bottoms": [
+            1308,
+            1308,
+            1309
+          ]
+        }
+      ],
+      "slope": 0.0,
+      "rotation_degrees": 0.0,
+      "baseline_intercept": 1310.0,
+      "residuals_native_pixels": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max_absolute_residual_native_pixels": 1.0,
+      "method": "Independent native stem-foot windows at T150; median column lower ink edges, Theil-Sen slope, median intercept. Rounded feet and S excluded. Whole glyphs remain unsliced.",
+      "coordinate_convention": "Native pixels occupy [y,y+1); each lower edge is the last black pixel row plus one.",
+      "review": "All native stem-foot windows and full line overlays visually reviewed. No common row rotation measured; one-pixel maximum baseline residual. Curved feet and S excluded.",
+      "scale": 25.93776406924489
+    },
+    "handy-208-10-caps": {
+      "status": "native-foot-windows-and-baseline-reviewed;accepted",
+      "anchors": [
+        {
+          "id": "handy-208-10-standard-caps-00",
+          "character": "D",
+          "x": 848.0,
+          "y": 1478.0,
+          "box": [
+            846,
+            1468,
+            851,
+            1484
+          ],
+          "column_bottoms": [
+            1477,
+            1477,
+            1477,
+            1477,
+            1477
+          ]
+        },
+        {
+          "id": "handy-208-10-standard-caps-01",
+          "character": "E",
+          "x": 879.5,
+          "y": 1478.0,
+          "box": [
+            878,
+            1468,
+            882,
+            1484
+          ],
+          "column_bottoms": [
+            1477,
+            1477,
+            1477,
+            1476
+          ]
+        },
+        {
+          "id": "handy-208-10-standard-caps-03",
+          "character": "E",
+          "x": 936.5,
+          "y": 1478.0,
+          "box": [
+            935,
+            1468,
+            939,
+            1484
+          ],
+          "column_bottoms": [
+            1477,
+            1477,
+            1477,
+            1476
+          ]
+        },
+        {
+          "id": "handy-208-10-standard-caps-05",
+          "character": "P",
+          "x": 1019.5,
+          "y": 1477.0,
+          "box": [
+            1018,
+            1468,
+            1022,
+            1484
+          ],
+          "column_bottoms": [
+            1476,
+            1476,
+            1476,
+            1477
+          ]
+        },
+        {
+          "id": "handy-208-10-standard-caps-06",
+          "character": "M",
+          "x": 1064.5,
+          "y": 1478.0,
+          "box": [
+            1063,
+            1468,
+            1067,
+            1484
+          ],
+          "column_bottoms": [
+            1477,
+            1477,
+            1477,
+            1477
+          ]
+        },
+        {
+          "id": "handy-208-10-standard-caps-10",
+          "character": "L",
+          "x": 1181.5,
+          "y": 1478.0,
+          "box": [
+            1180,
+            1468,
+            1184,
+            1484
+          ],
+          "column_bottoms": [
+            1477,
+            1477,
+            1477,
+            1477
+          ]
+        },
+        {
+          "id": "handy-208-10-standard-caps-11",
+          "character": "E",
+          "x": 1209.5,
+          "y": 1478.0,
+          "box": [
+            1208,
+            1468,
+            1212,
+            1484
+          ],
+          "column_bottoms": [
+            1477,
+            1477,
+            1477,
+            1477
+          ]
+        }
+      ],
+      "slope": 0.0,
+      "rotation_degrees": 0.0,
+      "baseline_intercept": 1478.0,
+      "residuals_native_pixels": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_absolute_residual_native_pixels": 1.0,
+      "method": "Independent native stem-foot windows at T150; median column lower ink edges, Theil-Sen slope, median intercept. Rounded feet and S excluded. Whole glyphs remain unsliced.",
+      "coordinate_convention": "Native pixels occupy [y,y+1); each lower edge is the last black pixel row plus one.",
+      "review": "All native stem-foot windows and full line overlays visually reviewed. No common row rotation measured; one-pixel maximum baseline residual. Curved feet and S excluded.",
+      "scale": 25.697714845331408
+    }
+  },
+  "decision": "Retain the complete Handy printed339 poster broad S as unencoded ss04, preserving narrow default. Threshold 110 retains whole broad shape, open apertures and smoother bowls than other thresholds. Standard printed189 MUSCLES has narrow first S and broad final S in one setting; broad repeat is rougher and slightly narrower from impression variation.",
+  "comparison": "Fifteen whole trials of standard narrow/broad and poster broad S at T110/130/150/170/190 reviewed. Poster110 is complete and smoothest;130 makes angular flat segments in bowl;150-190 thicken native edge irregularities. Standard broad is visibly co-set with narrow but all five traces retain more angular outer bowl. BYU series and crossbook poster S previously compared are narrow repeats.",
+  "reviewed": [
+    "ten-S-threshold-proof-1.png",
+    "ten-S-threshold-proof-2.png",
+    "ten-S-threshold-proof-3.png",
+    "ten-standard-foot-windows.png",
+    "ten-standard-foot-line.png",
+    "ten-poster-foot-windows.png",
+    "ten-poster-foot-line.png"
+  ],
+  "identity_limit": "Two optical forms are supported within the ten-point MUSCLES setting and a whole broad repeat in the ten-point poster. This does not identify punches, matrices or designer.",
+  "quality_todo": "Seek higher-resolution whole ten-point broad S impressions to improve small native edge variation. No smoothing by borrowing eight- or twelve-point geometry.",
+  "comparison_impressions": [
+    {
+      "source_id": "handy-208-10-standard-caps-08",
+      "native_file": "reference/atf-handy-1897-leaf-208.jp2",
+      "native_box": [
+        1122,
+        1449,
+        1149,
+        1481
+      ],
+      "role": "Co-set narrow S in MUSCLES"
+    },
+    {
+      "source_id": "handy-208-10-standard-caps-12",
+      "native_file": "reference/atf-handy-1897-leaf-208.jp2",
+      "native_box": [
+        1228,
+        1449,
+        1257,
+        1481
+      ],
+      "role": "Co-set broad S in MUSCLES"
+    }
+  ],
+  "common_capitals": [
+    {
+      "id": "handy-358-regular-10-cap-00",
+      "character": "P",
+      "box": [
+        309,
+        1281,
+        337,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          112,
+          124
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-01",
+      "character": "U",
+      "box": [
+        335,
+        1280,
+        365,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          120,
+          128
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-02",
+      "character": "B",
+      "box": [
+        365,
+        1281,
+        395,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          120,
+          124
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-03",
+      "character": "L",
+      "box": [
+        394,
+        1281,
+        423,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          116,
+          124
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-04",
+      "character": "I",
+      "box": [
+        421,
+        1281,
+        436,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          60,
+          124
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-05",
+      "character": "C",
+      "box": [
+        435,
+        1281,
+        463,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          112,
+          124
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-08",
+      "character": "E",
+      "box": [
+        529,
+        1280,
+        559,
+        1313
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          120,
+          132
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-09",
+      "character": "A",
+      "box": [
+        556,
+        1280,
+        588,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-10",
+      "character": "K",
+      "box": [
+        589,
+        1281,
+        619,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          120,
+          124
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-12",
+      "character": "N",
+      "box": [
+        633,
+        1280,
+        665,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "handy-358-regular-10-cap-13",
+      "character": "G",
+      "box": [
+        662,
+        1280,
+        692,
+        1312
+      ],
+      "settings": {
+        "box": [
+          0,
+          0,
+          120,
+          128
+        ],
+        "threshold": 150,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8
+      },
+      "native_file": "reference/atf-handy-1897-leaf-358.jp2"
+    }
+  ],
+  "comparison_physical_scales": {
+    "standard": {
+      "scale": 25.697714845331408,
+      "dimension_pairs": 20,
+      "pairs": [
+        {
+          "source": "handy-208-10-standard-caps-00",
+          "character": "D",
+          "native_dimensions": [
+            26.091511763324657,
+            27.718682006637493
+          ],
+          "canonical_dimensions": [
+            668.9491028986027,
+            699.3993965289626
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-01",
+          "character": "E",
+          "native_dimensions": [
+            24.944577770812437,
+            28.784600121565
+          ],
+          "canonical_dimensions": [
+            646.1087298245745,
+            738.1113112866806
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-02",
+          "character": "V",
+          "native_dimensions": [
+            25.869201549603826,
+            27.015053662886864
+          ],
+          "canonical_dimensions": [
+            668.4009257568232,
+            687.1715065923478
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-03",
+          "character": "E",
+          "native_dimensions": [
+            24.82569156540424,
+            28.875847146678197
+          ],
+          "canonical_dimensions": [
+            646.1087298245745,
+            738.1113112866806
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-05",
+          "character": "P",
+          "native_dimensions": [
+            24.532327463637337,
+            27.340858246422037
+          ],
+          "canonical_dimensions": [
+            638.725736977415,
+            701.1534968114378
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-06",
+          "character": "M",
+          "native_dimensions": [
+            34.079335166186866,
+            26.980703804997837
+          ],
+          "canonical_dimensions": [
+            866.4448204475311,
+            711.5945279022097
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-07",
+          "character": "U",
+          "native_dimensions": [
+            25.598801666190447,
+            27.0625
+          ],
+          "canonical_dimensions": [
+            653.8560250663271,
+            708.6802817784464
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-09",
+          "character": "C",
+          "native_dimensions": [
+            23.911702469406006,
+            27.7375
+          ],
+          "canonical_dimensions": [
+            620.06925826153,
+            707.0660901982376
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-10",
+          "character": "L",
+          "native_dimensions": [
+            24.052337567707294,
+            27.640316448820894
+          ],
+          "canonical_dimensions": [
+            619.3487436325212,
+            699.4394582049426
+          ]
+        },
+        {
+          "source": "handy-208-10-standard-caps-11",
+          "character": "E",
+          "native_dimensions": [
+            24.85620711023077,
+            28.936437477767083
+          ],
+          "canonical_dimensions": [
+            646.1087298245745,
+            738.1113112866806
+          ]
+        }
+      ],
+      "rms_residual_font_units": 8.036603832134935,
+      "method": "One isotropic fit to non-S whole capitals after independently accepted native serif-foot row rotation. All S and joined groups excluded."
+    },
+    "poster": {
+      "scale": 25.93776406924489,
+      "dimension_pairs": 22,
+      "pairs": [
+        {
+          "source": "handy-358-regular-10-cap-00",
+          "character": "P",
+          "native_dimensions": [
+            24.04102567817237,
+            27.043109775409288
+          ],
+          "canonical_dimensions": [
+            638.725736977415,
+            701.1534968114378
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-01",
+          "character": "U",
+          "native_dimensions": [
+            25.343471296615437,
+            27.564397397354384
+          ],
+          "canonical_dimensions": [
+            653.8560250663271,
+            708.6802817784464
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-02",
+          "character": "B",
+          "native_dimensions": [
+            25.409780154439183,
+            27.167123847766483
+          ],
+          "canonical_dimensions": [
+            668.9282265064425,
+            700.4534007684373
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-03",
+          "character": "L",
+          "native_dimensions": [
+            24.588569741981917,
+            26.900305659599717
+          ],
+          "canonical_dimensions": [
+            619.3487436325212,
+            699.4394582049426
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-04",
+          "character": "I",
+          "native_dimensions": [
+            10.142310674804266,
+            26.95042555121057
+          ],
+          "canonical_dimensions": [
+            245.14696646526147,
+            701.1344014852025
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-05",
+          "character": "C",
+          "native_dimensions": [
+            24.038685826261077,
+            27.024125217866043
+          ],
+          "canonical_dimensions": [
+            620.06925826153,
+            707.0660901982376
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-08",
+          "character": "E",
+          "native_dimensions": [
+            25.547942397304023,
+            28.894339056445972
+          ],
+          "canonical_dimensions": [
+            646.1087298245745,
+            738.1113112866806
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-09",
+          "character": "A",
+          "native_dimensions": [
+            27.29424386536276,
+            27.785424527128573
+          ],
+          "canonical_dimensions": [
+            720.2082517025494,
+            705.4581446348815
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-10",
+          "character": "K",
+          "native_dimensions": [
+            25.87215311617847,
+            26.9946958904153
+          ],
+          "canonical_dimensions": [
+            699.6519842874984,
+            705.3409370400599
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-12",
+          "character": "N",
+          "native_dimensions": [
+            27.628604797079124,
+            27.29719334264568
+          ],
+          "canonical_dimensions": [
+            716.3943189505882,
+            715.857628158109
+          ]
+        },
+        {
+          "source": "handy-358-regular-10-cap-13",
+          "character": "G",
+          "native_dimensions": [
+            26.058774971300725,
+            27.721919224322274
+          ],
+          "canonical_dimensions": [
+            676.9163722124514,
+            717.0620914309412
+          ]
+        }
+      ],
+      "rms_residual_font_units": 11.298258963795199,
+      "method": "One isotropic fit to non-S whole capitals after independently accepted native serif-foot row rotation. All S and joined groups excluded."
+    }
+  }
+}

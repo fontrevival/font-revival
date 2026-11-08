@@ -1,10 +1,10 @@
 # Baltimore Initials 1832
 
-Historical decorated initials from Baltimore 1832, with matching impressions from Boston 1832, Howe 1830 and Bruce 1828, plus the leafy-descender Oak Leaf R from the complete alphabet sheet.
+Historical decorated letters, figures and punctuation from Baltimore 1832 and matching period sources in Boston 1832, Howe 1830 and Bruce 1828, plus the leafy-descender Oak Leaf R.
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**66 icon(s) · Version 1.002 · MIT**
+**80 icon(s) · Version 1.004 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreInitials1832-Regular.otf) · [TTF](fonts/BaltimoreInitials1832-Regular.ttf) · [WOFF2](web/BaltimoreInitials1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -16,7 +16,7 @@ Historical decorated initials from Baltimore 1832, with matching impressions fro
 the extracted `collection` folder beside your HTML file. Keep its subfolders
 together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
-and the license. No JavaScript or font installation is needed for SVG use.
+and license notices. No JavaScript or font installation is needed for SVG use.
 
 ### Three-tone image — works from disk too
 
@@ -92,15 +92,17 @@ The example above uses U+E000 and is recommended from
 64 px. The 16–192 pt proofs show how detail holds up at different sizes.
 Keep the included LICENSE with redistributed assets.
 
+The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
+
 ## Evidence and editing
 
 **Foundry:** Baltimore Type Foundry; F. Lucas, Jr., agent
 
 **Designer:** Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)
 
-**Observed:** 38 original Baltimore impressions plus 27 matching period impressions (21 letters and six punctuation marks), and the complete-sheet Oak Leaf R: 66 items. Both R forms are retained separately. All letters and punctuation of the Boston MINT! GOLD. specimen are included, alongside the original Baltimore PRINT LUCAS letters. Every item has an exact scan crop and source citation; the standalone sheet uses an explicit location instead of a PDF page.
+**Observed:** 80 complete ornamental sorts: 38 original Baltimore impressions, 27 matching period impressions, the complete-sheet Oak Leaf R, and 14 Bruce 1828 additions. Bruce supplies lottery figures 3, 4, 5 and comma, and the complete ornamented SODA water. setting. Its S, a and e have distinct hatched/internal decoration from the related Baltimore and Boston versions. Every item retains an exact crop and citation.
 
-**Interpreted or new:** No inferred letters or new pictorial content. Thresholding, crop cleanup, cubic curve fitting and font-unit rounding interpret the observed impressions. Source identifiers, Private Use assignments, uniform scale and bearings are digital metadata and metrics. Original 38 items retain their existing monochrome and three-tone drawings, including reviewed 1.001 alignment. The 28 supplementary impressions are monochrome.
+**Interpreted or new:** No inferred letters or new pictorial content. Thresholding, crop cleanup, cubic curve fitting and font-unit rounding interpret the observed impressions. Source identifiers, Private Use assignments, uniform scale and bearings are digital metadata and metrics. Original 38 items retain their existing monochrome and three-tone drawings, including reviewed 1.001 alignment. The 42 supplementary impressions are monochrome. No incomplete alphabet is offered as a text font.
 
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 59, Internet Archive leaf 58](https://archive.org/details/ldpd_12198261_000/page/n58/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 65, Internet Archive leaf 64](https://archive.org/details/ldpd_12198261_000/page/n64/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
@@ -113,6 +115,8 @@ Keep the included LICENSE with redistributed assets.
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 139, archive leaf 139](https://archive.org/details/specimenofprinti00bost/page/n139/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unpaginated; PDF page 141, archive leaf 141](https://archive.org/details/specimenofprinti00bost/page/n141/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 - [Oak Leaf complete alphabet sheet, hosted by Luc Devroye; attributed to Baltimore Type Foundry, 1832](https://luc.devroye.org/BaltimoreTypeFoundry--OakLeaf-1832.png) — The underlying Oak Leaf design is documented in the 1832 Baltimore specimen and is public domain by age. The complete reproduction is hosted by Luc Devroye; its intermediate publication and reproduction history are unidentified. The attribution is the working basis for this revival. The project MIT license covers original digital work and does not assert ownership of the reference sheet. [Rights basis](https://archive.org/details/ldpd_12198261_000/page/n66/mode/1up).
+- [A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Lottery Figures; unnumbered leaf, PDF page 133](https://hdl.handle.net/2027/nyp.33433006349736) — 1828 United States publication; historical artwork public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. Faithful reproduction of historical artwork, not a modern digital typeface. [Rights basis](https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html).
+- [A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135](https://hdl.handle.net/2027/nyp.33433006349736) — 1828 United States publication; historical artwork public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. Faithful reproduction of historical artwork, not a modern digital typeface. [Rights basis](https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and

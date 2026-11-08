@@ -1,0 +1,73 @@
+{
+  "revisions": [
+    {
+      "id": "gpo-1904-10",
+      "revision": "1.001",
+      "previous_witness": {
+        "source_index": 6,
+        "pdf_page": 183,
+        "printed_page": 167,
+        "specimen_number": "10"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 255,
+        "archive_leaf": 254,
+        "specimen_number": "452",
+        "source_index": 66
+      },
+      "source_file": "reference/bruce1828-hathi-p255.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1049,
+        887,
+        1511,
+        1177
+      ],
+      "output": "reference/crops/bruce-1828-p255-cut-452-upgrade.png",
+      "crop_sha256": "5b816f037030f165d783217dd7ca303bdf6b8a3a8139f61056dc4e322bd4a11f",
+      "reason": "Clearer cloud hatching, stars, ribbon and shield details; complete matching wing extremities. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p255-cut-452-upgrade.png",
+        "box": [
+          0,
+          0,
+          462,
+          290
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF255 No452 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving.",
+        "frame_threshold": 165,
+        "multitone": {
+          "thresholds": {
+            "primary": 105,
+            "secondary": 135,
+            "tertiary": 165
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            462,
+            16
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "method": "Eight binding corner witnesses resolve to one complete interlaced square meander design and seven rotations. The front lower-left corner is preferred. Twenty native Greek-key/fret candidates, 68 previously reviewed Boston frame components and rotated retrieval against 3711 drawings show different constructions. Boston border 33 has single crossing fret lines; the GPO binding uses paired outline bands with four open joining rules in each arm. Two whole-frame compositions and four ordinary-rule exclusions preserve the full cover context.",
+  "entries": [
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-front-corner-tl",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1.jp2",
+      "box": [
+        98,
+        88,
+        987,
+        982
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 0,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation.",
+      "quality_decision": "prefer-front-lower-left"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-front-corner-tr",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1.jp2",
+      "box": [
+        2030,
+        88,
+        2924,
+        982
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 270,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation.",
+      "quality_decision": "prefer-front-lower-left"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-front-corner-bl",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1-gold.png",
+      "box": [
+        132,
+        2961,
+        987,
+        3818
+      ],
+      "box_role": "reviewed complete component extraction",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 90,
+      "status": "new",
+      "icon_id": "gpo-1904-binding-meander-corner",
+      "codepoint": "E1EE",
+      "name": "Interlaced square meander binding corner",
+      "context_box": [
+        98,
+        2939,
+        987,
+        3833
+      ],
+      "rotation": 270,
+      "output_review": "source-vector-reviewed; final-formats-pending",
+      "reason": "Front lower-left witness has cleaner linework and less scuff/glare than the other complete corners. All square loops and the four joining lines in each arm are observed."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-front-corner-br",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1.jp2",
+      "box": [
+        2030,
+        2939,
+        2924,
+        3833
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 180,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation.",
+      "quality_decision": "prefer-front-lower-left"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-1-frame",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1.jp2",
+      "box": [
+        0,
+        0,
+        3030,
+        3909
+      ],
+      "box_role": "whole cover context",
+      "section": "Binding covers",
+      "status": "composed-example",
+      "components": [
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-front-corner-tl",
+          "box": [
+            98,
+            88,
+            987,
+            982
+          ],
+          "rotation_from_canonical_ccw": 0
+        },
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-front-corner-tr",
+          "box": [
+            2030,
+            88,
+            2924,
+            982
+          ],
+          "rotation_from_canonical_ccw": 270
+        },
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-front-corner-bl",
+          "box": [
+            132,
+            2961,
+            987,
+            3818
+          ],
+          "rotation_from_canonical_ccw": 90
+        },
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-front-corner-br",
+          "box": [
+            2030,
+            2939,
+            2924,
+            3833
+          ],
+          "rotation_from_canonical_ccw": 180
+        }
+      ],
+      "reason": "Four rotated copies of one meander corner joined by four parallel straight rules along each side. Front cover includes separate typeset title and imprint. Back cover has no title; its right scan edge is clipped."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-1-straight-spans",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1.jp2",
+      "box": [
+        0,
+        0,
+        3030,
+        3909
+      ],
+      "box_role": "whole cover context",
+      "section": "Binding covers",
+      "status": "excluded",
+      "reason": "Ordinary straight runs between the independently recorded ornamental corners; four rules per side, sixteen spans per complete frame."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-1-outer-rule",
+      "archive_leaf": 1,
+      "pdf_page": 1,
+      "printed_page": null,
+      "source_index": 52,
+      "file": "reference/leaf-1.jp2",
+      "box": [
+        0,
+        0,
+        3030,
+        3909
+      ],
+      "box_role": "whole cover context",
+      "section": "Binding covers",
+      "status": "excluded",
+      "reason": "Ordinary single outer rectangular gilt rule; copy-edge wear remains documentary evidence."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-back-corner-tl",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        50,
+        52,
+        955,
+        955
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 0,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation.",
+      "quality_decision": "prefer-front-lower-left"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-back-corner-tr",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        2000,
+        78,
+        2850,
+        974
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 270,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation. The right scan boundary is incomplete; complete matching front-cover witnesses supply the full component.",
+      "quality_decision": "prefer-front-lower-left",
+      "witness_completeness": "right scan boundary clips or abuts the outermost line"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-back-corner-bl",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        33,
+        2931,
+        938,
+        3828
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 90,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation.",
+      "quality_decision": "prefer-front-lower-left"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-back-corner-br",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        1971,
+        2931,
+        2850,
+        3828
+      ],
+      "box_role": "native colour witness context",
+      "section": "Binding covers",
+      "rotation_from_canonical_ccw": 180,
+      "status": "repeat",
+      "duplicate_of": "gpo-1904-binding-meander-corner",
+      "duplicate_candidate": "gpo-jobroom-1904:binding-front-corner-bl",
+      "reason": "Same two interlaced square-loop construction under a quarter-turn; no new identity for gilt brightness, wear or rotation. The right scan boundary is incomplete; complete matching front-cover witnesses supply the full component.",
+      "quality_decision": "prefer-front-lower-left",
+      "witness_completeness": "right scan boundary clips or abuts the outermost line"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-208-frame",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        0,
+        0,
+        2850,
+        3878
+      ],
+      "box_role": "whole cover context",
+      "section": "Binding covers",
+      "status": "composed-example",
+      "components": [
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-back-corner-tl",
+          "box": [
+            50,
+            52,
+            955,
+            955
+          ],
+          "rotation_from_canonical_ccw": 0
+        },
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-back-corner-tr",
+          "box": [
+            2000,
+            78,
+            2850,
+            974
+          ],
+          "rotation_from_canonical_ccw": 270
+        },
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-back-corner-bl",
+          "box": [
+            33,
+            2931,
+            938,
+            3828
+          ],
+          "rotation_from_canonical_ccw": 90
+        },
+        {
+          "candidate_id": "gpo-jobroom-1904:binding-back-corner-br",
+          "box": [
+            1971,
+            2931,
+            2850,
+            3828
+          ],
+          "rotation_from_canonical_ccw": 180
+        }
+      ],
+      "reason": "Four rotated copies of one meander corner joined by four parallel straight rules along each side. Front cover includes separate typeset title and imprint. Back cover has no title; its right scan edge is clipped."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-208-straight-spans",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        0,
+        0,
+        2850,
+        3878
+      ],
+      "box_role": "whole cover context",
+      "section": "Binding covers",
+      "status": "excluded",
+      "reason": "Ordinary straight runs between the independently recorded ornamental corners; four rules per side, sixteen spans per complete frame."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:binding-208-outer-rule",
+      "archive_leaf": 208,
+      "pdf_page": 208,
+      "printed_page": null,
+      "source_index": 53,
+      "file": "reference/leaf-208.jp2",
+      "box": [
+        0,
+        0,
+        2850,
+        3878
+      ],
+      "box_role": "whole cover context",
+      "section": "Binding covers",
+      "status": "excluded",
+      "reason": "Ordinary single outer rectangular gilt rule; copy-edge wear remains documentary evidence."
+    }
+  ]
+}

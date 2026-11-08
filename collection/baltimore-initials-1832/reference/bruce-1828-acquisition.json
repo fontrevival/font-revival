@@ -1,0 +1,22 @@
+{
+  "pdf_url": "https://circuitousroot.com/images/artifice/letters/press/noncomptype/typography/bruce/bruce-1828-specimen-hathi-nyp-33433006349736.pdf",
+  "pdf_sha256": "a6ee24cd2982e1582c7a9ec59ff07a4586ea3d44a6afa9ddac1bd90d480cf71a",
+  "pages": [
+    {
+      "pdf_page": 133,
+      "native_file": "reference/bruce1828-hathi-p133.png",
+      "native_sha256": "c0c92c70b12f6ef1b18cd2643381c1faaad509dccbe8528b733b1a1d9cbe166c",
+      "upright_file": "reference/bruce1828-hathi-p133-upright.png",
+      "upright_sha256": "c31a49452b087c01a0141068f4318ccfe660d79cf63816952ed70a27a81f3689",
+      "derivation": "pdfimages -png; upright image is an exact270-degree counterclockwise rotation, without resampling."
+    },
+    {
+      "pdf_page": 135,
+      "native_file": "reference/bruce1828-hathi-p135.png",
+      "native_sha256": "2b6907358501cf41bef709ab11137921437711e59ee52d3c092c5d06e3b22708",
+      "upright_file": "reference/bruce1828-hathi-p135-upright.png",
+      "upright_sha256": "dda72ac7c7dd9bfcd9ae3f0d81172a51b448ba8e68331760fae3a6da5be703bf",
+      "derivation": "pdfimages -png; upright image is an exact270-degree counterclockwise rotation, without resampling."
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "gpo-job-1897:type-sample:de-vinne-10pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 109,
+      "pdf_page": 109,
+      "printed_page": 50,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10 Point, DeVinne. Caps, lower case, and figures.",
+      "case": null,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Left stock marks read Keystone—10 for6–18 andKeystone—6 for24. These marks are retained as printed evidence; no unverified designer or matrix attribution.",
+      "canonical_family": "de-vinne-10pt-1897"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:de-vinne-10pt-case26",
+      "book": "gpo-census-1900",
+      "archive_leaf": 35,
+      "pdf_page": 35,
+      "printed_page": 17,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10-point De Vinne",
+      "case": 26,
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUV / abcdefghijklmnopqrstuv / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVabcdefghijklmnopqrstuv0123456789",
+      "missing_alphanumeric_in_this_sample": "WXYZwxyz",
+      "observed_punctuation": "",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "",
+      "canonical_family": "de-vinne-10pt-1897"
+    },
+    {
+      "id": "gpo-document-1904:type-sample:de-vinne-10pt",
+      "book": "gpo-document-1904",
+      "archive_leaf": 65,
+      "pdf_page": 65,
+      "printed_page": 30,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10-point De Vinne. (American.)",
+      "case": null,
+      "sample_transcription": "ENGLISH JUDGES IN COUNCIL ASSEMBLED, IN / Year 1680, declared that it was illegal to print or to publish any / news books or pamphlets of news.",
+      "observed_alphanumeric": "ABCDEGHIJLMNOSUYabcdefghiklmnoprstuwy0168",
+      "missing_alphanumeric_in_this_sample": "FKPQRTVWXZjqvxz234579",
+      "observed_punctuation": ",.",
+      "status": "reviewed-complete-family-witness",
+      "scope_warning": "Printed labels, cabinet/case numbers and other sizes do not supply glyph evidence. Slash separators denote rows, not printed characters. Crossbook unions require exact cut comparison.",
+      "notes": "Case 260. All115 native characters in the three rows reviewed. The 80 and oo pairs have pale ink bridges, while two o impressions have disconnected projections; crop boundaries are corrected without drawing ink. Selected S/Y and the distinct tall zero come from this page. MacFarland and Roycroft rows are separate designs.",
+      "canonical_family": "de-vinne-10pt-1897"
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:de-vinne-10pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 85,
+      "pdf_page": 85,
+      "printed_page": 69,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10 Point De Vinne",
+      "sample_transcription": "THEN THE CELEBRATED BATTLE OF / Marathon followed, when the Persian sol- / diers came in contact with such men as / Themistocles, Aristides, Miltiades, and / many others of note, distinguished for / their courage and valor—who were pre- / pared to resist them, and to defend their / country. It is well to notice the charac- / ter of these prominent men as they come / before us in this capacity. They were 47",
+      "observed_alphanumeric": "ABCDEFHILMNOPRTabcdefghilmnoprstuvwy47",
+      "missing_alphanumeric_in_this_sample": "GJKQSUVWXYZjkqxz01235689",
+      "observed_punctuation": ",.-—",
+      "notes": "Three line-end hyphens have two bars. The first, in sol-diers, provides the encoded hyphen. An em dash follows valor. The lining four matches the census design; the baseline seven is a distinct named alternative.",
+      "scope_warning": "This paragraph alone is not a complete alphabet. The complete revival combines reviewed matching ten-point witnesses; no other point size supplies a glyph.",
+      "status": "reviewed-complete-family-witness",
+      "canonical_family": "de-vinne-10pt-1897"
+    },
+    {
+      "id": "atf-new-york-1897:type-sample:de-vinne-10pt-fractions-p436",
+      "book": "atf-new-york-1897",
+      "archive_leaf": 506,
+      "printed_page": 436,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ¢ %",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝⅞¢%",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-10pt-fractions-p637",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 639,
+      "printed_page": 637,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10 Point, De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-desk-1898:type-sample:de-vinne-10pt-fractions-p771",
+      "book": "atf-desk-1898",
+      "archive_leaf": 755,
+      "printed_page": 771,
+      "point_size": 10,
+      "design": "De Vinne",
+      "source_label": "10 Point; De Vinne Fractions",
+      "sample_transcription": "¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝",
+      "observed_companions": "¼½¾⅓⅔⅛⅜⅝",
+      "sample_kind": "fractions",
+      "status": "source-local-transcription-reviewed;selected-whole-fraction-companions"
+    },
+    {
+      "id": "atf-handy-1897:type-sample:de-vinne-10pt-alphabet-setting-p189",
+      "book": "atf-handy-1897",
+      "archive_leaf": 208,
+      "printed_page": 189,
+      "point_size": 10,
+      "design": "De Vinne",
+      "sample_kind": "alphabet-setting",
+      "source_label": "De Vinne Series; 10 Point",
+      "sample_transcription": "DEVELOP MUSCLES / Healthful Gymnastic Exercise",
+      "transcribed_rows": [
+        "DEVELOP MUSCLES",
+        "Healthful Gymnastic Exercise"
+      ],
+      "observed_alphanumeric": "CDEGHLMOPSUVacefhilmnrstuxy",
+      "missing_alphanumeric_in_this_sample": "ABFIJKNQRTWXYZbdgjkopqvwz0123456789",
+      "observed_punctuation": "",
+      "observed_companions": "",
+      "status": "common-capital-scale-and-S-forms-reviewed",
+      "native_sha256": "f689fecbcac9ecc01a2dda90263c60c432bf3d7c097714db742c0bd12bb5b870",
+      "native_context_box": [
+        740,
+        1440,
+        1375,
+        1560
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample text, figures and punctuation transcribed. Labels, prices and advertised counts excluded. Repeated labels do not prove identical cuts. Double-bar printed hyphens transcribed semantically as hyphens; no equals-sign alias.",
+      "source_cross_reference": "Pages188/189 wrongly refer to330/331 for posters and fractions. Native regular posters are338/339; fraction chart is40. No fractions actually appear in these poster settings.",
+      "native_source": "reference/atf-handy-1897-leaf-208.jp2"
+    },
+    {
+      "id": "atf-handy-1897:type-sample:de-vinne-10pt-poster-p339",
+      "book": "atf-handy-1897",
+      "archive_leaf": 358,
+      "printed_page": 339,
+      "point_size": 10,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 10 Point",
+      "sample_transcription": "PUBLIC SPEAKING IN THE COURT HOUSE / Hon. E. Pluribus Unum will address his fellow-citizens on the pol- / itical issues of the day at the Court House in this city at 7:23 p. m. / to-morrow. Everybody invited. Frauds exposed and a powerful / searchlight turned on the dark ways of the opposition party. The / 12345 67890",
+      "transcribed_rows": [
+        "PUBLIC SPEAKING IN THE COURT HOUSE",
+        "Hon. E. Pluribus Unum will address his fellow-citizens on the pol-",
+        "itical issues of the day at the Court House in this city at 7:23 p. m.",
+        "to-morrow. Everybody invited. Frauds exposed and a powerful",
+        "searchlight turned on the dark ways of the opposition party. The",
+        "12345 67890"
+      ],
+      "observed_alphanumeric": "ABCEFGHIKLNOPRSTUabcdefghiklmnoprstuvwxyz0123456789",
+      "missing_alphanumeric_in_this_sample": "DJMQVWXYZjq",
+      "observed_punctuation": ".-:",
+      "observed_companions": "",
+      "status": "common-capital-scale-and-S-forms-reviewed",
+      "native_sha256": "0804bb3053b3f8dcb84447efa7ace7fe44b012fa72ed82b687cec342fb319d84",
+      "native_context_box": [
+        90,
+        1275,
+        1390,
+        1595
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample text, figures and punctuation transcribed. Labels, prices and advertised counts excluded. Repeated labels do not prove identical cuts. Double-bar printed hyphens transcribed semantically as hyphens; no equals-sign alias.",
+      "source_cross_reference": "Pages188/189 wrongly refer to330/331 for posters and fractions. Native regular posters are338/339; fraction chart is40. No fractions actually appear in these poster settings.",
+      "native_source": "reference/atf-handy-1897-leaf-358.jp2"
+    },
+    {
+      "id": "atf-desk-nypl-1898:type-sample:de-vinne-10pt-poster-p523",
+      "book": "atf-desk-nypl-1898",
+      "archive_leaf": 540,
+      "printed_page": 523,
+      "point_size": 10,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 10 Point",
+      "sample_transcription": "THE BASIS FOR THE CONSTITUTION OF THE UNITED STATES / When, in the course of human events, it becomes necessary for one / people to dissolve the political bands which have connected them / with another, and to assume, among the powers of the earth, the / separate and equal station to which the laws of nature and of / nature’s God entitle them, a decent respect to the opinions of / mankind requires that they should declare the causes which impel / them to the separation. We hold these truths to be self-evident 890",
+      "transcribed_rows": [
+        "THE BASIS FOR THE CONSTITUTION OF THE UNITED STATES",
+        "When, in the course of human events, it becomes necessary for one",
+        "people to dissolve the political bands which have connected them",
+        "with another, and to assume, among the powers of the earth, the",
+        "separate and equal station to which the laws of nature and of",
+        "nature’s God entitle them, a decent respect to the opinions of",
+        "mankind requires that they should declare the causes which impel",
+        "them to the separation. We hold these truths to be self-evident 890"
+      ],
+      "observed_alphanumeric": "ABCDEFGHINORSTUWabcdefghiklmnopqrstuvwy089",
+      "missing_alphanumeric_in_this_sample": "JKLMPQVXYZjxz1234567",
+      "observed_punctuation": ",-.’",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "4344c5cf10061616ab6a3c543628b8061a4597f84bfebd1f7fdfb7372b84e72b",
+      "native_context_box": [
+        652,
+        5279,
+        5695,
+        6615
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "repeated_text_group": "de-vinne-10-a2c4c66cebc9",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    },
+    {
+      "id": "atf-desk-1898:type-sample:de-vinne-10pt-poster-p108",
+      "book": "atf-desk-1898",
+      "archive_leaf": 130,
+      "printed_page": 108,
+      "point_size": 10,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 10 Point",
+      "sample_transcription": "FOR SALE WITHOUT RESERVE / A valuable farm in Westborough, in the County / of Worcester, situated on the Great Country Road / leading from Boston to Connecticut. Said farm / contains about 96 acres of Upland and Meadow, / the most part under improvement; it has a good / Orchard, with a good Dwelling-House and Barn,",
+      "transcribed_rows": [
+        "FOR SALE WITHOUT RESERVE",
+        "A valuable farm in Westborough, in the County",
+        "of Worcester, situated on the Great Country Road",
+        "leading from Boston to Connecticut. Said farm",
+        "contains about 96 acres of Upland and Meadow,",
+        "the most part under improvement; it has a good",
+        "Orchard, with a good Dwelling-House and Barn,"
+      ],
+      "observed_alphanumeric": "ABCDEFGHILMORSTUVWabcdefghilmnoprstuvwy69",
+      "missing_alphanumeric_in_this_sample": "JKNPQXYZjkqxz01234578",
+      "observed_punctuation": ",-.;",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "c016c644bfcc8fb1302f3a0b6a709b8cfc9f37986a1144ff20b1511e7898a437",
+      "native_context_box": [
+        251,
+        1498,
+        1876,
+        2105
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "repeated_text_group": "de-vinne-10-cd45dbba1398",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-desk-loc-1898-leaf-130.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    },
+    {
+      "id": "atf-handy-byu-1897:type-sample:de-vinne-10pt-poster-p598",
+      "book": "atf-handy-byu-1897",
+      "archive_leaf": 600,
+      "printed_page": 598,
+      "point_size": 10,
+      "design": "De Vinne",
+      "sample_kind": "poster",
+      "source_label": "Poster De Vinne; 10 Point",
+      "sample_transcription": "NOTICE TO SUBURBANITES / Commencing on Monday, the 24th inst., trains / for Sitka and Yeddo will leave the depot at 9:30 / A. M. and 3:15 P. M. Passengers on the morn- / ing trains have privilege of stopping off at Sitka / until arrival of evening train. The evening",
+      "transcribed_rows": [
+        "NOTICE TO SUBURBANITES",
+        "Commencing on Monday, the 24th inst., trains",
+        "for Sitka and Yeddo will leave the depot at 9:30",
+        "A. M. and 3:15 P. M. Passengers on the morn-",
+        "ing trains have privilege of stopping off at Sitka",
+        "until arrival of evening train. The evening"
+      ],
+      "observed_alphanumeric": "ABCEIMNOPRSTUYacdefghiklmnoprstuvwy0123459",
+      "missing_alphanumeric_in_this_sample": "DFGHJKLQVWXZbjqxz678",
+      "observed_punctuation": ",-.:",
+      "observed_companions": "",
+      "status": "same-size-optical-forms-reviewed;punctuation-source-or-comparison",
+      "native_sha256": "22201f58253c6024f7b8ddb3ef25c14271077b59f76732076f10daa99e11ae91",
+      "native_context_box": [
+        412,
+        1670,
+        2556,
+        2350
+      ],
+      "native_rotation_clockwise": 0,
+      "coordinate_frame": "native oriented image",
+      "scope_warning": "Only sample headings, text and observed figures transcribed. Point labels, prices, advertised stock counts and page furniture excluded. Printed hyphens may have two bars; semantic hyphen transcription is not an equals-sign assignment. Similar source names do not establish identical cuts.",
+      "repeated_text_group": "de-vinne-10-c8ad686233ee",
+      "evidence": [
+        "source/punctuation-review.json",
+        "reference/acquisition.json"
+      ],
+      "native_file": "reference/atf-handy-byu-1897-leaf-600.jp2",
+      "cut_identity_status": "Shared optical forms and dimensions support these cut companions; no claim of common physical punches or matrices."
+    }
+  ],
+  "witness_rows": [
+    {
+      "id": "regular-10-U",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "box": [
+        350,
+        1168,
+        1300,
+        1248
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 26,
+      "expected_count": 26
+    },
+    {
+      "id": "regular-10-l",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "box": [
+        870,
+        1275,
+        1610,
+        1345
+      ],
+      "text": "abcdefghijklmnopqrstuvwxyz",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 27,
+      "expected_count": 26,
+      "segmentation": "Native h stem and shoulder occupy separate projection groups8/9; unite the source crop, preserving the printed break."
+    },
+    {
+      "id": "regular-10-n",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "box": [
+        1860,
+        1168,
+        2190,
+        1248
+      ],
+      "text": "1234567890",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 10,
+      "expected_count": 10
+    },
+    {
+      "id": "regular-10-census-U",
+      "file": "reference/gpo-census-1900-leaf-35.jp2",
+      "box": [
+        40,
+        3280,
+        1140,
+        3350
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUV",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 22,
+      "expected_count": 22
+    },
+    {
+      "id": "regular-10-census-l",
+      "file": "reference/gpo-census-1900-leaf-35.jp2",
+      "box": [
+        1250,
+        3280,
+        2050,
+        3350
+      ],
+      "text": "abcdefghijklmnopqrstuv",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 22,
+      "expected_count": 22
+    },
+    {
+      "id": "regular-10-census-n",
+      "file": "reference/gpo-census-1900-leaf-35.jp2",
+      "box": [
+        2180,
+        3280,
+        2600,
+        3350
+      ],
+      "text": "1234567890",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 10,
+      "expected_count": 10
+    },
+    {
+      "id": "regular-10-job-00",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2506,
+        1010,
+        2564
+      ],
+      "text": "THENTHECELEBRATEDBATTLEOF",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 25,
+      "expected_count": 25
+    },
+    {
+      "id": "regular-10-job-01",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2564,
+        1010,
+        2622
+      ],
+      "text": "Marathonfollowed,whenthePersiansol-",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 34,
+      "expected_count": 35,
+      "segmentation": "Native at/ca/re/ra pairs have separate connected bodies with adjacent horizontal projections. Split at the measured body boundary without altering or discarding ink."
+    },
+    {
+      "id": "regular-10-job-02",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2622,
+        1010,
+        2680
+      ],
+      "text": "dierscameincontactwithsuchmenas",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 30,
+      "expected_count": 31,
+      "segmentation": "Native at/ca/re/ra pairs have separate connected bodies with adjacent horizontal projections. Split at the measured body boundary without altering or discarding ink."
+    },
+    {
+      "id": "regular-10-job-03",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2680,
+        1010,
+        2740
+      ],
+      "text": "Themistocles,Aristides,Miltiades,and",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 36,
+      "expected_count": 36
+    },
+    {
+      "id": "regular-10-job-04",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2740,
+        1010,
+        2802
+      ],
+      "text": "manyothersofnote,distinguishedfor",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 33,
+      "expected_count": 33
+    },
+    {
+      "id": "regular-10-job-05",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2802,
+        1010,
+        2859
+      ],
+      "text": "theircourageandvalor—whowerepre-",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 32,
+      "expected_count": 32
+    },
+    {
+      "id": "regular-10-job-06",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2859,
+        1010,
+        2918
+      ],
+      "text": "paredtoresistthem,andtodefendtheir",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 32,
+      "expected_count": 34,
+      "segmentation": "Native at/ca/re/ra pairs have separate connected bodies with adjacent horizontal projections. Split at the measured body boundary without altering or discarding ink."
+    },
+    {
+      "id": "regular-10-job-07",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2918,
+        1010,
+        2976
+      ],
+      "text": "country.Itiswelltonoticethecharac-",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 33,
+      "expected_count": 34,
+      "segmentation": "Native at/ca/re/ra pairs have separate connected bodies with adjacent horizontal projections. Split at the measured body boundary without altering or discarding ink."
+    },
+    {
+      "id": "regular-10-job-08",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        2976,
+        1010,
+        3034
+      ],
+      "text": "teroftheseprominentmenastheycome",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 32,
+      "expected_count": 32
+    },
+    {
+      "id": "regular-10-job-09",
+      "file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "box": [
+        40,
+        3034,
+        1010,
+        3090
+      ],
+      "text": "beforeusinthiscapacity.Theywere47",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 33,
+      "expected_count": 33
+    },
+    {
+      "id": "regular-10-document-00",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        1880,
+        2225,
+        1940
+      ],
+      "text": "ENGLISHJUDGESINCOUNCILASSEMBLED,IN",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 34,
+      "expected_count": 34
+    },
+    {
+      "id": "regular-10-document-01",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        1945,
+        2225,
+        2007
+      ],
+      "text": "Year1680,declaredthatitwasillegaltoprintortopublishany",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 54,
+      "expected_count": 54,
+      "segmentation": "The 8/0 pair shares a pale ink bridge at threshold155; lower-threshold contours and native review locate the boundary at local x235. The o in the second to has two separate projection groups43/44, reunited as one crop. Equal raw/text counts did not imply correct character mapping; every crop was reviewed."
+    },
+    {
+      "id": "regular-10-document-02",
+      "file": "reference/gpo-document-1904-leaf-65.jp2",
+      "box": [
+        510,
+        2007,
+        2225,
+        2070
+      ],
+      "text": "newsbooksorpamphletsofnews.",
+      "point_size": 10,
+      "design": "De Vinne",
+      "threshold": 155,
+      "projection_count": 27,
+      "expected_count": 27,
+      "segmentation": "The oo pair in books shares a pale ink bridge at threshold155; native review and lower-threshold contours locate the boundary at local x627. The o in or has two separate projection groups9/10, reunited as one crop. Neither operation draws missing ink."
+    }
+  ],
+  "notes": "Exact native transcriptions and crop boundaries. Slash separators mark rows, not printed characters. Cabinet labels, stock counts, frames, rules and other point sizes do not provide glyph evidence. Matching ATF poster samples and punctuation decisions are documented in punctuation-review.json; native source inventory includes their comparison pages."
+}

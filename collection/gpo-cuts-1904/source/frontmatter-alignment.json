@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "method": "Subpixel dark-weighted line-centre fits at175/195/215. Rigid rotations of existing traced contours only; the same transform applies to monochrome andall tone layers. No aspect-ratio change oranalytic redrawing.",
+  "records": [
+    {
+      "archive_leaf": 14,
+      "pdf_page": 14,
+      "printed_page": null,
+      "glyph": "uniE1EC",
+      "file": "reference/leaf-14.png",
+      "box": [
+        948,
+        1900,
+        1556,
+        2079
+      ],
+      "applied_degrees_ccw_positive_up": -0.25915429412915864,
+      "post_trace_transform": [
+        0.9999897708200691,
+        -0.004523080280705181,
+        0.004523080280705181,
+        0.9999897708200691,
+        -4.060911323181324,
+        4.369455652537681
+      ],
+      "decision": "Top andbottom ribbon lines agree within0.06degree. Rotate their mean; retain the deliberately curved end folds.",
+      "measurements": [
+        {
+          "leaf": 14,
+          "label": "ribbon-top",
+          "direction": "h",
+          "native_box": [
+            1103,
+            1902,
+            1428,
+            1921
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 325,
+              "slope": -0.004126554782746392,
+              "correction_degrees_ccw_positive_up": -0.23643283095842837,
+              "median_residual_pixels": 0.028020927079243307
+            },
+            {
+              "threshold": 195,
+              "points": 325,
+              "slope": -0.004022998749403795,
+              "correction_degrees_ccw_positive_up": -0.23049960582420068,
+              "median_residual_pixels": 0.04970120235128128
+            },
+            {
+              "threshold": 215,
+              "points": 325,
+              "slope": -0.0038794510111319906,
+              "correction_degrees_ccw_positive_up": -0.22227505467985662,
+              "median_residual_pixels": 0.05891764610059802
+            }
+          ]
+        },
+        {
+          "leaf": 14,
+          "label": "ribbon-bottom",
+          "direction": "h",
+          "native_box": [
+            1103,
+            2060,
+            1428,
+            2079
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 325,
+              "slope": -0.004981496763369744,
+              "correction_degrees_ccw_positive_up": -0.28541637931614466,
+              "median_residual_pixels": 0.07586290727780387
+            },
+            {
+              "threshold": 195,
+              "points": 325,
+              "slope": -0.005023256610440669,
+              "correction_degrees_ccw_positive_up": -0.2878089824341166,
+              "median_residual_pixels": 0.06525026184280946
+            },
+            {
+              "threshold": 215,
+              "points": 325,
+              "slope": -0.004997154238291471,
+              "correction_degrees_ccw_positive_up": -0.2863134642155078,
+              "median_residual_pixels": 0.06801805646953163
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_leaf": 159,
+      "pdf_page": 159,
+      "printed_page": null,
+      "glyph": "uniE1ED",
+      "file": "reference/leaf-159.png",
+      "box": [
+        1713,
+        631,
+        2269,
+        1135
+      ],
+      "applied_degrees_ccw_positive_up": 2.4188728892236093,
+      "post_trace_transform": [
+        0.99910898230503,
+        0.04220475657324911,
+        -0.04220475657324911,
+        0.99910898230503,
+        38.843221973875345,
+        -39.88346941113912
+      ],
+      "decision": "Horizontal page rules andvertical frame edges establish common scan tilt. Use equal weight for the two axis directions; their residual disagreement around0.19degree is retained without shearing orchanging the ornament proportions.",
+      "measurements": [
+        {
+          "leaf": 159,
+          "label": "frame-top",
+          "direction": "h",
+          "native_box": [
+            1597,
+            169,
+            2448,
+            215
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 132,
+              "slope": 0.04231774781382368,
+              "correction_degrees_ccw_positive_up": 2.4231825665312603,
+              "median_residual_pixels": 0.1692709912552952
+            },
+            {
+              "threshold": 195,
+              "points": 633,
+              "slope": 0.04604464119312577,
+              "correction_degrees_ccw_positive_up": 2.636301579488969,
+              "median_residual_pixels": 0.18679767980695816
+            },
+            {
+              "threshold": 215,
+              "points": 830,
+              "slope": 0.04574675852473629,
+              "correction_degrees_ccw_positive_up": 2.61927003542944,
+              "median_residual_pixels": 0.17863116956585712
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "frame-bottom",
+          "direction": "h",
+          "native_box": [
+            1560,
+            1181,
+            2409,
+            1222
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 798,
+              "slope": 0.04246564333116636,
+              "correction_degrees_ccw_positive_up": 2.431641154912829,
+              "median_residual_pixels": 0.1714544506243385
+            },
+            {
+              "threshold": 195,
+              "points": 814,
+              "slope": 0.042505178601190345,
+              "correction_degrees_ccw_positive_up": 2.4339022776772925,
+              "median_residual_pixels": 0.14696732984983463
+            },
+            {
+              "threshold": 215,
+              "points": 813,
+              "slope": 0.042474141796747154,
+              "correction_degrees_ccw_positive_up": 2.4321272044394098,
+              "median_residual_pixels": 0.1456828986655445
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "rule1",
+          "direction": "h",
+          "native_box": [
+            1633,
+            491,
+            2395,
+            535
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 415,
+              "slope": 0.04509919279499975,
+              "correction_degrees_ccw_positive_up": 2.5822436480137694,
+              "median_residual_pixels": 0.2251583880995769
+            },
+            {
+              "threshold": 195,
+              "points": 748,
+              "slope": 0.04553981330515234,
+              "correction_degrees_ccw_positive_up": 2.607437598427744,
+              "median_residual_pixels": 0.12135357759320131
+            },
+            {
+              "threshold": 215,
+              "points": 761,
+              "slope": 0.04563306177217536,
+              "correction_degrees_ccw_positive_up": 2.6127692621758007,
+              "median_residual_pixels": 0.07931894313950494
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "rule2",
+          "direction": "h",
+          "native_box": [
+            1633,
+            506,
+            2395,
+            549
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 301,
+              "slope": 0.04499243069040214,
+              "correction_degrees_ccw_positive_up": 2.5761390170743477,
+              "median_residual_pixels": 0.16515101495442108
+            },
+            {
+              "threshold": 195,
+              "points": 757,
+              "slope": 0.045168561889328315,
+              "correction_degrees_ccw_positive_up": 2.5862101243682356,
+              "median_residual_pixels": 0.13825412523857006
+            },
+            {
+              "threshold": 215,
+              "points": 761,
+              "slope": 0.0453344265743448,
+              "correction_degrees_ccw_positive_up": 2.595694050554257,
+              "median_residual_pixels": 0.07740896959895815
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "rule3",
+          "direction": "h",
+          "native_box": [
+            1633,
+            520,
+            2395,
+            564
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 287,
+              "slope": 0.044563024473039656,
+              "correction_degrees_ccw_positive_up": 2.5515850852325763,
+              "median_residual_pixels": 0.18860843778159397
+            },
+            {
+              "threshold": 195,
+              "points": 754,
+              "slope": 0.045538559830815055,
+              "correction_degrees_ccw_positive_up": 2.6073659282693193,
+              "median_residual_pixels": 0.21783380326599922
+            },
+            {
+              "threshold": 215,
+              "points": 758,
+              "slope": 0.045654536061461734,
+              "correction_degrees_ccw_positive_up": 2.6139970903163166,
+              "median_residual_pixels": 0.19897638045345145
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "rule4",
+          "direction": "h",
+          "native_box": [
+            1633,
+            535,
+            2395,
+            578
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 672,
+              "slope": 0.04536796436884515,
+              "correction_degrees_ccw_positive_up": 2.59761168058413,
+              "median_residual_pixels": 0.255021702970617
+            },
+            {
+              "threshold": 195,
+              "points": 758,
+              "slope": 0.04564868072701628,
+              "correction_degrees_ccw_positive_up": 2.613662302086843,
+              "median_residual_pixels": 0.2346273000097827
+            },
+            {
+              "threshold": 215,
+              "points": 756,
+              "slope": 0.04565373781323065,
+              "correction_degrees_ccw_positive_up": 2.6139514491914784,
+              "median_residual_pixels": 0.2230955834228503
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "frame-left",
+          "direction": "v",
+          "native_box": [
+            1502,
+            266,
+            1548,
+            1110
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 844,
+              "slope": -0.03968192109520338,
+              "correction_degrees_ccw_positive_up": 2.272414346062045,
+              "median_residual_pixels": 0.11479326777509158
+            },
+            {
+              "threshold": 195,
+              "points": 844,
+              "slope": -0.03966639622124706,
+              "correction_degrees_ccw_positive_up": 2.2715262342294342,
+              "median_residual_pixels": 0.10207338307115776
+            },
+            {
+              "threshold": 215,
+              "points": 844,
+              "slope": -0.03965969773963253,
+              "correction_degrees_ccw_positive_up": 2.2711430423249177,
+              "median_residual_pixels": 0.1034320571860583
+            }
+          ]
+        },
+        {
+          "leaf": 159,
+          "label": "frame-right",
+          "direction": "v",
+          "native_box": [
+            2460,
+            281,
+            2501,
+            1132
+          ],
+          "fits": [
+            {
+              "threshold": 175,
+              "points": 5,
+              "slope": -3.4414273366415256e-16,
+              "correction_degrees_ccw_positive_up": 1.97179261890507e-14,
+              "median_residual_pixels": 8.881784197001252e-16
+            },
+            {
+              "threshold": 195,
+              "points": 459,
+              "slope": -0.03822668484629437,
+              "correction_degrees_ccw_positive_up": 2.18916179596794,
+              "median_residual_pixels": 0.21236473953386792
+            },
+            {
+              "threshold": 215,
+              "points": 842,
+              "slope": -0.038249569826941957,
+              "correction_degrees_ccw_positive_up": 2.190471094376822,
+              "median_residual_pixels": 0.1426032193378255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

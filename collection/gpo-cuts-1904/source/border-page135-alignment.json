@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "method": "Seven native edge fits at175/195/215. Two rigid rotations; no shear, scaling or invented square geometry.",
+  "records": [
+    {
+      "key": "unique-12pt-173",
+      "edge": "top",
+      "native_crop_interval": [
+        5,
+        0,
+        54,
+        10
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.000377151481801361,
+          "offset": 3.4205547177135536,
+          "correction_degrees_ccw_positive_up": -0.021609187119736167,
+          "points": 45,
+          "median_residual_pixels": 0.07718632973673856
+        },
+        {
+          "threshold": 195,
+          "slope": 0.0006696645644709616,
+          "offset": 3.1576678376799108,
+          "correction_degrees_ccw_positive_up": 0.038368947498126985,
+          "points": 46,
+          "median_residual_pixels": 0.10109857776848918
+        },
+        {
+          "threshold": 215,
+          "slope": 0.0006270655624403957,
+          "offset": 2.89652497291101,
+          "correction_degrees_ccw_positive_up": 0.03592820549670786,
+          "points": 47,
+          "median_residual_pixels": 0.16871576765285612
+        }
+      ],
+      "icon_id": "gpo-1904-unique-border-173",
+      "file": "reference/leaf-151.png",
+      "box": [
+        310,
+        1302,
+        369,
+        1366
+      ],
+      "status": "retain-native-alignment",
+      "decision": "Below0.2degrees or independent edges disagree. No affine squaring justified."
+    },
+    {
+      "key": "unique-12pt-173",
+      "edge": "bottom",
+      "native_crop_interval": [
+        5,
+        54,
+        54,
+        64
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": 0.003560559101849228,
+          "offset": 62.131417964094815,
+          "correction_degrees_ccw_positive_up": 0.20400414715272494,
+          "points": 47,
+          "median_residual_pixels": 0.08372233159882114
+        },
+        {
+          "threshold": 195,
+          "slope": 0.0033830161291556623,
+          "offset": 62.339874311014015,
+          "correction_degrees_ccw_positive_up": 0.19383180677226092,
+          "points": 48,
+          "median_residual_pixels": 0.06752688102361049
+        },
+        {
+          "threshold": 215,
+          "slope": 0.002466004501890191,
+          "offset": 62.57640705366661,
+          "correction_degrees_ccw_positive_up": 0.1412913638130459,
+          "points": 49,
+          "median_residual_pixels": 0.05878536424960856
+        }
+      ],
+      "icon_id": "gpo-1904-unique-border-173",
+      "file": "reference/leaf-151.png",
+      "box": [
+        310,
+        1302,
+        369,
+        1366
+      ],
+      "status": "retain-native-alignment",
+      "decision": "Below0.2degrees or independent edges disagree. No affine squaring justified."
+    },
+    {
+      "key": "unique-12pt-180",
+      "edge": "top",
+      "native_crop_interval": [
+        6,
+        0,
+        52,
+        12
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.005828405212555365,
+          "offset": 4.169139698272678,
+          "correction_degrees_ccw_positive_up": -0.33393923866620406,
+          "points": 37,
+          "median_residual_pixels": 0.18978964587627
+        },
+        {
+          "threshold": 195,
+          "slope": -0.0064043271857811696,
+          "offset": 3.90954835496844,
+          "correction_degrees_ccw_positive_up": -0.36693590174594404,
+          "points": 34,
+          "median_residual_pixels": 0.1289373401077183
+        },
+        {
+          "threshold": 215,
+          "slope": -0.00487016422268574,
+          "offset": 3.5812304960246255,
+          "correction_degrees_ccw_positive_up": -0.27903764939133646,
+          "points": 35,
+          "median_residual_pixels": 0.09984356571666231
+        }
+      ],
+      "icon_id": "gpo-1904-unique-border-180",
+      "file": "reference/leaf-151.png",
+      "box": [
+        1364,
+        1653,
+        1422,
+        1714
+      ],
+      "status": "applied-source-and-vector-reviewed",
+      "degrees": -0.3801456382129821,
+      "matrix": [
+        0.9999779898415065,
+        -0.006634744346224941,
+        0.006634744346224941,
+        0.9999779898415065,
+        -5.9500961391317855,
+        6.402433203712576
+      ],
+      "decision": "Independent top and lower edge trends agree at175/195/215. Their mean195angle supplies a small rigid correction; proportions and irregular edge details retained."
+    },
+    {
+      "key": "unique-12pt-180",
+      "edge": "bottom",
+      "native_crop_interval": [
+        6,
+        47,
+        52,
+        61
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.008461936150135102,
+          "offset": 59.54420781035166,
+          "correction_degrees_ccw_positive_up": -0.4848216563508473,
+          "points": 30,
+          "median_residual_pixels": 0.12889419087986198
+        },
+        {
+          "threshold": 195,
+          "slope": -0.006865454282030984,
+          "offset": 59.73252329312795,
+          "correction_degrees_ccw_positive_up": -0.39335537468002013,
+          "points": 29,
+          "median_residual_pixels": 0.11087221746659282
+        },
+        {
+          "threshold": 215,
+          "slope": -0.004525149824812274,
+          "offset": 59.84276189154967,
+          "correction_degrees_ccw_positive_up": -0.2592702169453405,
+          "points": 33,
+          "median_residual_pixels": 0.11320389241273432
+        }
+      ],
+      "icon_id": "gpo-1904-unique-border-180",
+      "file": "reference/leaf-151.png",
+      "box": [
+        1364,
+        1653,
+        1422,
+        1714
+      ],
+      "status": "applied-source-and-vector-reviewed",
+      "degrees": -0.3801456382129821,
+      "matrix": [
+        0.9999779898415065,
+        -0.006634744346224941,
+        0.006634744346224941,
+        0.9999779898415065,
+        -5.9500961391317855,
+        6.402433203712576
+      ],
+      "decision": "Independent top and lower edge trends agree at175/195/215. Their mean195angle supplies a small rigid correction; proportions and irregular edge details retained."
+    },
+    {
+      "key": "unique-24pt-214",
+      "edge": "top",
+      "native_crop_interval": [
+        8,
+        0,
+        108,
+        14
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.011785569241093629,
+          "offset": 4.123736388831045,
+          "correction_degrees_ccw_positive_up": -0.6752321146653588,
+          "points": 84,
+          "median_residual_pixels": 0.37793126282610356
+        },
+        {
+          "threshold": 195,
+          "slope": -0.011505251672531419,
+          "offset": 3.845787852702826,
+          "correction_degrees_ccw_positive_up": -0.659173278996863,
+          "points": 84,
+          "median_residual_pixels": 0.34109378651445676
+        },
+        {
+          "threshold": 215,
+          "slope": -0.00961110551320929,
+          "offset": 3.3305089970328985,
+          "correction_degrees_ccw_positive_up": -0.5506588273794017,
+          "points": 71,
+          "median_residual_pixels": 0.2314129048781819
+        }
+      ],
+      "icon_id": "gpo-1904-unique-border-214",
+      "file": "reference/leaf-151.png",
+      "box": [
+        1424,
+        2992,
+        1540,
+        3113
+      ],
+      "status": "applied-source-and-vector-reviewed",
+      "degrees": -0.5175845206185649,
+      "matrix": [
+        0.9999591977281577,
+        -0.009033431178640316,
+        0.009033431178640316,
+        0.9999591977281577,
+        -8.090754670720326,
+        8.744949700867323
+      ],
+      "decision": "Independent top and lower edge trends agree at175/195/215. Their mean195angle supplies a small rigid correction; proportions and irregular edge details retained."
+    },
+    {
+      "key": "unique-24pt-214",
+      "edge": "bottom",
+      "native_crop_interval": [
+        8,
+        102,
+        108,
+        121
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.0057485843118025475,
+          "offset": 117.21718058340223,
+          "correction_degrees_ccw_positive_up": -0.3293659911728648,
+          "points": 79,
+          "median_residual_pixels": 0.22053803332090638
+        },
+        {
+          "threshold": 195,
+          "slope": -0.006562458228168984,
+          "offset": 117.45360730728922,
+          "correction_degrees_ccw_positive_up": -0.3759957622402667,
+          "points": 83,
+          "median_residual_pixels": 0.23149355940280714
+        },
+        {
+          "threshold": 215,
+          "slope": -0.007537486053580063,
+          "offset": 117.78597598957002,
+          "correction_degrees_ccw_positive_up": -0.4318579606504609,
+          "points": 80,
+          "median_residual_pixels": 0.2000854936268155
+        }
+      ],
+      "icon_id": "gpo-1904-unique-border-214",
+      "file": "reference/leaf-151.png",
+      "box": [
+        1424,
+        2992,
+        1540,
+        3113
+      ],
+      "status": "applied-source-and-vector-reviewed",
+      "degrees": -0.5175845206185649,
+      "matrix": [
+        0.9999591977281577,
+        -0.009033431178640316,
+        0.009033431178640316,
+        0.9999591977281577,
+        -8.090754670720326,
+        8.744949700867323
+      ],
+      "decision": "Independent top and lower edge trends agree at175/195/215. Their mean195angle supplies a small rigid correction; proportions and irregular edge details retained."
+    },
+    {
+      "key": "flame-12pt-repeat",
+      "edge": "top",
+      "native_crop_interval": [
+        2,
+        28,
+        173,
+        40
+      ],
+      "fits": [
+        {
+          "threshold": 175,
+          "slope": -0.0002250749706354377,
+          "offset": 32.3867354116053,
+          "correction_degrees_ccw_positive_up": -0.012895845673679077,
+          "points": 84,
+          "median_residual_pixels": 0.11495346718935195
+        },
+        {
+          "threshold": 195,
+          "slope": -0.00022372604241669322,
+          "offset": 32.23107679612197,
+          "correction_degrees_ccw_positive_up": -0.012818557783770808,
+          "points": 82,
+          "median_residual_pixels": 0.10996674845927856
+        },
+        {
+          "threshold": 215,
+          "slope": -0.0003530784410201369,
+          "offset": 32.05204495976042,
+          "correction_degrees_ccw_positive_up": -0.02022990366686313,
+          "points": 80,
+          "median_residual_pixels": 0.15769326286446983
+        }
+      ],
+      "icon_id": "gpo-1904-flame-border-repeat",
+      "file": "reference/leaf-151.png",
+      "box": [
+        1465,
+        2057,
+        1640,
+        2125
+      ],
+      "status": "retain-native-alignment",
+      "decision": "Below0.2degrees or independent edges disagree. No affine squaring justified."
+    }
+  ]
+}

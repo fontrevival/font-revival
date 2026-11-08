@@ -1,0 +1,24 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+feature ss01 {
+    featureNames { name "Census M"; };
+    sub M by M.census;
+} ss01;
+feature ss02 {
+    featureNames { name "1897 figure variants (0, 1, 3, 5, 9)"; };
+    sub zero by zero.oldstyle;
+    sub one by one.oldstyle;
+    sub three by three.oldstyle;
+    sub five by five.oldstyle;
+    sub nine by nine.oldstyle;
+} ss02;
+feature ss03 {
+    featureNames { name "Job-room figure variants (2, 4)"; };
+    sub two by two.lining;
+    sub four by four.lining;
+} ss03;
+feature ss04 {
+    featureNames { name "Broad S"; };
+    sub S by S.broad;
+} ss04;

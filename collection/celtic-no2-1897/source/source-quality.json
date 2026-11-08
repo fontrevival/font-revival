@@ -1,0 +1,51 @@
+{
+  "coverage": "A–Z,0–9,period,ampersand,space; no inferred visible glyphs",
+  "design_identity": "Native twelve-point construction compared across 1897,1900 and1904 specimens. Existing32textfamilies reviewed; no identical revived cut.",
+  "choices": [
+    {
+      "characters": "ABCDEFGHIJKLMNOP0123456789",
+      "source": "Census1900 nativeleaf3 printed1",
+      "reason": "Larger and finer native source than1897 counterparts; all stroke joins observed."
+    },
+    {
+      "characters": "QUVWXYZ",
+      "source": "JobDivision1897 nativeleaf59 printed25",
+      "reason": "Complete matching twelve-point characters missing from the census row. Threshold180 after local paper normalisation keeps hairlines and reduces the soft scan fringe;200 was visibly too heavy."
+    },
+    {
+      "characters": "RST.",
+      "source": "Document1904 nativeleaf83 printed39",
+      "reason": "Clearer matching twelve-point native impressions, complete R leg and an explicitly printed period. Threshold175 retains their light cut."
+    },
+    {
+      "characters": "ARSTUY",
+      "source": "Jobroom1904 nativeleaf55 printed39",
+      "decision": "comparison-witness",
+      "reason": "Sharper high-contrast scan confirms construction, but printing spread varies among sorts; retained photographic sources better preserve the light strokes in this master."
+    }
+  ],
+  "rejected_trials": [
+    {
+      "source": "1897",
+      "threshold": 150,
+      "reason": "R leg disconnects; not a complete trace. Q hairline tail also weakens."
+    },
+    {
+      "source": "1897",
+      "threshold": 200,
+      "reason": "Soft scan fringe thickens curves and diagonal strokes against the finer census witnesses."
+    }
+  ],
+  "corrections": "Rigid rotations from paired capline/baseline measurements: census+0.235589deg,1897+0.086836deg,document-0.307390deg in y-up font coordinates. No shear, width stretching, hole filling or invented repairs.",
+  "review": "All37 visible glyphs inspected against native crops, word proofs16/24/40/64/96px and isolated32/180px outlines. All intended counters remain closed.",
+  "card_addition": {
+    "character": "&",
+    "source_slot": "card-name-07",
+    "threshold": 175,
+    "metric_row": "card-name/205",
+    "reason": "Complete light ampersand with two open counters and intact rising right terminal at175; higher thresholds unnecessarily thicken the source fringe.",
+    "period_comparison": "The two card periods do not improve the clearer document-period source, which remains exact.",
+    "old_encoded_outlines_and_metrics_preserved": 38,
+    "visual_review": "Native size and construction proofs, six threshold alternatives, and words at16/24/40/64/96pixels inspected."
+  }
+}

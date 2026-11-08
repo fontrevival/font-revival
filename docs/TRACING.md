@@ -59,8 +59,10 @@ threshold. Inspect the result: pale hairlines may require a higher `threshold`
 and less `blur`. `ink_erosion` shrinks ink by an integer pixel radius before
 component selection; use it only to compensate for documented impression spread.
 
-Potrace fits cubic outlines with `alphamax=1`, `opttolerance=0.35`, `turdsize=0`
-and `unit=10`. The script reads its y-up paths, scales uniformly to the documented
+Potrace fits cubic outlines with default `alphamax=1`, `opttolerance=0.35`,
+`turdsize=0` and `unit=10`. A recipe can override the corner threshold with
+`alphamax` and curve tolerance with `tolerance`; compare the result to the scan
+before accepting smoother corners. The script reads its y-up paths, scales uniformly to the documented
 height, moves them to the recorded baseline and sidebearing, and rounds to font
 units. Draw missing characters explicitly and identify them as reconstructions
 in `font.json`, following the [source policy](SOURCES.md).

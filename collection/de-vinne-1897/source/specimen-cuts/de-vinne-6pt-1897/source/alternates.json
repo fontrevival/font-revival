@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "notes": "Observed alternatives without Unicode assignments. Prepare with source/prepare.py, which includes these glyphs and the stylistic-set features.",
+  "glyphs": {
+    "M.census": {
+      "box": [
+        0,
+        0,
+        156,
+        168
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 688.9457807996857,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/crops/regular-6-census-U-13.png",
+      "native_file": "reference/gpo-census-1900-leaf-35.jp2",
+      "native_box": [
+        461,
+        2288,
+        500,
+        2330
+      ],
+      "sampling_scale": 4,
+      "advance_width": 803,
+      "post_trace_transform": [
+        0.9999925305864182,
+        -0.003865070681292861,
+        0.003865070681292861,
+        0.9999925305864182,
+        34.92558262860932,
+        12.48699867502447
+      ],
+      "notes": "Observed six-point M; regular-6-census-U-13. Four-times Lanczos sampling of the native grayscale evidence preserves small serifs during curve fitting. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Shallow central join and thin left stem versus the deep-diagonal regular M."
+    },
+    "five.oldstyle": {
+      "box": [
+        0,
+        0,
+        80,
+        128
+      ],
+      "threshold": 170,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 661.1919096132438,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/crops/regular-6-n-05.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        2022,
+        574,
+        2042,
+        606
+      ],
+      "sampling_scale": 4,
+      "advance_width": 535,
+      "post_trace_transform": [
+        0.9998937020084311,
+        0.014580284080727994,
+        -0.014580284080727994,
+        0.9998937020084311,
+        36.802569951760574,
+        -182.4878883824834
+      ],
+      "notes": "Observed six-point 5; regular-6-n-05. Four-times Lanczos sampling of the native grayscale evidence preserves small serifs during curve fitting. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Descending 1897 five versus the lining census/job-room five."
+    },
+    "seven.oldstyle": {
+      "box": [
+        0,
+        0,
+        76,
+        128
+      ],
+      "threshold": 170,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 659.6045471006502,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/crops/regular-6-n-07.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        2062,
+        575,
+        2081,
+        607
+      ],
+      "sampling_scale": 4,
+      "advance_width": 505,
+      "post_trace_transform": [
+        0.9998937020084311,
+        0.014580284080727994,
+        -0.014580284080727994,
+        0.9998937020084311,
+        42.499714958927115,
+        -187.44468963671468
+      ],
+      "notes": "Observed six-point 7; regular-6-n-07. Four-times Lanczos sampling of the native grayscale evidence preserves small serifs during curve fitting. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Descending 1897 seven versus the lining census seven."
+    },
+    "nine.oldstyle": {
+      "box": [
+        0,
+        0,
+        76,
+        128
+      ],
+      "threshold": 170,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 664.8418185309924,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/crops/regular-6-n-09.png",
+      "native_file": "reference/gpo-job-1897-leaf-109.jp2",
+      "native_box": [
+        2101,
+        574,
+        2120,
+        606
+      ],
+      "sampling_scale": 4,
+      "advance_width": 560,
+      "post_trace_transform": [
+        0.9998937020084311,
+        0.014580284080727994,
+        -0.014580284080727994,
+        0.9998937020084311,
+        40.637679698590915,
+        -151.09968903961274
+      ],
+      "notes": "Observed six-point 9; regular-6-n-09. Four-times Lanczos sampling of the native grayscale evidence preserves small serifs during curve fitting. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Descending 1897 nine versus the lining census/job-room/document nine."
+    },
+    "zero.lining": {
+      "box": [
+        0,
+        0,
+        80,
+        132
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 724.8797021859508,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/crops/regular-6-job-13-41.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        935,
+        1448,
+        955,
+        1481
+      ],
+      "sampling_scale": 4,
+      "advance_width": 622,
+      "post_trace_transform": [
+        0.9999951519533012,
+        -0.003113851296051146,
+        0.003113851296051146,
+        0.9999951519533012,
+        33.69299027401138,
+        -31.044767460511746
+      ],
+      "notes": "Observed six-point 0; regular-6-job-13-41. Four-times Lanczos sampling of the native grayscale evidence preserves small serifs during curve fitting. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Tall job-room zero, also supported by document impressions, versus the short census/1897 zero."
+    },
+    "one.lining": {
+      "box": [
+        0,
+        0,
+        72,
+        128
+      ],
+      "threshold": 155,
+      "paper_normalization_radius": 48,
+      "blur": 1.2,
+      "fill_holes": 0,
+      "keep_components": 1,
+      "tolerance": 0.8,
+      "height": 699.2561877394952,
+      "y_min": 0,
+      "bearings": [
+        0,
+        0
+      ],
+      "file": "reference/crops/regular-6-job-13-39.png",
+      "native_file": "reference/gpo-jobroom-1904-leaf-85.jp2",
+      "native_box": [
+        896,
+        1449,
+        914,
+        1481
+      ],
+      "sampling_scale": 4,
+      "advance_width": 362,
+      "post_trace_transform": [
+        0.9999951519533012,
+        -0.003113851296051146,
+        0.003113851296051146,
+        0.9999951519533012,
+        33.407659981074815,
+        -31.595424518561618
+      ],
+      "notes": "Observed six-point 1; regular-6-job-13-39. Four-times Lanczos sampling of the native grayscale evidence preserves small serifs during curve fitting. Uniform physical source-page scale, measured row baseline rotation and modern 35-unit sidebearings. No drawn repair. Tall flagged job-room one versus the short serifed census/1897 one."
+    }
+  }
+}

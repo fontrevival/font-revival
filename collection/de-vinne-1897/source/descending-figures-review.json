@@ -1,0 +1,1121 @@
+{
+  "schema_version": 1,
+  "selected": [
+    {
+      "glyph": "three.oldstyle",
+      "character": "3",
+      "source_id": "nypl-540-18-body-last-26",
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "native_box": [
+        5315,
+        2804,
+        5464,
+        3008
+      ],
+      "threshold": 110,
+      "recipe": {
+        "box": [
+          0,
+          0,
+          596,
+          816
+        ],
+        "threshold": 110,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8,
+        "height": 675.0950523643731,
+        "y_min": 0,
+        "bearings": [
+          0,
+          0
+        ],
+        "advance_width": 559,
+        "post_trace_transform": [
+          0.9999982834189435,
+          -0.001852878616181441,
+          0.001852878616181441,
+          0.9999982834189435,
+          34.8125,
+          -199.5530460916658
+        ],
+        "file": "reference/crops/nypl-540-18-body-last-26.png",
+        "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+        "native_box": [
+          5315,
+          2804,
+          5464,
+          3008
+        ],
+        "sampling_scale": 4,
+        "notes": "Observed whole eighteen-point descending 3 from NYPL printed523/archive540. Four-times Lanczos sampling, threshold110, no hole filling or drawn repair. One independent capital scale and one text-row rotation/baseline preserve the source position. Modern 35-unit sidebearings; source edge variation retained."
+      },
+      "expected_contours": 1,
+      "expected_bounds": {
+        "y_min": -200.015625,
+        "y_max": 474.96875,
+        "ink_width": 489.296875,
+        "ink_height": 674.984375
+      },
+      "advance_width": 559,
+      "decision": "Observed whole eighteen-point descending 3 from NYPL printed523/archive540. Four-times Lanczos sampling, threshold110, no hole filling or drawn repair. One independent capital scale and one text-row rotation/baseline preserve the source position. Modern 35-unit sidebearings; source edge variation retained."
+    },
+    {
+      "glyph": "four.oldstyle",
+      "character": "4",
+      "source_id": "nypl-540-18-body-last-27",
+      "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+      "native_box": [
+        5479,
+        2796,
+        5630,
+        3002
+      ],
+      "threshold": 110,
+      "recipe": {
+        "box": [
+          0,
+          0,
+          604,
+          824
+        ],
+        "threshold": 110,
+        "paper_normalization_radius": 48,
+        "blur": 1.2,
+        "fill_holes": 0,
+        "keep_components": 1,
+        "tolerance": 0.8,
+        "height": 682.0137745274825,
+        "y_min": 0,
+        "bearings": [
+          0,
+          0
+        ],
+        "advance_width": 566,
+        "post_trace_transform": [
+          0.9999982834189435,
+          -0.001852878616181441,
+          0.001852878616181441,
+          0.9999982834189435,
+          34.640625,
+          -180.30971708818154
+        ],
+        "file": "reference/crops/nypl-540-18-body-last-27.png",
+        "native_file": "reference/atf-desk-1898-leaf-540.jp2",
+        "native_box": [
+          5479,
+          2796,
+          5630,
+          3002
+        ],
+        "sampling_scale": 4,
+        "notes": "Observed whole eighteen-point descending 4 from NYPL printed523/archive540. Four-times Lanczos sampling, threshold110, no hole filling or drawn repair. One independent capital scale and one text-row rotation/baseline preserve the source position. Modern 35-unit sidebearings; source edge variation retained."
+      },
+      "expected_contours": 2,
+      "expected_bounds": {
+        "y_min": -181.015625,
+        "y_max": 500.70508965932197,
+        "ink_width": 496.078125,
+        "ink_height": 681.720714659322
+      },
+      "advance_width": 566,
+      "decision": "Observed whole eighteen-point descending 4 from NYPL printed523/archive540. Four-times Lanczos sampling, threshold110, no hole filling or drawn repair. One independent capital scale and one text-row rotation/baseline preserve the source position. Modern 35-unit sidebearings; source edge variation retained."
+    }
+  ],
+  "physical_scale": {
+    "scale": 3.3783236810774055,
+    "dimension_pairs": 44,
+    "pairs": [
+      {
+        "source": "nypl-540-18-caps-00",
+        "character": "D",
+        "native_rotated_dimensions": [
+          195.6773134657263,
+          212.96698375347498
+        ],
+        "canonical_dimensions": [
+          655.7614678323015,
+          715.0541000624105
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-01",
+        "character": "E",
+        "native_rotated_dimensions": [
+          182.79312715088548,
+          224.07916231177057
+        ],
+        "canonical_dimensions": [
+          632.51545950523,
+          762.7109498805112
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-02",
+        "character": "C",
+        "native_rotated_dimensions": [
+          184.75603146558478,
+          216.8119760615444
+        ],
+        "canonical_dimensions": [
+          620.3312784060804,
+          730.0757051209919
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-03",
+        "character": "L",
+        "native_rotated_dimensions": [
+          182.61217658150588,
+          215.04947033463935
+        ],
+        "canonical_dimensions": [
+          623.3781607272861,
+          729.5591414925565
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-04",
+        "character": "A",
+        "native_rotated_dimensions": [
+          201.75873876621344,
+          207.91698061290984
+        ],
+        "canonical_dimensions": [
+          677.1807172489363,
+          713.0625300462713
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-05",
+        "character": "R",
+        "native_rotated_dimensions": [
+          206.70610525377694,
+          237.96991716128105
+        ],
+        "canonical_dimensions": [
+          682.6234892109733,
+          803.687741916603
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-06",
+        "character": "E",
+        "native_rotated_dimensions": [
+          182.79511355499767,
+          222.16721110835354
+        ],
+        "canonical_dimensions": [
+          632.51545950523,
+          762.7109498805112
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-07",
+        "character": "O",
+        "native_rotated_dimensions": [
+          187.88554955422623,
+          213.84429347058062
+        ],
+        "canonical_dimensions": [
+          639.0356979139272,
+          732.6915325432027
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-08",
+        "character": "U",
+        "native_rotated_dimensions": [
+          196.75874081265815,
+          211.92199485756296
+        ],
+        "canonical_dimensions": [
+          674.0,
+          712.32862157714
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-09",
+        "character": "R",
+        "native_rotated_dimensions": [
+          213.8401820565518,
+          242.05153009937857
+        ],
+        "canonical_dimensions": [
+          682.6234892109733,
+          803.687741916603
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-10",
+        "character": "I",
+        "native_rotated_dimensions": [
+          62.75077110812455,
+          207.89410354928464
+        ],
+        "canonical_dimensions": [
+          200.98437906777588,
+          702.0784911960377
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-11",
+        "character": "N",
+        "native_rotated_dimensions": [
+          199.76054909048514,
+          213.86185075997585
+        ],
+        "canonical_dimensions": [
+          671,
+          717.3080505244083
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-12",
+        "character": "D",
+        "native_rotated_dimensions": [
+          194.9626339577926,
+          211.8577065539321
+        ],
+        "canonical_dimensions": [
+          655.7614678323015,
+          715.0541000624105
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-13",
+        "character": "E",
+        "native_rotated_dimensions": [
+          184.90891015747138,
+          224.83645065162392
+        ],
+        "canonical_dimensions": [
+          632.51545950523,
+          762.7109498805112
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-14",
+        "character": "P",
+        "native_rotated_dimensions": [
+          182.8251164365314,
+          211.7856454518033
+        ],
+        "canonical_dimensions": [
+          616.6509083162999,
+          708.3282999652055
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-15",
+        "character": "E",
+        "native_rotated_dimensions": [
+          183.88165628636366,
+          224.8370372200636
+        ],
+        "canonical_dimensions": [
+          632.51545950523,
+          762.7109498805112
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-16",
+        "character": "N",
+        "native_rotated_dimensions": [
+          196.93607237065018,
+          214.8650383766656
+        ],
+        "canonical_dimensions": [
+          671,
+          717.3080505244083
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-17",
+        "character": "D",
+        "native_rotated_dimensions": [
+          193.96084274269217,
+          213.85961770732223
+        ],
+        "canonical_dimensions": [
+          655.7614678323015,
+          715.0541000624105
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-18",
+        "character": "E",
+        "native_rotated_dimensions": [
+          185.00610282972792,
+          222.83697141740043
+        ],
+        "canonical_dimensions": [
+          632.51545950523,
+          762.7109498805112
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-19",
+        "character": "N",
+        "native_rotated_dimensions": [
+          197.75891730178765,
+          214.87115796344182
+        ],
+        "canonical_dimensions": [
+          671,
+          717.3080505244083
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-20",
+        "character": "C",
+        "native_rotated_dimensions": [
+          182.74608000284678,
+          215.8289118536055
+        ],
+        "canonical_dimensions": [
+          620.3312784060804,
+          730.0757051209919
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-21",
+        "character": "E",
+        "native_rotated_dimensions": [
+          186.79312551372968,
+          224.835545898777
+        ],
+        "canonical_dimensions": [
+          632.51545950523,
+          762.7109498805112
+        ]
+      }
+    ],
+    "rms_residual_font_units": 9.51524330218314,
+    "method": "One isotropic least-squares page scale from all22 common capitals:44 native rotated width/height measurements. Figures and lowercase excluded from scale fitting."
+  },
+  "rows": {
+    "caps": {
+      "slope": -0.0009047532172035275,
+      "rotation_degrees": -0.05183852670201581,
+      "baseline_intercept": 1790.3524713091417,
+      "anchor_ids": [
+        "nypl-540-18-caps-01",
+        "nypl-540-18-caps-03",
+        "nypl-540-18-caps-04",
+        "nypl-540-18-caps-06",
+        "nypl-540-18-caps-10",
+        "nypl-540-18-caps-11",
+        "nypl-540-18-caps-13",
+        "nypl-540-18-caps-14",
+        "nypl-540-18-caps-15",
+        "nypl-540-18-caps-16",
+        "nypl-540-18-caps-18",
+        "nypl-540-18-caps-19",
+        "nypl-540-18-caps-21"
+      ],
+      "anchor_characters": "ELAEINEPENENE",
+      "residuals_native_pixels": [
+        2.4548768811865154,
+        0.9083518793939664,
+        -6.0072473311859875,
+        1.6012315672110806,
+        -6.5619422359797035,
+        -2.2942388899529926,
+        -9.414691248821327e-14,
+        -5.81281799934783,
+        0.3758313838456768,
+        -3.43277205163335,
+        0.972551915381187,
+        -2.836992058104827,
+        1.5371233972088314
+      ],
+      "max_absolute_residual_native_pixels": 6.5619422359797035,
+      "scale": 3.3783236810774055
+    },
+    "body-last": {
+      "slope": -0.0018528817968032334,
+      "rotation_degrees": -0.10616218540257602,
+      "baseline_intercept": 2956.6582447391165,
+      "anchor_ids": [
+        "nypl-540-18-body-last-00",
+        "nypl-540-18-body-last-07",
+        "nypl-540-18-body-last-09",
+        "nypl-540-18-body-last-11",
+        "nypl-540-18-body-last-13",
+        "nypl-540-18-body-last-15",
+        "nypl-540-18-body-last-18",
+        "nypl-540-18-body-last-20",
+        "nypl-540-18-body-last-23"
+      ],
+      "anchor_characters": "nhmihnhrn",
+      "residuals_native_pixels": [
+        0.7838521891583141,
+        -0.259063561596776,
+        0.4256920674343192,
+        -0.5756188784855079,
+        -4.796163466380676e-14,
+        -1.2296018238234891,
+        -0.40523751532025987,
+        0.1563537601853291,
+        1.064155825762228
+      ],
+      "max_absolute_residual_native_pixels": 1.2296018238234891,
+      "method": "Nine flat-footed n/h/m/i/r impressions; t excluded because its curved foot overshoots. Figures, round letters and descenders excluded. Theil-Sen slope and median intercept.",
+      "scale": 3.3783236810774055
+    },
+    "handy-figures": {
+      "slope": 0.0014649044348613268,
+      "rotation_degrees": 0.08393278146920774,
+      "baseline_intercept": 1997.2509526743147,
+      "scale": 13.237303831565837,
+      "anchor_ids": [
+        "regular-18-handy357-figures-00",
+        "regular-18-handy357-figures-01"
+      ],
+      "note": "Short baseline figures 1/2 anchor the first figure group; same heading slope and independent physical scale. Figures 3/4/5 descend. The separate 67890 group includes baseline 7/9 and does not anchor this row."
+    }
+  },
+  "comparisons": {
+    "capitals": [
+      {
+        "source": "nypl-540-18-caps-00",
+        "character": "D",
+        "width_ratio": 1.0076072358813468,
+        "height_ratio": 1.0055838781110982,
+        "source_bounds": [
+          35.0,
+          -1.171875,
+          695.75,
+          717.875
+        ],
+        "canonical_bounds": [
+          35.0039076529921,
+          -5.956829392311981,
+          690.7653754852936,
+          709.0972706700985
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-01",
+        "character": "E",
+        "width_ratio": 0.9756925553768179,
+        "height_ratio": 0.9928750883950974,
+        "source_bounds": [
+          35.0,
+          -8.53125,
+          652.140625,
+          748.7454517825213
+        ],
+        "canonical_bounds": [
+          35.0,
+          -27.479124202811846,
+          667.51545950523,
+          735.2318256776994
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-02",
+        "character": "C",
+        "width_ratio": 1.0059393210082626,
+        "height_ratio": 1.0038987106705661,
+        "source_bounds": [
+          35.0,
+          -8.875,
+          659.015625,
+          724.0470590628681
+        ],
+        "canonical_bounds": [
+          35.005337998377435,
+          -14.099825958918844,
+          655.3366164044578,
+          715.975879162073
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-03",
+        "character": "L",
+        "width_ratio": 0.9890164411289323,
+        "height_ratio": 0.9958282799577702,
+        "source_bounds": [
+          35.0,
+          -3.3125,
+          651.53125,
+          723.203125
+        ],
+        "canonical_bounds": [
+          35.001568354383075,
+          -17.60887386608562,
+          658.3797290816691,
+          711.9502676264708
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-04",
+        "character": "A",
+        "width_ratio": 1.0071628335354397,
+        "height_ratio": 0.9849022286368453,
+        "source_bounds": [
+          35.0,
+          20.0,
+          717.03125,
+          722.296875
+        ],
+        "canonical_bounds": [
+          35.00678275106377,
+          0.26559495372874226,
+          712.1875,
+          713.328125
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-05",
+        "character": "R",
+        "width_ratio": 1.022640058587627,
+        "height_ratio": 1.0002999837297402,
+        "source_bounds": [
+          35.0,
+          -82.0625,
+          733.078125,
+          721.8663351629697
+        ],
+        "canonical_bounds": [
+          34.99268700451153,
+          -92.70783120231732,
+          717.6161762154848,
+          710.9799107142857
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-06",
+        "character": "E",
+        "width_ratio": 0.975717258330343,
+        "height_ratio": 0.9841808565729937,
+        "source_bounds": [
+          35.0,
+          -5.770424421993814,
+          652.15625,
+          744.8750915490094
+        ],
+        "canonical_bounds": [
+          35.0,
+          -27.479124202811846,
+          667.51545950523,
+          735.2318256776994
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-07",
+        "character": "O",
+        "width_ratio": 0.9937363347811996,
+        "height_ratio": 0.9855358195468462,
+        "source_bounds": [
+          35.0,
+          -2.515625,
+          670.0329922393319,
+          719.578125
+        ],
+        "canonical_bounds": [
+          34.99951835146493,
+          -29.866290009117353,
+          674.0352162653921,
+          702.8252425340853
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-08",
+        "character": "U",
+        "width_ratio": 0.9866932492581603,
+        "height_ratio": 1.0055547975308718,
+        "source_bounds": [
+          35.0,
+          3.5625,
+          700.03125,
+          719.847962845446
+        ],
+        "canonical_bounds": [
+          35.0,
+          -10.078621577139927,
+          709.0,
+          702.25
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-09",
+        "character": "R",
+        "width_ratio": 1.0590116827588054,
+        "height_ratio": 1.017118068759704,
+        "source_bounds": [
+          35.0,
+          -85.5390739440627,
+          757.90625,
+          731.90625
+        ],
+        "canonical_bounds": [
+          34.99268700451153,
+          -92.70783120231732,
+          717.6161762154848,
+          710.9799107142857
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-10",
+        "character": "I",
+        "width_ratio": 1.0548083437295863,
+        "height_ratio": 1.0001376813649216,
+        "source_bounds": [
+          35.0,
+          22.078125,
+          247.0,
+          724.2532793209876
+        ],
+        "canonical_bounds": [
+          35.0,
+          -0.03161619603770288,
+          235.98437906777588,
+          702.046875
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-11",
+        "character": "N",
+        "width_ratio": 1.00600782414307,
+        "height_ratio": 1.0080124589982535,
+        "source_bounds": [
+          35.0,
+          7.5,
+          710.03125,
+          730.5554518683522
+        ],
+        "canonical_bounds": [
+          35.0,
+          -5.927453098545669,
+          706.0,
+          711.3805974258626
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-12",
+        "character": "D",
+        "width_ratio": 1.0041489490683224,
+        "height_ratio": 1.0014248429633996,
+        "source_bounds": [
+          35.00218623669389,
+          14.234375,
+          693.484375,
+          730.3073148653344
+        ],
+        "canonical_bounds": [
+          35.0039076529921,
+          -5.956829392311981,
+          690.7653754852936,
+          709.0972706700985
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-13",
+        "character": "E",
+        "width_ratio": 0.9871547258124166,
+        "height_ratio": 0.996466125363831,
+        "source_bounds": [
+          35.0,
+          -0.234375,
+          659.390625,
+          759.78125
+        ],
+        "canonical_bounds": [
+          35.0,
+          -27.479124202811846,
+          667.51545950523,
+          735.2318256776994
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-14",
+        "character": "P",
+        "width_ratio": 1.0022095652963952,
+        "height_ratio": 1.0105940111112448,
+        "source_bounds": [
+          35.00218623669389,
+          19.890625,
+          653.015625,
+          735.722962845446
+        ],
+        "canonical_bounds": [
+          35.0,
+          0.0,
+          651.6509083162999,
+          708.3282999652055
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-15",
+        "character": "E",
+        "width_ratio": 0.9820165114792172,
+        "height_ratio": 0.996466125363831,
+        "source_bounds": [
+          35.0,
+          -1.5,
+          656.140625,
+          758.515625
+        ],
+        "canonical_bounds": [
+          35.0,
+          -27.479124202811846,
+          667.51545950523,
+          735.2318256776994
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-16",
+        "character": "N",
+        "width_ratio": 0.99198956780924,
+        "height_ratio": 1.0115955114668007,
+        "source_bounds": [
+          35.0,
+          11.34375,
+          700.625,
+          736.9693542494924
+        ],
+        "canonical_bounds": [
+          35.0,
+          -5.927453098545669,
+          706.0,
+          711.3805974258626
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-17",
+        "character": "D",
+        "width_ratio": 0.9993153488664321,
+        "height_ratio": 1.0098667708317086,
+        "source_bounds": [
+          35.0,
+          10.984375,
+          690.3125,
+          733.09375
+        ],
+        "canonical_bounds": [
+          35.0039076529921,
+          -5.956829392311981,
+          690.7653754852936,
+          709.0972706700985
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-18",
+        "character": "E",
+        "width_ratio": 0.9883404675816165,
+        "height_ratio": 0.9872926361408054,
+        "source_bounds": [
+          35.0,
+          -3.515625,
+          660.140625,
+          749.5032793209876
+        ],
+        "canonical_bounds": [
+          35.0,
+          -27.479124202811846,
+          667.51545950523,
+          735.2318256776994
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-19",
+        "character": "N",
+        "width_ratio": 0.9955756388945229,
+        "height_ratio": 1.012095674193603,
+        "source_bounds": [
+          34.99999630177515,
+          9.328125,
+          703.03125,
+          735.3125
+        ],
+        "canonical_bounds": [
+          35.0,
+          -5.927453098545669,
+          706.0,
+          711.3805974258626
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-20",
+        "character": "C",
+        "width_ratio": 0.994604651542511,
+        "height_ratio": 0.9985693879228336,
+        "source_bounds": [
+          35.0,
+          2.140625,
+          651.984375,
+          731.171875
+        ],
+        "canonical_bounds": [
+          35.005337998377435,
+          -14.099825958918844,
+          655.3366164044578,
+          715.975879162073
+        ]
+      },
+      {
+        "source": "nypl-540-18-caps-21",
+        "character": "E",
+        "width_ratio": 0.9978264017352154,
+        "height_ratio": 0.996466125363831,
+        "source_bounds": [
+          35.0,
+          -5.421875,
+          666.140625,
+          754.59375
+        ],
+        "canonical_bounds": [
+          35.0,
+          -27.479124202811846,
+          667.51545950523,
+          735.2318256776994
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "source": "nypl-540-18-body-last-26",
+        "threshold": 90,
+        "character": "3",
+        "bounds": [
+          34.99128982822562,
+          -200.37735942295518,
+          525.2236195466546,
+          475.4716050295858
+        ],
+        "advance": 560,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "nypl-540-18-body-last-26",
+        "threshold": 110,
+        "character": "3",
+        "bounds": [
+          35.0,
+          -200.015625,
+          524.296875,
+          474.96875
+        ],
+        "advance": 559,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "nypl-540-18-body-last-26",
+        "threshold": 130,
+        "character": "3",
+        "bounds": [
+          35.00085283187793,
+          -201.22332772607422,
+          527.2194603360074,
+          475.703125
+        ],
+        "advance": 562,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "regular-18-handy357-figures-02",
+        "threshold": 110,
+        "character": "3",
+        "bounds": [
+          35.00294895169026,
+          -194.1181771872553,
+          512.8792310135918,
+          475.54706543939045
+        ],
+        "advance": 548,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "regular-18-handy357-figures-02",
+        "threshold": 130,
+        "character": "3",
+        "bounds": [
+          35.004598546432995,
+          -194.9087178170384,
+          519.3203430175781,
+          477.1444303632569
+        ],
+        "advance": 554,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "regular-18-handy357-figures-02",
+        "threshold": 150,
+        "character": "3",
+        "bounds": [
+          35.00476449968595,
+          -197.12061730816154,
+          521.1409534347622,
+          478.38527068783264
+        ],
+        "advance": 556,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "regular-18-handy357-figures-02",
+        "threshold": 170,
+        "character": "3",
+        "bounds": [
+          35.00564429614708,
+          -198.53739157363674,
+          524.52837094243,
+          479.88629680668254
+        ],
+        "advance": 560,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "regular-18-handy357-figures-02",
+        "threshold": 190,
+        "character": "3",
+        "bounds": [
+          35.00007635581026,
+          -199.88338467548934,
+          526.500068664318,
+          480.6638671770517
+        ],
+        "advance": 562,
+        "black": 1,
+        "white": 0
+      },
+      {
+        "source": "nypl-540-18-body-last-27",
+        "threshold": 90,
+        "character": "4",
+        "bounds": [
+          34.99821583044983,
+          -181.3569624792296,
+          532.0319535237543,
+          500.53125
+        ],
+        "advance": 567,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "nypl-540-18-body-last-27",
+        "threshold": 110,
+        "character": "4",
+        "bounds": [
+          35.0,
+          -181.015625,
+          531.078125,
+          500.70508965932197
+        ],
+        "advance": 566,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "nypl-540-18-body-last-27",
+        "threshold": 130,
+        "character": "4",
+        "bounds": [
+          34.99796732370924,
+          -181.81268075342734,
+          533.0367701112274,
+          501.15625
+        ],
+        "advance": 568,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "regular-18-handy357-figures-03",
+        "threshold": 110,
+        "character": "4",
+        "bounds": [
+          34.99533350008242,
+          -177.96875,
+          517.3719932970985,
+          488.13542659604616
+        ],
+        "advance": 552,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "regular-18-handy357-figures-03",
+        "threshold": 130,
+        "character": "4",
+        "bounds": [
+          35.00225716343432,
+          -181.44550581605307,
+          522.0203318775305,
+          489.5921312776343
+        ],
+        "advance": 557,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "regular-18-handy357-figures-03",
+        "threshold": 150,
+        "character": "4",
+        "bounds": [
+          35.0,
+          -180.59922828113477,
+          524.9872603427267,
+          491.4140392911798
+        ],
+        "advance": 560,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "regular-18-handy357-figures-03",
+        "threshold": 170,
+        "character": "4",
+        "bounds": [
+          34.999616495458525,
+          -183.8744556947617,
+          524.8533420094718,
+          492.06633757078083
+        ],
+        "advance": 560,
+        "black": 1,
+        "white": 1
+      },
+      {
+        "source": "regular-18-handy357-figures-03",
+        "threshold": 190,
+        "character": "4",
+        "bounds": [
+          35.00031441300632,
+          -184.45013001089373,
+          531.0325505931577,
+          494.72231133908883
+        ],
+        "advance": 566,
+        "black": 1,
+        "white": 1
+      }
+    ],
+    "status": "proof-generated;visual-review-pending"
+  },
+  "review": {
+    "native_panels": 4,
+    "baseline_overlays": 2,
+    "capital_proof_pages": 2,
+    "figure_threshold_proof_pages": 2,
+    "whole_nypl_impressions": 50,
+    "whole_handy_figure_impressions": 2,
+    "distinct_trials": 64,
+    "refinement": "Body baseline recomputed from nine flat-footed n/h/m/i/r, excluding four overshooting t. Revised baseline and both figure proof pages visually inspected."
+  },
+  "decision": "Use complete NYPL printed523/archive540 3 and4 at threshold110. Both descend beside the source text and short2, with stable intact topology at90/110/130. The whole NYPL outlines provide clearer context and finer sampling than Handy338; retain their small processed-image edge variation rather than inventing smooth contours. Handy independently confirms the descending settings. The current lining-position3/4 remain unchanged.",
+  "identity_limit": "Shared capital forms and one independent isotropic scale support the same optical size; no claim of identical physical punches or matrices. Translation-only overlay shows geometric correspondence but does not replace the source outline.",
+  "quality_todo": "Compare later matching intact sources for smoother unprocessed print edges; preserve the whole observed contours until better evidence is available."
+}

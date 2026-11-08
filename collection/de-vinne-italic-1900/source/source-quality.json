@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "cut": "De Vinne Italic, eight point",
+  "comparison": "Matching optical cut across census and ATF witnesses, with an explicit descending/lining R alternative. No punch, matrix or first-casting identity is inferred.",
+  "sampling": {
+    "native_sources": 4,
+    "derived_crops": 64,
+    "exact_pixels": true,
+    "exact_files": true,
+    "scale": 4,
+    "resampling": "Pillow LANCZOS",
+    "notes": "Interpolation adds no source evidence."
+  },
+  "contour_inventory": [
+    {
+      "character": " ",
+      "contours": 0,
+      "expected_design_contours": 0
+    },
+    {
+      "character": "A",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "B",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "C",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "D",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "E",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "F",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "G",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "H",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "I",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "J",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "K",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "L",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "M",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "N",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "O",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "P",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "Q",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "R",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "S",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "T",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "U",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "V",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "W",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "X",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "Y",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "Z",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "a",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "b",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "c",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "d",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "e",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "f",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "g",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "h",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "i",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "j",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "k",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "l",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "m",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "n",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "o",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "p",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "q",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "r",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "s",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "t",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "u",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "v",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "w",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "x",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "y",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "z",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "0",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "1",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "2",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "3",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "4",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "5",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "6",
+      "contours": 2,
+      "expected_design_contours": 2
+    },
+    {
+      "character": "7",
+      "contours": 1,
+      "expected_design_contours": 1
+    },
+    {
+      "character": "8",
+      "contours": 3,
+      "expected_design_contours": 3
+    },
+    {
+      "character": "9",
+      "contours": 2,
+      "expected_design_contours": 2
+    }
+  ],
+  "optical_comparison": [
+    {
+      "character": "H",
+      "6": {
+        "ink_width": 858.5859297319142,
+        "ink_height": 690.6071237071138,
+        "y_min": 8.370151619848162,
+        "y_max": 698.977275326962
+      },
+      "8": {
+        "ink_width": 877.4666205853023,
+        "ink_height": 712.3496586693907,
+        "y_min": -0.31840866939068646,
+        "y_max": 712.03125
+      }
+    },
+    {
+      "character": "I",
+      "6": {
+        "ink_width": 421.59400036339923,
+        "ink_height": 702.0025952050697,
+        "y_min": -0.703125,
+        "y_max": 701.2994702050697
+      },
+      "8": {
+        "ink_width": 431.7525213968188,
+        "ink_height": 702.6091849257433,
+        "y_min": 2.902210474563585,
+        "y_max": 705.5113954003069
+      }
+    },
+    {
+      "character": "K",
+      "6": {
+        "ink_width": 823.499692825255,
+        "ink_height": 706.2876703994564,
+        "y_min": 0.10741507944729875,
+        "y_max": 706.3950854789036
+      },
+      "8": {
+        "ink_width": 734.2825224080327,
+        "ink_height": 701.4527485046651,
+        "y_min": -7.078292897410229,
+        "y_max": 694.3744556072548
+      }
+    },
+    {
+      "character": "M",
+      "6": {
+        "ink_width": 887.5375705190266,
+        "ink_height": 706.3410314448233,
+        "y_min": 1.9180963417956605,
+        "y_max": 708.2591277866189
+      },
+      "8": {
+        "ink_width": 909.2839325542483,
+        "ink_height": 704.0925297872778,
+        "y_min": -6.280029787277837,
+        "y_max": 697.8125
+      }
+    },
+    {
+      "character": "W",
+      "6": {
+        "ink_width": 1046.5761494478027,
+        "ink_height": 726.0046761268112,
+        "y_min": -21.629676126811162,
+        "y_max": 704.375
+      },
+      "8": {
+        "ink_width": 1057.573899341393,
+        "ink_height": 714.404138339715,
+        "y_min": -1.4068320749705734,
+        "y_max": 712.9973062647445
+      }
+    },
+    {
+      "character": "Q",
+      "6": {
+        "ink_width": 705.9329447394742,
+        "ink_height": 898.9936444746056,
+        "y_min": -193.4470656426779,
+        "y_max": 705.5465788319277
+      },
+      "8": {
+        "ink_width": 684.4550354935395,
+        "ink_height": 875.2983361859858,
+        "y_min": -163.9543888770027,
+        "y_max": 711.343947308983
+      }
+    },
+    {
+      "character": "a",
+      "6": {
+        "ink_width": 536.6867716106756,
+        "ink_height": 517.5437974813983,
+        "y_min": -21.75,
+        "y_max": 495.79379748139837
+      },
+      "8": {
+        "ink_width": 530.0508478964199,
+        "ink_height": 506.0383622514604,
+        "y_min": -2.93680299406142,
+        "y_max": 503.101559257399
+      }
+    },
+    {
+      "character": "g",
+      "6": {
+        "ink_width": 689.5775070040609,
+        "ink_height": 708.2220104040273,
+        "y_min": -199.37820030461853,
+        "y_max": 508.84381009940876
+      },
+      "8": {
+        "ink_width": 663.4765042521606,
+        "ink_height": 691.89004012021,
+        "y_min": -193.34304362436765,
+        "y_max": 498.54699649584234
+      }
+    },
+    {
+      "character": "k",
+      "6": {
+        "ink_width": 577.9018677088006,
+        "ink_height": 720.8893149000244,
+        "y_min": -2.4960662802397735,
+        "y_max": 718.3932486197846
+      },
+      "8": {
+        "ink_width": 599.3998968376842,
+        "ink_height": 687.2214904735094,
+        "y_min": -1.7603081707031905,
+        "y_max": 685.4611823028063
+      }
+    },
+    {
+      "character": "m",
+      "6": {
+        "ink_width": 880.379574447747,
+        "ink_height": 489.9220466606919,
+        "y_min": -1.0782990718625138,
+        "y_max": 488.8437475888294
+      },
+      "8": {
+        "ink_width": 892.6026967534342,
+        "ink_height": 499.81202416141076,
+        "y_min": -3.108735019702478,
+        "y_max": 496.7032891417083
+      }
+    },
+    {
+      "character": "w",
+      "6": {
+        "ink_width": 798.0824213422791,
+        "ink_height": 504.57836846615055,
+        "y_min": -18.596715687510553,
+        "y_max": 485.98165277864
+      },
+      "8": {
+        "ink_width": 812.7277706324079,
+        "ink_height": 494.09204636615004,
+        "y_min": -27.78125,
+        "y_max": 466.31079636615004
+      }
+    },
+    {
+      "character": "0",
+      "6": {
+        "ink_width": 550.3484090405854,
+        "ink_height": 725.9247813092599,
+        "y_min": -2.336613401738987,
+        "y_max": 723.5881679075209
+      },
+      "8": {
+        "ink_width": 541.0190531856838,
+        "ink_height": 721.1997238015292,
+        "y_min": -0.00611947644519617,
+        "y_max": 721.193604325084
+      }
+    },
+    {
+      "character": "1",
+      "6": {
+        "ink_width": 376.79740065820505,
+        "ink_height": 693.2278876101424,
+        "y_min": 1.464144437779062,
+        "y_max": 694.6920320479214
+      },
+      "8": {
+        "ink_width": 371.97716486360827,
+        "ink_height": 687.5752106569504,
+        "y_min": 1.1477819713348985,
+        "y_max": 688.7229926282853
+      }
+    },
+    {
+      "character": "2",
+      "6": {
+        "ink_width": 617.6394966408836,
+        "ink_height": 710.422090609963,
+        "y_min": 1.643175477773882,
+        "y_max": 712.0652660877369
+      },
+      "8": {
+        "ink_width": 613.366923108522,
+        "ink_height": 708.7542297046334,
+        "y_min": 1.46875,
+        "y_max": 710.2229797046334
+      }
+    },
+    {
+      "character": "3",
+      "6": {
+        "ink_width": 603.2021733989309,
+        "ink_height": 737.7537140436867,
+        "y_min": -17.508590778493584,
+        "y_max": 720.2451232651931
+      },
+      "8": {
+        "ink_width": 577.7290203114153,
+        "ink_height": 731.1281626121649,
+        "y_min": -12.727324533061335,
+        "y_max": 718.4008380791036
+      }
+    },
+    {
+      "character": "4",
+      "6": {
+        "ink_width": 530.80000487546,
+        "ink_height": 695.5670988882298,
+        "y_min": 5.525695642835395,
+        "y_max": 701.0927945310652
+      },
+      "8": {
+        "ink_width": 527.3648349396983,
+        "ink_height": 705.1539220706868,
+        "y_min": -5.229497822349899,
+        "y_max": 699.9244242483369
+      }
+    },
+    {
+      "character": "5",
+      "6": {
+        "ink_width": 613.4854540161912,
+        "ink_height": 727.4170761733927,
+        "y_min": -16.82371764612573,
+        "y_max": 710.593358527267
+      },
+      "8": {
+        "ink_width": 589.8153458047918,
+        "ink_height": 724.9815042022461,
+        "y_min": -13.825254202246088,
+        "y_max": 711.15625
+      }
+    },
+    {
+      "character": "6",
+      "6": {
+        "ink_width": 573.9040808269858,
+        "ink_height": 719.2884061155423,
+        "y_min": -12.030575073525824,
+        "y_max": 707.2578310420165
+      },
+      "8": {
+        "ink_width": 541.7060015651356,
+        "ink_height": 713.6756247025236,
+        "y_min": -1.0864384870945116,
+        "y_max": 712.5891862154291
+      }
+    },
+    {
+      "character": "7",
+      "6": {
+        "ink_width": 561.0396072681367,
+        "ink_height": 697.813888631727,
+        "y_min": 13.12372512014256,
+        "y_max": 710.9376137518695
+      },
+      "8": {
+        "ink_width": 529.672855888617,
+        "ink_height": 702.2715603578374,
+        "y_min": 14.539020523157737,
+        "y_max": 716.8105808809952
+      }
+    },
+    {
+      "character": "8",
+      "6": {
+        "ink_width": 547.5444461979644,
+        "ink_height": 718.9614946847446,
+        "y_min": -8.15626391160162,
+        "y_max": 710.805230773143
+      },
+      "8": {
+        "ink_width": 562.8778048730918,
+        "ink_height": 717.8043093263212,
+        "y_min": -3.456108365213481,
+        "y_max": 714.3482009611078
+      }
+    },
+    {
+      "character": "9",
+      "6": {
+        "ink_width": 540.3681317544622,
+        "ink_height": 718.8081316495259,
+        "y_min": -0.3684160739157707,
+        "y_max": 718.4397155756101
+      },
+      "8": {
+        "ink_width": 540.8945197342683,
+        "ink_height": 714.000595411387,
+        "y_min": 8.606590041400676,
+        "y_max": 722.6071854527877
+      }
+    }
+  ],
+  "R_variant": {
+    "default": "italic-8-U-18",
+    "alternate": "italic-8-byu-00-05",
+    "glyph": "R.lining",
+    "feature": "ss01",
+    "witnesses": [
+      {
+        "id": "italic-8-U-18",
+        "row": "italic-8-U",
+        "character": "R",
+        "native_box": [
+          769,
+          900,
+          818,
+          956
+        ],
+        "bounds": [
+          34.99507118023775,
+          -131.62080258759897,
+          768.7275020591529,
+          706.4873220260934
+        ],
+        "width": 733.7324308789151,
+        "height": 838.1081246136923,
+        "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+        "native_rotation_clockwise": 0,
+        "native_coordinate_frame": "after the recorded exact clockwise quarter-turn"
+      },
+      {
+        "id": "italic-8-byu-00-05",
+        "row": "italic-8-byu-00",
+        "character": "R",
+        "native_box": [
+          401,
+          3373,
+          463,
+          3435
+        ],
+        "bounds": [
+          35.00107678746074,
+          1.5625,
+          760.7159088913187,
+          706.824590473021
+        ],
+        "width": 725.7148321038579,
+        "height": 705.262090473021,
+        "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+        "native_rotation_clockwise": 0,
+        "native_coordinate_frame": "after the recorded exact clockwise quarter-turn"
+      },
+      {
+        "id": "italic-8-byu-01-01",
+        "row": "italic-8-byu-01",
+        "character": "R",
+        "native_box": [
+          493,
+          3484,
+          557,
+          3547
+        ],
+        "bounds": [
+          35.00085548823,
+          -3.6691176430450776,
+          788.8496409113021,
+          703.2466151644427
+        ],
+        "width": 753.8487854230721,
+        "height": 706.9157328074878,
+        "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+        "native_rotation_clockwise": 0,
+        "native_coordinate_frame": "after the recorded exact clockwise quarter-turn"
+      },
+      {
+        "id": "italic-8-pacific-00-05",
+        "row": "italic-8-pacific-00",
+        "character": "R",
+        "native_box": [
+          690,
+          3968,
+          746,
+          4026
+        ],
+        "bounds": [
+          35.000672972920185,
+          -2.2837678663170315,
+          751.3226326781071,
+          693.9374752100138
+        ],
+        "width": 716.3219597051869,
+        "height": 696.2212430763308,
+        "native_file": "reference/atf-pacific-1896-leaf-433.jp2",
+        "native_rotation_clockwise": 90,
+        "native_coordinate_frame": "after the recorded exact clockwise quarter-turn"
+      },
+      {
+        "id": "italic-8-pacific-01-01",
+        "row": "italic-8-pacific-01",
+        "character": "R",
+        "native_box": [
+          774,
+          4066,
+          832,
+          4124
+        ],
+        "bounds": [
+          34.99535621054142,
+          -7.734560179442923,
+          767.1351555467385,
+          692.0070368297769
+        ],
+        "width": 732.139799336197,
+        "height": 699.7415970092198,
+        "native_file": "reference/atf-pacific-1896-leaf-433.jp2",
+        "native_rotation_clockwise": 90,
+        "native_coordinate_frame": "after the recorded exact clockwise quarter-turn"
+      }
+    ],
+    "decision": "Census R descends about132 units below its measured baseline. Four ATF impressions in two books have legs ending near the baseline. Both observed designs are retained."
+  },
+  "W_comparison": {
+    "census_width": 1057.6,
+    "new_york_widths": [
+      1030.0,
+      1033.1
+    ],
+    "decision": "Only 2–3 percent width difference at uniform cap height 700; no separate design established. Preserve census W."
+  },
+  "selected_corrections": [
+    {
+      "character": "j",
+      "threshold": 155,
+      "erase": [
+        [
+          0,
+          0,
+          43,
+          175
+        ],
+        [
+          112,
+          0,
+          119,
+          227
+        ]
+      ],
+      "reason": "Removes only adjacent i/k ink in the four-times crop; retains the separate native dot and full hook."
+    }
+  ],
+  "selection_decisions": [
+    "New York K replaces the cracked census impression; New York C avoids a census pinhole.",
+    "BYU m preserves all three stems and both shoulders; the third census arch is broken.",
+    "Census a keeps its upper aperture open; census five avoids a New York pinhole.",
+    "New York G avoids a bridge between the upper terminal and bar in first BYU/Pacific impressions.",
+    "New York U and zero avoid damaged competing impressions; BYU S preserves its complete upper stroke."
+  ],
+  "cleanup": "No hole filling, drawn repair, width stretching or cross-size outline substitution.",
+  "quality_followup": [
+    "Seek further clear same-size punctuation; collective dollar too filled.",
+    "Ryan g preserves two counters at thresholds 170, 175 and 190, but source softness remains; retain original census evidence for future comparisons."
+  ],
+  "italic_quality_revision": {
+    "review": "italic-quality-review.json",
+    "selected": "ryan8-text-17",
+    "threshold": 175,
+    "decision": "The Ryan g in Tumbling, at threshold 175, retains both native counters and a clearer loop junction than the census impression. The g in Vaulting remains comparison evidence because its upper bowl is broken at 175. The independent uniform scale, measured text baseline and italic slant are preserved. The existing 733-unit advance and 35-unit left bearing are retained. No strokes are drawn or assembled from other impressions. Four-times Lanczos sampling preserves the native evidence; no hole filling or independent stretching is applied."
+  },
+  "optical_comparison_basis": "Measurements compare the original 1.000 six- and eight-point selections. The revised Ryan g is documented separately in italic-quality-review.json; the original census g remains comparison evidence."
+}

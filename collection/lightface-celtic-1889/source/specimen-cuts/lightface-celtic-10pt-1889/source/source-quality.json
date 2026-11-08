@@ -1,0 +1,189 @@
+{
+  "coverage": {
+    "visible_observed": 66,
+    "encoded_with_space": 67,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+    "digits": "0123456789",
+    "punctuation": ".,;-",
+    "inferred_visible": 0
+  },
+  "identity": "Distinct ten-point optical cut. In both native1897andcensus witnesses at a common cap reference, C is about11–13percent wider,M about3–6percent narrower,and j about16–26percent wider than twelve-point. The lowercase a/e/m bodies are lower relative to capitals. Opposing width changes within one row exclude uniform page stretch as the explanation. Threshold comparisons distinguish persistent design proportions from impression variation.",
+  "final_optical_measurements": [
+    {
+      "character": "C",
+      "ten_point": {
+        "ink_width": 745.8288033563833,
+        "ink_height": 729.1600621571721
+      },
+      "twelve_point": {
+        "ink_width": 670.6946079529812,
+        "ink_height": 732.1357895456415
+      },
+      "width_ratio": 1.1120244512367832,
+      "height_ratio": 0.9959355526243074
+    },
+    {
+      "character": "H",
+      "ten_point": {
+        "ink_width": 920.0950962083384,
+        "ink_height": 701.5372430551839
+      },
+      "twelve_point": {
+        "ink_width": 896.0000087137519,
+        "ink_height": 699.0840599141346
+      },
+      "width_ratio": 1.0268918384601091,
+      "height_ratio": 1.0035091390030415
+    },
+    {
+      "character": "N",
+      "ten_point": {
+        "ink_width": 847.3382095745101,
+        "ink_height": 710.9388844427741
+      },
+      "twelve_point": {
+        "ink_width": 870.015625,
+        "ink_height": 695.3853076778488
+      },
+      "width_ratio": 0.9739344733889235,
+      "height_ratio": 1.0223668469741827
+    },
+    {
+      "character": "M",
+      "ten_point": {
+        "ink_width": 991.2648386189607,
+        "ink_height": 695.7488239053855
+      },
+      "twelve_point": {
+        "ink_width": 1021.0985475136008,
+        "ink_height": 691.9510955616154
+      },
+      "width_ratio": 0.9707827330013484,
+      "height_ratio": 1.0054884346135586
+    },
+    {
+      "character": "O",
+      "ten_point": {
+        "ink_width": 860.3670293451717,
+        "ink_height": 721.3142633130756
+      },
+      "twelve_point": {
+        "ink_width": 806.1035317046259,
+        "ink_height": 738.602024443823
+      },
+      "width_ratio": 1.0673157919626,
+      "height_ratio": 0.9765939429373142
+    },
+    {
+      "character": "j",
+      "ten_point": {
+        "ink_width": 325.0604754969726,
+        "ink_height": 918.6282209125274
+      },
+      "twelve_point": {
+        "ink_width": 267.7202837196305,
+        "ink_height": 913.5879473406508
+      },
+      "width_ratio": 1.2141794823338505,
+      "height_ratio": 1.0055170097050297
+    },
+    {
+      "character": "a",
+      "ten_point": {
+        "ink_width": 568.1441129667343,
+        "ink_height": 465.14528232561787
+      },
+      "twelve_point": {
+        "ink_width": 534.218239066341,
+        "ink_height": 508.2613913179621
+      },
+      "width_ratio": 1.0635056451080478,
+      "height_ratio": 0.9151694192617292
+    },
+    {
+      "character": "e",
+      "ten_point": {
+        "ink_width": 514.9390756455662,
+        "ink_height": 472.55448617360923
+      },
+      "twelve_point": {
+        "ink_width": 485.1660858811273,
+        "ink_height": 506.72293189073525
+      },
+      "width_ratio": 1.0613665930716636,
+      "height_ratio": 0.9325697663027933
+    },
+    {
+      "character": "n",
+      "ten_point": {
+        "ink_width": 674.015625,
+        "ink_height": 485.34288411087203
+      },
+      "twelve_point": {
+        "ink_width": 566.148894776274,
+        "ink_height": 510.2710341061712
+      },
+      "width_ratio": 1.1905271408616842,
+      "height_ratio": 0.9511472368033487
+    },
+    {
+      "character": "o",
+      "ten_point": {
+        "ink_width": 565.1750911598044,
+        "ink_height": 492.7445431171103
+      },
+      "twelve_point": {
+        "ink_width": 558.0775367195723,
+        "ink_height": 480.52470744463943
+      },
+      "width_ratio": 1.012717864406355,
+      "height_ratio": 1.0254301922110398
+    },
+    {
+      "character": "x",
+      "ten_point": {
+        "ink_width": 659.2886953625401,
+        "ink_height": 473.0414526952039
+      },
+      "twelve_point": {
+        "ink_width": 648.4239149192427,
+        "ink_height": 475.92087785155593
+      },
+      "width_ratio": 1.0167556750966695,
+      "height_ratio": 0.9939497818012301
+    }
+  ],
+  "selected_characters_by_source": {
+    "reference/gpo-census-1900-leaf-5.jp2": "ABCDEFGHIJKLMNOabcdefghijklmno0123456789",
+    "reference/gpo-job-1897-leaf-61.jp2": "PQRSTUVWXYZqxz",
+    "reference/gpo-jobroom-1904-leaf-54.jp2": "prstuvwy.,;-"
+  },
+  "thresholds": {
+    "census_default": 165,
+    "census_bg": 190,
+    "alphabet1897_default": 175,
+    "alphabet1897_qx": 195,
+    "jobroom": 175
+  },
+  "rejected_sources": [
+    {
+      "source": "ATF1896 ten-point",
+      "reason": "Heavily inked rounded impression; retained as a named comparison witness."
+    },
+    {
+      "source": "Boston1889 ten-point",
+      "reason": "Earlier named witness with smaller, softer detail; clearer matching census/1897/job-room impressions selected."
+    },
+    {
+      "source": "Document1904 ten-point CelticNo642 and CelticAmerican",
+      "reason": "Separately labelled designs; not used as matching source evidence."
+    },
+    {
+      "source": "Job-room paragraph rawprojection7 in market row",
+      "reason": "Overlapping f/o projection not divided. Only the separately observed forms on this row are proposed; its period is selected."
+    }
+  ],
+  "rejected_comparisons": "Uniform170comparison traces lose portions of1897a/h/k/m/n/p/q/x and censusb/g. Complete trial instead selects clearer census/job-room forms and individually reviewed190/195settings for faint bowls and joins. Contour counts alone miss some incomplete traces.",
+  "geometry": "One uniform physical scale per source page; measured rigid row rotations and local baselines. Figures use a local1/4/7baseline to avoid wide-page curvature errors. No shear, width stretching, filled holes or drawn replacement strokes.",
+  "visual_review": "All66visible forms compared with their native crops at170px and32px; words at16/24/40/64/96px. Q retains two enclosed spaces; i/j and semicolon retain both separate components."
+}

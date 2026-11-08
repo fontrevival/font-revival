@@ -5,6 +5,9 @@ the user's choice of MIT or SIL OFL 1.1 (`MIT OR OFL-1.1`).
 Follow `docs/WORKFLOW.md` for both new families and revisions.
 
 - Inspect the supplied specimens before drawing. Keep incoming work in `workspace/`.
+- For specimen surveys, read `workspace/README.md` and any linked local work
+  ledger first. Resume recorded decisions and source gaps before starting another
+  extraction; keep that ledger current when work is completed or deferred.
 - Write public documentation for repository readers and contributors. Keep task
   requests, planning ledgers, progress reports, reusable prompts and local setup
   notes in the ignored `workspace/`, not in public docs or the collection README.

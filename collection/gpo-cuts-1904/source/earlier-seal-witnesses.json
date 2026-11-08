@@ -1,0 +1,436 @@
+{
+  "scope": "Earlier matching impressions improve four seals while preserving IDs, codepoints and advances. A visual match does not establish reuse of the same physical printing block.",
+  "entries": [
+    {
+      "icon_id": "gpo-1904-seal-110",
+      "glyph": "uniE0FF",
+      "codepoint": "E0FF",
+      "previous_identity": {
+        "id": "gpo-1904-seal-110",
+        "codepoint": "E0FF",
+        "glyph": "uniE0FF",
+        "name": "United States Coast and Geodetic Survey, globe",
+        "specimen_number": "110",
+        "printed_page": 159,
+        "pdf_page": 175,
+        "source_index": 29,
+        "tags": [
+          "seal",
+          "emblem",
+          "government",
+          "globe"
+        ],
+        "recommended_min_px": 128,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0FF.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0FF.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0FF.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/leaf-175.png",
+        "box": [
+          2067,
+          3219,
+          2488,
+          3620
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Complete observed seal composition including agency lettering and integral reply instruction. Measured blank-paper masks exclude detached catalogue-number fragments and adjacent artwork. Uniform scaling preserves observed proportions; no unobserved pictorial content reconstructed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 155,
+            "secondary": 195,
+            "tertiary": 225
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            386,
+            420,
+            400
+          ]
+        ]
+      },
+      "selected_witness": {
+        "source_index": 30,
+        "archive_leaf": 189,
+        "pdf_page": 189,
+        "printed_page": 91,
+        "specimen_number": "2",
+        "file": "reference/gpo-1897-leaf-189.png",
+        "box": [
+          979,
+          460,
+          1380,
+          861
+        ],
+        "erase": [
+          [
+            278,
+            18,
+            294,
+            29
+          ]
+        ]
+      },
+      "advance_width": 1928,
+      "quality_reason": "1897 selected: complete right lettering and clearer meridians than 1904 No110.",
+      "review_status": "Native and revised monochrome/three-tone vector comparisons reviewed; final font formats pending."
+    },
+    {
+      "icon_id": "gpo-1904-seal-79",
+      "glyph": "uniE0E3",
+      "codepoint": "E0E3",
+      "previous_identity": {
+        "id": "gpo-1904-seal-79",
+        "codepoint": "E0E3",
+        "glyph": "uniE0E3",
+        "name": "Ordnance Department, U.S.A., flaming grenade and crossed cannon",
+        "specimen_number": "79",
+        "printed_page": 157,
+        "pdf_page": 173,
+        "source_index": 27,
+        "tags": [
+          "seal",
+          "emblem",
+          "government",
+          "cannon"
+        ],
+        "recommended_min_px": 128,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0E3.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0E3.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0E3.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/leaf-173.png",
+        "box": [
+          2018,
+          2523,
+          2409,
+          3022
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Complete observed seal composition including agency lettering and integral reply instruction. Measured blank-paper masks exclude detached catalogue-number fragments and adjacent artwork. Uniform scaling preserves observed proportions; no unobserved pictorial content reconstructed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 155,
+            "secondary": 195,
+            "tertiary": 225
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        }
+      },
+      "selected_witness": {
+        "source_index": 31,
+        "archive_leaf": 191,
+        "pdf_page": 191,
+        "printed_page": 92,
+        "specimen_number": "18",
+        "file": "reference/gpo-1897-leaf-191.png",
+        "box": [
+          1818,
+          1578,
+          2243,
+          2193
+        ],
+        "erase": [
+          [
+            0,
+            513,
+            424,
+            614
+          ]
+        ]
+      },
+      "advance_width": 1529,
+      "quality_reason": "1897 selected: clearer right inscription, cannon hatching and buckle than 1904 No79.",
+      "review_status": "Native and revised monochrome/three-tone vector comparisons reviewed; final font formats pending."
+    },
+    {
+      "icon_id": "gpo-1904-seal-75",
+      "glyph": "uniE0DF",
+      "codepoint": "E0DF",
+      "previous_identity": {
+        "id": "gpo-1904-seal-75",
+        "codepoint": "E0DF",
+        "glyph": "uniE0DF",
+        "name": "United States Artillery School, eagle flags and wreath",
+        "specimen_number": "75",
+        "printed_page": 157,
+        "pdf_page": 173,
+        "source_index": 27,
+        "tags": [
+          "seal",
+          "emblem",
+          "government",
+          "eagle",
+          "flag",
+          "wreath"
+        ],
+        "recommended_min_px": 128,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0DF.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0DF.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0DF.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/leaf-173.png",
+        "box": [
+          2032,
+          1849,
+          2427,
+          2357
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 215,
+        "frame_threshold": 225,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Complete observed seal composition including agency lettering and integral reply instruction. Measured blank-paper masks exclude detached catalogue-number fragments and adjacent artwork. Uniform scaling preserves observed proportions; no unobserved pictorial content reconstructed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 155,
+            "secondary": 195,
+            "tertiary": 225
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        }
+      },
+      "selected_witness": {
+        "source_index": 31,
+        "archive_leaf": 191,
+        "pdf_page": 191,
+        "printed_page": 92,
+        "specimen_number": "20",
+        "file": "reference/gpo-1897-leaf-191.png",
+        "box": [
+          933,
+          2661,
+          1388,
+          3241
+        ],
+        "erase": [
+          [
+            0,
+            515,
+            454,
+            579
+          ]
+        ]
+      },
+      "advance_width": 1508,
+      "quality_reason": "1897 selected: finer eagle feathers and inner shield detail than 1904 No75.",
+      "review_status": "Native and revised monochrome/three-tone vector comparisons reviewed; final font formats pending."
+    },
+    {
+      "icon_id": "gpo-1904-seal-35",
+      "glyph": "uniE0BA",
+      "codepoint": "E0BA",
+      "previous_identity": {
+        "id": "gpo-1904-seal-35",
+        "codepoint": "E0BA",
+        "glyph": "uniE0BA",
+        "name": "Department of the Interior",
+        "specimen_number": "35",
+        "printed_page": 155,
+        "pdf_page": 171,
+        "source_index": 25,
+        "tags": [
+          "seal",
+          "emblem",
+          "government"
+        ],
+        "recommended_min_px": 128,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0BA.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0BA.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0BA.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/leaf-171.png",
+        "box": [
+          1806,
+          502,
+          2447,
+          1150
+        ],
+        "rotation": 0,
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 195,
+        "frame_threshold": 220,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Complete observed seal composition including agency lettering and integral reply instruction. Measured blank-paper masks exclude detached catalogue-number fragments and adjacent artwork. Uniform scaling preserves observed proportions; no unobserved pictorial content reconstructed.",
+        "multitone": {
+          "thresholds": {
+            "primary": 110,
+            "secondary": 155,
+            "tertiary": 210
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            635,
+            640,
+            647
+          ]
+        ]
+      },
+      "selected_witness": {
+        "source_index": 32,
+        "archive_leaf": 193,
+        "pdf_page": 193,
+        "printed_page": 93,
+        "specimen_number": "24",
+        "file": "reference/gpo-1897-leaf-193.png",
+        "box": [
+          1519,
+          428,
+          2203,
+          1107
+        ],
+        "erase": [
+          [
+            0,
+            662,
+            684,
+            678
+          ],
+          [
+            646,
+            524,
+            677,
+            560
+          ],
+          [
+            68,
+            27,
+            102,
+            65
+          ],
+          [
+            160,
+            388,
+            183,
+            410
+          ]
+        ]
+      },
+      "advance_width": 1928,
+      "quality_reason": "1897 selected: better-separated feathers and intact border than 1904 No35.",
+      "review_status": "Native and revised monochrome/three-tone vector comparisons reviewed; final font formats pending."
+    }
+  ]
+}

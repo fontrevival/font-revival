@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "gpo-1904-beveled-leader-body",
+      "name": "Beveled leader-body diagram",
+      "glyph": "uniE243",
+      "codepoint": "E243",
+      "source_index": 59,
+      "archive_leaf": 32,
+      "pdf_page": 32,
+      "printed_page": 16,
+      "native_box": [
+        2210,
+        2350,
+        2555,
+        2406
+      ],
+      "alignment": {
+        "method": "Robust least-squares fit to midpoints between the upper and lower native shank edges, excluding the beveled end and right terminal; one rigid rotation of all contours.",
+        "native_slope": 0.00405756064920977,
+        "rotation_degrees": 0.2324798244900276,
+        "residual_std": 0.25929857712007576
+      },
+      "bounds": [
+        67.04578278336962,
+        810.25,
+        1863.8959778272329,
+        987.4613567413036
+      ],
+      "recommended_min_px": 128,
+      "identity_reason": "The printed six/eight/ten-point body diagrams illustrate one beveled leader-body construction. Their nominal body widths, drawn curvature and length-to-height differences remain in individual witness records, not separate design IDs. Existing Baltimore space rules have a different thin-stroke and turned-end construction; they are not replacement sources.",
+      "quality_todo": "Seek a sharper intact matching beveled body illustration during remaining surveys. Preserve printed curvature and small native ink holes; the final family/browser proof remains pending the whole-library gate.",
+      "native_file": "reference/leaf-32.png",
+      "original_file": "reference/leaf-32.jp2",
+      "original_sha256": "8d09e0173d201e14881633b83af6c9f3be515c794a4f4bdba395a0430f8f5a2f",
+      "recipe": {
+        "file": "reference/leaf-32.png",
+        "box": [
+          2210,
+          2350,
+          2555,
+          2406
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 215,
+        "frame_threshold": 235,
+        "paper_normalization_radius": 0,
+        "blur": 0.3,
+        "component_min_area": 64,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "post_trace_transform": [
+          0.9999917682024339,
+          0.004057527248191893,
+          -0.004057527248191893,
+          0.9999917682024339,
+          3.6597099762264618,
+          -3.9040476494474206
+        ],
+        "multitone": {
+          "thresholds": {
+            "primary": 195,
+            "secondary": 215,
+            "tertiary": 235
+          },
+          "round_inputs": false
+        },
+        "notes": "Complete six-point leader-body illustration, identified by the printed BODY column. One canonical construction retains separate six/eight/ten-point witnesses and their curvature and aspect variations. The six-point impression has less ink loss. Native uniform scaling and one measured rigid shank rotation; tiny disconnected paper components below64nativepixels removed; source holes retained, no analytic silhouette substituted."
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "candidate_id": "gpo-jobroom-1904:rule-comparison-right-1-body",
+      "key": "comparison-right-1-body",
+      "archive_leaf": 32,
+      "pdf_page": 32,
+      "printed_page": 16,
+      "box": [
+        2210,
+        2350,
+        2555,
+        2406
+      ],
+      "role": "technical leader-body illustration; distinct from the printing-face specimen",
+      "status": "new",
+      "body_points": 6,
+      "context_box": [
+        2192,
+        2350,
+        2552,
+        2406
+      ],
+      "icon_id": "gpo-1904-beveled-leader-body",
+      "codepoint": "E243",
+      "name": "Beveled leader-body diagram",
+      "source_index": 59,
+      "file": "reference/leaf-32.png",
+      "reason": "The printed six/eight/ten-point body diagrams illustrate one beveled leader-body construction. Their nominal body widths, drawn curvature and length-to-height differences remain in individual witness records, not separate design IDs. Existing Baltimore space rules have a different thin-stroke and turned-end construction; they are not replacement sources.",
+      "native_shape_measurement": {
+        "points": 6,
+        "box": [
+          2210,
+          2350,
+          2555,
+          2406
+        ],
+        "shank_height": 30.0,
+        "tip_to_upper_edge_over_height": 0.8666666666666667,
+        "normalized_left_edge": [
+          [
+            0.1,
+            0.7666666666666667
+          ],
+          [
+            0.25,
+            0.6499999999999999
+          ],
+          [
+            0.5,
+            0.3333333333333333
+          ],
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.9,
+            0.06666666666666667
+          ]
+        ]
+      }
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:rule-comparison-right-2-body",
+      "key": "comparison-right-2-body",
+      "archive_leaf": 32,
+      "pdf_page": 32,
+      "printed_page": 16,
+      "box": [
+        2210,
+        2564,
+        2555,
+        2624
+      ],
+      "role": "technical leader-body illustration; distinct from the printing-face specimen",
+      "status": "repeat",
+      "body_points": 8,
+      "context_box": [
+        2192,
+        2564,
+        2552,
+        2624
+      ],
+      "icon_id": "gpo-1904-beveled-leader-body",
+      "codepoint": "E243",
+      "name": "Beveled leader-body diagram",
+      "source_index": 59,
+      "file": "reference/leaf-32.png",
+      "reason": "The printed six/eight/ten-point body diagrams illustrate one beveled leader-body construction. Their nominal body widths, drawn curvature and length-to-height differences remain in individual witness records, not separate design IDs. Existing Baltimore space rules have a different thin-stroke and turned-end construction; they are not replacement sources.",
+      "native_shape_measurement": {
+        "points": 8,
+        "box": [
+          2210,
+          2564,
+          2555,
+          2624
+        ],
+        "shank_height": 40.0,
+        "tip_to_upper_edge_over_height": 0.775,
+        "normalized_left_edge": [
+          [
+            0.1,
+            0.65
+          ],
+          [
+            0.25,
+            0.575
+          ],
+          [
+            0.5,
+            0.4
+          ],
+          [
+            0.75,
+            0.05
+          ],
+          [
+            0.9,
+            0.125
+          ]
+        ]
+      },
+      "duplicate_of": "gpo-1904-beveled-leader-body"
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:rule-comparison-right-3-body",
+      "key": "comparison-right-3-body",
+      "archive_leaf": 32,
+      "pdf_page": 32,
+      "printed_page": 16,
+      "box": [
+        2210,
+        2754,
+        2555,
+        2824
+      ],
+      "role": "technical leader-body illustration; distinct from the printing-face specimen",
+      "status": "repeat",
+      "body_points": 10,
+      "context_box": [
+        2192,
+        2754,
+        2552,
+        2824
+      ],
+      "icon_id": "gpo-1904-beveled-leader-body",
+      "codepoint": "E243",
+      "name": "Beveled leader-body diagram",
+      "source_index": 59,
+      "file": "reference/leaf-32.png",
+      "reason": "The printed six/eight/ten-point body diagrams illustrate one beveled leader-body construction. Their nominal body widths, drawn curvature and length-to-height differences remain in individual witness records, not separate design IDs. Existing Baltimore space rules have a different thin-stroke and turned-end construction; they are not replacement sources.",
+      "native_shape_measurement": {
+        "points": 10,
+        "box": [
+          2210,
+          2754,
+          2555,
+          2824
+        ],
+        "shank_height": 50.0,
+        "tip_to_upper_edge_over_height": 0.74,
+        "normalized_left_edge": [
+          [
+            0.1,
+            0.68
+          ],
+          [
+            0.25,
+            0.59
+          ],
+          [
+            0.5,
+            0.36
+          ],
+          [
+            0.75,
+            0.01
+          ],
+          [
+            0.9,
+            0.14
+          ]
+        ]
+      },
+      "duplicate_of": "gpo-1904-beveled-leader-body"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "baltimore-1832-p109-small-pica-space-rule-7",
+      "family": "baltimore-ornaments-1832",
+      "box": [
+        1378,
+        4365,
+        1448,
+        4404
+      ],
+      "file": "reference/pdf-109.png",
+      "name": "Shortest space rule, small pica",
+      "source_index": 17,
+      "printed_page": null,
+      "pdf_page": 109,
+      "decision": "Related long body with an end treatment, but the thin-stroke space rules and their turned ends are not exact matches to the solid beveled technical diagram."
+    },
+    {
+      "id": "baltimore-1832-p109-long-primer-space-rule-7",
+      "family": "baltimore-ornaments-1832",
+      "box": [
+        2287,
+        4113,
+        2369,
+        4174
+      ],
+      "file": "reference/pdf-109.png",
+      "name": "Space rule 7, long primer",
+      "source_index": 17,
+      "printed_page": null,
+      "pdf_page": 109,
+      "decision": "Related long body with an end treatment, but the thin-stroke space rules and their turned ends are not exact matches to the solid beveled technical diagram."
+    },
+    {
+      "id": "baltimore-1832-p109-small-pica-space-rule-5",
+      "family": "baltimore-ornaments-1832",
+      "box": [
+        2114,
+        4292,
+        2323,
+        4353
+      ],
+      "file": "reference/pdf-109.png",
+      "name": "Space rule 5, small pica",
+      "source_index": 17,
+      "printed_page": null,
+      "pdf_page": 109,
+      "decision": "Related long body with an end treatment, but the thin-stroke space rules and their turned ends are not exact matches to the solid beveled technical diagram."
+    }
+  ],
+  "measurement": {
+    "method": "Largest native component at threshold215, median upper/lower shank edges over x84–319, horizontal left boundary relative to the leftmost tip. Uniform height normalization is for comparison only; native geometry is preserved in drawing recipes.",
+    "entries": [
+      {
+        "points": 6,
+        "box": [
+          2210,
+          2350,
+          2555,
+          2406
+        ],
+        "shank_height": 30.0,
+        "tip_to_upper_edge_over_height": 0.8666666666666667,
+        "normalized_left_edge": [
+          [
+            0.1,
+            0.7666666666666667
+          ],
+          [
+            0.25,
+            0.6499999999999999
+          ],
+          [
+            0.5,
+            0.3333333333333333
+          ],
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.9,
+            0.06666666666666667
+          ]
+        ]
+      },
+      {
+        "points": 8,
+        "box": [
+          2210,
+          2564,
+          2555,
+          2624
+        ],
+        "shank_height": 40.0,
+        "tip_to_upper_edge_over_height": 0.775,
+        "normalized_left_edge": [
+          [
+            0.1,
+            0.65
+          ],
+          [
+            0.25,
+            0.575
+          ],
+          [
+            0.5,
+            0.4
+          ],
+          [
+            0.75,
+            0.05
+          ],
+          [
+            0.9,
+            0.125
+          ]
+        ]
+      },
+      {
+        "points": 10,
+        "box": [
+          2210,
+          2754,
+          2555,
+          2824
+        ],
+        "shank_height": 50.0,
+        "tip_to_upper_edge_over_height": 0.74,
+        "normalized_left_edge": [
+          [
+            0.1,
+            0.68
+          ],
+          [
+            0.25,
+            0.59
+          ],
+          [
+            0.5,
+            0.36
+          ],
+          [
+            0.75,
+            0.01
+          ],
+          [
+            0.9,
+            0.14
+          ]
+        ]
+      }
+    ]
+  },
+  "classification": "The printed FACE and BODY headings separate a printing surface from the illustration of its metal body. This item preserves the technical body illustration. Nominal body size and small drawing variations do not create additional design identities.",
+  "quality_choice": "The six-point impression has less internal ink loss than the eight-point terminal and ten-point upper edge; all three complete native witnesses remain available.",
+  "proof": "specimens/body-diagram-review.pdf"
+}

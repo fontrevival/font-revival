@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collection": "baltimore-ornaments-1832",
-  "version": "1.004",
+  "version": "1.006",
   "icons": [
     {
       "id": "baltimore-1832-p131-90",
@@ -19069,15 +19069,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-1",
-      "name": "Brass rule 1",
+      "name": "Brass rule No. 1, thin and thick sections",
       "specimen_number": "brass-rule-1",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17B",
       "glyph": "uniE17B",
@@ -19114,15 +19114,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-2",
-      "name": "Brass rule 2",
+      "name": "Brass rule No. 2, thin and thick sections",
       "specimen_number": "brass-rule-2",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17C",
       "glyph": "uniE17C",
@@ -19159,15 +19159,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-3",
-      "name": "Brass rule 3",
+      "name": "Brass rule No. 3, thin and thick sections",
       "specimen_number": "brass-rule-3",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17D",
       "glyph": "uniE17D",
@@ -19204,15 +19204,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-4",
-      "name": "Brass rule 4",
+      "name": "Brass rule No. 4, thin and thick sections",
       "specimen_number": "brass-rule-4",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17E",
       "glyph": "uniE17E",
@@ -19249,15 +19249,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-5",
-      "name": "Brass rule 5",
+      "name": "Brass rule No. 5, thin and thick sections",
       "specimen_number": "brass-rule-5",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E17F",
       "glyph": "uniE17F",
@@ -19294,15 +19294,15 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-6",
-      "name": "Brass rule 6",
+      "name": "Brass rule No. 6, thin and thick sections",
       "specimen_number": "brass-rule-6",
       "printed_page": null,
       "pdf_page": 11,
       "tags": [
+        "brass",
         "rule",
-        "line",
-        "divider",
-        "brass"
+        "specimen",
+        "diagram"
       ],
       "codepoint": "E180",
       "glyph": "uniE180",
@@ -19384,7 +19384,7 @@
     },
     {
       "id": "baltimore-1832-p11-brass-rule-8",
-      "name": "Brass rule 8",
+      "name": "Two fine parallel rules",
       "specimen_number": "brass-rule-8",
       "printed_page": null,
       "pdf_page": 11,
@@ -19392,7 +19392,10 @@
         "rule",
         "line",
         "divider",
-        "brass"
+        "brass",
+        "parallel",
+        "paired",
+        "fine"
       ],
       "codepoint": "E182",
       "glyph": "uniE182",

@@ -4,7 +4,7 @@ An ornamental display face with rounded strokes, knob-ended curls, and an irregu
 
 ![Johnson 1892 specimen](specimens/preview.png)
 
-**1892 · Regular · Version 1.003 · 95 characters · MIT**
+**1892 · Regular · Version 1.004 · 95 characters · MIT or SIL OFL 1.1**
 
 [OTF](fonts/Johnson1892-Regular.otf) · [TTF](fonts/Johnson1892-Regular.ttf) · [WOFF2](web/Johnson1892-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -32,7 +32,7 @@ and use `font-family: "Johnson 1892"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-Copyright (c) 2026 Harold Lehmann. The digital revival is released under the included [MIT License](LICENSE).
+Copyright (c) 2026 Harold Lehmann. The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
 
 ## Build or improve
 

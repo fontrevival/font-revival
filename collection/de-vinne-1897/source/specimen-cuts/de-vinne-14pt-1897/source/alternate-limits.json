@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "notes": "Explicit limits for six unencoded observed alternatives, including CFF-to-quadratic rounding allowance. Validate with verify_alternates.py.",
+  "glyphs": {
+    "M.census": {
+      "character": "M",
+      "feature": "ss01",
+      "bounds": {
+        "y_min": [
+          -5,
+          2
+        ],
+        "y_max": [
+          694,
+          701
+        ],
+        "ink_width": [
+          722,
+          729
+        ],
+        "ink_height": [
+          695,
+          702
+        ]
+      },
+      "advance": 795,
+      "contours": 1
+    },
+    "one.oldstyle": {
+      "character": "1",
+      "feature": "ss02",
+      "bounds": {
+        "y_min": [
+          -8,
+          -1
+        ],
+        "y_max": [
+          474,
+          481
+        ],
+        "ink_width": [
+          194,
+          201
+        ],
+        "ink_height": [
+          478,
+          485
+        ]
+      },
+      "advance": 267,
+      "contours": 1
+    },
+    "three.oldstyle": {
+      "character": "3",
+      "feature": "ss02",
+      "bounds": {
+        "y_min": [
+          -201,
+          -194
+        ],
+        "y_max": [
+          475,
+          482
+        ],
+        "ink_width": [
+          449,
+          456
+        ],
+        "ink_height": [
+          672,
+          679
+        ]
+      },
+      "advance": 522,
+      "contours": 1
+    },
+    "two.lining": {
+      "character": "2",
+      "feature": "ss03",
+      "bounds": {
+        "y_min": [
+          -7,
+          0
+        ],
+        "y_max": [
+          712,
+          719
+        ],
+        "ink_width": [
+          472,
+          479
+        ],
+        "ink_height": [
+          716,
+          723
+        ]
+      },
+      "advance": 545,
+      "contours": 1
+    },
+    "four.lining": {
+      "character": "4",
+      "feature": "ss03",
+      "bounds": {
+        "y_min": [
+          0,
+          7
+        ],
+        "y_max": [
+          673,
+          680
+        ],
+        "ink_width": [
+          489,
+          496
+        ],
+        "ink_height": [
+          669,
+          676
+        ]
+      },
+      "advance": 563,
+      "contours": 2
+    },
+    "five.lining": {
+      "character": "5",
+      "feature": "ss03",
+      "bounds": {
+        "y_min": [
+          -15,
+          -8
+        ],
+        "y_max": [
+          653,
+          660
+        ],
+        "ink_width": [
+          456,
+          463
+        ],
+        "ink_height": [
+          664,
+          671
+        ]
+      },
+      "advance": 529,
+      "contours": 1
+    }
+  }
+}

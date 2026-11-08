@@ -1,0 +1,17 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+feature ss01 {
+    featureNames { name "Census M"; };
+    sub M by M.census;
+} ss01;
+feature ss02 {
+    featureNames { name "1897 figure variants (5, 7, 9)"; };
+    sub five by five.oldstyle;
+    sub seven by seven.oldstyle;
+    sub nine by nine.oldstyle;
+} ss02;
+feature ss03 {
+    featureNames { name "Lining figure variants (0, 1)"; };
+    sub zero by zero.lining;
+    sub one by one.lining;
+} ss03;

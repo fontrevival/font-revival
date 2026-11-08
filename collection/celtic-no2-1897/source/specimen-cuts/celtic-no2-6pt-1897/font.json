@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "celtic-no2-6pt-1897",
+  "name": "Celtic No. 2 Six-Point 1897",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "CelticNo2SixPoint1897-Regular",
+  "year": 1897,
+  "designer": "Unidentified in the consulted historical specimens",
+  "foundry": "Farmer, as credited in the Government Printing Office document specimen",
+  "description": "The six-point Celtic No. 2 cut, preserving its optical proportions, bowed crossbars and flowing figures.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "MONARCH OF HIGH MOUNTAINS",
+  "character_style": "capitals-only",
+  "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,",
+  "character_set_notes": "Complete observed A–Z capitals, all ten figures, period and comma from the six-point cut. Space is a modern layout advance. Lowercase and unsupported punctuation are not encoded.",
+  "observed": "All 26 capitals, ten figures and the declared punctuation are observed in the six-point Celtic No. 2 cut. Exact selected impressions, native comparisons and measurements accompany the master. The 1904 document specimen credits Farmer. The assembled business card on job-room printed page39 (archive leaf55) supplies the comma; matching native letter construction and measured physical size identify the six-point setting.",
+  "reconstructed": "No visible characters invented. Spacing, digital metrics, paper illumination correction and measured rigid rotations are modern preparation choices.",
+  "sources": [
+    {
+      "title": "Specimens of the job division type, Government Printing Office (1897), Celtic No. 2; printed p. 25, archive leaf 59; comparison witness",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n59/mode/1up",
+      "file": "reference/gpo-job-1897-leaf-59.jp2",
+      "rights": "1897 United States publication, public domain by age. Library of Congress scan hosted by Internet Archive; institutional metadata and exact historical JP2 retained. No modern digital typeface was traced.",
+      "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+    },
+    {
+      "title": "Specimens of type faces, brass, rule, etc (1900), Celtic No. 2; printed p. 1, archive leaf 3",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n3/mode/1up",
+      "file": "reference/leaf-3.jp2",
+      "rights": "1900 United States publication, public domain by age. Library of Congress scan hosted by Internet Archive; institutional metadata and exact historical JP2 retained. No modern digital typeface was traced.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "Specimen book of type (1904), Celtic No. 2; printed p. 39, archive leaf 83",
+      "url": "https://archive.org/details/specimenbookofty00unit_0/page/n83/mode/1up",
+      "file": "reference/gpo-document-1904-leaf-83.jp2",
+      "rights": "1904 United States publication, public domain by age. Library of Congress scan hosted by Internet Archive; institutional metadata and exact historical JP2 retained. No modern digital typeface was traced.",
+      "rights_url": "https://archive.org/metadata/specimenbookofty00unit_0"
+    },
+    {
+      "title": "Job room type faces (1904), Celtic No. 2; printed p.39, archive leaf55; assembled card comma",
+      "url": "https://archive.org/details/123459_1904/page/n55/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-55.jp2",
+      "rights": "1904 United States publication, public domain by age. Historical native scan retained for comparison; no modern digital typeface used.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "One uniform physical scale per source row with measured rigid rotation. Separated figure groups use locally measured baselines at the same scale. Individual thresholds retain observed fine strokes. No filled holes, independent width fitting, invented visible forms or cross-size substitution."
+  }
+}

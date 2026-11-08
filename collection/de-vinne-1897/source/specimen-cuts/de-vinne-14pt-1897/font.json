@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "de-vinne-14pt-1897",
+  "name": "De Vinne 14pt 1897",
+  "style": "Regular",
+  "version": "1.001",
+  "postscript_name": "DeVinne14pt1897-Regular",
+  "year": 1897,
+  "designer": "Unidentified in the retained source pages",
+  "foundry": "Shown by the United States Government Printing Office; 1897 stock mark Keystone–10",
+  "description": "Fourteen-point De Vinne with flared serifs, a sweeping Q tail, double-storey a and g, and observed mixed-height figures. Six named alternates retain source variations.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "Moisture in Wood",
+  "character_style": "mixed-case",
+  "character_set": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,-¼½¾⅓⅔⅛⅜⅝⅞¢%",
+  "character_set_notes": "Complete observed A–Z, a–z and ten figures, with period, comma and the double-bar historical hyphen encoded as hyphen-minus. Space has a modern layout advance. Six observed alternatives are unencoded glyphs available through stylistic sets; no unsupported character is inferred. Nine whole observed diagonal fractions, cent and percent are also encoded. Fraction row-center placement is a modern layout convention, independent of historical baseline evidence.",
+  "observed": "The 1897 specimen supplies both complete fourteen-point alphabets. Matching census and job-room impressions supply clearer letters, all ten figures and punctuation. The census M and five differently shaped or positioned figures are retained as named alternatives. The census ten-figure row is the default set; its unequal positions are preserved. Matching ATF assortments supply whole 14-point diagonal fractions and symbols; exact selected pages, crops, thresholds and scale measurements are retained.",
+  "reconstructed": "No visible form is invented. Uniform source-page scaling, measured rigid baseline rotation, local paper correction and modern spacing prepare the observed forms. No cross-size substitution or independent width stretching. One measured two-pixel enclosed printing pinhole in B is cleaned without changing the outer contour or intended counters. Fraction row-center placement at350 is a modern layout choice; no historical text baseline is established by the charts. No fraction parts are assembled or redrawn.",
+  "sources": [
+    {
+      "title": "Government Printing Office specimen (1897), De Vinne fourteen point; printed page 50, archive leaf 109",
+      "url": "https://archive.org/details/specimensofjobdi00unit/page/n109/mode/1up",
+      "file": "reference/gpo-job-1897-leaf-109.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/specimensofjobdi00unit"
+    },
+    {
+      "title": "Government Printing Office specimen (1900), De Vinne fourteen point; printed page 18, archive leaf 37",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n37/mode/1up",
+      "file": "reference/gpo-census-1900-leaf-37.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "Government Printing Office specimen (1904), De Vinne fourteen point; printed page 68, archive leaf 84",
+      "url": "https://archive.org/details/123459_1904/page/n84/mode/1up",
+      "file": "reference/gpo-jobroom-1904-leaf-84.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/123459_1904"
+    },
+    {
+      "title": "American Line Type Book (1906), printed page 698, archive leaf 646; Whole fraction/symbol impressions and matching-source scale evidence.",
+      "url": "https://archive.org/details/americanlinetype00daysrich/page/n646/mode/1up",
+      "file": "reference/atf-american-line-1906-leaf-646.jp2",
+      "rights": "Published in the United States in 1906; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/americanlinetype00daysrich/page/n646/mode/1up"
+    },
+    {
+      "title": "Handy Book of Specimens (1897), printed page 40, archive leaf 59; Independent physical-scale evidence: common capitals or repeated footer type.",
+      "url": "https://archive.org/details/cu31924014559730/page/n59/mode/1up",
+      "file": "reference/atf-handy-1897-leaf-59.jp2",
+      "rights": "Published in the United States in 1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/cu31924014559730/page/n59/mode/1up"
+    },
+    {
+      "title": "Handy Book of Specimens (1897), printed page 339, archive leaf 358; Independent physical-scale evidence: common capitals or repeated footer type.",
+      "url": "https://archive.org/details/cu31924014559730/page/n358/mode/1up",
+      "file": "reference/atf-handy-1897-leaf-358.jp2",
+      "rights": "Published in the United States in 1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/cu31924014559730/page/n358/mode/1up"
+    },
+    {
+      "title": "ATF specimen, BYU copy (1897), printed page 637, archive leaf 639; Whole fraction/symbol impressions and matching-source scale evidence.",
+      "url": "https://archive.org/details/specimensoftypeb00amer/page/n639/mode/1up",
+      "file": "reference/atf-handy-byu-1897-leaf-639.jp2",
+      "rights": "Published in the United States in 1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/specimensoftypeb00amer/page/n639/mode/1up"
+    },
+    {
+      "title": "ATF New York specimen (1897), printed page 436, archive leaf 506; Whole fraction/symbol impressions and matching-source scale evidence.",
+      "url": "https://archive.org/details/specimensofprint00amerrich/page/n506/mode/1up",
+      "file": "reference/atf-new-york-1897-leaf-506.jp2",
+      "rights": "Published in the United States in 1897; the historical specimen and type impressions are in the public domain.",
+      "rights_url": "https://archive.org/details/specimensofprint00amerrich/page/n506/mode/1up"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "All visible forms are observed. A uniform scale per physical source page and measured rigid baseline rotations preserve optical proportions. Six named alternatives are exposed through ss01/ss02/ss03. The numeral block has its own measured baseline on the gently bowed scan line. See source/METHOD.md for reproduction and feature use. The whole fraction companions retain their full physical source dimensions and deliberate slash interruptions. Existing outlines, spacing and named alternatives are preserved."
+  }
+}

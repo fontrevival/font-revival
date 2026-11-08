@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "archive_leaf": 1,
+  "pdf_page": 1,
+  "printed_page": null,
+  "file": "reference/leaf-1-gold.png",
+  "box": [
+    132,
+    2961,
+    987,
+    3818
+  ],
+  "source_rotation_ccw": 270,
+  "applied_degrees_ccw_positive_up": -0.31859945594318445,
+  "post_trace_transform": [
+    0.9999845398508234,
+    -0.0055605808452908485,
+    0.0055605808452908485,
+    0.9999845398508234,
+    -4.9896269070300905,
+    5.37153377869663
+  ],
+  "method": "Eight independent native rule-centre fits at four thresholds. All directions agree on a slight clockwise correction after source rotation. Median195-threshold direction is applied rigidly to all vector layers. Differences among separate rules remain as observed; no shearing, aspect-ratio normalization or analytic redrawing.",
+  "measurements": [
+    {
+      "label": "upper-left-top",
+      "direction": "h",
+      "selected_rotated_crop_box": [
+        35,
+        0,
+        330,
+        13
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 293,
+          "correction_degrees_ccw_positive_up": -0.42548371798578477,
+          "median_residual_pixels": 0.11953882778689806
+        },
+        {
+          "threshold": 175,
+          "points": 295,
+          "correction_degrees_ccw_positive_up": -0.4284655650846021,
+          "median_residual_pixels": 0.10601690074017434
+        },
+        {
+          "threshold": 195,
+          "points": 295,
+          "correction_degrees_ccw_positive_up": -0.4303367720178045,
+          "median_residual_pixels": 0.09885659650488954
+        },
+        {
+          "threshold": 215,
+          "points": 295,
+          "correction_degrees_ccw_positive_up": -0.44688316026506203,
+          "median_residual_pixels": 0.10213014738733417
+        }
+      ]
+    },
+    {
+      "label": "upper-left-base",
+      "direction": "h",
+      "selected_rotated_crop_box": [
+        30,
+        345,
+        460,
+        365
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 404,
+          "correction_degrees_ccw_positive_up": -0.3806605317591018,
+          "median_residual_pixels": 0.14736308406007392
+        },
+        {
+          "threshold": 175,
+          "points": 409,
+          "correction_degrees_ccw_positive_up": -0.3812634225674535,
+          "median_residual_pixels": 0.16798375800844134
+        },
+        {
+          "threshold": 195,
+          "points": 409,
+          "correction_degrees_ccw_positive_up": -0.37518062199130336,
+          "median_residual_pixels": 0.15097312428392584
+        },
+        {
+          "threshold": 215,
+          "points": 411,
+          "correction_degrees_ccw_positive_up": -0.3715358971694244,
+          "median_residual_pixels": 0.14650152293886265
+        }
+      ]
+    },
+    {
+      "label": "lower-right-top",
+      "direction": "h",
+      "selected_rotated_crop_box": [
+        385,
+        475,
+        805,
+        500
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 396,
+          "correction_degrees_ccw_positive_up": -0.3247239858195551,
+          "median_residual_pixels": 0.24025176506543922
+        },
+        {
+          "threshold": 175,
+          "points": 390,
+          "correction_degrees_ccw_positive_up": -0.29845515737487277,
+          "median_residual_pixels": 0.20636411579815128
+        },
+        {
+          "threshold": 195,
+          "points": 395,
+          "correction_degrees_ccw_positive_up": -0.2961107990886579,
+          "median_residual_pixels": 0.20652076440700107
+        },
+        {
+          "threshold": 215,
+          "points": 395,
+          "correction_degrees_ccw_positive_up": -0.2883814707676074,
+          "median_residual_pixels": 0.2000136885988013
+        }
+      ]
+    },
+    {
+      "label": "lower-right-base",
+      "direction": "h",
+      "selected_rotated_crop_box": [
+        375,
+        823,
+        805,
+        845
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 285,
+          "correction_degrees_ccw_positive_up": -0.12109429124901708,
+          "median_residual_pixels": 0.21581816206218463
+        },
+        {
+          "threshold": 175,
+          "points": 292,
+          "correction_degrees_ccw_positive_up": -0.12599017711871577,
+          "median_residual_pixels": 0.16230840350447906
+        },
+        {
+          "threshold": 195,
+          "points": 289,
+          "correction_degrees_ccw_positive_up": -0.12327359888327742,
+          "median_residual_pixels": 0.1410868921441466
+        },
+        {
+          "threshold": 215,
+          "points": 304,
+          "correction_degrees_ccw_positive_up": -0.15187079339811202,
+          "median_residual_pixels": 0.14087014406696508
+        }
+      ]
+    },
+    {
+      "label": "upper-left-side",
+      "direction": "v",
+      "selected_rotated_crop_box": [
+        0,
+        30,
+        16,
+        335
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 305,
+          "correction_degrees_ccw_positive_up": -0.4809774279726872,
+          "median_residual_pixels": 0.38063008239212603
+        },
+        {
+          "threshold": 175,
+          "points": 295,
+          "correction_degrees_ccw_positive_up": -0.39882053357541336,
+          "median_residual_pixels": 0.23871422820916788
+        },
+        {
+          "threshold": 195,
+          "points": 299,
+          "correction_degrees_ccw_positive_up": -0.3605024169276988,
+          "median_residual_pixels": 0.2169279843680183
+        },
+        {
+          "threshold": 215,
+          "points": 292,
+          "correction_degrees_ccw_positive_up": -0.34098357151923175,
+          "median_residual_pixels": 0.18596250909312761
+        }
+      ]
+    },
+    {
+      "label": "upper-right-rise",
+      "direction": "v",
+      "selected_rotated_crop_box": [
+        480,
+        30,
+        502,
+        470
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 415,
+          "correction_degrees_ccw_positive_up": -0.15516422436963329,
+          "median_residual_pixels": 0.10176029407794474
+        },
+        {
+          "threshold": 175,
+          "points": 418,
+          "correction_degrees_ccw_positive_up": -0.17593214277226937,
+          "median_residual_pixels": 0.1166403514949792
+        },
+        {
+          "threshold": 195,
+          "points": 416,
+          "correction_degrees_ccw_positive_up": -0.1821451759663683,
+          "median_residual_pixels": 0.11718084728557265
+        },
+        {
+          "threshold": 215,
+          "points": 415,
+          "correction_degrees_ccw_positive_up": -0.1835818018095521,
+          "median_residual_pixels": 0.12329359262813888
+        }
+      ]
+    },
+    {
+      "label": "lower-left-rise",
+      "direction": "v",
+      "selected_rotated_crop_box": [
+        6,
+        510,
+        21,
+        815
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 298,
+          "correction_degrees_ccw_positive_up": -0.12045451728315344,
+          "median_residual_pixels": 0.1019315790212485
+        },
+        {
+          "threshold": 175,
+          "points": 303,
+          "correction_degrees_ccw_positive_up": -0.13460352349179847,
+          "median_residual_pixels": 0.12041752157733798
+        },
+        {
+          "threshold": 195,
+          "points": 298,
+          "correction_degrees_ccw_positive_up": -0.1410593898091291,
+          "median_residual_pixels": 0.10061533088684738
+        },
+        {
+          "threshold": 215,
+          "points": 297,
+          "correction_degrees_ccw_positive_up": -0.1369086945091792,
+          "median_residual_pixels": 0.08730963976976147
+        }
+      ]
+    },
+    {
+      "label": "lower-right-side",
+      "direction": "v",
+      "selected_rotated_crop_box": [
+        828,
+        505,
+        849,
+        815
+      ],
+      "fits": [
+        {
+          "threshold": 145,
+          "points": 301,
+          "correction_degrees_ccw_positive_up": -0.39530131440012095,
+          "median_residual_pixels": 0.2390404233980039
+        },
+        {
+          "threshold": 175,
+          "points": 301,
+          "correction_degrees_ccw_positive_up": -0.34583455815844144,
+          "median_residual_pixels": 0.20423463425217214
+        },
+        {
+          "threshold": 195,
+          "points": 301,
+          "correction_degrees_ccw_positive_up": -0.341088112797711,
+          "median_residual_pixels": 0.1917367933380305
+        },
+        {
+          "threshold": 215,
+          "points": 300,
+          "correction_degrees_ccw_positive_up": -0.3363427936063738,
+          "median_residual_pixels": 0.176124044092818
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Boston Ornaments 1889",
   "style": "Regular",
-  "version": "1.001",
+  "version": "1.002",
   "postscript_name": "BostonOrnaments1889-Regular",
   "year": 1889,
   "designer": "Individual designers and engravers unidentified",
@@ -1245,16 +1245,17 @@
     },
     {
       "id": "boston-1889-p258-word-10-4",
-      "name": "Parallel hairline divider, 36 point",
+      "name": "Paired fine and heavy brackets, 36 point",
       "specimen_number": "word-10-4",
       "printed_page": 258,
       "pdf_page": 266,
       "tags": [
-        "ribbon",
-        "shield",
-        "stripes",
-        "divider",
-        "terminal"
+        "brackets",
+        "paired",
+        "vertical",
+        "fine",
+        "heavy",
+        "frame"
       ],
       "codepoint": "E020",
       "glyph": "uniE020",
@@ -1490,16 +1491,17 @@
     },
     {
       "id": "boston-1889-p258-word-11-4",
-      "name": "Parallel hairline divider, 40 point",
+      "name": "Paired fine and heavy brackets, 40 point",
       "specimen_number": "word-11-4",
       "printed_page": 258,
       "pdf_page": 266,
       "tags": [
-        "ribbon",
-        "shield",
-        "stripes",
-        "divider",
-        "terminal"
+        "brackets",
+        "paired",
+        "vertical",
+        "fine",
+        "heavy",
+        "frame"
       ],
       "codepoint": "E027",
       "glyph": "uniE027",
@@ -4509,9 +4511,10 @@
       "pdf_page": 268,
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "codepoint": "E07A",
       "glyph": "uniE07A",
@@ -4543,9 +4546,10 @@
       "pdf_page": 268,
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "codepoint": "E07B",
       "glyph": "uniE07B",
@@ -4577,9 +4581,10 @@
       "pdf_page": 268,
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "codepoint": "E07C",
       "glyph": "uniE07C",
@@ -4611,9 +4616,10 @@
       "pdf_page": 268,
       "tags": [
         "rule",
-        "curl",
         "divider",
-        "geometric"
+        "geometric",
+        "straight",
+        "horizontal"
       ],
       "codepoint": "E07D",
       "glyph": "uniE07D",
@@ -5963,17 +5969,17 @@
     },
     {
       "id": "boston-1889-p261-k-2",
-      "name": "Fine hairline",
+      "name": "Hairline with curled ball end, left",
       "specimen_number": "k-2",
       "printed_page": 261,
       "pdf_page": 269,
       "tags": [
-        "leaves",
+        "rule",
+        "hairline",
         "curl",
-        "scroll",
-        "flourish",
-        "geometric",
-        "terminal"
+        "ball",
+        "terminal",
+        "left"
       ],
       "codepoint": "E0A5",
       "glyph": "uniE0A5",
@@ -6035,17 +6041,17 @@
     },
     {
       "id": "boston-1889-p261-k-3",
-      "name": "Short hairline",
+      "name": "Hairline with curled ball end, right",
       "specimen_number": "k-3",
       "printed_page": 261,
       "pdf_page": 269,
       "tags": [
-        "leaves",
+        "rule",
+        "hairline",
         "curl",
-        "scroll",
-        "flourish",
-        "geometric",
-        "terminal"
+        "ball",
+        "terminal",
+        "right"
       ],
       "codepoint": "E0A7",
       "glyph": "uniE0A7",
@@ -7225,17 +7231,16 @@
     },
     {
       "id": "boston-1889-p262-l-2",
-      "name": "Double rule",
+      "name": "Triple rule with heavy center",
       "specimen_number": "l-2",
       "printed_page": 262,
       "pdf_page": 270,
       "tags": [
-        "waves",
-        "curl",
-        "leaves",
-        "spiral",
         "rule",
-        "flower",
+        "parallel",
+        "triple",
+        "heavy",
+        "fine",
         "divider"
       ],
       "codepoint": "E0C8",
@@ -24992,15 +24997,18 @@
     },
     {
       "id": "boston-1889-p268-santa-claus-border-2",
-      "name": "Santa Claus border double vertical rule",
+      "name": "Santa Claus border triple vertical rule",
       "specimen_number": "santa-claus-border-2",
       "printed_page": 268,
       "pdf_page": 276,
       "tags": [
         "border",
-        "santa-claus-border",
         "rule",
-        "line"
+        "parallel",
+        "triple",
+        "vertical",
+        "heavy",
+        "fine"
       ],
       "codepoint": "E2B8",
       "glyph": "uniE2B8",
@@ -25655,5 +25663,6 @@
       "skia-pathops 0.9.0"
     ],
     "notes": "Expansion of the approved pilot is in progress. See source/inventory.json for reviewed pages, pending specimens and exclusions; source/METHOD.md and tracing.json record each crop and interpretation."
-  }
+  },
+  "cff_charstring_chunk_bytes": 60000
 }

@@ -1,0 +1,1350 @@
+{
+  "schema_version": 1,
+  "method": "Verify the native source hash, convert to RGB, apply the recorded exact clockwise quarter-turn, crop in that oriented frame and resize four times using Pillow LANCZOS. No drawn detail.",
+  "crops": [
+    {
+      "id": "italic-8-byu-00-06",
+      "file": "reference/crops/italic-8-byu-00-06.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        456,
+        3373,
+        516,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        240,
+        248
+      ],
+      "pixel_sha256": "8cb3fd7ddb62ccdf5d56c3936a593d36cb14d1a8ba4e771509a9d352ee0114b9",
+      "file_sha256": "21098aade76dd699ea1a1ec1a26287179f8665415c3e28d42eea3e773eb45f5b"
+    },
+    {
+      "id": "italic-8-byu-00-01",
+      "file": "reference/crops/italic-8-byu-00-01.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        198,
+        3372,
+        258,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        240,
+        252
+      ],
+      "pixel_sha256": "6edf6c647723373b478a2a5177a2f8e1633f86902ef09ac90b9124f608d8b14c",
+      "file_sha256": "95ea07887fd703eb09a506ff57569bc7d0e39454acd58667918ac004f86a96ba"
+    },
+    {
+      "id": "italic-8-ny-00-01",
+      "file": "reference/crops/italic-8-ny-00-01.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        592,
+        3677,
+        629,
+        3718
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        164
+      ],
+      "pixel_sha256": "b2fc4c2c2044941bc6dab1b9a49659633a4b71adce55ec54dd375079587d80fb",
+      "file_sha256": "3f3b68b77ba82f0abecc14aa95b7ebf49a098a483cde4d3955272364de16e75d"
+    },
+    {
+      "id": "italic-8-byu-00-18",
+      "file": "reference/crops/italic-8-byu-00-18.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1282,
+        3375,
+        1346,
+        3438
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        256,
+        252
+      ],
+      "pixel_sha256": "5376ff0b0245bdc0a19697ffa3e43ab6244ac4cbb9c237d7715cd6a1c478e97b",
+      "file_sha256": "3f6fff2f7ed983f9cfdf0335b03d0cea6ae2d303542c076372caab2c2340f639"
+    },
+    {
+      "id": "italic-8-byu-00-10",
+      "file": "reference/crops/italic-8-byu-00-10.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        661,
+        3371,
+        723,
+        3438
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        248,
+        268
+      ],
+      "pixel_sha256": "5f923085afc35fd656b90acc932b8106e7cdbc59613fb47778aafa95006695bc",
+      "file_sha256": "57b7d84a8ab2364d7b794b1d85fbdb94106d126c45fee8d210352f009c2c1bb8"
+    },
+    {
+      "id": "italic-8-byu-00-13",
+      "file": "reference/crops/italic-8-byu-00-13.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        881,
+        3373,
+        944,
+        3437
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        252,
+        256
+      ],
+      "pixel_sha256": "29b3723fdcf167f262132470e7ed1f943056e7627d9c02ba86a3c98706199000",
+      "file_sha256": "5bf9a785bfb00353f775456d0656df49ecfa7455847342288988db1b1f6da645"
+    },
+    {
+      "id": "italic-8-ny-00-06",
+      "file": "reference/crops/italic-8-ny-00-06.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        747,
+        3678,
+        785,
+        3718
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        160
+      ],
+      "pixel_sha256": "c018ac3be4bb9a3e689916949c5691896ae621b8cfe635c1c694ae0062ecdbe8",
+      "file_sha256": "a0bbd57668f5790ad7430e792b1ac61390d8dc2ba1a09afe3d47fc8917f32c0e"
+    },
+    {
+      "id": "italic-8-byu-00-08",
+      "file": "reference/crops/italic-8-byu-00-08.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        570,
+        3373,
+        643,
+        3436
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        292,
+        252
+      ],
+      "pixel_sha256": "e610449b56f781a5d0b97631fb070066edb1bcb761ba664955b78c88cdd2c3d4",
+      "file_sha256": "640d0076f50f72dd271ec502b12a8e4ec901538531f0b0640333be78427e7adc"
+    },
+    {
+      "id": "italic-8-byu-00-02",
+      "file": "reference/crops/italic-8-byu-00-02.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        255,
+        3373,
+        294,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        156,
+        248
+      ],
+      "pixel_sha256": "88aba278fb60c1457674d80f41c0ef36aa1572ba68708b5df8224c848096867c",
+      "file_sha256": "07658e4e070c1a627a2876f8f7c35c4a9587626fbdfd751bc65fbe79eb64c0fc"
+    },
+    {
+      "id": "italic-8-U-10",
+      "file": "reference/crops/italic-8-U-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        421,
+        901,
+        462,
+        950
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        164,
+        196
+      ],
+      "pixel_sha256": "fb5044bc99498a66f1083700149fe0f8c962e2c0c2180b073530970af9d1a4d6",
+      "file_sha256": "b53268971146eddbc750d6d230f89e8806bfb66e5a4711ebd2a7ab3aa9561edc"
+    },
+    {
+      "id": "italic-8-ny-00-11",
+      "file": "reference/crops/italic-8-ny-00-11.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        950,
+        3679,
+        990,
+        3719
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        160
+      ],
+      "pixel_sha256": "f1f4d3aa0f89f5213e1b5717f12e0535912759cac6f554ab4b77c388a49b3e2f",
+      "file_sha256": "1ffdae69f4f36bb46e31eb5b9c7ef9051fa423f84200d6f81a14aa153f1bb6b2"
+    },
+    {
+      "id": "italic-8-byu-00-35",
+      "file": "reference/crops/italic-8-byu-00-35.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        2205,
+        3378,
+        2263,
+        3441
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        232,
+        252
+      ],
+      "pixel_sha256": "6c8ea7a01e4e703ba751283b30d876d59a73f1adabdcf3320bf547d5cc14416b",
+      "file_sha256": "36adc7838858812d3121d81eb05ece70ba36e082f8ed83dbd0ac5ddf088e3ebc"
+    },
+    {
+      "id": "italic-8-byu-00-14",
+      "file": "reference/crops/italic-8-byu-00-14.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        988,
+        3375,
+        1064,
+        3437
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        304,
+        248
+      ],
+      "pixel_sha256": "09245396e54d08f9d415010ffb83a4244a5c61bb900b21cefb21f05380b2b38b",
+      "file_sha256": "697cdd7c37da83104b9437983515920cae2162c44637e73803420827bfab04d5"
+    },
+    {
+      "id": "italic-8-byu-00-16",
+      "file": "reference/crops/italic-8-byu-00-16.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1115,
+        3375,
+        1186,
+        3438
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        284,
+        252
+      ],
+      "pixel_sha256": "a0752c7479c4db5aff3dcd9f7df9ad238689ff61391c3a2313ad4746b0c7aa2c",
+      "file_sha256": "2ca108c07be6b920f605cc40f82e7c939cb70f02a370c529d1208b88467de279"
+    },
+    {
+      "id": "italic-8-byu-00-03",
+      "file": "reference/crops/italic-8-byu-00-03.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        288,
+        3371,
+        347,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        236,
+        256
+      ],
+      "pixel_sha256": "dd63d130a13ea17a41fd40e643b7f9062159a04262f94ba3bd33859acf89c205",
+      "file_sha256": "b501c6e64dd8b7d44f2de912213ae9ff2d51e18b875b808725ba90364eca78c9"
+    },
+    {
+      "id": "italic-8-byu-00-07",
+      "file": "reference/crops/italic-8-byu-00-07.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        515,
+        3372,
+        579,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        256,
+        252
+      ],
+      "pixel_sha256": "63a26a09586a074b7c5952e1d324a7d09e8b7f5b8dc6eeee51233fd177b5da62",
+      "file_sha256": "fb5128eace4929c7d8c2bfeb923b0075b7e70d573fcd213522be072ec45bacd9"
+    },
+    {
+      "id": "italic-8-U-17",
+      "file": "reference/crops/italic-8-U-17.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        729,
+        900,
+        774,
+        958
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        232
+      ],
+      "pixel_sha256": "28f091f4a578894bee94f8f248a675d4105c625aa1a91bbe8d5d20033af4ccf9",
+      "file_sha256": "c2e6140718fba17671d99efad6b1239e55756dd098cea86c34b2830f418dcf68"
+    },
+    {
+      "id": "italic-8-U-18",
+      "file": "reference/crops/italic-8-U-18.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        769,
+        900,
+        818,
+        956
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        196,
+        224
+      ],
+      "pixel_sha256": "5d9bdde2552035d622fd7b018826a2663a8b29a63671095bd45c0a83c125342e",
+      "file_sha256": "c56b2cd7a87d9721b53c12a14542ee4f4e03223c62fea09fa8f04bc4f10bae27"
+    },
+    {
+      "id": "italic-8-byu-00-11",
+      "file": "reference/crops/italic-8-byu-00-11.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        716,
+        3373,
+        776,
+        3437
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        240,
+        256
+      ],
+      "pixel_sha256": "530aa5cda86253efc8cffd674dd3b27dfdfbaef8b81417cec958c416a20d5da5",
+      "file_sha256": "c57d2c1e5dbff5dd89c89a60a5999145a278f2ae5e87ede759ae837e530c7180"
+    },
+    {
+      "id": "italic-8-byu-00-21",
+      "file": "reference/crops/italic-8-byu-00-21.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1429,
+        3374,
+        1487,
+        3438
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        232,
+        256
+      ],
+      "pixel_sha256": "b75bac40295e4def540fd61cc67d0bbd988a1a752ecd8682bb242a26423e1873",
+      "file_sha256": "4e5fa662b3e5a324042859ab1baf7f5dbd96b73925657f0f945e0ee6819e6654"
+    },
+    {
+      "id": "italic-8-ny-01-01",
+      "file": "reference/crops/italic-8-ny-01-01.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        503,
+        3743,
+        543,
+        3784
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        164
+      ],
+      "pixel_sha256": "21c817a75453f7806e0d4101a60e1b6d5884a88de044d33bb78c581ef0515d97",
+      "file_sha256": "49b835125de02299a06525ef4671a1f57e344ea21e4327e9f2e826e3c51092b7"
+    },
+    {
+      "id": "italic-8-U-22",
+      "file": "reference/crops/italic-8-U-22.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        942,
+        900,
+        987,
+        948
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        180,
+        192
+      ],
+      "pixel_sha256": "1263ea3a381e9ba31fa606f60e7e911fe36b801dc6402759f65d3f44da7c9ed2",
+      "file_sha256": "99739d338ad64716939890130b2f73ea3e87ae125473b1ad3a0a4b69d2919390"
+    },
+    {
+      "id": "italic-8-U-23",
+      "file": "reference/crops/italic-8-U-23.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        987,
+        899,
+        1054,
+        949
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        268,
+        200
+      ],
+      "pixel_sha256": "b5336cac872107f32ce756c155b73a029533f1c93ba0397432a53a4f2866c3a6",
+      "file_sha256": "4aed964dd098c0dd0d0751ee131d67a092b74c348605bcc737ca13254ece2583"
+    },
+    {
+      "id": "italic-8-U-24",
+      "file": "reference/crops/italic-8-U-24.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1043,
+        899,
+        1096,
+        948
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        212,
+        196
+      ],
+      "pixel_sha256": "b9efcc447a14fc74e241e0503852c2fd42c61e5dd6b79236fb1a2f88e8cf995a",
+      "file_sha256": "ad75f19a327fd61c16450c83866f3c2ada001aabdfec0b2c3afeae936e02e2b1"
+    },
+    {
+      "id": "italic-8-byu-00-17",
+      "file": "reference/crops/italic-8-byu-00-17.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1185,
+        3375,
+        1243,
+        3436
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        232,
+        244
+      ],
+      "pixel_sha256": "da7c1662e69c7a4e8cc09921811b8d6b28fd5a7378dfd015d2daa29712c85033",
+      "file_sha256": "a66fd2c532899e8929a2876bd1cb403c3ab536bfad6493f2da9477cb4ad619f4"
+    },
+    {
+      "id": "italic-8-U-26",
+      "file": "reference/crops/italic-8-U-26.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1129,
+        899,
+        1177,
+        949
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        192,
+        200
+      ],
+      "pixel_sha256": "f0a8e2c48540e4b51d411b2f0a0bc20878d0a740567be660fa79d499912c9a4f",
+      "file_sha256": "cc53c2f2a602d4795bf9fe5bceb2b2e682550a868dddad776a1c532960f635ec"
+    },
+    {
+      "id": "italic-8-l-01",
+      "file": "reference/crops/italic-8-l-01.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1296,
+        909,
+        1331,
+        946
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        148
+      ],
+      "pixel_sha256": "83a081904494485fc1aa696205b6fde6e6d040349158ff55872e1e37d9026fb4",
+      "file_sha256": "ed9ec29a4adb27cfe007f9139dcc7bcde5c4aae0a0e8894c369a9fe9a256e205"
+    },
+    {
+      "id": "italic-8-l-02",
+      "file": "reference/crops/italic-8-l-02.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1330,
+        898,
+        1366,
+        946
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        192
+      ],
+      "pixel_sha256": "4591a965e3af04992d0ab3759d8832b201bf688f7fecd2d34658ff3acde1abce",
+      "file_sha256": "712eaa1ad204814990df877b4b7b7f8884b9623722f0e05b5e68054a4183e11a"
+    },
+    {
+      "id": "italic-8-byu-01-10",
+      "file": "reference/crops/italic-8-byu-01-10.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        928,
+        3501,
+        972,
+        3548
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        176,
+        188
+      ],
+      "pixel_sha256": "918c98996112761d867aac93e944529cec0234cfebe39799cb8f635b18cafef4",
+      "file_sha256": "fdee5f45e1d55e42a60d459d6200a1b4cc4d21becf5e2891c0d1234eb654bb6c"
+    },
+    {
+      "id": "italic-8-byu-01-07",
+      "file": "reference/crops/italic-8-byu-01-07.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        742,
+        3485,
+        795,
+        3548
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        212,
+        252
+      ],
+      "pixel_sha256": "b7ff9c1cc74986d87ec7ac82db469711c6f69271503f1433e7a7f412a006e130",
+      "file_sha256": "1f8e213843905660291eb2015be9b568baf02acd089de6cdad4016d7ea6df69e"
+    },
+    {
+      "id": "italic-8-byu-01-02",
+      "file": "reference/crops/italic-8-byu-01-02.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        553,
+        3499,
+        596,
+        3547
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        172,
+        192
+      ],
+      "pixel_sha256": "61a4ab279c1f7b44d99206cb0b66dcfb8c781783747e209debd786b78f5eddda",
+      "file_sha256": "b738b8615f8c415a8141d3607df814af7a242eb39f2e050febff3e8dd717d085"
+    },
+    {
+      "id": "italic-8-byu-01-20",
+      "file": "reference/crops/italic-8-byu-01-20.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1352,
+        3487,
+        1393,
+        3549
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        164,
+        248
+      ],
+      "pixel_sha256": "d3c8d27281bf43910aa208b58aceea551755e325bbf88a3d732357a166a09cbf",
+      "file_sha256": "d0bf559435431e94a758079e6191ef1dd7a6b3f6eb3e747b5a387ffd280b4925"
+    },
+    {
+      "id": "italic-8-l-07",
+      "file": "reference/crops/italic-8-l-07.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1470,
+        910,
+        1513,
+        957
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        172,
+        188
+      ],
+      "pixel_sha256": "6307d56ccc3f581ac96cad6dee6ab58f7749a81557627abad300795e5ab14756",
+      "file_sha256": "136a906c2a0eb566ace0a87638c093f1d433e6697b29d984d90aa73c16045f6a"
+    },
+    {
+      "id": "italic-8-l-08",
+      "file": "reference/crops/italic-8-l-08.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1506,
+        899,
+        1544,
+        946
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        152,
+        188
+      ],
+      "pixel_sha256": "3b96c0580460f334effd35dbe3c01f98aec6bbe70ebb770ec533a71dbe90fdc0",
+      "file_sha256": "e416a124080bd711d37d0046055c51cf3f359e230b86b19f4a2bd8d60405705f"
+    },
+    {
+      "id": "italic-8-byu-01-04",
+      "file": "reference/crops/italic-8-byu-01-04.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        637,
+        3485,
+        671,
+        3547
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        248
+      ],
+      "pixel_sha256": "044c9de639f3d6ef5eae9524cd08bf20b923908ca2d29e3f73be8d63fdf31ad9",
+      "file_sha256": "6540e944e23b267f704bfd2d9a0c8ed76f45226eb6ba53453ec529a4cf8fdc19"
+    },
+    {
+      "id": "italic-8-l-10",
+      "file": "reference/crops/italic-8-l-10.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1556,
+        899,
+        1586,
+        956
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        120,
+        228
+      ],
+      "pixel_sha256": "186d5b67764e377cf4cae1aa02158b03b51c88e711a36f5c90206bd646ec12ee",
+      "file_sha256": "c1f8163c1cd8bd62230fe0002945cc72eb7376c2818843d2eea5d79760222fe7"
+    },
+    {
+      "id": "italic-8-l-11",
+      "file": "reference/crops/italic-8-l-11.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1579,
+        899,
+        1619,
+        946
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        188
+      ],
+      "pixel_sha256": "6a778480218126efc439e8912001d5cc8d1d31cffaf46302f6442814fc2064cd",
+      "file_sha256": "f2cbbf168eb4317ce2c18ebd5f519790230454a92bfe1674c59ae368a7a0c437"
+    },
+    {
+      "id": "italic-8-byu-01-13",
+      "file": "reference/crops/italic-8-byu-01-13.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1046,
+        3485,
+        1081,
+        3548
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        140,
+        252
+      ],
+      "pixel_sha256": "643e087e7342faca0946d0232207c7e1bab6b09e4130ffdc57eebd7cedecf40d",
+      "file_sha256": "ae25639bc435f259927a815eaab071e1716a8b17a92560fae5ceccc93e404420"
+    },
+    {
+      "id": "italic-8-byu-01-27",
+      "file": "reference/crops/italic-8-byu-01-27.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1674,
+        3504,
+        1749,
+        3550
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        300,
+        184
+      ],
+      "pixel_sha256": "cdbe85b09e4ae9b39bfe461c56d1ebf00207fcd137df3300b459fe4298e6136c",
+      "file_sha256": "0f79eeeebf71192eba29cee5177be88e7531e18f763a96a80de592d2087b5fe5"
+    },
+    {
+      "id": "italic-8-byu-01-09",
+      "file": "reference/crops/italic-8-byu-01-09.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        878,
+        3501,
+        930,
+        3548
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        208,
+        188
+      ],
+      "pixel_sha256": "d3c57b0f9c94c42bd335b4941644766b18228244a40a0d5796c068d5eca04957",
+      "file_sha256": "3663b982f4b94b457f22f25ad816885daf8136f7e03cacf19dfe859a5babe5a0"
+    },
+    {
+      "id": "italic-8-byu-01-14",
+      "file": "reference/crops/italic-8-byu-01-14.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1073,
+        3501,
+        1119,
+        3550
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        184,
+        196
+      ],
+      "pixel_sha256": "00b6316c8084feff7b4bc78515c87942629d3a481da7cbcf2325a5bae966a096",
+      "file_sha256": "b2e846ccbf1c7892410b431ef7627c59f151697554ff86cb687e39119380919d"
+    },
+    {
+      "id": "italic-8-byu-01-15",
+      "file": "reference/crops/italic-8-byu-01-15.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1109,
+        3501,
+        1163,
+        3561
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        216,
+        240
+      ],
+      "pixel_sha256": "1395b712a5ec959d1546cc088795473c2bf5968a0b81e0b6f7f2292485c443ce",
+      "file_sha256": "322e21e3d4894d2359517a972784eb72c6fa4e820489d5c12fd184ac5dff56a1"
+    },
+    {
+      "id": "italic-8-l-17",
+      "file": "reference/crops/italic-8-l-17.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1793,
+        911,
+        1829,
+        957
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        144,
+        184
+      ],
+      "pixel_sha256": "d60f4bc5fbbb33fc54cae1be245c2895f3f66d8ef09f01eeea43c48d65383198",
+      "file_sha256": "626105f6a68ff524fdc0d4245ee4d6f2b2a8589e8d53834effa8a70b31078008"
+    },
+    {
+      "id": "italic-8-byu-01-22",
+      "file": "reference/crops/italic-8-byu-01-22.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        1422,
+        3503,
+        1469,
+        3550
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        188,
+        188
+      ],
+      "pixel_sha256": "5a660bcbb3d6201b3a0bf25b30e94143ca4bd4089c66ec5cdfb79b12dd37ab86",
+      "file_sha256": "e44980bb9bf729c986ab39f5cefbb01ec6d3fec6a919a3f904b62ebf385511ef"
+    },
+    {
+      "id": "italic-8-byu-01-05",
+      "file": "reference/crops/italic-8-byu-01-05.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        663,
+        3500,
+        705,
+        3548
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        168,
+        192
+      ],
+      "pixel_sha256": "0d061d6765062d1bae99023da4399613645d3abaeecc6c904ceb64ccc1bd2ec8",
+      "file_sha256": "ad43656e097d60cfe93be8e7faa659ef03f2d5ab23302171c41cd63fc69fbd7b"
+    },
+    {
+      "id": "italic-8-l-20",
+      "file": "reference/crops/italic-8-l-20.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1882,
+        902,
+        1907,
+        947
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        100,
+        180
+      ],
+      "pixel_sha256": "7fca56778c0fd926c421801193570b64e91b653589721926624639d5df8dde3b",
+      "file_sha256": "6fd7af746603f06c8ee1f02493e31668e2dcbf49fd22a63528f752195b7d7c67"
+    },
+    {
+      "id": "italic-8-l-21",
+      "file": "reference/crops/italic-8-l-21.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1903,
+        911,
+        1940,
+        947
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        144
+      ],
+      "pixel_sha256": "39b169f367a4b98acaec8b683261694689dd753ef2913d1585991781ca2631a1",
+      "file_sha256": "788d9ce26964c9e711a585b9297f423c80080139bcd239b0e2e2334e5f14faf7"
+    },
+    {
+      "id": "italic-8-byu-01-03",
+      "file": "reference/crops/italic-8-byu-01-03.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        597,
+        3501,
+        645,
+        3548
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        192,
+        188
+      ],
+      "pixel_sha256": "600ed9820f4c70d148a010182f529cd4ce815bd7323d2e9b7ca5b8571910c791",
+      "file_sha256": "13c5de372a13b261885cf3a6f1ce8755ca50414511803827e8c9633d146c6596"
+    },
+    {
+      "id": "italic-8-l-23",
+      "file": "reference/crops/italic-8-l-23.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        1972,
+        912,
+        2025,
+        948
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        212,
+        144
+      ],
+      "pixel_sha256": "7e4aa6a5d1791b7d7f29b6ad98fa230b4a02f082dc5e54e1badca42580611f1c",
+      "file_sha256": "775c2c705a8739ee2ec93db0c2217988439ddb9af2ebfe66c93de1d7993465dd"
+    },
+    {
+      "id": "italic-8-l-24",
+      "file": "reference/crops/italic-8-l-24.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        2020,
+        912,
+        2060,
+        946
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        136
+      ],
+      "pixel_sha256": "bd3943967377a0609d41315c0128967ad5e96343a1b51ed166f1d7c7c5ed4be4",
+      "file_sha256": "67d74d8edba0565c4726f04d8f2cb7fbf5e5f5e27ad3554670eec96bbe70c148"
+    },
+    {
+      "id": "italic-8-byu-01-11",
+      "file": "reference/crops/italic-8-byu-01-11.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        958,
+        3502,
+        1018,
+        3561
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        240,
+        236
+      ],
+      "pixel_sha256": "914ba59e590696e6462f381dc9ba8f0c77c8172c8f2805c25a041dcd88947dae",
+      "file_sha256": "ee1ec33972bf3ed1771b6c3669710618ef1fd25323db5beb560d2785b0691cea"
+    },
+    {
+      "id": "italic-8-l-26",
+      "file": "reference/crops/italic-8-l-26.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        2090,
+        911,
+        2127,
+        947
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        148,
+        144
+      ],
+      "pixel_sha256": "8b7bdc037079f94e843d17aec463b767c1161514378db002d96b257d65ffec33",
+      "file_sha256": "b389e6403e27403d5d990e3e4f15f50c012d79cb013caaf05af8d7fed91d83cb"
+    },
+    {
+      "id": "italic-8-ny-02-01",
+      "file": "reference/crops/italic-8-ny-02-01.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        731,
+        3811,
+        754,
+        3850
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        92,
+        156
+      ],
+      "pixel_sha256": "3a7f1f0f67c31b440aa71ea98b609d9242673432fb488393b62efca13034324c",
+      "file_sha256": "0c9c77c1c324c44820b7a0b936db9597bff72dff382541327d933483fbe88f53"
+    },
+    {
+      "id": "italic-8-ny-02-02",
+      "file": "reference/crops/italic-8-ny-02-02.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        757,
+        3811,
+        791,
+        3851
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        136,
+        160
+      ],
+      "pixel_sha256": "1c3691e7543dd61b39814ccb1e09602c6e6cadd6e0f850faa7f60637e337ff20",
+      "file_sha256": "50c442bbeb4587847ecbd0210378f86a160ef631490e2549a72ff0b94c489151"
+    },
+    {
+      "id": "italic-8-ny-02-03",
+      "file": "reference/crops/italic-8-ny-02-03.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        793,
+        3811,
+        826,
+        3852
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        132,
+        164
+      ],
+      "pixel_sha256": "13a0358fad8cdb6d2211db320207c304bc611bc93be70953cf3ac96c741f7183",
+      "file_sha256": "7cc5fd39b3f7d8e638b2d9e11c796e9bb3c36a680e8760f55a0357d0379e27fe"
+    },
+    {
+      "id": "italic-8-ny-02-04",
+      "file": "reference/crops/italic-8-ny-02-04.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        830,
+        3812,
+        860,
+        3851
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        120,
+        156
+      ],
+      "pixel_sha256": "1f5283c132e1740625c0261484554f7647bd91b8c11f040994154b5f8efc1b13",
+      "file_sha256": "bc8953b3d10780d92bc8d3f47d03cef8fe8329b84f5b091e73cc9ce870a7ad9b"
+    },
+    {
+      "id": "italic-8-n-05",
+      "file": "reference/crops/italic-8-n-05.png",
+      "native_file": "reference/gpo-census-1900-leaf-31.jp2",
+      "native_box": [
+        2355,
+        898,
+        2395,
+        948
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        200
+      ],
+      "pixel_sha256": "7677945f45f4a89d49e7186752a03789ec49b772a6fe604742154f50d0bd47b8",
+      "file_sha256": "62d8257551bbc52c907097c2a4d51a4ac27b6a2d47f557cf8e57d798775e3b3a"
+    },
+    {
+      "id": "italic-8-ny-02-06",
+      "file": "reference/crops/italic-8-ny-02-06.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        901,
+        3812,
+        932,
+        3852
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        124,
+        160
+      ],
+      "pixel_sha256": "2eac29e3943b84b77803147e0f335492f99cfd88718e4ec1acb51f975e1e9ecf",
+      "file_sha256": "7fda5f3368079f1f1dbd4dd2436696182de275797593deda19ab43938d05b88b"
+    },
+    {
+      "id": "italic-8-ny-02-07",
+      "file": "reference/crops/italic-8-ny-02-07.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        938,
+        3812,
+        968,
+        3852
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        120,
+        160
+      ],
+      "pixel_sha256": "1a2f7cce90f81bb00fe82cac0f663ad59fee7821b15808fc618b7bac8335ebf8",
+      "file_sha256": "60264caeda5d7300b4a1be55bf4b906f3fc568af2764e2ad11178744f8319277"
+    },
+    {
+      "id": "italic-8-ny-02-08",
+      "file": "reference/crops/italic-8-ny-02-08.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        969,
+        3812,
+        1001,
+        3853
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        128,
+        164
+      ],
+      "pixel_sha256": "281cca0a63b0584331d54f02370640056cee76f2649fc504d4c36315810a3aa5",
+      "file_sha256": "4d2a2bfa18c42411c0e12b5bf7962a723ef6c3b4ffd899ee8cc6d3e78b86f10b"
+    },
+    {
+      "id": "italic-8-ny-02-09",
+      "file": "reference/crops/italic-8-ny-02-09.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        1006,
+        3812,
+        1037,
+        3852
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        124,
+        160
+      ],
+      "pixel_sha256": "6de218ea9c3d5cfdb63aed2497a74baa46d77dae30654335c416203f21e9889c",
+      "file_sha256": "7a28371113983afd4f398b010afa16772c174e91ee4c7ddbbd2c9213fe40ebcd"
+    },
+    {
+      "id": "italic-8-ny-02-10",
+      "file": "reference/crops/italic-8-ny-02-10.png",
+      "native_file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "native_box": [
+        1044,
+        3813,
+        1075,
+        3853
+      ],
+      "native_rotation_clockwise": 90,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        124,
+        160
+      ],
+      "pixel_sha256": "da056dd68286f441cd23f0f11375fc99fe4ae2a87f7ef0d3f19cb91b6a09237b",
+      "file_sha256": "e783358a3dcf62e5d4e5618a3d897c1ccd6394b7f873ed3281906798458e61f5"
+    },
+    {
+      "id": "italic-8-byu-00-05",
+      "file": "reference/crops/italic-8-byu-00-05.png",
+      "native_file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "native_box": [
+        401,
+        3373,
+        463,
+        3435
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        248,
+        248
+      ],
+      "pixel_sha256": "b40e011a84fb07073f41deaa03dcb61b942117895ee000569cb3279312d53683",
+      "file_sha256": "2ce31036bfea424d80445ee89939274b31f84b34482df5c6b8b04355d3214e80"
+    },
+    {
+      "id": "ryan8-text-17",
+      "file": "reference/crops/ryan8-text-17.png",
+      "native_file": "reference/ryan-1894-leaf-75.jp2",
+      "native_box": [
+        1617,
+        877,
+        1657,
+        918
+      ],
+      "native_rotation_clockwise": 0,
+      "sampling_scale": 4,
+      "resampling": "Pillow LANCZOS",
+      "mode": "RGB",
+      "size": [
+        160,
+        164
+      ],
+      "pixel_sha256": "a488284dbf5b93d93e7dcfd2843afccf2c9905d9f59d77fd0183569e882c0831",
+      "file_sha256": "f0bdbf1961eb16e0c66455d2057b6a9f15dbaf8ee82465a51683a68943ac61de"
+    }
+  ]
+}

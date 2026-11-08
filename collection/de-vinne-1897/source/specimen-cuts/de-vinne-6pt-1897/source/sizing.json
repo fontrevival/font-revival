@@ -1,0 +1,1830 @@
+{
+  "schema_version": 1,
+  "notes": "Complete observed six-point cut. Two figure-top advisories for 6/8 are intentional; named alternatives use alternate-limits.json.",
+  "rules": [
+    {
+      "characters": " ",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        0,
+        0
+      ],
+      "y_max": [
+        0,
+        0
+      ],
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        300,
+        300
+      ]
+    },
+    {
+      "characters": ",",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -143,
+        -136
+      ],
+      "y_max": [
+        164,
+        171
+      ],
+      "ink_width": [
+        182,
+        189
+      ],
+      "ink_height": [
+        304,
+        311
+      ],
+      "advance_width": [
+        255,
+        255
+      ]
+    },
+    {
+      "characters": "-",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        136,
+        143
+      ],
+      "y_max": [
+        332,
+        339
+      ],
+      "ink_width": [
+        365,
+        372
+      ],
+      "ink_height": [
+        192,
+        199
+      ],
+      "advance_width": [
+        439,
+        439
+      ]
+    },
+    {
+      "characters": ".",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -28,
+        -21
+      ],
+      "y_max": [
+        183,
+        190
+      ],
+      "ink_width": [
+        209,
+        216
+      ],
+      "ink_height": [
+        207,
+        214
+      ],
+      "advance_width": [
+        282,
+        282
+      ]
+    },
+    {
+      "characters": "0",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -4,
+        3
+      ],
+      "y_max": [
+        492,
+        499
+      ],
+      "ink_width": [
+        501,
+        508
+      ],
+      "ink_height": [
+        492,
+        499
+      ],
+      "advance_width": [
+        574,
+        574
+      ]
+    },
+    {
+      "characters": "1",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        7,
+        14
+      ],
+      "y_max": [
+        478,
+        485
+      ],
+      "ink_width": [
+        197,
+        204
+      ],
+      "ink_height": [
+        468,
+        475
+      ],
+      "advance_width": [
+        270,
+        270
+      ]
+    },
+    {
+      "characters": "2",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        4,
+        11
+      ],
+      "y_max": [
+        501,
+        508
+      ],
+      "ink_width": [
+        496,
+        503
+      ],
+      "ink_height": [
+        494,
+        501
+      ],
+      "advance_width": [
+        570,
+        570
+      ]
+    },
+    {
+      "characters": "3",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -170,
+        -163
+      ],
+      "y_max": [
+        505,
+        512
+      ],
+      "ink_width": [
+        478,
+        485
+      ],
+      "ink_height": [
+        671,
+        678
+      ],
+      "advance_width": [
+        552,
+        552
+      ]
+    },
+    {
+      "characters": "4",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -180,
+        -173
+      ],
+      "y_max": [
+        510,
+        517
+      ],
+      "ink_width": [
+        522,
+        529
+      ],
+      "ink_height": [
+        686,
+        693
+      ],
+      "advance_width": [
+        595,
+        595
+      ]
+    },
+    {
+      "characters": "5",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -28,
+        -21
+      ],
+      "y_max": [
+        655,
+        662
+      ],
+      "ink_width": [
+        502,
+        509
+      ],
+      "ink_height": [
+        679,
+        686
+      ],
+      "advance_width": [
+        576,
+        576
+      ]
+    },
+    {
+      "characters": "6",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -10,
+        -3
+      ],
+      "y_max": [
+        701,
+        708
+      ],
+      "ink_width": [
+        495,
+        502
+      ],
+      "ink_height": [
+        708,
+        715
+      ],
+      "advance_width": [
+        569,
+        569
+      ]
+    },
+    {
+      "characters": "7",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -4,
+        3
+      ],
+      "y_max": [
+        671,
+        678
+      ],
+      "ink_width": [
+        466,
+        473
+      ],
+      "ink_height": [
+        672,
+        679
+      ],
+      "advance_width": [
+        540,
+        540
+      ]
+    },
+    {
+      "characters": "8",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -4,
+        3
+      ],
+      "y_max": [
+        710,
+        717
+      ],
+      "ink_width": [
+        491,
+        498
+      ],
+      "ink_height": [
+        710,
+        717
+      ],
+      "advance_width": [
+        565,
+        565
+      ]
+    },
+    {
+      "characters": "9",
+      "notes": "Observed mixed figure heights: short 0/1/2, descending 3/4, near-cap lining 5/6/7/8/9. Preserve source-relative positions and independent numeral-block baselines. Two figure-top advisories for 6/8 are intentional.",
+      "y_min": [
+        -16,
+        -9
+      ],
+      "y_max": [
+        676,
+        683
+      ],
+      "ink_width": [
+        514,
+        521
+      ],
+      "ink_height": [
+        689,
+        696
+      ],
+      "advance_width": [
+        587,
+        587
+      ]
+    },
+    {
+      "characters": "A",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        726,
+        733
+      ],
+      "ink_width": [
+        717,
+        724
+      ],
+      "ink_height": [
+        723,
+        730
+      ],
+      "advance_width": [
+        790,
+        790
+      ]
+    },
+    {
+      "characters": "B",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -1,
+        6
+      ],
+      "y_max": [
+        713,
+        720
+      ],
+      "ink_width": [
+        681,
+        688
+      ],
+      "ink_height": [
+        710,
+        717
+      ],
+      "advance_width": [
+        755,
+        755
+      ]
+    },
+    {
+      "characters": "C",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -9,
+        -2
+      ],
+      "y_max": [
+        732,
+        739
+      ],
+      "ink_width": [
+        650,
+        657
+      ],
+      "ink_height": [
+        738,
+        745
+      ],
+      "advance_width": [
+        724,
+        724
+      ]
+    },
+    {
+      "characters": "D",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -8,
+        -1
+      ],
+      "y_max": [
+        711,
+        718
+      ],
+      "ink_width": [
+        642,
+        649
+      ],
+      "ink_height": [
+        716,
+        723
+      ],
+      "advance_width": [
+        716,
+        716
+      ]
+    },
+    {
+      "characters": "E",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -30,
+        -23
+      ],
+      "y_max": [
+        733,
+        740
+      ],
+      "ink_width": [
+        639,
+        646
+      ],
+      "ink_height": [
+        759,
+        766
+      ],
+      "advance_width": [
+        712,
+        712
+      ]
+    },
+    {
+      "characters": "F",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -3,
+        4
+      ],
+      "y_max": [
+        716,
+        723
+      ],
+      "ink_width": [
+        619,
+        626
+      ],
+      "ink_height": [
+        716,
+        723
+      ],
+      "advance_width": [
+        693,
+        693
+      ]
+    },
+    {
+      "characters": "G",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -16,
+        -9
+      ],
+      "y_max": [
+        740,
+        747
+      ],
+      "ink_width": [
+        696,
+        703
+      ],
+      "ink_height": [
+        753,
+        760
+      ],
+      "advance_width": [
+        770,
+        770
+      ]
+    },
+    {
+      "characters": "H",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -18,
+        -11
+      ],
+      "y_max": [
+        714,
+        721
+      ],
+      "ink_width": [
+        700,
+        707
+      ],
+      "ink_height": [
+        729,
+        736
+      ],
+      "advance_width": [
+        774,
+        774
+      ]
+    },
+    {
+      "characters": "I",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -11,
+        -4
+      ],
+      "y_max": [
+        693,
+        700
+      ],
+      "ink_width": [
+        235,
+        242
+      ],
+      "ink_height": [
+        700,
+        707
+      ],
+      "advance_width": [
+        308,
+        308
+      ]
+    },
+    {
+      "characters": "J",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -26,
+        -19
+      ],
+      "y_max": [
+        719,
+        726
+      ],
+      "ink_width": [
+        507,
+        514
+      ],
+      "ink_height": [
+        741,
+        748
+      ],
+      "advance_width": [
+        581,
+        581
+      ]
+    },
+    {
+      "characters": "K",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -9,
+        -2
+      ],
+      "y_max": [
+        701,
+        708
+      ],
+      "ink_width": [
+        652,
+        659
+      ],
+      "ink_height": [
+        707,
+        714
+      ],
+      "advance_width": [
+        725,
+        725
+      ]
+    },
+    {
+      "characters": "L",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -26,
+        -19
+      ],
+      "y_max": [
+        733,
+        740
+      ],
+      "ink_width": [
+        651,
+        658
+      ],
+      "ink_height": [
+        755,
+        762
+      ],
+      "advance_width": [
+        724,
+        724
+      ]
+    },
+    {
+      "characters": "M",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        2,
+        9
+      ],
+      "y_max": [
+        716,
+        723
+      ],
+      "ink_width": [
+        912,
+        919
+      ],
+      "ink_height": [
+        710,
+        717
+      ],
+      "advance_width": [
+        985,
+        985
+      ]
+    },
+    {
+      "characters": "N",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -10,
+        -3
+      ],
+      "y_max": [
+        732,
+        739
+      ],
+      "ink_width": [
+        685,
+        692
+      ],
+      "ink_height": [
+        739,
+        746
+      ],
+      "advance_width": [
+        759,
+        759
+      ]
+    },
+    {
+      "characters": "O",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -16,
+        -9
+      ],
+      "y_max": [
+        720,
+        727
+      ],
+      "ink_width": [
+        686,
+        693
+      ],
+      "ink_height": [
+        732,
+        739
+      ],
+      "advance_width": [
+        759,
+        759
+      ]
+    },
+    {
+      "characters": "P",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -9,
+        -2
+      ],
+      "y_max": [
+        697,
+        704
+      ],
+      "ink_width": [
+        634,
+        641
+      ],
+      "ink_height": [
+        702,
+        709
+      ],
+      "advance_width": [
+        708,
+        708
+      ]
+    },
+    {
+      "characters": "Q",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -186,
+        -179
+      ],
+      "y_max": [
+        706,
+        713
+      ],
+      "ink_width": [
+        666,
+        673
+      ],
+      "ink_height": [
+        888,
+        895
+      ],
+      "advance_width": [
+        740,
+        740
+      ]
+    },
+    {
+      "characters": "R",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -87,
+        -80
+      ],
+      "y_max": [
+        726,
+        733
+      ],
+      "ink_width": [
+        694,
+        701
+      ],
+      "ink_height": [
+        810,
+        817
+      ],
+      "advance_width": [
+        768,
+        768
+      ]
+    },
+    {
+      "characters": "S",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -2,
+        5
+      ],
+      "y_max": [
+        716,
+        723
+      ],
+      "ink_width": [
+        581,
+        588
+      ],
+      "ink_height": [
+        714,
+        721
+      ],
+      "advance_width": [
+        655,
+        655
+      ]
+    },
+    {
+      "characters": "T",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        4,
+        11
+      ],
+      "y_max": [
+        741,
+        748
+      ],
+      "ink_width": [
+        704,
+        711
+      ],
+      "ink_height": [
+        733,
+        740
+      ],
+      "advance_width": [
+        778,
+        778
+      ]
+    },
+    {
+      "characters": "U",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -19,
+        -12
+      ],
+      "y_max": [
+        739,
+        746
+      ],
+      "ink_width": [
+        696,
+        703
+      ],
+      "ink_height": [
+        755,
+        762
+      ],
+      "advance_width": [
+        769,
+        769
+      ]
+    },
+    {
+      "characters": "V",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -7,
+        0
+      ],
+      "y_max": [
+        701,
+        708
+      ],
+      "ink_width": [
+        660,
+        667
+      ],
+      "ink_height": [
+        705,
+        712
+      ],
+      "advance_width": [
+        734,
+        734
+      ]
+    },
+    {
+      "characters": "W",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        17,
+        24
+      ],
+      "y_max": [
+        689,
+        696
+      ],
+      "ink_width": [
+        997,
+        1004
+      ],
+      "ink_height": [
+        668,
+        675
+      ],
+      "advance_width": [
+        1070,
+        1070
+      ]
+    },
+    {
+      "characters": "X",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -13,
+        -6
+      ],
+      "y_max": [
+        694,
+        701
+      ],
+      "ink_width": [
+        664,
+        671
+      ],
+      "ink_height": [
+        704,
+        711
+      ],
+      "advance_width": [
+        737,
+        737
+      ]
+    },
+    {
+      "characters": "Y",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -16,
+        -9
+      ],
+      "y_max": [
+        709,
+        716
+      ],
+      "ink_width": [
+        675,
+        682
+      ],
+      "ink_height": [
+        722,
+        729
+      ],
+      "advance_width": [
+        749,
+        749
+      ]
+    },
+    {
+      "characters": "Z",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -23,
+        -16
+      ],
+      "y_max": [
+        696,
+        703
+      ],
+      "ink_width": [
+        577,
+        584
+      ],
+      "ink_height": [
+        715,
+        722
+      ],
+      "advance_width": [
+        651,
+        651
+      ]
+    },
+    {
+      "characters": "a",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -29,
+        -22
+      ],
+      "y_max": [
+        460,
+        467
+      ],
+      "ink_width": [
+        515,
+        522
+      ],
+      "ink_height": [
+        486,
+        493
+      ],
+      "advance_width": [
+        589,
+        589
+      ]
+    },
+    {
+      "characters": "b",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        9,
+        16
+      ],
+      "y_max": [
+        749,
+        756
+      ],
+      "ink_width": [
+        535,
+        542
+      ],
+      "ink_height": [
+        736,
+        743
+      ],
+      "advance_width": [
+        608,
+        608
+      ]
+    },
+    {
+      "characters": "c",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        0,
+        7
+      ],
+      "y_max": [
+        517,
+        524
+      ],
+      "ink_width": [
+        437,
+        444
+      ],
+      "ink_height": [
+        514,
+        521
+      ],
+      "advance_width": [
+        511,
+        511
+      ]
+    },
+    {
+      "characters": "d",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        14,
+        21
+      ],
+      "y_max": [
+        735,
+        742
+      ],
+      "ink_width": [
+        507,
+        514
+      ],
+      "ink_height": [
+        717,
+        724
+      ],
+      "advance_width": [
+        581,
+        581
+      ]
+    },
+    {
+      "characters": "e",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        1,
+        8
+      ],
+      "y_max": [
+        519,
+        526
+      ],
+      "ink_width": [
+        485,
+        492
+      ],
+      "ink_height": [
+        514,
+        521
+      ],
+      "advance_width": [
+        559,
+        559
+      ]
+    },
+    {
+      "characters": "f",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        6,
+        13
+      ],
+      "y_max": [
+        751,
+        758
+      ],
+      "ink_width": [
+        358,
+        365
+      ],
+      "ink_height": [
+        741,
+        748
+      ],
+      "advance_width": [
+        432,
+        432
+      ]
+    },
+    {
+      "characters": "g",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -239,
+        -232
+      ],
+      "y_max": [
+        493,
+        500
+      ],
+      "ink_width": [
+        580,
+        587
+      ],
+      "ink_height": [
+        728,
+        735
+      ],
+      "advance_width": [
+        654,
+        654
+      ]
+    },
+    {
+      "characters": "h",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        5,
+        12
+      ],
+      "y_max": [
+        732,
+        739
+      ],
+      "ink_width": [
+        560,
+        567
+      ],
+      "ink_height": [
+        724,
+        731
+      ],
+      "advance_width": [
+        634,
+        634
+      ]
+    },
+    {
+      "characters": "i",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        1,
+        8
+      ],
+      "y_max": [
+        720,
+        727
+      ],
+      "ink_width": [
+        230,
+        237
+      ],
+      "ink_height": [
+        716,
+        723
+      ],
+      "advance_width": [
+        303,
+        303
+      ]
+    },
+    {
+      "characters": "j",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -180,
+        -173
+      ],
+      "y_max": [
+        679,
+        686
+      ],
+      "ink_width": [
+        251,
+        258
+      ],
+      "ink_height": [
+        855,
+        862
+      ],
+      "advance_width": [
+        325,
+        325
+      ]
+    },
+    {
+      "characters": "k",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        1,
+        8
+      ],
+      "y_max": [
+        711,
+        718
+      ],
+      "ink_width": [
+        571,
+        578
+      ],
+      "ink_height": [
+        707,
+        714
+      ],
+      "advance_width": [
+        645,
+        645
+      ]
+    },
+    {
+      "characters": "l",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -51,
+        -44
+      ],
+      "y_max": [
+        677,
+        684
+      ],
+      "ink_width": [
+        242,
+        249
+      ],
+      "ink_height": [
+        724,
+        731
+      ],
+      "advance_width": [
+        316,
+        316
+      ]
+    },
+    {
+      "characters": "m",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        3,
+        10
+      ],
+      "y_max": [
+        504,
+        511
+      ],
+      "ink_width": [
+        840,
+        847
+      ],
+      "ink_height": [
+        497,
+        504
+      ],
+      "advance_width": [
+        913,
+        913
+      ]
+    },
+    {
+      "characters": "n",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -12,
+        -5
+      ],
+      "y_max": [
+        506,
+        513
+      ],
+      "ink_width": [
+        554,
+        561
+      ],
+      "ink_height": [
+        514,
+        521
+      ],
+      "advance_width": [
+        627,
+        627
+      ]
+    },
+    {
+      "characters": "o",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -6,
+        1
+      ],
+      "y_max": [
+        507,
+        514
+      ],
+      "ink_width": [
+        485,
+        492
+      ],
+      "ink_height": [
+        509,
+        516
+      ],
+      "advance_width": [
+        558,
+        558
+      ]
+    },
+    {
+      "characters": "p",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -192,
+        -185
+      ],
+      "y_max": [
+        485,
+        492
+      ],
+      "ink_width": [
+        512,
+        519
+      ],
+      "ink_height": [
+        674,
+        681
+      ],
+      "advance_width": [
+        586,
+        586
+      ]
+    },
+    {
+      "characters": "q",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -195,
+        -188
+      ],
+      "y_max": [
+        480,
+        487
+      ],
+      "ink_width": [
+        494,
+        501
+      ],
+      "ink_height": [
+        671,
+        678
+      ],
+      "advance_width": [
+        567,
+        567
+      ]
+    },
+    {
+      "characters": "r",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        7,
+        14
+      ],
+      "y_max": [
+        518,
+        525
+      ],
+      "ink_width": [
+        416,
+        423
+      ],
+      "ink_height": [
+        507,
+        514
+      ],
+      "advance_width": [
+        489,
+        489
+      ]
+    },
+    {
+      "characters": "s",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        2,
+        9
+      ],
+      "y_max": [
+        522,
+        529
+      ],
+      "ink_width": [
+        437,
+        444
+      ],
+      "ink_height": [
+        517,
+        524
+      ],
+      "advance_width": [
+        511,
+        511
+      ]
+    },
+    {
+      "characters": "t",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -26,
+        -19
+      ],
+      "y_max": [
+        689,
+        696
+      ],
+      "ink_width": [
+        408,
+        415
+      ],
+      "ink_height": [
+        711,
+        718
+      ],
+      "advance_width": [
+        482,
+        482
+      ]
+    },
+    {
+      "characters": "u",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -21,
+        -14
+      ],
+      "y_max": [
+        526,
+        533
+      ],
+      "ink_width": [
+        536,
+        543
+      ],
+      "ink_height": [
+        543,
+        550
+      ],
+      "advance_width": [
+        609,
+        609
+      ]
+    },
+    {
+      "characters": "v",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -17,
+        -10
+      ],
+      "y_max": [
+        492,
+        499
+      ],
+      "ink_width": [
+        561,
+        568
+      ],
+      "ink_height": [
+        505,
+        512
+      ],
+      "advance_width": [
+        634,
+        634
+      ]
+    },
+    {
+      "characters": "w",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -49,
+        -42
+      ],
+      "y_max": [
+        453,
+        460
+      ],
+      "ink_width": [
+        816,
+        823
+      ],
+      "ink_height": [
+        499,
+        506
+      ],
+      "advance_width": [
+        889,
+        889
+      ]
+    },
+    {
+      "characters": "x",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -12,
+        -5
+      ],
+      "y_max": [
+        452,
+        459
+      ],
+      "ink_width": [
+        489,
+        496
+      ],
+      "ink_height": [
+        461,
+        468
+      ],
+      "advance_width": [
+        562,
+        562
+      ]
+    },
+    {
+      "characters": "y",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -191,
+        -184
+      ],
+      "y_max": [
+        505,
+        512
+      ],
+      "ink_width": [
+        600,
+        607
+      ],
+      "ink_height": [
+        693,
+        700
+      ],
+      "advance_width": [
+        673,
+        673
+      ]
+    },
+    {
+      "characters": "z",
+      "notes": "Reviewed six-point source proportions, allowing format conversion rounding. Preserve overshoots, serifs, tails and descenders.",
+      "y_min": [
+        -27,
+        -20
+      ],
+      "y_max": [
+        477,
+        484
+      ],
+      "ink_width": [
+        433,
+        440
+      ],
+      "ink_height": [
+        500,
+        507
+      ],
+      "advance_width": [
+        507,
+        507
+      ]
+    },
+    {
+      "characters": "¼",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -116,
+        -109
+      ],
+      "y_max": [
+        800,
+        807
+      ],
+      "ink_width": [
+        861,
+        868
+      ],
+      "ink_height": [
+        912,
+        919
+      ],
+      "advance_width": [
+        934,
+        934
+      ]
+    },
+    {
+      "characters": "½",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -108,
+        -101
+      ],
+      "y_max": [
+        814,
+        821
+      ],
+      "ink_width": [
+        847,
+        854
+      ],
+      "ink_height": [
+        918,
+        925
+      ],
+      "advance_width": [
+        920,
+        920
+      ]
+    },
+    {
+      "characters": "¾",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -108,
+        -101
+      ],
+      "y_max": [
+        791,
+        798
+      ],
+      "ink_width": [
+        885,
+        892
+      ],
+      "ink_height": [
+        896,
+        903
+      ],
+      "advance_width": [
+        958,
+        958
+      ]
+    },
+    {
+      "characters": "⅓",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -112,
+        -105
+      ],
+      "y_max": [
+        800,
+        807
+      ],
+      "ink_width": [
+        893,
+        900
+      ],
+      "ink_height": [
+        909,
+        916
+      ],
+      "advance_width": [
+        966,
+        966
+      ]
+    },
+    {
+      "characters": "⅔",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -112,
+        -105
+      ],
+      "y_max": [
+        807,
+        814
+      ],
+      "ink_width": [
+        865,
+        872
+      ],
+      "ink_height": [
+        916,
+        923
+      ],
+      "advance_width": [
+        938,
+        938
+      ]
+    },
+    {
+      "characters": "⅞",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -92,
+        -85
+      ],
+      "y_max": [
+        782,
+        789
+      ],
+      "ink_width": [
+        861,
+        868
+      ],
+      "ink_height": [
+        870,
+        877
+      ],
+      "advance_width": [
+        935,
+        935
+      ]
+    },
+    {
+      "characters": "¢",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -130,
+        -123
+      ],
+      "y_max": [
+        780,
+        787
+      ],
+      "ink_width": [
+        515,
+        522
+      ],
+      "ink_height": [
+        906,
+        913
+      ],
+      "advance_width": [
+        589,
+        589
+      ]
+    },
+    {
+      "characters": "%",
+      "notes": "Observed whole fraction/symbol at physical source size, with modern mid-cap placement and conversion-rounding allowance.",
+      "y_min": [
+        -134,
+        -127
+      ],
+      "y_max": [
+        744,
+        751
+      ],
+      "ink_width": [
+        896,
+        903
+      ],
+      "ink_height": [
+        874,
+        881
+      ],
+      "advance_width": [
+        969,
+        969
+      ]
+    },
+    {
+      "characters": ";",
+      "notes": "Whole observed poster punctuation at independent common-capital scale and native text-row baseline. Preserve source position and modern 35-unit sidebearings; allow conversion rounding.",
+      "y_min": [
+        -142,
+        -135
+      ],
+      "y_max": [
+        498,
+        505
+      ],
+      "ink_width": [
+        178,
+        185
+      ],
+      "ink_height": [
+        637,
+        644
+      ],
+      "advance_width": [
+        252,
+        252
+      ]
+    },
+    {
+      "characters": "’",
+      "notes": "Whole observed poster punctuation at independent common-capital scale and native text-row baseline. Preserve source position and modern 35-unit sidebearings; allow conversion rounding.",
+      "y_min": [
+        408,
+        415
+      ],
+      "y_max": [
+        715,
+        722
+      ],
+      "ink_width": [
+        177,
+        184
+      ],
+      "ink_height": [
+        304,
+        311
+      ],
+      "advance_width": [
+        250,
+        250
+      ]
+    }
+  ]
+}

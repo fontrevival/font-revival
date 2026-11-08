@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "notes": "Observed figure geometry and source positions, with allowance for font conversion rounding.",
+  "glyphs": {
+    "zero.tall": {
+      "character": "0",
+      "feature": "lnum",
+      "bounds": {
+        "y_min": [
+          -17,
+          -10
+        ],
+        "y_max": [
+          686,
+          693
+        ],
+        "ink_width": [
+          484,
+          491
+        ],
+        "ink_height": [
+          699,
+          706
+        ]
+      },
+      "advance": 555,
+      "contours": 2
+    },
+    "one.lining": {
+      "character": "1",
+      "feature": "lnum",
+      "bounds": {
+        "y_min": [
+          -5,
+          2
+        ],
+        "y_max": [
+          656,
+          663
+        ],
+        "ink_width": [
+          242,
+          249
+        ],
+        "ink_height": [
+          658,
+          665
+        ]
+      },
+      "advance": 316,
+      "contours": 1
+    },
+    "two.lining": {
+      "character": "2",
+      "feature": "lnum",
+      "bounds": {
+        "y_min": [
+          0,
+          7
+        ],
+        "y_max": [
+          691,
+          698
+        ],
+        "ink_width": [
+          489,
+          496
+        ],
+        "ink_height": [
+          687,
+          694
+        ]
+      },
+      "advance": 563,
+      "contours": 1
+    },
+    "five.lining": {
+      "character": "5",
+      "feature": "lnum",
+      "bounds": {
+        "y_min": [
+          -9,
+          -2
+        ],
+        "y_max": [
+          663,
+          670
+        ],
+        "ink_width": [
+          452,
+          459
+        ],
+        "ink_height": [
+          669,
+          676
+        ]
+      },
+      "advance": 526,
+      "contours": 1
+    },
+    "seven.lining": {
+      "character": "7",
+      "feature": "lnum",
+      "bounds": {
+        "y_min": [
+          -4,
+          3
+        ],
+        "y_max": [
+          667,
+          674
+        ],
+        "ink_width": [
+          476,
+          483
+        ],
+        "ink_height": [
+          668,
+          675
+        ]
+      },
+      "advance": 549,
+      "contours": 1
+    },
+    "nine.lining": {
+      "character": "9",
+      "feature": "lnum",
+      "bounds": {
+        "y_min": [
+          -7,
+          0
+        ],
+        "y_max": [
+          654,
+          661
+        ],
+        "ink_width": [
+          466,
+          473
+        ],
+        "ink_height": [
+          657,
+          664
+        ]
+      },
+      "advance": 539,
+      "contours": 2
+    },
+    "three.oldstyle": {
+      "character": "3",
+      "feature": "onum/ss02",
+      "bounds": {
+        "y_min": [
+          -204,
+          -197
+        ],
+        "y_max": [
+          471,
+          478
+        ],
+        "ink_width": [
+          486,
+          493
+        ],
+        "ink_height": [
+          671,
+          678
+        ]
+      },
+      "advance": 559,
+      "contours": 1
+    },
+    "four.oldstyle": {
+      "character": "4",
+      "feature": "onum/ss02",
+      "bounds": {
+        "y_min": [
+          -185,
+          -178
+        ],
+        "y_max": [
+          497,
+          504
+        ],
+        "ink_width": [
+          493,
+          500
+        ],
+        "ink_height": [
+          678,
+          685
+        ]
+      },
+      "advance": 566,
+      "contours": 2
+    }
+  }
+}

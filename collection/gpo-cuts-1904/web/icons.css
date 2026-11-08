@@ -1,0 +1,1198 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-gpo-1904-38 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-38::before { content: "\E000"; }
+.fr-gpo-1904-39 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-39::before { content: "\E001"; }
+.fr-gpo-1904-40 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-40::before { content: "\E002"; }
+.fr-gpo-1904-41 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-41::before { content: "\E003"; }
+.fr-gpo-1904-42 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-42::before { content: "\E004"; }
+.fr-gpo-1904-43 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-43::before { content: "\E005"; }
+.fr-gpo-1904-44 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-44::before { content: "\E006"; }
+.fr-gpo-1904-46 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-46::before { content: "\E007"; }
+.fr-gpo-1904-47 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-47::before { content: "\E008"; }
+.fr-gpo-1904-48 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-48::before { content: "\E009"; }
+.fr-gpo-1904-49 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-49::before { content: "\E00A"; }
+.fr-gpo-1904-50 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-50::before { content: "\E00B"; }
+.fr-gpo-1904-51 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-51::before { content: "\E00C"; }
+.fr-gpo-1904-52 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-52::before { content: "\E00D"; }
+.fr-gpo-1904-53 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-53::before { content: "\E00E"; }
+.fr-gpo-1904-54 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-54::before { content: "\E00F"; }
+.fr-gpo-1904-55 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-55::before { content: "\E010"; }
+.fr-gpo-1904-56 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-56::before { content: "\E011"; }
+.fr-gpo-1904-57 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-57::before { content: "\E012"; }
+.fr-gpo-1904-58 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-58::before { content: "\E013"; }
+.fr-gpo-1904-59 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-59::before { content: "\E014"; }
+.fr-gpo-1904-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-1::before { content: "\E015"; }
+.fr-gpo-1904-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-2::before { content: "\E016"; }
+.fr-gpo-1904-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-3::before { content: "\E017"; }
+.fr-gpo-1904-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-4::before { content: "\E018"; }
+.fr-gpo-1904-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-5::before { content: "\E019"; }
+.fr-gpo-1904-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-7::before { content: "\E01A"; }
+.fr-gpo-1904-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-8::before { content: "\E01B"; }
+.fr-gpo-1904-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-9::before { content: "\E01C"; }
+.fr-gpo-1904-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-10::before { content: "\E01D"; }
+.fr-gpo-1904-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-11::before { content: "\E01E"; }
+.fr-gpo-1904-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-12::before { content: "\E01F"; }
+.fr-gpo-1904-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-13::before { content: "\E020"; }
+.fr-gpo-1904-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-14::before { content: "\E021"; }
+.fr-gpo-1904-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-16::before { content: "\E022"; }
+.fr-gpo-1904-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-17::before { content: "\E023"; }
+.fr-gpo-1904-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-18::before { content: "\E024"; }
+.fr-gpo-1904-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-19::before { content: "\E025"; }
+.fr-gpo-1904-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-20::before { content: "\E026"; }
+.fr-gpo-1904-21 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-21::before { content: "\E027"; }
+.fr-gpo-1904-22 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-22::before { content: "\E028"; }
+.fr-gpo-1904-23 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-23::before { content: "\E029"; }
+.fr-gpo-1904-24 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-24::before { content: "\E02A"; }
+.fr-gpo-1904-28 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-28::before { content: "\E02B"; }
+.fr-gpo-1904-29 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-29::before { content: "\E02C"; }
+.fr-gpo-1904-30 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-30::before { content: "\E02D"; }
+.fr-gpo-1904-31 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-31::before { content: "\E02E"; }
+.fr-gpo-1904-32 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-32::before { content: "\E02F"; }
+.fr-gpo-1904-33 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-33::before { content: "\E030"; }
+.fr-gpo-1904-34 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-34::before { content: "\E031"; }
+.fr-gpo-1904-35 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-35::before { content: "\E032"; }
+.fr-gpo-1904-36 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-36::before { content: "\E033"; }
+.fr-gpo-1904-37 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-37::before { content: "\E034"; }
+.fr-gpo-1904-frontispiece { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-frontispiece::before { content: "\E035"; }
+.fr-gpo-1904-hand-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-1::before { content: "\E036"; }
+.fr-gpo-1904-hand-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-2::before { content: "\E037"; }
+.fr-gpo-1904-hand-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-3::before { content: "\E038"; }
+.fr-gpo-1904-hand-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-4::before { content: "\E039"; }
+.fr-gpo-1904-hand-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-5::before { content: "\E03A"; }
+.fr-gpo-1904-hand-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-8::before { content: "\E03B"; }
+.fr-gpo-1904-hand-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-9::before { content: "\E03C"; }
+.fr-gpo-1904-hand-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-10::before { content: "\E03D"; }
+.fr-gpo-1904-hand-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-11::before { content: "\E03E"; }
+.fr-gpo-1904-hand-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-12::before { content: "\E03F"; }
+.fr-gpo-1904-hand-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-13::before { content: "\E040"; }
+.fr-gpo-1904-hand-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-14::before { content: "\E041"; }
+.fr-gpo-1904-hand-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-15::before { content: "\E042"; }
+.fr-gpo-1904-hand-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-16::before { content: "\E043"; }
+.fr-gpo-1904-hand-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-19::before { content: "\E044"; }
+.fr-gpo-1904-hand-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-20::before { content: "\E045"; }
+.fr-gpo-1904-hand-23 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-23::before { content: "\E046"; }
+.fr-gpo-1904-hand-24 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-24::before { content: "\E047"; }
+.fr-gpo-1904-hand-25 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-25::before { content: "\E048"; }
+.fr-gpo-1904-hand-32 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-32::before { content: "\E049"; }
+.fr-gpo-1904-hand-35 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-35::before { content: "\E04A"; }
+.fr-gpo-1904-hand-36 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-36::before { content: "\E04B"; }
+.fr-gpo-1904-hand-39 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-39::before { content: "\E04C"; }
+.fr-gpo-1904-hand-40 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-40::before { content: "\E04D"; }
+.fr-gpo-1904-hand-41 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-41::before { content: "\E04E"; }
+.fr-gpo-1904-hand-42 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-42::before { content: "\E04F"; }
+.fr-gpo-1904-hand-48 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-48::before { content: "\E050"; }
+.fr-gpo-1904-hand-49 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-hand-49::before { content: "\E051"; }
+.fr-gpo-1904-flag-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-flag-3::before { content: "\E052"; }
+.fr-gpo-1904-flag-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-flag-4::before { content: "\E053"; }
+.fr-gpo-1904-flag-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-flag-5::before { content: "\E054"; }
+.fr-gpo-1904-flag-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-flag-6::before { content: "\E055"; }
+.fr-gpo-1904-60 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-60::before { content: "\E056"; }
+.fr-gpo-1904-61 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-61::before { content: "\E057"; }
+.fr-gpo-1904-62 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-62::before { content: "\E058"; }
+.fr-gpo-1904-63 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-63::before { content: "\E059"; }
+.fr-gpo-1904-64 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-64::before { content: "\E05A"; }
+.fr-gpo-1904-65 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-65::before { content: "\E05B"; }
+.fr-gpo-1904-66 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-66::before { content: "\E05C"; }
+.fr-gpo-1904-67 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-67::before { content: "\E05D"; }
+.fr-gpo-1904-68 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-68::before { content: "\E05E"; }
+.fr-gpo-1904-69 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-69::before { content: "\E05F"; }
+.fr-gpo-1904-70 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-70::before { content: "\E060"; }
+.fr-gpo-1904-71 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-71::before { content: "\E061"; }
+.fr-gpo-1904-72 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-72::before { content: "\E062"; }
+.fr-gpo-1904-73 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-73::before { content: "\E063"; }
+.fr-gpo-1904-74 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-74::before { content: "\E064"; }
+.fr-gpo-1904-75 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-75::before { content: "\E065"; }
+.fr-gpo-1904-76 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-76::before { content: "\E066"; }
+.fr-gpo-1904-77 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-77::before { content: "\E067"; }
+.fr-gpo-1904-78 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-78::before { content: "\E068"; }
+.fr-gpo-1904-79 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-79::before { content: "\E069"; }
+.fr-gpo-1904-80 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-80::before { content: "\E06A"; }
+.fr-gpo-1904-81 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-81::before { content: "\E06B"; }
+.fr-gpo-1904-82 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-82::before { content: "\E06C"; }
+.fr-gpo-1904-83 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-83::before { content: "\E06D"; }
+.fr-gpo-1904-84 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-84::before { content: "\E06E"; }
+.fr-gpo-1904-85 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-85::before { content: "\E06F"; }
+.fr-gpo-1904-86 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-86::before { content: "\E070"; }
+.fr-gpo-1904-check-g1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-g1::before { content: "\E071"; }
+.fr-gpo-1904-check-g2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-g2::before { content: "\E072"; }
+.fr-gpo-1904-check-h1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-h1::before { content: "\E073"; }
+.fr-gpo-1904-check-h2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-h2::before { content: "\E074"; }
+.fr-gpo-1904-check-j1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-j1::before { content: "\E075"; }
+.fr-gpo-1904-check-j2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-j2::before { content: "\E076"; }
+.fr-gpo-1904-check-k1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-k1::before { content: "\E077"; }
+.fr-gpo-1904-check-k2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-k2::before { content: "\E078"; }
+.fr-gpo-1904-check-l1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-l1::before { content: "\E079"; }
+.fr-gpo-1904-check-l2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-l2::before { content: "\E07A"; }
+.fr-gpo-1904-check-m1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-m1::before { content: "\E07B"; }
+.fr-gpo-1904-check-m2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-m2::before { content: "\E07C"; }
+.fr-gpo-1904-check-n1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-n1::before { content: "\E07D"; }
+.fr-gpo-1904-check-n2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-n2::before { content: "\E07E"; }
+.fr-gpo-1904-check-o1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-o1::before { content: "\E07F"; }
+.fr-gpo-1904-check-o2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-o2::before { content: "\E080"; }
+.fr-gpo-1904-check-p1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-p1::before { content: "\E081"; }
+.fr-gpo-1904-check-p2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-p2::before { content: "\E082"; }
+.fr-gpo-1904-check-q1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-q1::before { content: "\E083"; }
+.fr-gpo-1904-check-q2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-q2::before { content: "\E084"; }
+.fr-gpo-1904-check-r1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-r1::before { content: "\E085"; }
+.fr-gpo-1904-check-r2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-r2::before { content: "\E086"; }
+.fr-gpo-1904-check-s1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-s1::before { content: "\E087"; }
+.fr-gpo-1904-check-s2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-s2::before { content: "\E088"; }
+.fr-gpo-1904-check-u1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-u1::before { content: "\E089"; }
+.fr-gpo-1904-check-u2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-u2::before { content: "\E08A"; }
+.fr-gpo-1904-check-v1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-v1::before { content: "\E08B"; }
+.fr-gpo-1904-check-v2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-v2::before { content: "\E08C"; }
+.fr-gpo-1904-check-a1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-a1::before { content: "\E08D"; }
+.fr-gpo-1904-check-a2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-a2::before { content: "\E08E"; }
+.fr-gpo-1904-check-b1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-b1::before { content: "\E08F"; }
+.fr-gpo-1904-check-b2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-b2::before { content: "\E090"; }
+.fr-gpo-1904-check-c1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-c1::before { content: "\E091"; }
+.fr-gpo-1904-check-c2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-c2::before { content: "\E092"; }
+.fr-gpo-1904-check-d1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-d1::before { content: "\E093"; }
+.fr-gpo-1904-check-d2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-d2::before { content: "\E094"; }
+.fr-gpo-1904-check-d4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-d4::before { content: "\E095"; }
+.fr-gpo-1904-check-d5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-d5::before { content: "\E096"; }
+.fr-gpo-1904-check-e1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-e1::before { content: "\E097"; }
+.fr-gpo-1904-check-e2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-e2::before { content: "\E098"; }
+.fr-gpo-1904-check-f1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-check-f1::before { content: "\E099"; }
+.fr-gpo-1904-seal-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-1::before { content: "\E09A"; }
+.fr-gpo-1904-seal-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-2::before { content: "\E09B"; }
+.fr-gpo-1904-seal-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-3::before { content: "\E09C"; }
+.fr-gpo-1904-seal-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-4::before { content: "\E09D"; }
+.fr-gpo-1904-seal-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-5::before { content: "\E09E"; }
+.fr-gpo-1904-seal-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-6::before { content: "\E09F"; }
+.fr-gpo-1904-seal-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-7::before { content: "\E0A0"; }
+.fr-gpo-1904-seal-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-8::before { content: "\E0A1"; }
+.fr-gpo-1904-seal-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-9::before { content: "\E0A2"; }
+.fr-gpo-1904-seal-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-10::before { content: "\E0A3"; }
+.fr-gpo-1904-seal-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-11::before { content: "\E0A4"; }
+.fr-gpo-1904-seal-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-12::before { content: "\E0A5"; }
+.fr-gpo-1904-seal-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-13::before { content: "\E0A6"; }
+.fr-gpo-1904-seal-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-14::before { content: "\E0A7"; }
+.fr-gpo-1904-seal-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-15::before { content: "\E0A8"; }
+.fr-gpo-1904-seal-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-16::before { content: "\E0A9"; }
+.fr-gpo-1904-seal-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-17::before { content: "\E0AA"; }
+.fr-gpo-1904-seal-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-18::before { content: "\E0AB"; }
+.fr-gpo-1904-seal-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-19::before { content: "\E0AC"; }
+.fr-gpo-1904-seal-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-20::before { content: "\E0AD"; }
+.fr-gpo-1904-seal-21 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-21::before { content: "\E0AE"; }
+.fr-gpo-1904-seal-22 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-22::before { content: "\E0AF"; }
+.fr-gpo-1904-seal-23 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-23::before { content: "\E0B0"; }
+.fr-gpo-1904-seal-24 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-24::before { content: "\E0B1"; }
+.fr-gpo-1904-seal-25 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-25::before { content: "\E0B2"; }
+.fr-gpo-1904-seal-26 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-26::before { content: "\E0B3"; }
+.fr-gpo-1904-seal-27 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-27::before { content: "\E0B4"; }
+.fr-gpo-1904-seal-28 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-28::before { content: "\E0B5"; }
+.fr-gpo-1904-seal-30 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-30::before { content: "\E0B6"; }
+.fr-gpo-1904-seal-31 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-31::before { content: "\E0B7"; }
+.fr-gpo-1904-seal-32 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-32::before { content: "\E0B8"; }
+.fr-gpo-1904-seal-33 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-33::before { content: "\E0B9"; }
+.fr-gpo-1904-seal-35 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-35::before { content: "\E0BA"; }
+.fr-gpo-1904-seal-36 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-36::before { content: "\E0BB"; }
+.fr-gpo-1904-seal-37 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-37::before { content: "\E0BC"; }
+.fr-gpo-1904-seal-38 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-38::before { content: "\E0BD"; }
+.fr-gpo-1904-seal-39 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-39::before { content: "\E0BE"; }
+.fr-gpo-1904-seal-40 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-40::before { content: "\E0BF"; }
+.fr-gpo-1904-seal-41 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-41::before { content: "\E0C0"; }
+.fr-gpo-1904-seal-42 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-42::before { content: "\E0C1"; }
+.fr-gpo-1904-seal-43 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-43::before { content: "\E0C2"; }
+.fr-gpo-1904-seal-44 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-44::before { content: "\E0C3"; }
+.fr-gpo-1904-seal-45 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-45::before { content: "\E0C4"; }
+.fr-gpo-1904-seal-46 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-46::before { content: "\E0C5"; }
+.fr-gpo-1904-seal-47 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-47::before { content: "\E0C6"; }
+.fr-gpo-1904-seal-48 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-48::before { content: "\E0C7"; }
+.fr-gpo-1904-seal-49 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-49::before { content: "\E0C8"; }
+.fr-gpo-1904-seal-50 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-50::before { content: "\E0C9"; }
+.fr-gpo-1904-seal-52 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-52::before { content: "\E0CA"; }
+.fr-gpo-1904-seal-53 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-53::before { content: "\E0CB"; }
+.fr-gpo-1904-seal-54 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-54::before { content: "\E0CC"; }
+.fr-gpo-1904-seal-55 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-55::before { content: "\E0CD"; }
+.fr-gpo-1904-seal-56 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-56::before { content: "\E0CE"; }
+.fr-gpo-1904-seal-58 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-58::before { content: "\E0CF"; }
+.fr-gpo-1904-seal-59 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-59::before { content: "\E0D0"; }
+.fr-gpo-1904-seal-60 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-60::before { content: "\E0D1"; }
+.fr-gpo-1904-seal-61 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-61::before { content: "\E0D2"; }
+.fr-gpo-1904-seal-62 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-62::before { content: "\E0D3"; }
+.fr-gpo-1904-seal-63 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-63::before { content: "\E0D4"; }
+.fr-gpo-1904-seal-64 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-64::before { content: "\E0D5"; }
+.fr-gpo-1904-seal-65 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-65::before { content: "\E0D6"; }
+.fr-gpo-1904-seal-66 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-66::before { content: "\E0D7"; }
+.fr-gpo-1904-seal-67 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-67::before { content: "\E0D8"; }
+.fr-gpo-1904-seal-68 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-68::before { content: "\E0D9"; }
+.fr-gpo-1904-seal-70 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-70::before { content: "\E0DA"; }
+.fr-gpo-1904-seal-71 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-71::before { content: "\E0DB"; }
+.fr-gpo-1904-seal-72 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-72::before { content: "\E0DC"; }
+.fr-gpo-1904-seal-73 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-73::before { content: "\E0DD"; }
+.fr-gpo-1904-seal-74 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-74::before { content: "\E0DE"; }
+.fr-gpo-1904-seal-75 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-75::before { content: "\E0DF"; }
+.fr-gpo-1904-seal-76 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-76::before { content: "\E0E0"; }
+.fr-gpo-1904-seal-77 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-77::before { content: "\E0E1"; }
+.fr-gpo-1904-seal-78 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-78::before { content: "\E0E2"; }
+.fr-gpo-1904-seal-79 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-79::before { content: "\E0E3"; }
+.fr-gpo-1904-seal-80 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-80::before { content: "\E0E4"; }
+.fr-gpo-1904-seal-81 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-81::before { content: "\E0E5"; }
+.fr-gpo-1904-seal-82 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-82::before { content: "\E0E6"; }
+.fr-gpo-1904-seal-83 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-83::before { content: "\E0E7"; }
+.fr-gpo-1904-seal-84 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-84::before { content: "\E0E8"; }
+.fr-gpo-1904-seal-85 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-85::before { content: "\E0E9"; }
+.fr-gpo-1904-seal-86 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-86::before { content: "\E0EA"; }
+.fr-gpo-1904-seal-87 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-87::before { content: "\E0EB"; }
+.fr-gpo-1904-seal-88 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-88::before { content: "\E0EC"; }
+.fr-gpo-1904-seal-89 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-89::before { content: "\E0ED"; }
+.fr-gpo-1904-seal-90 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-90::before { content: "\E0EE"; }
+.fr-gpo-1904-seal-91 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-91::before { content: "\E0EF"; }
+.fr-gpo-1904-seal-92 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-92::before { content: "\E0F0"; }
+.fr-gpo-1904-seal-93 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-93::before { content: "\E0F1"; }
+.fr-gpo-1904-seal-94 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-94::before { content: "\E0F2"; }
+.fr-gpo-1904-seal-95 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-95::before { content: "\E0F3"; }
+.fr-gpo-1904-seal-96 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-96::before { content: "\E0F4"; }
+.fr-gpo-1904-seal-97 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-97::before { content: "\E0F5"; }
+.fr-gpo-1904-seal-98 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-98::before { content: "\E0F6"; }
+.fr-gpo-1904-seal-100 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-100::before { content: "\E0F7"; }
+.fr-gpo-1904-seal-102 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-102::before { content: "\E0F8"; }
+.fr-gpo-1904-seal-103 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-103::before { content: "\E0F9"; }
+.fr-gpo-1904-seal-104 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-104::before { content: "\E0FA"; }
+.fr-gpo-1904-seal-106 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-106::before { content: "\E0FB"; }
+.fr-gpo-1904-seal-107 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-107::before { content: "\E0FC"; }
+.fr-gpo-1904-seal-108 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-108::before { content: "\E0FD"; }
+.fr-gpo-1904-seal-109 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-109::before { content: "\E0FE"; }
+.fr-gpo-1904-seal-110 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-110::before { content: "\E0FF"; }
+.fr-gpo-1904-seal-34 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-seal-34::before { content: "\E100"; }
+.fr-gpo-1904-post-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-1::before { content: "\E101"; }
+.fr-gpo-1904-post-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-2::before { content: "\E102"; }
+.fr-gpo-1904-post-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-3::before { content: "\E103"; }
+.fr-gpo-1904-post-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-5::before { content: "\E104"; }
+.fr-gpo-1904-post-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-6::before { content: "\E105"; }
+.fr-gpo-1904-post-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-7::before { content: "\E106"; }
+.fr-gpo-1904-post-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-8::before { content: "\E107"; }
+.fr-gpo-1904-post-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-10::before { content: "\E108"; }
+.fr-gpo-1904-post-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-11::before { content: "\E109"; }
+.fr-gpo-1904-post-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-12::before { content: "\E10A"; }
+.fr-gpo-1904-post-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-13::before { content: "\E10B"; }
+.fr-gpo-1904-post-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-14::before { content: "\E10C"; }
+.fr-gpo-1904-post-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-15::before { content: "\E10D"; }
+.fr-gpo-1904-post-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-18::before { content: "\E10E"; }
+.fr-gpo-1904-post-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-19::before { content: "\E10F"; }
+.fr-gpo-1904-post-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-20::before { content: "\E110"; }
+.fr-gpo-1904-post-21 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-21::before { content: "\E111"; }
+.fr-gpo-1904-post-23 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-23::before { content: "\E112"; }
+.fr-gpo-1904-post-24 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-24::before { content: "\E113"; }
+.fr-gpo-1904-post-29 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-29::before { content: "\E114"; }
+.fr-gpo-1904-post-33 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-33::before { content: "\E115"; }
+.fr-gpo-1904-post-38 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-38::before { content: "\E116"; }
+.fr-gpo-1904-post-39 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-39::before { content: "\E117"; }
+.fr-gpo-1904-post-40 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-40::before { content: "\E118"; }
+.fr-gpo-1904-post-43 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-post-43::before { content: "\E119"; }
+.fr-gpo-1904-art-strokes-1-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-1-17::before { content: "\E11A"; }
+.fr-gpo-1904-art-strokes-1-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-1-18::before { content: "\E11B"; }
+.fr-gpo-1904-art-strokes-2-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-1::before { content: "\E11C"; }
+.fr-gpo-1904-art-strokes-2-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-2::before { content: "\E11D"; }
+.fr-gpo-1904-art-strokes-2-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-3::before { content: "\E11E"; }
+.fr-gpo-1904-art-strokes-2-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-4::before { content: "\E11F"; }
+.fr-gpo-1904-art-strokes-2-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-5::before { content: "\E120"; }
+.fr-gpo-1904-art-strokes-2-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-6::before { content: "\E121"; }
+.fr-gpo-1904-art-strokes-2-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-7::before { content: "\E122"; }
+.fr-gpo-1904-art-strokes-2-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-8::before { content: "\E123"; }
+.fr-gpo-1904-art-strokes-2-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-9::before { content: "\E124"; }
+.fr-gpo-1904-art-strokes-2-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-10::before { content: "\E125"; }
+.fr-gpo-1904-art-strokes-2-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-11::before { content: "\E126"; }
+.fr-gpo-1904-art-strokes-2-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-12::before { content: "\E127"; }
+.fr-gpo-1904-art-strokes-2-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-13::before { content: "\E128"; }
+.fr-gpo-1904-art-strokes-2-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-14::before { content: "\E129"; }
+.fr-gpo-1904-art-strokes-2-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-15::before { content: "\E12A"; }
+.fr-gpo-1904-art-strokes-2-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-16::before { content: "\E12B"; }
+.fr-gpo-1904-art-strokes-2-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-17::before { content: "\E12C"; }
+.fr-gpo-1904-art-strokes-2-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-18::before { content: "\E12D"; }
+.fr-gpo-1904-art-strokes-2-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-19::before { content: "\E12E"; }
+.fr-gpo-1904-art-strokes-2-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-20::before { content: "\E12F"; }
+.fr-gpo-1904-art-strokes-2-21 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-21::before { content: "\E130"; }
+.fr-gpo-1904-art-strokes-2-22 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-strokes-2-22::before { content: "\E131"; }
+.fr-gpo-1904-marker-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-1::before { content: "\E132"; }
+.fr-gpo-1904-marker-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-2::before { content: "\E133"; }
+.fr-gpo-1904-marker-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-3::before { content: "\E134"; }
+.fr-gpo-1904-marker-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-4::before { content: "\E135"; }
+.fr-gpo-1904-marker-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-5::before { content: "\E136"; }
+.fr-gpo-1904-marker-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-6::before { content: "\E137"; }
+.fr-gpo-1904-marker-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-7::before { content: "\E138"; }
+.fr-gpo-1904-marker-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-8::before { content: "\E139"; }
+.fr-gpo-1904-marker-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-9::before { content: "\E13A"; }
+.fr-gpo-1904-marker-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-10::before { content: "\E13B"; }
+.fr-gpo-1904-marker-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-11::before { content: "\E13C"; }
+.fr-gpo-1904-marker-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-12::before { content: "\E13D"; }
+.fr-gpo-1904-marker-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-13::before { content: "\E13E"; }
+.fr-gpo-1904-marker-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-14::before { content: "\E13F"; }
+.fr-gpo-1904-marker-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-15::before { content: "\E140"; }
+.fr-gpo-1904-marker-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-16::before { content: "\E141"; }
+.fr-gpo-1904-marker-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-17::before { content: "\E142"; }
+.fr-gpo-1904-marker-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-18::before { content: "\E143"; }
+.fr-gpo-1904-marker-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-19::before { content: "\E144"; }
+.fr-gpo-1904-marker-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-marker-20::before { content: "\E145"; }
+.fr-gpo-1904-embellisher-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-1::before { content: "\E146"; }
+.fr-gpo-1904-embellisher-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-3::before { content: "\E147"; }
+.fr-gpo-1904-embellisher-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-4::before { content: "\E148"; }
+.fr-gpo-1904-embellisher-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-5::before { content: "\E149"; }
+.fr-gpo-1904-embellisher-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-6::before { content: "\E14A"; }
+.fr-gpo-1904-embellisher-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-7::before { content: "\E14B"; }
+.fr-gpo-1904-embellisher-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-8::before { content: "\E14C"; }
+.fr-gpo-1904-embellisher-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-9::before { content: "\E14D"; }
+.fr-gpo-1904-embellisher-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-10::before { content: "\E14E"; }
+.fr-gpo-1904-embellisher-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-11::before { content: "\E14F"; }
+.fr-gpo-1904-embellisher-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-12::before { content: "\E150"; }
+.fr-gpo-1904-embellisher-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-14::before { content: "\E151"; }
+.fr-gpo-1904-embellisher-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-15::before { content: "\E152"; }
+.fr-gpo-1904-embellisher-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-16::before { content: "\E153"; }
+.fr-gpo-1904-embellisher-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-17::before { content: "\E154"; }
+.fr-gpo-1904-embellisher-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-18::before { content: "\E155"; }
+.fr-gpo-1904-embellisher-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-embellisher-19::before { content: "\E156"; }
+.fr-gpo-1904-art-ornament-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-1::before { content: "\E157"; }
+.fr-gpo-1904-art-ornament-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-2::before { content: "\E158"; }
+.fr-gpo-1904-art-ornament-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-3::before { content: "\E159"; }
+.fr-gpo-1904-art-ornament-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-4::before { content: "\E15A"; }
+.fr-gpo-1904-art-ornament-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-5::before { content: "\E15B"; }
+.fr-gpo-1904-art-ornament-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-6::before { content: "\E15C"; }
+.fr-gpo-1904-art-ornament-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-7::before { content: "\E15D"; }
+.fr-gpo-1904-art-ornament-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-8::before { content: "\E15E"; }
+.fr-gpo-1904-art-ornament-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-9::before { content: "\E15F"; }
+.fr-gpo-1904-art-ornament-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-10::before { content: "\E160"; }
+.fr-gpo-1904-art-ornament-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-11::before { content: "\E161"; }
+.fr-gpo-1904-art-ornament-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-12::before { content: "\E162"; }
+.fr-gpo-1904-art-ornament-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-13::before { content: "\E163"; }
+.fr-gpo-1904-art-ornament-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-14::before { content: "\E164"; }
+.fr-gpo-1904-art-ornament-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-15::before { content: "\E165"; }
+.fr-gpo-1904-art-ornament-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-16::before { content: "\E166"; }
+.fr-gpo-1904-art-ornament-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-17::before { content: "\E167"; }
+.fr-gpo-1904-art-ornament-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-18::before { content: "\E168"; }
+.fr-gpo-1904-art-ornament-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-19::before { content: "\E169"; }
+.fr-gpo-1904-art-ornament-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-ornament-20::before { content: "\E16A"; }
+.fr-gpo-1904-wave-ornament-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-1::before { content: "\E16B"; }
+.fr-gpo-1904-wave-ornament-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-5::before { content: "\E16C"; }
+.fr-gpo-1904-wave-ornament-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-6::before { content: "\E16D"; }
+.fr-gpo-1904-wave-ornament-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-7::before { content: "\E16E"; }
+.fr-gpo-1904-wave-ornament-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-8::before { content: "\E16F"; }
+.fr-gpo-1904-wave-ornament-9-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-9-left::before { content: "\E170"; }
+.fr-gpo-1904-wave-ornament-10-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-10-left::before { content: "\E171"; }
+.fr-gpo-1904-wave-ornament-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-11::before { content: "\E172"; }
+.fr-gpo-1904-wave-ornament-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-12::before { content: "\E173"; }
+.fr-gpo-1904-wave-ornament-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-13::before { content: "\E174"; }
+.fr-gpo-1904-wave-ornament-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-14::before { content: "\E175"; }
+.fr-gpo-1904-wave-ornament-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-15::before { content: "\E176"; }
+.fr-gpo-1904-wave-ornament-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-16::before { content: "\E177"; }
+.fr-gpo-1904-wave-ornament-17-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-17-left::before { content: "\E178"; }
+.fr-gpo-1904-wave-ornament-18-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-18-left::before { content: "\E179"; }
+.fr-gpo-1904-wave-ornament-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-19::before { content: "\E17A"; }
+.fr-gpo-1904-wave-ornament-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-20::before { content: "\E17B"; }
+.fr-gpo-1904-wave-ornament-21 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-21::before { content: "\E17C"; }
+.fr-gpo-1904-wave-ornament-22 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-22::before { content: "\E17D"; }
+.fr-gpo-1904-wave-ornament-23 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-ornament-23::before { content: "\E17E"; }
+.fr-gpo-1904-capital-ornament-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-1::before { content: "\E17F"; }
+.fr-gpo-1904-capital-ornament-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-2::before { content: "\E180"; }
+.fr-gpo-1904-capital-ornament-3-component-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-3-component-1::before { content: "\E181"; }
+.fr-gpo-1904-capital-ornament-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-4::before { content: "\E182"; }
+.fr-gpo-1904-capital-ornament-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-5::before { content: "\E183"; }
+.fr-gpo-1904-capital-ornament-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-6::before { content: "\E184"; }
+.fr-gpo-1904-capital-ornament-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-7::before { content: "\E185"; }
+.fr-gpo-1904-capital-ornament-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-8::before { content: "\E186"; }
+.fr-gpo-1904-capital-ornament-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-9::before { content: "\E187"; }
+.fr-gpo-1904-capital-ornament-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-10::before { content: "\E188"; }
+.fr-gpo-1904-capital-ornament-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-11::before { content: "\E189"; }
+.fr-gpo-1904-capital-ornament-12-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-12-left::before { content: "\E18A"; }
+.fr-gpo-1904-capital-ornament-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-13::before { content: "\E18B"; }
+.fr-gpo-1904-capital-ornament-14 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-14::before { content: "\E18C"; }
+.fr-gpo-1904-capital-ornament-16-right { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-16-right::before { content: "\E18D"; }
+.fr-gpo-1904-capital-ornament-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-17::before { content: "\E18E"; }
+.fr-gpo-1904-capital-ornament-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-18::before { content: "\E18F"; }
+.fr-gpo-1904-capital-ornament-19 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-19::before { content: "\E190"; }
+.fr-gpo-1904-capital-ornament-20 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-20::before { content: "\E191"; }
+.fr-gpo-1904-capital-ornament-21 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-21::before { content: "\E192"; }
+.fr-gpo-1904-capital-ornament-22-right { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-22-right::before { content: "\E193"; }
+.fr-gpo-1904-capital-ornament-23-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-23-left::before { content: "\E194"; }
+.fr-gpo-1904-capital-ornament-24-right { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-capital-ornament-24-right::before { content: "\E195"; }
+.fr-gpo-1904-protean-ornament-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-1::before { content: "\E196"; }
+.fr-gpo-1904-protean-ornament-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-2::before { content: "\E197"; }
+.fr-gpo-1904-protean-ornament-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-3::before { content: "\E198"; }
+.fr-gpo-1904-protean-ornament-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-5::before { content: "\E199"; }
+.fr-gpo-1904-protean-ornament-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-7::before { content: "\E19A"; }
+.fr-gpo-1904-protean-ornament-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-8::before { content: "\E19B"; }
+.fr-gpo-1904-protean-ornament-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-9::before { content: "\E19C"; }
+.fr-gpo-1904-protean-ornament-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-10::before { content: "\E19D"; }
+.fr-gpo-1904-protean-ornament-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-11::before { content: "\E19E"; }
+.fr-gpo-1904-protean-ornament-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-12::before { content: "\E19F"; }
+.fr-gpo-1904-protean-ornament-13 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-13::before { content: "\E1A0"; }
+.fr-gpo-1904-protean-ornament-14-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-14-left::before { content: "\E1A1"; }
+.fr-gpo-1904-protean-ornament-15 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-15::before { content: "\E1A2"; }
+.fr-gpo-1904-protean-ornament-16 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-16::before { content: "\E1A3"; }
+.fr-gpo-1904-protean-ornament-17 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-17::before { content: "\E1A4"; }
+.fr-gpo-1904-protean-ornament-18 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-18::before { content: "\E1A5"; }
+.fr-gpo-1904-protean-ornament-19-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-protean-ornament-19-left::before { content: "\E1A6"; }
+.fr-gpo-1904-job-ornament-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-1::before { content: "\E1A7"; }
+.fr-gpo-1904-job-ornament-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-2::before { content: "\E1A8"; }
+.fr-gpo-1904-job-ornament-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-3::before { content: "\E1A9"; }
+.fr-gpo-1904-job-ornament-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-4::before { content: "\E1AA"; }
+.fr-gpo-1904-job-ornament-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-5::before { content: "\E1AB"; }
+.fr-gpo-1904-job-ornament-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-6::before { content: "\E1AC"; }
+.fr-gpo-1904-job-ornament-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-7::before { content: "\E1AD"; }
+.fr-gpo-1904-job-ornament-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-8::before { content: "\E1AE"; }
+.fr-gpo-1904-job-ornament-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-job-ornament-9::before { content: "\E1AF"; }
+.fr-gpo-1904-word-ornament-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-1::before { content: "\E1B0"; }
+.fr-gpo-1904-word-ornament-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-2::before { content: "\E1B1"; }
+.fr-gpo-1904-word-ornament-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-3::before { content: "\E1B2"; }
+.fr-gpo-1904-word-ornament-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-4::before { content: "\E1B3"; }
+.fr-gpo-1904-word-ornament-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-5::before { content: "\E1B4"; }
+.fr-gpo-1904-word-ornament-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-6::before { content: "\E1B5"; }
+.fr-gpo-1904-word-ornament-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-7::before { content: "\E1B6"; }
+.fr-gpo-1904-word-ornament-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-8::before { content: "\E1B7"; }
+.fr-gpo-1904-word-ornament-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-9::before { content: "\E1B8"; }
+.fr-gpo-1904-word-ornament-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-10::before { content: "\E1B9"; }
+.fr-gpo-1904-word-ornament-11 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-11::before { content: "\E1BA"; }
+.fr-gpo-1904-word-ornament-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-word-ornament-12::before { content: "\E1BB"; }
+.fr-gpo-1904-unique-border-152 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-152::before { content: "\E1BC"; }
+.fr-gpo-1904-unique-border-59 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-59::before { content: "\E1BD"; }
+.fr-gpo-1904-unique-border-145 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-145::before { content: "\E1BE"; }
+.fr-gpo-1904-unique-border-111 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-111::before { content: "\E1BF"; }
+.fr-gpo-1904-unique-border-92 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-92::before { content: "\E1C0"; }
+.fr-gpo-1904-unique-border-173 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-173::before { content: "\E1C1"; }
+.fr-gpo-1904-unique-border-184 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-184::before { content: "\E1C2"; }
+.fr-gpo-1904-unique-border-160 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-160::before { content: "\E1C3"; }
+.fr-gpo-1904-unique-border-180 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-180::before { content: "\E1C4"; }
+.fr-gpo-1904-unique-border-151 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-151::before { content: "\E1C5"; }
+.fr-gpo-1904-unique-border-153 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-153::before { content: "\E1C6"; }
+.fr-gpo-1904-unique-border-201 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-201::before { content: "\E1C7"; }
+.fr-gpo-1904-unique-border-214 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-214::before { content: "\E1C8"; }
+.fr-gpo-1904-unique-border-500 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-unique-border-500::before { content: "\E1C9"; }
+.fr-gpo-1904-flame-border-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-flame-border-repeat::before { content: "\E1CA"; }
+.fr-gpo-1904-flame-border-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-flame-border-corner::before { content: "\E1CB"; }
+.fr-gpo-1904-art-border-open { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-border-open::before { content: "\E1CC"; }
+.fr-gpo-1904-art-border-tint { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-art-border-tint::before { content: "\E1CD"; }
+.fr-gpo-1904-old-english-9-descending-leaf { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-old-english-9-descending-leaf::before { content: "\E1CE"; }
+.fr-gpo-1904-old-english-9-ascending-leaf { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-old-english-9-ascending-leaf::before { content: "\E1CF"; }
+.fr-gpo-1904-old-english-9-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-old-english-9-corner::before { content: "\E1D0"; }
+.fr-gpo-1904-old-english-10-rose { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-old-english-10-rose::before { content: "\E1D1"; }
+.fr-gpo-1904-old-english-25-triangles { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-old-english-25-triangles::before { content: "\E1D2"; }
+.fr-gpo-1904-elzevir-111-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-elzevir-111-repeat::before { content: "\E1D3"; }
+.fr-gpo-1904-elzevir-111-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-elzevir-111-corner::before { content: "\E1D4"; }
+.fr-gpo-1904-elzevir-105-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-elzevir-105-repeat::before { content: "\E1D5"; }
+.fr-gpo-1904-elzevir-105-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-elzevir-105-corner::before { content: "\E1D6"; }
+.fr-gpo-1904-caxton-12pt-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-caxton-12pt-repeat::before { content: "\E1D7"; }
+.fr-gpo-1904-caxton-12pt-outer-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-caxton-12pt-outer-corner::before { content: "\E1D8"; }
+.fr-gpo-1904-caxton-12pt-inner-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-caxton-12pt-inner-corner::before { content: "\E1D9"; }
+.fr-gpo-1904-contour-12pt-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-contour-12pt-repeat::before { content: "\E1DA"; }
+.fr-gpo-1904-contour-12pt-outer-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-contour-12pt-outer-corner::before { content: "\E1DB"; }
+.fr-gpo-1904-contour-12pt-inner-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-contour-12pt-inner-corner::before { content: "\E1DC"; }
+.fr-gpo-1904-caxton-18pt-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-caxton-18pt-repeat::before { content: "\E1DD"; }
+.fr-gpo-1904-caxton-18pt-outer-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-caxton-18pt-outer-corner::before { content: "\E1DE"; }
+.fr-gpo-1904-caxton-18pt-inner-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-caxton-18pt-inner-corner::before { content: "\E1DF"; }
+.fr-gpo-1904-contour-18pt-repeat { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-contour-18pt-repeat::before { content: "\E1E0"; }
+.fr-gpo-1904-contour-18pt-outer-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-contour-18pt-outer-corner::before { content: "\E1E1"; }
+.fr-gpo-1904-contour-18pt-inner-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-contour-18pt-inner-corner::before { content: "\E1E2"; }
+.fr-gpo-1904-round-rule-heavy-long-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-heavy-long-left::before { content: "\E1E3"; }
+.fr-gpo-1904-round-rule-heavy-long-right { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-heavy-long-right::before { content: "\E1E4"; }
+.fr-gpo-1904-round-rule-fine-long-right { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-fine-long-right::before { content: "\E1E5"; }
+.fr-gpo-1904-round-rule-fine-long-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-fine-long-left::before { content: "\E1E6"; }
+.fr-gpo-1904-round-rule-tight-quarter { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-tight-quarter::before { content: "\E1E7"; }
+.fr-gpo-1904-round-rule-curved-junction { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-curved-junction::before { content: "\E1E8"; }
+.fr-gpo-1904-round-rule-4pt-quarter { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-4pt-quarter::before { content: "\E1E9"; }
+.fr-gpo-1904-round-rule-2pt-quarter { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-rule-2pt-quarter::before { content: "\E1EA"; }
+.fr-gpo-1904-oak-acorn-sprig { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-oak-acorn-sprig::before { content: "\E1EB"; }
+.fr-gpo-1904-imprint-ribbon { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-imprint-ribbon::before { content: "\E1EC"; }
+.fr-gpo-1904-wood-type-leaf-spray { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wood-type-leaf-spray::before { content: "\E1ED"; }
+.fr-gpo-1904-binding-meander-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-binding-meander-corner::before { content: "\E1EE"; }
+.fr-gpo-1904-brass-circle-double-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-double-1::before { content: "\E1EF"; }
+.fr-gpo-1904-brass-circle-double-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-double-2::before { content: "\E1F0"; }
+.fr-gpo-1904-brass-circle-double-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-double-3::before { content: "\E1F1"; }
+.fr-gpo-1904-brass-circle-double-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-double-4::before { content: "\E1F2"; }
+.fr-gpo-1904-brass-circle-double-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-double-5::before { content: "\E1F3"; }
+.fr-gpo-1904-brass-circle-single-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-single-1::before { content: "\E1F4"; }
+.fr-gpo-1904-brass-circle-single-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-single-2::before { content: "\E1F5"; }
+.fr-gpo-1904-brass-circle-single-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-single-3::before { content: "\E1F6"; }
+.fr-gpo-1904-brass-circle-single-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-single-4::before { content: "\E1F7"; }
+.fr-gpo-1904-brass-circle-single-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-single-5::before { content: "\E1F8"; }
+.fr-gpo-1904-brass-circle-half-blunt-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-half-blunt-1::before { content: "\E1F9"; }
+.fr-gpo-1904-brass-circle-half-blunt-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-half-blunt-2::before { content: "\E1FA"; }
+.fr-gpo-1904-brass-circle-half-blunt-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-half-blunt-3::before { content: "\E1FB"; }
+.fr-gpo-1904-brass-circle-half-blunt-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-half-blunt-4::before { content: "\E1FC"; }
+.fr-gpo-1904-brass-circle-half-blunt-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-half-blunt-5::before { content: "\E1FD"; }
+.fr-gpo-1904-brass-circle-parallel-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-parallel-1::before { content: "\E1FE"; }
+.fr-gpo-1904-brass-circle-parallel-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-parallel-2::before { content: "\E1FF"; }
+.fr-gpo-1904-brass-circle-parallel-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-parallel-3::before { content: "\E200"; }
+.fr-gpo-1904-brass-circle-parallel-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-parallel-4::before { content: "\E201"; }
+.fr-gpo-1904-brass-circle-parallel-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-circle-parallel-5::before { content: "\E202"; }
+.fr-gpo-1904-brass-brace-1 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-1::before { content: "\E203"; }
+.fr-gpo-1904-brass-brace-2 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-2::before { content: "\E204"; }
+.fr-gpo-1904-brass-brace-3 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-3::before { content: "\E205"; }
+.fr-gpo-1904-brass-brace-4 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-4::before { content: "\E206"; }
+.fr-gpo-1904-brass-brace-5 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-5::before { content: "\E207"; }
+.fr-gpo-1904-brass-brace-6 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-6::before { content: "\E208"; }
+.fr-gpo-1904-brass-brace-7 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-7::before { content: "\E209"; }
+.fr-gpo-1904-brass-brace-8 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-8::before { content: "\E20A"; }
+.fr-gpo-1904-brass-brace-9 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-9::before { content: "\E20B"; }
+.fr-gpo-1904-brass-brace-10 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-10::before { content: "\E20C"; }
+.fr-gpo-1904-brass-brace-11-left { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-11-left::before { content: "\E20D"; }
+.fr-gpo-1904-brass-brace-11-right { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-11-right::before { content: "\E20E"; }
+.fr-gpo-1904-brass-brace-12 { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-brass-brace-12::before { content: "\E20F"; }
+.fr-gpo-1904-sign-moon-dark-face { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-moon-dark-face::before { content: "\E210"; }
+.fr-gpo-1904-sign-moon-dark-crescent { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-moon-dark-crescent::before { content: "\E211"; }
+.fr-gpo-1904-sign-moon-full-face { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-moon-full-face::before { content: "\E212"; }
+.fr-gpo-1904-sign-moon-light-crescent { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-moon-light-crescent::before { content: "\E213"; }
+.fr-gpo-1904-sign-new-moon-hatched { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-new-moon-hatched::before { content: "\E214"; }
+.fr-gpo-1904-sign-versicle-upright { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-versicle-upright::before { content: "\E215"; }
+.fr-gpo-1904-sign-radical-raised-three-12pt { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-radical-raised-three-12pt::before { content: "\E216"; }
+.fr-gpo-1904-sign-algebraic-curled-12pt { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-algebraic-curled-12pt::before { content: "\E217"; }
+.fr-gpo-1904-sign-greater-bracket { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-greater-bracket::before { content: "\E218"; }
+.fr-gpo-1904-sign-less-bracket { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-less-bracket::before { content: "\E219"; }
+.fr-gpo-1904-sign-difference-curved { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-difference-curved::before { content: "\E21A"; }
+.fr-gpo-1904-sign-integration-curved { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-integration-curved::before { content: "\E21B"; }
+.fr-gpo-1904-sign-equivalence-curved { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-equivalence-curved::before { content: "\E21C"; }
+.fr-gpo-1904-sign-difference-excess { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-difference-excess::before { content: "\E21D"; }
+.fr-gpo-1904-sign-because-three-dots { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-because-three-dots::before { content: "\E21E"; }
+.fr-gpo-1904-sign-seconds-double-prime { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-seconds-double-prime::before { content: "\E21F"; }
+.fr-gpo-1904-sign-account-stacked { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-account-stacked::before { content: "\E220"; }
+.fr-gpo-1904-sign-cross-outlined { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-cross-outlined::before { content: "\E221"; }
+.fr-gpo-1904-sign-proportion-wide-6pt { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-proportion-wide-6pt::before { content: "\E222"; }
+.fr-gpo-1904-sign-proportion-close-8pt { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-proportion-close-8pt::before { content: "\E223"; }
+.fr-gpo-1904-sign-proportion-10-12pt { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-proportion-10-12pt::before { content: "\E224"; }
+.fr-gpo-1904-sign-proportion-fine { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-proportion-fine::before { content: "\E225"; }
+.fr-gpo-1904-sign-prescription-wide { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-prescription-wide::before { content: "\E226"; }
+.fr-gpo-1904-sign-prescription-narrow { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-prescription-narrow::before { content: "\E227"; }
+.fr-gpo-1904-sign-ounce-narrow { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-ounce-narrow::before { content: "\E228"; }
+.fr-gpo-1904-sign-drachm-narrow { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-drachm-narrow::before { content: "\E229"; }
+.fr-gpo-1904-sign-radical-upright { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-radical-upright::before { content: "\E22A"; }
+.fr-gpo-1904-sign-radical-high-wedge { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-radical-high-wedge::before { content: "\E22B"; }
+.fr-gpo-1904-sign-algebraic-angle-zigzag { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-algebraic-angle-zigzag::before { content: "\E22C"; }
+.fr-gpo-1904-sign-algebraic-angle-flared { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-algebraic-angle-flared::before { content: "\E22D"; }
+.fr-gpo-1904-sign-geometrical-proportion-balanced { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-geometrical-proportion-balanced::before { content: "\E22E"; }
+.fr-gpo-1904-sign-geometrical-proportion-close { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-geometrical-proportion-close::before { content: "\E22F"; }
+.fr-gpo-1904-sign-geometrical-proportion-wide { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-geometrical-proportion-wide::before { content: "\E230"; }
+.fr-gpo-1904-sign-triangle-tall { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-triangle-tall::before { content: "\E231"; }
+.fr-gpo-1904-sign-percent-narrow { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-percent-narrow::before { content: "\E232"; }
+.fr-gpo-1904-sign-scruple-open { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-scruple-open::before { content: "\E233"; }
+.fr-gpo-1904-sign-equality-wide { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-equality-wide::before { content: "\E234"; }
+.fr-gpo-1904-sign-greater-broad { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-greater-broad::before { content: "\E235"; }
+.fr-gpo-1904-sign-plus-minus-detached { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-plus-minus-detached::before { content: "\E236"; }
+.fr-gpo-1904-sign-acute-angle-narrow { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-sign-acute-angle-narrow::before { content: "\E237"; }
+.fr-gpo-1904-two-point-waved-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-two-point-waved-rule::before { content: "\E238"; }
+.fr-gpo-1904-double-rule-4point { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-double-rule-4point::before { content: "\E239"; }
+.fr-gpo-1904-double-rule-6point { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-double-rule-6point::before { content: "\E23A"; }
+.fr-gpo-1904-double-rule-10point { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-double-rule-10point::before { content: "\E23B"; }
+.fr-gpo-1904-double-rule-12point { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-double-rule-12point::before { content: "\E23C"; }
+.fr-gpo-1904-fine-dot-leader { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-fine-dot-leader::before { content: "\E23D"; }
+.fr-gpo-1904-balanced-hyphen-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-balanced-hyphen-rule::before { content: "\E23E"; }
+.fr-gpo-1904-close-hyphen-leader { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-close-hyphen-leader::before { content: "\E23F"; }
+.fr-gpo-1904-spaced-hyphen-leader { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-spaced-hyphen-leader::before { content: "\E240"; }
+.fr-gpo-1904-half-blunt-rule-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-half-blunt-rule-corner::before { content: "\E241"; }
+.fr-gpo-1904-single-rule-corner { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-single-rule-corner::before { content: "\E242"; }
+.fr-gpo-1904-beveled-leader-body { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-beveled-leader-body::before { content: "\E243"; }
+.fr-gpo-1904-diamond-bead-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-diamond-bead-rule::before { content: "\E244"; }
+.fr-gpo-1904-oval-bead-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-oval-bead-rule::before { content: "\E245"; }
+.fr-gpo-1904-compact-diamond-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-compact-diamond-rule::before { content: "\E246"; }
+.fr-gpo-1904-round-bead-collar-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-round-bead-collar-rule::before { content: "\E247"; }
+.fr-gpo-1904-oval-bead-wedge-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-oval-bead-wedge-rule::before { content: "\E248"; }
+.fr-gpo-1904-oval-flared-shoulder-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-oval-flared-shoulder-rule::before { content: "\E249"; }
+.fr-gpo-1904-diamond-flared-shoulder-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-diamond-flared-shoulder-rule::before { content: "\E24A"; }
+.fr-gpo-1904-three-bead-tapered-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-three-bead-tapered-rule::before { content: "\E24B"; }
+.fr-gpo-1904-oval-triangular-shoulder-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-oval-triangular-shoulder-rule::before { content: "\E24C"; }
+.fr-gpo-1904-long-spindle-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-long-spindle-rule::before { content: "\E24D"; }
+.fr-gpo-1904-wave-and-straight-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wave-and-straight-rule::before { content: "\E24E"; }
+.fr-gpo-1904-scalloped-band-and-wave-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-scalloped-band-and-wave-rule::before { content: "\E24F"; }
+.fr-gpo-1904-wide-fine-parallel-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-wide-fine-parallel-rule::before { content: "\E250"; }
+.fr-gpo-1904-light-unequal-double-rule { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-light-unequal-double-rule::before { content: "\E251"; }
+.fr-gpo-1904-heavy-double-rule-narrow-gap { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-heavy-double-rule-narrow-gap::before { content: "\E252"; }
+.fr-gpo-1904-heavy-double-rule-medium-gap { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-heavy-double-rule-medium-gap::before { content: "\E253"; }
+.fr-gpo-1904-leaf-wreath-two-dots { font-family: "GPO Cuts 1904"; }
+.fr-gpo-1904-leaf-wreath-two-dots::before { content: "\E254"; }

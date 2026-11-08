@@ -5898,12 +5898,12 @@
       "frame_threshold": 185
     },
     "": {
-      "file": "reference/boston-275.jp2",
+      "file": "reference/crops/bruce-1828-p251-cut-392-upgrade.png",
       "box": [
-        1425,
-        1066,
-        1614,
-        1182
+        0,
+        0,
+        341,
+        260
       ],
       "height": 1800,
       "max_ink_dimension": 1800,
@@ -5913,21 +5913,22 @@
         64,
         64
       ],
-      "threshold": 185,
-      "blur": 0.3,
-      "component_min_area": 2,
+      "threshold": 135,
+      "blur": 0,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Reviewed native crop; preserve all engraving; exclude catalogue labels and prices. The complete light-ink trace defines the shared frame, preventing tonal clipping; both editions retain the same transform.",
+      "notes": "Observed clearer Bruce1828 PDF251 No392 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving.",
+      "frame_threshold": 165,
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 185
+          "primary": 105,
+          "secondary": 135,
+          "tertiary": 165
         },
-        "notes": "Native crop and rendered proof review: these darker-paper pages use 130/165/185 levels to exclude scan grain and paper stains that enter at 210. The lightest retained trace matches the reviewed monochrome ink."
-      },
-      "frame_threshold": 185
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      }
     },
     "": {
       "file": "reference/boston-275.jp2",
@@ -10536,13 +10537,14 @@
       }
     },
     "": {
-      "file": "reference/boston-271.jp2",
+      "file": "reference/gpo-1904-leaf-177.png",
       "box": [
-        520,
-        721,
-        684,
-        800
+        1065,
+        935,
+        1222,
+        1010
       ],
+      "rotation": 0,
       "height": 1800,
       "max_ink_dimension": 1800,
       "center_vertical": true,
@@ -10551,30 +10553,35 @@
         64,
         64
       ],
-      "threshold": 175,
-      "frame_threshold": 195,
+      "advance_width": 1928,
+      "center": true,
+      "paper_normalization_radius": 0,
+      "threshold": 195,
+      "frame_threshold": 210,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 195
+          "primary": 110,
+          "secondary": 155,
+          "tertiary": 210
         },
-        "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
-      }
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      },
+      "notes": "Preferred GPO1904 Index Cut No.33, matching Boston1889 No.4006. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds."
     },
     "": {
-      "file": "reference/boston-271.jp2",
+      "file": "reference/gpo-1904-leaf-177.png",
       "box": [
-        735,
-        721,
-        907,
-        806
+        1327,
+        935,
+        1489,
+        1016
       ],
+      "rotation": 0,
       "height": 1800,
       "max_ink_dimension": 1800,
       "center_vertical": true,
@@ -10583,21 +10590,25 @@
         64,
         64
       ],
-      "threshold": 175,
-      "frame_threshold": 195,
+      "advance_width": 1928,
+      "center": true,
+      "paper_normalization_radius": 0,
+      "threshold": 195,
+      "frame_threshold": 210,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 195
+          "primary": 110,
+          "secondary": 155,
+          "tertiary": 210
         },
-        "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
-      }
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      },
+      "notes": "Preferred GPO1904 Index Cut No.34, matching Boston1889 No.4005. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds."
     },
     "": {
       "file": "reference/boston-271.jp2",
@@ -10632,13 +10643,14 @@
       }
     },
     "": {
-      "file": "reference/boston-271.jp2",
+      "file": "reference/gpo-1904-leaf-177.png",
       "box": [
-        144,
-        893,
-        438,
-        1024
+        801,
+        546,
+        1083,
+        679
       ],
+      "rotation": 0,
       "height": 1800,
       "max_ink_dimension": 1800,
       "center_vertical": true,
@@ -10647,21 +10659,33 @@
         64,
         64
       ],
-      "threshold": 175,
-      "frame_threshold": 195,
+      "advance_width": 1928,
+      "center": true,
+      "paper_normalization_radius": 0,
+      "threshold": 195,
+      "frame_threshold": 210,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 195
+          "primary": 110,
+          "secondary": 155,
+          "tertiary": 210
         },
-        "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
-      }
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      },
+      "notes": "Preferred GPO1904 Index Cut No.28, matching Boston1889 No.4014. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds. Isolated top edge of printed No.28 below the hand is masked in blank paper; cuff remains intact.",
+      "erase": [
+        [
+          105,
+          119,
+          192,
+          162
+        ]
+      ]
     },
     "": {
       "file": "reference/boston-271.jp2",
@@ -10728,13 +10752,14 @@
       }
     },
     "": {
-      "file": "reference/boston-271.jp2",
+      "file": "reference/gpo-1904-leaf-177.png",
       "box": [
-        987,
-        896,
-        1275,
-        1040
+        1362,
+        2973,
+        1640,
+        3118
       ],
+      "rotation": 0,
       "height": 1800,
       "max_ink_dimension": 1800,
       "center_vertical": true,
@@ -10743,21 +10768,25 @@
         64,
         64
       ],
-      "threshold": 175,
-      "frame_threshold": 195,
+      "advance_width": 1928,
+      "center": true,
+      "paper_normalization_radius": 0,
+      "threshold": 195,
+      "frame_threshold": 210,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 195
+          "primary": 110,
+          "secondary": 155,
+          "tertiary": 210
         },
-        "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
-      }
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      },
+      "notes": "Preferred GPO1904 Index Cut No.45, matching Boston1889 No.4013. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json. Monochrome threshold195 retains the complete crosshatched cuff, independently of the three tonal thresholds."
     },
     "": {
       "file": "reference/boston-271.jp2",
@@ -11192,13 +11221,14 @@
       }
     },
     "": {
-      "file": "reference/boston-271.jp2",
+      "file": "reference/gpo-1904-leaf-176.png",
       "box": [
-        1730,
-        729,
-        1948,
-        823
+        1211,
+        3235,
+        1425,
+        3332
       ],
+      "rotation": 0,
       "height": 1800,
       "max_ink_dimension": 1800,
       "center_vertical": true,
@@ -11207,30 +11237,35 @@
         64,
         64
       ],
-      "threshold": 195,
-      "frame_threshold": 195,
+      "advance_width": 1928,
+      "center": true,
+      "paper_normalization_radius": 0,
+      "threshold": 155,
+      "frame_threshold": 210,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance. Retain pale outlined hand details at the lightest reviewed threshold.",
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 195
+          "primary": 110,
+          "secondary": 155,
+          "tertiary": 210
         },
-        "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
-      }
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      },
+      "notes": "Preferred GPO1904 Index Cut No.17, matching Boston1889 No.2519. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json."
     },
     "": {
-      "file": "reference/boston-271.jp2",
+      "file": "reference/gpo-1904-leaf-176.png",
       "box": [
-        1996,
-        729,
-        2214,
-        823
+        1587,
+        3232,
+        1804,
+        3326
       ],
+      "rotation": 0,
       "height": 1800,
       "max_ink_dimension": 1800,
       "center_vertical": true,
@@ -11239,21 +11274,25 @@
         64,
         64
       ],
-      "threshold": 195,
-      "frame_threshold": 195,
+      "advance_width": 1928,
+      "center": true,
+      "paper_normalization_radius": 0,
+      "threshold": 155,
+      "frame_threshold": 210,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance. Retain pale outlined hand details at the lightest reviewed threshold.",
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 195
+          "primary": 110,
+          "secondary": 155,
+          "tertiary": 210
         },
-        "notes": "Three disjoint vector regions follow observed ink strengths; no new strokes."
-      }
+        "separation": "native-mask-bands",
+        "round_inputs": false
+      },
+      "notes": "Preferred GPO1904 Index Cut No.18, matching Boston1889 No.2520. Retains complete contour and clearer cuff/engraved detail. Stable identity and original advance retained; uniform proportions. Both historical witnesses retained in gpo-witness-review.json."
     },
     "": {
       "file": "reference/boston-271.jp2",

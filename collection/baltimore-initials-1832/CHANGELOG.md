@@ -1,5 +1,22 @@
 # Changes
 
+## 1.004
+
+- Add fourteen observed ornamental sorts from Bruce 1828: lottery figures 3, 4, 5
+  and comma; the full decorated italic SODA water. setting.
+- Keep the hatched S, a and e distinct from the related existing engravings.
+- Cite the retained native HathiTrust/NYPL scan pages and exact crops.
+- Identify the four Bruce outline capitals I, L, Y, A by their printed heading,
+  Open Antique, retaining their permanent IDs and codepoints.
+- Preserve all 66 existing drawings, tone layers and character assignments.
+
+## 1.003
+
+- Offer fonts and editable font data under the choice MIT or SIL OFL 1.1,
+  with both license notices in the fonts and download packages.
+- Retain the existing outlines, character assignments, spacing and features.
+  Standalone artwork and other original project files remain MIT licensed.
+
 ## 1.002
 
 - Add 21 observed letters and six punctuation marks from matching Boston 1832,

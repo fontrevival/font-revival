@@ -1,0 +1,55 @@
+{
+  "id": "de-vinne-italic-1900",
+  "name": "De Vinne Italic",
+  "selected_master": "de-vinne-italic-8pt-1900",
+  "selection_reason": "The eight-point witness supplies a coherent italic alphabet, the clearer accepted g, and the observed lining-R option.",
+  "archived_sources": [
+    {
+      "original_id": "de-vinne-italic-6pt-1900",
+      "path": "source/specimen-cuts/de-vinne-italic-6pt-1900",
+      "master_sha256": "eb9e2650c4613779b5f17922c95860160b69f6bb9f3176d225564061971f9a45",
+      "metadata_sha256": "bc58cbaedc59fc2c9da39bb204181d39efb4ff189a2e5a945101f47447e0e12a",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-italic-8pt-1900",
+      "path": "source/specimen-cuts/de-vinne-italic-8pt-1900",
+      "master_sha256": "6122ebef2b8f98a1f773002f6a55a2836017757773487c151047d7bc657cf4df",
+      "metadata_sha256": "45a51a0c2dac2a099db67eb8e939cc40c2b5da5136be0adde1786218dbe6e1cc",
+      "role": "default-alphabet-source",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    }
+  ],
+  "added_characters": [
+    {
+      "character": "$",
+      "glyph": "dollar",
+      "donor": "de-vinne-italic-6pt-1900",
+      "source_master": "source/specimen-cuts/de-vinne-italic-6pt-1900/source/font.ttx",
+      "source_master_sha256": "eb9e2650c4613779b5f17922c95860160b69f6bb9f3176d225564061971f9a45",
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "advance_width": 650,
+      "reason": "Retain the already observed character when consolidating source sizes. Whole outline and advance are unchanged; no reconstruction."
+    }
+  ],
+  "encoded_characters": 64,
+  "retained_base_glyphs": 65,
+  "total_glyphs": 66,
+  "artwork_review": "Three matching-size master sheets reviewed. Regular18 retains finer coherent contours and broad coverage; Condensed8 and Italic8 retain coherent alphabets and reviewed alternatives. Source-size differences remain in archives; no automatic equivalence between historical cuts is asserted.",
+  "status": "accepted:source-and-donor-geometry-preserved",
+  "validation": {
+    "unchanged_base_glyph_format_comparisons": 260,
+    "four_formats": true,
+    "base_features_unchanged": true,
+    "all_archived_source_reference_and_proof_files_byte_identical": true,
+    "supplementary_character_visual_review": "PASS:complete whole forms, coherent placement in words, no clipping; source-size provenance remains explicit."
+  }
+}

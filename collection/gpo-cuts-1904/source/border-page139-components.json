@@ -1,0 +1,965 @@
+{
+  "source": {
+    "file": "reference/leaf-155.png",
+    "archive_leaf": 155,
+    "pdf_page": 155,
+    "printed_page": 139,
+    "source_index": 42,
+    "section": "Round-Corner Rule Border"
+  },
+  "identity_review": "Forty-four component witnesses resolve to eight forms: four complete handed long rules, one tight quarter-circle corner shared by the 3/6-point impressions, one curved junction shared by both sizes, and separate broad 4-point and fine 2-point corners. Complete long rules retain their observed endpoint arrangements; frame corner extraction boundaries lie just beyond measured tangencies and do not imply visible physical type-metal joints. Four composed frames and25ordinary straight runs remain evidence. Geometric fits compare curve/stroke proportions only and never replace the traced ink. Native Boston rule/map-type comparisons, nine relevant semantic sheets and three rotated-retrieval sheets show no exact existing match. Boston quarter arcs have different proportions and tapered ends; its solid rounded-square, sharp angles and parallel rules are different constructions.",
+  "selected_witnesses": {
+    "heavy-long-left": {
+      "key": "heavy-long-left",
+      "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-1",
+      "name": "Heavy long rule with a rounded upper-left corner",
+      "box": [
+        879,
+        1608,
+        972,
+        1996
+      ],
+      "rotation": 0,
+      "selection": "Complete isolated impression, with its observed endpoints.",
+      "correction_degrees": 0,
+      "id": "gpo-1904-round-rule-heavy-long-left",
+      "codepoint": "E1E3",
+      "glyph": "uniE1E3"
+    },
+    "heavy-long-right": {
+      "key": "heavy-long-right",
+      "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-2",
+      "name": "Heavy long rule with a rounded upper-right corner",
+      "box": [
+        1553,
+        1611,
+        1646,
+        1993
+      ],
+      "rotation": 0,
+      "selection": "Complete isolated impression, with its observed endpoints.",
+      "correction_degrees": 0,
+      "id": "gpo-1904-round-rule-heavy-long-right",
+      "codepoint": "E1E4",
+      "glyph": "uniE1E4"
+    },
+    "fine-long-right": {
+      "key": "fine-long-right",
+      "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-1",
+      "name": "Fine long rule with a rounded lower-right corner",
+      "box": [
+        1095,
+        1523,
+        1187,
+        1908
+      ],
+      "rotation": 0,
+      "selection": "Complete isolated impression, with its observed endpoints.",
+      "correction_degrees": 0,
+      "id": "gpo-1904-round-rule-fine-long-right",
+      "codepoint": "E1E5",
+      "glyph": "uniE1E5"
+    },
+    "fine-long-left": {
+      "key": "fine-long-left",
+      "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-2",
+      "name": "Fine long rule with a rounded lower-left corner",
+      "box": [
+        1337,
+        1524,
+        1429,
+        1907
+      ],
+      "rotation": 0,
+      "selection": "Complete isolated impression, with its observed endpoints.",
+      "correction_degrees": 0,
+      "id": "gpo-1904-round-rule-fine-long-left",
+      "codepoint": "E1E6",
+      "glyph": "uniE1E6"
+    },
+    "tight-quarter": {
+      "key": "tight-quarter",
+      "candidate_id": "gpo-jobroom-1904:round-rule-medium-quarter-1",
+      "name": "Heavy quarter-circle rule corner",
+      "box": [
+        1012,
+        1728,
+        1074,
+        1790
+      ],
+      "rotation": 0,
+      "selection": "Complete isolated impression, with its observed endpoints.",
+      "id": "gpo-1904-round-rule-tight-quarter",
+      "codepoint": "E1E7",
+      "glyph": "uniE1E7"
+    },
+    "curved-junction": {
+      "key": "curved-junction",
+      "candidate_id": "gpo-jobroom-1904:round-rule-large-junction-2",
+      "name": "Three-way curved rule junction",
+      "box": [
+        1280,
+        2121,
+        1343,
+        2213
+      ],
+      "rotation": 270,
+      "selection": "Complete isolated impression, with its observed endpoints.",
+      "id": "gpo-1904-round-rule-curved-junction",
+      "codepoint": "E1E8",
+      "glyph": "uniE1E8"
+    },
+    "4pt-quarter": {
+      "key": "4pt-quarter",
+      "candidate_id": "gpo-jobroom-1904:round-rule-4pt-corners-1",
+      "name": "Broad quarter-circle rule corner, four-point",
+      "box": [
+        290,
+        856,
+        367,
+        933
+      ],
+      "rotation": 0,
+      "selection": "Complete curve isolated from the composed frame at its measured tangencies, retaining a short flat joining margin. The component boundary is an extraction decision; no physical type-metal joint is claimed.",
+      "id": "gpo-1904-round-rule-4pt-quarter",
+      "codepoint": "E1E9",
+      "glyph": "uniE1E9"
+    },
+    "2pt-quarter": {
+      "key": "2pt-quarter",
+      "candidate_id": "gpo-jobroom-1904:round-rule-2pt-corners-1",
+      "name": "Fine quarter-circle rule corner, two-point",
+      "box": [
+        688,
+        1420,
+        749,
+        1486
+      ],
+      "rotation": 0,
+      "selection": "Complete curve isolated from the composed frame at its measured tangencies, retaining a short flat joining margin. The component boundary is an extraction decision; no physical type-metal joint is claimed.",
+      "id": "gpo-1904-round-rule-2pt-quarter",
+      "codepoint": "E1EA",
+      "glyph": "uniE1EA"
+    }
+  },
+  "geometry_measurements": [
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-1",
+      "native_ink_box": [
+        881,
+        1610,
+        970,
+        1994
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        79.03,
+        80.4
+      ],
+      "terminal_stroke_widths_px": [
+        30.0,
+        29.0
+      ],
+      "radius_over_stroke": 2.702,
+      "fit_rms_px": 0.827,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-2",
+      "native_ink_box": [
+        1555,
+        1613,
+        1644,
+        1991
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        69.07,
+        72.0
+      ],
+      "terminal_stroke_widths_px": [
+        19.0,
+        21.0
+      ],
+      "radius_over_stroke": 3.527,
+      "fit_rms_px": 0.427,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-3",
+      "native_ink_box": [
+        882,
+        2342,
+        972,
+        2722
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        74.52,
+        75.42
+      ],
+      "terminal_stroke_widths_px": [
+        21.0,
+        21.0
+      ],
+      "radius_over_stroke": 3.57,
+      "fit_rms_px": 0.698,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-4",
+      "native_ink_box": [
+        1555,
+        2339,
+        1645,
+        2720
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        72.36,
+        71.02
+      ],
+      "terminal_stroke_widths_px": [
+        29.5,
+        28.0
+      ],
+      "radius_over_stroke": 2.494,
+      "fit_rms_px": 1.081,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-1",
+      "native_ink_box": [
+        1097,
+        1525,
+        1185,
+        1906
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        58.02,
+        61.25
+      ],
+      "terminal_stroke_widths_px": [
+        10.0,
+        10.0
+      ],
+      "radius_over_stroke": 5.964,
+      "fit_rms_px": 0.735,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-2",
+      "native_ink_box": [
+        1339,
+        1526,
+        1427,
+        1905
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        52.69,
+        61.89
+      ],
+      "terminal_stroke_widths_px": [
+        9.0,
+        9.5
+      ],
+      "radius_over_stroke": 6.194,
+      "fit_rms_px": 0.701,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-3",
+      "native_ink_box": [
+        1099,
+        2430,
+        1187,
+        2809
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        55.54,
+        63.18
+      ],
+      "terminal_stroke_widths_px": [
+        9.5,
+        10.0
+      ],
+      "radius_over_stroke": 6.088,
+      "fit_rms_px": 0.634,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-4",
+      "native_ink_box": [
+        1341,
+        2429,
+        1425,
+        2808
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        52.38,
+        56.76
+      ],
+      "terminal_stroke_widths_px": [
+        9.0,
+        10.5
+      ],
+      "radius_over_stroke": 5.597,
+      "fit_rms_px": 0.983,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-medium-quarter-1",
+      "native_ink_box": [
+        1014,
+        1730,
+        1072,
+        1788
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        55.78,
+        54.05
+      ],
+      "terminal_stroke_widths_px": [
+        29.0,
+        30.0
+      ],
+      "radius_over_stroke": 1.861,
+      "fit_rms_px": 0.418,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-medium-quarter-2",
+      "native_ink_box": [
+        1452,
+        1730,
+        1511,
+        1788
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        58.68,
+        55.92
+      ],
+      "terminal_stroke_widths_px": [
+        30.0,
+        30.0
+      ],
+      "radius_over_stroke": 1.91,
+      "fit_rms_px": 0.377,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-medium-quarter-3",
+      "native_ink_box": [
+        1015,
+        2547,
+        1074,
+        2605
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        57.11,
+        55.39
+      ],
+      "terminal_stroke_widths_px": [
+        30.0,
+        30.0
+      ],
+      "radius_over_stroke": 1.875,
+      "fit_rms_px": 0.361,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-medium-quarter-4",
+      "native_ink_box": [
+        1454,
+        2545,
+        1513,
+        2604
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        58.21,
+        55.58
+      ],
+      "terminal_stroke_widths_px": [
+        30.5,
+        30.0
+      ],
+      "radius_over_stroke": 1.881,
+      "fit_rms_px": 0.399,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-small-quarter-1",
+      "native_ink_box": [
+        1096,
+        2022,
+        1126,
+        2052
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        27.2,
+        26.25
+      ],
+      "terminal_stroke_widths_px": [
+        15.0,
+        15.0
+      ],
+      "radius_over_stroke": 1.782,
+      "fit_rms_px": 0.334,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-small-quarter-2",
+      "native_ink_box": [
+        1399,
+        2021,
+        1429,
+        2050
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        27.52,
+        25.97
+      ],
+      "terminal_stroke_widths_px": [
+        15.0,
+        16.0
+      ],
+      "radius_over_stroke": 1.725,
+      "fit_rms_px": 0.347,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-small-quarter-3",
+      "native_ink_box": [
+        1097,
+        2284,
+        1127,
+        2314
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        25.86,
+        27.68
+      ],
+      "terminal_stroke_widths_px": [
+        15.0,
+        15.0
+      ],
+      "radius_over_stroke": 1.785,
+      "fit_rms_px": 1.039,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-small-quarter-4",
+      "native_ink_box": [
+        1400,
+        2283,
+        1430,
+        2313
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        26.6,
+        27.26
+      ],
+      "terminal_stroke_widths_px": [
+        15.5,
+        16.0
+      ],
+      "radius_over_stroke": 1.71,
+      "fit_rms_px": 0.332,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-6pt-corners-1",
+      "native_ink_box": [
+        87,
+        335,
+        181,
+        438
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        60.13,
+        56.73
+      ],
+      "terminal_stroke_widths_px": [
+        31.0,
+        31.0
+      ],
+      "radius_over_stroke": 1.885,
+      "fit_rms_px": 0.603,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-6pt-corners-2",
+      "native_ink_box": [
+        2332,
+        340,
+        2428,
+        443
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        56.96,
+        59.13
+      ],
+      "terminal_stroke_widths_px": [
+        30.0,
+        29.5
+      ],
+      "radius_over_stroke": 1.951,
+      "fit_rms_px": 0.538,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-6pt-corners-3",
+      "native_ink_box": [
+        97,
+        3556,
+        186,
+        3666
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        63.08,
+        58.69
+      ],
+      "terminal_stroke_widths_px": [
+        31.0,
+        30.0
+      ],
+      "radius_over_stroke": 1.996,
+      "fit_rms_px": 0.639,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-6pt-corners-4",
+      "native_ink_box": [
+        2334,
+        3554,
+        2436,
+        3653
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        54.79,
+        58.22
+      ],
+      "terminal_stroke_widths_px": [
+        30.0,
+        30.0
+      ],
+      "radius_over_stroke": 1.884,
+      "fit_rms_px": 0.669,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-4pt-corners-1",
+      "native_ink_box": [
+        292,
+        858,
+        394,
+        960
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        72.32,
+        71.57
+      ],
+      "terminal_stroke_widths_px": [
+        21.0,
+        21.0
+      ],
+      "radius_over_stroke": 3.426,
+      "fit_rms_px": 0.438,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-4pt-corners-2",
+      "native_ink_box": [
+        2122,
+        864,
+        2226,
+        965
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        72.97,
+        69.98
+      ],
+      "terminal_stroke_widths_px": [
+        19.0,
+        20.0
+      ],
+      "radius_over_stroke": 3.665,
+      "fit_rms_px": 0.276,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-4pt-corners-3",
+      "native_ink_box": [
+        299,
+        3210,
+        402,
+        3316
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        75.89,
+        72.67
+      ],
+      "terminal_stroke_widths_px": [
+        21.0,
+        21.0
+      ],
+      "radius_over_stroke": 3.537,
+      "fit_rms_px": 0.428,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-4pt-corners-4",
+      "native_ink_box": [
+        2122,
+        3210,
+        2230,
+        3306
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        69.57,
+        73.24
+      ],
+      "terminal_stroke_widths_px": [
+        20.0,
+        20.0
+      ],
+      "radius_over_stroke": 3.57,
+      "fit_rms_px": 0.36,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-3pt-corners-1",
+      "native_ink_box": [
+        499,
+        1071,
+        569,
+        1147
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        28.7,
+        28.83
+      ],
+      "terminal_stroke_widths_px": [
+        14.0,
+        15.0
+      ],
+      "radius_over_stroke": 1.984,
+      "fit_rms_px": 0.804,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-3pt-corners-2",
+      "native_ink_box": [
+        1947,
+        1073,
+        2023,
+        1147
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        27.56,
+        26.43
+      ],
+      "terminal_stroke_widths_px": [
+        13.0,
+        13.0
+      ],
+      "radius_over_stroke": 2.076,
+      "fit_rms_px": 0.321,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-3pt-corners-3",
+      "native_ink_box": [
+        505,
+        3026,
+        578,
+        3103
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        23.04,
+        24.26
+      ],
+      "terminal_stroke_widths_px": [
+        13.0,
+        13.0
+      ],
+      "radius_over_stroke": 1.819,
+      "fit_rms_px": 0.302,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-3pt-corners-4",
+      "native_ink_box": [
+        1943,
+        3024,
+        2025,
+        3097
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        32.1,
+        27.01
+      ],
+      "terminal_stroke_widths_px": [
+        13.0,
+        13.0
+      ],
+      "radius_over_stroke": 2.274,
+      "fit_rms_px": 0.562,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-2pt-corners-1",
+      "native_ink_box": [
+        690,
+        1422,
+        786,
+        1519
+      ],
+      "rotation_to_top_left_ccw": 0,
+      "outer_radius_xy_px": [
+        54.74,
+        60.31
+      ],
+      "terminal_stroke_widths_px": [
+        10.0,
+        9.0
+      ],
+      "radius_over_stroke": 6.056,
+      "fit_rms_px": 0.344,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-2pt-corners-2",
+      "native_ink_box": [
+        1730,
+        1424,
+        1834,
+        1519
+      ],
+      "rotation_to_top_left_ccw": 90,
+      "outer_radius_xy_px": [
+        55.91,
+        60.76
+      ],
+      "terminal_stroke_widths_px": [
+        10.0,
+        10.0
+      ],
+      "radius_over_stroke": 5.834,
+      "fit_rms_px": 0.473,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-2pt-corners-3",
+      "native_ink_box": [
+        693,
+        2801,
+        791,
+        2912
+      ],
+      "rotation_to_top_left_ccw": 270,
+      "outer_radius_xy_px": [
+        55.82,
+        57.77
+      ],
+      "terminal_stroke_widths_px": [
+        10.5,
+        11.0
+      ],
+      "radius_over_stroke": 5.283,
+      "fit_rms_px": 0.419,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    },
+    {
+      "candidate_id": "gpo-jobroom-1904:round-rule-2pt-corners-4",
+      "native_ink_box": [
+        1727,
+        2799,
+        1835,
+        2909
+      ],
+      "rotation_to_top_left_ccw": 180,
+      "outer_radius_xy_px": [
+        61.42,
+        64.15
+      ],
+      "terminal_stroke_widths_px": [
+        10.0,
+        10.0
+      ],
+      "radius_over_stroke": 6.278,
+      "fit_rms_px": 0.666,
+      "purpose": "Approximate geometric comparison only; no analytic replacement of source outlines."
+    }
+  ],
+  "alignment": {
+    "method": "Subpixel threshold crossings on both sides of each isolated long stem, excluding the bend and terminal edges. Fit x over image y; vector correction uses positive-up coordinates. Curved corners and the junction have no long straight reference and receive no arbitrary affine.",
+    "measurements": [
+      {
+        "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-1",
+        "box": [
+          879,
+          1608,
+          972,
+          1996
+        ],
+        "vertical_fit_y_range": [
+          122,
+          365
+        ],
+        "fits": [
+          {
+            "threshold": 175,
+            "native_slope_x_over_y": 0.0019550835829425166,
+            "rotation_ccw_positive_up": -0.11201789517413187,
+            "rms_pixels": 0.06190184323896706
+          },
+          {
+            "threshold": 195,
+            "native_slope_x_over_y": 0.0020325567316953875,
+            "rotation_ccw_positive_up": -0.1164567619751297,
+            "rms_pixels": 0.058588273353039254
+          },
+          {
+            "threshold": 215,
+            "native_slope_x_over_y": 0.002124428057648915,
+            "rotation_ccw_positive_up": -0.12172057846646032,
+            "rms_pixels": 0.05495900719466316
+          }
+        ],
+        "applied_degrees": 0,
+        "decision": "Residual angle below 0.15 degrees; native ink retained."
+      },
+      {
+        "candidate_id": "gpo-jobroom-1904:round-rule-heavy-long-corner-2",
+        "box": [
+          1553,
+          1611,
+          1646,
+          1993
+        ],
+        "vertical_fit_y_range": [
+          122,
+          359
+        ],
+        "fits": [
+          {
+            "threshold": 175,
+            "native_slope_x_over_y": -0.0014122111796457464,
+            "rotation_ccw_positive_up": 0.0809136865851094,
+            "rms_pixels": 0.14865756048158368
+          },
+          {
+            "threshold": 195,
+            "native_slope_x_over_y": -0.0013527198432303033,
+            "rotation_ccw_positive_up": 0.07750509060646263,
+            "rms_pixels": 0.15904829533523596
+          },
+          {
+            "threshold": 215,
+            "native_slope_x_over_y": -0.0011292223573434457,
+            "rotation_ccw_positive_up": 0.06469964770716533,
+            "rms_pixels": 0.15190448105734602
+          }
+        ],
+        "applied_degrees": 0,
+        "decision": "Residual angle below 0.15 degrees; native ink retained."
+      },
+      {
+        "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-1",
+        "box": [
+          1095,
+          1523,
+          1187,
+          1908
+        ],
+        "vertical_fit_y_range": [
+          22,
+          262
+        ],
+        "fits": [
+          {
+            "threshold": 175,
+            "native_slope_x_over_y": 0.0011349763910580028,
+            "rotation_ccw_positive_up": -0.06502932913164866,
+            "rms_pixels": 0.12228302584605175
+          },
+          {
+            "threshold": 195,
+            "native_slope_x_over_y": 0.001142221965697211,
+            "rotation_ccw_positive_up": -0.06544446944042924,
+            "rms_pixels": 0.12246343917818739
+          },
+          {
+            "threshold": 215,
+            "native_slope_x_over_y": 0.0013025918897620558,
+            "rotation_ccw_positive_up": -0.07463297550029671,
+            "rms_pixels": 0.12062037885746639
+          }
+        ],
+        "applied_degrees": 0,
+        "decision": "Residual angle below 0.15 degrees; native ink retained."
+      },
+      {
+        "candidate_id": "gpo-jobroom-1904:round-rule-fine-long-corner-2",
+        "box": [
+          1337,
+          1524,
+          1429,
+          1907
+        ],
+        "vertical_fit_y_range": [
+          22,
+          260
+        ],
+        "fits": [
+          {
+            "threshold": 175,
+            "native_slope_x_over_y": 0.00020511346730063028,
+            "rotation_ccw_positive_up": -0.011752135832810606,
+            "rms_pixels": 0.10212197252764278
+          },
+          {
+            "threshold": 195,
+            "native_slope_x_over_y": 0.00019922741082993632,
+            "rotation_ccw_positive_up": -0.011414889652849373,
+            "rms_pixels": 0.09626866814169242
+          },
+          {
+            "threshold": 215,
+            "native_slope_x_over_y": 0.000322909152698861,
+            "rotation_ccw_positive_up": -0.018501330972743618,
+            "rms_pixels": 0.12096631707968027
+          }
+        ],
+        "applied_degrees": 0,
+        "decision": "Residual angle below 0.15 degrees; native ink retained."
+      }
+    ]
+  },
+  "composition_note": "2/4-point corner crop boundaries are measured tangencies plus short flat joining margins. Complete isolated long rules remain separate source forms. Native frame context locates ordinary connecting rules; relative stroke widths must be restored when assembling normalized icons."
+}

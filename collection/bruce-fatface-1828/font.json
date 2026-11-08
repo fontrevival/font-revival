@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "bruce-fatface-1828",
+  "name": "Bruce Fatface 1828",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BruceFatface1828-Regular",
+  "year": 1828,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "George Bruce, New York",
+  "description": "Broad, heavy fatface titling capitals from George Bruce’s 1828 specimen, with observed figures, ligatures and punctuation.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "BRUCE LETTER FOUNDRY",
+  "observed": "Complete A–Z titling alphabet, Æ, Œ, &, figures 0–9, dollar and pound signs, comma, semicolon, colon, period, closing apostrophe, hyphen, question mark and exclamation mark. All sampled from Two Line Minion No. 1, unnumbered leaf, PDF page 121.",
+  "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source size identifies the supplying impression; the font is freely scalable.",
+  "sources": [
+    {
+      "title": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Two Line Minion No. 1; unnumbered leaf, PDF page 121",
+      "url": "https://hdl.handle.net/2027/nyp.33433006349736",
+      "file": "reference/bruce1828-hathi-p121.png",
+      "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
+      "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Native embedded PDF pixels retained. The upright image is an exact quarter-turn without resampling. See source/rows.json, tracing.json and METHOD.md."
+  },
+  "character_style": "capitals-only",
+  "character_set": " !$&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ’",
+  "character_set_notes": "Complete historical capitals-only titling alphabet and the figures and punctuation printed with it. Lowercase characters are capital aliases. Unsupported modern symbols are deliberately omitted."
+}

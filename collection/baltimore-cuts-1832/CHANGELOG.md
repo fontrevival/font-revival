@@ -1,5 +1,18 @@
 # Changes
 
+## 1.005
+
+- Identify No.162 as a two-wheeled chaise, No.211 as a carriage and chaise, and No.76 as a decorated bottle after comparison with matching Bruce1828 impressions. Preserve artwork, permanent IDs and character assignments.
+
+## 1.004
+
+- Reclassify No. 228 by its visible gavel, cargo and ships; retain the engraving and permanent identity.
+
+- Offer fonts and editable font data under the choice MIT or SIL OFL 1.1,
+  with both license notices in the fonts and download packages.
+- Improve eagle Nos.141 and243 from clearer matching impressions in the GPO1904 specimen, retaining both original Baltimore witnesses and a source comparison proof.
+- Preserve all character assignments, advance widths and features. Standalone artwork and other original project files remain MIT licensed.
+
 ## 1.003
 
 - Repair 60 downloadable cut drawings that exceed signed 16-bit renderer point counts, including the missing eagle and shield at No. 103.

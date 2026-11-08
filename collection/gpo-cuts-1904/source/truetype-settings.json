@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "notes": "Preserve apparent ink coverage for dense engravings; ordinary binary reduction loses light details or fails the source frame. Full-detail artwork remains unchanged.",
+  "methods": {
+    "uniE003": "coverage-screen",
+    "uniE006": "coverage-screen",
+    "uniE068": "coverage-screen",
+    "uniE02C": "coverage-screen",
+    "uniE02F": "coverage-screen"
+  }
+}

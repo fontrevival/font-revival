@@ -4,17 +4,17 @@
   "kind": "icons",
   "name": "Baltimore Initials 1832",
   "style": "Regular",
-  "version": "1.002",
+  "version": "1.004",
   "postscript_name": "BaltimoreInitials1832-Regular",
   "year": 1832,
   "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
   "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
-  "description": "Historical decorated initials from Baltimore 1832, with matching impressions from Boston 1832, Howe 1830 and Bruce 1828, plus the leafy-descender Oak Leaf R from the complete alphabet sheet.",
+  "description": "Historical decorated letters, figures and punctuation from Baltimore 1832 and matching period sources in Boston 1832, Howe 1830 and Bruce 1828, plus the leafy-descender Oak Leaf R.",
   "license": "MIT OR OFL-1.1",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "",
-  "observed": "38 original Baltimore impressions plus 27 matching period impressions (21 letters and six punctuation marks), and the complete-sheet Oak Leaf R: 66 items. Both R forms are retained separately. All letters and punctuation of the Boston MINT! GOLD. specimen are included, alongside the original Baltimore PRINT LUCAS letters. Every item has an exact scan crop and source citation; the standalone sheet uses an explicit location instead of a PDF page.",
-  "reconstructed": "No inferred letters or new pictorial content. Thresholding, crop cleanup, cubic curve fitting and font-unit rounding interpret the observed impressions. Source identifiers, Private Use assignments, uniform scale and bearings are digital metadata and metrics. Original 38 items retain their existing monochrome and three-tone drawings, including reviewed 1.001 alignment. The 28 supplementary impressions are monochrome.",
+  "observed": "80 complete ornamental sorts: 38 original Baltimore impressions, 27 matching period impressions, the complete-sheet Oak Leaf R, and 14 Bruce 1828 additions. Bruce supplies lottery figures 3, 4, 5 and comma, and the complete ornamented SODA water. setting. Its S, a and e have distinct hatched/internal decoration from the related Baltimore and Boston versions. Every item retains an exact crop and citation.",
+  "reconstructed": "No inferred letters or new pictorial content. Thresholding, crop cleanup, cubic curve fitting and font-unit rounding interpret the observed impressions. Source identifiers, Private Use assignments, uniform scale and bearings are digital metadata and metrics. Original 38 items retain their existing monochrome and three-tone drawings, including reviewed 1.001 alignment. The 42 supplementary impressions are monochrome. No incomplete alphabet is offered as a text font.",
   "sources": [
     {
       "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 59, Internet Archive leaf 58",
@@ -92,6 +92,20 @@
       "file": "reference/oak-leaf-complete.png",
       "rights": "The underlying Oak Leaf design is documented in the 1832 Baltimore specimen and is public domain by age. The complete reproduction is hosted by Luc Devroye; its intermediate publication and reproduction history are unidentified. The attribution is the working basis for this revival. The project MIT license covers original digital work and does not assert ownership of the reference sheet.",
       "rights_url": "https://archive.org/details/ldpd_12198261_000/page/n66/mode/1up"
+    },
+    {
+      "title": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Lottery Figures; unnumbered leaf, PDF page 133",
+      "url": "https://hdl.handle.net/2027/nyp.33433006349736",
+      "file": "reference/bruce1828-hathi-p133.png",
+      "rights": "1828 United States publication; historical artwork public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. Faithful reproduction of historical artwork, not a modern digital typeface.",
+      "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    },
+    {
+      "title": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135",
+      "url": "https://hdl.handle.net/2027/nyp.33433006349736",
+      "file": "reference/bruce1828-hathi-p135.png",
+      "rights": "1828 United States publication; historical artwork public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. Faithful reproduction of historical artwork, not a modern digital typeface.",
+      "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
     }
   ],
   "icons": [
@@ -1817,7 +1831,7 @@
     },
     {
       "id": "bruce-1828-p137-eight-line-pica-fluted-i",
-      "name": "Eight Line Pica Fluted letter I",
+      "name": "Open Antique letter I",
       "specimen_number": "eight-line-pica-fluted-i",
       "printed_page": null,
       "pdf_page": 137,
@@ -1827,19 +1841,20 @@
         "i",
         "initial",
         "decorated",
-        "eight-line-pica-fluted",
-        "fluted",
-        "bruce1828"
+        "bruce1828",
+        "open-antique",
+        "outline",
+        "slab-serif"
       ],
       "codepoint": "E02F",
       "glyph": "uniE02F",
       "source_index": 7,
       "recommended_min_px": 64,
-      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+      "source_label": "Eight Line Pica Open Antique — A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
     },
     {
       "id": "bruce-1828-p137-eight-line-pica-fluted-l",
-      "name": "Eight Line Pica Fluted letter L",
+      "name": "Open Antique letter L",
       "specimen_number": "eight-line-pica-fluted-l",
       "printed_page": null,
       "pdf_page": 137,
@@ -1849,19 +1864,20 @@
         "l",
         "initial",
         "decorated",
-        "eight-line-pica-fluted",
-        "fluted",
-        "bruce1828"
+        "bruce1828",
+        "open-antique",
+        "outline",
+        "slab-serif"
       ],
       "codepoint": "E030",
       "glyph": "uniE030",
       "source_index": 7,
       "recommended_min_px": 64,
-      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+      "source_label": "Eight Line Pica Open Antique — A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
     },
     {
       "id": "bruce-1828-p137-eight-line-pica-fluted-y",
-      "name": "Eight Line Pica Fluted letter Y",
+      "name": "Open Antique letter Y",
       "specimen_number": "eight-line-pica-fluted-y",
       "printed_page": null,
       "pdf_page": 137,
@@ -1871,19 +1887,20 @@
         "y",
         "initial",
         "decorated",
-        "eight-line-pica-fluted",
-        "fluted",
-        "bruce1828"
+        "bruce1828",
+        "open-antique",
+        "outline",
+        "slab-serif"
       ],
       "codepoint": "E031",
       "glyph": "uniE031",
       "source_index": 7,
       "recommended_min_px": 64,
-      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+      "source_label": "Eight Line Pica Open Antique — A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
     },
     {
       "id": "bruce-1828-p137-eight-line-pica-fluted-a",
-      "name": "Eight Line Pica Fluted letter A",
+      "name": "Open Antique letter A",
       "specimen_number": "eight-line-pica-fluted-a",
       "printed_page": null,
       "pdf_page": 137,
@@ -1893,15 +1910,16 @@
         "a",
         "initial",
         "decorated",
-        "eight-line-pica-fluted",
-        "fluted",
-        "bruce1828"
+        "bruce1828",
+        "open-antique",
+        "outline",
+        "slab-serif"
       ],
       "codepoint": "E032",
       "glyph": "uniE032",
       "source_index": 7,
       "recommended_min_px": 64,
-      "source_label": "A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
+      "source_label": "Eight Line Pica Open Antique — A specimen of printing types, and ornaments cast in the letterfoundry of George Bruce (1828), unpaginated; PDF page 137, archive leaf 136"
     },
     {
       "id": "boston-1832-p139-eight-line-pica-oak-leaf-m",
@@ -2234,6 +2252,318 @@
       "source_index": 10,
       "recommended_min_px": 64,
       "source_label": "Oak Leaf complete alphabet sheet, hosted by Luc Devroye; attributed to Baltimore Type Foundry, 1832"
+    },
+    {
+      "id": "bruce-1828-p133-lottery-3",
+      "name": "Ornamented lottery figure 3",
+      "specimen_number": "lottery-3",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "decorated",
+        "hatched",
+        "shadow",
+        "lottery",
+        "numeral",
+        "digit",
+        "3"
+      ],
+      "codepoint": "E042",
+      "glyph": "uniE042",
+      "source_index": 11,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Lottery Figures; unnumbered leaf, PDF page 133"
+    },
+    {
+      "id": "bruce-1828-p133-lottery-4",
+      "name": "Ornamented lottery figure 4",
+      "specimen_number": "lottery-4",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "decorated",
+        "hatched",
+        "shadow",
+        "lottery",
+        "numeral",
+        "digit",
+        "4"
+      ],
+      "codepoint": "E043",
+      "glyph": "uniE043",
+      "source_index": 11,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Lottery Figures; unnumbered leaf, PDF page 133"
+    },
+    {
+      "id": "bruce-1828-p133-lottery-5",
+      "name": "Ornamented lottery figure 5",
+      "specimen_number": "lottery-5",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "decorated",
+        "hatched",
+        "shadow",
+        "lottery",
+        "numeral",
+        "digit",
+        "5"
+      ],
+      "codepoint": "E044",
+      "glyph": "uniE044",
+      "source_index": 11,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Lottery Figures; unnumbered leaf, PDF page 133"
+    },
+    {
+      "id": "bruce-1828-p133-lottery-comma",
+      "name": "Ornamented lottery comma",
+      "specimen_number": "lottery-comma",
+      "printed_page": null,
+      "pdf_page": 133,
+      "tags": [
+        "decorated",
+        "hatched",
+        "shadow",
+        "lottery",
+        "punctuation",
+        "comma"
+      ],
+      "codepoint": "E045",
+      "glyph": "uniE045",
+      "source_index": 11,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Lottery Figures; unnumbered leaf, PDF page 133"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-capital-o",
+      "name": "Hatched ornamented italic letter o",
+      "specimen_number": "ornamented-capital-o",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "letter",
+        "o",
+        "capital"
+      ],
+      "codepoint": "E046",
+      "glyph": "uniE046",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-capital-d",
+      "name": "Hatched ornamented italic letter d",
+      "specimen_number": "ornamented-capital-d",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "letter",
+        "d",
+        "capital"
+      ],
+      "codepoint": "E047",
+      "glyph": "uniE047",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-capital-a",
+      "name": "Hatched ornamented italic letter a",
+      "specimen_number": "ornamented-capital-a",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "letter",
+        "a",
+        "capital"
+      ],
+      "codepoint": "E048",
+      "glyph": "uniE048",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-lowercase-w",
+      "name": "Hatched ornamented italic letter w",
+      "specimen_number": "ornamented-lowercase-w",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "letter",
+        "w",
+        "lowercase"
+      ],
+      "codepoint": "E049",
+      "glyph": "uniE049",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-lowercase-t",
+      "name": "Hatched ornamented italic letter t",
+      "specimen_number": "ornamented-lowercase-t",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "letter",
+        "t",
+        "lowercase"
+      ],
+      "codepoint": "E04A",
+      "glyph": "uniE04A",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-lowercase-r",
+      "name": "Hatched ornamented italic letter r",
+      "specimen_number": "ornamented-lowercase-r",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "letter",
+        "r",
+        "lowercase"
+      ],
+      "codepoint": "E04B",
+      "glyph": "uniE04B",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-period",
+      "name": "Ornamented italic diamond period",
+      "specimen_number": "ornamented-period",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow",
+        "punctuation",
+        "period"
+      ],
+      "codepoint": "E04C",
+      "glyph": "uniE04C",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-capital-s",
+      "name": "Hatched ornamented italic letter S",
+      "specimen_number": "ornamented-capital-s",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "letter",
+        "s",
+        "capital",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow"
+      ],
+      "codepoint": "E04D",
+      "glyph": "uniE04D",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-lowercase-a",
+      "name": "Hatched ornamented italic letter a",
+      "specimen_number": "ornamented-lowercase-a",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "letter",
+        "a",
+        "lowercase",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow"
+      ],
+      "codepoint": "E04E",
+      "glyph": "uniE04E",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+    },
+    {
+      "id": "bruce-1828-p135-ornamented-lowercase-e",
+      "name": "Hatched ornamented italic letter e",
+      "specimen_number": "ornamented-lowercase-e",
+      "printed_page": null,
+      "pdf_page": 135,
+      "tags": [
+        "initial",
+        "letter",
+        "e",
+        "lowercase",
+        "ornamented",
+        "italic",
+        "flower",
+        "hatching",
+        "shadow"
+      ],
+      "codepoint": "E04F",
+      "glyph": "uniE04F",
+      "source_index": 12,
+      "recommended_min_px": 64,
+      "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
     }
   ],
   "revival": {

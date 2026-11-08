@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "de-vinne-italic-1900",
+  "name": "De Vinne Italic",
+  "style": "Regular",
+  "version": "1.005",
+  "postscript_name": "DeVinne-Italic",
+  "year": 1900,
+  "designer": "Unidentified in the retained source pages",
+  "foundry": "Shown by the United States Government Printing Office and American Type Founders; the collective ATF page credits Central Type Foundry for the design",
+  "description": "De Vinne Italic with complete observed alphabets and figures, retained historical details, and source-supported companions. Scalable at any text size.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "Superior Printing Materials",
+  "character_style": "mixed-case",
+  "character_set": " $0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+  "character_set_notes": "Complete observed A–Z, a–z and ten figures. Only the recorded punctuation and symbols are encoded; unsupported characters remain source gaps. One coherent source alphabet is retained. Supplementary whole characters from related specimen sizes preserve the combined coverage; source/consolidation.json identifies each donor. Source point sizes do not restrict digital use.",
+  "observed": "The census specimen shows both complete eight-point alphabets and all ten figures. Matching New York and BYU ATF impressions supply clearer letters and figures. Other retained ATF pages document repeated samples and source-quality comparisons. The John Ryan Foundry 1894 specimen, printed page 69, supplies a clearer whole eight-point g from Tumbling. The consolidated offering also retains $ from separately documented source-size witnesses; see source/consolidation.json.",
+  "reconstructed": "No visible glyph is invented. The default alphabet and its selected alternates remain unchanged. Supplementary whole glyphs retain their donor outlines, advances and existing 1000-unit coordinates; the donor specimen sizes are recorded explicitly. Modern spacing and placement conventions remain documented in the source methods. No missing character is reconstructed.",
+  "sources": [
+    {
+      "title": "gpo-census-1900: De Vinne Italic, printed page 15, archive leaf 31",
+      "url": "https://archive.org/details/specimensoftypef00unit_0/page/n31/mode/1up",
+      "file": "reference/gpo-census-1900-leaf-31.jp2",
+      "rights": "Historical United States Government Printing Office publication; public domain by age. Native printed forms only.",
+      "rights_url": "https://archive.org/metadata/specimensoftypef00unit_0"
+    },
+    {
+      "title": "atf-new-york-1897: De Vinne Italic, printed page 335, archive leaf 403",
+      "url": "https://archive.org/details/specimensofprint00amerrich/page/n403/mode/1up",
+      "file": "reference/atf-new-york-1897-leaf-403.jp2",
+      "rights": "1897 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/specimensofprint00amerrich"
+    },
+    {
+      "title": "atf-handy-byu-1897: De Vinne Italic, printed page 365, archive leaf 367",
+      "url": "https://archive.org/details/specimensoftypeb00amer/page/n367/mode/1up",
+      "file": "reference/atf-handy-byu-1897-leaf-367.jp2",
+      "rights": "1897 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/specimensoftypeb00amer"
+    },
+    {
+      "title": "atf-pacific-1896: De Vinne Italic, printed page 429, archive leaf 433",
+      "url": "https://archive.org/details/pacificcoastblue00amerrich/page/n433/mode/1up",
+      "file": "reference/atf-pacific-1896-leaf-433.jp2",
+      "rights": "1896 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/pacificcoastblue00amerrich"
+    },
+    {
+      "title": "atf-handy-1897: De Vinne Italic, printed page 197, archive leaf 216",
+      "url": "https://archive.org/details/cu31924014559730/page/n216/mode/1up",
+      "file": "reference/atf-handy-1897-leaf-216.jp2",
+      "rights": "1897 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/cu31924014559730"
+    },
+    {
+      "title": "atf-desk-nypl-1898: De Vinne Italic, printed page 303, archive leaf 316",
+      "url": "https://archive.org/details/ATF1898DeskBook/page/n316/mode/1up",
+      "file": "reference/atf-desk-1898-leaf-316.jp2",
+      "rights": "1898 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://archive.org/metadata/ATF1898DeskBook"
+    },
+    {
+      "title": "atf-collective-1896: De Vinne Italic, printed page 286, part 16, PDF page 6",
+      "url": "https://www.circuitousroot.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-part-16-devinne-etc-publicdomain.pdf",
+      "file": "reference/atf-collective-1896-p286-native-000.jpg",
+      "rights": "1896 United States publication, public domain by age. The historical scan supplies the observed forms.",
+      "rights_url": "https://www.circuitousroot.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-part-16-devinne-etc-publicdomain.pdf"
+    },
+    {
+      "title": "John Ryan Foundry, Latest and standard faces in type (1894), De Vinne Italic 8 point, printed page 69, archive leaf 75",
+      "file": "reference/ryan-1894-leaf-75.jp2",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/n75/mode/1up",
+      "rights": "John Ryan Foundry, Baltimore, United States, Latest and standard faces in type, printers tools and machinery, published 1894; historical publication in the public domain by age.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    },
+    {
+      "title": "American Type Founders Desk Book (1898), De Vinne Italic 6 point, printed page 349, archive leaf 357",
+      "file": "reference/atf-desk-1898-leaf-357.jp2",
+      "url": "https://archive.org/details/deskbookofprinti00amer/page/n357/mode/1up",
+      "rights": "Historical American Type Founders specimen published in the United States in 1898; public domain by age.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Complete observed alphabets and figures, plus one named lining R alternative through ss01. Four retained native pages supply 63 selected outlines; four further native pages supply comparison evidence. Exact four-times derivatives, uniform source scales, measured row rotations and j neighbour isolation are reproducible. No visible form is drawn or borrowed from another size. See source/METHOD.md. Whole-form source comparisons, measured capital scale and text baseline are retained in source/italic-quality-review.json. Only g changes; its 733-unit advance and all feature mappings are preserved. This scalable offering consolidates source-size editions. Archived masters retain all earlier source-size drawings and alternatives. The alphabet is based on de-vinne-italic-8pt-1900; source/consolidation.json records supplementary whole glyphs. No optical-size product is offered."
+  },
+  "specimen_cut_archive": [
+    {
+      "original_id": "de-vinne-italic-6pt-1900",
+      "path": "source/specimen-cuts/de-vinne-italic-6pt-1900",
+      "master_sha256": "eb9e2650c4613779b5f17922c95860160b69f6bb9f3176d225564061971f9a45",
+      "metadata_sha256": "bc58cbaedc59fc2c9da39bb204181d39efb4ff189a2e5a945101f47447e0e12a",
+      "role": "archival-source-size-evidence",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    },
+    {
+      "original_id": "de-vinne-italic-8pt-1900",
+      "path": "source/specimen-cuts/de-vinne-italic-8pt-1900",
+      "master_sha256": "6122ebef2b8f98a1f773002f6a55a2836017757773487c151047d7bc657cf4df",
+      "metadata_sha256": "45a51a0c2dac2a099db67eb8e939cc40c2b5da5136be0adde1786218dbe6e1cc",
+      "role": "default-alphabet-source",
+      "note": "Complete source, native references, recipes, glyph alternatives and historical proofs retained. This is not a separate installable offering."
+    }
+  ]
+}

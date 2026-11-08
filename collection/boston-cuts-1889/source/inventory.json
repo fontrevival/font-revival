@@ -11915,6 +11915,108 @@
       "crop_notes": "Native crop visually reviewed. Catalogue labels excluded; extremities measured with four-pixel clearance.",
       "icon_id": "boston-1889-p272-1592",
       "codepoint": "E1DD"
+    },
+    {
+      "icon_id": "boston-1889-p271-2519",
+      "status": "preferred-additional-witness",
+      "source_index": 6,
+      "archive_leaf": 176,
+      "pdf_page": 176,
+      "printed_page": 160,
+      "specimen_number": "17",
+      "file": "reference/gpo-1904-leaf-176.png",
+      "box": [
+        1211,
+        3235,
+        1425,
+        3332
+      ],
+      "decision": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity."
+    },
+    {
+      "icon_id": "boston-1889-p271-2520",
+      "status": "preferred-additional-witness",
+      "source_index": 6,
+      "archive_leaf": 176,
+      "pdf_page": 176,
+      "printed_page": 160,
+      "specimen_number": "18",
+      "file": "reference/gpo-1904-leaf-176.png",
+      "box": [
+        1587,
+        3232,
+        1804,
+        3326
+      ],
+      "decision": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity."
+    },
+    {
+      "icon_id": "boston-1889-p271-4014",
+      "status": "preferred-additional-witness",
+      "source_index": 7,
+      "archive_leaf": 177,
+      "pdf_page": 177,
+      "printed_page": 161,
+      "specimen_number": "28",
+      "file": "reference/gpo-1904-leaf-177.png",
+      "box": [
+        801,
+        546,
+        1083,
+        679
+      ],
+      "decision": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity."
+    },
+    {
+      "icon_id": "boston-1889-p271-4006",
+      "status": "preferred-additional-witness",
+      "source_index": 7,
+      "archive_leaf": 177,
+      "pdf_page": 177,
+      "printed_page": 161,
+      "specimen_number": "33",
+      "file": "reference/gpo-1904-leaf-177.png",
+      "box": [
+        1065,
+        935,
+        1222,
+        1010
+      ],
+      "decision": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity."
+    },
+    {
+      "icon_id": "boston-1889-p271-4005",
+      "status": "preferred-additional-witness",
+      "source_index": 7,
+      "archive_leaf": 177,
+      "pdf_page": 177,
+      "printed_page": 161,
+      "specimen_number": "34",
+      "file": "reference/gpo-1904-leaf-177.png",
+      "box": [
+        1327,
+        935,
+        1489,
+        1016
+      ],
+      "decision": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity."
+    },
+    {
+      "icon_id": "boston-1889-p271-4013",
+      "status": "preferred-additional-witness",
+      "source_index": 7,
+      "archive_leaf": 177,
+      "pdf_page": 177,
+      "printed_page": 161,
+      "specimen_number": "45",
+      "file": "reference/gpo-1904-leaf-177.png",
+      "box": [
+        1362,
+        2973,
+        1640,
+        3118
+      ],
+      "decision": "Matching complete contour and cuff construction; GPO preserves stronger continuous outlines and clearer engraved/cuff details. Impression strength does not create a new identity."
     }
   ],
   "notes": "All 62 available leaves in the requested printed range were visually surveyed. Available distinct cuts, ornaments, decorated initials, construction pieces and pictorial symbols have been revived. Ordinary text, numerals and calendar tables are excluded. Duplicate compositions and unobserved components are documented in the family inventories. Printed pages 217–218 are absent from this scan; this is not a claim to have recovered those pages.",
@@ -12619,5 +12721,68 @@
       "https://commons.wikimedia.org/wiki/File:Specimen_book_from_the_Boston_type_foundry_...containing_also_a_complete_price_list_of_printing_material._(IA_specimenbookfrom00unse).pdf",
       "https://search.worldcat.org/title/1155611575"
     ]
-  }
+  },
+  "quality_revisions": [
+    {
+      "id": "boston-1889-p275-2562",
+      "revision": "1.005",
+      "previous_witness": {
+        "source_index": 2,
+        "pdf_page": 283,
+        "printed_page": 275,
+        "specimen_number": "2562"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 251,
+        "archive_leaf": 250,
+        "specimen_number": "392",
+        "source_index": 8
+      },
+      "source_file": "reference/bruce1828-hathi-p251.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1213,
+        320,
+        1554,
+        580
+      ],
+      "output": "reference/crops/bruce-1828-p251-cut-392-upgrade.png",
+      "crop_sha256": "3fbca22d5a5d89172c6e5f991d396b7fce283e05e4e31bb57aa80bc491c7749c",
+      "reason": "Sharper continuous shell rims and observed hatching in the centre of the right shell. Stable identity, codepoint and advance preserved; no invented engraving.",
+      "tracing": {
+        "file": "reference/crops/bruce-1828-p251-cut-392-upgrade.png",
+        "box": [
+          0,
+          0,
+          341,
+          260
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "blur": 0,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed clearer Bruce1828 PDF251 No392 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving.",
+        "frame_threshold": 165,
+        "multitone": {
+          "thresholds": {
+            "primary": 105,
+            "secondary": 135,
+            "tertiary": 165
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        }
+      }
+    }
+  ]
 }

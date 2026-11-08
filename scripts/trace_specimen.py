@@ -112,7 +112,7 @@ def trace_mask(mask, entry, potrace):
         pbm, svg = Path(tmp)/'crop.pbm', Path(tmp)/'crop.svg'
         mask.convert('1').save(pbm)
         subprocess.run([potrace, str(pbm), '--svg', '--output', str(svg),
-                        '--turdsize', '0', '--alphamax', '1',
+                        '--turdsize', '0', '--alphamax', str(entry.get('alphamax', 1)),
                         '--opttolerance', str(entry.get('tolerance', 0.35)),
                         '--unit', '10'], check=True, capture_output=True)
         # Potrace's path coordinates are already y-up in tenths of a pixel.
