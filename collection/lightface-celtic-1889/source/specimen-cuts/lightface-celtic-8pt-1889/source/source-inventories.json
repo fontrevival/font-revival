@@ -1,0 +1,72 @@
+{
+  "method": "Exact source-local eight-point coverage. Matching samples jointly support the complete character set.",
+  "entries": [
+    {
+      "id": "gpo-job-1897:type-sample:lightface-celtic-8pt",
+      "book": "gpo-job-1897",
+      "archive_leaf": 61,
+      "printed_page": 26,
+      "point_size": 8,
+      "source_label": "8-point Light-face Celtic",
+      "sample_transcription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ / abcdefghijklmnopqrstuvwxyz",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+      "missing_alphanumeric_in_this_sample": "0123456789",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+      "id": "gpo-census-1900:type-sample:lightface-celtic-8pt",
+      "book": "gpo-census-1900",
+      "archive_leaf": 5,
+      "printed_page": 2,
+      "point_size": 8,
+      "source_label": "8-point Light-face Celtic, No. 40",
+      "sample_transcription": "ABCDEFGHIJKLMNOPQR / abcdefghijklmnopqr / 1234567890",
+      "observed_alphanumeric": "ABCDEFGHIJKLMNOPQRabcdefghijklmnopqr0123456789",
+      "missing_alphanumeric_in_this_sample": "STUVWXYZstuvwxyz",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+      "id": "boston-1889:type-sample:lightface-celtic-8pt",
+      "book": "boston-1889",
+      "archive_leaf": 200,
+      "printed_page": 194,
+      "point_size": 8,
+      "source_label": "8-point Light-face Celtic",
+      "sample_transcription": "TRACES OF BITTER CONFLICTS MISSED / Beneath Golden Grain Fields / Only Contention’s History Remains 10",
+      "observed_alphanumeric": "ABCDEFGHILMNORSTadehilmnorsty01",
+      "missing_alphanumeric_in_this_sample": "JKPQUVWXYZbcfgjkpquvwxz23456789",
+      "observed_punctuation": "’",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    },
+    {
+      "id": "atf-collective-1896:type-sample:lightface-celtic-8pt",
+      "book": "atf-collective-1896",
+      "archive_leaf": null,
+      "printed_page": 181,
+      "point_size": 8,
+      "source_label": "8-point Lightface Celtic No. 40",
+      "sample_transcription": "Renowned Comedian Amuses Inhabitants / Traveling Burlesquer / INTENSE HUMOR CREATED / 1234567890",
+      "observed_alphanumeric": "ABCDEHIMNORSTUabdeghilmnoqrstuvw0123456789",
+      "missing_alphanumeric_in_this_sample": "FGJKLPQVWXYZcfjkpxyz",
+      "observed_punctuation": "",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+      "provider_part": 11,
+      "pdf_page": 4
+    },
+    {
+      "id": "gpo-jobroom-1904:type-sample:lightface-celtic-8pt",
+      "book": "gpo-jobroom-1904",
+      "archive_leaf": 54,
+      "printed_page": 38,
+      "point_size": 8,
+      "source_label": "8-point Light-face Celtic",
+      "sample_transcription": "HOW YOU MAY ATTAIN SUCCESS 250 / Horace Greeley never attained eminence / by merely being satisfied with the mechan- / ical handling of types. Such men do not / spend all their earnings in flirting with / girls of their own stamp, spending their / spare time at theaters or beer saloons, and / the less drama, as well as dram. Cultivate / the mind; do not let it lie dormant, or worse / than dormant, by cultivating the prevailing / nonsense in conversation and in society, / so-called—in wasting precious evenings in / idleness and dissipation. Reasonable recre- / ation at proper times and intervals, and / within the confines of right and judicious / living, will do much toward developing / those traits of character so necessary to",
+      "observed_alphanumeric": "ACEGHIMNORSTUWYabcdefghijlmnoprstuvwy025",
+      "missing_alphanumeric_in_this_sample": "BDFJKLPQVXZkqxz1346789",
+      "observed_punctuation": ",-.;—",
+      "target_alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    }
+  ]
+}

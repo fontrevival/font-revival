@@ -13,9 +13,29 @@ All 368 catalogue numbers are represented; No. 357 contains 25 separate panels.
 The unpaginated leaves use `printed_page: null` and one-based `pdf_page` citations.
 Baltimore historical sections use `pdf_pages` selectors; Boston uses
 `printed_pages`. Neither field is inferred from the other.
+
+Bruce Cuts 1828 contains 499 distinct pictorial cuts, framed scenes, tools,
+animals, seals and pointing hands from PDF pages 237–403. Its source inventory
+accounts for 816 printed settings and links repeated designs to their existing
+collection IDs. Filled impressions whose identities remain uncertain and two
+clipped large engravings remain explicit source gaps. Native page images,
+reproducible crops, measured frame corrections and tracing recipes accompany
+the artwork. Dense engravings have documented compatible font drawings while
+the editable master and SVG preserve full detail.
+
+Bruce Ornaments 1828 contains 198 designs: 45 dashes and masks from unnumbered
+PDF pages 169–175 and 153 border repeats, corners and floral motifs from pages
+177–235. Its inventories resolve composed settings into source pieces and link
+duplicates to existing Baltimore and Boston designs. Original size headings
+remain source evidence. Native page images, exact crops and measured
+straightening and border rectification records accompany the monochrome artwork.
+
 Baltimore Initials also includes 27 matching period impressions from Boston 1832,
 Howe 1830 and Bruce 1828 (21 letters and six punctuation marks), plus the
-complete-sheet Oak Leaf R with its leafy descender, for 66 items.
+complete-sheet Oak Leaf R with its leafy descender. Fourteen further Bruce 1828
+sorts include lottery figures 3, 4, 5 and comma and the full ornamented
+SODA water. setting, for 80 items. The hatched S, a and e are distinct from
+the related Baltimore and Boston engravings.
 Both R variants and the entire Boston MINT! GOLD. specimen are retained.
 Source indices and page citations identify the supplying book. A standalone
 image uses `pdf_page: null`, `printed_page: null` and a nonempty `source_location`
@@ -29,6 +49,13 @@ numbers run through 606; the inventory distinguishes missing printed numbers
 from unnumbered impressions and records all separate set members. References
 to existing icons preserve their artwork, IDs and codepoints. These Boston
 1832 leaves use `printed_page: null` and one-based `pdf_page` citations.
+
+GPO Cuts 1904 contains 597 designs from Government Printing Office specimens
+of 1897, 1900 and 1904, including pointing hands, flags, eagle emblems, buildings,
+vessels, portraits, seals, borders, technical signs and allegorical cuts. Its source inventory records each reviewed impression,
+repeat and match to an existing Boston or Baltimore design. Printed pages,
+one-based PDF pages and archive leaves are recorded separately. Full native
+scans preserve the evidence for design identity and source-quality decisions.
 
 ## Delivery and use
 

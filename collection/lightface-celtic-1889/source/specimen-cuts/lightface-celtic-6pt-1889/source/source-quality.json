@@ -1,0 +1,175 @@
+{
+  "coverage": {
+    "visible_observed": 68,
+    "encoded_with_space": 69,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+    "digits": "0123456789",
+    "punctuation": ".,-’“”",
+    "inferred_visible": 0
+  },
+  "identity": "Distinct six-point optical cut. Wider lowercase and selected capitals recur in both 1897 and census native comparisons at a common cap scale. In the final fitted outlines a/e/n/o/x are about 19–33 percent wider than the twelve-point revival at the same cap reference. The difference is not explained by impression weight alone. Six-point labels, letter construction and relative widths match the supplementary document/job-room sources.",
+  "optical_measurements": [
+    {
+      "character": "H",
+      "six_point": {
+        "ink_width": 937.9237242039981,
+        "ink_height": 692.6938630650781
+      },
+      "twelve_point": {
+        "ink_width": 896.0000087137519,
+        "ink_height": 699.0840599141346
+      },
+      "width_ratio": 1.0467898605831818,
+      "height_ratio": 0.9908591867337936
+    },
+    {
+      "character": "N",
+      "six_point": {
+        "ink_width": 930.7916633102451,
+        "ink_height": 689.4987672893205
+      },
+      "twelve_point": {
+        "ink_width": 870.015625,
+        "ink_height": 695.3853076778488
+      },
+      "width_ratio": 1.069856260696749,
+      "height_ratio": 0.9915348507891465
+    },
+    {
+      "character": "M",
+      "six_point": {
+        "ink_width": 1002.6350271003312,
+        "ink_height": 685.2830756062909
+      },
+      "twelve_point": {
+        "ink_width": 1021.0985475136008,
+        "ink_height": 691.9510955616154
+      },
+      "width_ratio": 0.9819179838633315,
+      "height_ratio": 0.9903634519865708
+    },
+    {
+      "character": "O",
+      "six_point": {
+        "ink_width": 884.1331253036791,
+        "ink_height": 717.4552512230237
+      },
+      "twelve_point": {
+        "ink_width": 806.1035317046259,
+        "ink_height": 738.602024443823
+      },
+      "width_ratio": 1.0967984762875906,
+      "height_ratio": 0.9713691913629358
+    },
+    {
+      "character": "a",
+      "six_point": {
+        "ink_width": 708.8583818955865,
+        "ink_height": 527.1676968791724
+      },
+      "twelve_point": {
+        "ink_width": 534.218239066341,
+        "ink_height": 508.2613913179621
+      },
+      "width_ratio": 1.3269078628510813,
+      "height_ratio": 1.0371979967083171
+    },
+    {
+      "character": "e",
+      "six_point": {
+        "ink_width": 601.7446537734819,
+        "ink_height": 537.7619054249999
+      },
+      "twelve_point": {
+        "ink_width": 485.1660858811273,
+        "ink_height": 506.72293189073525
+      },
+      "width_ratio": 1.240285896489719,
+      "height_ratio": 1.0612543296954193
+    },
+    {
+      "character": "n",
+      "six_point": {
+        "ink_width": 745.0467306246917,
+        "ink_height": 526.1851509319774
+      },
+      "twelve_point": {
+        "ink_width": 566.148894776274,
+        "ink_height": 510.2710341061712
+      },
+      "width_ratio": 1.3159907888173359,
+      "height_ratio": 1.0311875763312386
+    },
+    {
+      "character": "o",
+      "six_point": {
+        "ink_width": 662.3813379787294,
+        "ink_height": 549.9488833301706
+      },
+      "twelve_point": {
+        "ink_width": 558.0775367195723,
+        "ink_height": 480.52470744463943
+      },
+      "width_ratio": 1.1868984046056823,
+      "height_ratio": 1.1444757674474615
+    },
+    {
+      "character": "x",
+      "six_point": {
+        "ink_width": 819.25,
+        "ink_height": 519.3653611132033
+      },
+      "twelve_point": {
+        "ink_width": 648.4239149192427,
+        "ink_height": 475.92087785155593
+      },
+      "width_ratio": 1.2634481565998883,
+      "height_ratio": 1.091285096501268
+    }
+  ],
+  "selected_characters_by_source": {
+    "reference/gpo-census-1900-leaf-5.jp2": "ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijklmnopqrstuvwx0123456789",
+    "reference/gpo-document-1904-leaf-85.jp2": "YZyz’“”",
+    "reference/gpo-jobroom-1904-leaf-54.jp2": ".,-"
+  },
+  "thresholds": {
+    "census_default": 155,
+    "census_Bdmn": 165,
+    "census_bpq": 175,
+    "census_a": 185,
+    "document_letters": 175,
+    "document_apostrophe_openquote": 205,
+    "document_closequote": 215,
+    "jobroom": 165
+  },
+  "rejected_sources": [
+    {
+      "source": "ATF1896 printed181 six-point sample",
+      "reason": "Larger pixels but heavily inked, rounded outlines; retained for naming and matching comparison, not preferred for tracing."
+    },
+    {
+      "source": "Boston1889 printed194 six-point sample",
+      "reason": "Earlier named witness with smaller, softer detail than preferred matching sources."
+    },
+    {
+      "source": "1897 printed26 six-point sample",
+      "reason": "Complete alphabet establishes coverage and optical comparison, but census letters are larger and clearer; document supplies clearer Y/Z/y/z."
+    }
+  ],
+  "rejected_trials": [
+    {
+      "trial": "Uniform census155",
+      "reason": "B/a/b/d/p/q lose closed counters; m/n lose whole connected portions. Individually raised thresholds preserve observed native joins without drawn repair."
+    },
+    {
+      "trial": "Extrapolated capital baseline for figures",
+      "reason": "Wide-page curvature makes extrapolation inaccurate. Measure the local figure baseline from native flat-bottomed1/4/7 while retaining the common cap scale."
+    },
+    {
+      "trial": "Document punctuation175–205",
+      "reason": "Lower settings lose tiny quotation-mark tails. Native and fitted comparison with job-room punctuation supports the retained205/215document settings."
+    }
+  ],
+  "geometry": "One uniform scale per source page; rigid row rotations and native baselines. No shear, independent width fitting, hole filling or reconstructed stroke.",
+  "visual_review": "All68visible forms compared with native crops at170px and32px. Words at16/24/40/64/96px. Both quotation marks retain their two separate native components; Q retains two enclosed spaces; i/j retain dots. Contour counts supplement visual inspection and do not establish completeness alone."
+}

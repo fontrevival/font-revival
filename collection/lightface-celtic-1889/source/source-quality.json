@@ -1,0 +1,57 @@
+{
+  "coverage": {
+    "visible_observed": 66,
+    "encoded_with_space": 67,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+    "digits": "0123456789",
+    "punctuation": ".,-’",
+    "inferred_visible": 0
+  },
+  "identity": "The common twelve-point construction was compared across the Boston 1889, ATF 1896, GPO 1897, census 1900, job-room 1904 and document 1904 specimens. Comparisons with the 33 existing text families found no identical revival. The Celtic No. 2 capitals are narrower and have different figures. Other labelled point sizes require separate optical comparison.",
+  "selected_characters_by_source": {
+    "reference/gpo-census-1900-leaf-5.jp2": "ABCDEFGHIJKMabcdefghijklm0123456789",
+    "reference/gpo-jobroom-1904-leaf-54.jp2": "Lnopqrstuvwxy,-’",
+    "reference/gpo-job-1897-leaf-61.jp2": "NOPQVXZz",
+    "reference/gpo-document-1904-leaf-85.jp2": "RSTUWY."
+  },
+  "thresholds": {
+    "census": 155,
+    "job1897": 150,
+    "job1897_Q": 170,
+    "job1897_z": 150,
+    "document": 165,
+    "jobroom": 155,
+    "jobroom_nqr": 170,
+    "jobroom_comma_apostrophe": 185
+  },
+  "rejected_sources": [
+    {
+      "source": "ATF1896 printed181",
+      "reason": "Native pixel dimensions are larger, but the impression is substantially heavier and more rounded; comparison and naming provenance only."
+    },
+    {
+      "source": "Boston1889 printed194",
+      "reason": "Useful earlier named twelve-point witness; matching characters are softer/smaller than preferred census or job-room impressions."
+    },
+    {
+      "source": "Census twelve-point L",
+      "reason": "Attached stray ink midway along stem; use complete matching job-room L."
+    },
+    {
+      "source": "Job-room first lowercase w in Owing",
+      "reason": "Weak central join drops half the drawing at lower thresholds. A later w in will is complete without increasing the whole letter weight."
+    }
+  ],
+  "rejected_trials": [
+    {
+      "trial": "initial broad thresholds",
+      "reason": "Initial thresholds of 200 for the census and 180 for the 1897 source capture too much scan fringe and thicken the light cut."
+    },
+    {
+      "trial": "low thresholds",
+      "reason": "Thresholds of 110–130 can remove hairline connections and entire components. A job-room threshold of 155 loses n, r and q connections; 170 preserves the complete forms. Q at 150 opens the small tail loop; 170 retains it."
+    }
+  ],
+  "geometry": "Rigid row rotations from measured cap/baseline lines; one physical scale per source page. Lowercase and punctuation inherit that page scale, preserving observed size and vertical placement. No independent horizontal stretch or fitted analytic repairs.",
+  "visual_review": "All 66 visible forms were inspected against native crops at 170 and 32 pixels; words were reviewed at 16, 24, 40, 64 and 96 pixels. Q has two observed enclosed spaces; i and j retain detached dots. Counter counts supplement visual inspection and cannot detect a missing disconnected half of n, r or w."
+}
