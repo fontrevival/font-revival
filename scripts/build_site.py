@@ -206,7 +206,8 @@ def local_path(root, origin, url, tracked=None):
 def assemble(root, output, download_base=DOWNLOAD_BASE, cache=None, git_source=False):
     root, output = root.resolve(), output.resolve()
     output.mkdir(parents=True, exist_ok=True)
-    pending = [root / name for name in ('index.html', 'icons.html', 'catalog.json', 'icons.json', 'LICENSE')]
+    pending = [root / name for name in ('index.html', 'icons.html', 'catalog.json', 'icons.json',
+                                      'LICENSE', 'OFL.txt', 'FONT-LICENSES.txt')]
     # The private checkout is built before assembly. Include its complete,
     # explicit browser distribution: OAuth, privacy and agent routes are reached from
     # JavaScript and therefore are not discoverable by the HTML reference scan.

@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def select_checks(changed, available, full=False):
     changed, available = set(changed), set(available)
     full = full or any(
-        path in ('LICENSE', 'requirements.txt', '.github/workflows/check.yml')
+        path in ('LICENSE', 'OFL.txt', 'FONT-LICENSES.txt', 'requirements.txt', '.github/workflows/check.yml')
         or path.startswith('scripts/') and path != 'scripts/build_site.py'
         for path in changed)
     touched = {path.split('/')[1] for path in changed

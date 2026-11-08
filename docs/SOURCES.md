@@ -5,12 +5,24 @@ documented public-domain basis. Every family records sources in `font.json`:
 title and page, stable URL, local reference file, rights assessment, and a link
 supporting that assessment. Record any uncertainty instead of inventing clearance.
 
-The [MIT License](../LICENSE) applies to project code, original documentation,
-digital fonts, and original specimen layouts to the extent copyright subsists
-in them. Copyright in original project work is held by Harold Lehmann.
-The MIT license permits commercial use, modification, embedding, and
-redistribution with the notice. Historical material retains its existing rights
-status; the project does not claim ownership of underlying public-domain designs.
+The [MIT License](../LICENSE) applies to original project work to the extent
+copyright subsists in it. Copyright in original project work is held by Harold
+Lehmann. Fonts and editable font source data are also available under the
+[SIL Open Font License 1.1](../OFL.txt): users may choose either license
+(`MIT OR OFL-1.1`). No Reserved Font Names are declared. The exact file scope
+and redistribution notices are described in [font licensing](../FONT-LICENSES.txt),
+which accompanies each family and download bundle with both license texts.
+
+The `license` field in `font.json` describes the fonts and font source data.
+Standalone SVG/PNG artwork, CSS, scripts, documentation and specimen layouts
+use MIT. The separately developed editor is proprietary and uses its own
+notices. Historical material retains its existing rights status; the project
+does not claim ownership of underlying public-domain designs.
+
+Contributions to the covered font files must be available under both MIT and
+SIL OFL 1.1 so recipients can continue to choose either. Contributors must
+have the rights to grant both licenses; an OFL-only derivative cannot be
+included under this choice without permission from its rights holders.
 
 An old design and a modern font file are different sources. Reconstruct from
 historical impressions, not the outlines of someone else's digital revival.
