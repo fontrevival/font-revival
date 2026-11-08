@@ -174,3 +174,25 @@ are removed: catalogue numbers, foundry captions and isolated paper marks.
 Connected stains and the historical impression remain. Canonical, tonal and
 compact-font drawings receive the same region test; advances do not change.
 `specimens/border-strips-review.pdf` retains the enlarged comparisons.
+
+The six brass specimens numbered 1–6 on PDF page 11 each show a thin left
+section and a thicker right section. Their names describe these visible parts.
+`rule-classification.json` records the probable interpretation as printing-face
+and body-width comparisons, supported by the explicitly labeled columns on
+[printed page 16 of the GPO 1904 specimen](https://archive.org/details/123459_1904/page/n32/mode/1up).
+The Baltimore page does not label the parts, so that interpretation remains
+qualified. The complete existing drawings and assignments are retained.
+
+The fine parallel-rule design on PDF page 11 has matching three-point
+specimens in the Government Printing Office books of 1897, 1900 and 1904.
+`rule-witness-inventory.json` records five impressions, their native bands and
+three-section grayscale measurements. The correspondence concerns the two
+parallel lines and their relative spacing; stock length alone is not a new
+design, and no shared physical matrices or Baltimore point size are inferred.
+The larger Baltimore impression remains the drawing source. Its clearer name,
+“Two fine parallel rules”, preserves the existing ID, character and artwork.
+
+Document Division rule No. 17 on printed page 66 is a fifth matching witness.
+Its two- to three-pixel strokes preserve the same fine parallel construction;
+the clearer Baltimore drawing remains preferred. Native grayscale comparisons
+at three positions support the correspondence independently of stock length.

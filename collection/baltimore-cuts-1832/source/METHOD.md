@@ -221,3 +221,9 @@ compares the previous and compatible font drawings at normal display sizes.
 
 References: [FreeType 2.13 outline limits](https://github.com/freetype/freetype/blob/VER-2-13-2/include/freetype/ftimage.h)
 and [TrueType phantom points](https://github.com/freetype/freetype/blob/VER-2-13-2/src/truetype/ttgload.c).
+
+## Preferred later witnesses
+
+GPO1904 Nos.25 and27 repeat Baltimore Nos.243 and141 respectively. Matching feather groups, star positions and ribbon folds establish the same designs. The later impressions separate chest and wing hatching more clearly and preserve finer ribbon lettering. They supply the current drawings under the existing IDs and codepoints, with both1928-unit advances retained. The original Baltimore source pages remain available.
+
+`gpo-witness-review.json` retains the previous metadata, crops and acquisition hashes. The selected source is GPO printed169, PDF185 and archive leaf185; these are independently recorded locators. Native grayscale thresholds155/195/225 define the three tonal bands; monochrome uses210. No missing engraving is invented. The [before/after proof](../specimens/gpo-witness-review.pdf) compares both historical crops and both vector renderings.

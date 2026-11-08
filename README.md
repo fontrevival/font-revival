@@ -71,6 +71,11 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 
 | Family | Character | Downloads and proofs |
 | --- | --- | --- |
+| [De Vinne](collection/de-vinne-1897/) | Upright serif lettering with observed mixed-height figures, optional figure forms, fractions and punctuation. | [OTF](collection/de-vinne-1897/fonts/DeVinne-Regular.otf) · [TTF](collection/de-vinne-1897/fonts/DeVinne-Regular.ttf) · [Preview](collection/de-vinne-1897/specimens/preview.png) · [PDF](collection/de-vinne-1897/specimens/specimen.pdf) |
+| [De Vinne Condensed](collection/de-vinne-condensed-1900/) | Narrow upright lettering with an alternate straight R, stacked fractions and observed punctuation. | [OTF](collection/de-vinne-condensed-1900/fonts/DeVinneCondensed-Regular.otf) · [TTF](collection/de-vinne-condensed-1900/fonts/DeVinneCondensed-Regular.ttf) · [Preview](collection/de-vinne-condensed-1900/specimens/preview.png) · [PDF](collection/de-vinne-condensed-1900/specimens/specimen.pdf) |
+| [De Vinne Italic](collection/de-vinne-italic-1900/) | Sloping historical lettering with an alternate lining R, complete alphabets and figures, and an observed dollar sign. | [OTF](collection/de-vinne-italic-1900/fonts/DeVinne-Italic.otf) · [TTF](collection/de-vinne-italic-1900/fonts/DeVinne-Italic.ttf) · [Preview](collection/de-vinne-italic-1900/specimens/preview.png) · [PDF](collection/de-vinne-italic-1900/specimens/specimen.pdf) |
+| [Lightface Celtic 1889](collection/lightface-celtic-1889/) | Broad serif letters with single-storey a and g, curling figures and a sweeping Q tail. Complete twelve-point uppercase and lowercase, figures and observed punctuation. | [OTF](collection/lightface-celtic-1889/fonts/LightfaceCeltic1889-Regular.otf) · [TTF](collection/lightface-celtic-1889/fonts/LightfaceCeltic1889-Regular.ttf) · [Preview](collection/lightface-celtic-1889/specimens/preview.png) · [PDF](collection/lightface-celtic-1889/specimens/specimen.pdf) · [Sources](collection/lightface-celtic-1889/specimens/source-review.pdf) |
+| [Celtic No. 2 1897](collection/celtic-no2-1897/) | Light serif capitals and flowing figures from the complete twelve-point cut attributed to Farmer. A–Z, 0–9, period and ampersand, with observed forms from three GPO specimens. | [OTF](collection/celtic-no2-1897/fonts/CelticNo21897-Regular.otf) · [TTF](collection/celtic-no2-1897/fonts/CelticNo21897-Regular.ttf) · [Preview](collection/celtic-no2-1897/specimens/preview.png) · [PDF](collection/celtic-no2-1897/specimens/specimen.pdf) · [Sources](collection/celtic-no2-1897/specimens/source-review.pdf) |
 | [Baltimore Oak Leaf 1832](collection/baltimore-oak-leaf-1832/) | Complete shaded oak-leaf capitals from the full reference sheet, including its leafy R. A–Z, ampersand and punctuation; no inferred letters or figures. | [OTF](collection/baltimore-oak-leaf-1832/fonts/BaltimoreOakLeaf1832-Regular.otf) · [TTF](collection/baltimore-oak-leaf-1832/fonts/BaltimoreOakLeaf1832-Regular.ttf) · [Preview](collection/baltimore-oak-leaf-1832/specimens/preview.png) · [PDF](collection/baltimore-oak-leaf-1832/specimens/specimen.pdf) |
 | [Doric 1889](collection/doric-1889/) | Heavy display letters with bracketed slab serifs, rounded bowls and a substantial historical lowercase. | [OTF](collection/doric-1889/fonts/Doric1889-Regular.otf) · [TTF](collection/doric-1889/fonts/Doric1889-Regular.ttf) · [Preview](collection/doric-1889/specimens/preview.png) · [PDF](collection/doric-1889/specimens/specimen.pdf) |
 | [Latin Antique 1889](collection/latin-antique-1889/) | Broad display letters with tapered serifs, open round bowls and a lightly contrasted historical lowercase. | [OTF](collection/latin-antique-1889/fonts/LatinAntique1889-Regular.otf) · [TTF](collection/latin-antique-1889/fonts/LatinAntique1889-Regular.ttf) · [Preview](collection/latin-antique-1889/specimens/preview.png) · [PDF](collection/latin-antique-1889/specimens/specimen.pdf) |
@@ -82,6 +87,9 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 | [Facade 1889](collection/facade-1889/) | Tall condensed display capitals with rising crossbars, fine serifs and narrow oval bowls. Lowercase input uses capitals. | [OTF](collection/facade-1889/fonts/Facade1889-Regular.otf) · [TTF](collection/facade-1889/fonts/Facade1889-Regular.ttf) · [Preview](collection/facade-1889/specimens/preview.png) · [PDF](collection/facade-1889/specimens/specimen.pdf) |
 | [Mural 1889](collection/mural-1889/) | Light display capitals with broad proportions, rising crossbars and flared serif terminals. Lowercase input uses capitals. | [OTF](collection/mural-1889/fonts/Mural1889-Regular.otf) · [TTF](collection/mural-1889/fonts/Mural1889-Regular.ttf) · [Preview](collection/mural-1889/specimens/preview.png) · [PDF](collection/mural-1889/specimens/specimen.pdf) |
 | [Atlanta 1889](collection/atlanta-1889/) | Wide display capitals with flared terminals, pointed spurs and a low decorative M. Lowercase input uses capitals. | [OTF](collection/atlanta-1889/fonts/Atlanta1889-Regular.otf) · [TTF](collection/atlanta-1889/fonts/Atlanta1889-Regular.ttf) · [Preview](collection/atlanta-1889/specimens/preview.png) · [PDF](collection/atlanta-1889/specimens/specimen.pdf) |
+| [Bruce Fatface 1828](collection/bruce-fatface-1828/) | Broad, heavy titling capitals with observed figures, ligatures and punctuation. Lowercase input uses capitals. | [OTF](collection/bruce-fatface-1828/fonts/BruceFatface1828-Regular.otf) · [TTF](collection/bruce-fatface-1828/fonts/BruceFatface1828-Regular.ttf) · [Preview](collection/bruce-fatface-1828/specimens/preview.png) · [PDF](collection/bruce-fatface-1828/specimens/specimen.pdf) |
+| [Bruce Italian 1828](collection/bruce-italian-1828/) | Reverse-contrast capitals with heavy horizontal strokes and complete figures. Lowercase input uses capitals. | [OTF](collection/bruce-italian-1828/fonts/BruceItalian1828-Regular.otf) · [TTF](collection/bruce-italian-1828/fonts/BruceItalian1828-Regular.ttf) · [Preview](collection/bruce-italian-1828/specimens/preview.png) · [PDF](collection/bruce-italian-1828/specimens/specimen.pdf) |
+| [Bruce Shaded 1828](collection/bruce-shaded-1828/) | Outlined capitals and figures with a cast shadow. Lowercase input uses capitals. | [OTF](collection/bruce-shaded-1828/fonts/BruceShaded1828-Regular.otf) · [TTF](collection/bruce-shaded-1828/fonts/BruceShaded1828-Regular.ttf) · [Preview](collection/bruce-shaded-1828/specimens/preview.png) · [PDF](collection/bruce-shaded-1828/specimens/specimen.pdf) |
 | [Baltimore Antique 1832](collection/baltimore-antique-1832/) | Heavy slab-serif titling capitals from the Long Primer Antique specimen. Lowercase input uses capitals. | [OTF](collection/baltimore-antique-1832/fonts/BaltimoreAntique1832-Regular.otf) · [TTF](collection/baltimore-antique-1832/fonts/BaltimoreAntique1832-Regular.ttf) · [Preview](collection/baltimore-antique-1832/specimens/preview.png) · [PDF](collection/baltimore-antique-1832/specimens/specimen.pdf) |
 | [Baltimore Black Slope 1832](collection/baltimore-black-slope-1832/) | Backslanted Roman with curled capitals and historical lowercase. | [OTF](collection/baltimore-black-slope-1832/fonts/BaltimoreBlackSlope1832-Regular.otf) · [TTF](collection/baltimore-black-slope-1832/fonts/BaltimoreBlackSlope1832-Regular.ttf) · [Preview](collection/baltimore-black-slope-1832/specimens/preview.png) · [PDF](collection/baltimore-black-slope-1832/specimens/specimen.pdf) |
 | [Baltimore Title 1832](collection/baltimore-title-1832/) | Roman title capitals; lowercase aliases capitals. | [OTF](collection/baltimore-title-1832/fonts/BaltimoreTitle1832-Regular.otf) · [TTF](collection/baltimore-title-1832/fonts/BaltimoreTitle1832-Regular.ttf) · [Preview](collection/baltimore-title-1832/specimens/preview.png) · [PDF](collection/baltimore-title-1832/specimens/specimen.pdf) |
@@ -110,25 +118,28 @@ designs retain their documented historical lowercase and inferred companions.
 
 ## Ornaments and cuts
 
-The icon collection revives historical artwork as three-tone SVGs and transparent
-PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The Boston 1889
-revival contains **1,965 icons**, joined by **847 Baltimore 1832 icons** and
-**391 Boston 1832 cuts and ornaments**. The **Father Christmas, No. 4202** cut
-retains its engraving, proportions and character assignment. Browse the compact
-monochrome grid by subject, collection, type or specimen section; open an icon
-for its three-tone previews, downloads and HTML examples.
+The icon collection contains **4,525 designs across 13 collections**, delivered
+as SVGs, sprites, desktop fonts and CSS webfonts. Collections with recorded tonal
+separation also include three-tone SVGs and transparent PNGs. The
+**Father Christmas, No. 4202** cut retains its engraving, proportions and character
+assignment. Browse the compact monochrome grid by subject, collection, type or
+specimen section; open an icon for previews, downloads and HTML examples.
 
 | Family | Icons | Web download |
 | --- | ---: | --- |
+| [Bruce Cuts 1828](collection/bruce-cuts-1828/) | 499 | [ZIP](collection/bruce-cuts-1828/downloads/bruce-cuts-1828-web.zip) |
+| [Bruce Ornaments 1828](collection/bruce-ornaments-1828/) | 198 | [ZIP](collection/bruce-ornaments-1828/downloads/bruce-ornaments-1828-web.zip) |
 | [Boston Cuts 1889](collection/boston-cuts-1889/) | 478 | [ZIP](collection/boston-cuts-1889/downloads/boston-cuts-1889-web.zip) |
 | [Boston Ornaments 1889](collection/boston-ornaments-1889/) | 715 | [ZIP](collection/boston-ornaments-1889/downloads/boston-ornaments-1889-web.zip) |
 | [Boston Initials 1889](collection/boston-initials-1889/) | 312 | [ZIP](collection/boston-initials-1889/downloads/boston-initials-1889-web.zip) |
 | [Boston Symbols 1889](collection/boston-symbols-1889/) | 460 | [ZIP](collection/boston-symbols-1889/downloads/boston-symbols-1889-web.zip) |
 | [Baltimore Cuts 1832](collection/baltimore-cuts-1832/) | 381 | [ZIP parts](collection/baltimore-cuts-1832/README.md#web-bundle-parts) |
 | [Baltimore Ornaments 1832](collection/baltimore-ornaments-1832/) | 396 | [ZIP parts](collection/baltimore-ornaments-1832/README.md#web-bundle-parts) |
-| [Baltimore Initials 1832](collection/baltimore-initials-1832/) | 66 | [ZIP](collection/baltimore-initials-1832/downloads/baltimore-initials-1832-web.zip) |
+| [Baltimore Initials 1832](collection/baltimore-initials-1832/) | 80 | [ZIP](collection/baltimore-initials-1832/downloads/baltimore-initials-1832-web.zip) |
 | [Baltimore Symbols 1832](collection/baltimore-symbols-1832/) | 4 | [ZIP](collection/baltimore-symbols-1832/downloads/baltimore-symbols-1832-web.zip) |
 | [Boston Cuts 1832](collection/boston-cuts-1832/) | 391 | [Downloads](collection/boston-cuts-1832/README.md) |
+| [GPO Cuts 1897](collection/gpo-cuts-1897/) | 14 | [Downloads](collection/gpo-cuts-1897/README.md) |
+| [GPO Cuts 1904](collection/gpo-cuts-1904/) | 597 | [Downloads](collection/gpo-cuts-1904/README.md) |
 
 [![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)
 
@@ -155,6 +166,12 @@ pages 199–391. It identifies individual set members, gaps in the original
 numbering, repeated impressions and designs already represented elsewhere in
 the collection. The separate Boston family contains only distinct additions,
 including 83 Primer pictures and 12 almanac panels.
+
+The GPO [source inventory](collection/gpo-cuts-1904/source/inventory.json)
+records 597 distinct cuts, borders, emblems, seals, symbols and decorative pieces
+from the 1897, 1900 and 1904 specimens,
+with links for repeated impressions and designs already represented elsewhere.
+Native scans and measured crops preserve the historical source evidence.
 
 ## Use the fonts
 

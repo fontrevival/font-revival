@@ -1,0 +1,61 @@
+{
+  "id": "boston-1832-p333-470",
+  "revision": "1.002",
+  "previous_witness": {
+    "source_index": 67,
+    "pdf_page": 333,
+    "printed_page": null,
+    "specimen_number": "470"
+  },
+  "selected_witness": {
+    "book": "bruce-1828",
+    "pdf_page": 243,
+    "archive_leaf": 242,
+    "specimen_number": "288",
+    "source_index": 97
+  },
+  "source_file": "reference/bruce1828-hathi-p243.png",
+  "source_rotation_counterclockwise": 270,
+  "box": [
+    1204,
+    1347,
+    1579,
+    1584
+  ],
+  "output": "reference/crops/boston-1832-p333-470-bruce243.png",
+  "crop_sha256": "f289ec399c83c4d2bb24c807ab262c6b48197cad99b9c38731295971c42fd232",
+  "reason": "Clearer eye, muzzle and front-leg engraving than the filled Boston impression; matching horns, flank hatching, tail and ground establish the same design. Two source thresholds and before/after outlines reviewed. IDs, codepoint and advance retained.",
+  "tracing": {
+    "file": "reference/crops/boston-1832-p333-470-bruce243.png",
+    "box": [
+      0,
+      0,
+      375,
+      237
+    ],
+    "height": 1800,
+    "max_ink_dimension": 1800,
+    "center_vertical": true,
+    "y_min": 0,
+    "bearings": [
+      64,
+      64
+    ],
+    "threshold": 135,
+    "frame_threshold": 165,
+    "blur": 0.3,
+    "component_min_area": 3,
+    "fill_holes": 0,
+    "tolerance": 0.15,
+    "multitone": {
+      "thresholds": {
+        "primary": 105,
+        "secondary": 135,
+        "tertiary": 165
+      },
+      "separation": "native-mask-bands",
+      "round_inputs": false
+    },
+    "notes": "Observed clearer Bruce1828 PDF243 No288 impression of the existing design. Native grayscale crop, uniform scaling and recorded detached-speck cleanup. Original stable ID/codepoint retained; no invented engraving."
+  }
+}

@@ -6588,7 +6588,7 @@
       "archive_leaf": 285,
       "printed_page": null,
       "specimen_number": "322-a",
-      "name": "Three ornate fruit bowls",
+      "name": "Classical mask between fruit-filled cornucopias",
       "source_index": 43,
       "file": "reference/pdf-285.png",
       "box": [
@@ -6599,8 +6599,9 @@
       ],
       "rotation": 270,
       "status": "new",
-      "evidence": "Reviewed source impression; distinct drawing from existing and within-book comparison candidates.",
-      "icon_id": "boston-1832-p285-322-a"
+      "evidence": "Original canonical identity for the mask and cornucopias. The complete repeated No.380 on PDF/archive303 preserves clearer eyes, cornucopia hatching and hanging ends and supplies the preferred drawing.",
+      "icon_id": "boston-1832-p285-322-a",
+      "source_quality": "earlier witness retained for provenance and comparison"
     },
     {
       "pdf_page": 285,
@@ -7709,7 +7710,7 @@
       "archive_leaf": 303,
       "printed_page": null,
       "specimen_number": "380",
-      "name": "Classical face between fruit bowls",
+      "name": "Classical mask between fruit-filled cornucopias",
       "source_index": 52,
       "file": "reference/pdf-303.png",
       "box": [
@@ -7720,9 +7721,10 @@
       ],
       "rotation": 0,
       "status": "repeat",
-      "evidence": "Visually confirmed repeated design in this book; one new icon only. The selected sofa impression excludes neighbouring type.",
+      "evidence": "Visually confirmed repetition of No.322-a: the mask, paired cornucopias, individual fruit, curls and hanging garlands correspond. This more clearly printed witness supplies the canonical drawing; stable ID and codepoint retained.",
       "icon_id": "boston-1832-p285-322-a",
-      "same_as": "285-322-a"
+      "same_as": "285-322-a",
+      "source_quality": "preferred repeated witness"
     },
     {
       "pdf_page": 303,
@@ -14433,6 +14435,69 @@
       "status": "not-printed",
       "pdf_page": 363,
       "notes": "Printed sequence omits 544."
+    }
+  ],
+  "quality_revisions": [
+    {
+      "id": "boston-1832-p333-470",
+      "revision": "1.002",
+      "previous_witness": {
+        "source_index": 67,
+        "pdf_page": 333,
+        "printed_page": null,
+        "specimen_number": "470"
+      },
+      "selected_witness": {
+        "book": "bruce-1828",
+        "pdf_page": 243,
+        "archive_leaf": 242,
+        "specimen_number": "288",
+        "source_index": 97
+      },
+      "source_file": "reference/bruce1828-hathi-p243.png",
+      "source_rotation_counterclockwise": 270,
+      "box": [
+        1204,
+        1347,
+        1579,
+        1584
+      ],
+      "output": "reference/crops/boston-1832-p333-470-bruce243.png",
+      "crop_sha256": "f289ec399c83c4d2bb24c807ab262c6b48197cad99b9c38731295971c42fd232",
+      "reason": "Clearer eye, muzzle and front-leg engraving than the filled Boston impression; matching horns, flank hatching, tail and ground establish the same design. Two source thresholds and before/after outlines reviewed. IDs, codepoint and advance retained.",
+      "tracing": {
+        "file": "reference/crops/boston-1832-p333-470-bruce243.png",
+        "box": [
+          0,
+          0,
+          375,
+          237
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "threshold": 135,
+        "frame_threshold": 165,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "multitone": {
+          "thresholds": {
+            "primary": 105,
+            "secondary": 135,
+            "tertiary": 165
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "notes": "Observed clearer Bruce1828 PDF243 No288 impression of the existing design. Native grayscale crop, uniform scaling and recorded detached-speck cleanup. Original stable ID/codepoint retained; no invented engraving."
+      }
     }
   ]
 }

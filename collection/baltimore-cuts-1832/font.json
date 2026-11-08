@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Baltimore Cuts 1832",
   "style": "Regular",
-  "version": "1.003",
+  "version": "1.005",
   "postscript_name": "BaltimoreCuts1832-Regular",
   "year": 1832,
   "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
@@ -13,7 +13,7 @@
   "license": "MIT OR OFL-1.1",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "",
-  "observed": "Impressions from the 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.",
+  "observed": "381 historical design identities from the unpaginated1832 Baltimore specimen. Two eagle drawings use clearer repeat impressions in GPO1904, printed169/PDF185/archive185; both original Baltimore witnesses remain retained. Source records distinguish each book and locator.",
   "reconstructed": "No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks. Format-specific downloadable-font approximations include modern fine diagonal coverage screening for seven especially dense cuts; original engraved linework remains in the master and SVG. In version 1.001, 167 complete cuts and their tone layers receive documented rigid rotations to level observed frames or bases; no historical contour is redrawn or removed. Version 1.002 restores the full observed upper boundaries of Primer panels 357-01–357-24 from PDF page 209, including previously clipped illustration detail; original scale, position, advances and reviewed rotations are retained.",
   "sources": [
     {
@@ -393,6 +393,13 @@
       "file": "reference/pdf-231.jp2",
       "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
       "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    },
+    {
+      "title": "Job room type faces (Government Printing Office, 1904), printed page 169; PDF page 185, Internet Archive leaf 185; additional impressions of Baltimore 1832 Nos. 243 and 141",
+      "url": "https://archive.org/details/123459_1904/page/n185/mode/1up",
+      "file": "reference/gpo-1904-leaf-185.jp2",
+      "rights": "1904 United States historical publication, public domain by age. Scan contributed and sponsored by the U.S. Government Printing Office. The archive metadata note about a title-page copyright is retained; no copyright claim is inferred to survive for this 1904 publication. No modern digital artwork was traced.",
+      "rights_url": "https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f"
     }
   ],
   "icons": [
@@ -2959,14 +2966,14 @@
     },
     {
       "id": "baltimore-1832-p129-76",
-      "name": "Ornamental urn in profile",
+      "name": "Decorated bottle with a long neck",
       "specimen_number": "76",
       "printed_page": null,
       "pdf_page": 129,
       "tags": [
-        "ornamental",
-        "urn",
-        "profile"
+        "cut",
+        "bottle",
+        "container"
       ],
       "codepoint": "E04B",
       "glyph": "uniE04B",
@@ -5199,9 +5206,9 @@
     {
       "id": "baltimore-1832-p149-141",
       "name": "Flying eagle with E Pluribus Unum ribbon",
-      "specimen_number": "141",
-      "printed_page": null,
-      "pdf_page": 149,
+      "specimen_number": "141 (Baltimore); 27 (GPO)",
+      "printed_page": 169,
+      "pdf_page": 185,
       "tags": [
         "flying",
         "eagle",
@@ -5217,7 +5224,7 @@
       ],
       "codepoint": "E08B",
       "glyph": "uniE08B",
-      "source_index": 14,
+      "source_index": 54,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -5916,13 +5923,15 @@
     },
     {
       "id": "baltimore-1832-p151-162",
-      "name": "Field cannon",
+      "name": "Two-wheeled chaise",
       "specimen_number": "162",
       "printed_page": null,
       "pdf_page": 151,
       "tags": [
-        "field",
-        "cannon"
+        "cut",
+        "carriage",
+        "transport",
+        "wheels"
       ],
       "codepoint": "E0A0",
       "glyph": "uniE0A0",
@@ -7608,15 +7617,15 @@
     },
     {
       "id": "baltimore-1832-p159-211",
-      "name": "Carriage and detached wheel assembly",
+      "name": "Enclosed carriage and two-wheeled chaise",
       "specimen_number": "211",
       "printed_page": null,
       "pdf_page": 159,
       "tags": [
+        "cut",
         "carriage",
-        "detached",
-        "wheel",
-        "assembly"
+        "transport",
+        "wheels"
       ],
       "codepoint": "E0D1",
       "glyph": "uniE0D1",
@@ -8180,14 +8189,17 @@
     },
     {
       "id": "baltimore-1832-p161-228",
-      "name": "Sailor beside cargo and ships",
+      "name": "Man raising a gavel beside cargo and sailing ships",
       "specimen_number": "228",
       "printed_page": null,
       "pdf_page": 161,
       "tags": [
-        "sailor",
         "cargo",
-        "ships"
+        "ships",
+        "gavel",
+        "auction",
+        "auctioneer",
+        "commerce"
       ],
       "codepoint": "E0E2",
       "glyph": "uniE0E2",
@@ -8573,9 +8585,9 @@
     {
       "id": "baltimore-1832-p175-243",
       "name": "Eagle, stars and E Pluribus Unum ribbon",
-      "specimen_number": "243",
-      "printed_page": null,
-      "pdf_page": 175,
+      "specimen_number": "243 (Baltimore); 25 (GPO)",
+      "printed_page": 169,
+      "pdf_page": 185,
       "tags": [
         "eagle",
         "stars",
@@ -8591,7 +8603,7 @@
       ],
       "codepoint": "E0ED",
       "glyph": "uniE0ED",
-      "source_index": 25,
+      "source_index": 54,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -13720,7 +13732,7 @@
       "NumPy 1.26.4 (optional exact mask preparation)",
       "SciPy 1.11.4 (optional exact mask preparation)"
     ],
-    "notes": "Full-book survey, individual impressions, duplicates and exclusions are recorded in source/inventory.json and the central Baltimore Cuts inventory."
+    "notes": "Full-book survey, impressions, duplicates and exclusions are recorded in source/inventory.json and the central Baltimore Cuts inventory. source/gpo-witness-review.json records two preferred later witnesses, their original metadata and before/after evidence; IDs, codepoints and advances remain stable."
   },
   "font_delivery_note": "All downloadable fonts use reviewed simplifications for the most detailed engravings. The editable master, SVGs and tonal PNGs retain the full historical outlines; use SVG for enlarged artwork.",
   "font_export_glyphs": "encoded",

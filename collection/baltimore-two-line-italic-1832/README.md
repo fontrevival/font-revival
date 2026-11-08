@@ -4,7 +4,7 @@ Bold sloping display capitals with fine serifs and a curled Q tail.
 
 ![Baltimore Two Line Italic 1832 specimen](specimens/preview.png)
 
-**1832 · Regular · Version 1.000 · 108 characters · Capitals only · MIT**
+**1832 · Regular · Version 1.001 · 108 characters · Capitals only · MIT or SIL OFL 1.1**
 
 [OTF](fonts/BaltimoreTwoLineItalic1832-Regular.otf) · [TTF](fonts/BaltimoreTwoLineItalic1832-Regular.ttf) · [WOFF2](web/BaltimoreTwoLineItalic1832-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -29,7 +29,7 @@ and use `font-family: "Baltimore Two Line Italic 1832"`. Designed for display si
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-Copyright (c) 2026 Harold Lehmann. The digital revival is released under the included [MIT License](LICENSE).
+Copyright (c) 2026 Harold Lehmann. The fonts and editable font source data are available under your choice of the [MIT License](LICENSE) or [SIL Open Font License 1.1](OFL.txt) (`MIT OR OFL-1.1`), with no Reserved Font Names. See [font licensing](FONT-LICENSES.txt) for the scope and notices. Other original project files, including standalone artwork, code and documentation, use MIT.
 
 ## Build or improve
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collection": "baltimore-cuts-1832",
-  "version": "1.003",
+  "version": "1.005",
   "icons": [
     {
       "id": "baltimore-1832-p121-1",
@@ -3391,14 +3391,14 @@
     },
     {
       "id": "baltimore-1832-p129-76",
-      "name": "Ornamental urn in profile",
+      "name": "Decorated bottle with a long neck",
       "specimen_number": "76",
       "printed_page": null,
       "pdf_page": 129,
       "tags": [
-        "ornamental",
-        "urn",
-        "profile"
+        "cut",
+        "bottle",
+        "container"
       ],
       "codepoint": "E04B",
       "glyph": "uniE04B",
@@ -6335,9 +6335,9 @@
     {
       "id": "baltimore-1832-p149-141",
       "name": "Flying eagle with E Pluribus Unum ribbon",
-      "specimen_number": "141",
-      "printed_page": null,
-      "pdf_page": 149,
+      "specimen_number": "141 (Baltimore); 27 (GPO)",
+      "printed_page": 169,
+      "pdf_page": 185,
       "tags": [
         "flying",
         "eagle",
@@ -6353,7 +6353,7 @@
       ],
       "codepoint": "E08B",
       "glyph": "uniE08B",
-      "source_index": 14,
+      "source_index": 54,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -7283,13 +7283,15 @@
     },
     {
       "id": "baltimore-1832-p151-162",
-      "name": "Field cannon",
+      "name": "Two-wheeled chaise",
       "specimen_number": "162",
       "printed_page": null,
       "pdf_page": 151,
       "tags": [
-        "field",
-        "cannon"
+        "cut",
+        "carriage",
+        "transport",
+        "wheels"
       ],
       "codepoint": "E0A0",
       "glyph": "uniE0A0",
@@ -9514,15 +9516,15 @@
     },
     {
       "id": "baltimore-1832-p159-211",
-      "name": "Carriage and detached wheel assembly",
+      "name": "Enclosed carriage and two-wheeled chaise",
       "specimen_number": "211",
       "printed_page": null,
       "pdf_page": 159,
       "tags": [
+        "cut",
         "carriage",
-        "detached",
-        "wheel",
-        "assembly"
+        "transport",
+        "wheels"
       ],
       "codepoint": "E0D1",
       "glyph": "uniE0D1",
@@ -10273,14 +10275,17 @@
     },
     {
       "id": "baltimore-1832-p161-228",
-      "name": "Sailor beside cargo and ships",
+      "name": "Man raising a gavel beside cargo and sailing ships",
       "specimen_number": "228",
       "printed_page": null,
       "pdf_page": 161,
       "tags": [
-        "sailor",
         "cargo",
-        "ships"
+        "ships",
+        "gavel",
+        "auction",
+        "auctioneer",
+        "commerce"
       ],
       "codepoint": "E0E2",
       "glyph": "uniE0E2",
@@ -10787,9 +10792,9 @@
     {
       "id": "baltimore-1832-p175-243",
       "name": "Eagle, stars and E Pluribus Unum ribbon",
-      "specimen_number": "243",
-      "printed_page": null,
-      "pdf_page": 175,
+      "specimen_number": "243 (Baltimore); 25 (GPO)",
+      "printed_page": 169,
+      "pdf_page": 185,
       "tags": [
         "eagle",
         "stars",
@@ -10805,7 +10810,7 @@
       ],
       "codepoint": "E0ED",
       "glyph": "uniE0ED",
-      "source_index": 25,
+      "source_index": 54,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -12183,7 +12188,7 @@
       "viewBox": "0 -1900 1928 2048",
       "aspect_ratio": 0.94140625,
       "svg": "svg/baltimore-1832-p183-272.svg",
-      "sprite": "web/icons-2.svg#baltimore-1832-p183-272",
+      "sprite": "web/icons.svg#baltimore-1832-p183-272",
       "css_class": "fr-icon fr-baltimore-1832-p183-272",
       "multitone": {
         "svg": "svg/multitone/baltimore-1832-p183-272.svg",
@@ -12228,7 +12233,7 @@
       "viewBox": "0 -1900 1920 2048",
       "aspect_ratio": 0.9375,
       "svg": "svg/baltimore-1832-p183-273.svg",
-      "sprite": "web/icons-2.svg#baltimore-1832-p183-273",
+      "sprite": "web/icons.svg#baltimore-1832-p183-273",
       "css_class": "fr-icon fr-baltimore-1832-p183-273",
       "multitone": {
         "svg": "svg/multitone/baltimore-1832-p183-273.svg",

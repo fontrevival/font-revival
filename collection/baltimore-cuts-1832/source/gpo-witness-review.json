@@ -1,0 +1,219 @@
+{
+  "scope": "Source-supported improvements of two existing Baltimore design identities from repeat impressions in the GPO1904 specimen. Identical design does not establish use of the same physical printing block.",
+  "acquisition": {
+    "archive_id": "123459_1904",
+    "download": "https://archive.org/download/123459_1904/123459_1904_jp2.zip",
+    "archive_sha256": "0a12d8d1cd5bdad125d845e0827bb168fa8d4b617da0984f38251b6feb6ecadc",
+    "page_map": "scandata.xml"
+  },
+  "native_file": {
+    "file": "leaf-185.jp2",
+    "archive_member": "123459_1904_jp2/123459_1904_0185.jp2",
+    "sha256": "ce44fa8028e4ec8ba12dcf55f6000f659f8f13de8d7a46ac6a06a6075015f6e9",
+    "native_pixels": [
+      2903,
+      3878
+    ],
+    "pdf_page": 185,
+    "archive_leaf": 185,
+    "printed_page": 169,
+    "conversion": "Pillow grayscale L; no resampling",
+    "png_sha256": "35f7c8ff76d37d540fc11e61a8df485ae6a7baa8b6cd4b7ef5c11a6f00f4018b"
+  },
+  "entries": [
+    {
+      "icon_id": "baltimore-1832-p175-243",
+      "glyph": "uniE0ED",
+      "codepoint": "E0ED",
+      "historical_identity": {
+        "id": "baltimore-1832-p175-243",
+        "name": "Eagle, stars and E Pluribus Unum ribbon",
+        "specimen_number": "243",
+        "printed_page": null,
+        "pdf_page": 175,
+        "tags": [
+          "eagle",
+          "stars",
+          "e",
+          "pluribus",
+          "unum",
+          "ribbon",
+          "bird",
+          "emblem",
+          "america",
+          "banner",
+          "scroll"
+        ],
+        "codepoint": "E0ED",
+        "glyph": "uniE0ED",
+        "source_index": 25,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE0ED.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE0ED.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE0ED.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/pdf-175.png",
+        "box": [
+          426,
+          962,
+          2735,
+          2298
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        }
+      },
+      "selected_witness": {
+        "source_index": 54,
+        "archive_leaf": 185,
+        "pdf_page": 185,
+        "printed_page": 169,
+        "specimen_number": "25",
+        "file": "reference/gpo-1904-leaf-185.png",
+        "box": [
+          589,
+          1617,
+          2023,
+          2445
+        ]
+      },
+      "quality_reason": "Same design: star positions, bill, feather groups, ribbon, branch and arrows match. GPO has clearer separated chest/wing details; prepare a source-quality replacement under the existing ID.",
+      "advance_width": 1928,
+      "review_status": "Native source, full-detail monochrome and three-tone before/after reviewed; family format verification remains separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf"
+    },
+    {
+      "icon_id": "baltimore-1832-p149-141",
+      "glyph": "uniE08B",
+      "codepoint": "E08B",
+      "historical_identity": {
+        "id": "baltimore-1832-p149-141",
+        "name": "Flying eagle with E Pluribus Unum ribbon",
+        "specimen_number": "141",
+        "printed_page": null,
+        "pdf_page": 149,
+        "tags": [
+          "flying",
+          "eagle",
+          "e",
+          "pluribus",
+          "unum",
+          "ribbon",
+          "bird",
+          "emblem",
+          "america",
+          "banner",
+          "scroll"
+        ],
+        "codepoint": "E08B",
+        "glyph": "uniE08B",
+        "source_index": 14,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE08B.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE08B.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE08B.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/pdf-149.png",
+        "box": [
+          3507,
+          567,
+          4782,
+          1114
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        }
+      },
+      "selected_witness": {
+        "source_index": 54,
+        "archive_leaf": 185,
+        "pdf_page": 185,
+        "printed_page": 169,
+        "specimen_number": "27",
+        "file": "reference/gpo-1904-leaf-185.png",
+        "box": [
+          1710,
+          2501,
+          2485,
+          2850
+        ]
+      },
+      "quality_reason": "Same design: wing groups, head, lettered ribbon folds match. GPO has clearer ribbon lettering and less ink spread; prepare a source-quality replacement under the existing ID.",
+      "advance_width": 1928,
+      "review_status": "Native source, full-detail monochrome and three-tone before/after reviewed; family format verification remains separate.",
+      "review_proof": "specimens/gpo-witness-review.pdf"
+    }
+  ]
+}

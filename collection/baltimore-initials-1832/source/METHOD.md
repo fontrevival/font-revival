@@ -137,3 +137,29 @@ row, sixth letter without inventing a PDF page. Its trace uses threshold 160,
 original Baltimore PRINT R remain available as independently named initials.
 The additional Boston I/N/T/L impressions retain that complete MINT! GOLD.
 specimen even where Baltimore already supplies the same letter.
+
+
+## Bruce 1828 ornamental additions
+
+Fourteen complete decorative sorts come from the Lottery Figures and Eight Lines
+Pica, Ornamented settings on unnumbered PDF pages 133 and 135. The figures are
+individual icons; the incomplete numeral set is not offered as a numeric font.
+The ornamented letters form a matching illustrated series. Native comparison
+distinguishes the hatched S, a and e from the related earlier collection items;
+these are separate engravings, not replacement impressions. The diamond
+period differs from the spiral interior of the Boston period.
+
+The exact embedded PNGs from the HathiTrust/NYPL PDF and lossless quarter-turn
+reading images are retained with acquisition hashes. Although these pictorial
+pages have fewer pixels than the earlier Internet Archive representation, their
+fine edges are sharper; pixel count alone did not determine source selection.
+
+The measured crops and standard Potrace settings are recorded in
+bruce-1828-tracing.json and the complete tracing.json. The t crop includes a
+separate sliver of the neighbouring e at its right edge; the recorded erasure
+removes only that sliver. The e has a similarly recorded upper-left t fragment. Small disconnected hatch strokes are retained.
+Original proportions and deliberate italic slopes are preserved.
+
+prepare-bruce-1828.py traces this batch and appends its assigned glyphs to the
+canonical master. It retains every prior glyph, metric and character assignment.
+Normal builds use font.ttx without retracing.

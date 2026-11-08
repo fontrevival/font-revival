@@ -116,3 +116,18 @@ SVG sprites and web bundles are divided into manageable parts. Source previews
 in the PDF use bounded JPEG images; native reference PNGs remain lossless and
 vector artwork retains its complete contours. `sizing.json` records reviewed
 source proportions and any bounds allowance for font approximations.
+
+The ornament first recorded as No.322-a is a classical mask between two
+fruit-filled cornucopias. The complete repeated No.380 impression on PDF and
+archive page303 preserves clearer facial, horn and hanging-end details.
+The source/repeat-witness-review.json record retains both identities, recipes,
+source hashes and the classification correction. The preferred source uses
+the established 105/135/155 native tone bands and a documented erasure of one
+isolated paper fleck. Uniform scaling preserves its native proportions and
+the original 1928-unit advance. The stable ID and Private Use assignment remain.
+[The source review](../specimens/repeat-witness-review.pdf) compares both
+impressions, monochrome and tonal interpretations, and actual font sizes.
+
+## Longhorn bull source
+
+The stable icon `boston-1832-p333-470` uses the matching No.288 impression in Bruce’s 1828 specimen, unnumbered PDF page 243. It preserves a clearer eye, muzzle and front-leg engraving. The Boston source remains retained and the exact replacement crop and thresholds are in `bruce1828-quality-revision.json`. Both the monochrome outline and three tone regions use the new observed pixels; no engraving was invented. The original advance and character assignment are preserved.

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "icon_id": "boston-1832-p285-322-a",
+      "glyph": "uniE05C",
+      "codepoint": "E05C",
+      "name": "Classical mask between fruit-filled cornucopias",
+      "previous_identity": {
+        "id": "boston-1832-p285-322-a",
+        "name": "Three ornate fruit bowls",
+        "specimen_number": "322-a",
+        "printed_page": null,
+        "pdf_page": 285,
+        "tags": [
+          "ornate",
+          "fruit",
+          "bowls"
+        ],
+        "codepoint": "E05C",
+        "glyph": "uniE05C",
+        "source_index": 43,
+        "recommended_min_px": 64,
+        "multitone_layers": [
+          {
+            "glyph": "uniE05C.primary",
+            "role": "primary",
+            "opacity": 1
+          },
+          {
+            "glyph": "uniE05C.secondary",
+            "role": "secondary",
+            "opacity": 0.55
+          },
+          {
+            "glyph": "uniE05C.tertiary",
+            "role": "tertiary",
+            "opacity": 0.25
+          }
+        ]
+      },
+      "previous_recipe": {
+        "file": "reference/pdf-285.png",
+        "box": [
+          1554,
+          197,
+          2053,
+          1207
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 135,
+        "frame_threshold": 155,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 105,
+            "secondary": 135,
+            "tertiary": 155
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "rotation": 270
+      },
+      "selected_witness": {
+        "source_index": 52,
+        "file": "reference/pdf-303.png",
+        "archive_leaf": 303,
+        "pdf_page": 303,
+        "printed_page": null,
+        "specimen_number": "380",
+        "box": [
+          86,
+          3260,
+          1133,
+          3745
+        ],
+        "rotation": 0,
+        "native_jp2_sha256": "0b6d604bd3f49225ef979f71a9183af60563df92e8bad33a23a35c6d67e2b617"
+      },
+      "current_recipe": {
+        "file": "reference/pdf-303.png",
+        "box": [
+          86,
+          3260,
+          1133,
+          3745
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 135,
+        "frame_threshold": 155,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Preferred complete repeated impression No.380, PDF/archive303; the original No.322-a identity remains stable. Uniform source-aspect scale and original1928-unit advance; no shear or drawn repairs. The isolated18-pixel paper fleck above the upper-left fruit is excluded by a documented crop-local erasure. Three tones interpret native ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 105,
+            "secondary": 135,
+            "tertiary": 155
+          },
+          "separation": "native-mask-bands",
+          "round_inputs": false
+        },
+        "rotation": 0,
+        "advance_width": 1928,
+        "erase": [
+          [
+            10,
+            35,
+            30,
+            54
+          ]
+        ]
+      },
+      "identity_evidence": "The face, individual fruit arrangements, ribbons, horn curls, hanging garlands and small upper-right H-shaped mark correspond in both complete impressions. Impression differences do not create a separate icon.",
+      "quality_evidence": "No.380 preserves more distinct eye detail, fine horn hatching, leaf separations and hanging end marks. Threshold135 retains these without the thicker145 fringe;125 is retained as a rejected lighter alternative. No.322-a remains a complete comparison witness.",
+      "classification_evidence": "The centre is a human mask, not a third fruit bowl; the flanking fruit-filled vessels continue into curved horn bodies. The earlier sofa sentence was copied from the separate repeated furniture entry and did not describe this design.",
+      "cleanup": {
+        "crop_local_erasure": [
+          10,
+          35,
+          30,
+          54
+        ],
+        "source_component_box": [
+          102,
+          3306,
+          109,
+          3311
+        ],
+        "native_area_pixels_at155": 18,
+        "reason": "Isolated paper fleck above the upper-left fruit, inspected in enlarged native context; no artwork removed."
+      },
+      "geometry": "Uniform physical source aspect ratio; existing1928-unit advance preserved. No nonuniform stretching, assumed squaring or drawn repairs. The two native impressions have slightly different scanned proportions.",
+      "review_proof": "specimens/repeat-witness-review.pdf",
+      "format_review": "Single-glyph OTF/TTF/WOFF/WOFF2 review fits existing vertical metrics and1928advance. Native, monochrome, tonal and actual font sizes32/64/128/256/512px inspected. Full-family generated outputs and browser review remain part of the collection release checks."
+    }
+  ]
+}

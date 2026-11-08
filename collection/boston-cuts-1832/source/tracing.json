@@ -3240,12 +3240,12 @@
       "rotation": 270
     },
     "": {
-      "file": "reference/pdf-285.png",
+      "file": "reference/pdf-303.png",
       "box": [
-        1554,
-        197,
-        2053,
-        1207
+        86,
+        3260,
+        1133,
+        3745
       ],
       "height": 1800,
       "max_ink_dimension": 1800,
@@ -3262,7 +3262,7 @@
       "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
+      "notes": "Preferred complete repeated impression No.380, PDF/archive303; the original No.322-a identity remains stable. Uniform source-aspect scale and original1928-unit advance; no shear or drawn repairs. The isolated18-pixel paper fleck above the upper-left fruit is excluded by a documented crop-local erasure. Three tones interpret native ink strength.",
       "multitone": {
         "thresholds": {
           "primary": 105,
@@ -3272,7 +3272,16 @@
         "separation": "native-mask-bands",
         "round_inputs": false
       },
-      "rotation": 270
+      "rotation": 0,
+      "advance_width": 1928,
+      "erase": [
+        [
+          10,
+          35,
+          30,
+          54
+        ]
+      ]
     },
     "": {
       "file": "reference/pdf-285.png",
@@ -5523,12 +5532,12 @@
       }
     },
     "": {
-      "file": "reference/pdf-333.png",
+      "file": "reference/crops/boston-1832-p333-470-bruce243.png",
       "box": [
-        76,
-        1247,
-        670,
-        1606
+        0,
+        0,
+        375,
+        237
       ],
       "height": 1800,
       "max_ink_dimension": 1800,
@@ -5538,23 +5547,22 @@
         64,
         64
       ],
-      "paper_normalization_radius": 0,
       "threshold": 135,
-      "frame_threshold": 155,
+      "frame_threshold": 165,
       "blur": 0.3,
       "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
       "multitone": {
         "thresholds": {
           "primary": 105,
           "secondary": 135,
-          "tertiary": 155
+          "tertiary": 165
         },
         "separation": "native-mask-bands",
         "round_inputs": false
-      }
+      },
+      "notes": "Observed clearer Bruce1828 PDF243 No288 impression of the existing design. Native grayscale crop, uniform scaling and recorded detached-speck cleanup. Original stable ID/codepoint retained; no invented engraving."
     },
     "": {
       "file": "reference/pdf-333.png",
