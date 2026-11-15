@@ -409,6 +409,46 @@
     },
     {
       "schema_version": 1,
+      "id": "boston-shaded-italic-1832",
+      "name": "Boston Shaded Italic 1832",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "BostonShadedItalic1832-Regular",
+      "year": 1832,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Boston Type and Stereotype Foundry",
+      "description": "Swash italic titling capitals with an open face and cast shadow, from the Boston foundry’s 1832 specimen.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "BOSTON SHADED TYPE",
+      "observed": "Complete A–Z capitals from Shaded Two Line Pearl Italic, with matching larger Shaded Two Line Minion Italic L, M, figures, currency and punctuation on archive leaf111.",
+      "reconstructed": "No inferred visible characters. Lowercase input aliases capitals; ASCII apostrophe aliases the observed closing apostrophe. Blank spaces, metrics and digital spacing are new.",
+      "sources": [
+        {
+          "title": "Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 111",
+          "url": "https://archive.org/details/specimenofprinti00bost/page/n111/mode/1up",
+          "file": "reference/boston1832-111.jp2",
+          "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+          "rights_url": "https://archive.org/details/specimenofprinti00bost"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Native JP2 and exact quarter-turn retained. Connected-component groups and explicit separation of the touching L/I are recorded; row baseline fits correct scan tilt without removing the italic slant."
+      },
+      "character_style": "capitals-only",
+      "character_set_notes": "Complete historical titling alphabet, all ten figures and observed symbols. Lowercase aliases capitals. Unsupported modern symbols are omitted.",
+      "character_set": " !$&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ’",
+      "characters": 78,
+      "glyphs": 51
+    },
+    {
+      "schema_version": 1,
       "id": "bruce-fatface-1828",
       "name": "Bruce Fatface 1828",
       "style": "Regular",
@@ -452,7 +492,7 @@
       "id": "bruce-italian-1828",
       "name": "Bruce Italian 1828",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "BruceItalian1828-Regular",
       "year": 1828,
       "designer": "Unidentified in the historical specimen",
@@ -461,7 +501,7 @@
       "license": "MIT OR OFL-1.1",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "GEORGE BRUCE TYPE",
-      "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZ,’;:.-!$1234567890 from English Italian on unnumbered PDF page 127 of the 1828 specimen.",
+      "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZ,’;:.-!$1234567890 from English Italian on unnumbered PDF page 127 of the 1828 specimen. Clearer matching impressions on the 1832 Boston leaves supply the revised ABCDEFGHIJKLMNOPQRSTUVWXYZ$1234567890.;:!’ outlines.",
       "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals. Blank spaces and digital spacing are new. A measured rigid rotation corrects page tilt; source dimensions and proportions are preserved.",
       "sources": [
         {
@@ -470,6 +510,13 @@
           "file": "reference/bruce1828-hathi-p127.png",
           "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
           "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+        },
+        {
+          "title": "Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 115",
+          "url": "https://archive.org/details/specimenofprinti00bost/page/n115/mode/1up",
+          "file": "reference/boston1832-115.jp2",
+          "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+          "rights_url": "https://archive.org/details/specimenofprinti00bost"
         }
       ],
       "revival": {
@@ -479,7 +526,7 @@
           "Potrace 1.16",
           "fontTools 4.64.0"
         ],
-        "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json."
+        "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json. Boston native scan replaces only reviewed matching forms; previous coverage, aliases and advance widths remain."
       },
       "character_style": "capitals-only",
       "character_set": " !$',-.0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
@@ -492,7 +539,7 @@
       "id": "bruce-shaded-1828",
       "name": "Bruce Shaded 1828",
       "style": "Regular",
-      "version": "1.000",
+      "version": "1.001",
       "postscript_name": "BruceShaded1828-Regular",
       "year": 1828,
       "designer": "Unidentified in the historical specimen",
@@ -501,7 +548,7 @@
       "license": "MIT OR OFL-1.1",
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "sample_text": "GEORGE BRUCE TYPE",
-      "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ£$1234567890,;:. from Two Line Brevier Shaded capitals and matching Two Line Nonpareil Shaded figures/currency/punctuation on unnumbered PDF page 127 of the 1828 specimen.",
+      "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ£$1234567890,;:. from Two Line Brevier Shaded capitals and matching Two Line Nonpareil Shaded figures/currency/punctuation on unnumbered PDF page 127 of the 1828 specimen. Clearer matching impressions on the 1832 Boston leaves supply the revised ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ.,;:1234567890 outlines.",
       "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals. Blank spaces and digital spacing are new. A measured rigid rotation corrects page tilt; source dimensions and proportions are preserved.",
       "sources": [
         {
@@ -510,6 +557,20 @@
           "file": "reference/bruce1828-hathi-p127.png",
           "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
           "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+        },
+        {
+          "title": "Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 113",
+          "url": "https://archive.org/details/specimenofprinti00bost/page/n113/mode/1up",
+          "file": "reference/boston1832-113.jp2",
+          "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+          "rights_url": "https://archive.org/details/specimenofprinti00bost"
+        },
+        {
+          "title": "Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 111",
+          "url": "https://archive.org/details/specimenofprinti00bost/page/n111/mode/1up",
+          "file": "reference/boston1832-111.jp2",
+          "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+          "rights_url": "https://archive.org/details/specimenofprinti00bost"
         }
       ],
       "revival": {
@@ -519,13 +580,93 @@
           "Potrace 1.16",
           "fontTools 4.64.0"
         ],
-        "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json."
+        "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json. Boston native scan replaces only reviewed matching forms; previous coverage, aliases and advance widths remain."
       },
       "character_style": "capitals-only",
       "character_set": " $,.0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ",
       "character_set_notes": "Complete historical capitals-only alphabet, all ten figures and the currency/punctuation printed with it. Lowercase aliases capitals. Unsupported modern symbols are omitted.",
       "characters": 72,
       "glyphs": 46
+    },
+    {
+      "schema_version": 1,
+      "id": "caslon-compressed-1841",
+      "name": "Caslon Compressed 1841",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "CaslonCompressed1841-Regular",
+      "year": 1841,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Henry Caslon, London",
+      "description": "Narrow Roman capitals with fine hairlines, flat serifs and a recurved Q tail.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "CHISWELL STREET",
+      "observed": "Complete capitals from Two-Line Pica; compatible Great Primer supplies figures, punctuation and OE ligature.",
+      "reconstructed": "No inferred visible characters. Spaces and digital spacing are new; lowercase input aliases the corresponding capitals.",
+      "sources": [
+        {
+          "file": "reference/caslon1841-13.jp2",
+          "title": "Specimen of printing types, Henry Caslon (1841), archive leaf 13, PDF page 14",
+          "url": "https://archive.org/details/bub_gb_LVsJAAAAQAAJ/page/n13/mode/1up",
+          "rights": "1841 British publication, public domain by age. Internet Archive metadata supplies Public Domain Mark 1.0; historical scan retained.",
+          "rights_url": "https://archive.org/details/bub_gb_LVsJAAAAQAAJ"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Native JP2 and exact quarter-turn derivative; explicit row selection, scale/baseline measurements and rigid rotation retained in source. No reconstructed letters."
+      },
+      "character_style": "capitals-only",
+      "character_set_notes": "Complete observed capital alphabet and ten figures with available source symbols. Historical point sizes identify witnesses for one scalable design.",
+      "character_set": " !&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ’",
+      "characters": 77,
+      "glyphs": 50
+    },
+    {
+      "schema_version": 1,
+      "id": "caslon-fatface-1841",
+      "name": "Caslon Fatface 1841",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "CaslonFatface1841-Regular",
+      "year": 1841,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "Henry Caslon, London",
+      "description": "Heavy narrow display capitals with very fine hairlines and tight vertical counters.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "CHISWELL STREET",
+      "observed": "Complete capitals, figures, pound sign, ampersand and AE/OE ligatures from Two-Line Long Primer No.4.",
+      "reconstructed": "No inferred visible characters. Spaces and digital spacing are new; lowercase input aliases the corresponding capitals.",
+      "sources": [
+        {
+          "file": "reference/caslon1841-16.jp2",
+          "title": "Specimen of printing types, Henry Caslon (1841), archive leaf 16, PDF page 17",
+          "url": "https://archive.org/details/bub_gb_LVsJAAAAQAAJ/page/n16/mode/1up",
+          "rights": "1841 British publication, public domain by age. Internet Archive metadata supplies Public Domain Mark 1.0; historical scan retained.",
+          "rights_url": "https://archive.org/details/bub_gb_LVsJAAAAQAAJ"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Native JP2 and exact quarter-turn derivative; explicit row selection, scale/baseline measurements and rigid rotation retained in source. No reconstructed letters."
+      },
+      "character_style": "capitals-only",
+      "character_set_notes": "Complete observed capital alphabet and ten figures with available source symbols. Historical point sizes identify witnesses for one scalable design.",
+      "character_set": " &0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ",
+      "characters": 68,
+      "glyphs": 42
     },
     {
       "schema_version": 1,
@@ -1270,6 +1411,53 @@
     },
     {
       "schema_version": 1,
+      "id": "figgins-antique-1834",
+      "name": "Figgins Antique 1834",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "FigginsAntique1834-Regular",
+      "year": 1834,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "V. Figgins, London",
+      "description": "Heavy slab-serif letters with round bowls, broad capitals and a complete historical lowercase, from the 1834 Figgins specimen.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "Antique printing types",
+      "observed": "Complete capitals, figures and 23 lowercase letters from Double Pica Antique on leaf161; matching heavy Long Primer Antique on leaf163 supplies g, j and q. Pound sign, ampersand, ligatures and punctuation are observed.",
+      "reconstructed": "No inferred visible characters. Spaces and digital spacing are new; ASCII quotation mark aliases the observed closing double quote.",
+      "sources": [
+        {
+          "file": "reference/figgins1834-161.jp2",
+          "title": "Specimen of printing types, V. Figgins (1834), Antique types, unpaginated PDF page 161, archive leaf 161",
+          "url": "https://archive.org/details/b2874231x/page/n161/mode/1up",
+          "rights": "1834 British publication, public domain by age. The Wellcome Library archive record marks the historical work with the Public Domain Mark 1.0.",
+          "rights_url": "https://archive.org/details/b2874231x"
+        },
+        {
+          "file": "reference/figgins1834-163.jp2",
+          "title": "Specimen of printing types, V. Figgins (1834), Antique types, unpaginated PDF page 163, archive leaf 163",
+          "url": "https://archive.org/details/b2874231x/page/n163/mode/1up",
+          "rights": "1834 British publication, public domain by age. The Wellcome Library archive record marks the historical work with the Public Domain Mark 1.0.",
+          "rights_url": "https://archive.org/details/b2874231x"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Native scans, exact quarter-turn, independent measured page rotations, transcribed words and explicit touching-serif boundaries retained. Whole g/j/q impressions supplement the primary face; no inferred shapes."
+      },
+      "character_style": "mixed-case",
+      "character_set_notes": "Complete observed A–Z, a–z and ten figures, with the recorded symbols and punctuation. Source sizes identify witnesses; this is one scalable family.",
+      "character_set": " \"&,-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ“”",
+      "characters": 74,
+      "glyphs": 73
+    },
+    {
+      "schema_version": 1,
       "id": "grady-1894",
       "name": "Grady 1894",
       "style": "Regular",
@@ -1415,6 +1603,173 @@
       "copyright": "Copyright (c) 2026 Harold Lehmann",
       "characters": 104,
       "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "howe-antique-shade-1830",
+      "name": "Howe Antique Shade 1830",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "HoweAntiqueShade1830-Regular",
+      "year": 1830,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "J. Howe & Co., Philadelphia",
+      "description": "Antique Shade titling capitals and figures from the 1830 J. Howe & Co. specimen.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "HOWE LETTER FOUNDRY",
+      "observed": "Complete A–Z capital alphabet, figures 0–9 dollar sign and printed punctuation &,-;’!: directly sampled from Brevier Antique Shade, unnumbered PDF page 109 (archive leaf 109).",
+      "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source-size label identifies the supplying impression; the font is freely scalable.",
+      "sources": [
+        {
+          "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), Brevier Antique Shade, unnumbered PDF page 109",
+          "url": "https://archive.org/details/specimenofprinti00jhow/page/n109/mode/1up",
+          "file": "reference/howe1830-109.jp2",
+          "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+          "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Exact native JP2 and lossless quarter-turn retained. A measured rigid rotation corrects page tilt; see reference/derivation.json. Source row labels are provenance, not separate products."
+      },
+      "character_style": "capitals-only",
+      "character_set": " !$&',-0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
+      "character_set_notes": "Complete historical capitals-only titling alphabet, figures and the accompanying observed symbols. Lowercase input aliases capitals. Unsupported modern symbols are omitted.",
+      "characters": 73,
+      "glyphs": 46
+    },
+    {
+      "schema_version": 1,
+      "id": "howe-back-slope-capitals-1830",
+      "name": "Howe Back Slope Capitals 1830",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "HoweBackSlopeCapitals1830-Regular",
+      "year": 1830,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "J. Howe & Co., Philadelphia",
+      "description": "Back Slope Capitals titling capitals and figures from the 1830 J. Howe & Co. specimen.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "HOWE LETTER FOUNDRY",
+      "observed": "Complete A–Z capital alphabet, figures 0–9 dollar sign and printed punctuation &,.-;:’! directly sampled from Two Lines Pearl Back Slope, unnumbered PDF page 117 (archive leaf 117).",
+      "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source-size label identifies the supplying impression; the font is freely scalable.",
+      "sources": [
+        {
+          "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), Two Lines Pearl Back Slope, unnumbered PDF page 117",
+          "url": "https://archive.org/details/specimenofprinti00jhow/page/n117/mode/1up",
+          "file": "reference/howe1830-117.jp2",
+          "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+          "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Exact native JP2 and lossless quarter-turn retained. A measured rigid rotation corrects page tilt; see reference/derivation.json. Source row labels are provenance, not separate products."
+      },
+      "character_style": "capitals-only",
+      "character_set": " !$&',-.0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
+      "character_set_notes": "Complete historical capitals-only titling alphabet, figures and the accompanying observed symbols. Lowercase input aliases capitals. Unsupported modern symbols are omitted.",
+      "characters": 74,
+      "glyphs": 47
+    },
+    {
+      "schema_version": 1,
+      "id": "howe-double-shade-1830",
+      "name": "Howe Double Shade 1830",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "HoweDoubleShade1830-Regular",
+      "year": 1830,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "J. Howe & Co., Philadelphia",
+      "description": "Double Shade titling capitals and figures from the 1830 J. Howe & Co. specimen.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "HOWE LETTER FOUNDRY",
+      "observed": "Complete A–Z capital alphabet, figures 0–9 dollar sign and printed punctuation &,’.-? directly sampled from Two Lines Brevier Double Shade, unnumbered PDF page 109 (archive leaf 109).",
+      "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source-size label identifies the supplying impression; the font is freely scalable.",
+      "sources": [
+        {
+          "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), Two Lines Brevier Double Shade, unnumbered PDF page 109",
+          "url": "https://archive.org/details/specimenofprinti00jhow/page/n109/mode/1up",
+          "file": "reference/howe1830-109.jp2",
+          "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+          "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Exact native JP2 and lossless quarter-turn retained. A measured rigid rotation corrects page tilt; see reference/derivation.json. Source row labels are provenance, not separate products."
+      },
+      "character_style": "capitals-only",
+      "character_set": " $&',-.0123456789?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
+      "character_set_notes": "Complete historical capitals-only titling alphabet, figures and the accompanying observed symbols. Lowercase input aliases capitals. Unsupported modern symbols are omitted.",
+      "characters": 72,
+      "glyphs": 45
+    },
+    {
+      "schema_version": 1,
+      "id": "howe-meridian-shade-1830",
+      "name": "Howe Meridian Shade 1830",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "HoweMeridianShade1830-Regular",
+      "year": 1830,
+      "designer": "Unidentified in the historical specimen",
+      "foundry": "J. Howe & Co., Philadelphia",
+      "description": "Meridian Shade titling capitals and figures from the 1830 J. Howe & Co. specimen.",
+      "license": "MIT OR OFL-1.1",
+      "copyright": "Copyright (c) 2026 Harold Lehmann",
+      "sample_text": "HOWE LETTER FOUNDRY",
+      "observed": "Complete A–Z capital alphabet, figures 0–9 dollar sign and printed punctuation &,-.’;:!? directly sampled from Two Lines Nonpareil Meridian Shade, unnumbered PDF page 109 (archive leaf 109). The C uses the matching intact Boston 1832 impression on archive leaf113.",
+      "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source-size label identifies the supplying impression; the font is freely scalable.",
+      "sources": [
+        {
+          "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), Two Lines Nonpareil Meridian Shade, unnumbered PDF page 109",
+          "url": "https://archive.org/details/specimenofprinti00jhow/page/n109/mode/1up",
+          "file": "reference/howe1830-109.jp2",
+          "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+          "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+        },
+        {
+          "title": "Boston Type and Stereotype Foundry specimen (1832), Two Lines Nonpareil Meridian Shade, archive leaf113; intact C impression",
+          "url": "https://archive.org/details/specimenofprinti00bost/page/n113/mode/1up",
+          "file": "reference/boston1832-113.jp2",
+          "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive.",
+          "rights_url": "https://archive.org/details/specimenofprinti00bost"
+        }
+      ],
+      "revival": {
+        "author": "Harold Lehmann",
+        "tools": [
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
+        ],
+        "notes": "Exact native JP2 and lossless quarter-turn retained. A measured rigid rotation corrects page tilt; see reference/derivation.json. Source row labels are provenance, not separate products."
+      },
+      "character_style": "capitals-only",
+      "character_set": " !$&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
+      "character_set_notes": "Complete historical capitals-only titling alphabet, figures and the accompanying observed symbols. Lowercase input aliases capitals. Unsupported modern symbols are omitted.",
+      "characters": 75,
+      "glyphs": 48
     },
     {
       "schema_version": 1,

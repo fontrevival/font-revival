@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Alternating large and small palmettes: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Alternating large and small palmettes — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="../site/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+    .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
+    @media(max-width:780px){.editor-preview{height:713px}}
+    @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="../editor/index.html">Editor ↗</a><a href="https://github.com/fontrevival/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="figgins-1834-p229-two-line-english-4-repeat">
+  <p class="card-meta"><a href="../icons.html?collection=figgins-ornaments-1834#collection">Figgins Ornaments 1834</a><span>No. two-line-english No. 4</span></p>
+  <h1>Alternating large and small palmettes</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>ornament</li><li>border</li></ul>
+  <div class="section-links"><a href="../icons.html?section=borders-and-frames#collection">Borders and frames</a></div>
+  <p>Specimen PDF page 229 (unnumbered leaf).</p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Alternating large and small palmettes">
+
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Alternating large and small palmettes" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M1576 1616C1565 1610 1427 1609 1270 1612C1012 1618 984 1617 978 1602C974 1590 987 1569 1019 1537C1096 1456 1101 1447 1098 1368C1097 1329 1086 1253 1073 1201C1050 1110 1047 1059 1066 1059C1071 1059 1077 1071 1081 1088C1100 1176 1128 1252 1145 1261C1155 1267 1169 1285 1176 1302C1183 1319 1195 1331 1201 1329C1220 1323 1229 1240 1217 1182C1210 1152 1178 1076 1146 1010C1088 893 1046 754 1058 722C1068 696 1091 702 1105 734C1111 749 1125 802 1137 852C1174 1016 1234 1137 1315 1218C1343 1245 1375 1263 1426 1280C1467 1293 1502 1307 1505 1312C1509 1318 1518 1322 1526 1322C1550 1322 1544 1265 1519 1243C1507 1234 1486 1216 1471 1204C1445 1183 1445 1182 1466 1181C1478 1181 1504 1192 1525 1206C1554 1226 1575 1232 1615 1231C1703 1230 1784 1243 1790 1258C1806 1300 1816 1229 1800 1184C1795 1169 1797 1153 1808 1137C1837 1093 1845 1050 1829 1014C1813 976 1787 958 1749 958C1721 958 1692 991 1692 1021C1692 1031 1703 1049 1717 1061C1733 1074 1743 1094 1743 1111C1743 1132 1736 1141 1710 1151C1663 1172 1563 1167 1506 1142C1409 1099 1320 1022 1254 925C1239 902 1206 817 1180 736C1155 655 1125 564 1113 533C1091 477 1039 417 997 401C984 396 974 388 974 382C974 377 999 356 1030 335C1085 298 1172 271 1238 271C1282 271 1383 319 1387 343C1389 352 1382 363 1370 367C1343 375 1335 401 1344 449C1349 476 1358 488 1381 497C1441 523 1495 489 1493 426C1492 407 1484 382 1474 371C1456 352 1457 350 1481 325C1518 285 1561 268 1621 268C1678 268 1727 286 1753 316C1764 329 1764 337 1755 352C1736 383 1740 412 1763 412C1790 412 1788 434 1760 461C1734 485 1677 491 1669 470C1666 463 1673 451 1683 444C1707 429 1709 367 1686 358C1637 339 1601 368 1601 426C1601 475 1614 499 1652 518C1693 540 1724 538 1766 508C1807 481 1824 491 1799 528C1782 554 1714 594 1688 594C1680 594 1664 606 1653 620C1623 658 1624 732 1655 769C1683 804 1749 819 1759 791C1764 779 1759 768 1744 757C1728 746 1720 729 1720 705C1719 676 1727 664 1771 624C1799 599 1832 558 1843 533C1862 490 1863 489 1863 518C1863 536 1857 585 1849 630C1820 781 1818 819 1843 872C1863 918 1864 935 1864 1263L1863 1605H1747C1683 1605 1622 1609 1613 1614C1604 1620 1587 1620 1576 1616ZM64 1268C64 960 66 927 79 938C93 949 99 946 124 917C167 865 171 811 140 678C125 618 112 538 108 498C103 418 107 420 125 505C135 556 144 571 202 630C237 667 266 703 266 710C266 718 252 739 234 756L202 789L225 808C238 819 259 827 273 827C303 827 344 788 353 752C361 718 322 647 279 619C261 608 232 590 214 579C179 558 146 509 157 497C161 494 178 502 195 517C220 538 239 544 273 544C310 544 325 539 343 517C361 499 367 480 367 448C367 412 362 399 341 383C326 371 309 362 302 362C296 362 282 370 272 381C259 395 258 405 265 426C271 440 280 453 286 453C292 453 297 459 297 467C297 484 249 494 220 482C207 478 192 465 186 454C178 439 179 433 190 428C208 422 211 377 195 367C179 357 202 325 242 300C296 267 356 258 415 276C441 284 477 301 493 314L521 337L500 380C489 402 479 433 479 448C479 500 551 539 599 512C620 500 626 488 628 454C631 420 626 401 610 379L588 349L611 325C623 312 650 296 669 290C729 270 837 291 887 332C893 337 910 350 927 363C942 374 954 389 954 397C954 404 943 413 929 416C897 424 841 508 819 579C769 745 727 864 705 911C678 968 562 1097 514 1122C470 1145 357 1172 320 1168C277 1162 236 1134 236 1112C236 1102 248 1084 262 1070C282 1053 287 1041 284 1011C282 981 276 972 255 964C186 940 138 995 149 1084C153 1121 162 1141 186 1167C219 1200 312 1236 357 1233C424 1228 490 1207 539 1175C569 1155 595 1142 598 1145C602 1148 588 1167 568 1185C526 1223 501 1289 516 1317C525 1333 529 1332 550 1303C563 1286 581 1272 591 1272C600 1272 613 1265 620 1257C627 1248 637 1241 642 1241C654 1241 708 1180 744 1126C782 1068 822 925 822 844C822 795 842 736 857 736C878 736 883 772 873 856C863 943 841 1012 789 1115C741 1213 727 1261 735 1316C740 1341 746 1363 750 1363C760 1363 834 1275 850 1244C856 1232 864 1207 868 1189C879 1133 884 1120 894 1120C910 1120 904 1172 877 1271C855 1355 853 1371 863 1414C870 1442 893 1489 914 1520C937 1552 953 1584 950 1591C946 1601 924 1605 866 1605C822 1605 624 1606 425 1607L64 1610V1268ZM145 1368C145 1365 143 1363 140 1363C137 1363 135 1365 135 1368C135 1371 137 1373 140 1373C143 1373 145 1371 145 1368ZM689 848C692 840 688 836 680 839C673 841 665 849 663 856C660 864 664 868 672 865C679 863 687 855 689 848ZM66 528C66 512 68 506 71 516C73 525 73 540 71 547C68 553 66 546 66 528ZM114 366C113 361 112 334 111 306C110 260 107 255 87 256C67 256 64 251 64 223V189L522 188C773 187 1178 185 1422 184L1864 182V272C1864 342 1861 362 1850 362C1842 362 1825 342 1811 319C1794 288 1774 270 1733 249C1668 216 1605 212 1533 236C1507 245 1470 267 1452 284L1419 315L1397 295C1328 234 1253 213 1167 231C1136 237 1084 253 1052 268C995 293 993 294 973 275C952 255 951 255 958 278C965 300 950 319 939 301C928 283 856 250 801 239C773 233 725 231 696 235C656 240 633 249 602 277L561 312L509 273C468 242 444 231 402 226C372 223 326 225 300 231C237 244 157 296 149 327C143 351 116 381 114 366Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Alternating large and small palmettes"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-figgins-ornaments-1834'">&#xE05C;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/figgins-ornaments-1834/downloads/figgins-ornaments-1834-web.zip">Download web bundle (ZIP)</a><a download href="../collection/figgins-ornaments-1834/svg/figgins-1834-p229-two-line-english-4-repeat.svg">Monochrome SVG</a><a download href="../collection/figgins-ornaments-1834/web/icons.svg">Monochrome sprite</a><a download href="../collection/figgins-ornaments-1834/fonts/FigginsOrnaments1834-Regular.otf">OTF</a> <a download href="../collection/figgins-ornaments-1834/fonts/FigginsOrnaments1834-Regular.ttf">TTF</a> <a download href="../collection/figgins-ornaments-1834/web/FigginsOrnaments1834-Regular.woff2">WOFF2</a><a href="../collection/figgins-ornaments-1834/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/figgins-ornaments-1834/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/figgins-ornaments-1834/downloads/figgins-ornaments-1834-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.</p>
+    <h3>Monochrome image</h3>
+    <p>This displays the monochrome artwork with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/figgins-ornaments-1834/svg/figgins-1834-p229-two-line-english-4-repeat.svg&quot;
+     alt=&quot;Alternating large and small palmettes&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>SVG with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Alternating large and small palmettes&quot;&gt;
+  &lt;use href=&quot;collection/figgins-ornaments-1834/web/icons.svg#figgins-1834-p229-two-line-english-4-repeat&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/figgins-ornaments-1834/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-figgins-1834-p229-two-line-english-4-repeat&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Alternating large and small palmettes&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/figgins-ornaments-1834/specimens/figgins-1834-p229-two-line-english-4-repeat.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="../LICENSE">Artwork: MIT</a> · <a href="../FONT-LICENSES.txt">Fonts: MIT or SIL OFL 1.1</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

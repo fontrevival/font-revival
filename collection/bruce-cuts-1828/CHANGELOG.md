@@ -1,5 +1,9 @@
 # Changes
 
+## 1.007
+
+- Improve 39 existing cuts from clearer complete Howe 1830 impressions. Preserve permanent IDs and codepoints; retain the revised native sources and before-and-after font proof.
+
 ## 1.006
 
 - Add 64 complete figures, scenes, ships, arms and trade cuts from the final illustrated leaves, PDF 341–403.

@@ -1,0 +1,4689 @@
+{
+  "schema_version": 1,
+  "crops": [
+    {
+      "id": "howe-1830-p160-metal-10",
+      "native_box": [
+        550,
+        1648,
+        1867,
+        2963
+      ],
+      "source_file": "reference/howe1830-160.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        77,
+        74,
+        1252,
+        1251
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          500,
+          570,
+          850,
+          735
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p160-metal-10.png",
+      "sha256": "665757213598601144c386ec6bea69b449c1f361959703f09eb1a43d66410810"
+    },
+    {
+      "id": "howe-1830-p162-metal-15",
+      "native_box": [
+        228,
+        2722,
+        1420,
+        3938
+      ],
+      "source_file": "reference/howe1830-162.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        57,
+        82,
+        1113,
+        1132
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p162-metal-15.png",
+      "sha256": "5fe574725c7c25755fee4f4a433705861a3f1416f093f5414996babde4a7723b"
+    },
+    {
+      "id": "howe-1830-p164-metal-25",
+      "native_box": [
+        257,
+        494,
+        1409,
+        3329
+      ],
+      "source_file": "reference/howe1830-164.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        74,
+        105,
+        2758,
+        1079
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p164-metal-25.png",
+      "sha256": "5a0687738d920027ab34302630f17aa7d1e1d32c02a45c4b384be6eb39c56f33"
+    },
+    {
+      "id": "howe-1830-p170-metal-44",
+      "native_box": [
+        999,
+        2479,
+        2223,
+        3805
+      ],
+      "source_file": "reference/howe1830-170.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        92,
+        62,
+        1253,
+        1135
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p170-metal-44.png",
+      "sha256": "d08caefa065e64f59df59c416d23d3f2109d6842ce23c1f6ea52a7ca16d507f3"
+    },
+    {
+      "id": "howe-1830-p172-metal-46",
+      "native_box": [
+        37,
+        79,
+        2434,
+        2864
+      ],
+      "source_file": "reference/howe1830-172.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        111,
+        123,
+        2661,
+        2219
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p172-metal-46.png",
+      "sha256": "7a98cf911ca21ec67b38a1d8c614dd003663e9da754f59fc90ca2c613988641e"
+    },
+    {
+      "id": "howe-1830-p190-metal-130",
+      "native_box": [
+        1649,
+        2666,
+        2060,
+        3143
+      ],
+      "source_file": "reference/howe1830-190.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        34,
+        37,
+        383,
+        440
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p190-metal-130.png",
+      "sha256": "6056bc6a1f13cf7a738de4f6fd3d2940ddeafd86cff6431d6020dd8cd79222af"
+    },
+    {
+      "id": "howe-1830-p190-metal-117",
+      "native_box": [
+        314,
+        3110,
+        699,
+        3475
+      ],
+      "source_file": "reference/howe1830-190.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        41,
+        38,
+        341,
+        339
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p190-metal-117.png",
+      "sha256": "b97e5fedb52f6c53278b8b4593ad44e2f030d9ff44836f9cdb95c2d21548cd75"
+    },
+    {
+      "id": "howe-1830-p202-metal-158",
+      "native_box": [
+        1574,
+        1852,
+        2133,
+        2860
+      ],
+      "source_file": "reference/howe1830-202.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        6,
+        79,
+        969,
+        490
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p202-metal-158.png",
+      "sha256": "2501e99486bf79faa18f575c65ee65a8ca8ac74cc0a8f8c70a3add4e1c011f37"
+    },
+    {
+      "id": "howe-1830-p202-metal-160",
+      "native_box": [
+        747,
+        3211,
+        1407,
+        4024
+      ],
+      "source_file": "reference/howe1830-202.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        46,
+        0,
+        612,
+        741
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p202-metal-160.png",
+      "sha256": "40846df72cdbc78d4240646696bee1f6862ee0e64bef5ca2fcc11e0ce6145836"
+    },
+    {
+      "id": "howe-1830-p206-metal-169",
+      "native_box": [
+        118,
+        453,
+        2217,
+        2113
+      ],
+      "source_file": "reference/howe1830-206.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        115,
+        91,
+        1554,
+        1974
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p206-metal-169.png",
+      "sha256": "b5a12db82b6c5b559f87124211b29f3ed2bdb705c0b59dac35c49f589bea1e4b"
+    },
+    {
+      "id": "howe-1830-p206-metal-170",
+      "native_box": [
+        104,
+        2161,
+        917,
+        2983
+      ],
+      "source_file": "reference/howe1830-206.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        59,
+        38,
+        728,
+        748
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p206-metal-170.png",
+      "sha256": "b5c868531b72385592728f854b8983f24c8a3f2fcdb6ce3ef1bf2e5915a4cb9f"
+    },
+    {
+      "id": "howe-1830-p206-metal-171",
+      "native_box": [
+        1137,
+        2192,
+        2142,
+        3068
+      ],
+      "source_file": "reference/howe1830-206.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        60,
+        45,
+        914,
+        811
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p206-metal-171.png",
+      "sha256": "f99ec12a398501ec027d924d4ec1ee98bef3a1d3acd654954ef1bf4cee38a8bd"
+    },
+    {
+      "id": "howe-1830-p206-metal-172",
+      "native_box": [
+        82,
+        3161,
+        1213,
+        3944
+      ],
+      "source_file": "reference/howe1830-206.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        89,
+        91,
+        1072,
+        692
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p206-metal-172.png",
+      "sha256": "7f0d8b694fb9d312f7abb19879028b1d99348fb7a4b681c80a23e1d53d279fad"
+    },
+    {
+      "id": "howe-1830-p210-metal-189",
+      "native_box": [
+        1697,
+        442,
+        2315,
+        1308
+      ],
+      "source_file": "reference/howe1830-210.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        46,
+        49,
+        562,
+        823
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.9245,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p210-metal-189",
+        "angle": -0.9245,
+        "residual_px": 0.52,
+        "fraction": 0.978,
+        "range_x": [
+          165,
+          350
+        ]
+      },
+      "output": "reference/crops/howe-1830-p210-metal-189.png",
+      "sha256": "1e4a60b97e756a7e7baf770065bb2fe08ba24de6f30e86a1a5f4f97d440df0d8"
+    },
+    {
+      "id": "howe-1830-p210-metal-191",
+      "native_box": [
+        1665,
+        2126,
+        2318,
+        2726
+      ],
+      "source_file": "reference/howe1830-210.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        51,
+        22,
+        597,
+        550
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p210-metal-191.png",
+      "sha256": "bb048619b2ddfad89621545fc8e24402c5e6238b734b13a5cabe6016698cea1b"
+    },
+    {
+      "id": "howe-1830-p210-metal-192",
+      "native_box": [
+        268,
+        3000,
+        1003,
+        3841
+      ],
+      "source_file": "reference/howe1830-210.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        65,
+        50,
+        681,
+        767
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p210-metal-192.png",
+      "sha256": "a77242ae8f89a9ace992237f5a7cede454ca693a597d99a7fda920790413fd7e"
+    },
+    {
+      "id": "howe-1830-p212-metal-203",
+      "native_box": [
+        151,
+        510,
+        1278,
+        2045
+      ],
+      "source_file": "reference/howe1830-212.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        156,
+        20,
+        1035,
+        1462
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          910,
+          80,
+          1100,
+          200
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p212-metal-203.png",
+      "sha256": "45784f8669575a6da5d4103269306f20a42de043472f2369debbdc84cf7f57ff"
+    },
+    {
+      "id": "howe-1830-p212-metal-204",
+      "native_box": [
+        1370,
+        493,
+        2096,
+        1320
+      ],
+      "source_file": "reference/howe1830-212.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        65,
+        22,
+        656,
+        743
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p212-metal-204.png",
+      "sha256": "c8f7ef3721fe100f19a25bd3c3ef3975442c33906fbb0f03fd4336ef4a1adac2"
+    },
+    {
+      "id": "howe-1830-p212-metal-206",
+      "native_box": [
+        136,
+        2150,
+        1163,
+        2640
+      ],
+      "source_file": "reference/howe1830-212.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        54,
+        51,
+        948,
+        430
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p212-metal-206.png",
+      "sha256": "66c55e357a78276d4dc169b775365175a9e71172cf9fa46f99c7b3d27563575d"
+    },
+    {
+      "id": "howe-1830-p212-metal-207",
+      "native_box": [
+        1162,
+        2144,
+        2174,
+        2630
+      ],
+      "source_file": "reference/howe1830-212.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        51,
+        45,
+        948,
+        427
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p212-metal-207.png",
+      "sha256": "a1a96a1bd23e4e691a471467d9cedc9ddf10317d62372c09b4270967cef66051"
+    },
+    {
+      "id": "howe-1830-p212-metal-208",
+      "native_box": [
+        132,
+        2786,
+        1143,
+        3316
+      ],
+      "source_file": "reference/howe1830-212.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        53,
+        42,
+        943,
+        420
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p212-metal-208.png",
+      "sha256": "7fdace93a95a12cbb3cae4d01cb40b1100c4a61658166c058455f90f35f5f710"
+    },
+    {
+      "id": "howe-1830-p216-metal-222",
+      "native_box": [
+        0,
+        103,
+        971,
+        1372
+      ],
+      "source_file": "reference/howe1830-216.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        89,
+        36,
+        1222,
+        928
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p216-metal-222.png",
+      "sha256": "28c061e8e1d3c70eff6ed661eaa85ffab3b4103a56ff385d84d67536e7d9e535"
+    },
+    {
+      "id": "howe-1830-p216-metal-223",
+      "native_box": [
+        871,
+        102,
+        1876,
+        1373
+      ],
+      "source_file": "reference/howe1830-216.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        89,
+        58,
+        1228,
+        962
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p216-metal-223.png",
+      "sha256": "1c8abb50368b90382565dd13dd5eb225230c1d7ae9db5066a7e7dcb0acb40535"
+    },
+    {
+      "id": "howe-1830-p216-metal-224",
+      "native_box": [
+        1765,
+        99,
+        2828,
+        1376
+      ],
+      "source_file": "reference/howe1830-216.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        70,
+        80,
+        1225,
+        990
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p216-metal-224.png",
+      "sha256": "6625b80f31b0372a73fb026bbfceb8132782d18f6d08ec3d0acb15152cb20f2e"
+    },
+    {
+      "id": "howe-1830-p216-metal-225",
+      "native_box": [
+        2728,
+        116,
+        3784,
+        1408
+      ],
+      "source_file": "reference/howe1830-216.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        100,
+        45,
+        1239,
+        946
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p216-metal-225.png",
+      "sha256": "f91be6fa97d491cf20fc90775c0d1df9301bd0458cf02e643a13f2e90788f659"
+    },
+    {
+      "id": "howe-1830-p218-metal-230",
+      "native_box": [
+        1712,
+        2887,
+        2261,
+        4169
+      ],
+      "source_file": "reference/howe1830-218.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        68,
+        27,
+        1232,
+        491
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p218-metal-230.png",
+      "sha256": "26167ac8f87485c610f448aad68818fd1d063733f8d4bbc548dcce1c2e0298a0"
+    },
+    {
+      "id": "howe-1830-p218-metal-232",
+      "native_box": [
+        1468,
+        404,
+        2349,
+        2716
+      ],
+      "source_file": "reference/howe1830-218.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        268,
+        216,
+        2028,
+        740
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p218-metal-232.png",
+      "sha256": "9739876446c58196174d80198b5c665fcbabdcd2d3723c84a805f5ccbdd7cac0"
+    },
+    {
+      "id": "howe-1830-p220-metal-234",
+      "native_box": [
+        1365,
+        445,
+        2192,
+        1788
+      ],
+      "source_file": "reference/howe1830-220.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        57,
+        38,
+        755,
+        1285
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p220-metal-234.png",
+      "sha256": "bfd1e64991d9a1e5efca7b728ad2385faf5a1f7fd671fe68529644e466339fcb"
+    },
+    {
+      "id": "howe-1830-p220-metal-236",
+      "native_box": [
+        1482,
+        1784,
+        2104,
+        2503
+      ],
+      "source_file": "reference/howe1830-220.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        37,
+        30,
+        588,
+        684
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p220-metal-236.png",
+      "sha256": "30217d777eec5602378cbbd92831ccd710d217ddbfa064ddd856527ea0bcfebb"
+    },
+    {
+      "id": "howe-1830-p220-metal-237",
+      "native_box": [
+        122,
+        2585,
+        899,
+        3134
+      ],
+      "source_file": "reference/howe1830-220.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        41,
+        39,
+        697,
+        505
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p220-metal-237.png",
+      "sha256": "840c69561421885d884959e4a9aa25ba75103c909b52ea33e6cfecadf71a2a1e"
+    },
+    {
+      "id": "howe-1830-p220-metal-238",
+      "native_box": [
+        762,
+        2492,
+        1528,
+        3208
+      ],
+      "source_file": "reference/howe1830-220.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        219,
+        116,
+        681,
+        595
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p220-metal-238.png",
+      "sha256": "be8cb79ab94b06053a41b17bac8aadc9dc6367af9bddfc12d23e5be4f4416923"
+    },
+    {
+      "id": "howe-1830-p220-metal-240",
+      "native_box": [
+        102,
+        3185,
+        527,
+        3844
+      ],
+      "source_file": "reference/howe1830-220.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        43,
+        23,
+        353,
+        604
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p220-metal-240.png",
+      "sha256": "f299b136ff8a202fc4054aee1302cec20a94f352ad57f924e94fccd549e678e3"
+    },
+    {
+      "id": "howe-1830-p220-metal-242",
+      "native_box": [
+        1708,
+        3181,
+        2141,
+        3854
+      ],
+      "source_file": "reference/howe1830-220.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        50,
+        24,
+        382,
+        615
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p220-metal-242.png",
+      "sha256": "d93ea637dd8cd6f4443423efadbfab7560d931950304c7beac5b605d6bfff21c"
+    },
+    {
+      "id": "howe-1830-p224-metal-250",
+      "native_box": [
+        0,
+        0,
+        3604,
+        2884
+      ],
+      "source_file": "reference/howe1830-224.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        154,
+        138,
+        2778,
+        3411
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p224-metal-250.png",
+      "sha256": "a8aef523d8c118df2ba74d80d871875ab9210a203ac163f13d95d15f557669e0"
+    },
+    {
+      "id": "howe-1830-p226-metal-251",
+      "native_box": [
+        186,
+        2832,
+        1103,
+        3971
+      ],
+      "source_file": "reference/howe1830-226.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        73,
+        44,
+        1139,
+        853
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p226-metal-251.png",
+      "sha256": "4cd66e0971968e9a609b566772fa6304219e2b821ac5945606150774b97a2387"
+    },
+    {
+      "id": "howe-1830-p226-metal-252",
+      "native_box": [
+        167,
+        1615,
+        1181,
+        2892
+      ],
+      "source_file": "reference/howe1830-226.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        81,
+        67,
+        1240,
+        938
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p226-metal-252.png",
+      "sha256": "072846b989adbc0fb43ee7ac7f29ca37274bd1fb9c371638642c84613df4109c"
+    },
+    {
+      "id": "howe-1830-p226-metal-253",
+      "native_box": [
+        171,
+        435,
+        1175,
+        1674
+      ],
+      "source_file": "reference/howe1830-226.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        34,
+        79,
+        1151,
+        924
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p226-metal-253.png",
+      "sha256": "70db3567bc5fe1450a1bc995c11704c0d7290ac2a5cdbbefaec6ff61cc5f50f9"
+    },
+    {
+      "id": "howe-1830-p226-metal-254",
+      "native_box": [
+        1210,
+        2941,
+        1982,
+        4016
+      ],
+      "source_file": "reference/howe1830-226.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        103,
+        35,
+        1018,
+        735
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p226-metal-254.png",
+      "sha256": "1cb103a0cbc5fa463f8ba13b084072093c3c6af5fa5e3bbfad8fda87211f417c"
+    },
+    {
+      "id": "howe-1830-p226-metal-256",
+      "native_box": [
+        1162,
+        445,
+        2092,
+        1727
+      ],
+      "source_file": "reference/howe1830-226.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        37,
+        65,
+        1200,
+        880
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p226-metal-256.png",
+      "sha256": "507e4dc0228dbff58eff02c0c8d71351181657e28154f1899d56b537ad0f3fc7"
+    },
+    {
+      "id": "howe-1830-p228-metal-257",
+      "native_box": [
+        84,
+        165,
+        1023,
+        4082
+      ],
+      "source_file": "reference/howe1830-228.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        0,
+        55,
+        3917,
+        855
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          1900,
+          0,
+          2250,
+          65
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p228-metal-257.png",
+      "sha256": "bd123ba0d7c44399d428ba360c77906d91d95e30797d8babedd1b28be6083a70"
+    },
+    {
+      "id": "howe-1830-p228-metal-258",
+      "native_box": [
+        916,
+        2694,
+        1808,
+        4075
+      ],
+      "source_file": "reference/howe1830-228.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        89,
+        117,
+        1345,
+        809
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p228-metal-258.png",
+      "sha256": "54df7fe2d0534a8522cae6987d30545d5c84e32ba3ab1ad390d26c08beae3807"
+    },
+    {
+      "id": "howe-1830-p228-metal-259",
+      "native_box": [
+        963,
+        1635,
+        1664,
+        2665
+      ],
+      "source_file": "reference/howe1830-228.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        65,
+        58,
+        1015,
+        624
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p228-metal-259.png",
+      "sha256": "d6725ef9e5cf2c05598ee13e9182a402574a78e6c4f51bcdf944dffd9924651b"
+    },
+    {
+      "id": "howe-1830-p228-metal-260",
+      "native_box": [
+        982,
+        170,
+        1815,
+        1612
+      ],
+      "source_file": "reference/howe1830-228.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        99,
+        27,
+        1365,
+        775
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p228-metal-260.png",
+      "sha256": "9466589c4105a565467cb79f49b60e88e85f253a5928568d2da1061c7db57501"
+    },
+    {
+      "id": "howe-1830-p228-metal-262",
+      "native_box": [
+        1622,
+        1408,
+        2349,
+        2919
+      ],
+      "source_file": "reference/howe1830-228.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        149,
+        224,
+        1223,
+        710
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p228-metal-262.png",
+      "sha256": "be7b446c10754f429302d83c81312b77038a81cce9c738dd8bdd20cd819c2880"
+    },
+    {
+      "id": "howe-1830-p228-metal-263",
+      "native_box": [
+        1842,
+        356,
+        2349,
+        1609
+      ],
+      "source_file": "reference/howe1830-228.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        126,
+        14,
+        1193,
+        493
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p228-metal-263.png",
+      "sha256": "efbfcf327bc00a2afd355a629ed71183a8dd628fcbcd32144fd0468ceba8ac7e"
+    },
+    {
+      "id": "howe-1830-p230-metal-264",
+      "native_box": [
+        177,
+        2853,
+        1079,
+        4008
+      ],
+      "source_file": "reference/howe1830-230.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        129,
+        147,
+        1155,
+        822
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p230-metal-264.png",
+      "sha256": "1bdb1fa412b77c250ebc4ecce79d9279fe15fea0d8deadf3a1fe211ee258d34d"
+    },
+    {
+      "id": "howe-1830-p230-metal-265",
+      "native_box": [
+        238,
+        1748,
+        1090,
+        2860
+      ],
+      "source_file": "reference/howe1830-230.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        204,
+        106,
+        1026,
+        776
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p230-metal-265.png",
+      "sha256": "868e366a95e708765c85a84ce287dc46066af7a1410b6b8627910843718bcf40"
+    },
+    {
+      "id": "howe-1830-p230-metal-268",
+      "native_box": [
+        1061,
+        1808,
+        2291,
+        4035
+      ],
+      "source_file": "reference/howe1830-230.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        125,
+        66,
+        2156,
+        1152
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p230-metal-268.png",
+      "sha256": "b3028fc302bc0a0053ba9e270ee1404228d7299f2fffbe5d332fead2fcdedeed"
+    },
+    {
+      "id": "howe-1830-p232-metal-272",
+      "native_box": [
+        489,
+        456,
+        1111,
+        1151
+      ],
+      "source_file": "reference/howe1830-232.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        61,
+        7,
+        653,
+        535
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p232-metal-272.png",
+      "sha256": "6d5e86fe8f3aefb811e5f1ac1c5df8cc199734222151a5ec515f5adc5279a482"
+    },
+    {
+      "id": "howe-1830-p232-metal-273",
+      "native_box": [
+        1056,
+        2763,
+        1839,
+        3978
+      ],
+      "source_file": "reference/howe1830-232.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        53,
+        155,
+        1091,
+        756
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p232-metal-273.png",
+      "sha256": "eddad86d2d082c75778b8ed93404465940d56a1e0f3a37baf4a02c483f024f9a"
+    },
+    {
+      "id": "howe-1830-p232-metal-274",
+      "native_box": [
+        1196,
+        1661,
+        1867,
+        2754
+      ],
+      "source_file": "reference/howe1830-232.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        65,
+        16,
+        1042,
+        621
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p232-metal-274.png",
+      "sha256": "7ea79f9fe9960556911142d817fdd917a558169a66da43997edb56af3c9b2b34"
+    },
+    {
+      "id": "howe-1830-p232-metal-275",
+      "native_box": [
+        1192,
+        445,
+        1934,
+        1636
+      ],
+      "source_file": "reference/howe1830-232.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        71,
+        28,
+        1151,
+        678
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p232-metal-275.png",
+      "sha256": "40ac585820e982f0f7a0de8f879b9aa786f5b8fdc2d6cebef4c4d96cbd7a36b6"
+    },
+    {
+      "id": "howe-1830-p232-metal-279",
+      "native_box": [
+        1856,
+        2053,
+        2213,
+        2482
+      ],
+      "source_file": "reference/howe1830-232.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        27,
+        96,
+        417,
+        330
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p232-metal-279.png",
+      "sha256": "c44c07169123f6d56242cd3a3141e2b068a10a172990934565a4dd40735722e2"
+    },
+    {
+      "id": "howe-1830-p232-metal-280",
+      "native_box": [
+        1842,
+        1507,
+        2208,
+        2070
+      ],
+      "source_file": "reference/howe1830-232.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        46,
+        113,
+        524,
+        347
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p232-metal-280.png",
+      "sha256": "38caa212be48c717d1dca8e2619f09301437f000d9f001df478f008c6817d4b2"
+    },
+    {
+      "id": "howe-1830-p234-metal-283",
+      "native_box": [
+        121,
+        2375,
+        813,
+        3930
+      ],
+      "source_file": "reference/howe1830-234.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        29,
+        65,
+        1514,
+        626
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p234-metal-283.png",
+      "sha256": "f6eb3d77f686799cc499bc6332bd7f963393614a7acb2c15edf69b830153857d"
+    },
+    {
+      "id": "howe-1830-p234-metal-284",
+      "native_box": [
+        136,
+        643,
+        827,
+        2309
+      ],
+      "source_file": "reference/howe1830-234.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        76,
+        81,
+        1622,
+        634
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p234-metal-284.png",
+      "sha256": "dd696d63463475b7893f6697dd753bdbe8bf41d79ce18d7cca486f531625c5a7"
+    },
+    {
+      "id": "howe-1830-p234-metal-286",
+      "native_box": [
+        791,
+        647,
+        1525,
+        2317
+      ],
+      "source_file": "reference/howe1830-234.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        83,
+        63,
+        1618,
+        643
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p234-metal-286.png",
+      "sha256": "6b2de370a633a5cd6250eb80fa8e930afc60f6521bde3268107869893a8d7925"
+    },
+    {
+      "id": "howe-1830-p234-metal-287",
+      "native_box": [
+        1330,
+        2123,
+        2349,
+        4135
+      ],
+      "source_file": "reference/howe1830-234.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        176,
+        200,
+        1732,
+        811
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p234-metal-287.png",
+      "sha256": "e841946ae7ebc50e21b2551a8880541749e5b6c70d1db9363ab23010f14f03fb"
+    },
+    {
+      "id": "howe-1830-p234-metal-288",
+      "native_box": [
+        1317,
+        424,
+        2349,
+        2534
+      ],
+      "source_file": "reference/howe1830-234.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        285,
+        220,
+        1831,
+        790
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p234-metal-288.png",
+      "sha256": "910621dce33f6dfab8b0b257525bf33cb424ffaa4f92b5a2d98c2259573e056e"
+    },
+    {
+      "id": "howe-1830-p236-metal-290",
+      "native_box": [
+        181,
+        364,
+        820,
+        1991
+      ],
+      "source_file": "reference/howe1830-236.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        58,
+        45,
+        1579,
+        607
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p236-metal-290.png",
+      "sha256": "e27b48797dc106df7eedbbb55255a92181886ec1dab22872768ddaceccc1b6a5"
+    },
+    {
+      "id": "howe-1830-p240-metal-304",
+      "native_box": [
+        1426,
+        1896,
+        1892,
+        2980
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        49,
+        87,
+        1045,
+        406
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-304.png",
+      "sha256": "f02bbd6d4ed623f2bfb5f78ae15821a9874d7bdf301ec186afa3311dcce25e35"
+    },
+    {
+      "id": "howe-1830-p240-metal-305",
+      "native_box": [
+        1450,
+        1220,
+        2328,
+        1609
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        78,
+        77,
+        370,
+        816
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-305.png",
+      "sha256": "63b4b6eecae25a1acf267619d43a6a4287dbae8a049eb4d3437aed088fea485f"
+    },
+    {
+      "id": "howe-1830-p240-metal-306",
+      "native_box": [
+        1723,
+        2821,
+        2349,
+        3873
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        339,
+        148,
+        826,
+        537
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-306.png",
+      "sha256": "1e38fc889f7622f13899c68a513485e079280b2b963592eea70cdbc080f8189d"
+    },
+    {
+      "id": "howe-1830-p240-metal-307",
+      "native_box": [
+        1828,
+        1829,
+        2349,
+        3000
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        36,
+        67,
+        1102,
+        505
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-307.png",
+      "sha256": "a2d88e9388a82cee572c166a28a088b01a8e45129e59b17b0570e76e3a28c51c"
+    },
+    {
+      "id": "howe-1830-p240-metal-brush-trio",
+      "native_box": [
+        1450,
+        400,
+        2349,
+        895
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        31,
+        53,
+        478,
+        844
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-brush-trio.png",
+      "sha256": "2a30298beacb775997cd260525a1403633b829871f5fe0963272be445e08fa6c"
+    },
+    {
+      "id": "howe-1830-p240-metal-brush-single",
+      "native_box": [
+        1434,
+        879,
+        2349,
+        1169
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        12,
+        78,
+        275,
+        867
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-brush-single.png",
+      "sha256": "9b47cf902d52afc228241a5fe18f4363dd1c5fdf64c8d448255d744509fb70e4"
+    },
+    {
+      "id": "howe-1830-p240-metal-brush-bundle",
+      "native_box": [
+        1507,
+        1594,
+        2300,
+        1902
+      ],
+      "source_file": "reference/howe1830-240.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        34,
+        35,
+        261,
+        713
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p240-metal-brush-bundle.png",
+      "sha256": "757c22fa121973dcbdb1488bc28ba5a7ced1e4a90dbb26808c33ae5851dd73e2"
+    },
+    {
+      "id": "howe-1830-p242-metal-311",
+      "native_box": [
+        1431,
+        2649,
+        2274,
+        3920
+      ],
+      "source_file": "reference/howe1830-242.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        18,
+        65,
+        1214,
+        743
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p242-metal-311.png",
+      "sha256": "e52e7d880c66efa34a28dda5b648e2d28bbdfd2015d11a4b81d55df479bd099d"
+    },
+    {
+      "id": "howe-1830-p244-metal-318",
+      "native_box": [
+        1781,
+        2745,
+        2275,
+        3930
+      ],
+      "source_file": "reference/howe1830-244.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        50,
+        56,
+        1160,
+        411
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p244-metal-318.png",
+      "sha256": "e21b2463c840b0be30023aa69720898a8ffbaa79f75575b142598be736b7ae32"
+    },
+    {
+      "id": "howe-1830-p244-metal-321",
+      "native_box": [
+        1708,
+        1066,
+        2217,
+        1595
+      ],
+      "source_file": "reference/howe1830-244.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        132,
+        17,
+        510,
+        444
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p244-metal-321.png",
+      "sha256": "816c011b879be06b37c41022813fa6d2f01dfc0b9931d58f5cb8958315aa433e"
+    },
+    {
+      "id": "howe-1830-p244-metal-322",
+      "native_box": [
+        1661,
+        547,
+        2213,
+        1086
+      ],
+      "source_file": "reference/howe1830-244.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        54,
+        38,
+        485,
+        505
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p244-metal-322.png",
+      "sha256": "31767f04c971b048ee16d77b687f39ff09dfa5e47297c72e5f4458ee849a92c5"
+    },
+    {
+      "id": "howe-1830-p246-metal-323",
+      "native_box": [
+        323,
+        3512,
+        871,
+        4068
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        59,
+        91,
+        550,
+        514
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p246-metal-323.png",
+      "sha256": "05f9930bd583e02f455e9f6ffdac12481e7fb63547b3d825a73ea388db53d958"
+    },
+    {
+      "id": "howe-1830-p246-metal-324",
+      "native_box": [
+        123,
+        2553,
+        894,
+        3541
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        63,
+        30,
+        919,
+        713
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p246-metal-324.png",
+      "sha256": "52149896c62c62023fea7f751a67e78180899f072ea31351a4438b2f6a2e8e17"
+    },
+    {
+      "id": "howe-1830-p246-metal-327",
+      "native_box": [
+        327,
+        256,
+        881,
+        838
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        58,
+        88,
+        552,
+        496
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p246-metal-327.png",
+      "sha256": "573902cd2c78d7ec885b0495c2f4dd5ea3ff34e0afb63d4d49a70c17a10af4b1"
+    },
+    {
+      "id": "howe-1830-p248-metal-334",
+      "native_box": [
+        1353,
+        3405,
+        1949,
+        4035
+      ],
+      "source_file": "reference/howe1830-248.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        4,
+        81,
+        567,
+        591
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          35,
+          250,
+          87,
+          350
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p248-metal-334.png",
+      "sha256": "4ed4570546229b6d0ad4e6357590b3b8a57e1609c6cd3652412f03717a6e6fcf"
+    },
+    {
+      "id": "howe-1830-p248-metal-336",
+      "native_box": [
+        1852,
+        2321,
+        2314,
+        2870
+      ],
+      "source_file": "reference/howe1830-248.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        11,
+        102,
+        512,
+        404
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p248-metal-336.png",
+      "sha256": "dfe4fbc20d88d694a1d7a34c608417d25511f856a3bbe9b2e322bd7cc97df215"
+    },
+    {
+      "id": "howe-1830-p248-metal-337",
+      "native_box": [
+        1876,
+        1671,
+        2324,
+        2352
+      ],
+      "source_file": "reference/howe1830-248.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        52,
+        54,
+        681,
+        364
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p248-metal-337.png",
+      "sha256": "d44774893bd96d3eb93401910112eeb66f9d15a356c1d8eac4b06e9a838f6ca1"
+    },
+    {
+      "id": "howe-1830-p250-metal-338",
+      "native_box": [
+        215,
+        3420,
+        839,
+        4089
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        56,
+        117,
+        650,
+        558
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-338.png",
+      "sha256": "c37d23e3fc7d60e777bd89f4c1a6f416299a53754fcaa4c60613b8b05a759a59"
+    },
+    {
+      "id": "howe-1830-p250-metal-339",
+      "native_box": [
+        215,
+        2752,
+        839,
+        3466
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        74,
+        57,
+        643,
+        553
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-339.png",
+      "sha256": "8fc27246f7e917e0692cea429eff83c05dd17a199b5174c498a63dac9d2cd09f"
+    },
+    {
+      "id": "howe-1830-p250-metal-340",
+      "native_box": [
+        215,
+        2115,
+        839,
+        2800
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        40,
+        95,
+        640,
+        548
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-340.png",
+      "sha256": "31825383437dca267cf0eda992252fc148c5616b52590c13619a636a9866f1a3"
+    },
+    {
+      "id": "howe-1830-p250-metal-342",
+      "native_box": [
+        215,
+        854,
+        839,
+        1543
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        74,
+        47,
+        651,
+        525
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-342.png",
+      "sha256": "f7d49dcec9bd87bd7049ae7d41514c9e332e7d181151bd7254bf2b6465f995ee"
+    },
+    {
+      "id": "howe-1830-p250-metal-343",
+      "native_box": [
+        215,
+        231,
+        839,
+        896
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        66,
+        15,
+        601,
+        517
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-343.png",
+      "sha256": "475a5bddcc550a710b6d4ff4314986a190d497b3708fe868b7e33fdebb4c3527"
+    },
+    {
+      "id": "howe-1830-p250-metal-344",
+      "native_box": [
+        898,
+        3417,
+        1609,
+        4092
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        64,
+        150,
+        634,
+        643
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-344.png",
+      "sha256": "bc496003eff59f307c41825c9b9c9668a32ef4e637301a6a8a8a160fac259fad"
+    },
+    {
+      "id": "howe-1830-p250-metal-345",
+      "native_box": [
+        896,
+        2747,
+        1611,
+        3471
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        68,
+        175,
+        641,
+        554
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-345.png",
+      "sha256": "ab61183c3357f0be3c03126f8b46651a31e3dbf13c233686fb026a289cb34017"
+    },
+    {
+      "id": "howe-1830-p250-metal-347",
+      "native_box": [
+        897,
+        1492,
+        1610,
+        2179
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        13,
+        122,
+        613,
+        608
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-347.png",
+      "sha256": "c4157677b26778175a6332032075a6372c4e847b6e08911b59af791e3d2e21c6"
+    },
+    {
+      "id": "howe-1830-p250-metal-349",
+      "native_box": [
+        898,
+        228,
+        1609,
+        899
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        49,
+        124,
+        624,
+        591
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-349.png",
+      "sha256": "12aadca1cc8d07a09cf7943230bdee164514d798d68301dcb917c107ce1f9ff5"
+    },
+    {
+      "id": "howe-1830-p250-metal-350",
+      "native_box": [
+        1608,
+        3417,
+        2308,
+        4092
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        48,
+        193,
+        630,
+        700
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-350.png",
+      "sha256": "0dccb2731c6812a333349bc7b485d41190bad65efa01b99ea28bb6abc0c67766"
+    },
+    {
+      "id": "howe-1830-p250-metal-351",
+      "native_box": [
+        1606,
+        2747,
+        2310,
+        3471
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        59,
+        215,
+        663,
+        682
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-351.png",
+      "sha256": "1dc00829efc3713386278a3a728d5803e7f8cce214b5a1814555da9e1e0588d2"
+    },
+    {
+      "id": "howe-1830-p250-metal-352",
+      "native_box": [
+        1607,
+        2111,
+        2309,
+        2804
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        33,
+        203,
+        626,
+        680
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-352.png",
+      "sha256": "8b83209be10d54cf0a10b56d21dc2843506b860257a38b0641ee3931bdb63d6d"
+    },
+    {
+      "id": "howe-1830-p250-metal-353",
+      "native_box": [
+        1607,
+        1492,
+        2309,
+        2179
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        49,
+        199,
+        645,
+        671
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-353.png",
+      "sha256": "6e4e88e212221f6f1377ed95e14f8fbeefd4d12d6ac8f5209d2e65c3ab3b0be3"
+    },
+    {
+      "id": "howe-1830-p250-metal-355",
+      "native_box": [
+        1608,
+        228,
+        2308,
+        899
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        18,
+        169,
+        607,
+        665
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-355.png",
+      "sha256": "9555222c87c1a3bed9402eaacdaa1a9c5f43e683f4c18fca58e6cac14e7df063"
+    },
+    {
+      "id": "howe-1830-p252-metal-357",
+      "native_box": [
+        863,
+        132,
+        1207,
+        706
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        46,
+        35,
+        310,
+        535
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-357.png",
+      "sha256": "69e580d57ec139bf5227f4e2e0c385cbb6632026bf769b66fc0f9d587b27a6a3"
+    },
+    {
+      "id": "howe-1830-p252-metal-359",
+      "native_box": [
+        1785,
+        126,
+        2462,
+        698
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        40,
+        41,
+        640,
+        534
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-359.png",
+      "sha256": "244d5b11ccb43c39ca76ff0ac40ff5b0082f251d21f338d78f17680a6f99f098"
+    },
+    {
+      "id": "howe-1830-p252-metal-360",
+      "native_box": [
+        2414,
+        145,
+        3038,
+        698
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        30,
+        28,
+        589,
+        517
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-360.png",
+      "sha256": "09cf3ec403cbbd5df65400be533c356115e729f39e959c569b8396301f02c728"
+    },
+    {
+      "id": "howe-1830-p252-metal-361",
+      "native_box": [
+        2999,
+        240,
+        3560,
+        692
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        47,
+        27,
+        524,
+        412
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-361.png",
+      "sha256": "3255e64559c53fedf66d0f40fe4146165e23ce0f1be1d1e02daff7e730e5a4cc"
+    },
+    {
+      "id": "howe-1830-p252-metal-362",
+      "native_box": [
+        3520,
+        226,
+        4114,
+        696
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        20,
+        41,
+        527,
+        417
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-362.png",
+      "sha256": "1ebf5dd42130cccab27169c9e9e3727ccae2a09a0eea2198f2bb4aace37bb1f7"
+    },
+    {
+      "id": "howe-1830-p252-metal-363",
+      "native_box": [
+        254,
+        780,
+        844,
+        1238
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        35,
+        37,
+        552,
+        419
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-363.png",
+      "sha256": "975762d60d7cd783601336b1bb0d9e5d3c597674d0626fe2128edecc2b9680f3"
+    },
+    {
+      "id": "howe-1830-p252-metal-364",
+      "native_box": [
+        833,
+        778,
+        1372,
+        1226
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        25,
+        41,
+        497,
+        413
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-364.png",
+      "sha256": "c955bd879fd5e19973bda6dc256e565a3fb7df28f59330307365af5ebd9915b6"
+    },
+    {
+      "id": "howe-1830-p252-metal-365",
+      "native_box": [
+        1369,
+        766,
+        1924,
+        1208
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        50,
+        38,
+        516,
+        409
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-365.png",
+      "sha256": "f8415da43a39c4751e8e304b15e9b5573d5a5a1ecc6a08a4f3aa5ac4aadb61fb"
+    },
+    {
+      "id": "howe-1830-p252-metal-366",
+      "native_box": [
+        1919,
+        768,
+        2464,
+        1206
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        53,
+        43,
+        508,
+        405
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-366.png",
+      "sha256": "5dac24d7227d5ec87f981d4a1a20b252c10d461c0c1f5fd2e2b92547ba022356"
+    },
+    {
+      "id": "howe-1830-p252-metal-367",
+      "native_box": [
+        2471,
+        764,
+        3022,
+        1216
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        42,
+        46,
+        508,
+        425
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-367.png",
+      "sha256": "f12a33121b1cfc99d7fcc9964cb1a408e45656687ba9d4a6f77f0d1afe88a739"
+    },
+    {
+      "id": "howe-1830-p252-metal-368",
+      "native_box": [
+        2980,
+        780,
+        3574,
+        1234
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        48,
+        41,
+        543,
+        416
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-368.png",
+      "sha256": "eca4bd1df33fee297d099914e125adcbd975bd45e0b7fa904c1b1c6d199b1dfe"
+    },
+    {
+      "id": "howe-1830-p252-metal-369",
+      "native_box": [
+        3508,
+        786,
+        4112,
+        1234
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        37,
+        60,
+        539,
+        370
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-369.png",
+      "sha256": "69dc049943f336a846507e6e9b43634d8aa63c76f9c6e47908ae628325d8e554"
+    },
+    {
+      "id": "howe-1830-p252-metal-370",
+      "native_box": [
+        268,
+        1328,
+        830,
+        1758
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        35,
+        32,
+        526,
+        404
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-370.png",
+      "sha256": "9d0e8bbc0c6d6b5f8b8ef5230adb96e5dd963b7988a197b136409ab1ada7248c"
+    },
+    {
+      "id": "howe-1830-p252-metal-371",
+      "native_box": [
+        786,
+        1288,
+        1351,
+        1756
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        54,
+        47,
+        537,
+        430
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-371.png",
+      "sha256": "968e5f6ad759dd446969c7c7de4cb75d30edc9f79d92ce029bf01929cd2c6c78"
+    },
+    {
+      "id": "howe-1830-p252-metal-372",
+      "native_box": [
+        1326,
+        1298,
+        1900,
+        1758
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        78,
+        49,
+        532,
+        410
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-372.png",
+      "sha256": "364bf7bb94c7ad5419ee2dd1c79d5591e87a6ada2e17b0bee8296adc81c6b54a"
+    },
+    {
+      "id": "howe-1830-p252-metal-373",
+      "native_box": [
+        1868,
+        1320,
+        2440,
+        1776
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        47,
+        53,
+        537,
+        407
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-373.png",
+      "sha256": "b50edba1afa5a0425c9263d82d99e5a284bd1077933ac92676a4974e74859ee6"
+    },
+    {
+      "id": "howe-1830-p252-metal-374",
+      "native_box": [
+        2400,
+        1320,
+        3020,
+        1778
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        43,
+        29,
+        550,
+        410
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-374.png",
+      "sha256": "b50f7fb160ba958b6871c72ba5d24687f056de6240aa383ad4dddbf4b201e032"
+    },
+    {
+      "id": "howe-1830-p252-metal-375",
+      "native_box": [
+        2976,
+        1314,
+        3572,
+        1776
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        43,
+        53,
+        512,
+        399
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-375.png",
+      "sha256": "3221e22e803c4ae470d5a208d8753d7f713e7c29af20f00137a9b61ccb5d1c53"
+    },
+    {
+      "id": "howe-1830-p252-metal-376",
+      "native_box": [
+        3512,
+        1292,
+        4126,
+        1776
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        38,
+        48,
+        552,
+        441
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-376.png",
+      "sha256": "29189d2fb58529f8dd0489884356ed3419cb32bf78a33543764d199ffe1cba5f"
+    },
+    {
+      "id": "howe-1830-p252-metal-377",
+      "native_box": [
+        244,
+        1858,
+        797,
+        2284
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        39,
+        42,
+        504,
+        399
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-377.png",
+      "sha256": "e26a963f1deb13177e81a8194d0cc22cea18a1a9c2ff66fa0f8da3951020da8d"
+    },
+    {
+      "id": "howe-1830-p252-metal-378",
+      "native_box": [
+        817,
+        1864,
+        1337,
+        2288
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        37,
+        59,
+        450,
+        382
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-378.png",
+      "sha256": "a78f448ff8be9aacaf23567983c8518cc05e5cc2551b0112d36470162d45b629"
+    },
+    {
+      "id": "howe-1830-p252-metal-380",
+      "native_box": [
+        1823,
+        1858,
+        2411,
+        2288
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        37,
+        35,
+        549,
+        379
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-380.png",
+      "sha256": "7f5f4019acbd50b63b70aa8f309952f00ecf674069bb4837d7adee1201c6bec2"
+    },
+    {
+      "id": "howe-1830-p252-metal-381",
+      "native_box": [
+        2424,
+        1844,
+        3010,
+        2302
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        40,
+        45,
+        488,
+        413
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-381.png",
+      "sha256": "be275f579e15887401cf3491bd98e8e25ff3c874b648e2889ff2e8b65b6a038f"
+    },
+    {
+      "id": "howe-1830-p252-metal-382",
+      "native_box": [
+        2724,
+        1673,
+        3788,
+        2349
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        254,
+        216,
+        762,
+        563
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-382.png",
+      "sha256": "0da5dfa3736a4aad5a847360af81945726663d95c6116696fc97a61672b18c2e"
+    },
+    {
+      "id": "howe-1830-p252-metal-383",
+      "native_box": [
+        3525,
+        1840,
+        4131,
+        2310
+      ],
+      "source_file": "reference/howe1830-252.jp2",
+      "source_rotation_counterclockwise": 270,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        23,
+        39,
+        544,
+        409
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p252-metal-383.png",
+      "sha256": "60d7a68019ef4975446e6171f7b935ff62b676e02abd5c2a50835a9581d15c51"
+    },
+    {
+      "id": "howe-1830-p254-metal-384",
+      "native_box": [
+        162,
+        2742,
+        892,
+        4052
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        60,
+        64,
+        1255,
+        670
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-384.png",
+      "sha256": "bc3cef7f7e749d883f3c1b37ea4b9f8ecf1de6bb663313ba4483682fee87f1dc"
+    },
+    {
+      "id": "howe-1830-p254-metal-385",
+      "native_box": [
+        162,
+        1481,
+        892,
+        2800
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        68,
+        57,
+        1274,
+        653
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-385.png",
+      "sha256": "5922b4d66c7d2e9391cc7852671792e29b7254de33b6307a54965b33c68c307c"
+    },
+    {
+      "id": "howe-1830-p254-metal-386",
+      "native_box": [
+        162,
+        176,
+        892,
+        1521
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        58,
+        52,
+        1236,
+        685
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-386.png",
+      "sha256": "3b1600e7788dc040e44297ed0adf6cedf9cd88447a15c7e0e707ac4dc3ae864c"
+    },
+    {
+      "id": "howe-1830-p254-metal-387",
+      "native_box": [
+        1027,
+        2748,
+        1643,
+        4046
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        31,
+        50,
+        1231,
+        546
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-387.png",
+      "sha256": "0b56d0323df381dd584fcfd98fe4dba41f167703dcba25ab118dffe4f9bb185c"
+    },
+    {
+      "id": "howe-1830-p254-metal-388",
+      "native_box": [
+        1027,
+        1487,
+        1643,
+        2794
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        67,
+        106,
+        1268,
+        564
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-388.png",
+      "sha256": "b2f3c223c97e4b8ddbb25953bbce698b62b8f3ac52088ead56b1593762ae7401"
+    },
+    {
+      "id": "howe-1830-p254-metal-389",
+      "native_box": [
+        1027,
+        182,
+        1643,
+        1515
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        42,
+        114,
+        1266,
+        568
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-389.png",
+      "sha256": "8245d7381795ee74ddad99ceb2fb2ed5ead58e1e0a90e33fbfc5b163f1fddcb0"
+    },
+    {
+      "id": "howe-1830-p254-metal-390",
+      "native_box": [
+        1518,
+        2529,
+        2349,
+        4265
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        250,
+        211,
+        1451,
+        742
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-390.png",
+      "sha256": "f28a0b6a12da0be70a07d241abb1b113fc574677e51ebca270510c15bc8f44b5"
+    },
+    {
+      "id": "howe-1830-p254-metal-391",
+      "native_box": [
+        1518,
+        1268,
+        2349,
+        3013
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        256,
+        192,
+        1464,
+        746
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-391.png",
+      "sha256": "b91967f8082d03900c73f3962d5ca5032c335a41de82f0fe418631f27e16f969"
+    },
+    {
+      "id": "howe-1830-p254-metal-392",
+      "native_box": [
+        1738,
+        183,
+        2304,
+        1514
+      ],
+      "source_file": "reference/howe1830-254.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        52,
+        30,
+        1249,
+        537
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p254-metal-392.png",
+      "sha256": "33b8e28ce4806c457681cdbfecc499fb3bb5a36110e4597c0442e21832c569d2"
+    },
+    {
+      "id": "howe-1830-p256-metal-393",
+      "native_box": [
+        153,
+        3001,
+        854,
+        4108
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        40,
+        84,
+        994,
+        651
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-393.png",
+      "sha256": "dd83e41011b51d165f8e7290da8f50a54135d63651a69cef4f4ad60f237857c1"
+    },
+    {
+      "id": "howe-1830-p256-metal-394",
+      "native_box": [
+        140,
+        1632,
+        823,
+        2972
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        72,
+        19,
+        1282,
+        651
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-394.png",
+      "sha256": "dedc36b26f82cf70d9f203e8aaf23a006ca49c67723cc10588b4a62cb2d0553f"
+    },
+    {
+      "id": "howe-1830-p256-metal-395",
+      "native_box": [
+        0,
+        66,
+        1012,
+        1814
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        254,
+        130,
+        1479,
+        753
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-395.png",
+      "sha256": "a0c61862ccf4271592911c78fa167ce615ded373dff8aa3ae78fd1663e4faf44"
+    },
+    {
+      "id": "howe-1830-p256-metal-396",
+      "native_box": [
+        1008,
+        2836,
+        1518,
+        4098
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        51,
+        51,
+        1236,
+        468
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-396.png",
+      "sha256": "d002c9a348fa2f6a7e6ca7dcf03edfadaf8af0c3b1aad61218f427301572cd94"
+    },
+    {
+      "id": "howe-1830-p256-metal-400",
+      "native_box": [
+        1651,
+        3123,
+        2318,
+        4155
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        77,
+        33,
+        999,
+        621
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-400.png",
+      "sha256": "f4a74d54a10f569a902d7c98888927dc1b93a1f25054152fc8cf92490722a0d0"
+    },
+    {
+      "id": "howe-1830-p256-metal-401",
+      "native_box": [
+        1660,
+        2393,
+        2281,
+        3082
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        21,
+        44,
+        645,
+        573
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-401.png",
+      "sha256": "413a8f0cabae9478ee75ce1d1920c79da5d60d0d0b671ae0a77d517a49a33699"
+    },
+    {
+      "id": "howe-1830-p256-metal-402",
+      "native_box": [
+        1688,
+        1718,
+        2280,
+        2435
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        40,
+        19,
+        665,
+        522
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-402.png",
+      "sha256": "ec60e362da90074caad75e52c5b4076e79225b9a1fa9d5b34b920986452b5eca"
+    },
+    {
+      "id": "howe-1830-p256-metal-403",
+      "native_box": [
+        1649,
+        1060,
+        2282,
+        1751
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        47,
+        34,
+        676,
+        577
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -1.1744,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p256-metal-403",
+        "angle": -1.1744,
+        "residual_px": 0.56,
+        "fraction": 0.987,
+        "range_x": [
+          201,
+          427
+        ]
+      },
+      "output": "reference/crops/howe-1830-p256-metal-403.png",
+      "sha256": "af2c75e8c2bd3859f95a2ae1dbde2f309eb435270310ac00b69e11cd2e5572ad"
+    },
+    {
+      "id": "howe-1830-p256-metal-404",
+      "native_box": [
+        1781,
+        404,
+        2271,
+        1033
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        107,
+        14,
+        551,
+        425
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-404.png",
+      "sha256": "a523f39b62bbdc2ad6d705c8921cec27f43b9af805a97fed343016b9ab17eca7"
+    },
+    {
+      "id": "howe-1830-p258-metal-405",
+      "native_box": [
+        127,
+        2985,
+        1138,
+        4258
+      ],
+      "source_file": "reference/howe1830-258.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        10,
+        44,
+        1177,
+        965
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p258-metal-405.png",
+      "sha256": "abdc20645bca5e5f4905547a8fa5d08ec1cd0e873e79ff81a402967d626a2418"
+    },
+    {
+      "id": "howe-1830-p258-metal-406",
+      "native_box": [
+        137,
+        1734,
+        1138,
+        2983
+      ],
+      "source_file": "reference/howe1830-258.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        83,
+        145,
+        1194,
+        940
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p258-metal-406.png",
+      "sha256": "fa28e42d64e349bd315c531e078db2c8df56a2060f760fcbb6d21ddae36e1beb"
+    },
+    {
+      "id": "howe-1830-p258-metal-407",
+      "native_box": [
+        134,
+        369,
+        1121,
+        1683
+      ],
+      "source_file": "reference/howe1830-258.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        122,
+        86,
+        1259,
+        937
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p258-metal-407.png",
+      "sha256": "35dccd32f5fc591959d227900e761f7cf007238e7f28518067925f081cb86afc"
+    },
+    {
+      "id": "howe-1830-p258-metal-409",
+      "native_box": [
+        1202,
+        1551,
+        2298,
+        3319
+      ],
+      "source_file": "reference/howe1830-258.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        66,
+        118,
+        1706,
+        1044
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p258-metal-409.png",
+      "sha256": "673636e5f63e2bd9c333ba132709fe66173a2128c77c9ac72ae5fa0567874f66"
+    },
+    {
+      "id": "howe-1830-p258-metal-410",
+      "native_box": [
+        1090,
+        120,
+        2349,
+        1797
+      ],
+      "source_file": "reference/howe1830-258.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        196,
+        252,
+        1393,
+        1131
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p258-metal-410.png",
+      "sha256": "229db64161ea495488a7985e40017db6378763e45edb8013ec9558af5ef0d9be"
+    },
+    {
+      "id": "howe-1830-p260-metal-411",
+      "native_box": [
+        116,
+        2730,
+        1255,
+        4265
+      ],
+      "source_file": "reference/howe1830-260.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        98,
+        68,
+        1468,
+        1066
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.5663,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p260-metal-411",
+        "angle": -0.5663,
+        "residual_px": 0.46,
+        "fraction": 0.982,
+        "range_x": [
+          438,
+          931
+        ]
+      },
+      "output": "reference/crops/howe-1830-p260-metal-411.png",
+      "sha256": "0f85038d09a5605828e5ff5c3b870a8afdb3030d613f74b7b07a123308e20bc0"
+    },
+    {
+      "id": "howe-1830-p260-metal-413",
+      "native_box": [
+        288,
+        168,
+        1803,
+        1415
+      ],
+      "source_file": "reference/howe1830-260.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 180,
+      "trim_in_upright_crop": [
+        103,
+        98,
+        1420,
+        1147
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p260-metal-413.png",
+      "sha256": "d4cd85313915717ae228af9208d04d32a66b68128a5579ad8ee1a7148452f848"
+    },
+    {
+      "id": "howe-1830-p260-metal-414",
+      "native_box": [
+        1197,
+        2737,
+        2349,
+        4268
+      ],
+      "source_file": "reference/howe1830-260.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        111,
+        98,
+        1442,
+        1116
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p260-metal-414.png",
+      "sha256": "12bce184378ea8c21150193f7f65f73981f19c708e0d599cc609461e2c2013ca"
+    },
+    {
+      "id": "howe-1830-p260-metal-415",
+      "native_box": [
+        1187,
+        1278,
+        2349,
+        2845
+      ],
+      "source_file": "reference/howe1830-260.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        134,
+        60,
+        1509,
+        1134
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p260-metal-415.png",
+      "sha256": "cfac5ead26a16c0a8d04bd37a2b98f75aa729ba3e423b5690e83e7422061247e"
+    },
+    {
+      "id": "howe-1830-p262-metal-416",
+      "native_box": [
+        50,
+        2750,
+        1252,
+        4278
+      ],
+      "source_file": "reference/howe1830-262.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        142,
+        98,
+        1443,
+        1095
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p262-metal-416.png",
+      "sha256": "9e464b18242d97d497dfb75a8d5fb9a8ae95e5688eea9eee8ce78ccc1e92d2c3"
+    },
+    {
+      "id": "howe-1830-p262-metal-417",
+      "native_box": [
+        49,
+        1340,
+        1259,
+        2860
+      ],
+      "source_file": "reference/howe1830-262.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        77,
+        85,
+        1411,
+        1099
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p262-metal-417.png",
+      "sha256": "f82651802a3daa671f1795ecb37ee6d32a06f9d08d27b8827789956de646d40e"
+    },
+    {
+      "id": "howe-1830-p262-metal-418",
+      "native_box": [
+        50,
+        257,
+        1512,
+        1450
+      ],
+      "source_file": "reference/howe1830-262.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 180,
+      "trim_in_upright_crop": [
+        73,
+        28,
+        1405,
+        1129
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p262-metal-418.png",
+      "sha256": "3adf557d69091111706b568226ad96b3d50116a6d00187ed62085adef3a214b8"
+    },
+    {
+      "id": "howe-1830-p262-metal-419",
+      "native_box": [
+        1193,
+        2762,
+        2349,
+        4276
+      ],
+      "source_file": "reference/howe1830-262.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        129,
+        78,
+        1443,
+        1095
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p262-metal-419.png",
+      "sha256": "fc11d5ccfd52543c4e3cc7b5b3c2ba7c8853408561720e455099219a5826e941"
+    },
+    {
+      "id": "howe-1830-p262-metal-420",
+      "native_box": [
+        1178,
+        1351,
+        2349,
+        2855
+      ],
+      "source_file": "reference/howe1830-262.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        88,
+        109,
+        1401,
+        1080
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p262-metal-420.png",
+      "sha256": "6a89204c9f25c3d02248b24765e86cf44b7789056e3a645aae4864773d8ae951"
+    },
+    {
+      "id": "howe-1830-p264-metal-421",
+      "native_box": [
+        79,
+        2515,
+        1287,
+        4054
+      ],
+      "source_file": "reference/howe1830-264.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        135,
+        95,
+        1454,
+        1074
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.7705,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p264-metal-421",
+        "angle": 0.7705,
+        "residual_px": 1.38,
+        "fraction": 1.0,
+        "range_x": [
+          422,
+          896
+        ]
+      },
+      "output": "reference/crops/howe-1830-p264-metal-421.png",
+      "sha256": "393c791273dac3fe7d92042e878812b006c8e4eb67d7952e73cde2cbf81976be"
+    },
+    {
+      "id": "howe-1830-p264-metal-423",
+      "native_box": [
+        109,
+        172,
+        1592,
+        1277
+      ],
+      "source_file": "reference/howe1830-264.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 180,
+      "trim_in_upright_crop": [
+        94,
+        79,
+        1401,
+        1020
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p264-metal-423.png",
+      "sha256": "39040a22b85b29374a62a7c1a152c3fa5aaf9102b36158e0ca9a6377a5031d73"
+    },
+    {
+      "id": "howe-1830-p264-metal-424",
+      "native_box": [
+        1191,
+        2530,
+        2349,
+        4057
+      ],
+      "source_file": "reference/howe1830-264.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        86,
+        78,
+        1460,
+        1139
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.7869,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p264-metal-424",
+        "angle": 0.7869,
+        "residual_px": 0.61,
+        "fraction": 1.0,
+        "range_x": [
+          440,
+          933
+        ]
+      },
+      "output": "reference/crops/howe-1830-p264-metal-424.png",
+      "sha256": "68b4961223db4507d423e95c2619b357152be5da7887054f9437e98fe5d4cef3"
+    },
+    {
+      "id": "howe-1830-p264-metal-425",
+      "native_box": [
+        1180,
+        1157,
+        2349,
+        2639
+      ],
+      "source_file": "reference/howe1830-264.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        66,
+        124,
+        1403,
+        1138
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p264-metal-425.png",
+      "sha256": "3c7ddb729db9998afe4241867ea1f456a3bb7b2f05c3b14eec0656fc314796d6"
+    },
+    {
+      "id": "howe-1830-p266-metal-426",
+      "native_box": [
+        35,
+        2676,
+        1270,
+        4185
+      ],
+      "source_file": "reference/howe1830-266.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        83,
+        130,
+        1422,
+        1128
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p266-metal-426.png",
+      "sha256": "72d1e24b3e7e8bfb78b804b4813e560173b3be8788549de9865b04f25c63fc30"
+    },
+    {
+      "id": "howe-1830-p266-metal-429",
+      "native_box": [
+        1018,
+        2453,
+        2349,
+        4336
+      ],
+      "source_file": "reference/howe1830-266.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        195,
+        291,
+        1610,
+        1315
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p266-metal-429.png",
+      "sha256": "06aecfe525d907299ef533fe832df12562d00d7ef33dfe31d768ab5a14dd5b9f"
+    },
+    {
+      "id": "howe-1830-p266-metal-430",
+      "native_box": [
+        1227,
+        1300,
+        2349,
+        2786
+      ],
+      "source_file": "reference/howe1830-266.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        56,
+        66,
+        1427,
+        1097
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.4843,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p266-metal-430",
+        "angle": 0.4843,
+        "residual_px": 0.51,
+        "fraction": 0.886,
+        "range_x": [
+          439,
+          931
+        ]
+      },
+      "output": "reference/crops/howe-1830-p266-metal-430.png",
+      "sha256": "65c4f72210984b97a00fdd1d85152a5b74037ed151ab08e7df9c637bef6acf1f"
+    },
+    {
+      "id": "howe-1830-p268-metal-431",
+      "native_box": [
+        86,
+        2445,
+        1236,
+        3897
+      ],
+      "source_file": "reference/howe1830-268.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        87,
+        88,
+        1384,
+        1041
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p268-metal-431.png",
+      "sha256": "8c4ba225ccddf22d0bcfc39d274e3c06d58a84c6766ae2309aa21bae4fc37c87"
+    },
+    {
+      "id": "howe-1830-p268-metal-432",
+      "native_box": [
+        72,
+        1223,
+        1223,
+        2559
+      ],
+      "source_file": "reference/howe1830-268.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        101,
+        110,
+        1336,
+        1035
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.3847,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p268-metal-432",
+        "angle": -0.3847,
+        "residual_px": 0.65,
+        "fraction": 1.0,
+        "range_x": [
+          395,
+          839
+        ]
+      },
+      "output": "reference/crops/howe-1830-p268-metal-432.png",
+      "sha256": "b2ba99741c640846a5814a518dda53c0f7469baeb46537544d9e5f7b5a0a6c29"
+    },
+    {
+      "id": "howe-1830-p268-metal-433",
+      "native_box": [
+        401,
+        129,
+        1222,
+        1319
+      ],
+      "source_file": "reference/howe1830-268.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        195,
+        50,
+        1154,
+        760
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p268-metal-433.png",
+      "sha256": "74ef75396382970b7ff7056a88810cfea378d9aaad7a839a9669430b14f3e081"
+    },
+    {
+      "id": "howe-1830-p268-metal-435",
+      "native_box": [
+        1219,
+        772,
+        2349,
+        2382
+      ],
+      "source_file": "reference/howe1830-268.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        127,
+        75,
+        1508,
+        1053
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p268-metal-435.png",
+      "sha256": "7223c60df7086f850dd127922511b2c3141e0f8437f449b93e098c76561cc047"
+    },
+    {
+      "id": "howe-1830-p268-metal-436",
+      "native_box": [
+        1256,
+        115,
+        2341,
+        845
+      ],
+      "source_file": "reference/howe1830-268.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        47,
+        36,
+        682,
+        1026
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p268-metal-436.png",
+      "sha256": "0fd5e8cdee407b839951fae5da37a711f0c7d95813497e8cfdc7fc0836229647"
+    },
+    {
+      "id": "howe-1830-p270-metal-437",
+      "native_box": [
+        370,
+        1789,
+        942,
+        4252
+      ],
+      "source_file": "reference/howe1830-270.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        39,
+        43,
+        2436,
+        537
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p270-metal-437.png",
+      "sha256": "9a75131a74b20fc9dc2ffd97d348ae0bbb9584dbbf6f726e1d9af1be33cb79bd"
+    },
+    {
+      "id": "howe-1830-p270-metal-440",
+      "native_box": [
+        971,
+        372,
+        2165,
+        2096
+      ],
+      "source_file": "reference/howe1830-270.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        76,
+        61,
+        1655,
+        1148
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p270-metal-440.png",
+      "sha256": "98a8188b486ac1bff69cb519b46ea5d4556c2c9f675a0b1b66c6a42ba9004570"
+    },
+    {
+      "id": "howe-1830-p272-metal-441",
+      "native_box": [
+        264,
+        2828,
+        1328,
+        4237
+      ],
+      "source_file": "reference/howe1830-272.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        106,
+        93,
+        1245,
+        850
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p272-metal-441.png",
+      "sha256": "fcbae998865386e8052356adac5cfbf03e42ddd3133feda276b2361d20d2ae9e"
+    },
+    {
+      "id": "howe-1830-p276-metal-453",
+      "native_box": [
+        0,
+        85,
+        3080,
+        2904
+      ],
+      "source_file": "reference/howe1830-276.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 90,
+      "trim_in_upright_crop": [
+        213,
+        644,
+        2621,
+        2909
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          450,
+          400,
+          2100,
+          730
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p276-metal-453.png",
+      "sha256": "4393593c2fcaa5186a5d27e2e0c234d4f938208d601ecee76428096513cc6480"
+    },
+    {
+      "id": "howe-1830-p278-metal-454",
+      "native_box": [
+        46,
+        3120,
+        774,
+        4038
+      ],
+      "source_file": "reference/howe1830-278.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        57,
+        33,
+        887,
+        696
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p278-metal-454.png",
+      "sha256": "42f8330fe9864e1554e550d471a7a0df61fae13974279f271202bc4b9e56dd58"
+    },
+    {
+      "id": "howe-1830-p278-metal-456",
+      "native_box": [
+        846,
+        3251,
+        1458,
+        3902
+      ],
+      "source_file": "reference/howe1830-278.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        74,
+        0,
+        596,
+        581
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p278-metal-456.png",
+      "sha256": "735a8763bae4a198476d65e567024b0cd7f025cf216557a111599d02cdb53644"
+    },
+    {
+      "id": "howe-1830-p278-metal-457",
+      "native_box": [
+        1427,
+        2659,
+        2418,
+        3912
+      ],
+      "source_file": "reference/howe1830-278.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        101,
+        84,
+        1179,
+        937
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p278-metal-457.png",
+      "sha256": "c19c835ba4c2f3a29b78cde0a5fcae538fedb2abf5736b9356aa81557e974ea5"
+    },
+    {
+      "id": "howe-1830-p278-metal-458",
+      "native_box": [
+        1358,
+        446,
+        2422,
+        2615
+      ],
+      "source_file": "reference/howe1830-278.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        76,
+        83,
+        2070,
+        991
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p278-metal-458.png",
+      "sha256": "d39b44ca7207945b40484f295f28e3933bb20976b9c58c233a10a65931dc38f7"
+    },
+    {
+      "id": "howe-1830-p289-zodiac-man",
+      "native_box": [
+        491,
+        501,
+        1687,
+        1959
+      ],
+      "source_file": "reference/howe1830-289.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        53,
+        55,
+        1142,
+        1401
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.4066,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p289-zodiac-man",
+        "angle": 0.4066,
+        "residual_px": 0.85,
+        "fraction": 1.0,
+        "range_x": [
+          348,
+          740
+        ]
+      },
+      "output": "reference/crops/howe-1830-p289-zodiac-man.png",
+      "sha256": "a3abd6bd612df97f3c593e6f4fed6627d25076e77b3f8416f7aedcb2e957c25b"
+    },
+    {
+      "id": "howe-1830-p160-metal-9",
+      "native_box": [
+        507,
+        368,
+        2002,
+        1719
+      ],
+      "source_file": "reference/howe1830-160.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        82,
+        74,
+        1423,
+        1283
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [
+        [
+          688,
+          0,
+          724,
+          14
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p160-metal-9.png",
+      "sha256": "26c621bef9687d16f93a7d19ab5184df5b99dbc3b19e83f14b11f97b9c7237ce"
+    },
+    {
+      "id": "howe-1830-p234-metal-285",
+      "native_box": [
+        580,
+        2144,
+        1745,
+        4161
+      ],
+      "source_file": "reference/howe1830-234.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        211,
+        264,
+        1746,
+        826
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p234-metal-285.png",
+      "sha256": "1b6ca76052796b001b92a49cb1ef17555263e0c9d9a160f151f9bceab5ae0c7a"
+    },
+    {
+      "id": "howe-1830-p236-metal-289",
+      "native_box": [
+        178,
+        1999,
+        796,
+        3587
+      ],
+      "source_file": "reference/howe1830-236.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        30,
+        58,
+        1572,
+        618
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p236-metal-289.png",
+      "sha256": "675d0c83048ea3bb16871145d1c0b4c002ebdc51fc5038349be273db05b7704d"
+    },
+    {
+      "id": "howe-1830-p236-metal-291",
+      "native_box": [
+        814,
+        1989,
+        1549,
+        3600
+      ],
+      "source_file": "reference/howe1830-236.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        39,
+        89,
+        1588,
+        675
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p236-metal-291.png",
+      "sha256": "c414d3feccec5dccf85d00b11d58e5bf79223920254a28e2f8a37642f9fffba2"
+    },
+    {
+      "id": "howe-1830-p236-metal-292",
+      "native_box": [
+        810,
+        359,
+        1539,
+        2000
+      ],
+      "source_file": "reference/howe1830-236.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        39,
+        53,
+        1574,
+        686
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p236-metal-292.png",
+      "sha256": "ad3184308fdb972c860de475a70cae9324a85320d7330f72084f913164bed100"
+    },
+    {
+      "id": "howe-1830-p236-metal-293",
+      "native_box": [
+        1607,
+        1981,
+        2224,
+        3600
+      ],
+      "source_file": "reference/howe1830-236.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        36,
+        4,
+        1609,
+        596
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p236-metal-293.png",
+      "sha256": "348909f7557f39750e1d8e8bd1d5426d423f8f285486909a15b1b4e04dc33857"
+    },
+    {
+      "id": "howe-1830-p236-metal-294",
+      "native_box": [
+        1575,
+        363,
+        2230,
+        1996
+      ],
+      "source_file": "reference/howe1830-236.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        33,
+        3,
+        1597,
+        599
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p236-metal-294.png",
+      "sha256": "f08f79efeaf103fceefe2dae7df6627e899a0d8bbe4e43aef2cc10529c15e14c"
+    },
+    {
+      "id": "howe-1830-p230-metal-266",
+      "native_box": [
+        162,
+        511,
+        995,
+        1708
+      ],
+      "source_file": "reference/howe1830-230.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        224,
+        45,
+        1144,
+        565
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [
+        [
+          560,
+          0,
+          590,
+          9
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p230-metal-266.png",
+      "sha256": "bc0efbce73760b04c4e64660673e44901d948c6c8e6ae12f94ffe056ad026803"
+    },
+    {
+      "id": "howe-1830-p230-metal-269",
+      "native_box": [
+        1384,
+        536,
+        2297,
+        1829
+      ],
+      "source_file": "reference/howe1830-230.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        16,
+        34,
+        1234,
+        847
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [
+        [
+          800,
+          0,
+          838,
+          10
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p230-metal-269.png",
+      "sha256": "52f7e4d4dceedb8eb4941bc6b0c4805ca3d4ee546db61876c423576443af0c3e"
+    },
+    {
+      "id": "howe-1830-p250-metal-341",
+      "native_box": [
+        215,
+        1496,
+        839,
+        2175
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        87,
+        100,
+        654,
+        479
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-341.png",
+      "sha256": "41ecce1bea19c659305c13b69272f71950b04b418b4e1cff7df1a772586d7a87"
+    },
+    {
+      "id": "howe-1830-p250-metal-346",
+      "native_box": [
+        897,
+        2111,
+        1610,
+        2804
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        2,
+        132,
+        598,
+        616
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-346.png",
+      "sha256": "4c89891b3eb36942b7e50a7fc0531971d19491c28daccb2c2f1a816119b030ca"
+    },
+    {
+      "id": "howe-1830-p250-metal-348",
+      "native_box": [
+        897,
+        850,
+        1610,
+        1547
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        30,
+        126,
+        627,
+        567
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-348.png",
+      "sha256": "c871dfe9a5e849d08541f710c825a383773a91830ac6263a6b1b1ea337983889"
+    },
+    {
+      "id": "howe-1830-p250-metal-354",
+      "native_box": [
+        1607,
+        850,
+        2309,
+        1547
+      ],
+      "source_file": "reference/howe1830-250.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        35,
+        165,
+        637,
+        667
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p250-metal-354.png",
+      "sha256": "3a14c2ade84f99f1a162d0bd70d71744ae84954164b8efafb07615789ddc1c51"
+    },
+    {
+      "id": "howe-1830-p260-metal-412",
+      "native_box": [
+        273,
+        1320,
+        1250,
+        2833
+      ],
+      "source_file": "reference/howe1830-260.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        35,
+        49,
+        1472,
+        905
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [
+        [
+          0,
+          778,
+          18,
+          856
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.6014,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p260-metal-412",
+        "angle": -0.6014,
+        "residual_px": 0.85,
+        "fraction": 1.0,
+        "range_x": [
+          460,
+          976
+        ]
+      },
+      "output": "reference/crops/howe-1830-p260-metal-412.png",
+      "sha256": "a70521fb6bab7653bf0d24b92d082553bf28349dec9d666b9637e66cf493cb79"
+    },
+    {
+      "id": "howe-1830-p266-metal-427",
+      "native_box": [
+        40,
+        1300,
+        1270,
+        2804
+      ],
+      "source_file": "reference/howe1830-266.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        67,
+        61,
+        1437,
+        1142
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.744,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p266-metal-427",
+        "angle": -0.744,
+        "residual_px": 0.5,
+        "fraction": 1.0,
+        "range_x": [
+          438,
+          931
+        ]
+      },
+      "output": "reference/crops/howe-1830-p266-metal-427.png",
+      "sha256": "d15e2dedd342eba4458a0662d1cf1e9239bdebe844d88143291f9b41bf9ce342"
+    },
+    {
+      "id": "howe-1830-p266-metal-428",
+      "native_box": [
+        45,
+        284,
+        1543,
+        1423
+      ],
+      "source_file": "reference/howe1830-266.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 180,
+      "trim_in_upright_crop": [
+        95,
+        81,
+        1402,
+        1042
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.6127,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p266-metal-428",
+        "angle": -0.6127,
+        "residual_px": 0.66,
+        "fraction": 0.892,
+        "range_x": [
+          418,
+          888
+        ]
+      },
+      "output": "reference/crops/howe-1830-p266-metal-428.png",
+      "sha256": "bd379344bb479c47b53d69728c237803f52dee0b8a0759633c9220e2efa5913f"
+    },
+    {
+      "id": "howe-1830-p268-metal-434",
+      "native_box": [
+        1396,
+        2301,
+        2349,
+        3887
+      ],
+      "source_file": "reference/howe1830-268.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        44,
+        55,
+        1541,
+        912
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [
+        [
+          1455,
+          770,
+          1497,
+          857
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.4002,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p268-metal-434",
+        "angle": -0.4002,
+        "residual_px": 0.49,
+        "fraction": 0.998,
+        "range_x": [
+          479,
+          1017
+        ]
+      },
+      "output": "reference/crops/howe-1830-p268-metal-434.png",
+      "sha256": "93315c2290373a0db81536dbf1a8c9f4efd0bbc85e79dcd3a39129c089c7e47b"
+    },
+    {
+      "id": "howe-1830-p274-metal-452",
+      "native_box": [
+        1217,
+        1817,
+        2038,
+        2648
+      ],
+      "source_file": "reference/howe1830-274.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        26,
+        43,
+        788,
+        784
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.68857,
+      "rotation_evidence": {
+        "method": "least-squares top outer frame edge, central 50 percent",
+        "angle": 0.6885733974203161,
+        "rms_px": 0.628788062550705,
+        "points": 381,
+        "threshold": 150
+      },
+      "output": "reference/crops/howe-1830-p274-metal-452.png",
+      "sha256": "3184be938cfcfb6bc1df0654f54be1174303fa6fbffdc53570b9f22c5e55f6d9"
+    }
+  ]
+}

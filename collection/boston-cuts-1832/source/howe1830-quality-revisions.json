@@ -1,0 +1,450 @@
+{
+  "book": "howe-1830",
+  "previous_version": "1.002",
+  "version": "1.003",
+  "items": [
+    {
+      "family": "boston-cuts-1832",
+      "canonical_id": "boston-1832-p223-78",
+      "glyph": "uniE017",
+      "source_impression": "howe-1830-p170-metal-41",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p170-metal-41.png",
+        "box": [
+          0,
+          0,
+          553,
+          585
+        ],
+        "height": 1783.6006716093661,
+        "max_ink_dimension": 1783.6006716093661,
+        "center_vertical": true,
+        "y_min": 8.854658619876012,
+        "bearings": [
+          131.0,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          33.538610681040495,
+          0.0033040699876210056
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        33.538610681040495,
+        0.0033040699876210056
+      ],
+      "crop": {
+        "archive_leaf": 170,
+        "pdf_page": 170,
+        "native_box": [
+          368,
+          1923,
+          1021,
+          2608
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 270,
+        "trim_in_upright_crop": [
+          53,
+          58,
+          638,
+          611
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": 270
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p170-metal-41.png",
+      "before_bounds": [
+        131.0,
+        8.854658619876012,
+        1864.0,
+        1792.4553302292422
+      ],
+      "after_bounds": [
+        156.9679938204399,
+        8.835201520997806,
+        1838.954784817479,
+        1792.4681791881453
+      ],
+      "before_path_sha256": "0ac4232fe62b6ecdeb67bb93345795498fc3b28772cfacd7a677dc74a86948b8",
+      "multitone_layers": [
+        {
+          "glyph": "uniE017.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE017.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE017.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p170-metal-41.png",
+        "box": [
+          0,
+          0,
+          553,
+          585
+        ],
+        "height": 1783.6006716093661,
+        "max_ink_dimension": 1783.6006716093661,
+        "center_vertical": true,
+        "y_min": 8.854658619876012,
+        "bearings": [
+          131.0,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "boston-1832-p223-78",
+          "name": "Two roses and buds",
+          "specimen_number": "78",
+          "printed_page": null,
+          "pdf_page": 223,
+          "tags": [
+            "roses",
+            "buds"
+          ],
+          "codepoint": "E017",
+          "glyph": "uniE017",
+          "source_index": 12,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE017.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE017.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE017.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-223.png",
+          "box": [
+            154,
+            573,
+            725,
+            1162
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 135,
+          "frame_threshold": 155,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 105,
+              "secondary": 135,
+              "tertiary": 155
+            },
+            "separation": "native-mask-bands",
+            "round_inputs": false
+          }
+        }
+      }
+    },
+    {
+      "family": "boston-cuts-1832",
+      "canonical_id": "boston-1832-p357-517",
+      "glyph": "uniE11A",
+      "source_impression": "howe-1830-p244-metal-320",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p244-metal-320.png",
+        "box": [
+          0,
+          0,
+          484,
+          474
+        ],
+        "height": 1776.6021856685998,
+        "max_ink_dimension": 1800.373841463139,
+        "center_vertical": true,
+        "y_min": 12.929786978822005,
+        "bearings": [
+          63.62615853686104,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.1869207315694439,
+          -0.19019252827581568
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.1869207315694439,
+        -0.19019252827581568
+      ],
+      "crop": {
+        "archive_leaf": 244,
+        "pdf_page": 244,
+        "native_box": [
+          1684,
+          1574,
+          2275,
+          2157
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 270,
+        "trim_in_upright_crop": [
+          75,
+          20,
+          559,
+          494
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p244-metal-320.png",
+      "before_bounds": [
+        63.62615853686104,
+        12.929786978822005,
+        1864.0,
+        1789.5319726474218
+      ],
+      "after_bounds": [
+        64.0,
+        40.0,
+        1864.0,
+        1762.8421446827954
+      ],
+      "before_path_sha256": "6782b405a1d2eaacb4f4548ccf91386d559d34b5151666282e3d93f5e7e7ebff",
+      "multitone_layers": [
+        {
+          "glyph": "uniE11A.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE11A.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE11A.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p244-metal-320.png",
+        "box": [
+          0,
+          0,
+          484,
+          474
+        ],
+        "height": 1776.6021856685998,
+        "max_ink_dimension": 1800.373841463139,
+        "center_vertical": true,
+        "y_min": 12.929786978822005,
+        "bearings": [
+          63.62615853686104,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "boston-1832-p357-517",
+          "name": "Armoured horse",
+          "specimen_number": "517",
+          "printed_page": null,
+          "pdf_page": 357,
+          "tags": [
+            "armoured",
+            "horse",
+            "animal",
+            "equestrian"
+          ],
+          "codepoint": "E11A",
+          "glyph": "uniE11A",
+          "source_index": 79,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE11A.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE11A.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE11A.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-357.png",
+          "box": [
+            88,
+            245,
+            575,
+            710
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 135,
+          "frame_threshold": 155,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 105,
+              "secondary": 135,
+              "tertiary": 155
+            },
+            "separation": "native-mask-bands",
+            "round_inputs": false
+          },
+          "rotation": 270,
+          "erase": [
+            [
+              0,
+              0,
+              465,
+              19
+            ],
+            [
+              175,
+              0,
+              465,
+              36
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

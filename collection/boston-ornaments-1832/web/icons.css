@@ -1,0 +1,108 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-boston-1832-p159-double-english-face { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-double-english-face::before { content: "\E000"; }
+.fr-boston-1832-p159-double-english-palmette { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-double-english-palmette::before { content: "\E001"; }
+.fr-boston-1832-p159-double-english-frond { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-double-english-frond::before { content: "\E002"; }
+.fr-boston-1832-p159-double-english-point { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-double-english-point::before { content: "\E003"; }
+.fr-boston-1832-p159-pica-1 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-pica-1::before { content: "\E004"; }
+.fr-boston-1832-p159-pica-3 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-pica-3::before { content: "\E005"; }
+.fr-boston-1832-p159-long-primer-11 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-long-primer-11::before { content: "\E006"; }
+.fr-boston-1832-p159-brevier-6 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-brevier-6::before { content: "\E007"; }
+.fr-boston-1832-p159-brevier-8 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-brevier-8::before { content: "\E008"; }
+.fr-boston-1832-p159-brevier-9 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-brevier-9::before { content: "\E009"; }
+.fr-boston-1832-p159-brevier-10 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-brevier-10::before { content: "\E00A"; }
+.fr-boston-1832-p159-minion-7 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p159-minion-7::before { content: "\E00B"; }
+.fr-boston-1832-p161-minion-check { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p161-minion-check::before { content: "\E00D"; }
+.fr-boston-1832-p167-four-line-pica-3-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p167-four-line-pica-3-corner::before { content: "\E00E"; }
+.fr-boston-1832-p167-four-line-pica-3-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p167-four-line-pica-3-repeat::before { content: "\E00F"; }
+.fr-boston-1832-p173-four-line-pica-9-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p173-four-line-pica-9-corner::before { content: "\E010"; }
+.fr-boston-1832-p173-four-line-pica-9-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p173-four-line-pica-9-repeat::before { content: "\E011"; }
+.fr-boston-1832-p173-four-line-pica-10-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p173-four-line-pica-10-corner::before { content: "\E012"; }
+.fr-boston-1832-p173-four-line-pica-11-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p173-four-line-pica-11-corner::before { content: "\E013"; }
+.fr-boston-1832-p173-four-line-pica-11-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p173-four-line-pica-11-repeat::before { content: "\E014"; }
+.fr-boston-1832-p175-canon-4 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p175-canon-4::before { content: "\E015"; }
+.fr-boston-1832-p175-double-great-primer-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p175-double-great-primer-corner::before { content: "\E016"; }
+.fr-boston-1832-p175-double-great-primer-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p175-double-great-primer-repeat::before { content: "\E017"; }
+.fr-boston-1832-p177-two-line-english-1-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p177-two-line-english-1-corner::before { content: "\E018"; }
+.fr-boston-1832-p177-two-line-english-5-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p177-two-line-english-5-corner::before { content: "\E019"; }
+.fr-boston-1832-p177-two-line-english-5-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p177-two-line-english-5-repeat::before { content: "\E01A"; }
+.fr-boston-1832-p177-two-line-english-6-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p177-two-line-english-6-repeat::before { content: "\E01B"; }
+.fr-boston-1832-p179-two-line-pica-2 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p179-two-line-pica-2::before { content: "\E01C"; }
+.fr-boston-1832-p179-double-pica-1-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p179-double-pica-1-corner::before { content: "\E01D"; }
+.fr-boston-1832-p181-great-primer-1-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p181-great-primer-1-corner::before { content: "\E01E"; }
+.fr-boston-1832-p181-great-primer-2-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p181-great-primer-2-repeat::before { content: "\E01F"; }
+.fr-boston-1832-p181-great-primer-3 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p181-great-primer-3::before { content: "\E020"; }
+.fr-boston-1832-p183-great-primer-10-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p183-great-primer-10-corner::before { content: "\E021"; }
+.fr-boston-1832-p183-great-primer-12-repeat { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p183-great-primer-12-repeat::before { content: "\E022"; }
+.fr-boston-1832-p183-english-3 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p183-english-3::before { content: "\E023"; }
+.fr-boston-1832-p185-english-5 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p185-english-5::before { content: "\E024"; }
+.fr-boston-1832-p187-pica-5-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p187-pica-5-corner::before { content: "\E025"; }
+.fr-boston-1832-p187-pica-6 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p187-pica-6::before { content: "\E026"; }
+.fr-boston-1832-p187-pica-10 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p187-pica-10::before { content: "\E027"; }
+.fr-boston-1832-p187-pica-13 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p187-pica-13::before { content: "\E028"; }
+.fr-boston-1832-p187-pica-16 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p187-pica-16::before { content: "\E029"; }
+.fr-boston-1832-p187-pica-18-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p187-pica-18-corner::before { content: "\E02A"; }
+.fr-boston-1832-p189-small-pica-9 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p189-small-pica-9::before { content: "\E02B"; }
+.fr-boston-1832-p189-long-primer-2-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p189-long-primer-2-corner::before { content: "\E02C"; }
+.fr-boston-1832-p189-long-primer-4-corner { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p189-long-primer-4-corner::before { content: "\E02D"; }
+.fr-boston-1832-p191-long-primer-8 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p191-long-primer-8::before { content: "\E02E"; }
+.fr-boston-1832-p191-long-primer-21 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p191-long-primer-21::before { content: "\E02F"; }
+.fr-boston-1832-p193-long-primer-27 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p193-long-primer-27::before { content: "\E030"; }
+.fr-boston-1832-p193-long-primer-28 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p193-long-primer-28::before { content: "\E031"; }
+.fr-boston-1832-p193-brevier-9 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p193-brevier-9::before { content: "\E032"; }
+.fr-boston-1832-p195-brevier-18 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p195-brevier-18::before { content: "\E033"; }
+.fr-boston-1832-p197-minion-16 { font-family: "Boston Ornaments 1832"; }
+.fr-boston-1832-p197-minion-16::before { content: "\E034"; }

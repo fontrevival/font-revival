@@ -1,0 +1,155 @@
+[
+  {
+    "file": "native/leaf-111-upright.png",
+    "preview_width": 2100,
+    "box": [
+      225,
+      944,
+      1410,
+      993
+    ],
+    "text": "ABCDEFGHIJK※NOPQRSTUVWXYZ&ÆŒ",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "components": true,
+    "merge_components": [
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        31,
+        32,
+        33
+      ],
+      [
+        35,
+        36
+      ]
+    ]
+  },
+  {
+    "file": "native/leaf-111-upright.png",
+    "preview_width": 2100,
+    "box": [
+      535,
+      660,
+      945,
+      714
+    ],
+    "text": "1234567890",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "components": true,
+    "merge_components": [
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  },
+  {
+    "file": "native/leaf-111-upright.png",
+    "preview_width": 2100,
+    "box": [
+      980,
+      656,
+      1630,
+      718
+    ],
+    "text": "ÆŒ&$£,;:.-’!?",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": false,
+    "prefer_characters": "ÆŒ&"
+  },
+  {
+    "file": "native/leaf-111-upright.png",
+    "preview_width": 2100,
+    "box": [
+      685,
+      590,
+      1047,
+      653
+    ],
+    "text": "TANDEM",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "components": true,
+    "merge_components": [
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "file": "native/leaf-111-upright.png",
+    "preview_width": 2100,
+    "box": [
+      1683.7,
+      595.8,
+      1732.2,
+      649
+    ],
+    "text": "L",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "cap_height": 46,
+    "baseline": 648.5,
+    "cuts": [
+      1683.7,
+      1732.2
+    ]
+  }
+]

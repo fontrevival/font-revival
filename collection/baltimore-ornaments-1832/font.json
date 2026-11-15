@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Baltimore Ornaments 1832",
   "style": "Regular",
-  "version": "1.006",
+  "version": "1.007",
   "postscript_name": "BaltimoreOrnaments1832-Regular",
   "year": 1832,
   "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
@@ -232,6 +232,20 @@
       "file": "reference/gpo-document-1904-leaf-137.jp2",
       "rights": "Historical United States Government Printing Office publication, 1904. Public domain by age. Retained historical printing is used as comparison evidence; no modern digital font or drawing was traced.",
       "rights_url": "https://archive.org/metadata/specimenbookofty00unit_0"
+    },
+    {
+      "title": "Boston Type and Stereotype Foundry specimen (1832), archive leaf 163",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n163/mode/1up",
+      "file": "reference/boston1832-163.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    },
+    {
+      "title": "Boston Type and Stereotype Foundry specimen (1832), archive leaf 179",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n179/mode/1up",
+      "file": "reference/boston1832-179.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
     }
   ],
   "icons": [
@@ -3728,17 +3742,18 @@
     },
     {
       "id": "baltimore-1832-p95-six-line-pica-1-corner",
-      "name": "Star medallion with curling corners",
+      "name": "Eagle and thunderbolts medallion with acanthus corner",
       "specimen_number": "six-line-pica-1-corner",
       "printed_page": null,
       "pdf_page": 95,
       "tags": [
-        "star",
-        "medallion",
-        "corner",
+        "ornament",
         "border",
-        "curling",
-        "corners"
+        "eagle",
+        "thunderbolts",
+        "medallion",
+        "acanthus",
+        "corner"
       ],
       "codepoint": "E05E",
       "glyph": "uniE05E",
@@ -3802,17 +3817,17 @@
     },
     {
       "id": "baltimore-1832-p95-six-line-pica-2",
-      "name": "Leaf medallion with fan base",
+      "name": "Helmet medallion above curling fan",
       "specimen_number": "six-line-pica-2",
       "printed_page": null,
       "pdf_page": 95,
       "tags": [
-        "medallion",
-        "leaf",
-        "fan",
+        "ornament",
         "border",
-        "tile",
-        "base"
+        "helmet",
+        "medallion",
+        "curling",
+        "fan"
       ],
       "codepoint": "E060",
       "glyph": "uniE060",
@@ -3838,17 +3853,19 @@
     },
     {
       "id": "baltimore-1832-p97-double-english-1-corner",
-      "name": "Acanthus fan corner, double english",
+      "name": "Heart-shaped palmette and upright bud corner",
       "specimen_number": "double-english-1-corner",
       "printed_page": null,
       "pdf_page": 97,
       "tags": [
-        "acanthus",
-        "corner",
+        "ornament",
         "border",
-        "fan",
-        "double",
-        "english"
+        "heart",
+        "shaped",
+        "palmette",
+        "upright",
+        "bud",
+        "corner"
       ],
       "codepoint": "E061",
       "glyph": "uniE061",
@@ -3874,19 +3891,16 @@
     },
     {
       "id": "baltimore-1832-p97-double-english-1",
-      "name": "Acanthus and lily repeat, double english",
+      "name": "Cornucopia and upright bud",
       "specimen_number": "double-english-1",
       "printed_page": null,
       "pdf_page": 97,
       "tags": [
-        "acanthus",
-        "lily",
-        "leaf",
+        "ornament",
         "border",
-        "tile",
-        "repeat",
-        "double",
-        "english"
+        "cornucopia",
+        "upright",
+        "bud"
       ],
       "codepoint": "E062",
       "glyph": "uniE062",

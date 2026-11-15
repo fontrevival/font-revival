@@ -1,0 +1,1247 @@
+{
+  "book": "howe-1830",
+  "previous_version": "1.006",
+  "version": "1.007",
+  "items": [
+    {
+      "canonical_id": "bruce-1828-p171-long-primer-30",
+      "glyph": "uniE022",
+      "source_impression": "howe-1830-p013-long-primer-13",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p013-long-primer-13.png",
+        "box": [
+          0,
+          0,
+          1328,
+          98
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800.075408689939,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          63.81798223838382,
+          64.10660907167721
+        ],
+        "threshold": 135,
+        "blur": 0.4,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+        "advance_width": 1928,
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.14431341664669617,
+          0.11372875703136742
+        ]
+      },
+      "crop": {
+        "id": "howe-1830-p013-long-primer-13",
+        "native_box": [
+          450,
+          2462,
+          1776,
+          2546
+        ],
+        "source_file": "reference/howe1830-13.jp2",
+        "source_rotation_counterclockwise": 0,
+        "erase_before_rotation": [],
+        "deskew_counterclockwise_degrees": -0.538,
+        "endpoint_measurement": {
+          "left_y": 50.0,
+          "right_y": 38.0,
+          "span": 1278,
+          "estimated_degrees": -0.5379727301122598
+        },
+        "output": "crops/howe-1830-p013-long-primer-13.png",
+        "sha256": "1da0db6af0ad63446c5d1dafb4ce4ade9d13f110db4f8f9c71f5c0744a7d024e"
+      },
+      "before_path_sha256": "d5d95c4ec97cce07398b82d94d89aa698cb5f0f933f9df595892e5843b0b5be0",
+      "before_bounds": [
+        63.81798223838382,
+        844.4774575140626,
+        1863.8933909283228,
+        955.75
+      ],
+      "after_bounds": [
+        64.0,
+        857.0,
+        1864.0,
+        943.0
+      ],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.14431341664669617,
+        0.11372875703136742
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p013-long-primer-13.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p171-long-primer-30",
+          "name": "Double outlined hexagon with open diamond ends",
+          "specimen_number": "Long Primer 30",
+          "printed_page": null,
+          "pdf_page": 171,
+          "source_index": 1,
+          "tags": [
+            "ornament",
+            "divider",
+            "dash",
+            "hexagon",
+            "outline",
+            "diamond"
+          ],
+          "codepoint": "E022",
+          "glyph": "uniE022",
+          "recommended_min_px": 64
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p171-long-primer-30.png",
+          "box": [
+            0,
+            0,
+            1324,
+            141
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 8,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Double outlined hexagon with open diamond ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p171-long-primer-17",
+      "glyph": "uniE017",
+      "source_impression": "howe-1830-p013-long-primer-14",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p013-long-primer-14.png",
+        "box": [
+          0,
+          0,
+          1266,
+          99
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800.0386719675123,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          63.96132803248767,
+          64.0
+        ],
+        "threshold": 135,
+        "blur": 0.4,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+        "advance_width": 1928,
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.0193359837561502,
+          -0.2021549015755113
+        ]
+      },
+      "crop": {
+        "id": "howe-1830-p013-long-primer-14",
+        "native_box": [
+          476,
+          2564,
+          1740,
+          2649
+        ],
+        "source_file": "reference/howe1830-13.jp2",
+        "source_rotation_counterclockwise": 0,
+        "erase_before_rotation": [],
+        "deskew_counterclockwise_degrees": -0.5673,
+        "endpoint_measurement": {
+          "left_y": 47.0,
+          "right_y": 35.0,
+          "span": 1212,
+          "estimated_degrees": -0.5672664098579344
+        },
+        "output": "crops/howe-1830-p013-long-primer-14.png",
+        "sha256": "461b3e2604ab89b34f760f7fc2c7d8b6e003851c5e38634b6a2969e4d8ac5f73"
+      },
+      "before_path_sha256": "f5cb66818236bb27112ef4653d2960f657728e4d93e98b77067d43fd0afb59c1",
+      "before_bounds": [
+        63.96132803248767,
+        841.4709427991951,
+        1864.0,
+        958.0765718573462
+      ],
+      "after_bounds": [
+        64.0,
+        851.4054266419423,
+        1864.0,
+        948.5463978177501
+      ],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.0193359837561502,
+        -0.2021549015755113
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p013-long-primer-14.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p171-long-primer-17",
+          "name": "Ring in a diamond with open diamond ends",
+          "specimen_number": "Long Primer 17",
+          "printed_page": null,
+          "pdf_page": 171,
+          "source_index": 1,
+          "tags": [
+            "ornament",
+            "divider",
+            "dash",
+            "diamond",
+            "ring",
+            "open"
+          ],
+          "codepoint": "E017",
+          "glyph": "uniE017",
+          "recommended_min_px": 64
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p171-long-primer-17.png",
+          "box": [
+            0,
+            0,
+            1102,
+            133
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 8,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Ring in a diamond with open diamond ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p171-long-primer-31",
+      "glyph": "uniE023",
+      "source_impression": "howe-1830-p013-long-primer-17",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p013-long-primer-17.png",
+        "box": [
+          0,
+          0,
+          1062,
+          97
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800.1961524227067,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64.0,
+          63.803847577293254
+        ],
+        "threshold": 135,
+        "blur": 0.4,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+        "advance_width": 1928,
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          0.09807621135337286,
+          -0.22222222222222854
+        ]
+      },
+      "crop": {
+        "id": "howe-1830-p013-long-primer-17",
+        "native_box": [
+          574,
+          2863,
+          1634,
+          2946
+        ],
+        "source_file": "reference/howe1830-13.jp2",
+        "source_rotation_counterclockwise": 0,
+        "erase_before_rotation": [],
+        "deskew_counterclockwise_degrees": -0.7203,
+        "endpoint_measurement": {
+          "left_y": 47.0,
+          "right_y": 34.0,
+          "span": 1034,
+          "estimated_degrees": -0.7203151758679016
+        },
+        "output": "crops/howe-1830-p013-long-primer-17.png",
+        "sha256": "e99097e1274f3ad9c43a5b6f678f1afea7a9fb89b4019c11e97bbd43622810cf"
+      },
+      "before_path_sha256": "1a07c203226a0ccb6ab0c6cd095ae5f87122695c27283ec97e039e639e319ed6",
+      "before_bounds": [
+        64.0,
+        844.0,
+        1864.1961524227067,
+        956.0
+      ],
+      "after_bounds": [
+        64.0,
+        849.0,
+        1864.0,
+        951.4444444444445
+      ],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.09807621135337286,
+        -0.22222222222222854
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p013-long-primer-17.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p171-long-primer-31",
+          "name": "Double outlined hexagon with open teardrop ends",
+          "specimen_number": "Long Primer 31",
+          "printed_page": null,
+          "pdf_page": 171,
+          "source_index": 1,
+          "tags": [
+            "ornament",
+            "divider",
+            "dash",
+            "hexagon",
+            "outline",
+            "teardrop"
+          ],
+          "codepoint": "E023",
+          "glyph": "uniE023",
+          "recommended_min_px": 64
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p171-long-primer-31.png",
+          "box": [
+            0,
+            0,
+            1324,
+            139
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 8,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Double outlined hexagon with open teardrop ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours. Remove only isolated off-axis specks outside the principal ink band.",
+          "erase": [
+            [
+              220,
+              17,
+              224,
+              22
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p171-long-primer-18",
+      "glyph": "uniE018",
+      "source_impression": "howe-1830-p013-long-primer-18",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p013-long-primer-18.png",
+        "box": [
+          0,
+          0,
+          1009,
+          95
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800.0901699437495,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          63.90983005625053,
+          64.0
+        ],
+        "threshold": 135,
+        "blur": 0.4,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+        "advance_width": 1928,
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          0.06660860764009158,
+          -0.15817555991577592
+        ]
+      },
+      "crop": {
+        "id": "howe-1830-p013-long-primer-18",
+        "native_box": [
+          598,
+          2965,
+          1605,
+          3046
+        ],
+        "source_file": "reference/howe1830-13.jp2",
+        "source_rotation_counterclockwise": 0,
+        "erase_before_rotation": [],
+        "deskew_counterclockwise_degrees": -0.7117,
+        "endpoint_measurement": {
+          "left_y": 42.0,
+          "right_y": 30.0,
+          "span": 966,
+          "estimated_degrees": -0.7117122060356939
+        },
+        "output": "crops/howe-1830-p013-long-primer-18.png",
+        "sha256": "083043491acc1aa51928f8275d1ef5c9e4305357b66930805b6c5c94ea72bc69"
+      },
+      "before_path_sha256": "d21df1fd1d6a6c053fa4e937fea5664fce3cbe264b3e24a52c6945dc82405c87",
+      "before_bounds": [
+        63.90983005625053,
+        840.5318208118547,
+        1864.0,
+        959.1384387633061
+      ],
+      "after_bounds": [
+        63.607695154586736,
+        838.5943058495791,
+        1864.1689176863836,
+        961.3923048454133
+      ],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.06660860764009158,
+        -0.15817555991577592
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p013-long-primer-18.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p171-long-primer-18",
+          "name": "Ring in a diamond with open teardrop ends",
+          "specimen_number": "Long Primer 18",
+          "printed_page": null,
+          "pdf_page": 171,
+          "source_index": 1,
+          "tags": [
+            "ornament",
+            "divider",
+            "dash",
+            "diamond",
+            "ring",
+            "teardrop"
+          ],
+          "codepoint": "E018",
+          "glyph": "uniE018",
+          "recommended_min_px": 64
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p171-long-primer-18.png",
+          "box": [
+            0,
+            0,
+            1097,
+            127
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 8,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Ring in a diamond with open teardrop ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p187-four-line-pica-4-repeat",
+      "glyph": "uniE03E",
+      "source_impression": "howe-1830-p143-four-line-pica-1-repeat",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p143-four-line-pica-1-repeat.png",
+        "box": [
+          0,
+          0,
+          592,
+          354
+        ],
+        "height": 976.0,
+        "max_ink_dimension": 1800.1248051323275,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64.0,
+          63.87519486767246
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 115,
+        "blur": 0.25,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "erase": [],
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          0.062402566163768824,
+          412.09364622661815
+        ]
+      },
+      "crop": {
+        "archive_leaf": 143,
+        "native_box": [
+          1249,
+          338,
+          1841,
+          692
+        ],
+        "source_rotation_counterclockwise": 90,
+        "crop_rotation_counterclockwise": 0
+      },
+      "before_bounds": [
+        64.0,
+        412.0,
+        1864.1248051323275,
+        1388.0
+      ],
+      "after_bounds": [
+        93.0,
+        411.6715728752538,
+        1835.0,
+        1388.14113467151
+      ],
+      "before_path_sha256": "2ab975e055d5571fbd1714cf7fbba4a0469eda03914964646f90af7ae785f195",
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.062402566163768824,
+        412.09364622661815
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p143-four-line-pica-1-repeat.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p187-four-line-pica-4-repeat",
+          "name": "Acanthus and flower garland",
+          "specimen_number": "Four Line Pica 4 repeat",
+          "printed_page": null,
+          "pdf_page": 187,
+          "source_index": 9,
+          "tags": [
+            "border",
+            "repeat",
+            "acanthus",
+            "flower"
+          ],
+          "codepoint": "E03E",
+          "glyph": "uniE03E",
+          "recommended_min_px": 96
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p187-four-line-pica-4-repeat.png",
+          "box": [
+            0,
+            0,
+            354,
+            200
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 6,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Acanthus and flower garland. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p199-real-double-pica-1-repeat",
+      "glyph": "uniE063",
+      "source_impression": "howe-1830-p145-canon-2-repeat",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p145-canon-2-repeat.png",
+        "box": [
+          0,
+          0,
+          302,
+          163
+        ],
+        "height": 994.4869650966662,
+        "max_ink_dimension": 1800.0,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64.0,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 115,
+        "blur": 0.25,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "erase": [],
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.03521715389899782,
+          402.85459186217577
+        ]
+      },
+      "crop": {
+        "archive_leaf": 145,
+        "native_box": [
+          246,
+          663,
+          409,
+          965
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 90
+      },
+      "before_bounds": [
+        64.0,
+        402.7783501363906,
+        1864.0,
+        1397.2653152330568
+      ],
+      "after_bounds": [
+        64.07043430779802,
+        423.9594816450957,
+        1864.0,
+        1376.375
+      ],
+      "before_path_sha256": "9c6497f1be5a652d14d751d9753a6027841af62206bb55372326f2a928a80555",
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.03521715389899782,
+        402.85459186217577
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p145-canon-2-repeat.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p199-real-double-pica-1-repeat",
+          "name": "Flower disks and four curled scroll connectors",
+          "specimen_number": "Real Double Pica 1 repeat",
+          "printed_page": null,
+          "pdf_page": 199,
+          "source_index": 15,
+          "tags": [
+            "border",
+            "repeat",
+            "flower",
+            "scroll"
+          ],
+          "codepoint": "E063",
+          "glyph": "uniE063",
+          "recommended_min_px": 96
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p199-real-double-pica-1-repeat.png",
+          "box": [
+            0,
+            0,
+            350,
+            198
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 6,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Flower disks and four curled scroll connectors. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p201-double-small-pica-7-repeat",
+      "glyph": "uniE071",
+      "source_impression": "howe-1830-p147-two-lines-small-pica-2-repeat",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p147-two-lines-small-pica-2-repeat.png",
+        "box": [
+          0,
+          0,
+          171,
+          149
+        ],
+        "height": 1590.2271017415278,
+        "max_ink_dimension": 1800.0,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64.0,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 115,
+        "blur": 0.25,
+        "component_min_area": 3,
+        "fill_holes": 40,
+        "tolerance": 0.15,
+        "erase": [],
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.048837523773158864,
+          104.60876305868248
+        ]
+      },
+      "crop": {
+        "archive_leaf": 147,
+        "native_box": [
+          765,
+          2012,
+          936,
+          2161
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 180
+      },
+      "before_bounds": [
+        64.0,
+        104.77289825847228,
+        1864.0,
+        1695.0
+      ],
+      "after_bounds": [
+        64.09767504754623,
+        208.03488426422,
+        1864.0,
+        1592.5204878768873
+      ],
+      "before_path_sha256": "050f0038939934be2204fc75497c9f4f222c47c2d86fe116d0e2a9a314de2315",
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.048837523773158864,
+        104.60876305868248
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p147-two-lines-small-pica-2-repeat.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p201-double-small-pica-7-repeat",
+          "name": "Shaded zigzag ribbon",
+          "specimen_number": "Double Small Pica 7 repeat",
+          "printed_page": null,
+          "pdf_page": 201,
+          "source_index": 16,
+          "tags": [
+            "border",
+            "repeat"
+          ],
+          "codepoint": "E071",
+          "glyph": "uniE071",
+          "recommended_min_px": 96
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p201-double-small-pica-7-repeat.png",
+          "box": [
+            0,
+            0,
+            190,
+            181
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 6,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Shaded zigzag ribbon. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p201-double-small-pica-7-corner",
+      "glyph": "uniE072",
+      "source_impression": "howe-1830-p147-two-lines-small-pica-2-corner",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p147-two-lines-small-pica-2-corner.png",
+        "box": [
+          0,
+          0,
+          150,
+          130
+        ],
+        "height": 1744.0791918128875,
+        "max_ink_dimension": 1800.2674257761794,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          63.97812742718812,
+          63.754446796632465
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 115,
+        "blur": 0.25,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "erase": [],
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          0.013810535391144185,
+          28.00130108892631
+        ]
+      },
+      "crop": {
+        "archive_leaf": 147,
+        "native_box": [
+          1953,
+          2021,
+          2083,
+          2171
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 90
+      },
+      "before_bounds": [
+        63.97812742718812,
+        27.920808187112538,
+        1864.2455532033675,
+        1772.0
+      ],
+      "after_bounds": [
+        64.0,
+        74.0,
+        1864.1960595597734,
+        1725.9182060092598
+      ],
+      "before_path_sha256": "9c599d3d7e17f98b5dc182e148827ba484786f5f01646bbf147c7ff6ec7bd3d8",
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.013810535391144185,
+        28.00130108892631
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p147-two-lines-small-pica-2-corner.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p201-double-small-pica-7-corner",
+          "name": "Shaded zigzag ribbon corner",
+          "specimen_number": "Double Small Pica 7 corner",
+          "printed_page": null,
+          "pdf_page": 201,
+          "source_index": 16,
+          "tags": [
+            "border",
+            "corner"
+          ],
+          "codepoint": "E072",
+          "glyph": "uniE072",
+          "recommended_min_px": 96
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p201-double-small-pica-7-corner.png",
+          "box": [
+            0,
+            0,
+            166,
+            184
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 6,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Shaded zigzag ribbon corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+        }
+      }
+    },
+    {
+      "canonical_id": "bruce-1828-p199-real-double-pica-7-motif",
+      "glyph": "uniE069",
+      "source_impression": "howe-1830-p013-border-1",
+      "advance_width": 1860,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p013-border-1.png",
+        "box": [
+          0,
+          0,
+          161,
+          165
+        ],
+        "height": 1800.080121676837,
+        "max_ink_dimension": 1800.080121676837,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          63.92923526395944,
+          63.97430603112139
+        ],
+        "advance_width": 1860,
+        "center": true,
+        "threshold": 125,
+        "blur": 0.25,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "erase": [
+          [
+            158,
+            0,
+            161,
+            165
+          ]
+        ],
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.08363372847099981,
+          -0.11924342105680807
+        ]
+      },
+      "crop": {
+        "archive_leaf": 13,
+        "native_box": [
+          1145,
+          547,
+          1306,
+          712
+        ],
+        "source_rotation_counterclockwise": null,
+        "crop_rotation_counterclockwise": 0
+      },
+      "before_bounds": [
+        63.92923526395944,
+        -0.2866639996951932,
+        1796.0256939688786,
+        1799.7934576771418
+      ],
+      "after_bounds": [
+        39.16699605900982,
+        -0.4346280744998001,
+        1820.9552006307704,
+        1800.17990859406
+      ],
+      "before_path_sha256": "ca1658eb80b05908c6073b5903c1f83bea1ab5a7aeeb5b33aca6c599ad2a0da2",
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.08363372847099981,
+        -0.11924342105680807
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p013-border-1.png",
+      "family": "bruce-ornaments-1828",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p199-real-double-pica-7-motif",
+          "name": "Lozenge flower with curled loops",
+          "specimen_number": "Real Double Pica 7 motif",
+          "printed_page": null,
+          "pdf_page": 199,
+          "source_index": 15,
+          "tags": [
+            "border",
+            "motif",
+            "flower"
+          ],
+          "codepoint": "E069",
+          "glyph": "uniE069",
+          "recommended_min_px": 96
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p199-real-double-pica-7-motif.png",
+          "box": [
+            0,
+            0,
+            190,
+            198
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.4,
+          "component_min_area": 6,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed Lozenge flower with curled loops. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+        }
+      }
+    },
+    {
+      "family": "bruce-ornaments-1828",
+      "canonical_id": "bruce-1828-p175-eight-line-pica-1-mask",
+      "glyph": "uniE02C",
+      "source_impression": "howe-1830-p214-metal-214",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p214-metal-214.png",
+        "box": [
+          0,
+          0,
+          711,
+          692
+        ],
+        "height": 1722.0855145352964,
+        "max_ink_dimension": 1799.9373869177045,
+        "center_vertical": true,
+        "y_min": 38.91448546470351,
+        "bearings": [
+          63.89135287969105,
+          64.17126020260434
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.21967731131951496,
+          0.0023277042265590353
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.21967731131951496,
+        0.0023277042265590353
+      ],
+      "crop": {
+        "archive_leaf": 214,
+        "pdf_page": 214,
+        "native_box": [
+          228,
+          1623,
+          980,
+          2443
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 270,
+        "trim_in_upright_crop": [
+          74,
+          38,
+          785,
+          730
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p214-metal-214.png",
+      "before_bounds": [
+        63.89135287969105,
+        38.91448546470351,
+        1863.8287397973957,
+        1761.0
+      ],
+      "after_bounds": [
+        76.84573880074092,
+        38.90983005625053,
+        1851.3137084989849,
+        1761.0
+      ],
+      "before_path_sha256": "b490eb382aed1f9ef9736b989f1ac6dfce5c07e3657d49821f8abba1eba61542",
+      "multitone_layers": [],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p175-eight-line-pica-1-mask",
+          "name": "Grinning theatrical mask with cap and ruff",
+          "specimen_number": "882",
+          "printed_page": null,
+          "pdf_page": 307,
+          "source_index": 34,
+          "tags": [
+            "ornament",
+            "mask",
+            "theatre",
+            "face",
+            "grin",
+            "cap",
+            "ruff",
+            "theatrical",
+            "masquerade"
+          ],
+          "codepoint": "E02C",
+          "glyph": "uniE02C",
+          "recommended_min_px": 96
+        },
+        "recipe": {
+          "file": "reference/crops/bruce-1828-p307-cut-882-upgrade.png",
+          "box": [
+            0,
+            0,
+            461,
+            417
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed clearer Bruce1828 PDF307 No882 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+        }
+      }
+    }
+  ]
+}

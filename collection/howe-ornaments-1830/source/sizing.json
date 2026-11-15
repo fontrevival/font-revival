@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed native source proportions, uniform scale, complete crop boundaries and compatible font conversion. Individual bounds preserve each engraving’s shape.",
+  "rules": [
+    {
+      "characters": "",
+      "notes": "Accepted complete impression, source proportions and original placement. Limits include full-detail artwork, compatible font drawing and curve rounding.",
+      "y_min": [
+        6,
+        13
+      ],
+      "y_max": [
+        1786,
+        1793
+      ],
+      "ink_width": [
+        1787,
+        1794
+      ],
+      "ink_height": [
+        1777,
+        1783
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    }
+  ]
+}

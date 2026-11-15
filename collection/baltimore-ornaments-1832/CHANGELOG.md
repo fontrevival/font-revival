@@ -1,5 +1,9 @@
 # Changes
 
+## 1.007
+
+- Correct four ornament descriptions using clearer Boston 1832 comparison witnesses: eagle and thunderbolts, helmet, heart-shaped palmette, and cornucopia motifs. Retain the existing artwork, IDs and character codes.
+
 ## 1.006
 
 - Identify brass rule 8 as two fine parallel rules and retain five matching

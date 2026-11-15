@@ -4,7 +4,7 @@ Pictorial cuts and ornaments from the Boston Type & Stereotype Foundry specimen 
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**391 icon(s) · Version 1.002 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
+**391 icon(s) · Version 1.003 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonCuts1832-Regular.otf) · [TTF](fonts/BostonCuts1832-Regular.ttf) · [WOFF2](web/BostonCuts1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -202,6 +202,8 @@ The fonts and editable font source data are available under your choice of the [
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unnumbered leaf; PDF page 389, Internet Archive leaf 389](https://archive.org/details/specimenofprinti00bost/page/n389/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 - [Specimen of printing types from the Boston Type & Stereotype Foundry (1832), unnumbered leaf; PDF page 391, Internet Archive leaf 391](https://archive.org/details/specimenofprinti00bost/page/n391/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 - [A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), numbered cuts; unnumbered leaf, PDF page 243](https://hdl.handle.net/2027/nyp.33433006349736) — 1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface. [Rights basis](https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 170, archive leaf 170](https://archive.org/details/specimenofprinti00jhow/page/n170/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 244, archive leaf 244](https://archive.org/details/specimenofprinti00jhow/page/n244/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and
@@ -231,5 +233,5 @@ Download every part and extract them into the same folder.
 
 - [ZIP part 1](downloads/boston-cuts-1832-web.zip) — 89.0 MB
 - [ZIP part 2](downloads/boston-cuts-1832-web-2.zip) — 89.4 MB
-- [ZIP part 3](downloads/boston-cuts-1832-web-3.zip) — 85.0 MB
-- [ZIP part 4](downloads/boston-cuts-1832-web-4.zip) — 37.1 MB
+- [ZIP part 3](downloads/boston-cuts-1832-web-3.zip) — 85.3 MB
+- [ZIP part 4](downloads/boston-cuts-1832-web-4.zip) — 36.8 MB

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Paired feathered scrolls: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Paired feathered scrolls — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="../site/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+    .editor-section{margin-bottom:55px}.editor-section .collection-bar a{font-size:12px}.editor-intro{font-family:"remington-1888",monospace;color:var(--muted);font-size:15px;max-width:700px;margin:20px 0}.editor-preview{display:block;width:100%;height:774px;border:1px solid var(--rule);background:var(--paper)}.editor-caption{font-size:11px;color:var(--muted);margin:12px 0}.editor-caption a{white-space:nowrap}
+    @media(max-width:780px){.editor-preview{height:713px}}
+    @media(max-width:480px){.editor-preview{height:660px}.site-header nav{flex-wrap:wrap;justify-content:center;gap:10px 14px}.editor-section .collection-bar{gap:10px}.editor-section .collection-bar a{font-size:10px}.editor-intro{font-size:13px}}
+
+/* This historical cut contains capitals without lowercase aliases. */
+#celtic-no2-1897 h2,#celtic-no2-1897 .type-sample{text-transform:uppercase}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="../editor/index.html">Editor ↗</a><a href="https://github.com/fontrevival/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="figgins-1834-p217-pica-10">
+  <p class="card-meta"><a href="../icons.html?collection=figgins-ornaments-1834#collection">Figgins Ornaments 1834</a><span>No. pica No. 10</span></p>
+  <h1>Paired feathered scrolls</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>ornament</li><li>dash</li></ul>
+  <div class="section-links"><a href="../icons.html?section=ornamental-metal-dashes#collection">Dashes and rules</a></div>
+  <p>Specimen PDF page 217 (unnumbered leaf).</p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Paired feathered scrolls">
+
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Paired feathered scrolls" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M916 1049C862 1031 825 993 819 952C813 908 822 871 845 845C886 795 956 786 1024 822C1060 841 1066 843 1066 832C1066 807 1042 786 1004 773C955 759 928 759 877 774C830 789 790 813 734 863C644 945 531 1005 422 1030C364 1043 336 1046 304 1041C219 1030 155 998 108 946C80 914 58 862 66 842C72 826 90 834 99 856C104 867 117 876 131 879C149 883 161 879 191 861C219 842 238 837 283 833C334 829 344 830 397 852C458 876 500 884 459 864C430 849 402 809 402 779C402 748 412 743 433 766C461 796 505 815 546 815C571 815 621 802 698 776C809 739 816 737 900 737C978 736 990 737 1024 755C1070 779 1089 804 1094 847C1097 871 1094 888 1082 911C1062 950 1041 966 988 985C950 997 944 997 901 987C859 977 854 977 856 988C859 1002 919 1033 945 1034C999 1034 1105 988 1153 943C1162 935 1176 928 1185 928C1194 928 1202 924 1202 917C1202 908 1268 860 1337 820C1356 810 1398 792 1431 781C1478 766 1507 761 1557 761C1631 762 1646 764 1710 787C1742 799 1765 815 1794 844C1839 889 1854 917 1862 964C1866 990 1865 996 1855 996C1848 996 1842 990 1839 982C1836 974 1828 962 1820 954C1805 941 1801 942 1710 958C1590 980 1517 977 1460 948C1438 937 1411 928 1400 928H1379L1406 946C1421 957 1438 973 1445 984C1458 1003 1463 1056 1452 1056C1449 1056 1433 1043 1418 1026C1373 980 1315 976 1222 1015C1105 1064 995 1077 916 1049ZM1111 1031C1134 1025 1166 1014 1183 1006C1255 969 1318 960 1392 978C1424 985 1417 969 1382 955C1345 940 1298 940 1250 954C1205 968 1207 968 1213 957C1216 954 1237 941 1260 930C1315 906 1394 899 1445 915C1490 930 1492 917 1449 899C1373 865 1376 867 1413 871C1431 874 1465 884 1486 895C1509 906 1529 911 1535 908C1540 905 1552 903 1562 905C1571 905 1578 905 1578 903C1578 899 1531 868 1496 850L1469 838L1497 841C1512 842 1539 853 1555 865C1592 889 1606 883 1575 856C1542 829 1562 834 1609 863C1631 878 1652 887 1656 885C1664 881 1627 849 1591 829L1567 816L1587 815C1598 815 1628 829 1657 849C1685 868 1710 883 1714 883C1717 883 1724 878 1728 872C1736 863 1741 863 1760 873C1799 892 1803 879 1769 847C1722 804 1666 789 1556 789C1478 789 1464 792 1416 810C1349 838 1275 881 1205 933C1139 984 1110 1004 1087 1018C1043 1044 1047 1046 1111 1031ZM417 1006C482 994 537 972 580 943C596 932 620 917 632 911C645 904 665 890 676 880C688 870 727 841 762 817C819 779 825 773 807 771C797 770 758 780 721 792C622 829 571 838 519 833C488 830 476 831 482 837C506 863 611 857 680 826C730 804 746 802 715 822C690 840 664 852 595 880C531 906 452 904 376 875C361 869 356 870 359 877C363 891 412 912 465 924L512 934L477 935C458 936 423 929 399 920C347 902 330 902 359 917C372 924 379 931 378 933C372 939 318 920 303 907C295 901 289 899 289 903C289 913 343 951 357 951C364 951 363 954 353 962C332 977 314 976 271 955C228 935 216 937 244 958C268 977 256 977 218 958C187 943 146 938 146 949C146 957 231 997 274 1008C320 1021 351 1021 417 1006ZM975 965C1009 957 1051 926 1051 908C1051 896 1024 890 951 890C877 890 847 899 847 920C847 935 875 957 907 966C933 974 936 974 975 965ZM335 958C335 954 333 951 332 951C330 951 317 945 301 939C270 926 265 937 295 954C320 967 335 969 335 958ZM847 766C847 764 846 762 843 762C841 762 840 764 840 766C840 768 841 770 843 770C846 770 847 768 847 766Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Paired feathered scrolls"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-figgins-ornaments-1834'">&#xE006;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/figgins-ornaments-1834/downloads/figgins-ornaments-1834-web.zip">Download web bundle (ZIP)</a><a download href="../collection/figgins-ornaments-1834/svg/figgins-1834-p217-pica-10.svg">Monochrome SVG</a><a download href="../collection/figgins-ornaments-1834/web/icons.svg">Monochrome sprite</a><a download href="../collection/figgins-ornaments-1834/fonts/FigginsOrnaments1834-Regular.otf">OTF</a> <a download href="../collection/figgins-ornaments-1834/fonts/FigginsOrnaments1834-Regular.ttf">TTF</a> <a download href="../collection/figgins-ornaments-1834/web/FigginsOrnaments1834-Regular.woff2">WOFF2</a><a href="../collection/figgins-ornaments-1834/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/figgins-ornaments-1834/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/figgins-ornaments-1834/downloads/figgins-ornaments-1834-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license notices.</p>
+    <h3>Monochrome image</h3>
+    <p>This displays the monochrome artwork with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/figgins-ornaments-1834/svg/figgins-1834-p217-pica-10.svg&quot;
+     alt=&quot;Paired feathered scrolls&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>SVG with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Paired feathered scrolls&quot;&gt;
+  &lt;use href=&quot;collection/figgins-ornaments-1834/web/icons.svg#figgins-1834-p217-pica-10&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/figgins-ornaments-1834/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-figgins-1834-p217-pica-10&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Paired feathered scrolls&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/figgins-ornaments-1834/specimens/figgins-1834-p217-pica-10.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="../LICENSE">Artwork: MIT</a> · <a href="../FONT-LICENSES.txt">Fonts: MIT or SIL OFL 1.1</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

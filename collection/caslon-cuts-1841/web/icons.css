@@ -1,0 +1,406 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-caslon-1841-p293-steamer-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p293-steamer-2::before { content: "\E000"; }
+.fr-caslon-1841-p294-steamer-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p294-steamer-1::before { content: "\E001"; }
+.fr-caslon-1841-p294-coach { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p294-coach::before { content: "\E002"; }
+.fr-caslon-1841-p295-steamer-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p295-steamer-2::before { content: "\E003"; }
+.fr-caslon-1841-p295-steamer-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p295-steamer-1::before { content: "\E004"; }
+.fr-caslon-1841-p296-five-line-pica-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p296-five-line-pica-1::before { content: "\E005"; }
+.fr-caslon-1841-p296-five-line-pica-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p296-five-line-pica-2::before { content: "\E006"; }
+.fr-caslon-1841-p296-five-line-pica-3 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p296-five-line-pica-3::before { content: "\E007"; }
+.fr-caslon-1841-p296-two-line-great-primer-3 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p296-two-line-great-primer-3::before { content: "\E008"; }
+.fr-caslon-1841-p298-railway-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-1::before { content: "\E009"; }
+.fr-caslon-1841-p298-railway-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-2::before { content: "\E00A"; }
+.fr-caslon-1841-p298-railway-3 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-3::before { content: "\E00B"; }
+.fr-caslon-1841-p298-railway-4 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-4::before { content: "\E00C"; }
+.fr-caslon-1841-p298-railway-5 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-5::before { content: "\E00D"; }
+.fr-caslon-1841-p298-railway-6 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-6::before { content: "\E00E"; }
+.fr-caslon-1841-p298-railway-7 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p298-railway-7::before { content: "\E00F"; }
+.fr-caslon-1841-p300-chess-white-rook { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-white-rook::before { content: "\E010"; }
+.fr-caslon-1841-p300-chess-white-knight { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-white-knight::before { content: "\E011"; }
+.fr-caslon-1841-p300-chess-white-bishop { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-white-bishop::before { content: "\E012"; }
+.fr-caslon-1841-p300-chess-white-queen { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-white-queen::before { content: "\E013"; }
+.fr-caslon-1841-p300-chess-white-king { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-white-king::before { content: "\E014"; }
+.fr-caslon-1841-p300-chess-white-pawn { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-white-pawn::before { content: "\E015"; }
+.fr-caslon-1841-p300-chess-black-rook { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-black-rook::before { content: "\E016"; }
+.fr-caslon-1841-p300-chess-black-knight { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-black-knight::before { content: "\E017"; }
+.fr-caslon-1841-p300-chess-black-bishop { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-black-bishop::before { content: "\E018"; }
+.fr-caslon-1841-p300-chess-black-queen { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-black-queen::before { content: "\E019"; }
+.fr-caslon-1841-p300-chess-black-king { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-black-king::before { content: "\E01A"; }
+.fr-caslon-1841-p300-chess-black-pawn { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p300-chess-black-pawn::before { content: "\E01B"; }
+.fr-caslon-1841-p336-pica-44-repeat { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p336-pica-44-repeat::before { content: "\E01C"; }
+.fr-caslon-1841-p352-cut-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p352-cut-1::before { content: "\E01D"; }
+.fr-caslon-1841-p352-cut-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p352-cut-2::before { content: "\E01E"; }
+.fr-caslon-1841-p352-cut-4 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p352-cut-4::before { content: "\E01F"; }
+.fr-caslon-1841-p352-cut-5 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p352-cut-5::before { content: "\E020"; }
+.fr-caslon-1841-p352-cut-6 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p352-cut-6::before { content: "\E021"; }
+.fr-caslon-1841-p352-cut-7 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p352-cut-7::before { content: "\E022"; }
+.fr-caslon-1841-p353-cut-8 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p353-cut-8::before { content: "\E023"; }
+.fr-caslon-1841-p353-cut-9 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p353-cut-9::before { content: "\E024"; }
+.fr-caslon-1841-p353-cut-10 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p353-cut-10::before { content: "\E025"; }
+.fr-caslon-1841-p353-cut-11 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p353-cut-11::before { content: "\E026"; }
+.fr-caslon-1841-p353-cut-12 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p353-cut-12::before { content: "\E027"; }
+.fr-caslon-1841-p353-cut-13 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p353-cut-13::before { content: "\E028"; }
+.fr-caslon-1841-p354-cut-14 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p354-cut-14::before { content: "\E029"; }
+.fr-caslon-1841-p354-cut-15 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p354-cut-15::before { content: "\E02A"; }
+.fr-caslon-1841-p354-cut-16 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p354-cut-16::before { content: "\E02B"; }
+.fr-caslon-1841-p354-cut-17 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p354-cut-17::before { content: "\E02C"; }
+.fr-caslon-1841-p354-cut-18 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p354-cut-18::before { content: "\E02D"; }
+.fr-caslon-1841-p354-cut-19 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p354-cut-19::before { content: "\E02E"; }
+.fr-caslon-1841-p355-cut-20 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p355-cut-20::before { content: "\E02F"; }
+.fr-caslon-1841-p355-cut-21 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p355-cut-21::before { content: "\E030"; }
+.fr-caslon-1841-p355-cut-22 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p355-cut-22::before { content: "\E031"; }
+.fr-caslon-1841-p355-cut-25 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p355-cut-25::before { content: "\E032"; }
+.fr-caslon-1841-p355-cut-26 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p355-cut-26::before { content: "\E033"; }
+.fr-caslon-1841-p357-cut-27 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p357-cut-27::before { content: "\E034"; }
+.fr-caslon-1841-p357-cut-28 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p357-cut-28::before { content: "\E035"; }
+.fr-caslon-1841-p357-cut-29 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p357-cut-29::before { content: "\E036"; }
+.fr-caslon-1841-p357-cut-30 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p357-cut-30::before { content: "\E037"; }
+.fr-caslon-1841-p357-cut-31 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p357-cut-31::before { content: "\E038"; }
+.fr-caslon-1841-p357-cut-32 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p357-cut-32::before { content: "\E039"; }
+.fr-caslon-1841-p359-cut-33 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-33::before { content: "\E03A"; }
+.fr-caslon-1841-p359-cut-35 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-35::before { content: "\E03B"; }
+.fr-caslon-1841-p359-cut-36 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-36::before { content: "\E03C"; }
+.fr-caslon-1841-p359-cut-37 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-37::before { content: "\E03D"; }
+.fr-caslon-1841-p359-cut-38 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-38::before { content: "\E03E"; }
+.fr-caslon-1841-p360-cut-39 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p360-cut-39::before { content: "\E03F"; }
+.fr-caslon-1841-p360-cut-40 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p360-cut-40::before { content: "\E040"; }
+.fr-caslon-1841-p360-cut-43 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p360-cut-43::before { content: "\E041"; }
+.fr-caslon-1841-p361-cut-45 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p361-cut-45::before { content: "\E042"; }
+.fr-caslon-1841-p361-cut-46 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p361-cut-46::before { content: "\E043"; }
+.fr-caslon-1841-p361-cut-47 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p361-cut-47::before { content: "\E044"; }
+.fr-caslon-1841-p361-cut-48 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p361-cut-48::before { content: "\E045"; }
+.fr-caslon-1841-p361-cut-49 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p361-cut-49::before { content: "\E046"; }
+.fr-caslon-1841-p361-cut-50 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p361-cut-50::before { content: "\E047"; }
+.fr-caslon-1841-p362-cut-52 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p362-cut-52::before { content: "\E048"; }
+.fr-caslon-1841-p362-cut-53 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p362-cut-53::before { content: "\E049"; }
+.fr-caslon-1841-p362-cut-54 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p362-cut-54::before { content: "\E04A"; }
+.fr-caslon-1841-p362-cut-55 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p362-cut-55::before { content: "\E04B"; }
+.fr-caslon-1841-p362-cut-57 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p362-cut-57::before { content: "\E04C"; }
+.fr-caslon-1841-p362-cut-58 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p362-cut-58::before { content: "\E04D"; }
+.fr-caslon-1841-p363-cut-59 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p363-cut-59::before { content: "\E04E"; }
+.fr-caslon-1841-p363-cut-60 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p363-cut-60::before { content: "\E04F"; }
+.fr-caslon-1841-p363-cut-63 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p363-cut-63::before { content: "\E050"; }
+.fr-caslon-1841-p363-cut-64 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p363-cut-64::before { content: "\E051"; }
+.fr-caslon-1841-p364-cut-65 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p364-cut-65::before { content: "\E052"; }
+.fr-caslon-1841-p364-cut-66 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p364-cut-66::before { content: "\E053"; }
+.fr-caslon-1841-p364-cut-67 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p364-cut-67::before { content: "\E054"; }
+.fr-caslon-1841-p364-cut-68 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p364-cut-68::before { content: "\E055"; }
+.fr-caslon-1841-p364-cut-69 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p364-cut-69::before { content: "\E056"; }
+.fr-caslon-1841-p364-cut-70 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p364-cut-70::before { content: "\E057"; }
+.fr-caslon-1841-p365-cut-71 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p365-cut-71::before { content: "\E058"; }
+.fr-caslon-1841-p365-cut-72 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p365-cut-72::before { content: "\E059"; }
+.fr-caslon-1841-p365-cut-73 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p365-cut-73::before { content: "\E05A"; }
+.fr-caslon-1841-p365-cut-76 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p365-cut-76::before { content: "\E05B"; }
+.fr-caslon-1841-p365-cut-77 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p365-cut-77::before { content: "\E05C"; }
+.fr-caslon-1841-p365-cut-78 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p365-cut-78::before { content: "\E05D"; }
+.fr-caslon-1841-p366-cut-79 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-79::before { content: "\E05E"; }
+.fr-caslon-1841-p366-cut-80 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-80::before { content: "\E05F"; }
+.fr-caslon-1841-p366-cut-81 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-81::before { content: "\E060"; }
+.fr-caslon-1841-p366-cut-82 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-82::before { content: "\E061"; }
+.fr-caslon-1841-p366-cut-83 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-83::before { content: "\E062"; }
+.fr-caslon-1841-p366-cut-84 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-84::before { content: "\E063"; }
+.fr-caslon-1841-p366-cut-85 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p366-cut-85::before { content: "\E064"; }
+.fr-caslon-1841-p367-cut-86 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-86::before { content: "\E065"; }
+.fr-caslon-1841-p367-cut-87 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-87::before { content: "\E066"; }
+.fr-caslon-1841-p367-cut-89 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-89::before { content: "\E067"; }
+.fr-caslon-1841-p367-cut-90 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-90::before { content: "\E068"; }
+.fr-caslon-1841-p367-cut-91 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-91::before { content: "\E069"; }
+.fr-caslon-1841-p367-cut-92 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-92::before { content: "\E06A"; }
+.fr-caslon-1841-p367-cut-93 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p367-cut-93::before { content: "\E06B"; }
+.fr-caslon-1841-p369-cut-94 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-94::before { content: "\E06C"; }
+.fr-caslon-1841-p369-cut-96 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-96::before { content: "\E06D"; }
+.fr-caslon-1841-p369-cut-97 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-97::before { content: "\E06E"; }
+.fr-caslon-1841-p369-cut-98 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-98::before { content: "\E06F"; }
+.fr-caslon-1841-p369-cut-99 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-99::before { content: "\E070"; }
+.fr-caslon-1841-p369-cut-100 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-100::before { content: "\E071"; }
+.fr-caslon-1841-p369-cut-101 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p369-cut-101::before { content: "\E072"; }
+.fr-caslon-1841-p370-cut-102 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-102::before { content: "\E073"; }
+.fr-caslon-1841-p370-cut-103 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-103::before { content: "\E074"; }
+.fr-caslon-1841-p370-cut-104 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-104::before { content: "\E075"; }
+.fr-caslon-1841-p370-cut-105 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-105::before { content: "\E076"; }
+.fr-caslon-1841-p370-cut-106 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-106::before { content: "\E077"; }
+.fr-caslon-1841-p370-cut-107 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-107::before { content: "\E078"; }
+.fr-caslon-1841-p370-cut-108 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p370-cut-108::before { content: "\E079"; }
+.fr-caslon-1841-p371-cut-109 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-109::before { content: "\E07A"; }
+.fr-caslon-1841-p371-cut-110 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-110::before { content: "\E07B"; }
+.fr-caslon-1841-p371-cut-111 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-111::before { content: "\E07C"; }
+.fr-caslon-1841-p371-cut-112 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-112::before { content: "\E07D"; }
+.fr-caslon-1841-p371-cut-113 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-113::before { content: "\E07E"; }
+.fr-caslon-1841-p371-cut-114 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-114::before { content: "\E07F"; }
+.fr-caslon-1841-p371-cut-115 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-115::before { content: "\E080"; }
+.fr-caslon-1841-p371-cut-116 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p371-cut-116::before { content: "\E081"; }
+.fr-caslon-1841-p373-cut-117 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-117::before { content: "\E082"; }
+.fr-caslon-1841-p373-cut-118 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-118::before { content: "\E083"; }
+.fr-caslon-1841-p373-cut-119 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-119::before { content: "\E084"; }
+.fr-caslon-1841-p373-cut-120 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-120::before { content: "\E085"; }
+.fr-caslon-1841-p373-cut-121 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-121::before { content: "\E086"; }
+.fr-caslon-1841-p373-cut-122 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-122::before { content: "\E087"; }
+.fr-caslon-1841-p373-cut-123 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-123::before { content: "\E088"; }
+.fr-caslon-1841-p373-cut-124 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-124::before { content: "\E089"; }
+.fr-caslon-1841-p373-cut-125 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p373-cut-125::before { content: "\E08A"; }
+.fr-caslon-1841-p374-cut-126 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-126::before { content: "\E08B"; }
+.fr-caslon-1841-p374-cut-127 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-127::before { content: "\E08C"; }
+.fr-caslon-1841-p374-cut-128 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-128::before { content: "\E08D"; }
+.fr-caslon-1841-p374-cut-129 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-129::before { content: "\E08E"; }
+.fr-caslon-1841-p374-cut-130 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-130::before { content: "\E08F"; }
+.fr-caslon-1841-p374-cut-131 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-131::before { content: "\E090"; }
+.fr-caslon-1841-p374-cut-132 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-132::before { content: "\E091"; }
+.fr-caslon-1841-p374-cut-133 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-133::before { content: "\E092"; }
+.fr-caslon-1841-p374-cut-134 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p374-cut-134::before { content: "\E093"; }
+.fr-caslon-1841-p376-cut-136 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p376-cut-136::before { content: "\E094"; }
+.fr-caslon-1841-p376-cut-137 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p376-cut-137::before { content: "\E095"; }
+.fr-caslon-1841-p376-cut-138 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p376-cut-138::before { content: "\E096"; }
+.fr-caslon-1841-p376-cut-139 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p376-cut-139::before { content: "\E097"; }
+.fr-caslon-1841-p376-cut-140 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p376-cut-140::before { content: "\E098"; }
+.fr-caslon-1841-p377-cut-141 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-141::before { content: "\E099"; }
+.fr-caslon-1841-p377-cut-142 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-142::before { content: "\E09A"; }
+.fr-caslon-1841-p377-cut-143 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-143::before { content: "\E09B"; }
+.fr-caslon-1841-p377-cut-144 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-144::before { content: "\E09C"; }
+.fr-caslon-1841-p377-cut-145 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-145::before { content: "\E09D"; }
+.fr-caslon-1841-p377-cut-146 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-146::before { content: "\E09E"; }
+.fr-caslon-1841-p377-cut-147 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-147::before { content: "\E09F"; }
+.fr-caslon-1841-p377-cut-148 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-148::before { content: "\E0A0"; }
+.fr-caslon-1841-p377-cut-149 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p377-cut-149::before { content: "\E0A1"; }
+.fr-caslon-1841-p378-cut-151 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p378-cut-151::before { content: "\E0A2"; }
+.fr-caslon-1841-p378-cut-152 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p378-cut-152::before { content: "\E0A3"; }
+.fr-caslon-1841-p378-cut-153 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p378-cut-153::before { content: "\E0A4"; }
+.fr-caslon-1841-p378-cut-154 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p378-cut-154::before { content: "\E0A5"; }
+.fr-caslon-1841-p378-cut-155 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p378-cut-155::before { content: "\E0A6"; }
+.fr-caslon-1841-p379-cut-160 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-160::before { content: "\E0A7"; }
+.fr-caslon-1841-p379-cut-161 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-161::before { content: "\E0A8"; }
+.fr-caslon-1841-p379-cut-162 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-162::before { content: "\E0A9"; }
+.fr-caslon-1841-p379-cut-163 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-163::before { content: "\E0AA"; }
+.fr-caslon-1841-p379-cut-164 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-164::before { content: "\E0AB"; }
+.fr-caslon-1841-p379-cut-166 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-166::before { content: "\E0AC"; }
+.fr-caslon-1841-p379-cut-167 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p379-cut-167::before { content: "\E0AD"; }
+.fr-caslon-1841-p380-cut-168 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p380-cut-168::before { content: "\E0AE"; }
+.fr-caslon-1841-p380-cut-169 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p380-cut-169::before { content: "\E0AF"; }
+.fr-caslon-1841-p380-cut-170 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p380-cut-170::before { content: "\E0B0"; }
+.fr-caslon-1841-p380-cut-172 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p380-cut-172::before { content: "\E0B1"; }
+.fr-caslon-1841-p380-cut-173 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p380-cut-173::before { content: "\E0B2"; }
+.fr-caslon-1841-p382-cut-174 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p382-cut-174::before { content: "\E0B3"; }
+.fr-caslon-1841-p382-cut-175 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p382-cut-175::before { content: "\E0B4"; }
+.fr-caslon-1841-p382-cut-176 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p382-cut-176::before { content: "\E0B5"; }
+.fr-caslon-1841-p382-cut-177 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p382-cut-177::before { content: "\E0B6"; }
+.fr-caslon-1841-p382-cut-179 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p382-cut-179::before { content: "\E0B7"; }
+.fr-caslon-1841-p382-cut-180 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p382-cut-180::before { content: "\E0B8"; }
+.fr-caslon-1841-p383-cut-181 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p383-cut-181::before { content: "\E0B9"; }
+.fr-caslon-1841-p383-cut-184 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p383-cut-184::before { content: "\E0BA"; }
+.fr-caslon-1841-p384-cut-159 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p384-cut-159::before { content: "\E0BB"; }
+.fr-caslon-1841-p385-cut-158 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p385-cut-158::before { content: "\E0BC"; }
+.fr-caslon-1841-p359-cut-34-printing { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-34-printing::before { content: "\E0BD"; }
+.fr-caslon-1841-p359-cut-34-bookbinding { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p359-cut-34-bookbinding::before { content: "\E0BE"; }
+.fr-caslon-1841-p292-kings-arms-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p292-kings-arms-2::before { content: "\E0BF"; }
+.fr-caslon-1841-p293-kings-arms-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p293-kings-arms-1::before { content: "\E0C0"; }
+.fr-caslon-1841-p294-queens-arms-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p294-queens-arms-2::before { content: "\E0C1"; }
+.fr-caslon-1841-p294-queens-arms-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p294-queens-arms-1::before { content: "\E0C2"; }
+.fr-caslon-1841-p295-queens-arms-1 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p295-queens-arms-1::before { content: "\E0C3"; }
+.fr-caslon-1841-p295-queens-arms-2 { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p295-queens-arms-2::before { content: "\E0C4"; }
+.fr-caslon-1841-p287-arms-two-line-pica { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p287-arms-two-line-pica::before { content: "\E0C5"; }
+.fr-caslon-1841-p287-arms-two-line-great-primer { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p287-arms-two-line-great-primer::before { content: "\E0C6"; }
+.fr-caslon-1841-p287-smoker { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p287-smoker::before { content: "\E0C7"; }
+.fr-caslon-1841-p287-snuffer { font-family: "Caslon Cuts 1841"; }
+.fr-caslon-1841-p287-snuffer::before { content: "\E0C8"; }

@@ -1,5 +1,9 @@
 # Changes
 
+## 1.007
+
+- Improve ten ornaments from Howe 1830 and three ornamental dashes from Boston 1832. Preserve their established identities and retain native witnesses, tracing settings and the before-and-after proof.
+
 ## 1.006
 
 - Improve bruce-1828-p175-eight-line-pica-1-mask from clearer Bruce1828 impressions; preserve character assignments, advances and earlier source witnesses.

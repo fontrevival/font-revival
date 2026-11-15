@@ -1,0 +1,49 @@
+[
+  {
+    "file": "native/leaf-115-upright.png",
+    "preview_width": 2100,
+    "box": [
+      245,
+      145,
+      1631,
+      217
+    ],
+    "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "components": true,
+    "merge_components": []
+  },
+  {
+    "file": "native/leaf-115-upright.png",
+    "preview_width": 2100,
+    "box": [
+      645,
+      216,
+      1410,
+      285
+    ],
+    "text": "$1234567890",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": false
+  },
+  {
+    "file": "native/leaf-115-upright.png",
+    "preview_width": 2100,
+    "box": [
+      1630,
+      146,
+      1810,
+      212
+    ],
+    "text": "&.;:!’",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": false
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "file": "native/leaf-113-upright.png",
+    "preview_width": 2100,
+    "box": [
+      455,
+      172,
+      1860,
+      240
+    ],
+    "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "components": true,
+    "merge_components": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        22,
+        23,
+        24
+      ],
+      [
+        25,
+        26
+      ]
+    ]
+  },
+  {
+    "file": "native/leaf-113-upright.png",
+    "preview_width": 2100,
+    "box": [
+      948,
+      251,
+      1385,
+      318
+    ],
+    "text": "ÆŒ&.,;:!?’-",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": false
+  },
+  {
+    "file": "native/leaf-111-upright.png",
+    "preview_width": 2100,
+    "box": [
+      1400,
+      803,
+      1696,
+      853
+    ],
+    "text": "1234567890",
+    "threshold": 150,
+    "fill_holes": 0,
+    "component_min_area": 2,
+    "single_component": true,
+    "components": true,
+    "merge_components": [
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ]
+    ]
+  }
+]

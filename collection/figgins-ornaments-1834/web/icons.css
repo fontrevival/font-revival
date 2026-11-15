@@ -1,0 +1,580 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-figgins-1834-p217-pica-1 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-1::before { content: "\E000"; }
+.fr-figgins-1834-p217-pica-2 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-2::before { content: "\E001"; }
+.fr-figgins-1834-p217-pica-3 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-3::before { content: "\E002"; }
+.fr-figgins-1834-p217-pica-4 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-4::before { content: "\E003"; }
+.fr-figgins-1834-p217-pica-8 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-8::before { content: "\E004"; }
+.fr-figgins-1834-p217-pica-9 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-9::before { content: "\E005"; }
+.fr-figgins-1834-p217-pica-10 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-10::before { content: "\E006"; }
+.fr-figgins-1834-p217-pica-12 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-12::before { content: "\E007"; }
+.fr-figgins-1834-p217-pica-13 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-13::before { content: "\E008"; }
+.fr-figgins-1834-p217-pica-14 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-14::before { content: "\E009"; }
+.fr-figgins-1834-p217-pica-16 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-16::before { content: "\E00A"; }
+.fr-figgins-1834-p217-pica-17 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-17::before { content: "\E00B"; }
+.fr-figgins-1834-p217-pica-18 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p217-pica-18::before { content: "\E00C"; }
+.fr-figgins-1834-p219-long-primer-2 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-2::before { content: "\E00D"; }
+.fr-figgins-1834-p219-long-primer-3 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-3::before { content: "\E00E"; }
+.fr-figgins-1834-p219-long-primer-4 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-4::before { content: "\E00F"; }
+.fr-figgins-1834-p219-long-primer-8 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-8::before { content: "\E010"; }
+.fr-figgins-1834-p219-long-primer-9 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-9::before { content: "\E011"; }
+.fr-figgins-1834-p219-long-primer-10 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-10::before { content: "\E012"; }
+.fr-figgins-1834-p219-long-primer-11 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-11::before { content: "\E013"; }
+.fr-figgins-1834-p219-long-primer-12 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-12::before { content: "\E014"; }
+.fr-figgins-1834-p219-long-primer-13 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-13::before { content: "\E015"; }
+.fr-figgins-1834-p219-long-primer-14 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-14::before { content: "\E016"; }
+.fr-figgins-1834-p219-long-primer-15 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-15::before { content: "\E017"; }
+.fr-figgins-1834-p219-long-primer-16 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-16::before { content: "\E018"; }
+.fr-figgins-1834-p219-long-primer-17 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-17::before { content: "\E019"; }
+.fr-figgins-1834-p219-long-primer-18 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-18::before { content: "\E01A"; }
+.fr-figgins-1834-p219-long-primer-19 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-19::before { content: "\E01B"; }
+.fr-figgins-1834-p219-long-primer-20 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-20::before { content: "\E01C"; }
+.fr-figgins-1834-p219-long-primer-21 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-21::before { content: "\E01D"; }
+.fr-figgins-1834-p219-long-primer-22 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-22::before { content: "\E01E"; }
+.fr-figgins-1834-p219-long-primer-23 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-23::before { content: "\E01F"; }
+.fr-figgins-1834-p219-long-primer-24 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-24::before { content: "\E020"; }
+.fr-figgins-1834-p219-long-primer-25 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-25::before { content: "\E021"; }
+.fr-figgins-1834-p219-long-primer-26 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-26::before { content: "\E022"; }
+.fr-figgins-1834-p219-long-primer-27 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p219-long-primer-27::before { content: "\E023"; }
+.fr-figgins-1834-p221-long-primer-28 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-28::before { content: "\E024"; }
+.fr-figgins-1834-p221-long-primer-29 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-29::before { content: "\E025"; }
+.fr-figgins-1834-p221-long-primer-30 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-30::before { content: "\E026"; }
+.fr-figgins-1834-p221-long-primer-31 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-31::before { content: "\E027"; }
+.fr-figgins-1834-p221-long-primer-32 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-32::before { content: "\E028"; }
+.fr-figgins-1834-p221-long-primer-33 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-33::before { content: "\E029"; }
+.fr-figgins-1834-p221-long-primer-34 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-34::before { content: "\E02A"; }
+.fr-figgins-1834-p221-long-primer-38 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p221-long-primer-38::before { content: "\E02B"; }
+.fr-figgins-1834-p215-masonic-two-line-english-square-jewel { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-square-jewel::before { content: "\E02C"; }
+.fr-figgins-1834-p215-masonic-two-line-english-sun-face { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-sun-face::before { content: "\E02D"; }
+.fr-figgins-1834-p215-masonic-two-line-english-plumb-rule { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-plumb-rule::before { content: "\E02E"; }
+.fr-figgins-1834-p215-masonic-two-line-english-level { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-level::before { content: "\E02F"; }
+.fr-figgins-1834-p215-masonic-two-line-english-moon-stars { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-moon-stars::before { content: "\E030"; }
+.fr-figgins-1834-p215-masonic-two-line-english-quills { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-quills::before { content: "\E031"; }
+.fr-figgins-1834-p215-masonic-two-line-english-keys { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-keys::before { content: "\E032"; }
+.fr-figgins-1834-p215-masonic-two-line-english-tools { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-tools::before { content: "\E033"; }
+.fr-figgins-1834-p215-masonic-two-line-english-level-rule { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-level-rule::before { content: "\E034"; }
+.fr-figgins-1834-p215-masonic-two-line-english-sun-square { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-sun-square::before { content: "\E035"; }
+.fr-figgins-1834-p215-masonic-two-line-english-level-compasses-square { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-level-compasses-square::before { content: "\E036"; }
+.fr-figgins-1834-p215-masonic-two-line-english-trowel { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-masonic-two-line-english-trowel::before { content: "\E037"; }
+.fr-figgins-1834-p213-check-five-line-pica-1 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p213-check-five-line-pica-1::before { content: "\E038"; }
+.fr-figgins-1834-p213-check-canon-1 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p213-check-canon-1::before { content: "\E039"; }
+.fr-figgins-1834-p213-check-canon-3 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p213-check-canon-3::before { content: "\E03A"; }
+.fr-figgins-1834-p213-check-canon-4 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p213-check-canon-4::before { content: "\E03B"; }
+.fr-figgins-1834-p215-check-two-line-double-pica-1 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p215-check-two-line-double-pica-1::before { content: "\E03C"; }
+.fr-figgins-1834-p213-check-canon-2-turned-terminal { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p213-check-canon-2-turned-terminal::before { content: "\E03D"; }
+.fr-figgins-1834-p223-five-line-pica-1-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p223-five-line-pica-1-repeat::before { content: "\E03E"; }
+.fr-figgins-1834-p223-five-line-pica-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p223-five-line-pica-4-repeat::before { content: "\E03F"; }
+.fr-figgins-1834-p223-five-line-pica-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p223-five-line-pica-6-repeat::before { content: "\E040"; }
+.fr-figgins-1834-p223-five-line-pica-6-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p223-five-line-pica-6-corner::before { content: "\E041"; }
+.fr-figgins-1834-p223-five-line-pica-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p223-five-line-pica-7-repeat::before { content: "\E042"; }
+.fr-figgins-1834-p223-five-line-pica-7-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p223-five-line-pica-7-corner::before { content: "\E043"; }
+.fr-figgins-1834-p225-canon-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-2-repeat::before { content: "\E044"; }
+.fr-figgins-1834-p225-canon-2-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-2-corner::before { content: "\E045"; }
+.fr-figgins-1834-p225-canon-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-3-repeat::before { content: "\E046"; }
+.fr-figgins-1834-p225-canon-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-5-repeat::before { content: "\E047"; }
+.fr-figgins-1834-p225-canon-5-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-5-corner::before { content: "\E048"; }
+.fr-figgins-1834-p225-canon-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-6-repeat::before { content: "\E049"; }
+.fr-figgins-1834-p225-canon-6-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-6-corner::before { content: "\E04A"; }
+.fr-figgins-1834-p225-canon-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-7-repeat::before { content: "\E04B"; }
+.fr-figgins-1834-p225-canon-7-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p225-canon-7-corner::before { content: "\E04C"; }
+.fr-figgins-1834-p227-two-line-great-primer-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-2-repeat::before { content: "\E04D"; }
+.fr-figgins-1834-p227-two-line-great-primer-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-3-repeat::before { content: "\E04E"; }
+.fr-figgins-1834-p227-two-line-great-primer-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-5-repeat::before { content: "\E04F"; }
+.fr-figgins-1834-p227-two-line-great-primer-5-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-5-corner::before { content: "\E050"; }
+.fr-figgins-1834-p227-two-line-great-primer-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-6-repeat::before { content: "\E051"; }
+.fr-figgins-1834-p227-two-line-great-primer-6-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-6-corner::before { content: "\E052"; }
+.fr-figgins-1834-p227-two-line-great-primer-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-7-repeat::before { content: "\E053"; }
+.fr-figgins-1834-p227-two-line-great-primer-7-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-7-corner::before { content: "\E054"; }
+.fr-figgins-1834-p227-two-line-great-primer-10-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p227-two-line-great-primer-10-repeat::before { content: "\E055"; }
+.fr-figgins-1834-p229-two-line-english-1-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-1-repeat::before { content: "\E056"; }
+.fr-figgins-1834-p229-two-line-english-1-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-1-corner::before { content: "\E057"; }
+.fr-figgins-1834-p229-two-line-english-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-2-repeat::before { content: "\E058"; }
+.fr-figgins-1834-p229-two-line-english-2-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-2-corner::before { content: "\E059"; }
+.fr-figgins-1834-p229-two-line-english-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-3-repeat::before { content: "\E05A"; }
+.fr-figgins-1834-p229-two-line-english-3-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-3-corner::before { content: "\E05B"; }
+.fr-figgins-1834-p229-two-line-english-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-4-repeat::before { content: "\E05C"; }
+.fr-figgins-1834-p229-two-line-english-4-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-4-corner::before { content: "\E05D"; }
+.fr-figgins-1834-p229-two-line-english-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-5-repeat::before { content: "\E05E"; }
+.fr-figgins-1834-p229-two-line-english-6-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-6-corner::before { content: "\E05F"; }
+.fr-figgins-1834-p229-two-line-english-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p229-two-line-english-8-repeat::before { content: "\E060"; }
+.fr-figgins-1834-p231-two-line-english-11-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-11-corner::before { content: "\E061"; }
+.fr-figgins-1834-p231-two-line-english-12-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-12-repeat::before { content: "\E062"; }
+.fr-figgins-1834-p231-two-line-english-12-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-12-corner::before { content: "\E063"; }
+.fr-figgins-1834-p231-two-line-english-13-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-13-corner::before { content: "\E064"; }
+.fr-figgins-1834-p231-two-line-english-15-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-15-repeat::before { content: "\E065"; }
+.fr-figgins-1834-p231-two-line-english-15-thistle { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-15-thistle::before { content: "\E066"; }
+.fr-figgins-1834-p231-two-line-english-15-shamrock { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-15-shamrock::before { content: "\E067"; }
+.fr-figgins-1834-p231-two-line-english-15-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-15-corner::before { content: "\E068"; }
+.fr-figgins-1834-p231-two-line-english-16-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-16-repeat::before { content: "\E069"; }
+.fr-figgins-1834-p231-two-line-english-16-crown { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-16-crown::before { content: "\E06A"; }
+.fr-figgins-1834-p231-two-line-english-18-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-18-repeat::before { content: "\E06B"; }
+.fr-figgins-1834-p231-two-line-english-19-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-19-repeat::before { content: "\E06C"; }
+.fr-figgins-1834-p231-two-line-english-20-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-20-repeat::before { content: "\E06D"; }
+.fr-figgins-1834-p231-two-line-english-20-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p231-two-line-english-20-corner::before { content: "\E06E"; }
+.fr-figgins-1834-p233-two-line-pica-1-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-two-line-pica-1-repeat::before { content: "\E06F"; }
+.fr-figgins-1834-p233-two-line-pica-1-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-two-line-pica-1-corner::before { content: "\E070"; }
+.fr-figgins-1834-p233-double-pica-1-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-1-repeat::before { content: "\E071"; }
+.fr-figgins-1834-p233-double-pica-1-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-1-corner::before { content: "\E072"; }
+.fr-figgins-1834-p233-double-pica-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-2-repeat::before { content: "\E073"; }
+.fr-figgins-1834-p233-double-pica-2-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-2-corner::before { content: "\E074"; }
+.fr-figgins-1834-p233-double-pica-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-3-repeat::before { content: "\E075"; }
+.fr-figgins-1834-p233-double-pica-3-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-3-corner::before { content: "\E076"; }
+.fr-figgins-1834-p233-double-pica-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-4-repeat::before { content: "\E077"; }
+.fr-figgins-1834-p233-double-pica-4-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-4-corner::before { content: "\E078"; }
+.fr-figgins-1834-p233-double-pica-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-5-repeat::before { content: "\E079"; }
+.fr-figgins-1834-p233-double-pica-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-6-repeat::before { content: "\E07A"; }
+.fr-figgins-1834-p233-double-pica-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-8-repeat::before { content: "\E07B"; }
+.fr-figgins-1834-p233-double-pica-8-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-8-corner::before { content: "\E07C"; }
+.fr-figgins-1834-p233-double-pica-9-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-9-repeat::before { content: "\E07D"; }
+.fr-figgins-1834-p233-double-pica-10-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-10-repeat::before { content: "\E07E"; }
+.fr-figgins-1834-p233-double-pica-11-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-11-repeat::before { content: "\E07F"; }
+.fr-figgins-1834-p233-double-pica-12-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p233-double-pica-12-repeat::before { content: "\E080"; }
+.fr-figgins-1834-p235-double-pica-13-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-13-corner::before { content: "\E081"; }
+.fr-figgins-1834-p235-double-pica-16-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-16-repeat::before { content: "\E082"; }
+.fr-figgins-1834-p235-double-pica-16-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-16-corner::before { content: "\E083"; }
+.fr-figgins-1834-p235-double-pica-19-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-19-repeat::before { content: "\E084"; }
+.fr-figgins-1834-p235-double-pica-19-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-19-corner::before { content: "\E085"; }
+.fr-figgins-1834-p235-double-pica-20-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-20-repeat::before { content: "\E086"; }
+.fr-figgins-1834-p235-double-pica-20-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-double-pica-20-corner::before { content: "\E087"; }
+.fr-figgins-1834-p235-great-primer-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-2-repeat::before { content: "\E088"; }
+.fr-figgins-1834-p235-great-primer-2-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-2-corner::before { content: "\E089"; }
+.fr-figgins-1834-p235-great-primer-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-4-repeat::before { content: "\E08A"; }
+.fr-figgins-1834-p235-great-primer-4-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-4-corner::before { content: "\E08B"; }
+.fr-figgins-1834-p235-great-primer-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-5-repeat::before { content: "\E08C"; }
+.fr-figgins-1834-p235-great-primer-5-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-5-corner::before { content: "\E08D"; }
+.fr-figgins-1834-p235-great-primer-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-6-repeat::before { content: "\E08E"; }
+.fr-figgins-1834-p235-great-primer-6-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-6-corner::before { content: "\E08F"; }
+.fr-figgins-1834-p235-great-primer-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-7-repeat::before { content: "\E090"; }
+.fr-figgins-1834-p235-great-primer-7-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-7-corner::before { content: "\E091"; }
+.fr-figgins-1834-p235-great-primer-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-8-repeat::before { content: "\E092"; }
+.fr-figgins-1834-p235-great-primer-8-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p235-great-primer-8-corner::before { content: "\E093"; }
+.fr-figgins-1834-p237-great-primer-9-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-9-repeat::before { content: "\E094"; }
+.fr-figgins-1834-p237-great-primer-13-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-13-repeat::before { content: "\E095"; }
+.fr-figgins-1834-p237-great-primer-13-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-13-corner::before { content: "\E096"; }
+.fr-figgins-1834-p237-great-primer-13-right-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-13-right-corner::before { content: "\E097"; }
+.fr-figgins-1834-p237-great-primer-14-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-14-repeat::before { content: "\E098"; }
+.fr-figgins-1834-p237-great-primer-15-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-15-repeat::before { content: "\E099"; }
+.fr-figgins-1834-p237-great-primer-15-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-great-primer-15-corner::before { content: "\E09A"; }
+.fr-figgins-1834-p237-english-1-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-1-repeat::before { content: "\E09B"; }
+.fr-figgins-1834-p237-english-1-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-1-corner::before { content: "\E09C"; }
+.fr-figgins-1834-p237-english-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-2-repeat::before { content: "\E09D"; }
+.fr-figgins-1834-p237-english-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-3-repeat::before { content: "\E09E"; }
+.fr-figgins-1834-p237-english-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-4-repeat::before { content: "\E09F"; }
+.fr-figgins-1834-p237-english-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-6-repeat::before { content: "\E0A0"; }
+.fr-figgins-1834-p237-english-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-8-repeat::before { content: "\E0A1"; }
+.fr-figgins-1834-p237-english-8-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-8-corner::before { content: "\E0A2"; }
+.fr-figgins-1834-p237-english-10-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-10-repeat::before { content: "\E0A3"; }
+.fr-figgins-1834-p237-english-12-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p237-english-12-corner::before { content: "\E0A5"; }
+.fr-figgins-1834-p239-english-17-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-english-17-corner::before { content: "\E0A6"; }
+.fr-figgins-1834-p239-english-23-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-english-23-repeat::before { content: "\E0A7"; }
+.fr-figgins-1834-p239-english-thistle-23-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-english-thistle-23-repeat::before { content: "\E0A8"; }
+.fr-figgins-1834-p239-english-shamrock-23-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-english-shamrock-23-repeat::before { content: "\E0A9"; }
+.fr-figgins-1834-p239-english-24-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-english-24-repeat::before { content: "\E0AA"; }
+.fr-figgins-1834-p239-english-24-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-english-24-corner::before { content: "\E0AB"; }
+.fr-figgins-1834-p239-pica-1-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-1-repeat::before { content: "\E0AC"; }
+.fr-figgins-1834-p239-pica-1-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-1-corner::before { content: "\E0AD"; }
+.fr-figgins-1834-p239-pica-2-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-2-corner::before { content: "\E0AE"; }
+.fr-figgins-1834-p239-pica-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-3-repeat::before { content: "\E0AF"; }
+.fr-figgins-1834-p239-pica-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-4-repeat::before { content: "\E0B0"; }
+.fr-figgins-1834-p239-pica-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-5-repeat::before { content: "\E0B1"; }
+.fr-figgins-1834-p239-pica-5-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-5-corner::before { content: "\E0B2"; }
+.fr-figgins-1834-p239-pica-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-6-repeat::before { content: "\E0B3"; }
+.fr-figgins-1834-p239-pica-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-7-repeat::before { content: "\E0B4"; }
+.fr-figgins-1834-p239-pica-13-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-13-repeat::before { content: "\E0B5"; }
+.fr-figgins-1834-p239-pica-13-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p239-pica-13-corner::before { content: "\E0B6"; }
+.fr-figgins-1834-p241-pica-14-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-pica-14-corner::before { content: "\E0B7"; }
+.fr-figgins-1834-p241-pica-15-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-pica-15-repeat::before { content: "\E0B8"; }
+.fr-figgins-1834-p241-pica-15-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-pica-15-corner::before { content: "\E0B9"; }
+.fr-figgins-1834-p241-pica-19-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-pica-19-repeat::before { content: "\E0BA"; }
+.fr-figgins-1834-p241-pica-19-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-pica-19-corner::before { content: "\E0BB"; }
+.fr-figgins-1834-p241-small-pica-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-2-repeat::before { content: "\E0BC"; }
+.fr-figgins-1834-p241-small-pica-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-5-repeat::before { content: "\E0BD"; }
+.fr-figgins-1834-p241-small-pica-7-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-7-corner::before { content: "\E0BE"; }
+.fr-figgins-1834-p241-small-pica-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-8-repeat::before { content: "\E0BF"; }
+.fr-figgins-1834-p241-small-pica-10-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-10-repeat::before { content: "\E0C0"; }
+.fr-figgins-1834-p241-small-pica-11-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-11-repeat::before { content: "\E0C1"; }
+.fr-figgins-1834-p241-small-pica-12-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-12-repeat::before { content: "\E0C2"; }
+.fr-figgins-1834-p241-small-pica-17-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-17-repeat::before { content: "\E0C3"; }
+.fr-figgins-1834-p241-small-pica-21-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p241-small-pica-21-repeat::before { content: "\E0C4"; }
+.fr-figgins-1834-p243-long-primer-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-3-repeat::before { content: "\E0C7"; }
+.fr-figgins-1834-p243-long-primer-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-4-repeat::before { content: "\E0C8"; }
+.fr-figgins-1834-p243-long-primer-5-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-5-corner::before { content: "\E0CA"; }
+.fr-figgins-1834-p243-long-primer-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-6-repeat::before { content: "\E0CB"; }
+.fr-figgins-1834-p243-long-primer-6-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-6-corner::before { content: "\E0CC"; }
+.fr-figgins-1834-p243-long-primer-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-7-repeat::before { content: "\E0CD"; }
+.fr-figgins-1834-p243-long-primer-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-8-repeat::before { content: "\E0CE"; }
+.fr-figgins-1834-p243-long-primer-10-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-10-repeat::before { content: "\E0CF"; }
+.fr-figgins-1834-p243-long-primer-10-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-10-corner::before { content: "\E0D0"; }
+.fr-figgins-1834-p243-long-primer-11-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-11-repeat::before { content: "\E0D1"; }
+.fr-figgins-1834-p243-long-primer-12-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-12-repeat::before { content: "\E0D2"; }
+.fr-figgins-1834-p243-long-primer-13-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-13-repeat::before { content: "\E0D3"; }
+.fr-figgins-1834-p243-long-primer-13-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-13-corner::before { content: "\E0D4"; }
+.fr-figgins-1834-p243-long-primer-15-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-15-repeat::before { content: "\E0D5"; }
+.fr-figgins-1834-p243-long-primer-15-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-15-corner::before { content: "\E0D6"; }
+.fr-figgins-1834-p243-long-primer-16-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-16-repeat::before { content: "\E0D7"; }
+.fr-figgins-1834-p243-long-primer-16-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-16-corner::before { content: "\E0D8"; }
+.fr-figgins-1834-p243-long-primer-23-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-23-repeat::before { content: "\E0D9"; }
+.fr-figgins-1834-p243-long-primer-25-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-25-repeat::before { content: "\E0DA"; }
+.fr-figgins-1834-p243-long-primer-27-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-27-repeat::before { content: "\E0DB"; }
+.fr-figgins-1834-p243-long-primer-28-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-28-repeat::before { content: "\E0DC"; }
+.fr-figgins-1834-p243-long-primer-28-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-28-corner::before { content: "\E0DD"; }
+.fr-figgins-1834-p243-long-primer-29-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-29-repeat::before { content: "\E0DE"; }
+.fr-figgins-1834-p243-long-primer-29-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-29-corner::before { content: "\E0DF"; }
+.fr-figgins-1834-p243-long-primer-30-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-30-repeat::before { content: "\E0E0"; }
+.fr-figgins-1834-p243-long-primer-31-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p243-long-primer-31-repeat::before { content: "\E0E1"; }
+.fr-figgins-1834-p245-long-primer-36-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-36-repeat::before { content: "\E0E2"; }
+.fr-figgins-1834-p245-long-primer-37-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-37-repeat::before { content: "\E0E3"; }
+.fr-figgins-1834-p245-long-primer-42-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-42-repeat::before { content: "\E0E4"; }
+.fr-figgins-1834-p245-long-primer-42-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-42-corner::before { content: "\E0E5"; }
+.fr-figgins-1834-p245-long-primer-43-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-43-repeat::before { content: "\E0E6"; }
+.fr-figgins-1834-p245-long-primer-44-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-44-repeat::before { content: "\E0E7"; }
+.fr-figgins-1834-p245-long-primer-45-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-45-repeat::before { content: "\E0E8"; }
+.fr-figgins-1834-p245-long-primer-46-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-46-repeat::before { content: "\E0E9"; }
+.fr-figgins-1834-p245-long-primer-48-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-48-repeat::before { content: "\E0EA"; }
+.fr-figgins-1834-p245-long-primer-48-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-48-corner::before { content: "\E0EB"; }
+.fr-figgins-1834-p245-long-primer-49-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-49-repeat::before { content: "\E0EC"; }
+.fr-figgins-1834-p245-long-primer-50-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-50-repeat::before { content: "\E0ED"; }
+.fr-figgins-1834-p245-long-primer-52-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-52-repeat::before { content: "\E0EE"; }
+.fr-figgins-1834-p245-long-primer-53-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-53-repeat::before { content: "\E0EF"; }
+.fr-figgins-1834-p245-long-primer-54-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-54-repeat::before { content: "\E0F0"; }
+.fr-figgins-1834-p245-long-primer-55-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-55-repeat::before { content: "\E0F1"; }
+.fr-figgins-1834-p245-long-primer-56-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-56-repeat::before { content: "\E0F2"; }
+.fr-figgins-1834-p245-long-primer-60-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-long-primer-60-corner::before { content: "\E0F3"; }
+.fr-figgins-1834-p245-bourgeois-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p245-bourgeois-4-repeat::before { content: "\E0F4"; }
+.fr-figgins-1834-p247-bourgeois-14-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-bourgeois-14-repeat::before { content: "\E0F5"; }
+.fr-figgins-1834-p247-brevier-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-7-repeat::before { content: "\E0F7"; }
+.fr-figgins-1834-p247-brevier-11-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-11-repeat::before { content: "\E0F8"; }
+.fr-figgins-1834-p247-brevier-13-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-13-repeat::before { content: "\E0F9"; }
+.fr-figgins-1834-p247-brevier-14-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-14-repeat::before { content: "\E0FA"; }
+.fr-figgins-1834-p247-brevier-15-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-15-repeat::before { content: "\E0FB"; }
+.fr-figgins-1834-p247-brevier-16-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-16-repeat::before { content: "\E0FC"; }
+.fr-figgins-1834-p247-brevier-18-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-18-repeat::before { content: "\E0FD"; }
+.fr-figgins-1834-p247-brevier-20-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-20-repeat::before { content: "\E0FE"; }
+.fr-figgins-1834-p247-brevier-21-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-21-repeat::before { content: "\E0FF"; }
+.fr-figgins-1834-p247-brevier-23-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-23-repeat::before { content: "\E100"; }
+.fr-figgins-1834-p247-brevier-23-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p247-brevier-23-corner::before { content: "\E101"; }
+.fr-figgins-1834-p249-brevier-28-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-brevier-28-repeat::before { content: "\E102"; }
+.fr-figgins-1834-p249-brevier-31-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-brevier-31-repeat::before { content: "\E103"; }
+.fr-figgins-1834-p249-brevier-40-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-brevier-40-repeat::before { content: "\E104"; }
+.fr-figgins-1834-p249-minion-6-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-minion-6-repeat::before { content: "\E105"; }
+.fr-figgins-1834-p249-minion-7-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-minion-7-repeat::before { content: "\E106"; }
+.fr-figgins-1834-p249-nonpareil-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-nonpareil-2-repeat::before { content: "\E107"; }
+.fr-figgins-1834-p249-nonpareil-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-nonpareil-3-repeat::before { content: "\E108"; }
+.fr-figgins-1834-p249-nonpareil-4-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-nonpareil-4-repeat::before { content: "\E109"; }
+.fr-figgins-1834-p249-nonpareil-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p249-nonpareil-5-repeat::before { content: "\E10A"; }
+.fr-figgins-1834-p251-nonpareil-10-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-10-repeat::before { content: "\E10C"; }
+.fr-figgins-1834-p251-nonpareil-13-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-13-repeat::before { content: "\E10D"; }
+.fr-figgins-1834-p251-nonpareil-16-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-16-repeat::before { content: "\E10E"; }
+.fr-figgins-1834-p251-nonpareil-17-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-17-repeat::before { content: "\E10F"; }
+.fr-figgins-1834-p251-nonpareil-18-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-18-repeat::before { content: "\E110"; }
+.fr-figgins-1834-p251-nonpareil-19-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-19-repeat::before { content: "\E111"; }
+.fr-figgins-1834-p251-nonpareil-20-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-20-repeat::before { content: "\E112"; }
+.fr-figgins-1834-p251-nonpareil-23-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-nonpareil-23-repeat::before { content: "\E113"; }
+.fr-figgins-1834-p251-pearl-2-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-2-repeat::before { content: "\E115"; }
+.fr-figgins-1834-p251-pearl-3-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-3-repeat::before { content: "\E116"; }
+.fr-figgins-1834-p251-pearl-4-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-4-corner::before { content: "\E117"; }
+.fr-figgins-1834-p251-pearl-5-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-5-repeat::before { content: "\E118"; }
+.fr-figgins-1834-p251-pearl-8-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-8-repeat::before { content: "\E11A"; }
+.fr-figgins-1834-p251-pearl-8-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-8-corner::before { content: "\E11B"; }
+.fr-figgins-1834-p251-pearl-13-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-13-repeat::before { content: "\E11D"; }
+.fr-figgins-1834-p251-pearl-15-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-15-repeat::before { content: "\E11E"; }
+.fr-figgins-1834-p251-pearl-18-repeat { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-18-repeat::before { content: "\E120"; }
+.fr-figgins-1834-p251-pearl-18-corner { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p251-pearl-18-corner::before { content: "\E121"; }
+.fr-figgins-1834-p197-german-flourish-01 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-flourish-01::before { content: "\E123"; }
+.fr-figgins-1834-p197-german-flourish-02 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-flourish-02::before { content: "\E124"; }
+.fr-figgins-1834-p197-german-flourish-03 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-flourish-03::before { content: "\E125"; }
+.fr-figgins-1834-p197-german-flourish-04 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-flourish-04::before { content: "\E126"; }
+.fr-figgins-1834-p197-german-flourish-05 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-flourish-05::before { content: "\E127"; }
+.fr-figgins-1834-p197-german-flourish-06 { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-flourish-06::before { content: "\E128"; }
+.fr-figgins-1834-p197-german-terminal-flourish-spiral { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-terminal-flourish-spiral::before { content: "\E129"; }
+.fr-figgins-1834-p197-german-terminal-flourish-wave { font-family: "Figgins Ornaments 1834"; }
+.fr-figgins-1834-p197-german-terminal-flourish-wave::before { content: "\E12A"; }

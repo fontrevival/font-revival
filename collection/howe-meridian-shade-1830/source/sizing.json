@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against complete native capital and figure rows and the retained source proof. Original shadow extents, slant, Q tails and figure proportions remain; lowercase inputs alias capitals. Source punctuation has its own observed proportions and is not normalized to text-face punctuation.",
+  "rules": [
+    {
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "y_max": [
+        650,
+        750
+      ],
+      "notes": "Complete display capitals use an approximately 700-unit body with the observed slant and shadow overshoots."
+    },
+    {
+      "characters": "0123456789",
+      "y_max": [
+        665,
+        735
+      ],
+      "notes": "Figures retain their independently measured native row scale and modest historical overshoots."
+    }
+  ]
+}

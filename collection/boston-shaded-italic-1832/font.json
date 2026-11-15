@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "boston-shaded-italic-1832",
+  "name": "Boston Shaded Italic 1832",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BostonShadedItalic1832-Regular",
+  "year": 1832,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "Boston Type and Stereotype Foundry",
+  "description": "Swash italic titling capitals with an open face and cast shadow, from the Boston foundry’s 1832 specimen.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "BOSTON SHADED TYPE",
+  "observed": "Complete A–Z capitals from Shaded Two Line Pearl Italic, with matching larger Shaded Two Line Minion Italic L, M, figures, currency and punctuation on archive leaf111.",
+  "reconstructed": "No inferred visible characters. Lowercase input aliases capitals; ASCII apostrophe aliases the observed closing apostrophe. Blank spaces, metrics and digital spacing are new.",
+  "sources": [
+    {
+      "title": "Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 111",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n111/mode/1up",
+      "file": "reference/boston1832-111.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Native JP2 and exact quarter-turn retained. Connected-component groups and explicit separation of the touching L/I are recorded; row baseline fits correct scan tilt without removing the italic slant."
+  },
+  "character_style": "capitals-only",
+  "character_set_notes": "Complete historical titling alphabet, all ten figures and observed symbols. Lowercase aliases capitals. Unsupported modern symbols are omitted.",
+  "character_set": " !$&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ’"
+}

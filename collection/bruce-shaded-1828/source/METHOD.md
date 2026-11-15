@@ -21,3 +21,7 @@ after component cleanup, preserving uniform source scale and original extents.
 No visible characters are inferred. Lowercase input aliases the capitals, and
 spaces and bearings are new digital spacing. The source-size labels document
 the supplying impressions; this is one scalable font.
+
+The native Boston 1832 JP2 and lossless 270-degree quarter-turn retain the supplying impressions. `boston1832-rows.json` records transcriptions and component groups. `tracing.json` records exact crops, cleanup and Potrace 1.16 settings; no counters are filled. Fitted row baselines correct small scan tilts by rigid outline rotation. `boston1832-measurements.json` records the source scale. Historical size labels identify impressions rather than separate font offerings.
+
+The original Bruce sources remain for provenance and unchanged characters. Boston supplies clearer matching outlines; the encoded characters, aliases and each advance width remain unchanged.

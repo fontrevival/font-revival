@@ -171,6 +171,16 @@ artwork uniformly in a common frame. `frame_threshold` uses the lightest retaine
 trace to measure that frame before applying the same transform to solid and tonal
 paths. It prevents pale extremities from clipping without stretching the drawing.
 
+Uneven engraved impressions can record `monochrome_adaptive_threshold` with
+`radius`, `offset`, `minimum` and `maximum`. The threshold at each pixel is the
+local box-blurred grayscale value minus the offset, clamped to those limits.
+Alternatively, `monochrome_threshold_regions` records polygons (or an `ellipse`)
+with `points_fraction` relative to the crop and a local `threshold`. These
+adjustments affect only the monochrome drawing; `frame_threshold` and tonal
+layers always use the native grayscale crop. Compare the result with the source:
+local thresholds can open unwanted gaps in broad black fields. Preserve the
+reviewed settings with the family recipe.
+
 ### Tonal region separation
 
 Multi-tone tracing fits contours at each recorded grayscale threshold and uses

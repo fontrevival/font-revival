@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "canonical_id": "boston-1889-p274-2704",
+      "previous": {
+        "icon": {
+          "id": "boston-1889-p274-2704",
+          "name": "Compasses and beehive",
+          "specimen_number": "2704",
+          "printed_page": 274,
+          "pdf_page": 282,
+          "tags": [
+            "masonic",
+            "freemason",
+            "beehive",
+            "compasses"
+          ],
+          "codepoint": "E052",
+          "glyph": "uniE052",
+          "source_index": 1,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE052.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE052.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE052.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "source": {
+          "title": "Specimen book from the Boston type foundry (1889), printed p. 274; PDF page 282, Internet Archive leaf 282",
+          "url": "https://archive.org/details/specimenbookfrom00unse/page/274/mode/1up",
+          "file": "reference/boston-274.jp2",
+          "rights": "1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used.",
+          "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+        },
+        "recipe": {
+          "file": "reference/boston-274.jp2",
+          "box": [
+            339,
+            2403,
+            466,
+            2544
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 185,
+          "blur": 0.3,
+          "component_min_area": 2,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Reviewed native crop; preserve all engraving; exclude catalogue labels and prices. The complete light-ink trace defines the shared frame, preventing tonal clipping; both editions retain the same transform.",
+          "multitone": {
+            "thresholds": {
+              "primary": 130,
+              "secondary": 165,
+              "tertiary": 185
+            },
+            "notes": "Native crop and rendered proof review: these darker-paper pages use 130/165/185 levels to exclude scan grain and paper stains that enter at 210. The lightest retained trace matches the reviewed monochrome ink."
+          },
+          "frame_threshold": 185
+        }
+      },
+      "archive_leaf": 215,
+      "pdf_page": 215,
+      "printed_page": null,
+      "native_box": [
+        879,
+        2339,
+        1076,
+        2485
+      ],
+      "recipe": {
+        "file": "reference/figgins1834-crops/level-compasses.png",
+        "box": [
+          0,
+          0,
+          197,
+          146
+        ],
+        "height": 1768.3753379468105,
+        "max_ink_dimension": 1799.8019300845388,
+        "y_min": 15.927315251193699,
+        "center_vertical": true,
+        "bearings": [
+          64.0,
+          64.19806991546125
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 90,
+        "blur": 0.3,
+        "component_min_area": 2,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 100,
+        "multitone": {
+          "thresholds": {
+            "primary": 55,
+            "secondary": 80,
+            "tertiary": 100
+          }
+        },
+        "notes": "Clearer matching Figgins1834 impression. Preserve canonical ID, PUA mapping and advance. Previous Boston1889 witness and classification are retained in figgins1834-quality-revisions.json."
+      },
+      "reason": "Matching Figgins1834 impression restores plumb line and hatch detail; original ID, codepoint and advance retained.",
+      "visual_evidence": "specimens/figgins-level-compasses-review.png"
+    }
+  ],
+  "classification_revisions": [
+    {
+      "id": "boston-1889-p275-2575",
+      "previous_name": "Two racehorses and jockeys galloping left",
+      "name": "Three racehorses and jockeys galloping left",
+      "reason": "Native Boston source inspection confirms three horse-and-rider pairs, including the rear overlapping pair. Classification correction only; artwork and permanent encoding are unchanged."
+    }
+  ]
+}

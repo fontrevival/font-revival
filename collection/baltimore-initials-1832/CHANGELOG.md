@@ -1,5 +1,9 @@
 # Changes
 
+## 1.005
+
+- Add 31 distinct decorated letters and symbols from Howe 1830 and 42 from Boston 1832. Improve the existing ornamented period from its clearer Howe impression. Standalone decorated characters remain illustration assets, with cross-book provenance and exact source coverage recorded.
+
 ## 1.004
 
 - Add fourteen observed ornamental sorts from Bruce 1828: lottery figures 3, 4, 5

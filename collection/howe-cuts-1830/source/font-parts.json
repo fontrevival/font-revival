@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "feature": "ccmp",
+  "glyphs": {
+    "uniE0AF": {
+      "master_sha256": "4793226b49cc072022412fac05db090a76d6a5b4044895ee28a96cb567e366de",
+      "advance_width": 1928,
+      "overlap_font_units": 4,
+      "parts": [
+        {
+          "glyph": "uniE0AF.part01",
+          "file": "source/font-parts/uniE0AF.part01.json"
+        },
+        {
+          "glyph": "uniE0AF.part02",
+          "file": "source/font-parts/uniE0AF.part02.json"
+        },
+        {
+          "glyph": "uniE0AF.part03",
+          "file": "source/font-parts/uniE0AF.part03.json"
+        },
+        {
+          "glyph": "uniE0AF.part04",
+          "file": "source/font-parts/uniE0AF.part04.json"
+        },
+        {
+          "glyph": "uniE0AF.part05",
+          "file": "source/font-parts/uniE0AF.part05.json"
+        },
+        {
+          "glyph": "uniE0AF.part06",
+          "file": "source/font-parts/uniE0AF.part06.json"
+        },
+        {
+          "glyph": "uniE0AF.part07",
+          "file": "source/font-parts/uniE0AF.part07.json"
+        },
+        {
+          "glyph": "uniE0AF.part08",
+          "file": "source/font-parts/uniE0AF.part08.json"
+        }
+      ],
+      "notes": "Default OpenType ccmp expands this icon into registered outline pieces. Only the final piece advances; the encoded character and total spacing remain unchanged. The base outline is a compatibility fallback for software without shaping."
+    },
+    "uniE0AC": {
+      "master_sha256": "c034fa873b9933759304666ced6e5931b0002173ea997cbe5d007f1a6f40c376",
+      "advance_width": 1928,
+      "overlap_font_units": 4,
+      "parts": [
+        {
+          "glyph": "uniE0AC.part01",
+          "file": "source/font-parts/uniE0AC.part01.json"
+        },
+        {
+          "glyph": "uniE0AC.part02",
+          "file": "source/font-parts/uniE0AC.part02.json"
+        },
+        {
+          "glyph": "uniE0AC.part03",
+          "file": "source/font-parts/uniE0AC.part03.json"
+        },
+        {
+          "glyph": "uniE0AC.part04",
+          "file": "source/font-parts/uniE0AC.part04.json"
+        }
+      ],
+      "notes": "Default OpenType ccmp expands this icon into registered outline pieces. Only the final piece advances; the encoded character and total spacing remain unchanged. The base outline is a compatibility fallback for software without shaping."
+    }
+  }
+}

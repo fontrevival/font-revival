@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Boston Cuts 1889",
   "style": "Regular",
-  "version": "1.005",
+  "version": "1.006",
   "postscript_name": "BostonCuts1889-Regular",
   "year": 1889,
   "designer": "Individual engravers unidentified; holiday cuts credited to Central Type Foundry in the specimen",
@@ -78,6 +78,13 @@
       "file": "reference/bruce1828-hathi-p251.png",
       "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
       "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    },
+    {
+      "file": "reference/figgins1834-215.jp2",
+      "title": "Specimen of printing types, V. Figgins (1834), Masonic emblems, unpaginated PDF page 215, archive leaf 215",
+      "url": "https://archive.org/details/b2874231x/page/n215/mode/1up",
+      "rights": "1834 British publication, public domain by age. Wellcome Library archive record: Public Domain Mark 1.0.",
+      "rights_url": "https://archive.org/details/b2874231x"
     }
   ],
   "icons": [
@@ -2912,19 +2919,20 @@
     },
     {
       "id": "boston-1889-p274-2704",
-      "name": "Compasses and beehive",
+      "name": "Compasses and Masonic level",
       "specimen_number": "2704",
-      "printed_page": 274,
-      "pdf_page": 282,
+      "printed_page": null,
+      "pdf_page": 215,
       "tags": [
         "masonic",
         "freemason",
-        "beehive",
+        "level",
+        "plumb",
         "compasses"
       ],
       "codepoint": "E052",
       "glyph": "uniE052",
-      "source_index": 1,
+      "source_index": 9,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -2942,7 +2950,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types, V. Figgins (1834), Masonic emblems, unpaginated PDF page 215, archive leaf 215"
     },
     {
       "id": "boston-1889-p274-2705",
@@ -5318,7 +5327,7 @@
     },
     {
       "id": "boston-1889-p275-2575",
-      "name": "Two racing horses with riders",
+      "name": "Three racehorses and jockeys galloping left",
       "specimen_number": "2575",
       "printed_page": 275,
       "pdf_page": 283,

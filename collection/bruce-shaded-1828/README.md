@@ -4,7 +4,7 @@ Outlined titling capitals with a cast shadow and matching figures, from George B
 
 ![Bruce Shaded 1828 specimen](specimens/preview.png)
 
-**1828 · Regular · Version 1.000 · 72 characters · Capitals only · MIT or SIL OFL 1.1**
+**1828 · Regular · Version 1.001 · 72 characters · Capitals only · MIT or SIL OFL 1.1**
 
 [OTF](fonts/BruceShaded1828-Regular.otf) · [TTF](fonts/BruceShaded1828-Regular.ttf) · [WOFF2](web/BruceShaded1828-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -19,13 +19,15 @@ and use `font-family: "Bruce Shaded 1828"`. Designed for display sizes.
 
 **Foundry:** George Bruce, New York
 
-**Observed:** Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ£$1234567890,;:. from Two Line Brevier Shaded capitals and matching Two Line Nonpareil Shaded figures/currency/punctuation on unnumbered PDF page 127 of the 1828 specimen.
+**Observed:** Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ£$1234567890,;:. from Two Line Brevier Shaded capitals and matching Two Line Nonpareil Shaded figures/currency/punctuation on unnumbered PDF page 127 of the 1828 specimen. Clearer matching impressions on the 1832 Boston leaves supply the revised ABCDEFGHIJKLMNOPQRSTUVWXYZÆŒ.,;:1234567890 outlines.
 
 **Reconstructed:** No inferred visible characters. Lowercase input aliases the capitals. Blank spaces and digital spacing are new. A measured rigid rotation corrects page tilt; source dimensions and proportions are preserved.
 
 ## Sources
 
 1. [A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Two Line Brevier Shaded and Two Line Nonpareil Shaded; unnumbered leaf, PDF page 127](https://hdl.handle.net/2027/nyp.33433006349736) — 1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface. [Rights basis](https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html).
+2. [Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 113](https://archive.org/details/specimenofprinti00bost/page/n113/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
+3. [Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 111](https://archive.org/details/specimenofprinti00bost/page/n111/mode/1up) — 1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work. [Rights basis](https://archive.org/details/specimenofprinti00bost).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

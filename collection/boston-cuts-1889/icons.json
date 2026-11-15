@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collection": "boston-cuts-1889",
-  "version": "1.005",
+  "version": "1.006",
   "icons": [
     {
       "id": "boston-1889-4202",
@@ -3736,19 +3736,20 @@
     },
     {
       "id": "boston-1889-p274-2704",
-      "name": "Compasses and beehive",
+      "name": "Compasses and Masonic level",
       "specimen_number": "2704",
-      "printed_page": 274,
-      "pdf_page": 282,
+      "printed_page": null,
+      "pdf_page": 215,
       "tags": [
         "masonic",
         "freemason",
-        "beehive",
+        "level",
+        "plumb",
         "compasses"
       ],
       "codepoint": "E052",
       "glyph": "uniE052",
-      "source_index": 1,
+      "source_index": 9,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -3767,6 +3768,7 @@
           "opacity": 0.25
         }
       ],
+      "source_label": "Specimen of printing types, V. Figgins (1834), Masonic emblems, unpaginated PDF page 215, archive leaf 215",
       "advance_width": 1928,
       "viewBox": "0 -1900 1928 2048",
       "aspect_ratio": 0.94140625,
@@ -6923,7 +6925,7 @@
     },
     {
       "id": "boston-1889-p275-2575",
-      "name": "Two racing horses with riders",
+      "name": "Three racehorses and jockeys galloping left",
       "specimen_number": "2575",
       "printed_page": 275,
       "pdf_page": 283,

@@ -1,0 +1,1992 @@
+{
+  "schema_version": 1,
+  "crops": [
+    {
+      "id": "howe-1830-p013-pica-1",
+      "native_box": [
+        541,
+        1011,
+        1581,
+        1095
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          1012,
+          80,
+          1029,
+          83
+        ],
+        [
+          88,
+          83,
+          93,
+          83
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.2879,
+      "endpoint_measurement": {
+        "left_y": 40.0,
+        "right_y": 35.0,
+        "span": 995,
+        "estimated_degrees": -0.28791606655709323
+      },
+      "output": "reference/crops/howe-1830-p013-pica-1.png",
+      "sha256": "7939d4e24a3e4ffcbca50ac99e75bb0724949fea832c01b0cc0d411e7f5f3f6f"
+    },
+    {
+      "id": "howe-1830-p013-pica-2",
+      "native_box": [
+        265,
+        1140,
+        944,
+        1223
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.6189,
+      "endpoint_measurement": {
+        "left_y": 39.0,
+        "right_y": 46.0,
+        "span": 648,
+        "estimated_degrees": 0.6189118162553683
+      },
+      "output": "reference/crops/howe-1830-p013-pica-2.png",
+      "sha256": "ac324765a1d9e0e3c487e10eebf3554ac3af7cb5267ad4479e991170f8ab60d7"
+    },
+    {
+      "id": "howe-1830-p013-pica-3",
+      "native_box": [
+        1245,
+        1140,
+        1856,
+        1229
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          432,
+          79,
+          453,
+          88
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.7999,
+      "endpoint_measurement": {
+        "left_y": 42.0,
+        "right_y": 34.0,
+        "span": 573,
+        "estimated_degrees": -0.7998891047515946
+      },
+      "output": "reference/crops/howe-1830-p013-pica-3.png",
+      "sha256": "1d093b006bbe85a4d226a6356f5538169c5b0fe95b3661dadd60f718ec48eab9"
+    },
+    {
+      "id": "howe-1830-p013-pica-4",
+      "native_box": [
+        262,
+        1274,
+        751,
+        1361
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          121,
+          83,
+          141,
+          86
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0.3141,
+      "endpoint_measurement": {
+        "left_y": 38.5,
+        "right_y": 41.0,
+        "span": 456,
+        "estimated_degrees": 0.3141184510460882
+      },
+      "output": "reference/crops/howe-1830-p013-pica-4.png",
+      "sha256": "580fd3290bcc965795c23860a6842a0c6a76bd597c71a8e9910cdf46c8eedc95"
+    },
+    {
+      "id": "howe-1830-p013-pica-7",
+      "native_box": [
+        287,
+        1410,
+        527,
+        1469
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 1.0336,
+      "endpoint_measurement": {
+        "left_y": 26.0,
+        "right_y": 29.5,
+        "span": 194,
+        "estimated_degrees": 1.0335746154203058
+      },
+      "output": "reference/crops/howe-1830-p013-pica-7.png",
+      "sha256": "1a695d443d69495b15e364cda2f2230795723753030914bc4e01f81351d713ca"
+    },
+    {
+      "id": "howe-1830-p013-pica-8",
+      "native_box": [
+        690,
+        1410,
+        1088,
+        1471
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "endpoint_measurement": {
+        "left_y": 30.0,
+        "right_y": 30.0,
+        "span": 346,
+        "estimated_degrees": 0.0
+      },
+      "output": "reference/crops/howe-1830-p013-pica-8.png",
+      "sha256": "c1ba3e5f08a90a9565481b82ff43419e5ae1d4357c6f26b843c07ba97189268b"
+    },
+    {
+      "id": "howe-1830-p013-pica-9",
+      "native_box": [
+        1298,
+        1404,
+        1849,
+        1469
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -1.1344,
+      "endpoint_measurement": {
+        "left_y": 34.0,
+        "right_y": 24.0,
+        "span": 505,
+        "estimated_degrees": -1.1344216309770068
+      },
+      "output": "reference/crops/howe-1830-p013-pica-9.png",
+      "sha256": "628077a8daa05bae5c2c5162032e15de653a8630f3c3ba935a15c0a4297491d7"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-2",
+      "native_box": [
+        1274,
+        1817,
+        1851,
+        1903
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          20,
+          28
+        ],
+        [
+          405,
+          73,
+          440,
+          85
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -1.1691,
+      "endpoint_measurement": {
+        "left_y": 46.0,
+        "right_y": 35.0,
+        "span": 539,
+        "estimated_degrees": -1.169139327907419
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-2.png",
+      "sha256": "5e277c809b696c699f774ed6284db49635e26d0a0fcb9cc3b879cfb6b8ceb99c"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-3",
+      "native_box": [
+        330,
+        1937,
+        946,
+        2014
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          160,
+          70,
+          185,
+          76
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.3469,
+      "endpoint_measurement": {
+        "left_y": 41.0,
+        "right_y": 37.5,
+        "span": 578,
+        "estimated_degrees": -0.3469425213025933
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-3.png",
+      "sha256": "5f6c673c4940a3d26ffa419f80c99dbadea04314c9dddc09a30845f8c1fed17c"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-4",
+      "native_box": [
+        985,
+        1937,
+        1469,
+        2014
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          462,
+          71,
+          479,
+          76
+        ],
+        [
+          79,
+          75,
+          92,
+          76
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -1.0322,
+      "endpoint_measurement": {
+        "left_y": 42.0,
+        "right_y": 34.0,
+        "span": 444,
+        "estimated_degrees": -1.032244691565731
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-4.png",
+      "sha256": "ee036abd14885b9762a890b230449481266fad36a7c295db363b0b16cffe95bf"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-5",
+      "native_box": [
+        1581,
+        1935,
+        1853,
+        2008
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          180,
+          69,
+          194,
+          72
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -1.2293,
+      "endpoint_measurement": {
+        "left_y": 37.0,
+        "right_y": 32.0,
+        "span": 233,
+        "estimated_degrees": -1.229334486477892
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-5.png",
+      "sha256": "3e3c0ddb9eaa80578463d565b6861c1365d2823d5fc62813dcfdea5af461c76b"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-10",
+      "native_box": [
+        323,
+        2161,
+        1902,
+        2248
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.4082,
+      "endpoint_measurement": {
+        "left_y": 50.0,
+        "right_y": 39.0,
+        "span": 1544,
+        "estimated_degrees": -0.40818841440107406
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-10.png",
+      "sha256": "cc45f261622a72e2b8fdfdea7f9efc2933cc26eb4bd1cdec6fd51d511b235b37"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-11",
+      "native_box": [
+        382,
+        2261,
+        1831,
+        2346
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.4055,
+      "endpoint_measurement": {
+        "left_y": 50.0,
+        "right_y": 40.0,
+        "span": 1413,
+        "estimated_degrees": -0.40548353128925846
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-11.png",
+      "sha256": "960a2a935de4a5773adcd5fa2e49e294a70dd81e28060728e7c2d6840b8aebe3"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-16",
+      "native_box": [
+        541,
+        2763,
+        1658,
+        2847
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          23,
+          83
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.5968,
+      "endpoint_measurement": {
+        "left_y": 45.0,
+        "right_y": 34.0,
+        "span": 1056,
+        "estimated_degrees": -0.5968094512291772
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-16.png",
+      "sha256": "2e7652e06c259d7fe7940264067e4d88853a2d6ec9fa3ac24ded35151eac4902"
+    },
+    {
+      "id": "howe-1830-p013-long-primer-19",
+      "native_box": [
+        633,
+        3068,
+        1567,
+        3146
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          36,
+          77
+        ]
+      ],
+      "deskew_counterclockwise_degrees": -0.5496,
+      "endpoint_measurement": {
+        "left_y": 36.0,
+        "right_y": 28.0,
+        "span": 834,
+        "estimated_degrees": -0.5495829476889471
+      },
+      "output": "reference/crops/howe-1830-p013-long-primer-19.png",
+      "sha256": "bd5ee7f7d78658f436fa78c85180ce723a1cff61e4b5f782dd2c8e546feec5b0"
+    },
+    {
+      "id": "howe-1830-p015-aspect-new-moon",
+      "native_box": [
+        421,
+        2212,
+        492,
+        2283
+      ],
+      "source_file": "reference/howe1830-15.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p015-aspect-new-moon.png",
+      "sha256": "ebdaa5ad5b787b65de2c63097d0b6bec282a16a36bc1de127b75b18973e188e4"
+    },
+    {
+      "id": "howe-1830-p015-math-reversed-join-relation",
+      "native_box": [
+        1296,
+        3095,
+        1390,
+        3182
+      ],
+      "source_file": "reference/howe1830-15.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p015-math-reversed-join-relation.png",
+      "sha256": "9a3af247c2e3447f62c0027dfda16e51f78093dcc0c5a4f5ba9208579377129b"
+    },
+    {
+      "id": "howe-1830-p015-math-squared-contains",
+      "native_box": [
+        1475,
+        3095,
+        1569,
+        3182
+      ],
+      "source_file": "reference/howe1830-15.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p015-math-squared-contains.png",
+      "sha256": "053146f2e0d5ea9549fd33f989021b58c18701ca5b1a55e0ffe4b2265e25cbb8"
+    },
+    {
+      "id": "howe-1830-p015-math-colon-minus",
+      "native_box": [
+        944,
+        3209,
+        1038,
+        3296
+      ],
+      "source_file": "reference/howe1830-15.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p015-math-colon-minus.png",
+      "sha256": "900ad18102667d6da97db58c17e6b0ae282815606d302401fa8cb70577c83290"
+    },
+    {
+      "id": "howe-1830-p011-pointing-hand",
+      "native_box": [
+        214,
+        3449,
+        293,
+        3516
+      ],
+      "source_file": "reference/howe1830-11.jp2",
+      "source_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p011-pointing-hand.png",
+      "sha256": "66861f22b9c01b44c61e8cfcd0ed6637a8eebf4b5599cee0feefdd9e679ebdea"
+    },
+    {
+      "id": "howe-1830-p141-five-line-pica-6-corner",
+      "native_box": [
+        3323,
+        1831,
+        3754,
+        2277
+      ],
+      "source_file": "reference/howe1830-141.jp2",
+      "source_rotation_counterclockwise": 90,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p141-five-line-pica-6-corner.png",
+      "sha256": "cc5eaba1af0954484d86026ad6b71769d1e4375986182347b038f7745c8ab06d"
+    },
+    {
+      "id": "howe-1830-p145-canon-1-repeat",
+      "native_box": [
+        364,
+        254,
+        647,
+        562
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p145-canon-1-repeat.png",
+      "sha256": "f312493f67075197b16bb695f1d3016b57762ef8fbfe1674ae86138882c61f6f"
+    },
+    {
+      "id": "howe-1830-p145-canon-3-repeat",
+      "native_box": [
+        602,
+        1074,
+        834,
+        1371
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p145-canon-3-repeat.png",
+      "sha256": "c83d48714cdbce95830ed87a4dfe32dcb20aa55d8ba6d19e878e3dd754929bff"
+    },
+    {
+      "id": "howe-1830-p145-two-lines-great-primer-1-corner",
+      "native_box": [
+        75,
+        1976,
+        295,
+        2208
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          215,
+          0,
+          220,
+          35
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p145-two-lines-great-primer-1-corner.png",
+      "sha256": "6608199a009be279dbe380ee81b6bcd28a8e4b6e68cf8e1cd73524682773e0c3"
+    },
+    {
+      "id": "howe-1830-p145-double-english-1-repeat",
+      "native_box": [
+        360,
+        2423,
+        519,
+        2617
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p145-double-english-1-repeat.png",
+      "sha256": "636fac626f784c213ebe105c6cdfa779fe83415c82bf07638703b8479101fc9b"
+    },
+    {
+      "id": "howe-1830-p147-two-lines-small-pica-6-corner",
+      "native_box": [
+        1955,
+        3162,
+        2096,
+        3311
+      ],
+      "source_file": "reference/howe1830-147.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p147-two-lines-small-pica-6-corner.png",
+      "sha256": "f080b0fcc5c1630910d84069c887747b2e946c11da5231a040d6ffa2363a427c"
+    },
+    {
+      "id": "howe-1830-p149-paragon-1",
+      "native_box": [
+        423,
+        389,
+        555,
+        541
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-paragon-1.png",
+      "sha256": "e49a03e55867b0d2132c0f8605097e2cd3356c3564c73ebfe5f35a46272acac3"
+    },
+    {
+      "id": "howe-1830-p149-paragon-2",
+      "native_box": [
+        441,
+        651,
+        553,
+        789
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-paragon-2.png",
+      "sha256": "7babb6e82cf623aaa0afd31709f88c3749d18dbe7a50d72c6ab83ddf137cae25"
+    },
+    {
+      "id": "howe-1830-p149-paragon-3",
+      "native_box": [
+        470,
+        893,
+        598,
+        1046
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-paragon-3.png",
+      "sha256": "d9272e5dd1bb71c2b865d6922c50d019611f7b645d9a03a1ece3e9233dc88b81"
+    },
+    {
+      "id": "howe-1830-p149-great-primer-4",
+      "native_box": [
+        346,
+        1964,
+        380,
+        2092
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-great-primer-4.png",
+      "sha256": "8ce35b54c9dc5322868c802f028636ff784e962523935e97c365f253a49f1675"
+    },
+    {
+      "id": "howe-1830-p149-english-1",
+      "native_box": [
+        437,
+        2297,
+        529,
+        2399
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-english-1.png",
+      "sha256": "b806fd3d4a2f6f26926b8ead86a2b2c701e351ae4b7a949a3a9586a7d569bb6f"
+    },
+    {
+      "id": "howe-1830-p149-english-4",
+      "native_box": [
+        439,
+        2710,
+        494,
+        2835
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-english-4.png",
+      "sha256": "fe287ffb4779820a5dc1d5da8bb59f4763374a9ce6905a938806f48dd0bc8d0b"
+    },
+    {
+      "id": "howe-1830-p149-english-5",
+      "native_box": [
+        458,
+        2865,
+        555,
+        2975
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-english-5.png",
+      "sha256": "0967abeabb067bbf08902f156cf0248b00b363ddbfda41a2947e60242eb0b92e"
+    },
+    {
+      "id": "howe-1830-p149-english-6",
+      "native_box": [
+        444,
+        3001,
+        535,
+        3107
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-english-6.png",
+      "sha256": "0b8892b9d62fb653d5fcc10bae45402eaad61e323b67a6513b13988d77f12957"
+    },
+    {
+      "id": "howe-1830-p149-english-7",
+      "native_box": [
+        425,
+        3154,
+        519,
+        3254
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-english-7.png",
+      "sha256": "79569abd2b2fde3c91ff9155b2865b269668c49427175a8d1cfeab1e101be661"
+    },
+    {
+      "id": "howe-1830-p149-english-8",
+      "native_box": [
+        446,
+        3296,
+        525,
+        3394
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p149-english-8.png",
+      "sha256": "7f1279043b635dd49343ff0324c370974a0842d5df7b2f1bef18bd2d30b7b243"
+    },
+    {
+      "id": "howe-1830-p151-pica-4",
+      "native_box": [
+        460,
+        289,
+        527,
+        366
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-4.png",
+      "sha256": "3a35843611a6ea811a91421ad79089c8341f732b7a0eb24507fda1476f9e3e07"
+    },
+    {
+      "id": "howe-1830-p151-pica-5",
+      "native_box": [
+        401,
+        440,
+        472,
+        505
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-5.png",
+      "sha256": "02486f55925e3fa1a185669ba6128206f4c5789ac6f1acf6a1da064685c6228e"
+    },
+    {
+      "id": "howe-1830-p151-pica-7",
+      "native_box": [
+        448,
+        676,
+        578,
+        769
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-7.png",
+      "sha256": "1cd8a6a0033d7ce56ef2ec7ab6676287c59d6b9e8db6a4c1b8a220b0ce5ae08c"
+    },
+    {
+      "id": "howe-1830-p151-pica-7-corner",
+      "native_box": [
+        110,
+        676,
+        177,
+        767
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-7-corner.png",
+      "sha256": "6e4782bf2e05557fd803f07d3ffff91cece87d679f236af831643ca0a6e8f93c"
+    },
+    {
+      "id": "howe-1830-p151-pica-8",
+      "native_box": [
+        454,
+        812,
+        578,
+        914
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-8.png",
+      "sha256": "63c83d9f1a1f5faf16683cc03db29223f3992af896ee963b503bfb27981823fc"
+    },
+    {
+      "id": "howe-1830-p151-pica-9",
+      "native_box": [
+        415,
+        962,
+        490,
+        1023
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-9.png",
+      "sha256": "e4d34cac9921341e23695b0704086ba038534e7bf25ea595a87fb3671c91a9d9"
+    },
+    {
+      "id": "howe-1830-p151-pica-9-terminal",
+      "native_box": [
+        140,
+        962,
+        179,
+        1036
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-9-terminal.png",
+      "sha256": "ec52a8768b102da0e96c662bb4fb09059d3fff752cb82360c88d89e39081391e"
+    },
+    {
+      "id": "howe-1830-p151-pica-10",
+      "native_box": [
+        405,
+        1078,
+        570,
+        1178
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-pica-10.png",
+      "sha256": "9d03969e35197fa9ee7123c485c2a03fe29af4e4b9b4dfbdf2e0265f799d7c30"
+    },
+    {
+      "id": "howe-1830-p151-small-pica-1",
+      "native_box": [
+        496,
+        1432,
+        627,
+        1524
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-small-pica-1.png",
+      "sha256": "32d737fde2f216473358a001a9dfbeca2fb8cf3ef72f6bd7bc58e2629cd949cc"
+    },
+    {
+      "id": "howe-1830-p151-small-pica-2",
+      "native_box": [
+        456,
+        1559,
+        509,
+        1638
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-small-pica-2.png",
+      "sha256": "46309e38dbb1dcf39e88c701e9eb93f6a71d1c4819767271336021694757a73c"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-2",
+      "native_box": [
+        441,
+        2134,
+        503,
+        2212
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-2.png",
+      "sha256": "44721a8e93fa8975dac52d2cf27730ac4c0bf2c71369459c4a4272d8c2a00a8a"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-4",
+      "native_box": [
+        423,
+        2366,
+        488,
+        2448
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-4.png",
+      "sha256": "5a3d354dd5d33ea0cd60c0fa2d0cc7f8f0fab391fead71e6c806042b2cb33c6b"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-6-corner",
+      "native_box": [
+        112,
+        2609,
+        157,
+        2674
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-6-corner.png",
+      "sha256": "707b75ac3ba429f0f70e5aa48d75048e3eeb94d99b42e67db9ae0bda8dc11436"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-9",
+      "native_box": [
+        460,
+        2953,
+        531,
+        2999
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-9.png",
+      "sha256": "c433a8fe99973d573bab6f19b0106d7caaaf997d1177c17b3dc24250429d5739"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-12",
+      "native_box": [
+        466,
+        3290,
+        523,
+        3372
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-12.png",
+      "sha256": "0dd80b03097d88ec52b3f0e877fa0b272958694748eec715f7d5809998477ec6"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-15",
+      "native_box": [
+        427,
+        3628,
+        557,
+        3793
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-15.png",
+      "sha256": "b227acccb1df66e17c2555a45504b145bb0c727c66fc48e9d48e53c25fe2ec40"
+    },
+    {
+      "id": "howe-1830-p153-brevier-2",
+      "native_box": [
+        431,
+        482,
+        527,
+        553
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-brevier-2.png",
+      "sha256": "f26685852c3ed8fadfbb96a20e57241d89a51250a42394acb36e29c3233b06cf"
+    },
+    {
+      "id": "howe-1830-p153-brevier-4",
+      "native_box": [
+        486,
+        692,
+        578,
+        761
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-brevier-4.png",
+      "sha256": "4f49813c5581356820442f4b3f65842a3805d65c411853df48d5fbaa2f0311ab"
+    },
+    {
+      "id": "howe-1830-p153-brevier-6",
+      "native_box": [
+        446,
+        906,
+        515,
+        965
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-brevier-6.png",
+      "sha256": "3c8fd7ae0a6ab923af590b1da5189cf4e073fb99265d6ecbe6ac2cdf77f7a837"
+    },
+    {
+      "id": "howe-1830-p153-brevier-7",
+      "native_box": [
+        454,
+        1011,
+        523,
+        1078
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-brevier-7.png",
+      "sha256": "0dd356b67ab6b8cd31b1e11a258426ab512f87507ead1524f54472ecb59625ab"
+    },
+    {
+      "id": "howe-1830-p153-brevier-8",
+      "native_box": [
+        478,
+        1111,
+        533,
+        1176
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-brevier-8.png",
+      "sha256": "41319a989ebecc88d8d57b39df3d53adeabb66a75bed83cfcdfeeb76bcafa00e"
+    },
+    {
+      "id": "howe-1830-p153-minion-1-terminal",
+      "native_box": [
+        2006,
+        1703,
+        2045,
+        1750
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-1-terminal.png",
+      "sha256": "f8b694a7d3ca6d29f8328074f8fcd6c55da93af6df8ffa6152b47d6d0a0afe00"
+    },
+    {
+      "id": "howe-1830-p153-minion-2",
+      "native_box": [
+        470,
+        1799,
+        513,
+        1852
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-2.png",
+      "sha256": "46a8688b0bec8108fef97d03eae46073d40504bc7c3fb83bbef981c3423da584"
+    },
+    {
+      "id": "howe-1830-p153-minion-6-corner",
+      "native_box": [
+        96,
+        2185,
+        146,
+        2248
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-6-corner.png",
+      "sha256": "674dc542ac52cba8e648cf4861bba38da5437e287d776aa94aa35bbc52598ad4"
+    },
+    {
+      "id": "howe-1830-p153-minion-7",
+      "native_box": [
+        439,
+        2289,
+        486,
+        2332
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-7.png",
+      "sha256": "d47584efdd465f4e2c97e270f5f4121daac7c9f8c453eda01c9e4da1437bf42b"
+    },
+    {
+      "id": "howe-1830-p153-minion-11",
+      "native_box": [
+        482,
+        2682,
+        501,
+        2716
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-11.png",
+      "sha256": "949aeb416252ab32035d9e25703d860a028d4e6a0a14e009a046cd675d5178f1"
+    },
+    {
+      "id": "howe-1830-p153-minion-12",
+      "native_box": [
+        421,
+        2765,
+        517,
+        2820
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-12.png",
+      "sha256": "b1c452c2929465b56435b078329730a96ff739029bdbf191d637df17a697aad1"
+    },
+    {
+      "id": "howe-1830-p153-nonpareil-1",
+      "native_box": [
+        442,
+        3264,
+        490,
+        3317
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-nonpareil-1.png",
+      "sha256": "1eefce4e2d5d98b05734b51147fd177a0fee468ce34943ec8bd0fd667b516d5f"
+    },
+    {
+      "id": "howe-1830-p153-nonpareil-4",
+      "native_box": [
+        448,
+        3541,
+        490,
+        3600
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-nonpareil-4.png",
+      "sha256": "fec980d560637bd4efaee694d567e7ffc0a64183805bd2dd5624f625d72d3883"
+    },
+    {
+      "id": "howe-1830-p155-pearl-2",
+      "native_box": [
+        515,
+        503,
+        596,
+        547
+      ],
+      "source_file": "reference/howe1830-155.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p155-pearl-2.png",
+      "sha256": "1bebb52aa632a76d9f41d78e872349c0efe1c04ea9119a68a48a5a3c0aa49eab"
+    },
+    {
+      "id": "howe-1830-p155-pearl-4",
+      "native_box": [
+        494,
+        674,
+        531,
+        714
+      ],
+      "source_file": "reference/howe1830-155.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p155-pearl-4.png",
+      "sha256": "bba1ab045ed4deb5fd59778c1fe4ebbdb497e58ff16c643405a9478ff0429f60"
+    },
+    {
+      "id": "howe-1830-p145-canon-3-corner",
+      "native_box": [
+        73,
+        1068,
+        370,
+        1373
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0.326438,
+      "rotation_evidence": {
+        "method": "Robust linear fit to native top ruled edge, central60percent; rigid rotation only",
+        "native_crop_width": 297,
+        "sample_count": 179,
+        "residual_rms_px": 0.328,
+        "measured_angle_degrees": 0.326438
+      },
+      "output": "reference/crops/howe-1830-p145-canon-3-corner.png",
+      "sha256": "c45cd5c62c77c3f32e47e9d3d942a6d7048554bd4320e2d5b1afa442b2e9acae"
+    },
+    {
+      "id": "howe-1830-p145-double-english-1-corner",
+      "native_box": [
+        33,
+        2419,
+        208,
+        2625
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.45914,
+      "rotation_evidence": {
+        "method": "Robust linear fit to native top ruled edge, central60percent; rigid rotation only",
+        "native_crop_width": 175,
+        "sample_count": 105,
+        "residual_rms_px": 0.348,
+        "measured_angle_degrees": -0.45914
+      },
+      "output": "reference/crops/howe-1830-p145-double-english-1-corner.png",
+      "sha256": "f2f0826cc5f519521e24eb8b1553eedb097a9bc2be8a72c3f7c9a74096053117"
+    },
+    {
+      "id": "howe-1830-p145-double-english-2-repeat",
+      "native_box": [
+        669,
+        2714,
+        857,
+        2920
+      ],
+      "source_file": "reference/howe1830-145.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p145-double-english-2-repeat.png",
+      "sha256": "044f281a75ebdbb20b7e57f5cf652e65575abb435d0fbdbc5b38026f4caacc00"
+    },
+    {
+      "id": "howe-1830-p149-great-primer-4-corner",
+      "native_box": [
+        61,
+        1966,
+        177,
+        2098
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -1.226827,
+      "rotation_evidence": {
+        "method": "Robust linear fit to native top ruled edge, central60percent; rigid rotation only",
+        "native_crop_width": 116,
+        "sample_count": 70,
+        "residual_rms_px": 0.25,
+        "measured_angle_degrees": -1.226827
+      },
+      "output": "reference/crops/howe-1830-p149-great-primer-4-corner.png",
+      "sha256": "d4d999b3d57992cd5eadbf82839852ec4602c32e25d65f066934edb812061c4e"
+    },
+    {
+      "id": "howe-1830-p149-pica-2",
+      "native_box": [
+        456,
+        3756,
+        537,
+        3862
+      ],
+      "source_file": "reference/howe1830-149.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -2.66992,
+      "rotation_evidence": {
+        "method": "Robust linear fit to native top ruled edge, central60percent; rigid rotation only",
+        "native_crop_width": 81,
+        "sample_count": 49,
+        "residual_rms_px": 0.352,
+        "measured_angle_degrees": -2.66992
+      },
+      "output": "reference/crops/howe-1830-p149-pica-2.png",
+      "sha256": "d97e441cf6e490ac76afbe18e28d357b3c12be3e206218747abf91ba5cbcd3eb"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-5",
+      "native_box": [
+        433,
+        2485,
+        500,
+        2568
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-5.png",
+      "sha256": "b0c1e3b34d996fd2720dc9399a5aede519be0aef77ab615596f4b4b15577e832"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-6",
+      "native_box": [
+        401,
+        2611,
+        535,
+        2664
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.24914,
+      "rotation_evidence": {
+        "method": "Robust linear fit to native top ruled edge, central60percent; rigid rotation only",
+        "native_crop_width": 134,
+        "sample_count": 80,
+        "residual_rms_px": 0.264,
+        "measured_angle_degrees": -0.24914
+      },
+      "output": "reference/crops/howe-1830-p151-long-primer-6.png",
+      "sha256": "b46b8827b376d35924957f6df658be83d8a5a87f7d833df564af1bea49dafa23"
+    },
+    {
+      "id": "howe-1830-p151-long-primer-14",
+      "native_box": [
+        442,
+        3528,
+        509,
+        3606
+      ],
+      "source_file": "reference/howe1830-151.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          3,
+          78
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p151-long-primer-14.png",
+      "sha256": "6d123505ea5c0c2a5489ef4062fb17e16b0f1d3531551b3f7f875333526a4d9c"
+    },
+    {
+      "id": "howe-1830-p153-minion-8",
+      "native_box": [
+        411,
+        2387,
+        517,
+        2436
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          3,
+          49
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-8.png",
+      "sha256": "ea48b6e6b7eb66aa58e7ec04d2cb65c32470f2e53d19b0211f5c2c55806761d1"
+    },
+    {
+      "id": "howe-1830-p153-minion-12-corner",
+      "native_box": [
+        114,
+        2763,
+        163,
+        2818
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.762017,
+      "rotation_evidence": {
+        "method": "Robust linear fit to native top ruled edge, central60percent; rigid rotation only",
+        "native_crop_width": 49,
+        "sample_count": 29,
+        "residual_rms_px": 0.449,
+        "measured_angle_degrees": -0.762017
+      },
+      "output": "reference/crops/howe-1830-p153-minion-12-corner.png",
+      "sha256": "b7779a35f0c84e0092edd2d7ce9e9a253c72384bf20d1d34c906b93d94762c09"
+    },
+    {
+      "id": "howe-1830-p153-minion-13",
+      "native_box": [
+        452,
+        2867,
+        539,
+        2918
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          85,
+          0,
+          87,
+          51
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-13.png",
+      "sha256": "2ef80024b6a22666d8c7aeb297027988723d280f5d7dc9ba14ce77569d95e330"
+    },
+    {
+      "id": "howe-1830-p153-nonpareil-2",
+      "native_box": [
+        441,
+        3361,
+        500,
+        3414
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-nonpareil-2.png",
+      "sha256": "f41f4e9eb1960881f5d171e095f74fe2f45b77b8d401e45096c6730c3e70f9aa"
+    },
+    {
+      "id": "howe-1830-p153-nonpareil-5",
+      "native_box": [
+        423,
+        3628,
+        462,
+        3691
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-nonpareil-5.png",
+      "sha256": "5b1f0c57bae766e658329b47e6318631fa1dfd4ef5827e2989a060de14a957ef"
+    },
+    {
+      "id": "howe-1830-p155-large-oval",
+      "native_box": [
+        358,
+        2694,
+        1074,
+        3954
+      ],
+      "source_file": "reference/howe1830-155.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.831177,
+      "rotation_evidence": {
+        "method": "Principal axis of native complete oval ink; rotate major axis vertical without nonuniform scaling",
+        "measured_angle_degrees": -0.831177
+      },
+      "output": "reference/crops/howe-1830-p155-large-oval.png",
+      "sha256": "9b8cc03ffad6a6972117b5c0abcf6bd5e72f59f8659e114e979b5cb4662f7dc7"
+    },
+    {
+      "id": "howe-1830-p153-minion-3",
+      "native_box": [
+        433,
+        1896,
+        492,
+        1935
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-3.png",
+      "sha256": "1443308dc5c553a54679288e58df003abe5b10fcc0aef6a9eba6c076f8834af6"
+    },
+    {
+      "id": "howe-1830-p153-nonpareil-7",
+      "native_box": [
+        452,
+        3807,
+        531,
+        3870
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-nonpareil-7.png",
+      "sha256": "3a6e2eb410d724a192d0bab967a074829969286f0539a66c9d5e7b58a22fd68a"
+    },
+    {
+      "id": "howe-1830-p013-border-2",
+      "native_box": [
+        1298,
+        551,
+        1470,
+        714
+      ],
+      "source_file": "reference/howe1830-13.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          160,
+          0,
+          172,
+          163
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p013-border-2.png",
+      "sha256": "aab48b1f43b8a4964378743a7588c5976e56c8059620b91275bc165c1f086693"
+    },
+    {
+      "id": "howe-1830-p153-minion-5",
+      "native_box": [
+        389,
+        2076,
+        437,
+        2139
+      ],
+      "source_file": "reference/howe1830-153.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "erase_before_rotation": [
+        [
+          0,
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          57,
+          2,
+          63
+        ]
+      ],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p153-minion-5.png",
+      "sha256": "1e9d28456f2cfe7cc730cd56e6610f4400ab9fe05662985e345eb8d8ff57a893"
+    },
+    {
+      "id": "howe-1830-p204-metal-165",
+      "native_box": [
+        2337,
+        1188,
+        3759,
+        1454
+      ],
+      "source_file": "reference/howe1830-204.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        47,
+        55,
+        1370,
+        195
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p204-metal-165.png",
+      "sha256": "3bd5035664151480caba7708feebb50b8b139079d151f86e59b2e3eee7abc3bc"
+    },
+    {
+      "id": "howe-1830-p238-metal-295",
+      "native_box": [
+        247,
+        3355,
+        1464,
+        4336
+      ],
+      "source_file": "reference/howe1830-238.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        79,
+        45,
+        1142,
+        958
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          300,
+          360,
+          900,
+          580
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -1.0337,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p238-metal-295",
+        "angle": -1.0337,
+        "residual_px": 1.19,
+        "fraction": 0.65,
+        "range_x": [
+          340,
+          722
+        ]
+      },
+      "output": "reference/crops/howe-1830-p238-metal-295.png",
+      "sha256": "5aa9bc1108b7d5c1bcbef61fc46e8d98ff2e77fc8dc21541cb722dafd3a7e34b"
+    },
+    {
+      "id": "howe-1830-p238-metal-298-label-299",
+      "native_box": [
+        1445,
+        3258,
+        2217,
+        4336
+      ],
+      "source_file": "reference/howe1830-238.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        62,
+        22,
+        697,
+        965
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          250,
+          240,
+          430,
+          760
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p238-metal-298-label-299.png",
+      "sha256": "e0037489a8bff063125d94cd2b980a4cd8fca8d5d2589aec6362257b6ddb6b29"
+    },
+    {
+      "id": "howe-1830-p246-metal-325",
+      "native_box": [
+        0,
+        146,
+        630,
+        2842
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        295,
+        155,
+        2540,
+        325
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p246-metal-325.png",
+      "sha256": "86adcec29ff2c90ec67cae969162a1567c555e9a65d2ac0dfaf6cbe0904d7ee6"
+    },
+    {
+      "id": "howe-1830-p246-metal-326",
+      "native_box": [
+        510,
+        821,
+        828,
+        2626
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        56,
+        98,
+        1805,
+        262
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p246-metal-326.png",
+      "sha256": "b841e6ef58a9d88d8a13b934f06d6e578abf2528e1007dc68d3f57a2a3d17a1f"
+    },
+    {
+      "id": "howe-1830-p246-metal-328",
+      "native_box": [
+        859,
+        2101,
+        2251,
+        4094
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        76,
+        68,
+        1302,
+        1909
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          560,
+          600,
+          790,
+          1250
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p246-metal-328.png",
+      "sha256": "aeddf90a669c6a95165db4c608a5f983a59b95e0f91e406a73b90b85982dd5b1"
+    },
+    {
+      "id": "howe-1830-p246-metal-329",
+      "native_box": [
+        795,
+        186,
+        2246,
+        2187
+      ],
+      "source_file": "reference/howe1830-246.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        90,
+        83,
+        1375,
+        1917
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          620,
+          680,
+          880,
+          1320
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": -0.7458,
+      "rotation_evidence": {
+        "method": "Robust least-squares fit of the outer horizontal frame edge over the central 36 percent of the upright crop; low-residual measurements only. Rigid rotation, no perspective distortion.",
+        "id": "howe-1830-p246-metal-329",
+        "angle": -0.7458,
+        "residual_px": 0.85,
+        "fraction": 1.0,
+        "range_x": [
+          411,
+          873
+        ]
+      },
+      "output": "reference/crops/howe-1830-p246-metal-329.png",
+      "sha256": "50e54bddab759d6092a39dbf1a555de8eca4224d9634c6f4a86283a143a88c32"
+    },
+    {
+      "id": "howe-1830-p248-metal-330",
+      "native_box": [
+        1,
+        208,
+        2051,
+        1696
+      ],
+      "source_file": "reference/howe1830-248.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        102,
+        96,
+        1964,
+        1369
+      ],
+      "erase_in_raw_upright_crop": [
+        [
+          760,
+          620,
+          1350,
+          800
+        ]
+      ],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p248-metal-330.png",
+      "sha256": "8fb0e13a873bef34789ab869d9e9d7b37335a5d21ee59a119b0d30b6f207b08c"
+    },
+    {
+      "id": "howe-1830-p256-metal-398",
+      "native_box": [
+        1028,
+        922,
+        1471,
+        1524
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        70,
+        46,
+        554,
+        396
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-398.png",
+      "sha256": "5b2210390bc951545900e086907dedf7a8c9b937106de9d7a1669f994b111c7e"
+    },
+    {
+      "id": "howe-1830-p256-metal-399",
+      "native_box": [
+        1018,
+        270,
+        1475,
+        895
+      ],
+      "source_file": "reference/howe1830-256.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 270,
+      "trim_in_upright_crop": [
+        83,
+        36,
+        577,
+        400
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p256-metal-399.png",
+      "sha256": "d79b9153b6472937c83aaf1ba3963d22213c1931191aa7df5e3c6f305fadb5fe"
+    },
+    {
+      "id": "howe-1830-p204-metal-163-cornucopia",
+      "native_box": [
+        461,
+        323,
+        2951,
+        1279
+      ],
+      "source_file": "reference/howe1830-204.jp2",
+      "source_rotation_counterclockwise": 0,
+      "crop_rotation_counterclockwise": 0,
+      "trim_in_upright_crop": [
+        273,
+        250,
+        2241,
+        691
+      ],
+      "erase_in_raw_upright_crop": [],
+      "erase_before_rotation": [],
+      "deskew_counterclockwise_degrees": 0,
+      "rotation_evidence": null,
+      "output": "reference/crops/howe-1830-p204-metal-163-cornucopia.png",
+      "sha256": "abe9f61a6d9e727ce2fa37e5a8e117aaa5211cdd7dedc0d9f4f2837929a72691"
+    }
+  ]
+}

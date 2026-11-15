@@ -794,38 +794,45 @@
       }
     },
     "": {
-      "file": "reference/pdf-223.png",
+      "file": "reference/howe1830-crops/howe-1830-p170-metal-41.png",
       "box": [
-        154,
-        573,
-        725,
-        1162
+        0,
+        0,
+        553,
+        585
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1783.6006716093661,
+      "max_ink_dimension": 1783.6006716093661,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 8.854658619876012,
       "bearings": [
-        64,
-        64
+        131.0,
+        64.0
       ],
-      "paper_normalization_radius": 0,
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "frame_threshold": 155,
       "blur": 0.3,
-      "component_min_area": 3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
+      "frame_threshold": 135,
       "multitone": {
-        "thresholds": {
-          "primary": 105,
-          "secondary": 135,
-          "tertiary": 155
-        },
         "separation": "native-mask-bands",
-        "round_inputs": false
-      }
+        "thresholds": {
+          "primary": 100,
+          "secondary": 120,
+          "tertiary": 135
+        }
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        33.538610681040495,
+        0.0033040699876210056
+      ]
     },
     "": {
       "file": "reference/pdf-227.png",
@@ -9820,52 +9827,44 @@
       "rotation": 270
     },
     "": {
-      "file": "reference/pdf-357.png",
+      "file": "reference/howe1830-crops/howe-1830-p244-metal-320.png",
       "box": [
-        88,
-        245,
-        575,
-        710
+        0,
+        0,
+        484,
+        474
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1776.6021856685998,
+      "max_ink_dimension": 1800.373841463139,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 12.929786978822005,
       "bearings": [
-        64,
-        64
+        63.62615853686104,
+        64.0
       ],
-      "paper_normalization_radius": 0,
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "frame_threshold": 155,
       "blur": 0.3,
-      "component_min_area": 3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed historical impression, uniformly scaled. Catalogue labels excluded; documented erasures remove only separate type and neighbouring fragments. Three vector tones interpret observed scan strength.",
+      "frame_threshold": 135,
       "multitone": {
-        "thresholds": {
-          "primary": 105,
-          "secondary": 135,
-          "tertiary": 155
-        },
         "separation": "native-mask-bands",
-        "round_inputs": false
+        "thresholds": {
+          "primary": 100,
+          "secondary": 120,
+          "tertiary": 135
+        }
       },
-      "rotation": 270,
-      "erase": [
-        [
-          0,
-          0,
-          465,
-          19
-        ],
-        [
-          175,
-          0,
-          465,
-          36
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.1869207315694439,
+        -0.19019252827581568
       ]
     },
     "": {

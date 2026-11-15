@@ -4,7 +4,7 @@ Historical cuts from A specimen of printing types and ornaments from the Baltimo
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**381 icon(s) · Version 1.005 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
+**381 icon(s) · Version 1.006 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreCuts1832-Regular.otf) · [TTF](fonts/BaltimoreCuts1832-Regular.ttf) · [WOFF2](web/BaltimoreCuts1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -159,6 +159,11 @@ The fonts and editable font source data are available under your choice of the [
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 229, Internet Archive leaf 228](https://archive.org/details/ldpd_12198261_000/page/n228/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 231, Internet Archive leaf 230](https://archive.org/details/ldpd_12198261_000/page/n230/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
 - [Job room type faces (Government Printing Office, 1904), printed page 169; PDF page 185, Internet Archive leaf 185; additional impressions of Baltimore 1832 Nos. 243 and 141](https://archive.org/details/123459_1904/page/n185/mode/1up) — 1904 United States historical publication, public domain by age. Scan contributed and sponsored by the U.S. Government Printing Office. The archive metadata note about a title-page copyright is retained; no copyright claim is inferred to survive for this 1904 publication. No modern digital artwork was traced. [Rights basis](https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 158, archive leaf 158](https://archive.org/details/specimenofprinti00jhow/page/n158/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 180, archive leaf 180](https://archive.org/details/specimenofprinti00jhow/page/n180/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 174, archive leaf 174](https://archive.org/details/specimenofprinti00jhow/page/n174/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 182, archive leaf 182](https://archive.org/details/specimenofprinti00jhow/page/n182/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
+- [Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 210, archive leaf 210](https://archive.org/details/specimenofprinti00jhow/page/n210/mode/1up) — 1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions. [Rights basis](https://archive.org/details/specimenofprinti00jhow).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and
@@ -187,7 +192,7 @@ All downloadable fonts use reviewed simplifications for the most detailed engrav
 Download every part and extract them into the same folder.
 
 - [ZIP part 1](downloads/baltimore-cuts-1832-web.zip) — 89.5 MB
-- [ZIP part 2](downloads/baltimore-cuts-1832-web-2.zip) — 89.3 MB
-- [ZIP part 3](downloads/baltimore-cuts-1832-web-3.zip) — 81.0 MB
-- [ZIP part 4](downloads/baltimore-cuts-1832-web-4.zip) — 80.0 MB
-- [ZIP part 5](downloads/baltimore-cuts-1832-web-5.zip) — 23.6 MB
+- [ZIP part 2](downloads/baltimore-cuts-1832-web-2.zip) — 89.1 MB
+- [ZIP part 3](downloads/baltimore-cuts-1832-web-3.zip) — 80.4 MB
+- [ZIP part 4](downloads/baltimore-cuts-1832-web-4.zip) — 80.8 MB
+- [ZIP part 5](downloads/baltimore-cuts-1832-web-5.zip) — 23.2 MB

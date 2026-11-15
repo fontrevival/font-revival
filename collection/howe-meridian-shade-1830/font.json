@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "howe-meridian-shade-1830",
+  "name": "Howe Meridian Shade 1830",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "HoweMeridianShade1830-Regular",
+  "year": 1830,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "J. Howe & Co., Philadelphia",
+  "description": "Meridian Shade titling capitals and figures from the 1830 J. Howe & Co. specimen.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "HOWE LETTER FOUNDRY",
+  "observed": "Complete A–Z capital alphabet, figures 0–9 dollar sign and printed punctuation &,-.’;:!? directly sampled from Two Lines Nonpareil Meridian Shade, unnumbered PDF page 109 (archive leaf 109). The C uses the matching intact Boston 1832 impression on archive leaf113.",
+  "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source-size label identifies the supplying impression; the font is freely scalable.",
+  "sources": [
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), Two Lines Nonpareil Meridian Shade, unnumbered PDF page 109",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n109/mode/1up",
+      "file": "reference/howe1830-109.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Boston Type and Stereotype Foundry specimen (1832), Two Lines Nonpareil Meridian Shade, archive leaf113; intact C impression",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n113/mode/1up",
+      "file": "reference/boston1832-113.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Exact native JP2 and lossless quarter-turn retained. A measured rigid rotation corrects page tilt; see reference/derivation.json. Source row labels are provenance, not separate products."
+  },
+  "character_style": "capitals-only",
+  "character_set": " !$&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
+  "character_set_notes": "Complete historical capitals-only titling alphabet, figures and the accompanying observed symbols. Lowercase input aliases capitals. Unsupported modern symbols are omitted."
+}

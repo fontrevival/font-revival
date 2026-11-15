@@ -1,0 +1,3343 @@
+{
+  "schema_version": 1,
+  "font_metrics": {
+    "units_per_em": 2048,
+    "ascent": 1900,
+    "descent": -148,
+    "line_gap": 0,
+    "cap_height": 1800,
+    "x_height": 1800,
+    "win_ascent": 1900,
+    "win_descent": 148
+  },
+  "glyphs": {
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-a.png",
+      "box": [
+        0,
+        0,
+        250,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-d.png",
+      "box": [
+        0,
+        0,
+        285,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-e.png",
+      "box": [
+        0,
+        0,
+        272,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-g.png",
+      "box": [
+        0,
+        0,
+        243,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-h.png",
+      "box": [
+        0,
+        0,
+        276,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-i.png",
+      "box": [
+        0,
+        0,
+        164,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-k.png",
+      "box": [
+        0,
+        0,
+        313,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-m.png",
+      "box": [
+        0,
+        0,
+        327,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-n.png",
+      "box": [
+        0,
+        0,
+        245,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-o.png",
+      "box": [
+        0,
+        0,
+        235,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-s.png",
+      "box": [
+        0,
+        0,
+        246,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-t.png",
+      "box": [
+        0,
+        0,
+        237,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-u.png",
+      "box": [
+        0,
+        0,
+        249,
+        298
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-litho-v.png",
+      "box": [
+        0,
+        0,
+        242,
+        290
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-ampersand.png",
+      "box": [
+        0,
+        0,
+        130,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-comma.png",
+      "box": [
+        0,
+        0,
+        66,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-hyphen.png",
+      "box": [
+        0,
+        0,
+        79,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-period.png",
+      "box": [
+        0,
+        0,
+        57,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-colon.png",
+      "box": [
+        0,
+        0,
+        58,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-semicolon.png",
+      "box": [
+        0,
+        0,
+        57,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-a.png",
+      "box": [
+        0,
+        0,
+        121,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-b.png",
+      "box": [
+        0,
+        0,
+        118,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-c.png",
+      "box": [
+        0,
+        0,
+        96,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-d.png",
+      "box": [
+        0,
+        0,
+        121,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p243-scroll-e.png",
+      "box": [
+        0,
+        0,
+        112,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-f.png",
+      "box": [
+        0,
+        0,
+        104,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-g.png",
+      "box": [
+        0,
+        0,
+        115,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-h.png",
+      "box": [
+        0,
+        0,
+        127,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-i.png",
+      "box": [
+        0,
+        0,
+        78,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-j.png",
+      "box": [
+        0,
+        0,
+        103,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-k.png",
+      "box": [
+        0,
+        0,
+        128,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-l.png",
+      "box": [
+        0,
+        0,
+        106,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-m.png",
+      "box": [
+        0,
+        0,
+        139,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-n.png",
+      "box": [
+        0,
+        0,
+        115,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-o.png",
+      "box": [
+        0,
+        0,
+        111,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-p.png",
+      "box": [
+        0,
+        0,
+        112,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-q.png",
+      "box": [
+        0,
+        0,
+        108,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p243-scroll-r.png",
+      "box": [
+        0,
+        0,
+        120,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-s.png",
+      "box": [
+        0,
+        0,
+        87,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-t.png",
+      "box": [
+        0,
+        0,
+        108,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-u.png",
+      "box": [
+        0,
+        0,
+        110,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-v.png",
+      "box": [
+        0,
+        0,
+        116,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-w.png",
+      "box": [
+        0,
+        0,
+        153,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-x.png",
+      "box": [
+        0,
+        0,
+        109,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-y.png",
+      "box": [
+        0,
+        0,
+        115,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-z.png",
+      "box": [
+        0,
+        0,
+        99,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-ae.png",
+      "box": [
+        0,
+        0,
+        143,
+        151
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-oe.png",
+      "box": [
+        0,
+        0,
+        165,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-apostrophe.png",
+      "box": [
+        0,
+        0,
+        50,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 55,
+        "maximum": 215
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p240-scroll-shaded-ampersand.png",
+      "box": [
+        0,
+        0,
+        277,
+        203
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-comma.png",
+      "box": [
+        0,
+        0,
+        66,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-hyphen.png",
+      "box": [
+        0,
+        0,
+        81,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-period.png",
+      "box": [
+        0,
+        0,
+        56,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-colon.png",
+      "box": [
+        0,
+        0,
+        56,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-semicolon.png",
+      "box": [
+        0,
+        0,
+        60,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-a.png",
+      "box": [
+        0,
+        0,
+        300,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-b.png",
+      "box": [
+        0,
+        0,
+        276,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-c.png",
+      "box": [
+        0,
+        0,
+        240,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-d.png",
+      "box": [
+        0,
+        0,
+        287,
+        286
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-e.png",
+      "box": [
+        0,
+        0,
+        267,
+        287
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-f.png",
+      "box": [
+        0,
+        0,
+        266,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p240-scroll-shaded-g.png",
+      "box": [
+        0,
+        0,
+        188,
+        211
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p241-scroll-shaded-h.png",
+      "box": [
+        0,
+        0,
+        172,
+        196
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-i.png",
+      "box": [
+        0,
+        0,
+        198,
+        297
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-j.png",
+      "box": [
+        0,
+        0,
+        102,
+        150
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-k.png",
+      "box": [
+        0,
+        0,
+        333,
+        297
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels. All registered contours shift four font units right to keep recovered faint ink inside the original advance.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        4,
+        0
+      ]
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-l.png",
+      "box": [
+        0,
+        0,
+        265,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-m.png",
+      "box": [
+        0,
+        0,
+        331,
+        286
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-n.png",
+      "box": [
+        0,
+        0,
+        295,
+        286
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-o.png",
+      "box": [
+        0,
+        0,
+        261,
+        287
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-p.png",
+      "box": [
+        0,
+        0,
+        299,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-q.png",
+      "box": [
+        0,
+        0,
+        109,
+        150
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-r.png",
+      "box": [
+        0,
+        0,
+        302,
+        286
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-s.png",
+      "box": [
+        0,
+        0,
+        198,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-t.png",
+      "box": [
+        0,
+        0,
+        290,
+        287
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-u.png",
+      "box": [
+        0,
+        0,
+        295,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-v.png",
+      "box": [
+        0,
+        0,
+        277,
+        297
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p243-scroll-shaded-w.png",
+      "box": [
+        0,
+        0,
+        158,
+        134
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-x.png",
+      "box": [
+        0,
+        0,
+        107,
+        150
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p239-scroll-shaded-y.png",
+      "box": [
+        0,
+        0,
+        323,
+        305
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p240-scroll-shaded-z.png",
+      "box": [
+        0,
+        0,
+        162,
+        211
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-ae.png",
+      "box": [
+        0,
+        0,
+        142,
+        150
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-oe.png",
+      "box": [
+        0,
+        0,
+        163,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p242-scroll-shaded-apostrophe.png",
+      "box": [
+        0,
+        0,
+        50,
+        136
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 150,
+      "blur": 0.2,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop. Recorded monochrome-only thresholds preserve faint engraving; frame and tonal layers use native pixels.",
+      "frame_threshold": 220,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 150,
+          "tertiary": 215
+        },
+        "separation": "native-mask-bands"
+      },
+      "monochrome_adaptive_threshold": {
+        "radius": 6,
+        "offset": 3,
+        "minimum": 75,
+        "maximum": 225
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p245-text-c.png",
+      "box": [
+        0,
+        0,
+        214,
+        231
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 210,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop.",
+      "frame_threshold": 245,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 180,
+          "tertiary": 240
+        },
+        "separation": "native-mask-bands"
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p245-text-l.png",
+      "box": [
+        0,
+        0,
+        226,
+        229
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 210,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop.",
+      "frame_threshold": 245,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 180,
+          "tertiary": 240
+        },
+        "separation": "native-mask-bands"
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p245-text-f.png",
+      "box": [
+        0,
+        0,
+        237,
+        231
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 210,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop.",
+      "frame_threshold": 245,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 180,
+          "tertiary": 240
+        },
+        "separation": "native-mask-bands"
+      }
+    },
+    "": {
+      "file": "reference/crops/caslon-1841-p245-text-s.png",
+      "box": [
+        0,
+        0,
+        227,
+        225
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 210,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical ornament; uniform scaling, recorded cleanup and measured straightening; any quadrilateral rectification is recorded with the source crop.",
+      "frame_threshold": 245,
+      "multitone": {
+        "thresholds": {
+          "primary": 85,
+          "secondary": 180,
+          "tertiary": 240
+        },
+        "separation": "native-mask-bands"
+      }
+    }
+  }
+}

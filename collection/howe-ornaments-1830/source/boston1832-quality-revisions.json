@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "boston-1832-p165-five-line-pica-2-corner",
+      "canonical_id": "howe-1830-p141-five-line-pica-6-corner",
+      "previous": {
+        "icon": {
+          "id": "howe-1830-p141-five-line-pica-6-corner",
+          "name": "Grape cluster and vine corner",
+          "specimen_number": "Five Line Pica 6 Corner",
+          "printed_page": null,
+          "pdf_page": 141,
+          "source_index": 3,
+          "tags": [
+            "border",
+            "corner"
+          ],
+          "codepoint": "E014",
+          "glyph": "uniE014",
+          "recommended_min_px": 64
+        },
+        "recipe": {
+          "file": "reference/crops/howe-1830-p141-five-line-pica-6-corner.png",
+          "box": [
+            0,
+            0,
+            431,
+            446
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 100,
+          "blur": 0.25,
+          "component_min_area": 2,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+        }
+      },
+      "crop": {
+        "archive_leaf": 165,
+        "native_box": [
+          494,
+          1613,
+          921,
+          2065
+        ],
+        "source_rotation_counterclockwise": 270
+      },
+      "crop_rotation_counterclockwise": 270,
+      "recipe": {
+        "file": "reference/boston1832-crops/boston-1832-p165-five-line-pica-2-corner.png",
+        "box": [
+          0,
+          0,
+          452,
+          427
+        ],
+        "height": 1780.375,
+        "max_ink_dimension": 1800.0,
+        "y_min": 0,
+        "center_vertical": true,
+        "bearings": [
+          64.0,
+          64.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 125,
+        "blur": 0.2,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.03114233204166794,
+          9.8125
+        ]
+      },
+      "reason": "Clearer open interior detail in complete matching impression; original mapping, advance and placement retained."
+    }
+  ]
+}
