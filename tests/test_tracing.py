@@ -23,6 +23,39 @@ import trace_specimen as tracing
 
 
 class TracingTests(unittest.TestCase):
+    def test_monochrome_adjustment_retains_faint_strokes_without_moving_native_frame(self):
+        image = Image.new('L', (50, 30), 255)
+        draw = ImageDraw.Draw(image)
+        draw.rectangle((8, 10, 42, 12), fill=185)
+        draw.rectangle((20, 15, 30, 20), fill=50)
+        entry = {'box': [5, 5, 45, 25], 'threshold': 150, 'frame_threshold': 210,
+                 'blur': 0, 'fill_holes': 0, 'component_min_area': 1, 'height': 1800,
+                 'monochrome_adaptive_threshold':
+                     {'radius': 6, 'offset': 3, 'minimum': 75, 'maximum': 215}}
+        adjusted = tracing.monochrome_image(image, entry)
+        self.assertLess(adjusted.getpixel((15, 11)), 150)
+        self.assertGreaterEqual(adjusted.getpixel((15, 7)), 150)
+        self.assertEqual(185, image.getpixel((15, 11)))
+        masks = []
+        rec = RecordingPen(); parse_path('M0 0H100V100H0Z', rec)
+        def capture(mask, *args):
+            masks.append(mask.copy()); return rec
+        with patch.object(tracing, 'trace_mask', side_effect=capture):
+            tracing.trace(image, entry, 'potrace')
+        native_frame = tracing.clean_crop(image, entry | {'threshold': 210})
+        self.assertEqual(native_frame.tobytes(), masks[1].tobytes())
+
+    def test_regional_threshold_uses_crop_coordinates_and_leaves_other_ink_unchanged(self):
+        image = Image.new('L', (30, 30), 180)
+        entry = {'box': [10, 10, 30, 30], 'threshold': 150,
+                 'monochrome_threshold_regions': [
+                     {'points_fraction': [[0, 0], [.4, 0], [.4, 1], [0, 1]],
+                      'threshold': 210}]}
+        adjusted = tracing.monochrome_image(image, entry)
+        self.assertLess(adjusted.getpixel((12, 20)), 150)
+        self.assertEqual(180, adjusted.getpixel((25, 20)))
+        self.assertEqual(180, adjusted.getpixel((5, 20)))
+
     def test_border_cleanup_preserves_shared_joins_unless_clipping_is_explicit(self):
         # A detached neighbour and a crossing shared stroke. Removing a whole
         # neighbour must not accidentally trim the surviving ornament.

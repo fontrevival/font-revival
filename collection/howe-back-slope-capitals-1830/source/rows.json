@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "notes": "Rows refer to a 2200-pixel-wide preview of the retained native quarter-turn followed by the measured rigid rotation in reference/derivation.json. No nonuniform scaling.",
+  "source_label": "Two Lines Pearl Back Slope",
+  "rows": [
+    {
+      "file": "reference/howe1830-117-deskewed.png",
+      "preview_width": 2200,
+      "box": [
+        277,
+        629,
+        1360,
+        697
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "single_component": false,
+      "components": true,
+      "letter_area": 70
+    },
+    {
+      "file": "reference/howe1830-117-deskewed.png",
+      "preview_width": 2200,
+      "box": [
+        1560,
+        630,
+        1920,
+        707
+      ],
+      "text": "$1234567890",
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "single_component": false,
+      "components": true,
+      "letter_area": 70
+    },
+    {
+      "file": "reference/howe1830-117-deskewed.png",
+      "preview_width": 2200,
+      "box": [
+        1367,
+        630,
+        1535,
+        710
+      ],
+      "text": "&,.-;:\u2019!",
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "single_component": false
+    }
+  ]
+}

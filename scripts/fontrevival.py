@@ -475,10 +475,10 @@ def split_cff_charstrings(font, max_bytes):
             raise ValueError('CFF subroutine dispatcher exceeds the format limit.')
 
 
-def font_delivery_master(font, m, approximations=None):
+def font_delivery_master(font, m, approximations=None, decompositions=None):
     """Prepare downloadable outlines while preserving the full artwork master."""
     encoded = m.get('font_export_glyphs') == 'encoded'
-    if not encoded and not m.get('otf_uses_truetype_approximations') and not m.get('cff_charstring_chunk_bytes'):
+    if not encoded and not m.get('otf_uses_truetype_approximations') and not m.get('cff_charstring_chunk_bytes') and not decompositions:
         return font
     from fontTools import subset
     exported = copy.deepcopy(font)
@@ -510,6 +510,9 @@ def font_delivery_master(font, m, approximations=None):
             glyph.draw(counter)
             if counter.points > MAX_RENDERER_POINTS:
                 raise ValueError(f'{name}: downloadable CFF outline exceeds the renderer point limit; review its approximation.')
+    if decompositions:
+        from font_parts import add_parts
+        add_parts(exported, decompositions)
     if m.get('cff_charstring_chunk_bytes'):
         split_cff_charstrings(exported, m['cff_charstring_chunk_bytes'])
     return exported
@@ -916,6 +919,8 @@ def icon_proofs(path, m, font):
             def _closePath(self):
                 self.path.close()
         proof_glyphs = vector_font.getGlyphSet()
+        from font_parts import substitution_parts
+        decomposed = substitution_parts(vector_font)
     c = canvas.Canvas(str(path / "specimens/specimen.pdf"), pagesize=(842, 595), invariant=1)
     c.setTitle(m["name"] + " | Historical icon comparison and size proof")
     c.setAuthor(COPYRIGHT_HOLDER)
@@ -930,7 +935,8 @@ def icon_proofs(path, m, font):
             c.beginForm(form, 0, font['hhea'].descent,
                         font['hmtx'][icon['glyph']][0], font['hhea'].ascent)
             outline = c.beginPath()
-            proof_glyphs[icon['glyph']].draw(CanvasOutlinePen(proof_glyphs, outline))
+            for name in decomposed.get(icon['glyph'], [icon['glyph']]):
+                proof_glyphs[name].draw(CanvasOutlinePen(proof_glyphs, outline))
             c.drawPath(outline, fill=1, stroke=0, fillMode=1)
             c.endForm()
 
@@ -1027,8 +1033,12 @@ def icon_proofs(path, m, font):
         c.setFont("Helvetica", 12)
         c.drawString(36, 147, f'Detailed cut: recommended from {icon["recommended_min_px"]} px; inspect the intended output size.')
         simplified = (path / 'source/truetype-glyphs' / f'{icon["glyph"]}.json').exists()
-        c.drawString(36, 126, "The font uses a reviewed compact outline; SVG retains the full tracing." if simplified else
-                     "At small sizes the engraving becomes dense. No simplified substitute is supplied.")
+        if vector_font is not None and icon['glyph'] in decomposed:
+            detail_note = 'Default OpenType shaping assembles the full engraving; unshaped software uses a simplified fallback.'
+        else:
+            detail_note = ("The font uses a reviewed compact outline; SVG retains the full tracing." if simplified else
+                           "At small sizes the engraving becomes dense. No simplified substitute is supplied.")
+        c.drawString(36, 126, detail_note)
         c.drawString(36, 83, f'{icon["id"]}  /  U+{icon["codepoint"]}  /  SVG, sprite and icon font use the same master.')
         c.showPage()
         # One PNG comparison per icon, and the first as the collection preview.
@@ -1417,7 +1427,9 @@ def build_family(path, reuse_artwork=False):
         (path / sub).mkdir(exist_ok=True)
     ps = m["postscript_name"]
     approximations = truetype_approximations(path, font)
-    delivery = font_delivery_master(font, m, approximations)
+    from font_parts import load_parts
+    decompositions = load_parts(path, font)
+    delivery = font_delivery_master(font, m, approximations, decompositions)
     delivery.save(path / "fonts" / f"{ps}.otf")
     ttf = to_truetype(delivery, preserve_origins=m.get("kind") == "icons", approximations=approximations)
     ttf.save(path / "fonts" / f"{ps}.ttf")
@@ -1443,7 +1455,15 @@ def build_family(path, reuse_artwork=False):
 
 def write_family_documents(path, m, readme, has_approximations=False):
     """Generate documentation, downloads and checksums after artwork review."""
-    if has_approximations:
+    if (path / 'source/font-parts.json').exists():
+        readme += ('\n## Detailed icon fonts\n\n'
+                   'The densest engravings use default OpenType `ccmp` shaping to assemble '
+                   'registered outline pieces. Each icon keeps one character code and its original advance width. '
+                   'This retains fine engraved detail while keeping each piece within renderer limits. '
+                   'Keep OpenType shaping enabled. Software that draws glyphs without shaping uses a simplified '
+                   'compatibility outline; use the SVG for full detail in those applications. '
+                   'The source manifest records each piece and the canonical drawing it belongs to.\n')
+    elif has_approximations:
         full_formats = ('SVG and the editable CFF master' if m.get('otf_uses_truetype_approximations')
                         else 'OTF, SVG and the editable CFF master')
         compact_formats = ('OTF, TTF and webfonts' if m.get('otf_uses_truetype_approximations')
@@ -1980,13 +2000,18 @@ def validate_family(path):
     profile = sizing_profile(path)
     expected = None
     expected_icon_bounds = {}
-    approximations = {}
-    if any((path / 'source/truetype-glyphs').glob('*.json')):
+    approximations, decompositions = {}, {}
+    if any((path / 'source/truetype-glyphs').glob('*.json')) or (path / 'source/font-parts.json').exists():
         with load_source(path, m, encoded_only=m.get('font_export_glyphs') == 'encoded') as master:
             approximations = truetype_approximations(path, master)
+            from font_parts import load_parts
+            decompositions = load_parts(path, master)
     for folder, ext in [("fonts", "otf"), ("fonts", "ttf"), ("web", "woff"), ("web", "woff2")]:
         file = path / folder / f'{m["postscript_name"]}.{ext}'
         with TTFont(file, checkChecksums=2) as font:
+            if decompositions:
+                from font_parts import validate_parts
+                validate_parts(font, decompositions)
             cmap = font.getBestCmap()
             if m.get("kind") == "icons":
                 expected_cmap = {32: "space"} | {int(i["codepoint"], 16): i["glyph"] for i in m["icons"]}

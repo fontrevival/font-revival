@@ -142,8 +142,44 @@ def trace_transform(rec, entry):
     return (sx, 0, 0, scale, left-x0*sx, baseline-y0*scale), advance
 
 
+def monochrome_image(image, entry):
+    """Adjust only the recorded crop; keep native pixels for the frame and tones."""
+    adaptive = entry.get('monochrome_adaptive_threshold')
+    regions = entry.get('monochrome_threshold_regions')
+    if not adaptive and not regions:
+        return image
+    crop = image.crop(entry['box']).convert('L')
+    original = crop
+    threshold = entry.get('threshold', 135)
+    if adaptive:
+        radius, offset = adaptive['radius'], adaptive['offset']
+        minimum, maximum = adaptive['minimum'], adaptive['maximum']
+        if not (radius > 0 and 0 < minimum <= maximum <= 255):
+            raise ValueError('Invalid monochrome adaptive threshold settings.')
+        local = crop.filter(ImageFilter.BoxBlur(radius))
+        crop = Image.frombytes('L', crop.size, bytes(
+            min(255, int(value * threshold / max(minimum, min(maximum, mean - offset))))
+            for value, mean in zip(crop.tobytes(), local.tobytes())))
+    for region in regions or []:
+        if not 0 < region['threshold'] <= 255:
+            raise ValueError('Invalid monochrome regional threshold.')
+        mask = Image.new('L', crop.size, 0)
+        draw = ImageDraw.Draw(mask)
+        points = [(round(x * crop.width), round(y * crop.height))
+                  for x, y in region['points_fraction']]
+        if region.get('shape') == 'ellipse':
+            draw.ellipse([*points[0], *points[1]], fill=255)
+        else:
+            draw.polygon(points, fill=255)
+        adjusted = original.point(lambda value: round(value * threshold / region['threshold']))
+        crop.paste(adjusted, (0, 0), mask)
+    result = image.convert('L').copy()
+    result.paste(crop, entry['box'])
+    return result
+
+
 def trace(image, entry, potrace):
-    rec = trace_mask(clean_crop(image, entry), entry, potrace)
+    rec = trace_mask(clean_crop(monochrome_image(image, entry), entry), entry, potrace)
     reference = rec
     if 'frame_threshold' in entry:
         frame = entry | {'threshold': entry['frame_threshold'],

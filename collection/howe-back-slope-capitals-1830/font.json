@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "howe-back-slope-capitals-1830",
+  "name": "Howe Back Slope Capitals 1830",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "HoweBackSlopeCapitals1830-Regular",
+  "year": 1830,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "J. Howe & Co., Philadelphia",
+  "description": "Back Slope Capitals titling capitals and figures from the 1830 J. Howe & Co. specimen.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "HOWE LETTER FOUNDRY",
+  "observed": "Complete A–Z capital alphabet, figures 0–9 dollar sign and printed punctuation &,.-;:’! directly sampled from Two Lines Pearl Back Slope, unnumbered PDF page 117 (archive leaf 117).",
+  "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals; ASCII apostrophe aliases the observed closing apostrophe. Word space, metrics and digital spacing are new. The historical source-size label identifies the supplying impression; the font is freely scalable.",
+  "sources": [
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), Two Lines Pearl Back Slope, unnumbered PDF page 117",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n117/mode/1up",
+      "file": "reference/howe1830-117.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Exact native JP2 and lossless quarter-turn retained. A measured rigid rotation corrects page tilt; see reference/derivation.json. Source row labels are provenance, not separate products."
+  },
+  "character_style": "capitals-only",
+  "character_set": " !$&',-.0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",
+  "character_set_notes": "Complete historical capitals-only titling alphabet, figures and the accompanying observed symbols. Lowercase input aliases capitals. Unsupported modern symbols are omitted."
+}

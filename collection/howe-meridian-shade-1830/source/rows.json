@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "notes": "Rows refer to a 2200-pixel-wide preview of the retained native quarter-turn followed by the measured rigid rotation in reference/derivation.json. No nonuniform scaling.",
+  "source_label": "Two Lines Nonpareil Meridian Shade",
+  "rows": [
+    {
+      "file": "reference/howe1830-109-deskewed.png",
+      "preview_width": 2200,
+      "box": [
+        360,
+        660,
+        1390,
+        735
+      ],
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "single_component": false
+    },
+    {
+      "file": "reference/howe1830-109-deskewed.png",
+      "preview_width": 2200,
+      "box": [
+        1620,
+        654,
+        1970,
+        733
+      ],
+      "text": "$1234567890",
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "single_component": false
+    },
+    {
+      "file": "reference/howe1830-109-deskewed.png",
+      "preview_width": 2200,
+      "box": [
+        1396,
+        660,
+        1582,
+        735
+      ],
+      "text": "&,-.\u2019;:!?",
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "single_component": false
+    }
+  ]
+}

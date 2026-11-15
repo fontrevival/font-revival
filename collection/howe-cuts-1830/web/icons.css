@@ -1,0 +1,378 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-howe-1830-p160-metal-9 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p160-metal-9::before { content: "\E000"; }
+.fr-howe-1830-p160-metal-10 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p160-metal-10::before { content: "\E001"; }
+.fr-howe-1830-p162-metal-15 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p162-metal-15::before { content: "\E002"; }
+.fr-howe-1830-p164-metal-25 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p164-metal-25::before { content: "\E003"; }
+.fr-howe-1830-p170-metal-44 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p170-metal-44::before { content: "\E004"; }
+.fr-howe-1830-p172-metal-46 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p172-metal-46::before { content: "\E005"; }
+.fr-howe-1830-p190-metal-130 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p190-metal-130::before { content: "\E006"; }
+.fr-howe-1830-p190-metal-117 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p190-metal-117::before { content: "\E007"; }
+.fr-howe-1830-p202-metal-158 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p202-metal-158::before { content: "\E008"; }
+.fr-howe-1830-p202-metal-160 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p202-metal-160::before { content: "\E009"; }
+.fr-howe-1830-p206-metal-169 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p206-metal-169::before { content: "\E00A"; }
+.fr-howe-1830-p206-metal-170 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p206-metal-170::before { content: "\E00B"; }
+.fr-howe-1830-p206-metal-171 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p206-metal-171::before { content: "\E00C"; }
+.fr-howe-1830-p206-metal-172 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p206-metal-172::before { content: "\E00D"; }
+.fr-howe-1830-p210-metal-189 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p210-metal-189::before { content: "\E00E"; }
+.fr-howe-1830-p210-metal-191 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p210-metal-191::before { content: "\E00F"; }
+.fr-howe-1830-p210-metal-192 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p210-metal-192::before { content: "\E010"; }
+.fr-howe-1830-p212-metal-203 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p212-metal-203::before { content: "\E011"; }
+.fr-howe-1830-p212-metal-204 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p212-metal-204::before { content: "\E012"; }
+.fr-howe-1830-p212-metal-206 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p212-metal-206::before { content: "\E013"; }
+.fr-howe-1830-p212-metal-207 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p212-metal-207::before { content: "\E014"; }
+.fr-howe-1830-p212-metal-208 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p212-metal-208::before { content: "\E015"; }
+.fr-howe-1830-p216-metal-222 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p216-metal-222::before { content: "\E016"; }
+.fr-howe-1830-p216-metal-223 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p216-metal-223::before { content: "\E017"; }
+.fr-howe-1830-p216-metal-224 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p216-metal-224::before { content: "\E018"; }
+.fr-howe-1830-p216-metal-225 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p216-metal-225::before { content: "\E019"; }
+.fr-howe-1830-p218-metal-230 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p218-metal-230::before { content: "\E01A"; }
+.fr-howe-1830-p218-metal-232 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p218-metal-232::before { content: "\E01B"; }
+.fr-howe-1830-p220-metal-234 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p220-metal-234::before { content: "\E01C"; }
+.fr-howe-1830-p220-metal-236 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p220-metal-236::before { content: "\E01D"; }
+.fr-howe-1830-p220-metal-237 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p220-metal-237::before { content: "\E01E"; }
+.fr-howe-1830-p220-metal-238 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p220-metal-238::before { content: "\E01F"; }
+.fr-howe-1830-p220-metal-240 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p220-metal-240::before { content: "\E020"; }
+.fr-howe-1830-p220-metal-242 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p220-metal-242::before { content: "\E021"; }
+.fr-howe-1830-p224-metal-250 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p224-metal-250::before { content: "\E022"; }
+.fr-howe-1830-p226-metal-251 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p226-metal-251::before { content: "\E023"; }
+.fr-howe-1830-p226-metal-252 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p226-metal-252::before { content: "\E024"; }
+.fr-howe-1830-p226-metal-253 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p226-metal-253::before { content: "\E025"; }
+.fr-howe-1830-p226-metal-254 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p226-metal-254::before { content: "\E026"; }
+.fr-howe-1830-p226-metal-256 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p226-metal-256::before { content: "\E027"; }
+.fr-howe-1830-p228-metal-257 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p228-metal-257::before { content: "\E028"; }
+.fr-howe-1830-p228-metal-258 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p228-metal-258::before { content: "\E029"; }
+.fr-howe-1830-p228-metal-259 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p228-metal-259::before { content: "\E02A"; }
+.fr-howe-1830-p228-metal-260 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p228-metal-260::before { content: "\E02B"; }
+.fr-howe-1830-p228-metal-262 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p228-metal-262::before { content: "\E02C"; }
+.fr-howe-1830-p228-metal-263 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p228-metal-263::before { content: "\E02D"; }
+.fr-howe-1830-p230-metal-264 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p230-metal-264::before { content: "\E02E"; }
+.fr-howe-1830-p230-metal-265 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p230-metal-265::before { content: "\E02F"; }
+.fr-howe-1830-p230-metal-266 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p230-metal-266::before { content: "\E030"; }
+.fr-howe-1830-p230-metal-268 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p230-metal-268::before { content: "\E031"; }
+.fr-howe-1830-p230-metal-269 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p230-metal-269::before { content: "\E032"; }
+.fr-howe-1830-p232-metal-272 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p232-metal-272::before { content: "\E033"; }
+.fr-howe-1830-p232-metal-273 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p232-metal-273::before { content: "\E034"; }
+.fr-howe-1830-p232-metal-274 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p232-metal-274::before { content: "\E035"; }
+.fr-howe-1830-p232-metal-275 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p232-metal-275::before { content: "\E036"; }
+.fr-howe-1830-p232-metal-279 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p232-metal-279::before { content: "\E037"; }
+.fr-howe-1830-p232-metal-280 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p232-metal-280::before { content: "\E038"; }
+.fr-howe-1830-p234-metal-283 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p234-metal-283::before { content: "\E039"; }
+.fr-howe-1830-p234-metal-284 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p234-metal-284::before { content: "\E03A"; }
+.fr-howe-1830-p234-metal-286 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p234-metal-286::before { content: "\E03B"; }
+.fr-howe-1830-p234-metal-287 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p234-metal-287::before { content: "\E03C"; }
+.fr-howe-1830-p234-metal-288 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p234-metal-288::before { content: "\E03D"; }
+.fr-howe-1830-p236-metal-290 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p236-metal-290::before { content: "\E03E"; }
+.fr-howe-1830-p240-metal-304 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-304::before { content: "\E03F"; }
+.fr-howe-1830-p240-metal-305 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-305::before { content: "\E040"; }
+.fr-howe-1830-p240-metal-306 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-306::before { content: "\E041"; }
+.fr-howe-1830-p240-metal-307 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-307::before { content: "\E042"; }
+.fr-howe-1830-p240-metal-brush-trio { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-brush-trio::before { content: "\E043"; }
+.fr-howe-1830-p240-metal-brush-single { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-brush-single::before { content: "\E044"; }
+.fr-howe-1830-p240-metal-brush-bundle { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p240-metal-brush-bundle::before { content: "\E045"; }
+.fr-howe-1830-p242-metal-311 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p242-metal-311::before { content: "\E046"; }
+.fr-howe-1830-p244-metal-318 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p244-metal-318::before { content: "\E047"; }
+.fr-howe-1830-p244-metal-321 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p244-metal-321::before { content: "\E048"; }
+.fr-howe-1830-p244-metal-322 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p244-metal-322::before { content: "\E049"; }
+.fr-howe-1830-p246-metal-323 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p246-metal-323::before { content: "\E04A"; }
+.fr-howe-1830-p246-metal-324 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p246-metal-324::before { content: "\E04B"; }
+.fr-howe-1830-p246-metal-327 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p246-metal-327::before { content: "\E04C"; }
+.fr-howe-1830-p248-metal-334 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p248-metal-334::before { content: "\E04D"; }
+.fr-howe-1830-p248-metal-336 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p248-metal-336::before { content: "\E04E"; }
+.fr-howe-1830-p248-metal-337 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p248-metal-337::before { content: "\E04F"; }
+.fr-howe-1830-p250-metal-338 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-338::before { content: "\E050"; }
+.fr-howe-1830-p250-metal-339 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-339::before { content: "\E051"; }
+.fr-howe-1830-p250-metal-340 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-340::before { content: "\E052"; }
+.fr-howe-1830-p250-metal-341 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-341::before { content: "\E053"; }
+.fr-howe-1830-p250-metal-342 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-342::before { content: "\E054"; }
+.fr-howe-1830-p250-metal-343 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-343::before { content: "\E055"; }
+.fr-howe-1830-p250-metal-344 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-344::before { content: "\E056"; }
+.fr-howe-1830-p250-metal-345 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-345::before { content: "\E057"; }
+.fr-howe-1830-p250-metal-346 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-346::before { content: "\E058"; }
+.fr-howe-1830-p250-metal-347 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-347::before { content: "\E059"; }
+.fr-howe-1830-p250-metal-348 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-348::before { content: "\E05A"; }
+.fr-howe-1830-p250-metal-349 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-349::before { content: "\E05B"; }
+.fr-howe-1830-p250-metal-350 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-350::before { content: "\E05C"; }
+.fr-howe-1830-p250-metal-351 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-351::before { content: "\E05D"; }
+.fr-howe-1830-p250-metal-352 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-352::before { content: "\E05E"; }
+.fr-howe-1830-p250-metal-353 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-353::before { content: "\E05F"; }
+.fr-howe-1830-p250-metal-354 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-354::before { content: "\E060"; }
+.fr-howe-1830-p250-metal-355 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p250-metal-355::before { content: "\E061"; }
+.fr-howe-1830-p252-metal-357 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-357::before { content: "\E062"; }
+.fr-howe-1830-p252-metal-359 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-359::before { content: "\E063"; }
+.fr-howe-1830-p252-metal-360 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-360::before { content: "\E064"; }
+.fr-howe-1830-p252-metal-361 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-361::before { content: "\E065"; }
+.fr-howe-1830-p252-metal-362 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-362::before { content: "\E066"; }
+.fr-howe-1830-p252-metal-363 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-363::before { content: "\E067"; }
+.fr-howe-1830-p252-metal-364 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-364::before { content: "\E068"; }
+.fr-howe-1830-p252-metal-365 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-365::before { content: "\E069"; }
+.fr-howe-1830-p252-metal-366 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-366::before { content: "\E06A"; }
+.fr-howe-1830-p252-metal-367 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-367::before { content: "\E06B"; }
+.fr-howe-1830-p252-metal-368 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-368::before { content: "\E06C"; }
+.fr-howe-1830-p252-metal-369 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-369::before { content: "\E06D"; }
+.fr-howe-1830-p252-metal-370 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-370::before { content: "\E06E"; }
+.fr-howe-1830-p252-metal-371 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-371::before { content: "\E06F"; }
+.fr-howe-1830-p252-metal-372 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-372::before { content: "\E070"; }
+.fr-howe-1830-p252-metal-373 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-373::before { content: "\E071"; }
+.fr-howe-1830-p252-metal-374 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-374::before { content: "\E072"; }
+.fr-howe-1830-p252-metal-375 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-375::before { content: "\E073"; }
+.fr-howe-1830-p252-metal-376 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-376::before { content: "\E074"; }
+.fr-howe-1830-p252-metal-377 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-377::before { content: "\E075"; }
+.fr-howe-1830-p252-metal-378 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-378::before { content: "\E076"; }
+.fr-howe-1830-p252-metal-380 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-380::before { content: "\E077"; }
+.fr-howe-1830-p252-metal-381 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-381::before { content: "\E078"; }
+.fr-howe-1830-p252-metal-382 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-382::before { content: "\E079"; }
+.fr-howe-1830-p252-metal-383 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p252-metal-383::before { content: "\E07A"; }
+.fr-howe-1830-p254-metal-384 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-384::before { content: "\E07B"; }
+.fr-howe-1830-p254-metal-385 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-385::before { content: "\E07C"; }
+.fr-howe-1830-p254-metal-386 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-386::before { content: "\E07D"; }
+.fr-howe-1830-p254-metal-387 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-387::before { content: "\E07E"; }
+.fr-howe-1830-p254-metal-388 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-388::before { content: "\E07F"; }
+.fr-howe-1830-p254-metal-389 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-389::before { content: "\E080"; }
+.fr-howe-1830-p254-metal-390 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-390::before { content: "\E081"; }
+.fr-howe-1830-p254-metal-391 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-391::before { content: "\E082"; }
+.fr-howe-1830-p254-metal-392 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p254-metal-392::before { content: "\E083"; }
+.fr-howe-1830-p256-metal-393 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-393::before { content: "\E084"; }
+.fr-howe-1830-p256-metal-394 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-394::before { content: "\E085"; }
+.fr-howe-1830-p256-metal-395 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-395::before { content: "\E086"; }
+.fr-howe-1830-p256-metal-396 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-396::before { content: "\E087"; }
+.fr-howe-1830-p256-metal-400 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-400::before { content: "\E088"; }
+.fr-howe-1830-p256-metal-401 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-401::before { content: "\E089"; }
+.fr-howe-1830-p256-metal-402 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-402::before { content: "\E08A"; }
+.fr-howe-1830-p256-metal-403 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-403::before { content: "\E08B"; }
+.fr-howe-1830-p256-metal-404 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p256-metal-404::before { content: "\E08C"; }
+.fr-howe-1830-p258-metal-405 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p258-metal-405::before { content: "\E08D"; }
+.fr-howe-1830-p258-metal-406 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p258-metal-406::before { content: "\E08E"; }
+.fr-howe-1830-p258-metal-407 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p258-metal-407::before { content: "\E08F"; }
+.fr-howe-1830-p258-metal-409 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p258-metal-409::before { content: "\E090"; }
+.fr-howe-1830-p258-metal-410 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p258-metal-410::before { content: "\E091"; }
+.fr-howe-1830-p260-metal-411 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p260-metal-411::before { content: "\E092"; }
+.fr-howe-1830-p260-metal-412 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p260-metal-412::before { content: "\E093"; }
+.fr-howe-1830-p260-metal-413 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p260-metal-413::before { content: "\E094"; }
+.fr-howe-1830-p260-metal-414 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p260-metal-414::before { content: "\E095"; }
+.fr-howe-1830-p260-metal-415 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p260-metal-415::before { content: "\E096"; }
+.fr-howe-1830-p262-metal-416 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p262-metal-416::before { content: "\E097"; }
+.fr-howe-1830-p262-metal-417 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p262-metal-417::before { content: "\E098"; }
+.fr-howe-1830-p262-metal-418 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p262-metal-418::before { content: "\E099"; }
+.fr-howe-1830-p262-metal-419 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p262-metal-419::before { content: "\E09A"; }
+.fr-howe-1830-p262-metal-420 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p262-metal-420::before { content: "\E09B"; }
+.fr-howe-1830-p264-metal-421 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p264-metal-421::before { content: "\E09C"; }
+.fr-howe-1830-p264-metal-423 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p264-metal-423::before { content: "\E09D"; }
+.fr-howe-1830-p264-metal-424 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p264-metal-424::before { content: "\E09E"; }
+.fr-howe-1830-p264-metal-425 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p264-metal-425::before { content: "\E09F"; }
+.fr-howe-1830-p266-metal-426 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p266-metal-426::before { content: "\E0A0"; }
+.fr-howe-1830-p266-metal-427 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p266-metal-427::before { content: "\E0A1"; }
+.fr-howe-1830-p266-metal-428 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p266-metal-428::before { content: "\E0A2"; }
+.fr-howe-1830-p266-metal-429 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p266-metal-429::before { content: "\E0A3"; }
+.fr-howe-1830-p266-metal-430 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p266-metal-430::before { content: "\E0A4"; }
+.fr-howe-1830-p268-metal-431 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p268-metal-431::before { content: "\E0A5"; }
+.fr-howe-1830-p268-metal-432 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p268-metal-432::before { content: "\E0A6"; }
+.fr-howe-1830-p268-metal-433 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p268-metal-433::before { content: "\E0A7"; }
+.fr-howe-1830-p268-metal-434 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p268-metal-434::before { content: "\E0A8"; }
+.fr-howe-1830-p268-metal-435 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p268-metal-435::before { content: "\E0A9"; }
+.fr-howe-1830-p268-metal-436 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p268-metal-436::before { content: "\E0AA"; }
+.fr-howe-1830-p270-metal-437 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p270-metal-437::before { content: "\E0AB"; }
+.fr-howe-1830-p270-metal-440 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p270-metal-440::before { content: "\E0AC"; }
+.fr-howe-1830-p272-metal-441 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p272-metal-441::before { content: "\E0AD"; }
+.fr-howe-1830-p274-metal-452 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p274-metal-452::before { content: "\E0AE"; }
+.fr-howe-1830-p276-metal-453 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p276-metal-453::before { content: "\E0AF"; }
+.fr-howe-1830-p278-metal-454 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p278-metal-454::before { content: "\E0B0"; }
+.fr-howe-1830-p278-metal-456 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p278-metal-456::before { content: "\E0B1"; }
+.fr-howe-1830-p278-metal-457 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p278-metal-457::before { content: "\E0B2"; }
+.fr-howe-1830-p278-metal-458 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p278-metal-458::before { content: "\E0B3"; }
+.fr-howe-1830-p289-zodiac-man { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p289-zodiac-man::before { content: "\E0B4"; }
+.fr-howe-1830-p234-metal-285 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p234-metal-285::before { content: "\E0B5"; }
+.fr-howe-1830-p236-metal-289 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p236-metal-289::before { content: "\E0B6"; }
+.fr-howe-1830-p236-metal-291 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p236-metal-291::before { content: "\E0B7"; }
+.fr-howe-1830-p236-metal-292 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p236-metal-292::before { content: "\E0B8"; }
+.fr-howe-1830-p236-metal-293 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p236-metal-293::before { content: "\E0B9"; }
+.fr-howe-1830-p236-metal-294 { font-family: "Howe Cuts 1830"; }
+.fr-howe-1830-p236-metal-294::before { content: "\E0BA"; }

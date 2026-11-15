@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 700
+  },
+  "review_words": [
+    "HOWE LETTER FOUNDRY",
+    "QUICK BROWN FOX",
+    "JAZZ VEXES WALTZ",
+    "1234567890 $"
+  ],
+  "glyphs": {
+    "A": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1191,
+        1823,
+        1253,
+        1876
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 0. Pixel measurements retained in source/rows.json."
+    },
+    "B": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1252,
+        1822,
+        1303,
+        1876
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -1,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 1. Pixel measurements retained in source/rows.json."
+    },
+    "C": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1306,
+        1824,
+        1353,
+        1876
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": -3,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 2. Pixel measurements retained in source/rows.json."
+    },
+    "D": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1355,
+        1823,
+        1405,
+        1876
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": -4,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 3. Pixel measurements retained in source/rows.json."
+    },
+    "E": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1405,
+        1823,
+        1457,
+        1877
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -20,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 4. Pixel measurements retained in source/rows.json."
+    },
+    "F": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1459,
+        1822,
+        1508,
+        1876
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -7,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 5. Pixel measurements retained in source/rows.json."
+    },
+    "G": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1508,
+        1824,
+        1560,
+        1876
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": -8,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 6. Pixel measurements retained in source/rows.json."
+    },
+    "H": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1559,
+        1822,
+        1618,
+        1875
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 5,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 7. Pixel measurements retained in source/rows.json."
+    },
+    "I": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1618,
+        1822,
+        1654,
+        1875
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 4,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 8. Pixel measurements retained in source/rows.json."
+    },
+    "J": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1653,
+        1823,
+        1692,
+        1875
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": 3,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 9. Pixel measurements retained in source/rows.json."
+    },
+    "K": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1692,
+        1822,
+        1749,
+        1875
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 10. Pixel measurements retained in source/rows.json."
+    },
+    "L": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1750,
+        1822,
+        1801,
+        1874
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": 14,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 11. Pixel measurements retained in source/rows.json."
+    },
+    "M": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1799,
+        1821,
+        1864,
+        1874
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 13,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 12. Pixel measurements retained in source/rows.json."
+    },
+    "N": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1864,
+        1822,
+        1920,
+        1874
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": 11,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 13. Pixel measurements retained in source/rows.json."
+    },
+    "O": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1920,
+        1822,
+        1970,
+        1874
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": 10,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 165,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 14. Pixel measurements retained in source/rows.json. Reviewed correction: retain faint printed outline."
+    },
+    "P": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        1970,
+        1823,
+        2019,
+        1875
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": -6,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 15. Pixel measurements retained in source/rows.json."
+    },
+    "Q": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2019,
+        1821,
+        2073,
+        1881
+      ],
+      "rotation": 0,
+      "height": 800,
+      "y_min": -93,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 16. Pixel measurements retained in source/rows.json."
+    },
+    "R": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2074,
+        1821,
+        2126,
+        1874
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 5,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 17. Pixel measurements retained in source/rows.json."
+    },
+    "S": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2129,
+        1822,
+        2173,
+        1873
+      ],
+      "rotation": 0,
+      "height": 671,
+      "y_min": 18,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 18. Pixel measurements retained in source/rows.json."
+    },
+    "T": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2175,
+        1822,
+        2225,
+        1873
+      ],
+      "rotation": 0,
+      "height": 671,
+      "y_min": 17,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 19. Pixel measurements retained in source/rows.json."
+    },
+    "U": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2225,
+        1822,
+        2276,
+        1874
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 20. Pixel measurements retained in source/rows.json."
+    },
+    "V": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2276,
+        1822,
+        2333,
+        1873
+      ],
+      "rotation": 0,
+      "height": 671,
+      "y_min": 14,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 21. Pixel measurements retained in source/rows.json."
+    },
+    "W": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2332,
+        1822,
+        2413,
+        1873
+      ],
+      "rotation": 0,
+      "height": 671,
+      "y_min": 12,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 22. Pixel measurements retained in source/rows.json."
+    },
+    "X": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2415,
+        1821,
+        2467,
+        1874
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": -4,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 23. Pixel measurements retained in source/rows.json."
+    },
+    "Y": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2468,
+        1821,
+        2524,
+        1874
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": -5,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 24. Pixel measurements retained in source/rows.json."
+    },
+    "Z": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2524,
+        1822,
+        2564,
+        1874
+      ],
+      "rotation": 0,
+      "height": 686,
+      "y_min": -7,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 0, sort 25. Pixel measurements retained in source/rows.json."
+    },
+    "$": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2921,
+        1821,
+        2968,
+        1879
+      ],
+      "rotation": 0,
+      "height": 788,
+      "y_min": -57,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 0. Pixel measurements retained in source/rows.json."
+    },
+    "1": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2974,
+        1823,
+        3012,
+        1875
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 1,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 1. Pixel measurements retained in source/rows.json."
+    },
+    "2": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3014,
+        1822,
+        3057,
+        1875
+      ],
+      "rotation": 0,
+      "height": 715,
+      "y_min": 2,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 2. Pixel measurements retained in source/rows.json."
+    },
+    "3": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3059,
+        1822,
+        3099,
+        1875
+      ],
+      "rotation": 0,
+      "height": 715,
+      "y_min": 2,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 3. Pixel measurements retained in source/rows.json."
+    },
+    "4": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3097,
+        1822,
+        3143,
+        1875
+      ],
+      "rotation": 0,
+      "height": 715,
+      "y_min": 2,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 4. Pixel measurements retained in source/rows.json."
+    },
+    "5": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3146,
+        1824,
+        3184,
+        1876
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": -12,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 5. Pixel measurements retained in source/rows.json."
+    },
+    "6": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3186,
+        1824,
+        3227,
+        1875
+      ],
+      "rotation": 0,
+      "height": 685,
+      "y_min": 3,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 6. Pixel measurements retained in source/rows.json."
+    },
+    "7": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3230,
+        1823,
+        3269,
+        1875
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": 3,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 7. Pixel measurements retained in source/rows.json."
+    },
+    "8": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3272,
+        1824,
+        3313,
+        1876
+      ],
+      "rotation": 0,
+      "height": 700,
+      "y_min": -11,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 8. Pixel measurements retained in source/rows.json."
+    },
+    "9": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3314,
+        1824,
+        3356,
+        1875
+      ],
+      "rotation": 0,
+      "height": 685,
+      "y_min": 4,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 9. Pixel measurements retained in source/rows.json."
+    },
+    "0": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        3357,
+        1824,
+        3402,
+        1875
+      ],
+      "rotation": 0,
+      "height": 685,
+      "y_min": 5,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 1, sort 10. Pixel measurements retained in source/rows.json."
+    },
+    "&": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2573,
+        1822,
+        2621,
+        1873
+      ],
+      "rotation": 0,
+      "height": 671,
+      "y_min": 6,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 0. Pixel measurements retained in source/rows.json."
+    },
+    ",": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2628,
+        1847,
+        2655,
+        1882
+      ],
+      "rotation": 0,
+      "height": 443,
+      "y_min": -123,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 1. Pixel measurements retained in source/rows.json."
+    },
+    "-": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2659,
+        1835,
+        2692,
+        1863
+      ],
+      "rotation": 0,
+      "height": 343,
+      "y_min": 147,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 2. Pixel measurements retained in source/rows.json."
+    },
+    ";": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2692,
+        1828,
+        2720,
+        1882
+      ],
+      "rotation": 0,
+      "height": 714,
+      "y_min": -125,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 3. Pixel measurements retained in source/rows.json."
+    },
+    "\u2019": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2721,
+        1822,
+        2748,
+        1860
+      ],
+      "rotation": 0,
+      "height": 486,
+      "y_min": 188,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 4. Pixel measurements retained in source/rows.json."
+    },
+    "!": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2751,
+        1822,
+        2777,
+        1872
+      ],
+      "rotation": 0,
+      "height": 657,
+      "y_min": 16,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 5. Pixel measurements retained in source/rows.json."
+    },
+    ":": {
+      "file": "reference/howe1830-109-deskewed.png",
+      "box": [
+        2779,
+        1827,
+        2809,
+        1872
+      ],
+      "rotation": 0,
+      "height": 586,
+      "y_min": 15,
+      "bearings": [
+        35,
+        35
+      ],
+      "blur": 0.25,
+      "threshold": 150,
+      "fill_holes": 0,
+      "component_min_area": 2,
+      "tolerance": 0.18,
+      "notes": "Observed impression; transcribed row 2, sort 6. Pixel measurements retained in source/rows.json."
+    }
+  }
+}

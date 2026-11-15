@@ -34,9 +34,9 @@ Baltimore Initials also includes 27 matching period impressions from Boston 1832
 Howe 1830 and Bruce 1828 (21 letters and six punctuation marks), plus the
 complete-sheet Oak Leaf R with its leafy descender. Fourteen further Bruce 1828
 sorts include lottery figures 3, 4, 5 and comma and the full ornamented
-SODA water. setting, for 80 items. The hatched S, a and e are distinct from
+SODA water. setting, for 80 items before the additional Howe and Boston witnesses. The hatched S, a and e are distinct from
 the related Baltimore and Boston engravings.
-Both R variants and the entire Boston MINT! GOLD. specimen are retained.
+The collection contains 153 items, including 31 further Howe sorts and 42 Boston sorts: decorated capitals, scroll numerals, punctuation and ten white-on-black figures. Both R variants and the entire Boston MINT! GOLD. specimen are retained.
 Source indices and page citations identify the supplying book. A standalone
 image uses `pdf_page: null`, `printed_page: null` and a nonempty `source_location`
 that identifies its position on the sheet; it never borrows a book page number.
@@ -49,6 +49,38 @@ numbers run through 606; the inventory distinguishes missing printed numbers
 from unnumbered impressions and records all separate set members. References
 to existing icons preserve their artwork, IDs and codepoints. These Boston
 1832 leaves use `printed_page: null` and one-based `pdf_page` citations.
+
+Howe Cuts 1830 contains 187 distinct pictorial and emblematic cuts; Howe
+Ornaments 1830 contains 96 dashes, border pieces and decorative motifs. Their
+shared inventory accounts for 843 impressions, including references to existing
+artwork, repeated settings, composed examples and explicit source-quality gaps.
+The book has 298 scan images: 142 historical printed faces and 156 blank or
+copy-material images. Better impressions also supply revisions to existing
+Baltimore, Boston and Bruce designs without changing their permanent IDs.
+
+Boston Ornaments 1832 contains 52 distinct dashes, check borders, corners and
+repeat pieces. Its inventory records the earlier decorative sections, technical
+signs, border compositions and repeated designs alongside the existing numbered
+cut inventory. The full book has 398 scan images: 194 historical printed faces
+and 204 blank or copy-material images. Exact character inventories retain
+incomplete typefaces for comparison with other specimens.
+
+Figgins Cuts 1834 contains 143 pictorial cuts, frames, labels and pointing hands;
+Figgins Ornaments contains 288 border pieces, rules and decorative components;
+Figgins Initials contains 31 standalone decorated letters. The complete source
+has 306 scan images: 151 historical printed faces and 155 blank or copy-material
+images. The 304-page PDF omits the two outer archive images; source records keep
+these locators distinct.
+
+Caslon Cuts 1841 contains 201 pictorial and heraldic cuts, chess pieces and
+incidental illustrations; Caslon Ornaments contains 706 border pieces, rules,
+floral components and emblems; Caslon Initials contains 88 standalone illustrated
+letters. The source has 390 scan images: 292 historical printed faces and 98
+blank, show-through or copy-material images. Its unpaginated archive leaves are
+zero-based, while PDF citations are one-based. Inventories link repeated settings
+to shared components and preserve exact gaps from folded plates, weak impressions
+and unlocated catalogue numbers. Decorated initials are image assets; incomplete
+ordinary alphabets are recorded as source evidence rather than offered as fonts.
 
 GPO Cuts 1904 contains 597 designs from Government Printing Office specimens
 of 1897, 1900 and 1904, including pointing hands, flags, eagle emblems, buildings,
@@ -204,6 +236,31 @@ TrueType glyphs with 4,095 or more contours. The authoring tool checks all three
 counts and targets at most 32,000 points in each curve representation; cubic and
 quadratic paths can need different numbers of points. Baltimore enables the OTF option so all downloadable fonts
 render reliably; use SVG for unrestricted full-detail artwork.
+
+For dense engravings that need their complete linework in fonts,
+`source/font-parts.json` records a default OpenType `ccmp` decomposition.
+Each encoded icon expands into overlapping outline pieces, stored in
+`source/font-parts/`, that individually fit the renderer limits. The pieces
+share the original origin; only the final piece advances. Character codes,
+overall spacing and the canonical master remain unchanged. Normal OpenType
+shaping assembles the complete engraving automatically. Applications that
+disable shaping display the separately reviewed compatibility outline; use
+the SVG in those applications for complete detail.
+
+Prepare pieces from an encoded-only icon family with:
+
+```sh
+python scripts/prepare_icon_parts.py FAMILY --glyph uniE000 uniE001
+```
+
+The authoring tool clips closed contours by subdividing their cubic curves,
+retains winding, and stores coordinates to 1/64 font unit. Overlapping edges
+avoid antialias seams. Review the actual OTF and TTF against the canonical
+artwork at several sizes, including the browser's subset font. The manifest
+fingerprints the canonical drawing, so an artwork revision requires new pieces.
+Builds validate spacing and outline limits, and `check` verifies the default
+substitutions in all four delivered formats. Pieces are private implementation
+glyphs and do not add icons to the collection.
 
 For large unhinted CFF drawings, `cff_charstring_chunk_bytes: 60000` splits
 long drawing programs into shallow global subroutines. The encoded operands and

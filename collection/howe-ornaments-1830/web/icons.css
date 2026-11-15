@@ -1,0 +1,196 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-howe-1830-p013-pica-1 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-1::before { content: "\E000"; }
+.fr-howe-1830-p013-pica-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-2::before { content: "\E001"; }
+.fr-howe-1830-p013-pica-3 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-3::before { content: "\E002"; }
+.fr-howe-1830-p013-pica-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-4::before { content: "\E003"; }
+.fr-howe-1830-p013-pica-7 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-7::before { content: "\E004"; }
+.fr-howe-1830-p013-pica-8 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-8::before { content: "\E005"; }
+.fr-howe-1830-p013-pica-9 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-pica-9::before { content: "\E006"; }
+.fr-howe-1830-p013-long-primer-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-2::before { content: "\E007"; }
+.fr-howe-1830-p013-long-primer-3 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-3::before { content: "\E008"; }
+.fr-howe-1830-p013-long-primer-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-4::before { content: "\E009"; }
+.fr-howe-1830-p013-long-primer-5 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-5::before { content: "\E00A"; }
+.fr-howe-1830-p013-long-primer-10 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-10::before { content: "\E00B"; }
+.fr-howe-1830-p013-long-primer-11 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-11::before { content: "\E00C"; }
+.fr-howe-1830-p013-long-primer-16 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-16::before { content: "\E00D"; }
+.fr-howe-1830-p013-long-primer-19 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-long-primer-19::before { content: "\E00E"; }
+.fr-howe-1830-p015-aspect-new-moon { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p015-aspect-new-moon::before { content: "\E00F"; }
+.fr-howe-1830-p015-math-reversed-join-relation { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p015-math-reversed-join-relation::before { content: "\E010"; }
+.fr-howe-1830-p015-math-squared-contains { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p015-math-squared-contains::before { content: "\E011"; }
+.fr-howe-1830-p015-math-colon-minus { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p015-math-colon-minus::before { content: "\E012"; }
+.fr-howe-1830-p011-pointing-hand { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p011-pointing-hand::before { content: "\E013"; }
+.fr-howe-1830-p141-five-line-pica-6-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p141-five-line-pica-6-corner::before { content: "\E014"; }
+.fr-howe-1830-p145-canon-1-repeat { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-canon-1-repeat::before { content: "\E015"; }
+.fr-howe-1830-p145-canon-3-repeat { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-canon-3-repeat::before { content: "\E016"; }
+.fr-howe-1830-p145-canon-3-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-canon-3-corner::before { content: "\E017"; }
+.fr-howe-1830-p145-two-lines-great-primer-1-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-two-lines-great-primer-1-corner::before { content: "\E018"; }
+.fr-howe-1830-p145-double-english-1-repeat { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-double-english-1-repeat::before { content: "\E019"; }
+.fr-howe-1830-p145-double-english-1-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-double-english-1-corner::before { content: "\E01A"; }
+.fr-howe-1830-p145-double-english-2-repeat { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p145-double-english-2-repeat::before { content: "\E01B"; }
+.fr-howe-1830-p013-border-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p013-border-2::before { content: "\E01C"; }
+.fr-howe-1830-p147-two-lines-small-pica-6-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p147-two-lines-small-pica-6-corner::before { content: "\E01D"; }
+.fr-howe-1830-p149-paragon-1 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-paragon-1::before { content: "\E01E"; }
+.fr-howe-1830-p149-paragon-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-paragon-2::before { content: "\E01F"; }
+.fr-howe-1830-p149-paragon-3 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-paragon-3::before { content: "\E020"; }
+.fr-howe-1830-p149-great-primer-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-great-primer-4::before { content: "\E021"; }
+.fr-howe-1830-p149-great-primer-4-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-great-primer-4-corner::before { content: "\E022"; }
+.fr-howe-1830-p149-english-1 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-english-1::before { content: "\E023"; }
+.fr-howe-1830-p149-english-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-english-4::before { content: "\E024"; }
+.fr-howe-1830-p149-english-5 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-english-5::before { content: "\E025"; }
+.fr-howe-1830-p149-english-6 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-english-6::before { content: "\E026"; }
+.fr-howe-1830-p149-english-7 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-english-7::before { content: "\E027"; }
+.fr-howe-1830-p149-english-8 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-english-8::before { content: "\E028"; }
+.fr-howe-1830-p149-pica-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p149-pica-2::before { content: "\E029"; }
+.fr-howe-1830-p151-pica-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-4::before { content: "\E02A"; }
+.fr-howe-1830-p151-pica-5 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-5::before { content: "\E02B"; }
+.fr-howe-1830-p151-pica-7 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-7::before { content: "\E02C"; }
+.fr-howe-1830-p151-pica-7-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-7-corner::before { content: "\E02D"; }
+.fr-howe-1830-p151-pica-8 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-8::before { content: "\E02E"; }
+.fr-howe-1830-p151-pica-9 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-9::before { content: "\E02F"; }
+.fr-howe-1830-p151-pica-9-terminal { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-9-terminal::before { content: "\E030"; }
+.fr-howe-1830-p151-pica-10 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-pica-10::before { content: "\E031"; }
+.fr-howe-1830-p151-small-pica-1 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-small-pica-1::before { content: "\E032"; }
+.fr-howe-1830-p151-small-pica-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-small-pica-2::before { content: "\E033"; }
+.fr-howe-1830-p151-long-primer-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-2::before { content: "\E034"; }
+.fr-howe-1830-p151-long-primer-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-4::before { content: "\E035"; }
+.fr-howe-1830-p151-long-primer-5 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-5::before { content: "\E036"; }
+.fr-howe-1830-p151-long-primer-6 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-6::before { content: "\E037"; }
+.fr-howe-1830-p151-long-primer-6-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-6-corner::before { content: "\E038"; }
+.fr-howe-1830-p151-long-primer-9 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-9::before { content: "\E039"; }
+.fr-howe-1830-p151-long-primer-12 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-12::before { content: "\E03A"; }
+.fr-howe-1830-p151-long-primer-14 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-14::before { content: "\E03B"; }
+.fr-howe-1830-p151-long-primer-15 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p151-long-primer-15::before { content: "\E03C"; }
+.fr-howe-1830-p153-brevier-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-brevier-2::before { content: "\E03D"; }
+.fr-howe-1830-p153-brevier-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-brevier-4::before { content: "\E03E"; }
+.fr-howe-1830-p153-brevier-6 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-brevier-6::before { content: "\E03F"; }
+.fr-howe-1830-p153-brevier-7 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-brevier-7::before { content: "\E040"; }
+.fr-howe-1830-p153-brevier-8 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-brevier-8::before { content: "\E041"; }
+.fr-howe-1830-p153-minion-1-terminal { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-1-terminal::before { content: "\E042"; }
+.fr-howe-1830-p153-minion-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-2::before { content: "\E043"; }
+.fr-howe-1830-p153-minion-3 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-3::before { content: "\E044"; }
+.fr-howe-1830-p153-minion-5 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-5::before { content: "\E045"; }
+.fr-howe-1830-p153-minion-6-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-6-corner::before { content: "\E046"; }
+.fr-howe-1830-p153-minion-7 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-7::before { content: "\E047"; }
+.fr-howe-1830-p153-minion-8 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-8::before { content: "\E048"; }
+.fr-howe-1830-p153-minion-11 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-11::before { content: "\E049"; }
+.fr-howe-1830-p153-minion-12 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-12::before { content: "\E04A"; }
+.fr-howe-1830-p153-minion-12-corner { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-12-corner::before { content: "\E04B"; }
+.fr-howe-1830-p153-minion-13 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-minion-13::before { content: "\E04C"; }
+.fr-howe-1830-p153-nonpareil-1 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-nonpareil-1::before { content: "\E04D"; }
+.fr-howe-1830-p153-nonpareil-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-nonpareil-2::before { content: "\E04E"; }
+.fr-howe-1830-p153-nonpareil-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-nonpareil-4::before { content: "\E04F"; }
+.fr-howe-1830-p153-nonpareil-5 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-nonpareil-5::before { content: "\E050"; }
+.fr-howe-1830-p153-nonpareil-7 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p153-nonpareil-7::before { content: "\E051"; }
+.fr-howe-1830-p155-pearl-2 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p155-pearl-2::before { content: "\E052"; }
+.fr-howe-1830-p155-pearl-4 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p155-pearl-4::before { content: "\E053"; }
+.fr-howe-1830-p155-large-oval { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p155-large-oval::before { content: "\E054"; }
+.fr-howe-1830-p204-metal-165 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p204-metal-165::before { content: "\E055"; }
+.fr-howe-1830-p238-metal-295 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p238-metal-295::before { content: "\E056"; }
+.fr-howe-1830-p238-metal-298-label-299 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p238-metal-298-label-299::before { content: "\E057"; }
+.fr-howe-1830-p246-metal-325 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p246-metal-325::before { content: "\E058"; }
+.fr-howe-1830-p246-metal-326 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p246-metal-326::before { content: "\E059"; }
+.fr-howe-1830-p246-metal-328 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p246-metal-328::before { content: "\E05A"; }
+.fr-howe-1830-p246-metal-329 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p246-metal-329::before { content: "\E05B"; }
+.fr-howe-1830-p248-metal-330 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p248-metal-330::before { content: "\E05C"; }
+.fr-howe-1830-p256-metal-398 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p256-metal-398::before { content: "\E05D"; }
+.fr-howe-1830-p256-metal-399 { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p256-metal-399::before { content: "\E05E"; }
+.fr-howe-1830-p204-metal-163-cornucopia { font-family: "Howe Ornaments 1830"; }
+.fr-howe-1830-p204-metal-163-cornucopia::before { content: "\E05F"; }
