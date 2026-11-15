@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Baltimore Cuts 1832",
   "style": "Regular",
-  "version": "1.005",
+  "version": "1.006",
   "postscript_name": "BaltimoreCuts1832-Regular",
   "year": 1832,
   "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
@@ -400,6 +400,41 @@
       "file": "reference/gpo-1904-leaf-185.jp2",
       "rights": "1904 United States historical publication, public domain by age. Scan contributed and sponsored by the U.S. Government Printing Office. The archive metadata note about a title-page copyright is retained; no copyright claim is inferred to survive for this 1904 publication. No modern digital artwork was traced.",
       "rights_url": "https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 158, archive leaf 158",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n158/mode/1up",
+      "file": "reference/howe1830-158.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 180, archive leaf 180",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n180/mode/1up",
+      "file": "reference/howe1830-180.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 174, archive leaf 174",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n174/mode/1up",
+      "file": "reference/howe1830-174.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 182, archive leaf 182",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n182/mode/1up",
+      "file": "reference/howe1830-182.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 210, archive leaf 210",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n210/mode/1up",
+      "file": "reference/howe1830-210.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
     }
   ],
   "icons": [
@@ -1904,20 +1939,20 @@
     {
       "id": "baltimore-1832-p125-45",
       "name": "Eagle with outstretched wings",
-      "specimen_number": "45",
+      "specimen_number": "5",
       "printed_page": null,
-      "pdf_page": 125,
+      "pdf_page": 158,
       "tags": [
-        "eagle",
-        "outstretched",
-        "wings",
+        "america",
         "bird",
+        "eagle",
         "emblem",
-        "america"
+        "outstretched",
+        "wings"
       ],
       "codepoint": "E02C",
       "glyph": "uniE02C",
-      "source_index": 2,
+      "source_index": 55,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -1935,7 +1970,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 158, archive leaf 158"
     },
     {
       "id": "baltimore-1832-p125-46",
@@ -2701,13 +2737,13 @@
     },
     {
       "id": "baltimore-1832-p127-68",
-      "name": "Tea merchants",
+      "name": "Auctioneer with a gavel addressing bidders beside cargo",
       "specimen_number": "68",
       "printed_page": null,
       "pdf_page": 127,
       "tags": [
-        "tea",
-        "merchants"
+        "merchants",
+        "tea"
       ],
       "codepoint": "E043",
       "glyph": "uniE043",
@@ -2802,16 +2838,16 @@
     {
       "id": "baltimore-1832-p127-71",
       "name": "Wrapped bale",
-      "specimen_number": "71",
+      "specimen_number": "80",
       "printed_page": null,
-      "pdf_page": 127,
+      "pdf_page": 182,
       "tags": [
-        "wrapped",
-        "bale"
+        "bale",
+        "wrapped"
       ],
       "codepoint": "E046",
       "glyph": "uniE046",
-      "source_index": 3,
+      "source_index": 58,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -2829,7 +2865,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 182, archive leaf 182"
     },
     {
       "id": "baltimore-1832-p127-72",
@@ -2999,21 +3036,23 @@
     },
     {
       "id": "baltimore-1832-p129-77",
-      "name": "Figures surrounding an oval shield",
-      "specimen_number": "77",
+      "name": "New Jersey arms with horse crest and Liberty and Prosperity",
+      "specimen_number": "49",
       "printed_page": null,
-      "pdf_page": 129,
+      "pdf_page": 174,
       "tags": [
+        "coat of arms",
+        "emblem",
         "figures",
-        "surrounding",
+        "heraldry",
+        "horse",
         "oval",
         "shield",
-        "emblem",
-        "heraldry"
+        "surrounding"
       ],
       "codepoint": "E04C",
       "glyph": "uniE04C",
-      "source_index": 4,
+      "source_index": 57,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -3031,7 +3070,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 174, archive leaf 174"
     },
     {
       "id": "baltimore-1832-p129-78",
@@ -3247,18 +3287,18 @@
     {
       "id": "baltimore-1832-p129-84",
       "name": "Tall top hat",
-      "specimen_number": "84",
+      "specimen_number": "193",
       "printed_page": null,
-      "pdf_page": 129,
+      "pdf_page": 210,
       "tags": [
-        "tall",
-        "top",
+        "clothing",
         "hat",
-        "clothing"
+        "tall",
+        "top"
       ],
       "codepoint": "E053",
       "glyph": "uniE053",
-      "source_index": 4,
+      "source_index": 59,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -3276,17 +3316,19 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 210, archive leaf 210"
     },
     {
       "id": "baltimore-1832-p129-85",
-      "name": "Screw and handle",
+      "name": "Threaded tap with a T-handle",
       "specimen_number": "85",
       "printed_page": null,
       "pdf_page": 129,
       "tags": [
-        "screw",
-        "handle"
+        "handle",
+        "pointing hand",
+        "screw"
       ],
       "codepoint": "E054",
       "glyph": "uniE054",
@@ -3345,18 +3387,18 @@
     {
       "id": "baltimore-1832-p129-87",
       "name": "Open book and stacked books",
-      "specimen_number": "87",
+      "specimen_number": "85",
       "printed_page": null,
-      "pdf_page": 129,
+      "pdf_page": 182,
       "tags": [
-        "open",
         "book",
-        "stacked",
-        "books"
+        "books",
+        "open",
+        "stacked"
       ],
       "codepoint": "E056",
       "glyph": "uniE056",
-      "source_index": 4,
+      "source_index": 58,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -3374,7 +3416,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 182, archive leaf 182"
     },
     {
       "id": "baltimore-1832-p129-88",
@@ -3548,16 +3591,16 @@
     {
       "id": "baltimore-1832-p133-94",
       "name": "Bouquet in a vase",
-      "specimen_number": "94",
+      "specimen_number": "67",
       "printed_page": null,
-      "pdf_page": 133,
+      "pdf_page": 180,
       "tags": [
         "bouquet",
         "vase"
       ],
       "codepoint": "E05C",
       "glyph": "uniE05C",
-      "source_index": 6,
+      "source_index": 56,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -3575,7 +3618,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 180, archive leaf 180"
     },
     {
       "id": "baltimore-1832-p133-95",
@@ -6631,21 +6675,21 @@
     {
       "id": "baltimore-1832-p155-182",
       "name": "Eagle and shield above waves",
-      "specimen_number": "182",
+      "specimen_number": "2",
       "printed_page": null,
-      "pdf_page": 155,
+      "pdf_page": 158,
       "tags": [
-        "eagle",
-        "shield",
-        "waves",
-        "bird",
-        "emblem",
         "america",
-        "heraldry"
+        "bird",
+        "eagle",
+        "emblem",
+        "heraldry",
+        "shield",
+        "waves"
       ],
       "codepoint": "E0B4",
       "glyph": "uniE0B4",
-      "source_index": 17,
+      "source_index": 55,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -6663,7 +6707,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 158, archive leaf 158"
     },
     {
       "id": "baltimore-1832-p155-183",
@@ -12661,15 +12706,15 @@
     },
     {
       "id": "baltimore-1832-p209-357-08",
-      "name": "Primer: open book",
+      "name": "Primer: heart-marked book leaning on stacked volumes",
       "specimen_number": "357-08",
       "printed_page": null,
       "pdf_page": 209,
       "tags": [
-        "primer",
-        "open",
         "book",
         "education",
+        "open",
+        "primer",
         "school"
       ],
       "codepoint": "E160",
@@ -12733,18 +12778,20 @@
     },
     {
       "id": "baltimore-1832-p209-357-10",
-      "name": "Primer: figures in a boat",
+      "name": "Primer: three figures raising their hands",
       "specimen_number": "357-10",
       "printed_page": null,
       "pdf_page": 209,
       "tags": [
-        "primer",
-        "figures",
         "boat",
         "education",
+        "figure",
+        "figures",
+        "pointing hand",
+        "primer",
         "school",
-        "water",
-        "transport"
+        "transport",
+        "water"
       ],
       "codepoint": "E162",
       "glyph": "uniE162",
@@ -12947,16 +12994,16 @@
     },
     {
       "id": "baltimore-1832-p209-357-16",
-      "name": "Primer: scales above a reclining figure",
+      "name": "Primer: crowned figure reclining beneath curtains",
       "specimen_number": "357-16",
       "printed_page": null,
       "pdf_page": 209,
       "tags": [
-        "primer",
-        "scales",
-        "reclining",
-        "figure",
         "education",
+        "figure",
+        "primer",
+        "reclining",
+        "scales",
         "school"
       ],
       "codepoint": "E168",
@@ -12983,15 +13030,16 @@
     },
     {
       "id": "baltimore-1832-p209-357-17",
-      "name": "Primer: two figures fighting",
+      "name": "Primer: skeleton with an arrow and hourglass pursuing a boy",
       "specimen_number": "357-17",
       "printed_page": null,
       "pdf_page": 209,
       "tags": [
-        "primer",
-        "figures",
-        "fighting",
+        "children",
         "education",
+        "fighting",
+        "figures",
+        "primer",
         "school"
       ],
       "codepoint": "E169",
@@ -13130,16 +13178,17 @@
     },
     {
       "id": "baltimore-1832-p209-357-21",
-      "name": "Primer: kneeling figure beside an altar",
+      "name": "Primer: kneeling figure beside a rooster",
       "specimen_number": "357-21",
       "printed_page": null,
       "pdf_page": 209,
       "tags": [
-        "primer",
-        "kneeling",
-        "figure",
         "altar",
+        "bird",
         "education",
+        "figure",
+        "kneeling",
+        "primer",
         "school"
       ],
       "codepoint": "E16D",
@@ -13239,19 +13288,20 @@
     },
     {
       "id": "baltimore-1832-p209-357-24",
-      "name": "Primer: two men beneath a tree",
+      "name": "Primer: standing figure pouring above a kneeling figure",
       "specimen_number": "357-24",
       "printed_page": null,
       "pdf_page": 209,
       "tags": [
-        "primer",
-        "men",
         "beneath",
-        "tree",
-        "education",
-        "school",
         "botanical",
-        "nature"
+        "education",
+        "figure",
+        "men",
+        "nature",
+        "primer",
+        "school",
+        "tree"
       ],
       "codepoint": "E170",
       "glyph": "uniE170",

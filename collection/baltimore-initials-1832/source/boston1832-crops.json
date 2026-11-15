@@ -1,0 +1,608 @@
+{
+  "crops": [
+    {
+      "id": "boston-1832-p135-petal-c",
+      "archive_leaf": 135,
+      "native_box": [
+        192,
+        191,
+        512,
+        564
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-c.png",
+      "sha256": "79425fbfe6c3b038c212886a505aa565a2de55ef3730c19f330a6a67e38852b2"
+    },
+    {
+      "id": "boston-1832-p135-petal-o",
+      "archive_leaf": 135,
+      "native_box": [
+        533,
+        180,
+        882,
+        548
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-o.png",
+      "sha256": "51b10e47f41f46f09b93b67e558d2198b77816563b96e19798e1a51c392125d6"
+    },
+    {
+      "id": "boston-1832-p135-petal-l",
+      "archive_leaf": 135,
+      "native_box": [
+        901,
+        201,
+        1275,
+        578
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-l.png",
+      "sha256": "ffd81954c6453324bb57097f31276c5c3dc0d47563bdcdd535140e72997ede8b"
+    },
+    {
+      "id": "boston-1832-p135-petal-u",
+      "archive_leaf": 135,
+      "native_box": [
+        1303,
+        206,
+        1690,
+        582
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-u.png",
+      "sha256": "9caf209a16b0dae3808341e9deeba07d1b1045f2ba66e622b71a36d81c596368"
+    },
+    {
+      "id": "boston-1832-p135-petal-m",
+      "archive_leaf": 135,
+      "native_box": [
+        1723,
+        213,
+        2216,
+        586
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-m.png",
+      "sha256": "251134cd367d37468e7a1eddc843d092e211069b9965b9dbb6ab83814369128d"
+    },
+    {
+      "id": "boston-1832-p135-petal-b",
+      "archive_leaf": 135,
+      "native_box": [
+        2239,
+        225,
+        2606,
+        595
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-b.png",
+      "sha256": "e41282d9c16b3555c006934ed554a7ae849489493202c5b202e96fc8e4002742"
+    },
+    {
+      "id": "boston-1832-p135-petal-i",
+      "archive_leaf": 135,
+      "native_box": [
+        2616,
+        217,
+        2827,
+        596
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-i.png",
+      "sha256": "60d3aad48d0a0c2e2720f34a20a8dfb5e3ab3206afef302f4e572e3d2a05f538"
+    },
+    {
+      "id": "boston-1832-p135-petal-a",
+      "archive_leaf": 135,
+      "native_box": [
+        2848,
+        214,
+        3266,
+        595
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-a.png",
+      "sha256": "ec46b13ea31c881df5a80adb0c6e9414b152f074f4ef6ed8db63684c7368df6f"
+    },
+    {
+      "id": "boston-1832-p135-petal-n",
+      "archive_leaf": 135,
+      "native_box": [
+        3299,
+        223,
+        3696,
+        593
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.40079,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-petal-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-petal-n.png",
+      "sha256": "858aee0d468599a0ba68546113381942c3766608bb0e4cde144c03012f928238"
+    },
+    {
+      "id": "boston-1832-p135-rose-d",
+      "archive_leaf": 135,
+      "native_box": [
+        170,
+        793,
+        732,
+        1302
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.834415,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-rose-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-rose-d.png",
+      "sha256": "2a1228847e8c3425bcf4bed69fcd596c68c0dda1d4f7576e6a1c42c09102b3a0"
+    },
+    {
+      "id": "boston-1832-p135-rose-u",
+      "archive_leaf": 135,
+      "native_box": [
+        767,
+        800,
+        1282,
+        1304
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.834415,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-rose-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-rose-u.png",
+      "sha256": "c3b99df7b98569f33b639fe052f1fa1d9208cde0d63410065dcf157777f6d3de"
+    },
+    {
+      "id": "boston-1832-p135-rose-r",
+      "archive_leaf": 135,
+      "native_box": [
+        1324,
+        799,
+        1878,
+        1305
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.834415,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-rose-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-rose-r.png",
+      "sha256": "d0027c31276716a637ff03118ce363b7c511d927f3db08443f5b558e8e8cefe7"
+    },
+    {
+      "id": "boston-1832-p135-rose-h",
+      "archive_leaf": 135,
+      "native_box": [
+        1918,
+        811,
+        2520,
+        1320
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.834415,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-rose-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-rose-h.png",
+      "sha256": "0b9b67c3b3d1c75cd850842c190c67a1d179022b778b10aa3cfbd575cb23bb29"
+    },
+    {
+      "id": "boston-1832-p135-rose-a",
+      "archive_leaf": 135,
+      "native_box": [
+        2564,
+        808,
+        3124,
+        1311
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.834415,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-rose-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-rose-a.png",
+      "sha256": "c4dd1082863ed2d504d17399a9db4e761e46d3ec360c74507ebe394a0fbb49d5"
+    },
+    {
+      "id": "boston-1832-p135-rose-m",
+      "archive_leaf": 135,
+      "native_box": [
+        3185,
+        816,
+        3789,
+        1313
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 0.834415,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-rose-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-rose-m.png",
+      "sha256": "bd3976f29fa8570e2ffde83919ad5b24233b6aad4c3d09fc8bbbd4e8dc571111"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-m",
+      "archive_leaf": 135,
+      "native_box": [
+        199,
+        1512,
+        801,
+        2010
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-m.png",
+      "sha256": "4ed86fa13b07525d5f3538d534a96810900edf66d2bf4a19c94a9dcff9824ad7"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-a",
+      "archive_leaf": 135,
+      "native_box": [
+        831,
+        1511,
+        1396,
+        2003
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-a.png",
+      "sha256": "2347dd8a040280c8d71897f2f08cf0bb6885502222eb9975d9849d4d8bdb3591"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-d",
+      "archive_leaf": 135,
+      "native_box": [
+        1425,
+        1507,
+        1944,
+        2000
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-d.png",
+      "sha256": "9daaa3f9a1480a47ed061f156587a6a4078200aa4babdf9e0bfa39c870383b6d"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-i",
+      "archive_leaf": 135,
+      "native_box": [
+        1993,
+        1522,
+        2310,
+        2007
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-i.png",
+      "sha256": "dbeb59933926a6d53c53831782c2b526f8ce6418ab2a410f26e0ebc49128e0ae"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-s",
+      "archive_leaf": 135,
+      "native_box": [
+        2354,
+        1541,
+        2729,
+        2022
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-s.png",
+      "sha256": "37d3679b16ebf6c120c25d967a13b9247fa0cedd445a381aa6ce61e1aa660477"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-o",
+      "archive_leaf": 135,
+      "native_box": [
+        2765,
+        1524,
+        3229,
+        2010
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-o.png",
+      "sha256": "49cdc93867d6b2559b03ce6d40543f668b126f66cf2f6562534a596b309e0428"
+    },
+    {
+      "id": "boston-1832-p135-floral-panel-n",
+      "archive_leaf": 135,
+      "native_box": [
+        3257,
+        1531,
+        3749,
+        2036
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.779162,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 135-floral-panel-i.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p135-floral-panel-n.png",
+      "sha256": "09eecba1ccea8c4536c4ecb0a00c44b10861c1b8631e6ef636a3395c1e8a92a4"
+    },
+    {
+      "id": "boston-1832-p147-cornucopia-s",
+      "archive_leaf": 147,
+      "native_box": [
+        30,
+        649,
+        767,
+        1458
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 1.015422,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 147-cornucopia-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p147-cornucopia-s.png",
+      "sha256": "4dae82d70210f19b85f4dead910beab23a0da3e003eb44a02a7c9a8735c73380"
+    },
+    {
+      "id": "boston-1832-p147-cornucopia-h",
+      "archive_leaf": 147,
+      "native_box": [
+        771,
+        654,
+        1699,
+        1462
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 1.015422,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 147-cornucopia-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p147-cornucopia-h.png",
+      "sha256": "f61c9066ac418ebfcfe645fe21679b6065ceaaf17427911543b3cb41a26009cd"
+    },
+    {
+      "id": "boston-1832-p147-cornucopia-a",
+      "archive_leaf": 147,
+      "native_box": [
+        1705,
+        665,
+        2624,
+        1475
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 1.015422,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 147-cornucopia-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p147-cornucopia-a.png",
+      "sha256": "e8a7cf819d10aebd6c1b724bf8345062770388a2565aa5fba64ee77015bb05df"
+    },
+    {
+      "id": "boston-1832-p147-cornucopia-n",
+      "archive_leaf": 147,
+      "native_box": [
+        2635,
+        667,
+        3630,
+        1465
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 1.015422,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 147-cornucopia-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p147-cornucopia-n.png",
+      "sha256": "62bb61123a23a4a01092a9f0f02ddc9e062147b828e70818f96d7fb4195b9262"
+    },
+    {
+      "id": "boston-1832-p147-cornucopia-t",
+      "archive_leaf": 147,
+      "native_box": [
+        3633,
+        679,
+        4563,
+        1480
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": 1.015422,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 147-cornucopia-h.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p147-cornucopia-t.png",
+      "sha256": "7ef0a559d5a96e9fa4c3a662d29500bbba548c50ce462b44e7430fea27c6ad7d"
+    },
+    {
+      "id": "boston-1832-p149-scroll-o",
+      "archive_leaf": 149,
+      "native_box": [
+        105,
+        290,
+        1284,
+        1277
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p149-scroll-o.png",
+      "sha256": "6f20d4ea065ec9d784e10bfb1e748fc75246a30b02166fffdc911d974e72ce6a"
+    },
+    {
+      "id": "boston-1832-p149-scroll-n",
+      "archive_leaf": 149,
+      "native_box": [
+        1326,
+        275,
+        2596,
+        1259
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p149-scroll-n.png",
+      "sha256": "7cf70546430e22ba8b572a372cb1a1c0f78d77435ba98d6e294eecb3e39c80d8"
+    },
+    {
+      "id": "boston-1832-p149-scroll-e",
+      "archive_leaf": 149,
+      "native_box": [
+        2625,
+        263,
+        3769,
+        1261
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p149-scroll-e.png",
+      "sha256": "79149aea210bb49f5ca80acf61ddc32942caa0aff00dbbb689d64b488f983415"
+    },
+    {
+      "id": "boston-1832-p153-scroll-figure-4",
+      "archive_leaf": 153,
+      "native_box": [
+        1310,
+        334,
+        2343,
+        1641
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.911802,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 153-scroll-figure-4.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p153-scroll-figure-4.png",
+      "sha256": "aa04c2de02e1a67b0790dbc0bba5dba54c7e13f2e06519a2cc0e4783004d685c"
+    },
+    {
+      "id": "boston-1832-p153-scroll-figure-exclamation",
+      "archive_leaf": 153,
+      "native_box": [
+        3423,
+        297,
+        3967,
+        1622
+      ],
+      "source_rotation_counterclockwise": 270,
+      "deskew_counterclockwise_degrees": -0.911802,
+      "rotation_evidence": "Robust least-squares fit to the long lower edge of 153-scroll-figure-4.png, excluding edge outliers; shared rigid row correction, no nonuniform scaling.",
+      "output": "reference/crops/boston-1832-p153-scroll-figure-exclamation.png",
+      "sha256": "a52ac878f7c3ce24981ab63acaed9bd6078ec18c999b788a90c5e330234ddcf2"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-1",
+      "archive_leaf": 111,
+      "native_box": [
+        731,
+        586,
+        778,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-1.png",
+      "sha256": "31ecb492b04cb5922da70705e9f80db4d2fabfbc430db9ec99e1bed381a3f887"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-2",
+      "archive_leaf": 111,
+      "native_box": [
+        778,
+        586,
+        827,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-2.png",
+      "sha256": "dc7b62961f9a5813e83c7258de059e484021719e912265857598ade77e419ce3"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-3",
+      "archive_leaf": 111,
+      "native_box": [
+        827,
+        586,
+        875,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-3.png",
+      "sha256": "efdec94baa607cc8c6f2198cca6a1f3ce9036f1810ebe624c6562e00d6c8bad8"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-4",
+      "archive_leaf": 111,
+      "native_box": [
+        875,
+        586,
+        923,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-4.png",
+      "sha256": "3e31187903950cf50c709a29c33a2a3ce928d4518885a7f312f0806e983ec311"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-5",
+      "archive_leaf": 111,
+      "native_box": [
+        923,
+        586,
+        971,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-5.png",
+      "sha256": "a8c61e76dd94649dd38296cd5ee05014f8d8838292973e2867cc190bb4d74378"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-6",
+      "archive_leaf": 111,
+      "native_box": [
+        971,
+        586,
+        1019,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-6.png",
+      "sha256": "4a3395a01e347eae85d268f41bdb9380e492f2040a5d3efff99f3d1a13e0beb8"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-7",
+      "archive_leaf": 111,
+      "native_box": [
+        1019,
+        586,
+        1067,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-7.png",
+      "sha256": "de3b442df2bd2173d5295b3450baaf418adbc1f5c39b907ae065587cd60f33f0"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-8",
+      "archive_leaf": 111,
+      "native_box": [
+        1067,
+        586,
+        1115,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-8.png",
+      "sha256": "489f1fb4b4065724009dda465b520b55a5846b8bed47dccfb79714afca5f12b9"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-9",
+      "archive_leaf": 111,
+      "native_box": [
+        1115,
+        586,
+        1163,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-9.png",
+      "sha256": "608b53b91ccf8b00e2c1bb98569ce58b18509c3b8f38d862df1a53145b09a3c1"
+    },
+    {
+      "id": "boston-1832-p111-black-ground-0",
+      "archive_leaf": 111,
+      "native_box": [
+        1163,
+        586,
+        1212,
+        689
+      ],
+      "source_rotation_counterclockwise": 270,
+      "output": "reference/crops/boston-1832-p111-black-ground-0.png",
+      "sha256": "269c02ecbd9ad64472971eef203a63b214513ed10e0bfaa6aa6999a3ae7d1c17"
+    }
+  ]
+}

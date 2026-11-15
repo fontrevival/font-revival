@@ -1,0 +1,135 @@
+{
+  "book": "howe-1830",
+  "previous_version": "1.004",
+  "version": "1.005",
+  "items": [
+    {
+      "canonical_id": "bruce-1828-p135-ornamented-period",
+      "glyph": "uniE04C",
+      "source_impression": "howe-1830-p135-hatched-period",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p135-hatched-period.png",
+        "box": [
+          0,
+          0,
+          195,
+          211
+        ],
+        "height": 1754.482365917514,
+        "max_ink_dimension": 1799.8475137541243,
+        "center_vertical": false,
+        "y_min": 22.638479064392186,
+        "bearings": [
+          64.20410545562969,
+          63.94838079024612
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.25,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "erase": [
+          [
+            175,
+            0,
+            195,
+            25
+          ]
+        ],
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -0.0043421095333542326,
+          -0.030776218712162517
+        ]
+      },
+      "crop": {
+        "archive_leaf": 135,
+        "native_box": [
+          3514,
+          1927,
+          3709,
+          2138
+        ],
+        "source_rotation_counterclockwise": 90
+      },
+      "before_bounds": [
+        64.20410545562969,
+        22.638479064392186,
+        1864.0516192097539,
+        1777.1208449819062
+      ],
+      "after_bounds": [
+        162.0,
+        22.60548997646757,
+        1766.2644088844502,
+        1777.215386507255
+      ],
+      "before_path_sha256": "78c8a665a3695dc1446dd02687f262c3e0fbb10e5a87b7aa97500968b16fce0b",
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.0043421095333542326,
+        -0.030776218712162517
+      ],
+      "placement_review": "accepted",
+      "status": "accepted",
+      "crop_file": "reference/howe1830-crops/howe-1830-p135-hatched-period.png",
+      "family": "baltimore-initials-1832",
+      "previous": {
+        "icon": {
+          "id": "bruce-1828-p135-ornamented-period",
+          "name": "Ornamented italic diamond period",
+          "specimen_number": "ornamented-period",
+          "printed_page": null,
+          "pdf_page": 135,
+          "tags": [
+            "initial",
+            "ornamented",
+            "italic",
+            "flower",
+            "hatching",
+            "shadow",
+            "punctuation",
+            "period"
+          ],
+          "codepoint": "E04C",
+          "glyph": "uniE04C",
+          "source_index": 12,
+          "recommended_min_px": 64,
+          "source_label": "A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), Eight Lines Pica, Ornamented; unnumbered leaf, PDF page 135"
+        },
+        "recipe": {
+          "file": "reference/bruce1828-hathi-p135-upright.png",
+          "box": [
+            2175,
+            1201,
+            2311,
+            1349
+          ],
+          "height": 1800,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "threshold": 135,
+          "blur": 0.3,
+          "component_min_area": 6,
+          "fill_holes": 2,
+          "tolerance": 0.15,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "notes": "Observed Ornamented italic diamond period; Bruce1828 PDF page 135. Complete ornamental sort; no inferred drawing."
+        }
+      }
+    }
+  ]
+}

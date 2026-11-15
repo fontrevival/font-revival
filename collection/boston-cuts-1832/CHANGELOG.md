@@ -1,5 +1,9 @@
 # Changes
 
+## 1.003
+
+- Improve two existing cuts from clearer complete Howe 1830 impressions. Preserve their permanent IDs, codepoints and spacing, and retain the source measurements and comparison evidence.
+
 ## 1.002
 
 - Improve the longhorn bull No.470 from the clearer matching Bruce1828 No.288 impression, preserving its identity, codepoint and advance.

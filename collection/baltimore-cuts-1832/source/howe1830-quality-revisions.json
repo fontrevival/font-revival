@@ -1,0 +1,1534 @@
+{
+  "book": "howe-1830",
+  "previous_version": "1.005",
+  "version": "1.006",
+  "items": [
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p155-182",
+      "glyph": "uniE0B4",
+      "source_impression": "howe-1830-p158-metal-2",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p158-metal-2.png",
+        "box": [
+          0,
+          0,
+          611,
+          558
+        ],
+        "height": 1527.6185863490998,
+        "max_ink_dimension": 1691.1552364953648,
+        "center_vertical": true,
+        "y_min": 184.80977158821278,
+        "bearings": [
+          81.98946653480428,
+          154.855296969831
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -36.32242097716551,
+          0.010034192929310848
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -36.32242097716551,
+        0.010034192929310848
+      ],
+      "crop": {
+        "archive_leaf": 158,
+        "pdf_page": 158,
+        "native_box": [
+          1327,
+          751,
+          2031,
+          1397
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": null,
+        "trim_in_upright_crop": [
+          52,
+          39,
+          663,
+          597
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p158-metal-2.png",
+      "before_bounds": [
+        81.98946653480428,
+        184.80977158821278,
+        1773.144703030169,
+        1712.4283579373125
+      ],
+      "after_bounds": [
+        86.57545318364045,
+        184.80384757729337,
+        1769.2035583356637,
+        1712.414213562373
+      ],
+      "before_path_sha256": "96bc05752ed5db532d07aa7c362187cf19f4281a055c84297d07863cbb5b22bd",
+      "multitone_layers": [
+        {
+          "glyph": "uniE0B4.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE0B4.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE0B4.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p158-metal-2.png",
+        "box": [
+          0,
+          0,
+          611,
+          558
+        ],
+        "height": 1527.6185863490998,
+        "max_ink_dimension": 1691.1552364953648,
+        "center_vertical": true,
+        "y_min": 184.80977158821278,
+        "bearings": [
+          81.98946653480428,
+          154.855296969831
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p155-182",
+          "name": "Eagle and shield above waves",
+          "specimen_number": "182",
+          "printed_page": null,
+          "pdf_page": 155,
+          "tags": [
+            "eagle",
+            "shield",
+            "waves",
+            "bird",
+            "emblem",
+            "america",
+            "heraldry"
+          ],
+          "codepoint": "E0B4",
+          "glyph": "uniE0B4",
+          "source_index": 17,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE0B4.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE0B4.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE0B4.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-155.png",
+          "box": [
+            509,
+            1268,
+            1231,
+            1886
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          },
+          "post_trace_transform": [
+            0.9996564106186592,
+            0.02621184291534316,
+            -0.02621184291534316,
+            0.9996564106186592,
+            23.921878787421402,
+            -24.958986127184062
+          ],
+          "straightening_note": "+1.502 degrees; bottom edge; see straightening.json."
+        }
+      }
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p133-94",
+      "glyph": "uniE05C",
+      "source_impression": "howe-1830-p180-metal-67",
+      "status": "accepted",
+      "advance_width": 1749,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p180-metal-67.png",
+        "box": [
+          0,
+          0,
+          559,
+          674
+        ],
+        "height": 1785.0,
+        "max_ink_dimension": 1785.0,
+        "center_vertical": true,
+        "y_min": 1.0,
+        "bearings": [
+          66.0,
+          64.75
+        ],
+        "advance_width": 1749,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          0.6261065441835854,
+          0.0
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.6261065441835854,
+        0.0
+      ],
+      "crop": {
+        "archive_leaf": 180,
+        "pdf_page": 180,
+        "native_box": [
+          1588,
+          567,
+          2241,
+          1439
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": null,
+        "trim_in_upright_crop": [
+          81,
+          44,
+          640,
+          718
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p180-metal-67.png",
+      "before_bounds": [
+        66.0,
+        1.0,
+        1684.25,
+        1786.0
+      ],
+      "after_bounds": [
+        155.80618520421515,
+        1.0,
+        1595.1916017074177,
+        1786.0
+      ],
+      "before_path_sha256": "0def6e6c0b2faa3feb9eb71ea5e697dd92d2553522643284348d6ae1869147e6",
+      "multitone_layers": [
+        {
+          "glyph": "uniE05C.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE05C.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE05C.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "source_mirror_horizontal": false,
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p180-metal-67.png",
+        "box": [
+          0,
+          0,
+          559,
+          674
+        ],
+        "height": 1785.0,
+        "max_ink_dimension": 1785.0,
+        "center_vertical": true,
+        "y_min": 1.0,
+        "bearings": [
+          66.0,
+          64.75
+        ],
+        "advance_width": 1749,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p133-94",
+          "name": "Bouquet in a vase",
+          "specimen_number": "94",
+          "printed_page": null,
+          "pdf_page": 133,
+          "tags": [
+            "bouquet",
+            "vase"
+          ],
+          "codepoint": "E05C",
+          "glyph": "uniE05C",
+          "source_index": 6,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE05C.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE05C.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE05C.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-133.png",
+          "box": [
+            613,
+            618,
+            1355,
+            1432
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          }
+        }
+      }
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p125-45",
+      "glyph": "uniE02C",
+      "source_impression": "howe-1830-p158-metal-5",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p158-metal-5.png",
+        "box": [
+          0,
+          0,
+          960,
+          279
+        ],
+        "height": 447.1568542494924,
+        "max_ink_dimension": 1769.375,
+        "center_vertical": true,
+        "y_min": 674.6715728752538,
+        "bearings": [
+          75.625,
+          83.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -3.833986384753075,
+          -0.20236555166366088
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -3.833986384753075,
+        -0.20236555166366088
+      ],
+      "crop": {
+        "archive_leaf": 158,
+        "pdf_page": 158,
+        "native_box": [
+          348,
+          2482,
+          1394,
+          2859
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": null,
+        "trim_in_upright_crop": [
+          40,
+          47,
+          1000,
+          326
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p158-metal-5.png",
+      "before_bounds": [
+        75.625,
+        674.6715728752538,
+        1845.0,
+        1121.8284271247462
+      ],
+      "after_bounds": [
+        146.52892590213273,
+        674.9047311033274,
+        1773.7640468673735,
+        1122.0
+      ],
+      "before_path_sha256": "c78026e51cc81e41f2d892b56c780b1390a9e6f7d06811bf8a07e75a94d22e9d",
+      "multitone_layers": [
+        {
+          "glyph": "uniE02C.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE02C.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE02C.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p158-metal-5.png",
+        "box": [
+          0,
+          0,
+          960,
+          279
+        ],
+        "height": 447.1568542494924,
+        "max_ink_dimension": 1769.375,
+        "center_vertical": true,
+        "y_min": 674.6715728752538,
+        "bearings": [
+          75.625,
+          83.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p125-45",
+          "name": "Eagle with outstretched wings",
+          "specimen_number": "45",
+          "printed_page": null,
+          "pdf_page": 125,
+          "tags": [
+            "eagle",
+            "outstretched",
+            "wings",
+            "bird",
+            "emblem",
+            "america"
+          ],
+          "codepoint": "E02C",
+          "glyph": "uniE02C",
+          "source_index": 2,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE02C.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE02C.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE02C.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-125.png",
+          "box": [
+            1342,
+            1046,
+            2487,
+            1389
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          }
+        }
+      }
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p129-77",
+      "glyph": "uniE04C",
+      "source_impression": "howe-1830-p174-metal-49",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p174-metal-49.png",
+        "box": [
+          0,
+          0,
+          508,
+          356
+        ],
+        "height": 1260.8055450836603,
+        "max_ink_dimension": 1803.6338187862543,
+        "center_vertical": true,
+        "y_min": 272.3888388209504,
+        "bearings": [
+          51.820014042509484,
+          72.54616717123622
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -10.150831961130166,
+          -0.020175463347413825
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -10.150831961130166,
+        -0.020175463347413825
+      ],
+      "crop": {
+        "archive_leaf": 174,
+        "pdf_page": 174,
+        "native_box": [
+          1528,
+          653,
+          1972,
+          1378
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": 90,
+        "trim_in_upright_crop": [
+          18,
+          37,
+          526,
+          393
+        ],
+        "erase_in_raw_upright_crop": [
+          [
+            0,
+            0,
+            725,
+            43
+          ]
+        ],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p174-metal-49.png",
+      "before_bounds": [
+        51.820014042509484,
+        272.3888388209504,
+        1855.4538328287638,
+        1533.1943839046107
+      ],
+      "after_bounds": [
+        51.99062109008331,
+        282.4019237886467,
+        1855.5848897034502,
+        1523.2216498636094
+      ],
+      "before_path_sha256": "4989f9644b597872ba3d99e9a6ec96e3b8584d1d9d60a5274f7d91da252a6059",
+      "multitone_layers": [
+        {
+          "glyph": "uniE04C.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE04C.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE04C.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p174-metal-49.png",
+        "box": [
+          0,
+          0,
+          508,
+          356
+        ],
+        "height": 1260.8055450836603,
+        "max_ink_dimension": 1803.6338187862543,
+        "center_vertical": true,
+        "y_min": 272.3888388209504,
+        "bearings": [
+          51.820014042509484,
+          72.54616717123622
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p129-77",
+          "name": "Figures surrounding an oval shield",
+          "specimen_number": "77",
+          "printed_page": null,
+          "pdf_page": 129,
+          "tags": [
+            "figures",
+            "surrounding",
+            "oval",
+            "shield",
+            "emblem",
+            "heraldry"
+          ],
+          "codepoint": "E04C",
+          "glyph": "uniE04C",
+          "source_index": 4,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE04C.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE04C.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE04C.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-129.png",
+          "box": [
+            4016,
+            597,
+            4628,
+            1022
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          },
+          "post_trace_transform": [
+            0.9997370359165594,
+            -0.022931616095949,
+            0.022931616095949,
+            0.9997370359165594,
+            -20.384957109917387,
+            22.342745591591438
+          ],
+          "straightening_note": "-1.314 degrees; bottom edge; see straightening.json."
+        }
+      }
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p127-71",
+      "glyph": "uniE046",
+      "source_impression": "howe-1830-p182-metal-80",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p182-metal-80.png",
+        "box": [
+          0,
+          0,
+          707,
+          312
+        ],
+        "height": 730.3606797749978,
+        "max_ink_dimension": 1795.5225424859373,
+        "center_vertical": true,
+        "y_min": 489.6393202250021,
+        "bearings": [
+          66.47745751406264,
+          66.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          0.22676427387511922,
+          0.12931366269776845
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.22676427387511922,
+        0.12931366269776845
+      ],
+      "crop": {
+        "archive_leaf": 182,
+        "pdf_page": 182,
+        "native_box": [
+          1330,
+          2292,
+          2120,
+          2679
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": null,
+        "trim_in_upright_crop": [
+          42,
+          33,
+          749,
+          345
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p182-metal-80.png",
+      "before_bounds": [
+        66.47745751406264,
+        489.6393202250021,
+        1862.0,
+        1220.0
+      ],
+      "after_bounds": [
+        102.72864579536319,
+        489.3806928996065,
+        1825.2952831709492,
+        1220.0
+      ],
+      "before_path_sha256": "4216dd5a12a1f511ca90399068272fd0ae41cebc18ee1516950c0b00393655ed",
+      "multitone_layers": [
+        {
+          "glyph": "uniE046.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE046.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE046.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p182-metal-80.png",
+        "box": [
+          0,
+          0,
+          707,
+          312
+        ],
+        "height": 730.3606797749978,
+        "max_ink_dimension": 1795.5225424859373,
+        "center_vertical": true,
+        "y_min": 489.6393202250021,
+        "bearings": [
+          66.47745751406264,
+          66.0
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p127-71",
+          "name": "Wrapped bale",
+          "specimen_number": "71",
+          "printed_page": null,
+          "pdf_page": 127,
+          "tags": [
+            "wrapped",
+            "bale"
+          ],
+          "codepoint": "E046",
+          "glyph": "uniE046",
+          "source_index": 3,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE046.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE046.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE046.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-127.png",
+          "box": [
+            3115,
+            1869,
+            3972,
+            2264
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          }
+        }
+      }
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p129-87",
+      "glyph": "uniE056",
+      "source_impression": "howe-1830-p182-metal-85",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p182-metal-85.png",
+        "box": [
+          0,
+          0,
+          545,
+          326
+        ],
+        "height": 1024.8962224258626,
+        "max_ink_dimension": 1699.0001738119327,
+        "center_vertical": true,
+        "y_min": 387.0,
+        "bearings": [
+          163.65,
+          65.34982618806725
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          49.33647520680836,
+          -0.23938878706871947
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        49.33647520680836,
+        -0.23938878706871947
+      ],
+      "crop": {
+        "archive_leaf": 182,
+        "pdf_page": 182,
+        "native_box": [
+          1477,
+          3634,
+          2116,
+          4031
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": null,
+        "trim_in_upright_crop": [
+          42,
+          25,
+          587,
+          351
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p182-metal-85.png",
+      "before_bounds": [
+        163.65,
+        387.0,
+        1862.6501738119327,
+        1411.8962224258626
+      ],
+      "after_bounds": [
+        163.3772233983162,
+        406.0,
+        1862.25,
+        1393.375
+      ],
+      "before_path_sha256": "7acf43b92cbe5824e40e6ad1809356ce54dd64b9afd9bf8f70968eda00bb63aa",
+      "multitone_layers": [
+        {
+          "glyph": "uniE056.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE056.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE056.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p182-metal-85.png",
+        "box": [
+          0,
+          0,
+          545,
+          326
+        ],
+        "height": 1024.8962224258626,
+        "max_ink_dimension": 1699.0001738119327,
+        "center_vertical": true,
+        "y_min": 387.0,
+        "bearings": [
+          163.65,
+          65.34982618806725
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p129-87",
+          "name": "Open book and stacked books",
+          "specimen_number": "87",
+          "printed_page": null,
+          "pdf_page": 129,
+          "tags": [
+            "open",
+            "book",
+            "stacked",
+            "books"
+          ],
+          "codepoint": "E056",
+          "glyph": "uniE056",
+          "source_index": 4,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE056.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE056.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE056.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-129.png",
+          "box": [
+            1956,
+            2101,
+            2594,
+            2511
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          }
+        }
+      }
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "canonical_id": "baltimore-1832-p129-84",
+      "glyph": "uniE053",
+      "source_impression": "howe-1830-p210-metal-193",
+      "status": "accepted",
+      "advance_width": 1928,
+      "recipe": {
+        "file": "reference/howe1830-crops/howe-1830-p210-metal-193.png",
+        "box": [
+          0,
+          0,
+          803,
+          705
+        ],
+        "height": 1644.6026163857046,
+        "max_ink_dimension": 1796.2114667803733,
+        "center_vertical": true,
+        "y_min": 77.3125,
+        "bearings": [
+          64.42206772272651,
+          67.36646549690022
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        },
+        "post_trace_transform": [
+          1,
+          0,
+          0,
+          1,
+          -1.6259396001903497,
+          -0.08752677902248251
+        ]
+      },
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -1.6259396001903497,
+        -0.08752677902248251
+      ],
+      "crop": {
+        "archive_leaf": 210,
+        "pdf_page": 210,
+        "native_box": [
+          1397,
+          3003,
+          2328,
+          3862
+        ],
+        "source_rotation_counterclockwise": 0,
+        "crop_rotation_counterclockwise": null,
+        "trim_in_upright_crop": [
+          61,
+          68,
+          864,
+          773
+        ],
+        "erase_in_raw_upright_crop": [],
+        "deskew_counterclockwise_degrees": null,
+        "rotation_evidence": null,
+        "upgrade_rotation_from_crop": null
+      },
+      "crop_file": "reference/howe1830-crops/howe-1830-p210-metal-193.png",
+      "before_bounds": [
+        64.42206772272651,
+        77.3125,
+        1860.6335345030998,
+        1721.9151163857046
+      ],
+      "after_bounds": [
+        64.0497047235777,
+        114.3125,
+        1860.2577767026294,
+        1685.0901699437495
+      ],
+      "before_path_sha256": "b99592957e1422109b4dfd6bf88ca8f1bea3ce46c49f73ebd95a31ab8e87ca23",
+      "multitone_layers": [
+        {
+          "glyph": "uniE053.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE053.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE053.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "review": "Same engraving; complete crop and clearer engraved detail confirmed in before/source/after proof. Original advance and ink-bounds centre retained.",
+      "tonal_recipe": {
+        "file": "crops/howe-1830-p210-metal-193.png",
+        "box": [
+          0,
+          0,
+          803,
+          705
+        ],
+        "height": 1644.6026163857046,
+        "max_ink_dimension": 1796.2114667803733,
+        "center_vertical": true,
+        "y_min": 77.3125,
+        "bearings": [
+          64.42206772272651,
+          67.36646549690022
+        ],
+        "advance_width": 1928,
+        "center": true,
+        "threshold": 135,
+        "blur": 0.3,
+        "component_min_area": 4,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "frame_threshold": 135,
+        "multitone": {
+          "separation": "native-mask-bands",
+          "thresholds": {
+            "primary": 100,
+            "secondary": 120,
+            "tertiary": 135
+          }
+        }
+      },
+      "tone_status": "accepted",
+      "previous": {
+        "icon": {
+          "id": "baltimore-1832-p129-84",
+          "name": "Tall top hat",
+          "specimen_number": "84",
+          "printed_page": null,
+          "pdf_page": 129,
+          "tags": [
+            "tall",
+            "top",
+            "hat",
+            "clothing"
+          ],
+          "codepoint": "E053",
+          "glyph": "uniE053",
+          "source_index": 4,
+          "recommended_min_px": 64,
+          "multitone_layers": [
+            {
+              "glyph": "uniE053.primary",
+              "role": "primary",
+              "opacity": 1
+            },
+            {
+              "glyph": "uniE053.secondary",
+              "role": "secondary",
+              "opacity": 0.55
+            },
+            {
+              "glyph": "uniE053.tertiary",
+              "role": "tertiary",
+              "opacity": 0.25
+            }
+          ]
+        },
+        "recipe": {
+          "file": "reference/pdf-129.png",
+          "box": [
+            3242,
+            1619,
+            3678,
+            2013
+          ],
+          "height": 1800,
+          "max_ink_dimension": 1800,
+          "center_vertical": true,
+          "y_min": 0,
+          "bearings": [
+            64,
+            64
+          ],
+          "paper_normalization_radius": 0,
+          "threshold": 170,
+          "frame_threshold": 200,
+          "blur": 0.3,
+          "component_min_area": 3,
+          "fill_holes": 0,
+          "tolerance": 0.15,
+          "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+          "multitone": {
+            "thresholds": {
+              "primary": 135,
+              "secondary": 170,
+              "tertiary": 200
+            },
+            "round_inputs": false
+          }
+        }
+      }
+    }
+  ]
+}

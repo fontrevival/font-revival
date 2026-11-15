@@ -163,3 +163,9 @@ Original proportions and deliberate italic slopes are preserved.
 prepare-bruce-1828.py traces this batch and appends its assigned glyphs to the
 canonical master. It retains every prior glyph, metric and character assignment.
 Normal builds use font.ttx without retracing.
+
+Boston 1832 contributes 32 decorated sorts and ten white-on-black figures. Measured rigid rotations straighten sloping rows. For negative figures, only the outer block is squared to its measured outline bounds; the connected white digit and its black counters retain their traced contours, while disconnected wear holes are removed. Recipes and final drawings are retained in `boston1832-crops.json`, `tracing.json` and `boston1832-drawings.json`.
+
+## Dense font delivery
+
+`font-parts.json` records default OpenType `ccmp` pieces for uniE060. The complete fitted outline is split at overlapping boundaries so each piece fits renderer limits. Only the final piece advances; the encoded icon and overall spacing remain unchanged. `truetype-glyphs/` retains a simplified compatibility outline for applications without shaping. Downloadable fonts contain encoded monochrome icons and private assembly pieces; the complete tone layers remain in the canonical master and SVG artwork.

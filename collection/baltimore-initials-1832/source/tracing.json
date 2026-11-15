@@ -2439,27 +2439,44 @@
       "notes": "Observed Ornamented italic letter r; Bruce1828 PDF page 135. Complete ornamental sort; no inferred drawing."
     },
     "": {
-      "file": "reference/bruce1828-hathi-p135-upright.png",
+      "file": "reference/howe1830-crops/howe-1830-p135-hatched-period.png",
       "box": [
-        2175,
-        1201,
-        2311,
-        1349
+        0,
+        0,
+        195,
+        211
       ],
-      "height": 1800,
-      "y_min": 0,
+      "height": 1754.482365917514,
+      "max_ink_dimension": 1799.8475137541243,
+      "center_vertical": false,
+      "y_min": 22.638479064392186,
       "bearings": [
-        64,
-        64
+        64.20410545562969,
+        63.94838079024612
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0.3,
-      "component_min_area": 6,
-      "fill_holes": 2,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
       "tolerance": 0.15,
-      "max_ink_dimension": 1800,
-      "center_vertical": true,
-      "notes": "Observed Ornamented italic diamond period; Bruce1828 PDF page 135. Complete ornamental sort; no inferred drawing."
+      "erase": [
+        [
+          175,
+          0,
+          195,
+          25
+        ]
+      ],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.0043421095333542326,
+        -0.030776218712162517
+      ]
     },
     "": {
       "file": "reference/bruce1828-hathi-p135-upright.png",
@@ -2537,6 +2554,1685 @@
           67
         ]
       ]
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-1.png",
+      "box": [
+        0,
+        0,
+        651,
+        810
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-2.png",
+      "box": [
+        0,
+        0,
+        680,
+        797
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-3.png",
+      "box": [
+        0,
+        0,
+        672,
+        824
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-4.png",
+      "box": [
+        0,
+        0,
+        706,
+        822
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-5.png",
+      "box": [
+        0,
+        0,
+        657,
+        808
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-6.png",
+      "box": [
+        0,
+        0,
+        676,
+        808
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-7.png",
+      "box": [
+        0,
+        0,
+        640,
+        819
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-8.png",
+      "box": [
+        0,
+        0,
+        600,
+        819
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-9.png",
+      "box": [
+        0,
+        0,
+        645,
+        820
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-figure-0.png",
+      "box": [
+        0,
+        0,
+        657,
+        826
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-comma-face.png",
+      "box": [
+        0,
+        0,
+        283,
+        348
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-round-face.png",
+      "box": [
+        0,
+        0,
+        302,
+        330
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p288-cornucopia-figure-1.png",
+      "box": [
+        0,
+        0,
+        1002,
+        1402
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p288-cornucopia-figure-3.png",
+      "box": [
+        0,
+        0,
+        1103,
+        1386
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p288-cornucopia-figure-4.png",
+      "box": [
+        0,
+        0,
+        1164,
+        1406
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p288-cornucopia-figure-5.png",
+      "box": [
+        0,
+        0,
+        1070,
+        1410
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p288-cornucopia-figure-6.png",
+      "box": [
+        0,
+        0,
+        1152,
+        1432
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p135-hatched-capital-m.png",
+      "box": [
+        0,
+        0,
+        1136,
+        696
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p135-hatched-capital-y.png",
+      "box": [
+        0,
+        0,
+        807,
+        683
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p135-hatched-capital-n.png",
+      "box": [
+        0,
+        0,
+        1072,
+        686
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p135-hatched-lowercase-i.png",
+      "box": [
+        0,
+        0,
+        409,
+        636
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p135-hatched-lowercase-n.png",
+      "box": [
+        0,
+        0,
+        589,
+        503
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p135-hatched-question.png",
+      "box": [
+        0,
+        0,
+        498,
+        681
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p286-scroll-figure-1.png",
+      "box": [
+        0,
+        0,
+        810,
+        1256
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p286-scroll-figure-2.png",
+      "box": [
+        0,
+        0,
+        1080,
+        1263
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p286-scroll-figure-period.png",
+      "box": [
+        0,
+        0,
+        503,
+        540
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p286-scroll-dollar.png",
+      "box": [
+        0,
+        0,
+        1054,
+        1501
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p286-scroll-figure-8.png",
+      "box": [
+        0,
+        0,
+        1099,
+        1377
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 145,
+      "blur": 0.3,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-exclamation.png",
+      "box": [
+        0,
+        0,
+        324,
+        785
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p284-face-question.png",
+      "box": [
+        0,
+        0,
+        334,
+        822
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 110,
+      "blur": 0.25,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/howe-1830-p252-metal-356.png",
+      "box": [
+        0,
+        0,
+        575,
+        505
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 135,
+      "blur": 0.4,
+      "component_min_area": 4,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed complete historical source; uniform scaling preserves proportions. Cleanup and any measured rotation are recorded in crops.json."
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-c.png",
+      "box": [
+        0,
+        0,
+        324,
+        377
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-o.png",
+      "box": [
+        0,
+        0,
+        353,
+        372
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-l.png",
+      "box": [
+        0,
+        0,
+        378,
+        381
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-u.png",
+      "box": [
+        0,
+        0,
+        391,
+        380
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-m.png",
+      "box": [
+        0,
+        0,
+        497,
+        377
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-b.png",
+      "box": [
+        0,
+        0,
+        371,
+        374
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-i.png",
+      "box": [
+        0,
+        0,
+        215,
+        381
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-a.png",
+      "box": [
+        0,
+        0,
+        422,
+        385
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-petal-n.png",
+      "box": [
+        0,
+        0,
+        401,
+        374
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-rose-d.png",
+      "box": [
+        0,
+        0,
+        570,
+        519
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-rose-u.png",
+      "box": [
+        0,
+        0,
+        523,
+        512
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-rose-r.png",
+      "box": [
+        0,
+        0,
+        562,
+        516
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-rose-h.png",
+      "box": [
+        0,
+        0,
+        610,
+        519
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-rose-a.png",
+      "box": [
+        0,
+        0,
+        568,
+        513
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-rose-m.png",
+      "box": [
+        0,
+        0,
+        612,
+        507
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-m.png",
+      "box": [
+        0,
+        0,
+        610,
+        508
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-a.png",
+      "box": [
+        0,
+        0,
+        573,
+        500
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-d.png",
+      "box": [
+        0,
+        0,
+        527,
+        501
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-i.png",
+      "box": [
+        0,
+        0,
+        325,
+        491
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-s.png",
+      "box": [
+        0,
+        0,
+        383,
+        487
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-o.png",
+      "box": [
+        0,
+        0,
+        472,
+        494
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p135-floral-panel-n.png",
+      "box": [
+        0,
+        0,
+        500,
+        513
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p147-cornucopia-s.png",
+      "box": [
+        0,
+        0,
+        753,
+        823
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p147-cornucopia-h.png",
+      "box": [
+        0,
+        0,
+        944,
+        826
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p147-cornucopia-a.png",
+      "box": [
+        0,
+        0,
+        935,
+        828
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p147-cornucopia-n.png",
+      "box": [
+        0,
+        0,
+        1009,
+        816
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p147-cornucopia-t.png",
+      "box": [
+        0,
+        0,
+        946,
+        819
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p149-scroll-o.png",
+      "box": [
+        0,
+        0,
+        1179,
+        987
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p149-scroll-n.png",
+      "box": [
+        0,
+        0,
+        1270,
+        984
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p149-scroll-e.png",
+      "box": [
+        0,
+        0,
+        1144,
+        998
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p153-scroll-figure-4.png",
+      "box": [
+        0,
+        0,
+        1055,
+        1325
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p153-scroll-figure-exclamation.png",
+      "box": [
+        0,
+        0,
+        566,
+        1335
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed ornamented sort, uniform scale; recorded rigid deskew preserves proportions.",
+      "threshold": 150,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-1.png",
+      "box": [
+        0,
+        0,
+        47,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-2.png",
+      "box": [
+        0,
+        0,
+        49,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-3.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-4.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-5.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-6.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-7.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-8.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-9.png",
+      "box": [
+        0,
+        0,
+        48,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
+    },
+    "": {
+      "file": "reference/crops/boston-1832-p111-black-ground-0.png",
+      "box": [
+        0,
+        0,
+        49,
+        103
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "notes": "Observed negative figure. Small white pinholes up to four source pixels removed. Only the outer block boundary is squared to its measured traced bounds; the connected white figure and its black counters retain the source trace. Disconnected white holes elsewhere in the black block are impression wear and are removed.",
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 2,
+      "fill_holes": 4,
+      "tolerance": 0.15
     }
   }
 }

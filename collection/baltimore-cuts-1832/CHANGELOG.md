@@ -1,5 +1,9 @@
 # Changes
 
+## 1.006
+
+- Improve seven existing cuts from clearer complete Howe 1830 impressions. Retain native witnesses, tracing settings and comparison evidence without duplicating the designs.
+
 ## 1.005
 
 - Identify No.162 as a two-wheeled chaise, No.211 as a carriage and chaise, and No.76 as a decorated bottle after comparison with matching Bruce1828 impressions. Preserve artwork, permanent IDs and character assignments.
