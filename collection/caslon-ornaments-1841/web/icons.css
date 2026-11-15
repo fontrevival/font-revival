@@ -1,0 +1,1416 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-caslon-1841-p278-long-primer-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-long-primer-2::before { content: "\E000"; }
+.fr-caslon-1841-p278-long-primer-4 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-long-primer-4::before { content: "\E001"; }
+.fr-caslon-1841-p278-long-primer-10 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-long-primer-10::before { content: "\E002"; }
+.fr-caslon-1841-p278-long-primer-14 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-long-primer-14::before { content: "\E004"; }
+.fr-caslon-1841-p278-long-primer-27 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-long-primer-27::before { content: "\E005"; }
+.fr-caslon-1841-p278-brevier-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-brevier-2::before { content: "\E006"; }
+.fr-caslon-1841-p278-brevier-4 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-brevier-4::before { content: "\E007"; }
+.fr-caslon-1841-p278-brevier-6 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-brevier-6::before { content: "\E008"; }
+.fr-caslon-1841-p278-brevier-7 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-brevier-7::before { content: "\E009"; }
+.fr-caslon-1841-p278-brevier-13 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-brevier-13::before { content: "\E00A"; }
+.fr-caslon-1841-p278-brevier-14 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p278-brevier-14::before { content: "\E00B"; }
+.fr-caslon-1841-p284-check-five-line-pica-shaded { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p284-check-five-line-pica-shaded::before { content: "\E00F"; }
+.fr-caslon-1841-p284-check-five-line-pica-open-shaded { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p284-check-five-line-pica-open-shaded::before { content: "\E010"; }
+.fr-caslon-1841-p285-label-seven-line { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-seven-line::before { content: "\E011"; }
+.fr-caslon-1841-p285-label-six-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-six-line-1::before { content: "\E012"; }
+.fr-caslon-1841-p285-label-six-line-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-six-line-2::before { content: "\E013"; }
+.fr-caslon-1841-p285-label-six-line-3 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-six-line-3::before { content: "\E014"; }
+.fr-caslon-1841-p285-label-six-line-4 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-six-line-4::before { content: "\E015"; }
+.fr-caslon-1841-p285-label-two-line-double-pica { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-two-line-double-pica::before { content: "\E016"; }
+.fr-caslon-1841-p285-label-five-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-five-line-1::before { content: "\E017"; }
+.fr-caslon-1841-p285-label-five-line-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-five-line-2::before { content: "\E018"; }
+.fr-caslon-1841-p285-label-five-line-3 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-five-line-3::before { content: "\E019"; }
+.fr-caslon-1841-p285-label-four-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-four-line-1::before { content: "\E01A"; }
+.fr-caslon-1841-p285-label-four-line-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p285-label-four-line-2::before { content: "\E01B"; }
+.fr-caslon-1841-p287-seven-line-2-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-seven-line-2-left::before { content: "\E01C"; }
+.fr-caslon-1841-p287-trafalgar-1-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-trafalgar-1-left::before { content: "\E01D"; }
+.fr-caslon-1841-p287-four-line-3-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-four-line-3-left::before { content: "\E01E"; }
+.fr-caslon-1841-p287-trafalgar-2-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-trafalgar-2-left::before { content: "\E01F"; }
+.fr-caslon-1841-p287-six-line-6-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-six-line-6-left::before { content: "\E020"; }
+.fr-caslon-1841-p287-six-line-5 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-six-line-5::before { content: "\E021"; }
+.fr-caslon-1841-p287-five-line-4-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-five-line-4-left::before { content: "\E022"; }
+.fr-caslon-1841-p287-trafalgar-3-left { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p287-trafalgar-3-left::before { content: "\E023"; }
+.fr-caslon-1841-p282-check-double-pica-terminal { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p282-check-double-pica-terminal::before { content: "\E024"; }
+.fr-caslon-1841-p288-national-seven-line { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p288-national-seven-line::before { content: "\E025"; }
+.fr-caslon-1841-p288-national-five-line-small-pica { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p288-national-five-line-small-pica::before { content: "\E026"; }
+.fr-caslon-1841-p288-national-six-line { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p288-national-six-line::before { content: "\E027"; }
+.fr-caslon-1841-p288-national-five-line { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p288-national-five-line::before { content: "\E028"; }
+.fr-caslon-1841-p289-seven-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p289-seven-line-1::before { content: "\E029"; }
+.fr-caslon-1841-p289-five-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p289-five-line-1::before { content: "\E02A"; }
+.fr-caslon-1841-p289-five-line-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p289-five-line-2::before { content: "\E02B"; }
+.fr-caslon-1841-p289-four-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p289-four-line-1::before { content: "\E02C"; }
+.fr-caslon-1841-p290-first-series-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-first-series-1::before { content: "\E02D"; }
+.fr-caslon-1841-p290-first-series-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-first-series-2::before { content: "\E02E"; }
+.fr-caslon-1841-p290-first-series-3 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-first-series-3::before { content: "\E02F"; }
+.fr-caslon-1841-p290-first-series-4 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-first-series-4::before { content: "\E030"; }
+.fr-caslon-1841-p290-first-series-5 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-first-series-5::before { content: "\E031"; }
+.fr-caslon-1841-p290-first-series-6 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-first-series-6::before { content: "\E032"; }
+.fr-caslon-1841-p291-ten-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p291-ten-line-1::before { content: "\E033"; }
+.fr-caslon-1841-p291-six-line-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p291-six-line-2::before { content: "\E034"; }
+.fr-caslon-1841-p291-six-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p291-six-line-1::before { content: "\E035"; }
+.fr-caslon-1841-p292-musical-ten-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p292-musical-ten-line-1::before { content: "\E036"; }
+.fr-caslon-1841-p292-musical-five-line-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p292-musical-five-line-1::before { content: "\E037"; }
+.fr-caslon-1841-p293-second-series-1 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p293-second-series-1::before { content: "\E038"; }
+.fr-caslon-1841-p293-second-series-3 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p293-second-series-3::before { content: "\E039"; }
+.fr-caslon-1841-p293-second-series-4 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p293-second-series-4::before { content: "\E03A"; }
+.fr-caslon-1841-p293-second-series-5 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p293-second-series-5::before { content: "\E03B"; }
+.fr-caslon-1841-p294-crown-seven-line { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p294-crown-seven-line::before { content: "\E03C"; }
+.fr-caslon-1841-p295-ten-line-2 { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p295-ten-line-2::before { content: "\E03D"; }
+.fr-caslon-1841-p290-national-flower { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p290-national-flower::before { content: "\E03E"; }
+.fr-caslon-1841-p302-five-line-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p302-five-line-pica-1-repeat::before { content: "\E03F"; }
+.fr-caslon-1841-p302-five-line-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p302-five-line-pica-1-corner::before { content: "\E040"; }
+.fr-caslon-1841-p302-five-line-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p302-five-line-pica-2-repeat::before { content: "\E041"; }
+.fr-caslon-1841-p302-five-line-pica-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p302-five-line-pica-2-corner::before { content: "\E042"; }
+.fr-caslon-1841-p303-six-line-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p303-six-line-pica-1-repeat::before { content: "\E043"; }
+.fr-caslon-1841-p303-six-line-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p303-six-line-pica-1-corner::before { content: "\E044"; }
+.fr-caslon-1841-p303-six-line-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p303-six-line-pica-2-repeat::before { content: "\E045"; }
+.fr-caslon-1841-p303-six-line-pica-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p303-six-line-pica-3-repeat::before { content: "\E046"; }
+.fr-caslon-1841-p304-five-line-pica-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p304-five-line-pica-3-repeat::before { content: "\E047"; }
+.fr-caslon-1841-p304-five-line-pica-3-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p304-five-line-pica-3-corner::before { content: "\E048"; }
+.fr-caslon-1841-p304-five-line-pica-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p304-five-line-pica-4-repeat::before { content: "\E049"; }
+.fr-caslon-1841-p306-five-line-pica-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p306-five-line-pica-6-corner::before { content: "\E04A"; }
+.fr-caslon-1841-p306-four-line-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p306-four-line-pica-1-repeat::before { content: "\E04B"; }
+.fr-caslon-1841-p306-four-line-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p306-four-line-pica-1-corner::before { content: "\E04C"; }
+.fr-caslon-1841-p306-four-line-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p306-four-line-pica-2-repeat::before { content: "\E04D"; }
+.fr-caslon-1841-p306-four-line-pica-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p306-four-line-pica-2-corner::before { content: "\E04E"; }
+.fr-caslon-1841-p307-five-line-pica-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p307-five-line-pica-7-repeat::before { content: "\E04F"; }
+.fr-caslon-1841-p307-five-line-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p307-five-line-pica-8-repeat::before { content: "\E050"; }
+.fr-caslon-1841-p307-five-line-pica-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p307-five-line-pica-8-corner::before { content: "\E051"; }
+.fr-caslon-1841-p307-five-line-pica-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p307-five-line-pica-9-repeat::before { content: "\E052"; }
+.fr-caslon-1841-p307-five-line-pica-9-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p307-five-line-pica-9-corner::before { content: "\E053"; }
+.fr-caslon-1841-p308-five-line-pica-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p308-five-line-pica-10-repeat::before { content: "\E054"; }
+.fr-caslon-1841-p308-five-line-pica-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p308-five-line-pica-10-corner::before { content: "\E055"; }
+.fr-caslon-1841-p308-five-line-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p308-five-line-pica-11-repeat::before { content: "\E056"; }
+.fr-caslon-1841-p308-five-line-pica-11-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p308-five-line-pica-11-corner::before { content: "\E057"; }
+.fr-caslon-1841-p308-five-line-pica-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p308-five-line-pica-12-repeat::before { content: "\E058"; }
+.fr-caslon-1841-p308-five-line-pica-12-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p308-five-line-pica-12-corner::before { content: "\E059"; }
+.fr-caslon-1841-p310-five-line-pica-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p310-five-line-pica-13-repeat::before { content: "\E05A"; }
+.fr-caslon-1841-p310-five-line-pica-13-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p310-five-line-pica-13-corner::before { content: "\E05B"; }
+.fr-caslon-1841-p310-five-line-pica-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p310-five-line-pica-14-repeat::before { content: "\E05C"; }
+.fr-caslon-1841-p310-five-line-pica-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p310-five-line-pica-14-corner::before { content: "\E05D"; }
+.fr-caslon-1841-p310-five-line-pica-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p310-five-line-pica-15-repeat::before { content: "\E05E"; }
+.fr-caslon-1841-p310-five-line-pica-15-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p310-five-line-pica-15-corner::before { content: "\E05F"; }
+.fr-caslon-1841-p311-five-line-small-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p311-five-line-small-pica-1-repeat::before { content: "\E060"; }
+.fr-caslon-1841-p311-five-line-small-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p311-five-line-small-pica-1-corner::before { content: "\E061"; }
+.fr-caslon-1841-p311-five-line-small-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p311-five-line-small-pica-2-repeat::before { content: "\E062"; }
+.fr-caslon-1841-p311-five-line-small-pica-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p311-five-line-small-pica-4-repeat::before { content: "\E063"; }
+.fr-caslon-1841-p311-five-line-small-pica-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p311-five-line-small-pica-4-corner::before { content: "\E064"; }
+.fr-caslon-1841-p313-four-line-pica-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p313-four-line-pica-10-repeat::before { content: "\E065"; }
+.fr-caslon-1841-p313-four-line-pica-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p313-four-line-pica-10-corner::before { content: "\E066"; }
+.fr-caslon-1841-p313-four-line-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p313-four-line-pica-11-repeat::before { content: "\E067"; }
+.fr-caslon-1841-p313-four-line-pica-11-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p313-four-line-pica-11-corner::before { content: "\E068"; }
+.fr-caslon-1841-p313-four-line-pica-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p313-four-line-pica-12-repeat::before { content: "\E069"; }
+.fr-caslon-1841-p314-four-line-pica-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p314-four-line-pica-14-repeat::before { content: "\E06A"; }
+.fr-caslon-1841-p314-four-line-pica-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p314-four-line-pica-14-corner::before { content: "\E06B"; }
+.fr-caslon-1841-p314-four-line-pica-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p314-four-line-pica-15-repeat::before { content: "\E06C"; }
+.fr-caslon-1841-p314-four-line-pica-15-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p314-four-line-pica-15-corner::before { content: "\E06D"; }
+.fr-caslon-1841-p314-four-line-pica-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p314-four-line-pica-16-repeat::before { content: "\E06E"; }
+.fr-caslon-1841-p314-four-line-pica-16-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p314-four-line-pica-16-corner::before { content: "\E06F"; }
+.fr-caslon-1841-p311-five-line-small-pica-4-terminal { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p311-five-line-small-pica-4-terminal::before { content: "\E070"; }
+.fr-caslon-1841-p315-four-line-pica-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-17-repeat::before { content: "\E071"; }
+.fr-caslon-1841-p315-four-line-pica-17-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-17-corner::before { content: "\E072"; }
+.fr-caslon-1841-p315-four-line-pica-18-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-18-repeat::before { content: "\E073"; }
+.fr-caslon-1841-p315-four-line-pica-18-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-18-corner::before { content: "\E074"; }
+.fr-caslon-1841-p315-four-line-pica-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-19-repeat::before { content: "\E075"; }
+.fr-caslon-1841-p315-four-line-pica-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-20-repeat::before { content: "\E076"; }
+.fr-caslon-1841-p315-four-line-pica-20-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p315-four-line-pica-20-corner::before { content: "\E077"; }
+.fr-caslon-1841-p316-four-line-pica-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p316-four-line-pica-21-repeat::before { content: "\E078"; }
+.fr-caslon-1841-p316-four-line-pica-21-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p316-four-line-pica-21-corner::before { content: "\E079"; }
+.fr-caslon-1841-p316-four-line-pica-23-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p316-four-line-pica-23-repeat::before { content: "\E07A"; }
+.fr-caslon-1841-p316-four-line-pica-23-divider-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p316-four-line-pica-23-divider-repeat::before { content: "\E07B"; }
+.fr-caslon-1841-p317-trafalgar-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p317-trafalgar-1-repeat::before { content: "\E07C"; }
+.fr-caslon-1841-p317-trafalgar-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p317-trafalgar-1-corner::before { content: "\E07D"; }
+.fr-caslon-1841-p317-trafalgar-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p317-trafalgar-2-repeat::before { content: "\E07E"; }
+.fr-caslon-1841-p317-trafalgar-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p317-trafalgar-2-corner::before { content: "\E07F"; }
+.fr-caslon-1841-p317-trafalgar-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p317-trafalgar-3-repeat::before { content: "\E080"; }
+.fr-caslon-1841-p318-trafalgar-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-6-repeat::before { content: "\E081"; }
+.fr-caslon-1841-p318-trafalgar-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-6-corner::before { content: "\E082"; }
+.fr-caslon-1841-p318-trafalgar-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-7-repeat::before { content: "\E083"; }
+.fr-caslon-1841-p318-trafalgar-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-8-repeat::before { content: "\E084"; }
+.fr-caslon-1841-p318-trafalgar-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-10-repeat::before { content: "\E085"; }
+.fr-caslon-1841-p318-trafalgar-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-10-corner::before { content: "\E086"; }
+.fr-caslon-1841-p318-trafalgar-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-12-repeat::before { content: "\E087"; }
+.fr-caslon-1841-p318-trafalgar-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-13-repeat::before { content: "\E088"; }
+.fr-caslon-1841-p318-trafalgar-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p318-trafalgar-14-repeat::before { content: "\E089"; }
+.fr-caslon-1841-p319-two-line-double-pica-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-6-repeat::before { content: "\E08A"; }
+.fr-caslon-1841-p319-two-line-double-pica-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-6-corner::before { content: "\E08B"; }
+.fr-caslon-1841-p319-two-line-double-pica-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-7-repeat::before { content: "\E08C"; }
+.fr-caslon-1841-p319-two-line-double-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-8-repeat::before { content: "\E08D"; }
+.fr-caslon-1841-p319-two-line-double-pica-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-8-corner::before { content: "\E08E"; }
+.fr-caslon-1841-p319-two-line-double-pica-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-9-repeat::before { content: "\E08F"; }
+.fr-caslon-1841-p319-two-line-double-pica-9-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p319-two-line-double-pica-9-corner::before { content: "\E090"; }
+.fr-caslon-1841-p320-two-line-double-pica-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-two-line-double-pica-10-repeat::before { content: "\E091"; }
+.fr-caslon-1841-p320-two-line-double-pica-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-two-line-double-pica-10-corner::before { content: "\E092"; }
+.fr-caslon-1841-p320-two-line-double-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-two-line-double-pica-11-repeat::before { content: "\E093"; }
+.fr-caslon-1841-p320-three-line-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-three-line-pica-1-repeat::before { content: "\E094"; }
+.fr-caslon-1841-p320-three-line-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-three-line-pica-1-corner::before { content: "\E095"; }
+.fr-caslon-1841-p320-three-line-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-three-line-pica-2-repeat::before { content: "\E096"; }
+.fr-caslon-1841-p320-three-line-pica-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-three-line-pica-3-repeat::before { content: "\E097"; }
+.fr-caslon-1841-p320-four-line-minion-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-four-line-minion-9-repeat::before { content: "\E098"; }
+.fr-caslon-1841-p320-four-line-minion-9-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-four-line-minion-9-corner::before { content: "\E099"; }
+.fr-caslon-1841-p320-four-line-minion-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-four-line-minion-10-repeat::before { content: "\E09A"; }
+.fr-caslon-1841-p320-two-line-english-23-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p320-two-line-english-23-repeat::before { content: "\E09B"; }
+.fr-caslon-1841-p321-two-line-double-pica-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-double-pica-5-repeat::before { content: "\E09C"; }
+.fr-caslon-1841-p321-two-line-double-pica-5-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-double-pica-5-corner::before { content: "\E09D"; }
+.fr-caslon-1841-p321-two-line-great-primer-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-1-repeat::before { content: "\E09E"; }
+.fr-caslon-1841-p321-two-line-great-primer-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-1-corner::before { content: "\E09F"; }
+.fr-caslon-1841-p321-two-line-great-primer-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-3-repeat::before { content: "\E0A0"; }
+.fr-caslon-1841-p321-two-line-great-primer-3-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-3-corner::before { content: "\E0A1"; }
+.fr-caslon-1841-p321-two-line-great-primer-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-4-repeat::before { content: "\E0A2"; }
+.fr-caslon-1841-p321-two-line-great-primer-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-4-corner::before { content: "\E0A3"; }
+.fr-caslon-1841-p321-two-line-great-primer-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-5-repeat::before { content: "\E0A4"; }
+.fr-caslon-1841-p321-two-line-great-primer-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-6-repeat::before { content: "\E0A5"; }
+.fr-caslon-1841-p321-two-line-great-primer-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-6-corner::before { content: "\E0A6"; }
+.fr-caslon-1841-p321-two-line-great-primer-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-7-repeat::before { content: "\E0A7"; }
+.fr-caslon-1841-p321-two-line-great-primer-7-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p321-two-line-great-primer-7-corner::before { content: "\E0A8"; }
+.fr-caslon-1841-p322-four-line-brevier-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-brevier-1-repeat::before { content: "\E0A9"; }
+.fr-caslon-1841-p322-four-line-brevier-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-brevier-1-corner::before { content: "\E0AA"; }
+.fr-caslon-1841-p322-four-line-minion-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-1-repeat::before { content: "\E0AB"; }
+.fr-caslon-1841-p322-four-line-minion-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-1-corner::before { content: "\E0AC"; }
+.fr-caslon-1841-p322-four-line-minion-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-2-repeat::before { content: "\E0AD"; }
+.fr-caslon-1841-p322-four-line-minion-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-3-repeat::before { content: "\E0AE"; }
+.fr-caslon-1841-p322-four-line-minion-3-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-3-corner::before { content: "\E0AF"; }
+.fr-caslon-1841-p322-four-line-minion-3-foliate-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-3-foliate-repeat::before { content: "\E0B0"; }
+.fr-caslon-1841-p322-four-line-minion-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-4-repeat::before { content: "\E0B1"; }
+.fr-caslon-1841-p322-four-line-minion-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-4-corner::before { content: "\E0B2"; }
+.fr-caslon-1841-p322-four-line-minion-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-5-repeat::before { content: "\E0B3"; }
+.fr-caslon-1841-p322-four-line-minion-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-6-repeat::before { content: "\E0B4"; }
+.fr-caslon-1841-p322-four-line-minion-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-four-line-minion-6-corner::before { content: "\E0B5"; }
+.fr-caslon-1841-p322-masonic-r1c1-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r1c1-emblem::before { content: "\E0B6"; }
+.fr-caslon-1841-p322-masonic-r1c2-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r1c2-emblem::before { content: "\E0B7"; }
+.fr-caslon-1841-p322-masonic-r1c3-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r1c3-emblem::before { content: "\E0B8"; }
+.fr-caslon-1841-p322-masonic-r1c4-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r1c4-emblem::before { content: "\E0B9"; }
+.fr-caslon-1841-p322-masonic-r1c5-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r1c5-emblem::before { content: "\E0BA"; }
+.fr-caslon-1841-p322-masonic-r2c1-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r2c1-emblem::before { content: "\E0BB"; }
+.fr-caslon-1841-p322-masonic-r2c2-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r2c2-emblem::before { content: "\E0BC"; }
+.fr-caslon-1841-p322-masonic-r2c3-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r2c3-emblem::before { content: "\E0BD"; }
+.fr-caslon-1841-p322-masonic-r2c4-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r2c4-emblem::before { content: "\E0BE"; }
+.fr-caslon-1841-p322-masonic-r2c5-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r2c5-emblem::before { content: "\E0BF"; }
+.fr-caslon-1841-p322-masonic-r2c6-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p322-masonic-r2c6-emblem::before { content: "\E0C0"; }
+.fr-caslon-1841-p323-two-line-english-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-1-repeat::before { content: "\E0C1"; }
+.fr-caslon-1841-p323-two-line-english-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-1-corner::before { content: "\E0C2"; }
+.fr-caslon-1841-p323-two-line-english-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-2-repeat::before { content: "\E0C3"; }
+.fr-caslon-1841-p323-two-line-english-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-2-corner::before { content: "\E0C4"; }
+.fr-caslon-1841-p323-two-line-english-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-3-repeat::before { content: "\E0C5"; }
+.fr-caslon-1841-p323-two-line-english-3-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-3-corner::before { content: "\E0C6"; }
+.fr-caslon-1841-p323-two-line-english-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-4-repeat::before { content: "\E0C7"; }
+.fr-caslon-1841-p323-two-line-english-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-4-corner::before { content: "\E0C8"; }
+.fr-caslon-1841-p323-two-line-english-5-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-5-corner::before { content: "\E0CA"; }
+.fr-caslon-1841-p323-two-line-english-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-7-repeat::before { content: "\E0CB"; }
+.fr-caslon-1841-p323-two-line-english-7-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-7-corner::before { content: "\E0CC"; }
+.fr-caslon-1841-p323-two-line-english-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-8-repeat::before { content: "\E0CD"; }
+.fr-caslon-1841-p323-two-line-english-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-8-corner::before { content: "\E0CE"; }
+.fr-caslon-1841-p323-two-line-english-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-9-repeat::before { content: "\E0CF"; }
+.fr-caslon-1841-p323-two-line-english-9-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p323-two-line-english-9-corner::before { content: "\E0D0"; }
+.fr-caslon-1841-p324-two-line-english-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-10-repeat::before { content: "\E0D1"; }
+.fr-caslon-1841-p324-two-line-english-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-11-repeat::before { content: "\E0D2"; }
+.fr-caslon-1841-p324-two-line-english-11-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-11-corner::before { content: "\E0D3"; }
+.fr-caslon-1841-p324-two-line-english-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-13-repeat::before { content: "\E0D4"; }
+.fr-caslon-1841-p324-two-line-english-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-14-repeat::before { content: "\E0D5"; }
+.fr-caslon-1841-p324-two-line-english-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-14-corner::before { content: "\E0D6"; }
+.fr-caslon-1841-p324-two-line-english-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-15-repeat::before { content: "\E0D7"; }
+.fr-caslon-1841-p324-two-line-english-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-17-repeat::before { content: "\E0D8"; }
+.fr-caslon-1841-p324-two-line-english-17-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-two-line-english-17-corner::before { content: "\E0D9"; }
+.fr-caslon-1841-p324-four-line-minion-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-four-line-minion-7-repeat::before { content: "\E0DA"; }
+.fr-caslon-1841-p324-four-line-minion-7-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-four-line-minion-7-corner::before { content: "\E0DB"; }
+.fr-caslon-1841-p324-four-line-minion-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-four-line-minion-8-repeat::before { content: "\E0DC"; }
+.fr-caslon-1841-p324-four-line-minion-7-palmette-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p324-four-line-minion-7-palmette-repeat::before { content: "\E0DD"; }
+.fr-caslon-1841-p325-two-line-english-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-english-19-repeat::before { content: "\E0DE"; }
+.fr-caslon-1841-p325-two-line-english-19-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-english-19-corner::before { content: "\E0DF"; }
+.fr-caslon-1841-p325-two-line-english-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-english-20-repeat::before { content: "\E0E0"; }
+.fr-caslon-1841-p325-two-line-english-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-english-22-repeat::before { content: "\E0E1"; }
+.fr-caslon-1841-p325-two-line-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-1-repeat::before { content: "\E0E2"; }
+.fr-caslon-1841-p325-two-line-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-1-corner::before { content: "\E0E3"; }
+.fr-caslon-1841-p325-two-line-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-2-repeat::before { content: "\E0E4"; }
+.fr-caslon-1841-p325-two-line-pica-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-2-corner::before { content: "\E0E5"; }
+.fr-caslon-1841-p325-two-line-pica-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-4-repeat::before { content: "\E0E6"; }
+.fr-caslon-1841-p325-two-line-pica-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-4-corner::before { content: "\E0E7"; }
+.fr-caslon-1841-p325-two-line-pica-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-5-repeat::before { content: "\E0E8"; }
+.fr-caslon-1841-p325-two-line-pica-5-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-5-corner::before { content: "\E0E9"; }
+.fr-caslon-1841-p325-two-line-pica-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-6-repeat::before { content: "\E0EA"; }
+.fr-caslon-1841-p325-two-line-pica-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p325-two-line-pica-7-repeat::before { content: "\E0EB"; }
+.fr-caslon-1841-p326-two-line-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-8-repeat::before { content: "\E0EC"; }
+.fr-caslon-1841-p326-two-line-pica-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-8-corner::before { content: "\E0ED"; }
+.fr-caslon-1841-p326-two-line-pica-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-9-repeat::before { content: "\E0EE"; }
+.fr-caslon-1841-p326-two-line-pica-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-10-repeat::before { content: "\E0EF"; }
+.fr-caslon-1841-p326-two-line-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-11-repeat::before { content: "\E0F0"; }
+.fr-caslon-1841-p326-two-line-pica-11-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-11-corner::before { content: "\E0F1"; }
+.fr-caslon-1841-p326-two-line-pica-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-12-repeat::before { content: "\E0F2"; }
+.fr-caslon-1841-p326-two-line-pica-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-13-repeat::before { content: "\E0F3"; }
+.fr-caslon-1841-p326-two-line-pica-13-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-13-corner::before { content: "\E0F4"; }
+.fr-caslon-1841-p326-two-line-pica-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-14-repeat::before { content: "\E0F5"; }
+.fr-caslon-1841-p326-two-line-pica-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-14-corner::before { content: "\E0F6"; }
+.fr-caslon-1841-p326-two-line-pica-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-15-repeat::before { content: "\E0F7"; }
+.fr-caslon-1841-p326-two-line-pica-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-16-repeat::before { content: "\E0F8"; }
+.fr-caslon-1841-p326-two-line-pica-18-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-18-repeat::before { content: "\E0F9"; }
+.fr-caslon-1841-p326-two-line-pica-18-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-18-corner::before { content: "\E0FA"; }
+.fr-caslon-1841-p326-two-line-pica-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-19-repeat::before { content: "\E0FB"; }
+.fr-caslon-1841-p326-two-line-pica-19-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-19-corner::before { content: "\E0FC"; }
+.fr-caslon-1841-p326-two-line-pica-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-20-repeat::before { content: "\E0FD"; }
+.fr-caslon-1841-p326-two-line-pica-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p326-two-line-pica-21-repeat::before { content: "\E0FE"; }
+.fr-caslon-1841-p327-double-pica-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-1-repeat::before { content: "\E0FF"; }
+.fr-caslon-1841-p327-double-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-2-repeat::before { content: "\E100"; }
+.fr-caslon-1841-p327-double-pica-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-3-repeat::before { content: "\E101"; }
+.fr-caslon-1841-p327-double-pica-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-4-repeat::before { content: "\E102"; }
+.fr-caslon-1841-p327-double-pica-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-4-corner::before { content: "\E103"; }
+.fr-caslon-1841-p327-double-pica-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-5-repeat::before { content: "\E104"; }
+.fr-caslon-1841-p327-double-pica-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-6-repeat::before { content: "\E105"; }
+.fr-caslon-1841-p327-double-pica-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-6-corner::before { content: "\E106"; }
+.fr-caslon-1841-p327-double-pica-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-7-repeat::before { content: "\E107"; }
+.fr-caslon-1841-p327-double-pica-7-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-7-corner::before { content: "\E108"; }
+.fr-caslon-1841-p327-double-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-8-repeat::before { content: "\E109"; }
+.fr-caslon-1841-p327-double-pica-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-8-corner::before { content: "\E10A"; }
+.fr-caslon-1841-p327-double-pica-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-9-repeat::before { content: "\E10B"; }
+.fr-caslon-1841-p327-double-pica-9-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-9-corner::before { content: "\E10C"; }
+.fr-caslon-1841-p327-double-pica-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-10-repeat::before { content: "\E10D"; }
+.fr-caslon-1841-p327-double-pica-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-10-corner::before { content: "\E10E"; }
+.fr-caslon-1841-p327-double-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-11-repeat::before { content: "\E10F"; }
+.fr-caslon-1841-p327-double-pica-12-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-12-corner::before { content: "\E110"; }
+.fr-caslon-1841-p327-double-pica-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-13-repeat::before { content: "\E111"; }
+.fr-caslon-1841-p327-double-pica-13-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-13-corner::before { content: "\E112"; }
+.fr-caslon-1841-p327-double-pica-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-14-repeat::before { content: "\E113"; }
+.fr-caslon-1841-p327-double-pica-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-14-corner::before { content: "\E114"; }
+.fr-caslon-1841-p327-double-pica-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-15-repeat::before { content: "\E115"; }
+.fr-caslon-1841-p327-double-pica-16-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p327-double-pica-16-corner::before { content: "\E116"; }
+.fr-caslon-1841-p328-double-pica-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-17-repeat::before { content: "\E117"; }
+.fr-caslon-1841-p328-double-pica-17-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-17-corner::before { content: "\E118"; }
+.fr-caslon-1841-p328-double-pica-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-20-repeat::before { content: "\E119"; }
+.fr-caslon-1841-p328-double-pica-20-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-20-corner::before { content: "\E11A"; }
+.fr-caslon-1841-p328-double-pica-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-21-repeat::before { content: "\E11B"; }
+.fr-caslon-1841-p328-double-pica-21-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-21-corner::before { content: "\E11C"; }
+.fr-caslon-1841-p328-double-pica-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-22-repeat::before { content: "\E11D"; }
+.fr-caslon-1841-p328-double-pica-23-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-23-corner::before { content: "\E11E"; }
+.fr-caslon-1841-p328-double-pica-25-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-25-repeat::before { content: "\E11F"; }
+.fr-caslon-1841-p328-double-pica-25-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-double-pica-25-corner::before { content: "\E120"; }
+.fr-caslon-1841-p328-coronet-r1c1-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r1c1-emblem::before { content: "\E121"; }
+.fr-caslon-1841-p328-coronet-r1c2-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r1c2-emblem::before { content: "\E122"; }
+.fr-caslon-1841-p328-coronet-r1c3-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r1c3-emblem::before { content: "\E123"; }
+.fr-caslon-1841-p328-coronet-r1c4-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r1c4-emblem::before { content: "\E124"; }
+.fr-caslon-1841-p328-coronet-r1c5-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r1c5-emblem::before { content: "\E125"; }
+.fr-caslon-1841-p328-coronet-r1c6-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r1c6-emblem::before { content: "\E126"; }
+.fr-caslon-1841-p328-coronet-r2c1-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r2c1-emblem::before { content: "\E127"; }
+.fr-caslon-1841-p328-coronet-r2c2-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r2c2-emblem::before { content: "\E128"; }
+.fr-caslon-1841-p328-coronet-r2c3-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r2c3-emblem::before { content: "\E129"; }
+.fr-caslon-1841-p328-coronet-r2c4-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r2c4-emblem::before { content: "\E12A"; }
+.fr-caslon-1841-p328-coronet-r2c5-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-coronet-r2c5-emblem::before { content: "\E12B"; }
+.fr-caslon-1841-p328-masonic-r1c3-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r1c3-emblem::before { content: "\E12C"; }
+.fr-caslon-1841-p328-masonic-r1c4-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r1c4-emblem::before { content: "\E12D"; }
+.fr-caslon-1841-p328-masonic-r1c5-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r1c5-emblem::before { content: "\E12E"; }
+.fr-caslon-1841-p328-masonic-r1c6-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r1c6-emblem::before { content: "\E12F"; }
+.fr-caslon-1841-p328-masonic-r2c1-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r2c1-emblem::before { content: "\E130"; }
+.fr-caslon-1841-p328-masonic-r2c2-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r2c2-emblem::before { content: "\E131"; }
+.fr-caslon-1841-p328-masonic-r2c3-emblem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p328-masonic-r2c3-emblem::before { content: "\E132"; }
+.fr-caslon-1841-p329-double-pica-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-27-repeat::before { content: "\E133"; }
+.fr-caslon-1841-p329-double-pica-27-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-27-corner::before { content: "\E134"; }
+.fr-caslon-1841-p329-double-pica-28-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-28-repeat::before { content: "\E135"; }
+.fr-caslon-1841-p329-double-pica-28-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-28-corner::before { content: "\E136"; }
+.fr-caslon-1841-p329-double-pica-29-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-29-repeat::before { content: "\E137"; }
+.fr-caslon-1841-p329-double-pica-29-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-29-corner::before { content: "\E138"; }
+.fr-caslon-1841-p329-double-pica-30-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-30-repeat::before { content: "\E139"; }
+.fr-caslon-1841-p329-double-pica-31-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-31-repeat::before { content: "\E13A"; }
+.fr-caslon-1841-p329-double-pica-31-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-31-corner::before { content: "\E13B"; }
+.fr-caslon-1841-p329-double-pica-32-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-32-repeat::before { content: "\E13C"; }
+.fr-caslon-1841-p329-double-pica-35-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-35-repeat::before { content: "\E13D"; }
+.fr-caslon-1841-p329-double-pica-36-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-36-repeat::before { content: "\E13E"; }
+.fr-caslon-1841-p329-double-pica-38-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-38-repeat::before { content: "\E13F"; }
+.fr-caslon-1841-p329-double-pica-38-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-38-corner::before { content: "\E140"; }
+.fr-caslon-1841-p329-double-pica-39-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-39-repeat::before { content: "\E141"; }
+.fr-caslon-1841-p329-double-pica-39-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-39-corner::before { content: "\E142"; }
+.fr-caslon-1841-p329-double-pica-40-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-40-repeat::before { content: "\E143"; }
+.fr-caslon-1841-p329-double-pica-40-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-40-corner::before { content: "\E144"; }
+.fr-caslon-1841-p329-double-pica-41-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-41-repeat::before { content: "\E145"; }
+.fr-caslon-1841-p329-double-pica-31-ribbon { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-31-ribbon::before { content: "\E146"; }
+.fr-caslon-1841-p329-double-pica-32-beehive { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-32-beehive::before { content: "\E148"; }
+.fr-caslon-1841-p329-double-pica-35-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p329-double-pica-35-corner::before { content: "\E149"; }
+.fr-caslon-1841-p330-great-primer-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-2-repeat::before { content: "\E14A"; }
+.fr-caslon-1841-p330-great-primer-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-3-repeat::before { content: "\E14B"; }
+.fr-caslon-1841-p330-great-primer-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-4-repeat::before { content: "\E14C"; }
+.fr-caslon-1841-p330-great-primer-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-5-repeat::before { content: "\E14D"; }
+.fr-caslon-1841-p330-great-primer-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-6-repeat::before { content: "\E14E"; }
+.fr-caslon-1841-p330-great-primer-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-7-repeat::before { content: "\E14F"; }
+.fr-caslon-1841-p330-great-primer-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-8-repeat::before { content: "\E150"; }
+.fr-caslon-1841-p330-great-primer-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-9-repeat::before { content: "\E151"; }
+.fr-caslon-1841-p330-great-primer-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-11-repeat::before { content: "\E152"; }
+.fr-caslon-1841-p330-great-primer-11-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-11-corner::before { content: "\E153"; }
+.fr-caslon-1841-p330-great-primer-12-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-12-corner::before { content: "\E154"; }
+.fr-caslon-1841-p330-great-primer-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-13-repeat::before { content: "\E155"; }
+.fr-caslon-1841-p330-great-primer-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-16-repeat::before { content: "\E156"; }
+.fr-caslon-1841-p330-great-primer-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-17-repeat::before { content: "\E157"; }
+.fr-caslon-1841-p330-great-primer-17-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-17-corner::before { content: "\E158"; }
+.fr-caslon-1841-p330-great-primer-18-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-18-repeat::before { content: "\E159"; }
+.fr-caslon-1841-p330-great-primer-18-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-18-corner::before { content: "\E15A"; }
+.fr-caslon-1841-p330-great-primer-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-19-repeat::before { content: "\E15B"; }
+.fr-caslon-1841-p330-great-primer-19-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-19-corner::before { content: "\E15C"; }
+.fr-caslon-1841-p330-great-primer-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-20-repeat::before { content: "\E15D"; }
+.fr-caslon-1841-p330-great-primer-20-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-20-corner::before { content: "\E15E"; }
+.fr-caslon-1841-p330-great-primer-8-skull { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p330-great-primer-8-skull::before { content: "\E15F"; }
+.fr-caslon-1841-p331-great-primer-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-21-repeat::before { content: "\E160"; }
+.fr-caslon-1841-p331-great-primer-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-22-repeat::before { content: "\E161"; }
+.fr-caslon-1841-p331-great-primer-22-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-22-corner::before { content: "\E162"; }
+.fr-caslon-1841-p331-great-primer-23-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-23-repeat::before { content: "\E163"; }
+.fr-caslon-1841-p331-great-primer-23-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-23-corner::before { content: "\E164"; }
+.fr-caslon-1841-p331-great-primer-24-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-24-repeat::before { content: "\E165"; }
+.fr-caslon-1841-p331-great-primer-25-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-25-repeat::before { content: "\E166"; }
+.fr-caslon-1841-p331-great-primer-26-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-26-repeat::before { content: "\E167"; }
+.fr-caslon-1841-p331-great-primer-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-27-repeat::before { content: "\E168"; }
+.fr-caslon-1841-p331-great-primer-29-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-29-repeat::before { content: "\E169"; }
+.fr-caslon-1841-p331-great-primer-31-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-31-repeat::before { content: "\E16A"; }
+.fr-caslon-1841-p331-great-primer-32-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-32-repeat::before { content: "\E16B"; }
+.fr-caslon-1841-p331-great-primer-32-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-32-corner::before { content: "\E16C"; }
+.fr-caslon-1841-p331-great-primer-33-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-33-repeat::before { content: "\E16D"; }
+.fr-caslon-1841-p331-great-primer-34-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-34-repeat::before { content: "\E16E"; }
+.fr-caslon-1841-p331-great-primer-35-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-35-repeat::before { content: "\E16F"; }
+.fr-caslon-1841-p331-great-primer-35-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-35-corner::before { content: "\E170"; }
+.fr-caslon-1841-p331-great-primer-36-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-36-repeat::before { content: "\E171"; }
+.fr-caslon-1841-p331-great-primer-37-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-37-repeat::before { content: "\E172"; }
+.fr-caslon-1841-p331-great-primer-25-terminal { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-25-terminal::before { content: "\E173"; }
+.fr-caslon-1841-p331-great-primer-25-oval-leaf { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p331-great-primer-25-oval-leaf::before { content: "\E174"; }
+.fr-caslon-1841-p332-double-pica-42-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-42-repeat::before { content: "\E175"; }
+.fr-caslon-1841-p332-double-pica-42-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-42-corner::before { content: "\E176"; }
+.fr-caslon-1841-p332-double-pica-43-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-43-repeat::before { content: "\E177"; }
+.fr-caslon-1841-p332-double-pica-45-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-45-repeat::before { content: "\E178"; }
+.fr-caslon-1841-p332-double-pica-45-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-45-corner::before { content: "\E179"; }
+.fr-caslon-1841-p332-double-pica-46-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-46-repeat::before { content: "\E17A"; }
+.fr-caslon-1841-p332-double-pica-46-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-46-corner::before { content: "\E17B"; }
+.fr-caslon-1841-p332-double-pica-47-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-47-repeat::before { content: "\E17C"; }
+.fr-caslon-1841-p332-double-pica-48-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-double-pica-48-repeat::before { content: "\E17D"; }
+.fr-caslon-1841-p332-great-primer-38-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-38-repeat::before { content: "\E17E"; }
+.fr-caslon-1841-p332-great-primer-38-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-38-corner::before { content: "\E17F"; }
+.fr-caslon-1841-p332-great-primer-39-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-39-repeat::before { content: "\E180"; }
+.fr-caslon-1841-p332-great-primer-40-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-40-repeat::before { content: "\E181"; }
+.fr-caslon-1841-p332-great-primer-40-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-40-corner::before { content: "\E182"; }
+.fr-caslon-1841-p332-great-primer-41-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-41-repeat::before { content: "\E183"; }
+.fr-caslon-1841-p332-great-primer-41-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-great-primer-41-corner::before { content: "\E184"; }
+.fr-caslon-1841-p332-english-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-1-repeat::before { content: "\E185"; }
+.fr-caslon-1841-p332-english-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-1-corner::before { content: "\E186"; }
+.fr-caslon-1841-p332-english-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-2-repeat::before { content: "\E187"; }
+.fr-caslon-1841-p332-english-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-3-repeat::before { content: "\E188"; }
+.fr-caslon-1841-p332-english-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-4-repeat::before { content: "\E189"; }
+.fr-caslon-1841-p332-english-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-4-corner::before { content: "\E18A"; }
+.fr-caslon-1841-p332-english-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-5-repeat::before { content: "\E18B"; }
+.fr-caslon-1841-p332-english-5-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-5-corner::before { content: "\E18C"; }
+.fr-caslon-1841-p332-english-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-6-repeat::before { content: "\E18D"; }
+.fr-caslon-1841-p332-english-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p332-english-6-corner::before { content: "\E18E"; }
+.fr-caslon-1841-p333-english-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-7-repeat::before { content: "\E18F"; }
+.fr-caslon-1841-p333-english-7-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-7-corner::before { content: "\E190"; }
+.fr-caslon-1841-p333-english-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-8-repeat::before { content: "\E191"; }
+.fr-caslon-1841-p333-english-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-8-corner::before { content: "\E192"; }
+.fr-caslon-1841-p333-english-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-10-corner::before { content: "\E193"; }
+.fr-caslon-1841-p333-english-11-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-11-corner::before { content: "\E194"; }
+.fr-caslon-1841-p333-english-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-12-repeat::before { content: "\E195"; }
+.fr-caslon-1841-p333-english-12-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-12-corner::before { content: "\E196"; }
+.fr-caslon-1841-p333-english-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-13-repeat::before { content: "\E197"; }
+.fr-caslon-1841-p333-english-13-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-13-corner::before { content: "\E198"; }
+.fr-caslon-1841-p333-english-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-14-repeat::before { content: "\E199"; }
+.fr-caslon-1841-p333-english-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-15-repeat::before { content: "\E19A"; }
+.fr-caslon-1841-p333-english-15-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-15-corner::before { content: "\E19B"; }
+.fr-caslon-1841-p333-english-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-16-repeat::before { content: "\E19C"; }
+.fr-caslon-1841-p333-english-18-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-18-corner::before { content: "\E19D"; }
+.fr-caslon-1841-p333-english-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-19-repeat::before { content: "\E19E"; }
+.fr-caslon-1841-p333-english-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-20-repeat::before { content: "\E19F"; }
+.fr-caslon-1841-p333-english-20-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-20-corner::before { content: "\E1A0"; }
+.fr-caslon-1841-p333-english-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-21-repeat::before { content: "\E1A1"; }
+.fr-caslon-1841-p333-english-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-22-repeat::before { content: "\E1A2"; }
+.fr-caslon-1841-p333-english-22-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-22-corner::before { content: "\E1A3"; }
+.fr-caslon-1841-p333-english-23-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-23-repeat::before { content: "\E1A4"; }
+.fr-caslon-1841-p333-english-24-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-24-repeat::before { content: "\E1A5"; }
+.fr-caslon-1841-p333-english-25-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-25-repeat::before { content: "\E1A6"; }
+.fr-caslon-1841-p333-english-25-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-25-corner::before { content: "\E1A7"; }
+.fr-caslon-1841-p333-english-26-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-26-repeat::before { content: "\E1A8"; }
+.fr-caslon-1841-p333-english-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-27-repeat::before { content: "\E1A9"; }
+.fr-caslon-1841-p333-english-27-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p333-english-27-corner::before { content: "\E1AA"; }
+.fr-caslon-1841-p334-english-29-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-29-repeat::before { content: "\E1AB"; }
+.fr-caslon-1841-p334-english-29-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-29-corner::before { content: "\E1AC"; }
+.fr-caslon-1841-p334-english-31-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-31-corner::before { content: "\E1AD"; }
+.fr-caslon-1841-p334-english-33-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-33-repeat::before { content: "\E1AE"; }
+.fr-caslon-1841-p334-english-34-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-34-repeat::before { content: "\E1AF"; }
+.fr-caslon-1841-p334-english-35-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-35-repeat::before { content: "\E1B0"; }
+.fr-caslon-1841-p334-english-37-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-37-repeat::before { content: "\E1B1"; }
+.fr-caslon-1841-p334-english-38-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-38-repeat::before { content: "\E1B2"; }
+.fr-caslon-1841-p334-english-40-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-40-repeat::before { content: "\E1B3"; }
+.fr-caslon-1841-p334-english-40-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-40-corner::before { content: "\E1B4"; }
+.fr-caslon-1841-p334-english-41-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-41-repeat::before { content: "\E1B5"; }
+.fr-caslon-1841-p334-english-41-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-41-corner::before { content: "\E1B6"; }
+.fr-caslon-1841-p334-english-42-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-42-repeat::before { content: "\E1B7"; }
+.fr-caslon-1841-p334-english-42-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-42-corner::before { content: "\E1B8"; }
+.fr-caslon-1841-p334-english-43-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-43-repeat::before { content: "\E1B9"; }
+.fr-caslon-1841-p334-english-44-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-44-repeat::before { content: "\E1BA"; }
+.fr-caslon-1841-p334-english-44-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-44-corner::before { content: "\E1BB"; }
+.fr-caslon-1841-p334-english-45-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-45-repeat::before { content: "\E1BC"; }
+.fr-caslon-1841-p334-english-45-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-45-corner::before { content: "\E1BD"; }
+.fr-caslon-1841-p334-english-46-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-46-repeat::before { content: "\E1BE"; }
+.fr-caslon-1841-p334-english-46-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-46-corner::before { content: "\E1BF"; }
+.fr-caslon-1841-p334-english-47-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-47-repeat::before { content: "\E1C0"; }
+.fr-caslon-1841-p334-english-47-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-47-corner::before { content: "\E1C1"; }
+.fr-caslon-1841-p334-english-48-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-48-repeat::before { content: "\E1C2"; }
+.fr-caslon-1841-p334-english-48-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p334-english-48-corner::before { content: "\E1C3"; }
+.fr-caslon-1841-p335-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-2-repeat::before { content: "\E1C4"; }
+.fr-caslon-1841-p335-pica-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-2-corner::before { content: "\E1C5"; }
+.fr-caslon-1841-p335-pica-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-3-repeat::before { content: "\E1C6"; }
+.fr-caslon-1841-p335-pica-3-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-3-corner::before { content: "\E1C7"; }
+.fr-caslon-1841-p335-pica-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-4-repeat::before { content: "\E1C8"; }
+.fr-caslon-1841-p335-pica-4-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-4-corner::before { content: "\E1C9"; }
+.fr-caslon-1841-p335-pica-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-6-repeat::before { content: "\E1CA"; }
+.fr-caslon-1841-p335-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-8-repeat::before { content: "\E1CB"; }
+.fr-caslon-1841-p335-pica-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-9-repeat::before { content: "\E1CC"; }
+.fr-caslon-1841-p335-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-11-repeat::before { content: "\E1CD"; }
+.fr-caslon-1841-p335-pica-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-13-repeat::before { content: "\E1CE"; }
+.fr-caslon-1841-p335-pica-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-14-corner::before { content: "\E1CF"; }
+.fr-caslon-1841-p335-pica-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-16-repeat::before { content: "\E1D0"; }
+.fr-caslon-1841-p335-pica-16-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-16-corner::before { content: "\E1D1"; }
+.fr-caslon-1841-p335-pica-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-20-repeat::before { content: "\E1D2"; }
+.fr-caslon-1841-p335-pica-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-21-repeat::before { content: "\E1D3"; }
+.fr-caslon-1841-p335-pica-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-22-repeat::before { content: "\E1D4"; }
+.fr-caslon-1841-p335-pica-24-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p335-pica-24-repeat::before { content: "\E1D5"; }
+.fr-caslon-1841-p336-pica-25-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-25-repeat::before { content: "\E1D6"; }
+.fr-caslon-1841-p336-pica-25-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-25-corner::before { content: "\E1D7"; }
+.fr-caslon-1841-p336-pica-26-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-26-repeat::before { content: "\E1D8"; }
+.fr-caslon-1841-p336-pica-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-27-repeat::before { content: "\E1D9"; }
+.fr-caslon-1841-p336-pica-28-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-28-repeat::before { content: "\E1DA"; }
+.fr-caslon-1841-p336-pica-28-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-28-corner::before { content: "\E1DB"; }
+.fr-caslon-1841-p336-pica-29-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-29-repeat::before { content: "\E1DC"; }
+.fr-caslon-1841-p336-pica-30-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-30-repeat::before { content: "\E1DD"; }
+.fr-caslon-1841-p336-pica-31-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-31-repeat::before { content: "\E1DE"; }
+.fr-caslon-1841-p336-pica-31-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-31-corner::before { content: "\E1DF"; }
+.fr-caslon-1841-p336-pica-34-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-34-repeat::before { content: "\E1E0"; }
+.fr-caslon-1841-p336-pica-35-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-35-corner::before { content: "\E1E1"; }
+.fr-caslon-1841-p336-pica-37-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-37-repeat::before { content: "\E1E2"; }
+.fr-caslon-1841-p336-pica-38-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-38-repeat::before { content: "\E1E3"; }
+.fr-caslon-1841-p336-pica-38-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-38-corner::before { content: "\E1E4"; }
+.fr-caslon-1841-p336-pica-39-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-39-repeat::before { content: "\E1E5"; }
+.fr-caslon-1841-p336-pica-39-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-39-corner::before { content: "\E1E6"; }
+.fr-caslon-1841-p336-pica-41-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-41-repeat::before { content: "\E1E7"; }
+.fr-caslon-1841-p336-pica-41-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-41-corner::before { content: "\E1E8"; }
+.fr-caslon-1841-p336-pica-42-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-42-repeat::before { content: "\E1E9"; }
+.fr-caslon-1841-p336-pica-42-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-42-corner::before { content: "\E1EA"; }
+.fr-caslon-1841-p336-pica-43-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-43-repeat::before { content: "\E1EB"; }
+.fr-caslon-1841-p336-pica-43-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-43-corner::before { content: "\E1EC"; }
+.fr-caslon-1841-p336-pica-45-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-45-repeat::before { content: "\E1ED"; }
+.fr-caslon-1841-p336-pica-46-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-46-repeat::before { content: "\E1EE"; }
+.fr-caslon-1841-p336-pica-47-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-47-repeat::before { content: "\E1EF"; }
+.fr-caslon-1841-p336-pica-48-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p336-pica-48-repeat::before { content: "\E1F0"; }
+.fr-caslon-1841-p337-small-pica-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-1-corner::before { content: "\E1F1"; }
+.fr-caslon-1841-p337-small-pica-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-2-repeat::before { content: "\E1F2"; }
+.fr-caslon-1841-p337-small-pica-2-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-2-corner::before { content: "\E1F3"; }
+.fr-caslon-1841-p337-small-pica-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-3-repeat::before { content: "\E1F4"; }
+.fr-caslon-1841-p337-small-pica-3-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-3-corner::before { content: "\E1F5"; }
+.fr-caslon-1841-p337-small-pica-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-4-repeat::before { content: "\E1F6"; }
+.fr-caslon-1841-p337-small-pica-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-5-repeat::before { content: "\E1F7"; }
+.fr-caslon-1841-p337-small-pica-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-6-repeat::before { content: "\E1F8"; }
+.fr-caslon-1841-p337-small-pica-6-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-6-corner::before { content: "\E1F9"; }
+.fr-caslon-1841-p337-small-pica-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-7-repeat::before { content: "\E1FA"; }
+.fr-caslon-1841-p337-small-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-8-repeat::before { content: "\E1FB"; }
+.fr-caslon-1841-p337-small-pica-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-8-corner::before { content: "\E1FC"; }
+.fr-caslon-1841-p337-small-pica-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-10-repeat::before { content: "\E1FD"; }
+.fr-caslon-1841-p337-small-pica-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-11-repeat::before { content: "\E1FE"; }
+.fr-caslon-1841-p337-small-pica-12-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-12-corner::before { content: "\E1FF"; }
+.fr-caslon-1841-p337-small-pica-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-15-repeat::before { content: "\E200"; }
+.fr-caslon-1841-p337-small-pica-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-16-repeat::before { content: "\E201"; }
+.fr-caslon-1841-p337-small-pica-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-17-repeat::before { content: "\E202"; }
+.fr-caslon-1841-p337-small-pica-18-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-18-repeat::before { content: "\E203"; }
+.fr-caslon-1841-p337-small-pica-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-19-repeat::before { content: "\E204"; }
+.fr-caslon-1841-p337-small-pica-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-20-repeat::before { content: "\E205"; }
+.fr-caslon-1841-p337-small-pica-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-21-repeat::before { content: "\E206"; }
+.fr-caslon-1841-p337-small-pica-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-22-repeat::before { content: "\E207"; }
+.fr-caslon-1841-p337-small-pica-26-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-26-repeat::before { content: "\E208"; }
+.fr-caslon-1841-p337-small-pica-26-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-26-corner::before { content: "\E209"; }
+.fr-caslon-1841-p337-small-pica-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-27-repeat::before { content: "\E20A"; }
+.fr-caslon-1841-p337-small-pica-28-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-28-repeat::before { content: "\E20B"; }
+.fr-caslon-1841-p337-small-pica-27-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p337-small-pica-27-corner::before { content: "\E20C"; }
+.fr-caslon-1841-p338-long-primer-14-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-14-corner::before { content: "\E20D"; }
+.fr-caslon-1841-p338-long-primer-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-15-repeat::before { content: "\E20E"; }
+.fr-caslon-1841-p338-long-primer-15-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-15-corner::before { content: "\E20F"; }
+.fr-caslon-1841-p338-long-primer-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-16-repeat::before { content: "\E210"; }
+.fr-caslon-1841-p338-long-primer-16-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-16-corner::before { content: "\E211"; }
+.fr-caslon-1841-p338-long-primer-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-17-repeat::before { content: "\E212"; }
+.fr-caslon-1841-p338-long-primer-18-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-18-repeat::before { content: "\E213"; }
+.fr-caslon-1841-p338-long-primer-18-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-18-corner::before { content: "\E214"; }
+.fr-caslon-1841-p338-long-primer-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-19-repeat::before { content: "\E215"; }
+.fr-caslon-1841-p338-long-primer-19-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-19-corner::before { content: "\E216"; }
+.fr-caslon-1841-p338-long-primer-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-21-repeat::before { content: "\E217"; }
+.fr-caslon-1841-p338-long-primer-21-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-21-corner::before { content: "\E218"; }
+.fr-caslon-1841-p338-long-primer-22-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-22-repeat::before { content: "\E219"; }
+.fr-caslon-1841-p338-long-primer-22-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-22-corner::before { content: "\E21A"; }
+.fr-caslon-1841-p338-long-primer-23-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-23-corner::before { content: "\E21B"; }
+.fr-caslon-1841-p338-long-primer-26-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-26-repeat::before { content: "\E21C"; }
+.fr-caslon-1841-p338-long-primer-26-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-26-corner::before { content: "\E21D"; }
+.fr-caslon-1841-p338-long-primer-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-27-repeat::before { content: "\E21E"; }
+.fr-caslon-1841-p338-long-primer-27-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-27-corner::before { content: "\E21F"; }
+.fr-caslon-1841-p338-long-primer-28-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-28-repeat::before { content: "\E220"; }
+.fr-caslon-1841-p338-long-primer-29-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-29-repeat::before { content: "\E221"; }
+.fr-caslon-1841-p338-long-primer-29-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-29-corner::before { content: "\E222"; }
+.fr-caslon-1841-p338-long-primer-30-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-30-repeat::before { content: "\E223"; }
+.fr-caslon-1841-p338-long-primer-30-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-30-corner::before { content: "\E224"; }
+.fr-caslon-1841-p338-long-primer-32-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-32-repeat::before { content: "\E225"; }
+.fr-caslon-1841-p338-long-primer-33-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-33-repeat::before { content: "\E226"; }
+.fr-caslon-1841-p338-long-primer-34-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-34-repeat::before { content: "\E227"; }
+.fr-caslon-1841-p338-long-primer-36-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-36-repeat::before { content: "\E228"; }
+.fr-caslon-1841-p338-long-primer-36-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-36-corner::before { content: "\E229"; }
+.fr-caslon-1841-p338-long-primer-38-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-38-repeat::before { content: "\E22A"; }
+.fr-caslon-1841-p338-long-primer-39-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p338-long-primer-39-repeat::before { content: "\E22B"; }
+.fr-caslon-1841-p339-long-primer-41-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-41-repeat::before { content: "\E22C"; }
+.fr-caslon-1841-p339-long-primer-41-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-41-corner::before { content: "\E22D"; }
+.fr-caslon-1841-p339-long-primer-42-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-42-repeat::before { content: "\E22E"; }
+.fr-caslon-1841-p339-long-primer-42-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-42-corner::before { content: "\E22F"; }
+.fr-caslon-1841-p339-long-primer-43-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-43-repeat::before { content: "\E230"; }
+.fr-caslon-1841-p339-long-primer-44-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-44-repeat::before { content: "\E231"; }
+.fr-caslon-1841-p339-long-primer-45-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-45-repeat::before { content: "\E232"; }
+.fr-caslon-1841-p339-long-primer-46-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-46-repeat::before { content: "\E233"; }
+.fr-caslon-1841-p339-long-primer-46-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-46-corner::before { content: "\E234"; }
+.fr-caslon-1841-p339-long-primer-47-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-47-repeat::before { content: "\E235"; }
+.fr-caslon-1841-p339-long-primer-47-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-long-primer-47-corner::before { content: "\E236"; }
+.fr-caslon-1841-p339-bourgeois-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-1-repeat::before { content: "\E237"; }
+.fr-caslon-1841-p339-bourgeois-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-1-corner::before { content: "\E238"; }
+.fr-caslon-1841-p339-bourgeois-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-2-repeat::before { content: "\E239"; }
+.fr-caslon-1841-p339-bourgeois-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-4-repeat::before { content: "\E23A"; }
+.fr-caslon-1841-p339-bourgeois-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-6-repeat::before { content: "\E23B"; }
+.fr-caslon-1841-p339-bourgeois-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-7-repeat::before { content: "\E23C"; }
+.fr-caslon-1841-p339-bourgeois-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-8-repeat::before { content: "\E23D"; }
+.fr-caslon-1841-p339-bourgeois-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-9-repeat::before { content: "\E23E"; }
+.fr-caslon-1841-p339-bourgeois-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-10-repeat::before { content: "\E23F"; }
+.fr-caslon-1841-p339-bourgeois-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-11-repeat::before { content: "\E240"; }
+.fr-caslon-1841-p339-bourgeois-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-12-repeat::before { content: "\E241"; }
+.fr-caslon-1841-p339-bourgeois-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-13-repeat::before { content: "\E242"; }
+.fr-caslon-1841-p339-bourgeois-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-14-repeat::before { content: "\E243"; }
+.fr-caslon-1841-p339-bourgeois-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p339-bourgeois-16-repeat::before { content: "\E244"; }
+.fr-caslon-1841-p340-brevier-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-1-repeat::before { content: "\E245"; }
+.fr-caslon-1841-p340-brevier-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-1-corner::before { content: "\E246"; }
+.fr-caslon-1841-p340-brevier-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-2-repeat::before { content: "\E247"; }
+.fr-caslon-1841-p340-brevier-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-4-repeat::before { content: "\E248"; }
+.fr-caslon-1841-p340-brevier-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-5-repeat::before { content: "\E249"; }
+.fr-caslon-1841-p340-brevier-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-6-repeat::before { content: "\E24A"; }
+.fr-caslon-1841-p340-brevier-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-8-repeat::before { content: "\E24B"; }
+.fr-caslon-1841-p340-brevier-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-8-corner::before { content: "\E24C"; }
+.fr-caslon-1841-p340-brevier-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-9-repeat::before { content: "\E24D"; }
+.fr-caslon-1841-p340-brevier-9-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-9-corner::before { content: "\E24E"; }
+.fr-caslon-1841-p340-brevier-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-10-repeat::before { content: "\E24F"; }
+.fr-caslon-1841-p340-brevier-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-10-corner::before { content: "\E250"; }
+.fr-caslon-1841-p340-brevier-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-11-repeat::before { content: "\E251"; }
+.fr-caslon-1841-p340-brevier-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-12-repeat::before { content: "\E252"; }
+.fr-caslon-1841-p340-brevier-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-13-repeat::before { content: "\E253"; }
+.fr-caslon-1841-p340-brevier-14-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-14-repeat::before { content: "\E254"; }
+.fr-caslon-1841-p340-brevier-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-15-repeat::before { content: "\E255"; }
+.fr-caslon-1841-p340-brevier-15-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-15-corner::before { content: "\E256"; }
+.fr-caslon-1841-p340-brevier-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-16-repeat::before { content: "\E257"; }
+.fr-caslon-1841-p340-brevier-17-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-17-repeat::before { content: "\E258"; }
+.fr-caslon-1841-p340-brevier-18-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-18-repeat::before { content: "\E259"; }
+.fr-caslon-1841-p340-brevier-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-19-repeat::before { content: "\E25A"; }
+.fr-caslon-1841-p340-brevier-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-20-repeat::before { content: "\E25B"; }
+.fr-caslon-1841-p340-brevier-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-21-repeat::before { content: "\E25C"; }
+.fr-caslon-1841-p340-brevier-24-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-24-repeat::before { content: "\E25D"; }
+.fr-caslon-1841-p340-brevier-25-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-25-repeat::before { content: "\E25E"; }
+.fr-caslon-1841-p340-brevier-26-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-26-corner::before { content: "\E25F"; }
+.fr-caslon-1841-p340-brevier-27-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-27-repeat::before { content: "\E260"; }
+.fr-caslon-1841-p340-brevier-20-link { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p340-brevier-20-link::before { content: "\E261"; }
+.fr-caslon-1841-p341-brevier-32-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-32-corner::before { content: "\E262"; }
+.fr-caslon-1841-p341-brevier-35-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-35-repeat::before { content: "\E263"; }
+.fr-caslon-1841-p341-brevier-35-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-35-corner::before { content: "\E264"; }
+.fr-caslon-1841-p341-brevier-36-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-36-repeat::before { content: "\E265"; }
+.fr-caslon-1841-p341-brevier-37-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-37-repeat::before { content: "\E266"; }
+.fr-caslon-1841-p341-brevier-39-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-39-repeat::before { content: "\E267"; }
+.fr-caslon-1841-p341-brevier-41-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-41-repeat::before { content: "\E268"; }
+.fr-caslon-1841-p341-brevier-42-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-42-repeat::before { content: "\E269"; }
+.fr-caslon-1841-p341-brevier-43-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-43-repeat::before { content: "\E26A"; }
+.fr-caslon-1841-p341-brevier-44-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-44-repeat::before { content: "\E26B"; }
+.fr-caslon-1841-p341-brevier-45-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-45-repeat::before { content: "\E26C"; }
+.fr-caslon-1841-p341-brevier-49-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-49-repeat::before { content: "\E26D"; }
+.fr-caslon-1841-p341-brevier-49-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-49-corner::before { content: "\E26E"; }
+.fr-caslon-1841-p341-brevier-55-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p341-brevier-55-repeat::before { content: "\E26F"; }
+.fr-caslon-1841-p342-brevier-57-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-brevier-57-repeat::before { content: "\E270"; }
+.fr-caslon-1841-p342-brevier-58-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-brevier-58-corner::before { content: "\E271"; }
+.fr-caslon-1841-p342-brevier-59-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-brevier-59-repeat::before { content: "\E272"; }
+.fr-caslon-1841-p342-brevier-59-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-brevier-59-corner::before { content: "\E273"; }
+.fr-caslon-1841-p342-brevier-61-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-brevier-61-repeat::before { content: "\E274"; }
+.fr-caslon-1841-p342-brevier-63-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-brevier-63-repeat::before { content: "\E275"; }
+.fr-caslon-1841-p342-nonpareil-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-2-repeat::before { content: "\E276"; }
+.fr-caslon-1841-p342-nonpareil-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-7-repeat::before { content: "\E277"; }
+.fr-caslon-1841-p342-nonpareil-9-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-9-repeat::before { content: "\E278"; }
+.fr-caslon-1841-p342-nonpareil-10-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-10-repeat::before { content: "\E279"; }
+.fr-caslon-1841-p342-nonpareil-10-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-10-corner::before { content: "\E27A"; }
+.fr-caslon-1841-p342-nonpareil-11-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-11-repeat::before { content: "\E27B"; }
+.fr-caslon-1841-p342-nonpareil-12-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-12-repeat::before { content: "\E27C"; }
+.fr-caslon-1841-p342-nonpareil-12-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-12-corner::before { content: "\E27D"; }
+.fr-caslon-1841-p342-nonpareil-13-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-13-repeat::before { content: "\E27E"; }
+.fr-caslon-1841-p342-nonpareil-15-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-15-repeat::before { content: "\E27F"; }
+.fr-caslon-1841-p342-nonpareil-16-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-16-repeat::before { content: "\E280"; }
+.fr-caslon-1841-p342-nonpareil-16-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-16-corner::before { content: "\E281"; }
+.fr-caslon-1841-p342-nonpareil-18-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-18-corner::before { content: "\E282"; }
+.fr-caslon-1841-p342-nonpareil-19-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-19-repeat::before { content: "\E283"; }
+.fr-caslon-1841-p342-nonpareil-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-20-repeat::before { content: "\E284"; }
+.fr-caslon-1841-p342-nonpareil-20-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-20-corner::before { content: "\E285"; }
+.fr-caslon-1841-p342-nonpareil-21-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-21-repeat::before { content: "\E286"; }
+.fr-caslon-1841-p342-nonpareil-21-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-21-corner::before { content: "\E287"; }
+.fr-caslon-1841-p342-nonpareil-22-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-22-corner::before { content: "\E288"; }
+.fr-caslon-1841-p342-nonpareil-23-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p342-nonpareil-23-repeat::before { content: "\E289"; }
+.fr-caslon-1841-p343-pearl-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-pearl-3-repeat::before { content: "\E28A"; }
+.fr-caslon-1841-p343-pearl-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-pearl-4-repeat::before { content: "\E28B"; }
+.fr-caslon-1841-p343-pearl-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-pearl-8-repeat::before { content: "\E28C"; }
+.fr-caslon-1841-p343-pearl-20-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-pearl-20-repeat::before { content: "\E28D"; }
+.fr-caslon-1841-p343-pearl-20-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-pearl-20-corner::before { content: "\E28E"; }
+.fr-caslon-1841-p343-diamond-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-diamond-1-repeat::before { content: "\E28F"; }
+.fr-caslon-1841-p345-foldout-outer-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-outer-1-repeat::before { content: "\E290"; }
+.fr-caslon-1841-p345-foldout-outer-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-outer-2-repeat::before { content: "\E291"; }
+.fr-caslon-1841-p345-foldout-outer-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-outer-3-repeat::before { content: "\E292"; }
+.fr-caslon-1841-p345-foldout-outer-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-outer-4-repeat::before { content: "\E293"; }
+.fr-caslon-1841-p345-foldout-middle-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-middle-2-repeat::before { content: "\E295"; }
+.fr-caslon-1841-p345-foldout-middle-3-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-middle-3-repeat::before { content: "\E296"; }
+.fr-caslon-1841-p345-foldout-middle-4-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-middle-4-repeat::before { content: "\E297"; }
+.fr-caslon-1841-p345-foldout-middle-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-middle-5-repeat::before { content: "\E298"; }
+.fr-caslon-1841-p345-foldout-inner-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-inner-2-repeat::before { content: "\E29A"; }
+.fr-caslon-1841-p345-foldout-inner-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-inner-5-repeat::before { content: "\E29B"; }
+.fr-caslon-1841-p345-foldout-inner-6-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-inner-6-repeat::before { content: "\E29C"; }
+.fr-caslon-1841-p345-foldout-inner-7-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p345-foldout-inner-7-repeat::before { content: "\E29D"; }
+.fr-caslon-1841-p349-foldout-fragment-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p349-foldout-fragment-1-repeat::before { content: "\E29E"; }
+.fr-caslon-1841-p351-foldout-frame-1-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p351-foldout-frame-1-repeat::before { content: "\E2A0"; }
+.fr-caslon-1841-p351-foldout-frame-1-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p351-foldout-frame-1-corner::before { content: "\E2A1"; }
+.fr-caslon-1841-p351-foldout-frame-2-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p351-foldout-frame-2-repeat::before { content: "\E2A2"; }
+.fr-caslon-1841-p274-trafalgar-frond { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-frond::before { content: "\E2AC"; }
+.fr-caslon-1841-p274-trafalgar-small-frond { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-small-frond::before { content: "\E2AD"; }
+.fr-caslon-1841-p274-trafalgar-arrow-terminal { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-arrow-terminal::before { content: "\E2AE"; }
+.fr-caslon-1841-p274-trafalgar-oak-rosette { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-oak-rosette::before { content: "\E2AF"; }
+.fr-caslon-1841-p274-trafalgar-flower-bouquet { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-flower-bouquet::before { content: "\E2B0"; }
+.fr-caslon-1841-p274-trafalgar-berry-bouquet { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-berry-bouquet::before { content: "\E2B1"; }
+.fr-caslon-1841-p274-trafalgar-square-rosette { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p274-trafalgar-square-rosette::before { content: "\E2B2"; }
+.fr-caslon-1841-p004-title-coil-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p004-title-coil-repeat::before { content: "\E2B3"; }
+.fr-caslon-1841-p004-title-coil-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p004-title-coil-corner::before { content: "\E2B4"; }
+.fr-caslon-1841-p004-title-coil-join { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p004-title-coil-join::before { content: "\E2B5"; }
+.fr-caslon-1841-p272-script-flourish { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p272-script-flourish::before { content: "\E2BA"; }
+.fr-caslon-1841-p279-component-serpentine-terminal { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-serpentine-terminal::before { content: "\E2BB"; }
+.fr-caslon-1841-p279-component-spiral-leaf { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-spiral-leaf::before { content: "\E2BC"; }
+.fr-caslon-1841-p279-component-double-loop { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-double-loop::before { content: "\E2BD"; }
+.fr-caslon-1841-p279-component-bow-rosette { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-bow-rosette::before { content: "\E2BE"; }
+.fr-caslon-1841-p279-component-outlined-spike { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-outlined-spike::before { content: "\E2BF"; }
+.fr-caslon-1841-p279-component-triple-bar { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-triple-bar::before { content: "\E2C0"; }
+.fr-caslon-1841-p279-component-star-cross { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-star-cross::before { content: "\E2C2"; }
+.fr-caslon-1841-p279-component-solid-spike { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-solid-spike::before { content: "\E2C3"; }
+.fr-caslon-1841-p279-component-quad-bar { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-quad-bar::before { content: "\E2C4"; }
+.fr-caslon-1841-p279-component-nested-arrow { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-nested-arrow::before { content: "\E2C5"; }
+.fr-caslon-1841-p279-component-diamond-spike { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-diamond-spike::before { content: "\E2C6"; }
+.fr-caslon-1841-p279-component-six-point-star { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-six-point-star::before { content: "\E2C7"; }
+.fr-caslon-1841-p279-component-leaf-arrow { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-leaf-arrow::before { content: "\E2C8"; }
+.fr-caslon-1841-p279-component-beaded-scroll { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-beaded-scroll::before { content: "\E2C9"; }
+.fr-caslon-1841-p279-component-dark-oval-flower { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-dark-oval-flower::before { content: "\E2CA"; }
+.fr-caslon-1841-p279-component-open-arrow { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-open-arrow::before { content: "\E2CC"; }
+.fr-caslon-1841-p279-component-braided-oval { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-braided-oval::before { content: "\E2CD"; }
+.fr-caslon-1841-p279-component-light-oval-flower { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-light-oval-flower::before { content: "\E2CE"; }
+.fr-caslon-1841-p279-component-flared-stem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-flared-stem::before { content: "\E2CF"; }
+.fr-caslon-1841-p279-component-bell-flower { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-bell-flower::before { content: "\E2D2"; }
+.fr-caslon-1841-p279-component-leaf-scroll { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p279-component-leaf-scroll::before { content: "\E2D3"; }
+.fr-caslon-1841-p343-component-beaded-stem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-component-beaded-stem::before { content: "\E2D5"; }
+.fr-caslon-1841-p343-component-arrow-stem { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-component-arrow-stem::before { content: "\E2D6"; }
+.fr-caslon-1841-p343-component-open-spike { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-component-open-spike::before { content: "\E2D8"; }
+.fr-caslon-1841-p343-component-solid-spike { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p343-component-solid-spike::before { content: "\E2DA"; }
+.fr-caslon-1841-p304-five-line-pica-5-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p304-five-line-pica-5-repeat::before { content: "\E2DF"; }
+.fr-caslon-1841-p304-five-line-pica-5-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p304-five-line-pica-5-corner::before { content: "\E2E0"; }
+.fr-caslon-1841-p312-four-line-pica-8-repeat { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p312-four-line-pica-8-repeat::before { content: "\E2E1"; }
+.fr-caslon-1841-p312-four-line-pica-8-corner { font-family: "Caslon Ornaments 1841"; }
+.fr-caslon-1841-p312-four-line-pica-8-corner::before { content: "\E2E2"; }

@@ -1,0 +1,180 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-caslon-1841-p241-litho-a { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-a::before { content: "\E000"; }
+.fr-caslon-1841-p241-litho-d { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-d::before { content: "\E001"; }
+.fr-caslon-1841-p241-litho-e { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-e::before { content: "\E002"; }
+.fr-caslon-1841-p241-litho-g { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-g::before { content: "\E003"; }
+.fr-caslon-1841-p241-litho-h { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-h::before { content: "\E004"; }
+.fr-caslon-1841-p241-litho-i { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-i::before { content: "\E005"; }
+.fr-caslon-1841-p241-litho-k { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-k::before { content: "\E006"; }
+.fr-caslon-1841-p241-litho-m { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-m::before { content: "\E007"; }
+.fr-caslon-1841-p241-litho-n { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-n::before { content: "\E008"; }
+.fr-caslon-1841-p241-litho-o { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-o::before { content: "\E009"; }
+.fr-caslon-1841-p241-litho-s { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-s::before { content: "\E00A"; }
+.fr-caslon-1841-p241-litho-t { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-t::before { content: "\E00B"; }
+.fr-caslon-1841-p241-litho-u { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-u::before { content: "\E00C"; }
+.fr-caslon-1841-p241-litho-v { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-litho-v::before { content: "\E00D"; }
+.fr-caslon-1841-p242-scroll-ampersand { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-ampersand::before { content: "\E00E"; }
+.fr-caslon-1841-p242-scroll-comma { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-comma::before { content: "\E00F"; }
+.fr-caslon-1841-p242-scroll-hyphen { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-hyphen::before { content: "\E010"; }
+.fr-caslon-1841-p242-scroll-period { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-period::before { content: "\E011"; }
+.fr-caslon-1841-p242-scroll-colon { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-colon::before { content: "\E012"; }
+.fr-caslon-1841-p242-scroll-semicolon { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-semicolon::before { content: "\E013"; }
+.fr-caslon-1841-p242-scroll-a { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-a::before { content: "\E014"; }
+.fr-caslon-1841-p242-scroll-b { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-b::before { content: "\E015"; }
+.fr-caslon-1841-p242-scroll-c { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-c::before { content: "\E016"; }
+.fr-caslon-1841-p242-scroll-d { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-d::before { content: "\E017"; }
+.fr-caslon-1841-p243-scroll-e { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p243-scroll-e::before { content: "\E018"; }
+.fr-caslon-1841-p242-scroll-f { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-f::before { content: "\E019"; }
+.fr-caslon-1841-p242-scroll-g { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-g::before { content: "\E01A"; }
+.fr-caslon-1841-p242-scroll-h { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-h::before { content: "\E01B"; }
+.fr-caslon-1841-p242-scroll-i { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-i::before { content: "\E01C"; }
+.fr-caslon-1841-p242-scroll-j { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-j::before { content: "\E01D"; }
+.fr-caslon-1841-p242-scroll-k { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-k::before { content: "\E01E"; }
+.fr-caslon-1841-p242-scroll-l { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-l::before { content: "\E01F"; }
+.fr-caslon-1841-p242-scroll-m { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-m::before { content: "\E020"; }
+.fr-caslon-1841-p242-scroll-n { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-n::before { content: "\E021"; }
+.fr-caslon-1841-p242-scroll-o { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-o::before { content: "\E022"; }
+.fr-caslon-1841-p242-scroll-p { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-p::before { content: "\E023"; }
+.fr-caslon-1841-p242-scroll-q { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-q::before { content: "\E024"; }
+.fr-caslon-1841-p243-scroll-r { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p243-scroll-r::before { content: "\E025"; }
+.fr-caslon-1841-p242-scroll-s { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-s::before { content: "\E026"; }
+.fr-caslon-1841-p242-scroll-t { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-t::before { content: "\E027"; }
+.fr-caslon-1841-p242-scroll-u { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-u::before { content: "\E028"; }
+.fr-caslon-1841-p242-scroll-v { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-v::before { content: "\E029"; }
+.fr-caslon-1841-p242-scroll-w { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-w::before { content: "\E02A"; }
+.fr-caslon-1841-p242-scroll-x { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-x::before { content: "\E02B"; }
+.fr-caslon-1841-p242-scroll-y { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-y::before { content: "\E02C"; }
+.fr-caslon-1841-p242-scroll-z { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-z::before { content: "\E02D"; }
+.fr-caslon-1841-p242-scroll-ae { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-ae::before { content: "\E02E"; }
+.fr-caslon-1841-p242-scroll-oe { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-oe::before { content: "\E02F"; }
+.fr-caslon-1841-p242-scroll-apostrophe { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-apostrophe::before { content: "\E030"; }
+.fr-caslon-1841-p240-scroll-shaded-ampersand { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p240-scroll-shaded-ampersand::before { content: "\E031"; }
+.fr-caslon-1841-p242-scroll-shaded-comma { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-comma::before { content: "\E032"; }
+.fr-caslon-1841-p242-scroll-shaded-hyphen { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-hyphen::before { content: "\E033"; }
+.fr-caslon-1841-p242-scroll-shaded-period { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-period::before { content: "\E034"; }
+.fr-caslon-1841-p242-scroll-shaded-colon { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-colon::before { content: "\E035"; }
+.fr-caslon-1841-p242-scroll-shaded-semicolon { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-semicolon::before { content: "\E036"; }
+.fr-caslon-1841-p239-scroll-shaded-a { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-a::before { content: "\E037"; }
+.fr-caslon-1841-p239-scroll-shaded-b { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-b::before { content: "\E038"; }
+.fr-caslon-1841-p239-scroll-shaded-c { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-c::before { content: "\E039"; }
+.fr-caslon-1841-p239-scroll-shaded-d { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-d::before { content: "\E03A"; }
+.fr-caslon-1841-p239-scroll-shaded-e { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-e::before { content: "\E03B"; }
+.fr-caslon-1841-p239-scroll-shaded-f { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-f::before { content: "\E03C"; }
+.fr-caslon-1841-p240-scroll-shaded-g { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p240-scroll-shaded-g::before { content: "\E03D"; }
+.fr-caslon-1841-p241-scroll-shaded-h { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p241-scroll-shaded-h::before { content: "\E03E"; }
+.fr-caslon-1841-p239-scroll-shaded-i { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-i::before { content: "\E03F"; }
+.fr-caslon-1841-p242-scroll-shaded-j { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-j::before { content: "\E040"; }
+.fr-caslon-1841-p239-scroll-shaded-k { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-k::before { content: "\E041"; }
+.fr-caslon-1841-p239-scroll-shaded-l { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-l::before { content: "\E042"; }
+.fr-caslon-1841-p239-scroll-shaded-m { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-m::before { content: "\E043"; }
+.fr-caslon-1841-p239-scroll-shaded-n { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-n::before { content: "\E044"; }
+.fr-caslon-1841-p239-scroll-shaded-o { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-o::before { content: "\E045"; }
+.fr-caslon-1841-p239-scroll-shaded-p { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-p::before { content: "\E046"; }
+.fr-caslon-1841-p242-scroll-shaded-q { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-q::before { content: "\E047"; }
+.fr-caslon-1841-p239-scroll-shaded-r { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-r::before { content: "\E048"; }
+.fr-caslon-1841-p239-scroll-shaded-s { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-s::before { content: "\E049"; }
+.fr-caslon-1841-p239-scroll-shaded-t { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-t::before { content: "\E04A"; }
+.fr-caslon-1841-p239-scroll-shaded-u { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-u::before { content: "\E04B"; }
+.fr-caslon-1841-p239-scroll-shaded-v { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-v::before { content: "\E04C"; }
+.fr-caslon-1841-p243-scroll-shaded-w { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p243-scroll-shaded-w::before { content: "\E04D"; }
+.fr-caslon-1841-p242-scroll-shaded-x { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-x::before { content: "\E04E"; }
+.fr-caslon-1841-p239-scroll-shaded-y { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p239-scroll-shaded-y::before { content: "\E04F"; }
+.fr-caslon-1841-p240-scroll-shaded-z { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p240-scroll-shaded-z::before { content: "\E050"; }
+.fr-caslon-1841-p242-scroll-shaded-ae { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-ae::before { content: "\E051"; }
+.fr-caslon-1841-p242-scroll-shaded-oe { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-oe::before { content: "\E052"; }
+.fr-caslon-1841-p242-scroll-shaded-apostrophe { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p242-scroll-shaded-apostrophe::before { content: "\E053"; }
+.fr-caslon-1841-p245-text-c { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p245-text-c::before { content: "\E054"; }
+.fr-caslon-1841-p245-text-l { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p245-text-l::before { content: "\E055"; }
+.fr-caslon-1841-p245-text-f { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p245-text-f::before { content: "\E056"; }
+.fr-caslon-1841-p245-text-s { font-family: "Caslon Initials 1841"; }
+.fr-caslon-1841-p245-text-s::before { content: "\E057"; }

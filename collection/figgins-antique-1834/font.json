@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "figgins-antique-1834",
+  "name": "Figgins Antique 1834",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "FigginsAntique1834-Regular",
+  "year": 1834,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "V. Figgins, London",
+  "description": "Heavy slab-serif letters with round bowls, broad capitals and a complete historical lowercase, from the 1834 Figgins specimen.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "Antique printing types",
+  "observed": "Complete capitals, figures and 23 lowercase letters from Double Pica Antique on leaf161; matching heavy Long Primer Antique on leaf163 supplies g, j and q. Pound sign, ampersand, ligatures and punctuation are observed.",
+  "reconstructed": "No inferred visible characters. Spaces and digital spacing are new; ASCII quotation mark aliases the observed closing double quote.",
+  "sources": [
+    {
+      "file": "reference/figgins1834-161.jp2",
+      "title": "Specimen of printing types, V. Figgins (1834), Antique types, unpaginated PDF page 161, archive leaf 161",
+      "url": "https://archive.org/details/b2874231x/page/n161/mode/1up",
+      "rights": "1834 British publication, public domain by age. The Wellcome Library archive record marks the historical work with the Public Domain Mark 1.0.",
+      "rights_url": "https://archive.org/details/b2874231x"
+    },
+    {
+      "file": "reference/figgins1834-163.jp2",
+      "title": "Specimen of printing types, V. Figgins (1834), Antique types, unpaginated PDF page 163, archive leaf 163",
+      "url": "https://archive.org/details/b2874231x/page/n163/mode/1up",
+      "rights": "1834 British publication, public domain by age. The Wellcome Library archive record marks the historical work with the Public Domain Mark 1.0.",
+      "rights_url": "https://archive.org/details/b2874231x"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Native scans, exact quarter-turn, independent measured page rotations, transcribed words and explicit touching-serif boundaries retained. Whole g/j/q impressions supplement the primary face; no inferred shapes."
+  },
+  "character_style": "mixed-case",
+  "character_set_notes": "Complete observed A–Z, a–z and ten figures, with the recorded symbols and punctuation. Source sizes identify witnesses; this is one scalable family.",
+  "character_set": " \"&,-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ“”"
+}
