@@ -1,5 +1,11 @@
 # Changes
 
+## 1.006
+
+- Improve the level-and-compasses emblem from a clearer Figgins 1834 impression; correct the former beehive description. Retain the original Boston witness, permanent ID, codepoint and advance.
+
+- Correct the racehorse cut No. 2575 description: its native source shows three jockeys and horses.
+
 ## 1.005
 
 - Split long OpenType/CFF drawing programs into lossless subroutines so strict font sanitizers can load the OTF. Preserve every contour, character and advance.

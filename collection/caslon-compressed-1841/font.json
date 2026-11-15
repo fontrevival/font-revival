@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "caslon-compressed-1841",
+  "name": "Caslon Compressed 1841",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "CaslonCompressed1841-Regular",
+  "year": 1841,
+  "designer": "Unidentified in the historical specimen",
+  "foundry": "Henry Caslon, London",
+  "description": "Narrow Roman capitals with fine hairlines, flat serifs and a recurved Q tail.",
+  "license": "MIT OR OFL-1.1",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "CHISWELL STREET",
+  "observed": "Complete capitals from Two-Line Pica; compatible Great Primer supplies figures, punctuation and OE ligature.",
+  "reconstructed": "No inferred visible characters. Spaces and digital spacing are new; lowercase input aliases the corresponding capitals.",
+  "sources": [
+    {
+      "file": "reference/caslon1841-13.jp2",
+      "title": "Specimen of printing types, Henry Caslon (1841), archive leaf 13, PDF page 14",
+      "url": "https://archive.org/details/bub_gb_LVsJAAAAQAAJ/page/n13/mode/1up",
+      "rights": "1841 British publication, public domain by age. Internet Archive metadata supplies Public Domain Mark 1.0; historical scan retained.",
+      "rights_url": "https://archive.org/details/bub_gb_LVsJAAAAQAAJ"
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "Native JP2 and exact quarter-turn derivative; explicit row selection, scale/baseline measurements and rigid rotation retained in source. No reconstructed letters."
+  },
+  "character_style": "capitals-only",
+  "character_set_notes": "Complete observed capital alphabet and ten figures with available source symbols. Historical point sizes identify witnesses for one scalable design.",
+  "character_set": " !&',-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz £ÆŒ’"
+}

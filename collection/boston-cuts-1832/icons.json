@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collection": "boston-cuts-1832",
-  "version": "1.002",
+  "version": "1.003",
   "icons": [
     {
       "id": "boston-1832-p201-4",
@@ -1096,17 +1096,19 @@
     },
     {
       "id": "boston-1832-p223-78",
-      "name": "Two roses and buds",
-      "specimen_number": "78",
+      "name": "Pair of roses with buds and leaves",
+      "specimen_number": "41",
       "printed_page": null,
-      "pdf_page": 223,
+      "pdf_page": 170,
       "tags": [
-        "roses",
-        "buds"
+        "buds",
+        "flower",
+        "foliage",
+        "roses"
       ],
       "codepoint": "E017",
       "glyph": "uniE017",
-      "source_index": 12,
+      "source_index": 98,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -1125,6 +1127,7 @@
           "opacity": 0.25
         }
       ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 170, archive leaf 170",
       "advance_width": 1928,
       "viewBox": "0 -1900 1928 2048",
       "aspect_ratio": 0.94140625,
@@ -1650,7 +1653,7 @@
       "multitone": {
         "svg": "svg/multitone/boston-1832-p235-121.svg",
         "png": "png/multitone/boston-1832-p235-121.png",
-        "sprite": "web/icons-multitone.svg#boston-1832-p235-121"
+        "sprite": "web/icons-multitone-2.svg#boston-1832-p235-121"
       }
     },
     {
@@ -2634,7 +2637,7 @@
       "multitone": {
         "svg": "svg/multitone/boston-1832-p253-181.svg",
         "png": "png/multitone/boston-1832-p253-181.png",
-        "sprite": "web/icons-multitone-2.svg#boston-1832-p253-181"
+        "sprite": "web/icons-multitone-3.svg#boston-1832-p253-181"
       }
     },
     {
@@ -2678,7 +2681,7 @@
       "multitone": {
         "svg": "svg/multitone/boston-1832-p255-200.svg",
         "png": "png/multitone/boston-1832-p255-200.png",
-        "sprite": "web/icons-multitone-2.svg#boston-1832-p255-200"
+        "sprite": "web/icons-multitone-3.svg#boston-1832-p255-200"
       }
     },
     {
@@ -2721,7 +2724,7 @@
       "multitone": {
         "svg": "svg/multitone/boston-1832-p255-201.svg",
         "png": "png/multitone/boston-1832-p255-201.png",
-        "sprite": "web/icons-multitone-2.svg#boston-1832-p255-201"
+        "sprite": "web/icons-multitone-3.svg#boston-1832-p255-201"
       }
     },
     {
@@ -13053,19 +13056,19 @@
     },
     {
       "id": "boston-1832-p357-517",
-      "name": "Armoured horse",
-      "specimen_number": "517",
+      "name": "Saddled horse",
+      "specimen_number": "320",
       "printed_page": null,
-      "pdf_page": 357,
+      "pdf_page": 244,
       "tags": [
-        "armoured",
-        "horse",
         "animal",
-        "equestrian"
+        "armoured",
+        "equestrian",
+        "horse"
       ],
       "codepoint": "E11A",
       "glyph": "uniE11A",
-      "source_index": 79,
+      "source_index": 99,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -13084,6 +13087,7 @@
           "opacity": 0.25
         }
       ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 244, archive leaf 244",
       "advance_width": 1928,
       "viewBox": "0 -1900 1928 2048",
       "aspect_ratio": 0.94140625,

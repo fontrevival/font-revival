@@ -463,27 +463,36 @@
       "notes": "Observed Crossed ribbon helix. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-long-primer-9.png",
+      "file": "reference/boston1832-crops/boston-1832-p159-long-primer-6.png",
       "box": [
         0,
         0,
-        305,
-        121
+        249,
+        72
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
-      "center_vertical": true,
+      "height": 361.3917988021118,
+      "max_ink_dimension": 1800.7194688448421,
       "y_min": 0,
+      "center_vertical": true,
       "bearings": [
-        64,
-        64
+        63.721542872001194,
+        63.55898828315662
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 8,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Three interlinked loops on a bar. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.021356961222068094,
+        719.1497284855508
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p171-long-primer-11.png",
@@ -601,50 +610,68 @@
       "notes": "Observed Four diamonds and beads with shaded pointed ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-long-primer-17.png",
+      "file": "reference/howe1830-crops/howe-1830-p013-long-primer-14.png",
       "box": [
         0,
         0,
-        1102,
-        133
+        1266,
+        99
       ],
       "height": 1800,
-      "max_ink_dimension": 1800,
+      "max_ink_dimension": 1800.0386719675123,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        63.96132803248767,
+        64.0
       ],
       "threshold": 135,
       "blur": 0.4,
-      "component_min_area": 8,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Ring in a diamond with open diamond ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+      "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+      "advance_width": 1928,
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.0193359837561502,
+        -0.2021549015755113
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-long-primer-18.png",
+      "file": "reference/howe1830-crops/howe-1830-p013-long-primer-18.png",
       "box": [
         0,
         0,
-        1097,
-        127
+        1009,
+        95
       ],
       "height": 1800,
-      "max_ink_dimension": 1800,
+      "max_ink_dimension": 1800.0901699437495,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        63.90983005625053,
+        64.0
       ],
       "threshold": 135,
       "blur": 0.4,
-      "component_min_area": 8,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Ring in a diamond with open teardrop ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+      "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+      "advance_width": 1928,
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.06660860764009158,
+        -0.15817555991577592
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p171-long-primer-19.png",
@@ -876,57 +903,67 @@
       "notes": "Observed Solid graduated coil with solid teardrop ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-long-primer-30.png",
+      "file": "reference/howe1830-crops/howe-1830-p013-long-primer-13.png",
       "box": [
         0,
         0,
-        1324,
-        141
+        1328,
+        98
       ],
       "height": 1800,
-      "max_ink_dimension": 1800,
+      "max_ink_dimension": 1800.075408689939,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        63.81798223838382,
+        64.10660907167721
       ],
       "threshold": 135,
       "blur": 0.4,
-      "component_min_area": 8,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Double outlined hexagon with open diamond ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+      "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+      "advance_width": 1928,
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.14431341664669617,
+        0.11372875703136742
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-long-primer-31.png",
+      "file": "reference/howe1830-crops/howe-1830-p013-long-primer-17.png",
       "box": [
         0,
         0,
-        1324,
-        139
+        1062,
+        97
       ],
       "height": 1800,
-      "max_ink_dimension": 1800,
+      "max_ink_dimension": 1800.1961524227067,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.803847577293254
       ],
       "threshold": 135,
       "blur": 0.4,
-      "component_min_area": 8,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Double outlined hexagon with open teardrop ends. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours. Remove only isolated off-axis specks outside the principal ink band.",
-      "erase": [
-        [
-          220,
-          17,
-          224,
-          22
-        ]
+      "notes": "Observed historical drawing; recorded crop and rigid straightening only. Exclude neighbouring numbers and isolated off-axis specks; no new ornamental strokes.",
+      "advance_width": 1928,
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.09807621135337286,
+        -0.22222222222222854
       ]
     },
     "": {
@@ -953,50 +990,68 @@
       "notes": "Observed Solid flower and graduated wheels. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-pica-2.png",
+      "file": "reference/boston1832-crops/boston-1832-p159-pica-4.png",
       "box": [
         0,
         0,
-        932,
-        139
+        799,
+        88
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
-      "center_vertical": true,
+      "height": 200.4681791881453,
+      "max_ink_dimension": 1800.013415708843,
       "y_min": 0,
+      "center_vertical": true,
       "bearings": [
-        64,
-        64
+        64.0339593877126,
+        63.9526249034443
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 8,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Four petal rosette with wheels and spearheads. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.2112960851123944,
+        800.2063118162948
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p171-pica-3.png",
+      "file": "reference/boston1832-crops/boston-1832-p159-pica-5.png",
       "box": [
         0,
         0,
-        828,
-        143
+        692,
+        88
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
-      "center_vertical": true,
+      "height": 195.24433316206375,
+      "max_ink_dimension": 1800.0286273909155,
       "y_min": 0,
+      "center_vertical": true,
       "bearings": [
-        64,
-        64
+        63.86156123669389,
+        64.1098113723906
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 8,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 125,
+      "blur": 0.2,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Four spoke oval with open diamonds and arrows. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.10357754267192831,
+        802.3218189571666
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p171-pica-4.png",
@@ -1114,27 +1169,36 @@
       "notes": "Observed Lion mask with acanthus scrolls. Exact crop, source page, cleanup and any rigid rotation are recorded in crops.json; no stretching or inferred contours."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p307-cut-882-upgrade.png",
+      "file": "reference/howe1830-crops/howe-1830-p214-metal-214.png",
       "box": [
         0,
         0,
-        461,
-        417
+        711,
+        692
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1722.0855145352964,
+      "max_ink_dimension": 1799.9373869177045,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 38.91448546470351,
       "bearings": [
-        64,
-        64
+        63.89135287969105,
+        64.17126020260434
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed clearer Bruce1828 PDF307 No882 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.21967731131951496,
+        0.0023277042265590353
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p177-eleven-line-pica-1-repeat.png",
@@ -1536,27 +1600,37 @@
       "notes": "Observed Plain Greek key corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p187-four-line-pica-4-repeat.png",
+      "file": "reference/howe1830-crops/howe-1830-p143-four-line-pica-1-repeat.png",
       "box": [
         0,
         0,
-        354,
-        200
+        592,
+        354
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 976.0,
+      "max_ink_dimension": 1800.1248051323275,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.87519486767246
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 6,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 115,
+      "blur": 0.25,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Acanthus and flower garland. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+      "erase": [],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.062402566163768824,
+        412.09364622661815
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p187-four-line-pica-4-corner.png",
@@ -2419,27 +2493,37 @@
       "notes": "Observed Outlined eight-petal flower in ruled circle and square. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes. A bounded 135/110/85 comparison selected this threshold to retain observed interior lines and enclosing strokes."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p199-real-double-pica-1-repeat.png",
+      "file": "reference/howe1830-crops/howe-1830-p145-canon-2-repeat.png",
       "box": [
         0,
         0,
-        350,
-        198
+        302,
+        163
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 994.4869650966662,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 6,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 115,
+      "blur": 0.25,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Flower disks and four curled scroll connectors. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+      "erase": [],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.03521715389899782,
+        402.85459186217577
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p199-real-double-pica-3-repeat.png",
@@ -2557,27 +2641,44 @@
       "keep_components": 1
     },
     "": {
-      "file": "reference/crops/bruce-1828-p199-real-double-pica-7-motif.png",
+      "file": "reference/howe1830-crops/howe-1830-p013-border-1.png",
       "box": [
         0,
         0,
-        190,
-        198
+        161,
+        165
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1800.080121676837,
+      "max_ink_dimension": 1800.080121676837,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        63.92923526395944,
+        63.97430603112139
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 6,
+      "advance_width": 1860,
+      "center": true,
+      "threshold": 125,
+      "blur": 0.25,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Lozenge flower with curled loops. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+      "erase": [
+        [
+          158,
+          0,
+          161,
+          165
+        ]
+      ],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.08363372847099981,
+        -0.11924342105680807
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p201-double-small-pica-1-corner.png",
@@ -2749,50 +2850,70 @@
       "keep_components": 1
     },
     "": {
-      "file": "reference/crops/bruce-1828-p201-double-small-pica-7-repeat.png",
+      "file": "reference/howe1830-crops/howe-1830-p147-two-lines-small-pica-2-repeat.png",
       "box": [
         0,
         0,
-        190,
-        181
+        171,
+        149
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1590.2271017415278,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 6,
-      "fill_holes": 0,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 115,
+      "blur": 0.25,
+      "component_min_area": 3,
+      "fill_holes": 40,
       "tolerance": 0.15,
-      "notes": "Observed Shaded zigzag ribbon. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+      "erase": [],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.048837523773158864,
+        104.60876305868248
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p201-double-small-pica-7-corner.png",
+      "file": "reference/howe1830-crops/howe-1830-p147-two-lines-small-pica-2-corner.png",
       "box": [
         0,
         0,
-        166,
-        184
+        150,
+        130
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1744.0791918128875,
+      "max_ink_dimension": 1800.2674257761794,
       "center_vertical": true,
       "y_min": 0,
       "bearings": [
-        64,
-        64
+        63.97812742718812,
+        63.754446796632465
       ],
-      "threshold": 135,
-      "blur": 0.4,
-      "component_min_area": 6,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 115,
+      "blur": 0.25,
+      "component_min_area": 3,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Shaded zigzag ribbon corner. Source geometry and rectification are recorded in border-crops.json. No inferred ornamental strokes."
+      "erase": [],
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.013810535391144185,
+        28.00130108892631
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p203-paragon-1-repeat.png",

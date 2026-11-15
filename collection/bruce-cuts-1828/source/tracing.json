@@ -35,27 +35,36 @@
       "notes": "Observed Full moon with eyebrows and a smiling face. Native crop and source orientation recorded in crops.json. No invented pictorial content or stretched proportions."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p237-cut-126.png",
+      "file": "reference/howe1830-crops/howe-1830-p214-metal-221.png",
       "box": [
         0,
         0,
-        457,
-        235
+        401,
+        207
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 943.4487379149389,
+      "max_ink_dimension": 1800.3377381878345,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 428.37258300203047,
       "bearings": [
-        64,
-        64
+        63.9790290637153,
+        63.68323274845011
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0.4,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Pointing hand with extended thumb and fluted cuff. Native crop and source orientation recorded in crops.json. No invented pictorial content or stretched proportions. Source/outline review identifies one connected principal object; discard only detached scan specks.",
-      "keep_components": 1
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.3282380451315703,
+        0.07761597574381085
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p237-cut-132.png",
@@ -158,50 +167,68 @@
       "keep_components": 2
     },
     "": {
-      "file": "reference/crops/bruce-1828-p239-cut-202.png",
+      "file": "reference/howe1830-crops/howe-1830-p188-metal-104.png",
       "box": [
         0,
         0,
-        425,
-        374
+        283,
+        290
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1621.1171274384894,
+      "max_ink_dimension": 1800.217027988455,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 89.76947201594822,
       "bearings": [
-        64,
-        64
+        63.78297201154517,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0.4,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Walking figure leaning on a staff. Native crop and source orientation recorded in crops.json. No invented pictorial content or stretched proportions. Source/outline review identifies one connected principal object; discard only detached scan specks.",
-      "keep_components": 1
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.047674244708218794,
+        0.004622321593046763
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p239-cut-204.png",
+      "file": "reference/howe1830-crops/howe-1830-p188-metal-105.png",
       "box": [
         0,
         0,
-        388,
-        374
+        351,
+        272
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1598.7993535617838,
+      "max_ink_dimension": 1800.102486247518,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 100.63932022500211,
       "bearings": [
-        64,
-        64
+        63.767954204698874,
+        64.12955954778295
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0.4,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Horse stepping left with a white flank. Native crop and source orientation recorded in crops.json. No invented pictorial content or stretched proportions. Source/outline review identifies one connected principal object; discard only detached scan specks.",
-      "keep_components": 1
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.20134501834866114,
+        0.06603789325868092
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p239-cut-205.png",
@@ -1098,27 +1125,36 @@
       "keep_components": 1
     },
     "": {
-      "file": "reference/crops/bruce-1828-p243-cut-270.png",
+      "file": "reference/howe1830-crops/howe-1830-p214-metal-218.png",
       "box": [
         0,
         0,
-        320,
-        192
+        527,
+        311
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1016.0632487552489,
+      "max_ink_dimension": 1800.1123749389872,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 392.04284626913574,
       "bearings": [
-        64,
-        64
+        63.88762506101281,
+        64.0
       ],
-      "threshold": 110,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
       "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Pointing hand with folded thumb. Native crop and source orientation recorded in crops.json. No invented pictorial content or stretched proportions. Source/outline review identifies one connected principal object; discard only detached scan specks. Preserve disconnected barbels or cuff engraving seen in the source.",
-      "component_min_area": 3
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.07331477558420829,
+        -0.18636690409027779
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p243-cut-280.png",
@@ -1298,73 +1334,100 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p245-cut-292.png",
+      "file": "reference/howe1830-crops/howe-1830-p289-aries.png",
       "box": [
         0,
         0,
-        324,
-        208
+        539,
+        347
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1078.2012653667603,
+      "max_ink_dimension": 1799.9657453878187,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 360.7987346332398,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.03425461218126
       ],
-      "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 105,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Aries: ram in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.05209207556242745,
+        -0.12183512613967196
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p245-cut-293.png",
+      "file": "reference/howe1830-crops/howe-1830-p289-taurus.png",
       "box": [
         0,
         0,
-        335,
-        210
+        541,
+        350
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1094.168965650726,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 352.83103434927386,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 105,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Taurus: bull in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.15007653550867417,
+        0.14229634246885325
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p245-cut-294.png",
+      "file": "reference/howe1830-crops/howe-1830-p289-gemini.png",
       "box": [
         0,
         0,
-        324,
-        214
+        524,
+        354
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1103.9411701143792,
+      "max_ink_dimension": 1800.0901699437495,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 348.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.909830056250485
       ],
-      "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 105,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Gemini: two seated figures in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.008219563963848486,
+        0.2866943903197807
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p245-cut-295.png",
@@ -1398,27 +1461,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p245-cut-296.png",
+      "file": "reference/howe1830-crops/howe-1830-p289-leo.png",
       "box": [
         0,
         0,
-        336,
-        217
+        529,
+        343
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1096.0,
+      "max_ink_dimension": 1800.0762258109448,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 352.0,
       "bearings": [
-        64,
-        64
+        63.923774189055216,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Leo: lion in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.03335581245164576,
+        0.020259177452089716
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p245-cut-297.png",
@@ -1467,27 +1539,36 @@
       "notes": "Observed Libra: scales in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p245-cut-299.png",
+      "file": "reference/howe1830-crops/howe-1830-p289-scorpio.png",
       "box": [
         0,
         0,
-        330,
-        210
+        527,
+        338
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1096.3923048454133,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 352.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Scorpio: scorpion in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.07469687750153753,
+        -0.18557923787830077
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p245-cut-300.png",
@@ -1552,27 +1633,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p245-cut-302.png",
+      "file": "reference/howe1830-crops/howe-1830-p289-aquarius.png",
       "box": [
         0,
         0,
-        333,
-        222
+        533,
+        340
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1098.2672117809395,
+      "max_ink_dimension": 1800.2659863237109,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 351.031826324737,
       "bearings": [
-        64,
-        64
+        63.734013676289095,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Aquarius: man pouring water in an octagonal frame. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching. Framed zodiac retains the darker connected rim at threshold135 with no blur."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.3072454641585409,
+        0.008577965714380298
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p245-cut-303.png",
@@ -2182,27 +2272,36 @@
       "notes": "Observed Skull scythe and crossed bones. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p249-cut-372.png",
+      "file": "reference/howe1830-crops/howe-1830-p208-metal-179.png",
       "box": [
         0,
         0,
-        355,
-        255
+        530,
+        388
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1249.1111861641255,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 275.32340231711026,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 110,
-      "blur": 0.15,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Open book. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.2212210717754033,
+        0.17188861798649668
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p249-cut-373.png",
@@ -2489,27 +2588,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p249-cut-385.png",
+      "file": "reference/howe1830-crops/howe-1830-p208-metal-177.png",
       "box": [
         0,
         0,
-        337,
-        246
+        529,
+        372
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1182.0,
+      "max_ink_dimension": 1799.75,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 309.0,
       "bearings": [
-        64,
-        64
+        64.25,
+        64.0
       ],
-      "threshold": 110,
-      "blur": 0.15,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Shoe on ruled ground. Native rectangle in crops.json; uniform scale, no invented drawing. Fine-line review selects threshold110 and minimal smoothing to retain observed hatching."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.125,
+        -0.021132123546522052
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p249-cut-386.png",
@@ -5151,27 +5259,36 @@
       "notes": "Observed clearer Bruce1828 PDF291 No825 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p291-cut-827-upgrade.png",
+      "file": "reference/howe1830-crops/howe-1830-p214-metal-217.png",
       "box": [
         0,
         0,
-        814,
-        421
+        985,
+        490
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 889.569219381653,
+      "max_ink_dimension": 1799.3670447970362,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 455.0,
       "bearings": [
-        64,
-        64
+        64.25,
+        64.38295520296379
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed clearer Bruce1828 PDF291 No827 impression. Stable ID and spacing retained; complete native crop and original source retained. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.10605940843652206,
+        0.04588093379516067
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p263-cut-530.png",
@@ -5228,34 +5345,35 @@
       "notes": "Observed Circular fort with a flag. Native rectangle in crops.json; uniform scale, no invented drawing."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p263-cut-532.png",
+      "file": "reference/howe1830-crops/howe-1830-p188-metal-108.png",
       "box": [
         0,
         0,
-        394,
-        305
+        599,
+        487
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1470.0083754759066,
+      "max_ink_dimension": 1800.0236875482778,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 165.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.97631245172215
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Sailing boat with three sails. Native rectangle in crops.json; uniform scale, no invented drawing. Remove detached caption fragments above the complete artwork; retain the expanded source margin.",
-      "erase": [
-        [
-          0,
-          0,
-          394,
-          14
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.00528353195170439,
+        -0.03374943341270864
       ]
     },
     "": {
@@ -6713,58 +6831,68 @@
       "notes": "Observed Bridges and waterworks in a landscape panel. Native rectangle in crops.json; uniform scale; no invented drawing. Reviewed threshold retains faint source outlines and engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p273-cut-665.png",
+      "file": "reference/howe1830-crops/howe-1830-p256-metal-397.png",
       "box": [
         0,
         0,
-        681,
-        333
+        1079,
+        526
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 855.75,
+      "max_ink_dimension": 1800.283950617284,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 472.0,
       "bearings": [
-        64,
-        64
+        63.71604938271605,
+        64.0
       ],
-      "threshold": 160,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Two riders racing horses. Native rectangle in crops.json; uniform scale; no invented drawing. Reviewed threshold retains faint source outlines and engraving. Additional detached paper specks removed after final threshold review.",
-      "erase": [
-        [
-          424,
-          4,
-          440,
-          18
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.01697530864203145,
+        0.0
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p275-cut-667.png",
+      "file": "reference/howe1830-crops/howe-1830-p244-metal-317.png",
       "box": [
         0,
         0,
-        719,
-        365
+        1155,
+        581
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 906.3395588138012,
+      "max_ink_dimension": 1799.9427190999916,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 447.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.05728090000844
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Radiant printing press above a globe. Native rectangle in crops.json; uniform scale; no invented drawing."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.12795535776058387,
+        -0.130220593099466
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p275-cut-668.png",
@@ -6836,27 +6964,36 @@
       "notes": "Observed Altar with cross candles and holy-water vessel. Native rectangle in crops.json; uniform scale; no invented drawing."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p275-cut-672.png",
+      "file": "reference/howe1830-crops/howe-1830-p218-metal-231.png",
       "box": [
         0,
         0,
-        141,
-        327
+        184,
+        532
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1799.8725447989214,
+      "max_ink_dimension": 1799.8725447989214,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 0.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 110,
-      "blur": 0.15,
-      "component_min_area": 3,
+      "advance_width": 724,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Standing woman wearing an apron. Native rectangle in crops.json; uniform scale; no invented drawing."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.22807104646471998,
+        -0.003986545716429646
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p275-cut-673.png",
@@ -7106,27 +7243,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p277-cut-683.png",
+      "file": "reference/howe1830-crops/howe-1830-p220-metal-239.png",
       "box": [
         0,
         0,
-        299,
-        317
+        476,
+        514
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1800.1381422214947,
+      "max_ink_dimension": 1800.1381422214947,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 0.040633785849116144,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
+      "advance_width": 1827,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Arched mantel clock. Native rectangle in crops.json; uniform scale; no invented drawing."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.05261172487917065,
+        0.15478986847131182
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p277-cut-684.png",
@@ -8220,27 +8366,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p285-cut-770.png",
+      "file": "reference/howe1830-crops/howe-1830-p222-metal-248.png",
       "box": [
         0,
         0,
-        453,
-        377
+        748,
+        595
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1478.6797971805781,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 160.80618520421515,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 110,
-      "blur": 0.15,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Horse standing right. Native rectangle in crops.json; uniform scale; no invented drawing."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.11520351744400159,
+        -0.12711511437089484
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p285-cut-771.png",
@@ -8413,40 +8568,35 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p285-cut-777.png",
+      "file": "reference/howe1830-crops/howe-1830-p226-metal-255.png",
       "box": [
         0,
         0,
-        478,
-        370
+        1234,
+        786
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1450.7558234196172,
+      "max_ink_dimension": 1799.7877538267962,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 174.83792658038294,
       "bearings": [
-        64,
-        64
+        64.21224617320372,
+        64.0
       ],
-      "threshold": 160,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Camel standing right beside a pyramid. Native rectangle in crops.json; uniform scale; no invented drawing. Reviewed threshold retains faint source outlines and engraving. Additional detached paper specks removed after final threshold review.",
-      "erase": [
-        [
-          3,
-          46,
-          20,
-          62
-        ],
-        [
-          432,
-          168,
-          447,
-          183
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.20087327971316427,
+        0.16199071289804579
       ]
     },
     "": {
@@ -8956,27 +9106,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p289-cut-821.png",
+      "file": "reference/howe1830-crops/howe-1830-p220-metal-235.png",
       "box": [
         0,
         0,
-        632,
-        422
+        1001,
+        673
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1164.4574012921516,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 317.80306154330094,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 160,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Portrait medallion between Justice and Liberty. Native rectangle in crops.json; uniform scale; no invented drawing. Reviewed threshold retains faint source outlines and engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.045084971874757684,
+        -0.047927593840199734
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p289-cut-824.png",
@@ -9401,27 +9560,36 @@
       "notes": "Observed Standing stag. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p309-cut-891.png",
+      "file": "reference/howe1830-crops/howe-1830-p222-metal-249.png",
       "box": [
         0,
         0,
-        463,
-        392
+        738,
+        618
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1502.59375,
+      "max_ink_dimension": 1799.909944487358,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 149.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.09005551264204
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Standing long-horned goat. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.011154531736906392,
+        0.02367609112491209
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p309-cut-892.png",
@@ -9562,27 +9730,36 @@
       "notes": "Observed Swan beside reeds and foliage. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p311-cut-898.png",
+      "file": "reference/howe1830-crops/howe-1830-p222-metal-247.png",
       "box": [
         0,
         0,
-        449,
-        440
+        679,
+        743
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1799.8276737959886,
+      "max_ink_dimension": 1799.8276737959886,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 0.06854862987401722,
       "bearings": [
-        64,
-        64
+        63.754446796632415,
+        64.0
       ],
+      "advance_width": 1924,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Turkey with displayed tail. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.02040807575656345,
+        -0.21857636645506773
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p311-cut-899.png",
@@ -9677,27 +9854,36 @@
       "notes": "Observed Standing goose. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p311-cut-903.png",
+      "file": "reference/howe1830-crops/howe-1830-p222-metal-246.png",
       "box": [
         0,
         0,
-        463,
-        426
+        733,
+        717
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1701.8284271247462,
+      "max_ink_dimension": 1800.3284271247462,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 49.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.67157287525379
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Goose with goslings. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.09649446238154269,
+        -0.08578643762689353
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p311-cut-904.png",
@@ -10344,50 +10530,68 @@
       "notes": "Observed Crowned oval armorial shield with collar. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p315-cut-957.png",
+      "file": "reference/howe1830-crops/howe-1830-p258-metal-408.png",
       "box": [
         0,
         0,
-        669,
-        474
+        979,
+        694
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1268.0,
+      "max_ink_dimension": 1799.6018771670801,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 266.0,
       "bearings": [
-        64,
-        64
+        64.11948238291579,
+        64.2786404500041
       ],
-      "threshold": 110,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Elephant standing left with lowered trunk. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.0379770427339281,
+        -0.07169546416139383
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p315-cut-927.png",
+      "file": "reference/howe1830-crops/howe-1830-p222-metal-244.png",
       "box": [
         0,
         0,
-        649,
-        442
+        1049,
+        741
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1186.0,
+      "max_ink_dimension": 1799.75,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 307.0,
       "bearings": [
-        64,
-        64
+        64.25,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Veiled woman with cross beside a gesturing man. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.041044943821248125,
+        0.0
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p317-cut-958.png",
@@ -10490,27 +10694,36 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p317-cut-982.png",
+      "file": "reference/howe1830-crops/howe-1830-p218-metal-227.png",
       "box": [
         0,
         0,
-        766,
-        518
+        1208,
+        863
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1294.1278905896872,
+      "max_ink_dimension": 1800.1287092917528,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 253.0,
       "bearings": [
-        64,
-        64
+        63.87129070824723,
+        64.0
       ],
-      "threshold": 160,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Eagle with olive branch stars and clouds. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.18935464587639217,
+        -0.008282507969852304
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p319-cut-984.png",
@@ -10621,272 +10834,324 @@
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p333-cut-1007.png",
+      "file": "reference/howe1830-crops/howe-1830-p242-metal-308.png",
       "box": [
         0,
         0,
-        785,
-        572
+        1305,
+        1008
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1296.2659863237109,
+      "max_ink_dimension": 1800.0405183549042,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 252.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.95948164509582
       ],
-      "threshold": 110,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Man below a child in a tree in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.020259177452089716,
+        0.178078133730196
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p333-cut-1008.png",
+      "file": "reference/howe1830-crops/howe-1830-p242-metal-310.png",
       "box": [
         0,
         0,
-        818,
-        607
+        1316,
+        1029
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1332.0001144311075,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 233.9098300562505,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Woman beside a fallen barrel in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving. Explicit native-pixel erase rectangles remove neighbouring captions and detached adjacent ornaments only.",
-      "erase": [
-        [
-          305,
-          0,
-          500,
-          12
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.375,
+        -0.13519770007053467
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p333-cut-1009.png",
+      "file": "reference/howe1830-crops/howe-1830-p244-metal-314.png",
       "box": [
         0,
         0,
-        824,
-        569
+        1375,
+        1018
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1200.0,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 300.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Animal in water beneath birds in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving. Explicit native-pixel erase rectangles remove neighbouring captions and detached adjacent ornaments only.",
-      "erase": [
-        [
-          365,
-          0,
-          540,
-          9
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.12919641831456374,
+        0.0
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p333-cut-1010.png",
+      "file": "reference/howe1830-crops/howe-1830-p244-metal-315.png",
       "box": [
         0,
         0,
-        827,
-        589
+        1369,
+        1002
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1307.5,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 246.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Cats in a kitchen in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.1969384566990584,
+        0.045084971874757684
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p333-cut-1011.png",
+      "file": "reference/howe1830-crops/howe-1830-p242-metal-309.png",
       "box": [
         0,
         0,
-        836,
-        609
+        1333,
+        1007
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1248.5,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 275.5,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
-      "threshold": 160,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Fox reaching for fruit in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving. Explicit native-pixel erase rectangles remove neighbouring captions and detached adjacent ornaments only.",
-      "erase": [
-        [
-          315,
-          0,
-          510,
-          25
-        ],
-        [
-          0,
-          40,
-          17,
-          280
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.01491210194069481,
+        0.07842712474621294
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p333-cut-1012.png",
+      "file": "reference/howe1830-crops/howe-1830-p240-metal-302.png",
       "box": [
         0,
         0,
-        830,
-        582
+        1342,
+        1009
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1270.773198908875,
+      "max_ink_dimension": 1799.9360832905159,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 264.5,
       "bearings": [
-        64,
-        64
+        64.06391670948408,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Bear beside a fallen man and another man in a tree in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.031958354742073425,
+        0.016355966434389302
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p335-cut-1013.png",
+      "file": "reference/howe1830-crops/howe-1830-p240-metal-300.png",
       "box": [
         0,
         0,
-        825,
-        601
+        1348,
+        1017
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1273.75,
+      "max_ink_dimension": 1800.1986298155127,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 263.25,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.80137018448727
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Two men fighting beside dogs and a farmhouse in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving. Explicit native-pixel erase rectangles remove neighbouring captions and detached adjacent ornaments only.",
-      "erase": [
-        [
-          305,
-          0,
-          505,
-          18
-        ]
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.2708877830101528,
+        0.05578061834694381
       ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p335-cut-1014.png",
+      "file": "reference/howe1830-crops/howe-1830-p240-metal-301.png",
       "box": [
         0,
         0,
-        813,
-        562
+        1337,
+        973
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1236.0,
+      "max_ink_dimension": 1800.0,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 282.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Two men in a room with a bull outside in an ornamental frame. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.04657287525378706,
+        0.0
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p337-cut-1022.png",
+      "file": "reference/howe1830-crops/howe-1830-p282-metal-spelling-garden-doorway.png",
       "box": [
         0,
         0,
-        806,
-        551
+        1300,
+        899
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1232.0,
+      "max_ink_dimension": 1799.9066155515152,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 284.0,
       "bearings": [
-        64,
-        64
+        63.84338444848485,
+        64.25
       ],
-      "threshold": 160,
-      "blur": 0,
-      "component_min_area": 3,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 135,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Person fishing beneath a tree in an octagonal panel. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.20330777575759384,
+        0.0
+      ]
     },
     "": {
-      "file": "reference/crops/bruce-1828-p339-cut-1026.png",
+      "file": "reference/howe1830-crops/howe-1830-p280-metal-spelling-schoolmaster.png",
       "box": [
         0,
         0,
-        755,
-        534
+        1184,
+        877
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1272.0,
+      "max_ink_dimension": 1800.109038524102,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 264.0,
       "bearings": [
-        64,
-        64
+        64.0,
+        63.89096147589794
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Woman with a book and a child in an octagonal panel. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.05451926205103064,
+        0.0013149243918633147
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p339-cut-1029.png",
@@ -11734,27 +11999,36 @@
       "notes": "Observed Two men seated beneath drapery. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p355-cut-1076.png",
+      "file": "reference/howe1830-crops/howe-1830-p270-metal-439.png",
       "box": [
         0,
         0,
-        938,
-        621
+        1589,
+        1078
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1188.25,
+      "max_ink_dimension": 1799.75,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 305.75,
       "bearings": [
-        64,
-        64
+        64.25,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Geography classroom with globes maps and pupils. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        0.13888888888891415,
+        -0.125
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p355-cut-1077.png",
@@ -11888,27 +12162,36 @@
       "notes": "Observed Funerary monument with wreath skull and drapery. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
     },
     "": {
-      "file": "reference/crops/bruce-1828-p363-cut-1095.png",
+      "file": "reference/howe1830-crops/howe-1830-p194-metal-146.png",
       "box": [
         0,
         0,
-        978,
-        715
+        1575,
+        1242
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1344.9494324689538,
+      "max_ink_dimension": 1800.375,
       "center_vertical": true,
-      "y_min": 0,
+      "y_min": 227.60612308660185,
       "bearings": [
-        64,
-        64
+        63.625,
+        64.0
       ],
+      "advance_width": 1928,
+      "center": true,
       "threshold": 135,
-      "blur": 0,
-      "component_min_area": 3,
+      "blur": 0.3,
+      "component_min_area": 4,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Observed Two-storey house between tall trees. Native geometry and any measured frame rectification recorded in crops.json. No invented engraving."
+      "post_trace_transform": [
+        1,
+        0,
+        0,
+        1,
+        -0.1875,
+        -0.04208818348740806
+      ]
     },
     "": {
       "file": "reference/crops/bruce-1828-p365-cut-1097.png",

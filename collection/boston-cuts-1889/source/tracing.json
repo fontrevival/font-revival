@@ -2649,36 +2649,37 @@
       "frame_threshold": 185
     },
     "": {
-      "file": "reference/boston-274.jp2",
+      "file": "reference/figgins1834-crops/level-compasses.png",
       "box": [
-        339,
-        2403,
-        466,
-        2544
+        0,
+        0,
+        197,
+        146
       ],
-      "height": 1800,
-      "max_ink_dimension": 1800,
+      "height": 1768.3753379468105,
+      "max_ink_dimension": 1799.8019300845388,
+      "y_min": 15.927315251193699,
       "center_vertical": true,
-      "y_min": 0,
       "bearings": [
-        64,
-        64
+        64.0,
+        64.19806991546125
       ],
-      "threshold": 185,
+      "advance_width": 1928,
+      "center": true,
+      "threshold": 90,
       "blur": 0.3,
       "component_min_area": 2,
       "fill_holes": 0,
       "tolerance": 0.15,
-      "notes": "Reviewed native crop; preserve all engraving; exclude catalogue labels and prices. The complete light-ink trace defines the shared frame, preventing tonal clipping; both editions retain the same transform.",
+      "frame_threshold": 100,
       "multitone": {
         "thresholds": {
-          "primary": 130,
-          "secondary": 165,
-          "tertiary": 185
-        },
-        "notes": "Native crop and rendered proof review: these darker-paper pages use 130/165/185 levels to exclude scan grain and paper stains that enter at 210. The lightest retained trace matches the reviewed monochrome ink."
+          "primary": 55,
+          "secondary": 80,
+          "tertiary": 100
+        }
       },
-      "frame_threshold": 185
+      "notes": "Clearer matching Figgins1834 impression. Preserve canonical ID, PUA mapping and advance. Previous Boston1889 witness and classification are retained in figgins1834-quality-revisions.json."
     },
     "": {
       "file": "reference/boston-274.jp2",

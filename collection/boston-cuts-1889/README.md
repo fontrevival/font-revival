@@ -4,7 +4,7 @@ Historical ornaments, pictorial cuts, decorated initials and symbols from the Bo
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**478 icon(s) · Version 1.005 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
+**478 icon(s) · Version 1.006 · Artwork: MIT · Fonts: MIT or SIL OFL 1.1**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonCuts1889-Regular.otf) · [TTF](fonts/BostonCuts1889-Regular.ttf) · [WOFF2](web/BostonCuts1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -113,6 +113,7 @@ The fonts and editable font source data are available under your choice of the [
 - [Job room type faces (Government Printing Office, 1904), printed page 160; PDF page 176, Internet Archive leaf 176](https://archive.org/details/123459_1904/page/n176/mode/1up) — 1904 United States historical publication, public domain by age. Scan contributed and sponsored by the U.S. Government Printing Office. The archive metadata note about a title-page copyright is retained; no copyright claim is inferred to survive for this 1904 publication. No modern digital artwork was traced. [Rights basis](https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f).
 - [Job room type faces (Government Printing Office, 1904), printed page 161; PDF page 177, Internet Archive leaf 177](https://archive.org/details/123459_1904/page/n177/mode/1up) — 1904 United States historical publication, public domain by age. Scan contributed and sponsored by the U.S. Government Printing Office. The archive metadata note about a title-page copyright is retained; no copyright claim is inferred to survive for this 1904 publication. No modern digital artwork was traced. [Rights basis](https://www.govinfo.gov/app/details/GOVPUB-GP-d2c787aba0ecc03f4689c5244878f48f).
 - [A specimen of printing types, and ornaments cast in the letter-foundry of George Bruce (1828), unnumbered PDF page 251, No.392](https://hdl.handle.net/2027/nyp.33433006349736) — 1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface. [Rights basis](https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html).
+- [Specimen of printing types, V. Figgins (1834), Masonic emblems, unpaginated PDF page 215, archive leaf 215](https://archive.org/details/b2874231x/page/n215/mode/1up) — 1834 British publication, public domain by age. Wellcome Library archive record: Public Domain Mark 1.0. [Rights basis](https://archive.org/details/b2874231x).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and

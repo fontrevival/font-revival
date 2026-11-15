@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Boston Cuts 1832",
   "style": "Regular",
-  "version": "1.002",
+  "version": "1.003",
   "postscript_name": "BostonCuts1832-Regular",
   "year": 1832,
   "designer": "Boston Type & Stereotype Foundry; individual engravers generally unidentified; observed signatures retained",
@@ -701,6 +701,20 @@
       "file": "reference/bruce1828-hathi-p243.png",
       "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
       "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 170, archive leaf 170",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n170/mode/1up",
+      "file": "reference/howe1830-170.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 244, archive leaf 244",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n244/mode/1up",
+      "file": "reference/howe1830-244.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
     }
   ],
   "icons": [
@@ -1544,17 +1558,19 @@
     },
     {
       "id": "boston-1832-p223-78",
-      "name": "Two roses and buds",
-      "specimen_number": "78",
+      "name": "Pair of roses with buds and leaves",
+      "specimen_number": "41",
       "printed_page": null,
-      "pdf_page": 223,
+      "pdf_page": 170,
       "tags": [
-        "roses",
-        "buds"
+        "buds",
+        "flower",
+        "foliage",
+        "roses"
       ],
       "codepoint": "E017",
       "glyph": "uniE017",
-      "source_index": 12,
+      "source_index": 98,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -1572,7 +1588,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 170, archive leaf 170"
     },
     {
       "id": "boston-1832-p227-90",
@@ -10652,19 +10669,19 @@
     },
     {
       "id": "boston-1832-p357-517",
-      "name": "Armoured horse",
-      "specimen_number": "517",
+      "name": "Saddled horse",
+      "specimen_number": "320",
       "printed_page": null,
-      "pdf_page": 357,
+      "pdf_page": 244,
       "tags": [
-        "armoured",
-        "horse",
         "animal",
-        "equestrian"
+        "armoured",
+        "equestrian",
+        "horse"
       ],
       "codepoint": "E11A",
       "glyph": "uniE11A",
-      "source_index": 79,
+      "source_index": 99,
       "recommended_min_px": 64,
       "multitone_layers": [
         {
@@ -10682,7 +10699,8 @@
           "role": "tertiary",
           "opacity": 0.25
         }
-      ]
+      ],
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 244, archive leaf 244"
     },
     {
       "id": "boston-1832-p357-518",

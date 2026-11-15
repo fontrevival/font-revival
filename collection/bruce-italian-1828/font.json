@@ -3,7 +3,7 @@
   "id": "bruce-italian-1828",
   "name": "Bruce Italian 1828",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "BruceItalian1828-Regular",
   "year": 1828,
   "designer": "Unidentified in the historical specimen",
@@ -12,7 +12,7 @@
   "license": "MIT OR OFL-1.1",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "GEORGE BRUCE TYPE",
-  "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZ,’;:.-!$1234567890 from English Italian on unnumbered PDF page 127 of the 1828 specimen.",
+  "observed": "Directly traced ABCDEFGHIJKLMNOPQRSTUVWXYZ,’;:.-!$1234567890 from English Italian on unnumbered PDF page 127 of the 1828 specimen. Clearer matching impressions on the 1832 Boston leaves supply the revised ABCDEFGHIJKLMNOPQRSTUVWXYZ$1234567890.;:!’ outlines.",
   "reconstructed": "No inferred visible characters. Lowercase input aliases the capitals. Blank spaces and digital spacing are new. A measured rigid rotation corrects page tilt; source dimensions and proportions are preserved.",
   "sources": [
     {
@@ -21,6 +21,13 @@
       "file": "reference/bruce1828-hathi-p127.png",
       "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
       "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    },
+    {
+      "title": "Boston Type and Stereotype Foundry specimen (1832), shaded or Italian display types, unnumbered leaf 115",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n115/mode/1up",
+      "file": "reference/boston1832-115.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
     }
   ],
   "revival": {
@@ -30,7 +37,7 @@
       "Potrace 1.16",
       "fontTools 4.64.0"
     ],
-    "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json."
+    "notes": "Native PDF image retained. A quarter-turn and measured 4.891-degree rigid rotation produce the reading image. See reference/acquisition.json and source/rows.json. Boston native scan replaces only reviewed matching forms; previous coverage, aliases and advance widths remain."
   },
   "character_style": "capitals-only",
   "character_set": " !$',-.0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ’",

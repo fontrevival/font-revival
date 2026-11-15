@@ -4,7 +4,7 @@
   "kind": "icons",
   "name": "Bruce Ornaments 1828",
   "style": "Regular",
-  "version": "1.006",
+  "version": "1.007",
   "postscript_name": "BruceOrnaments1828-Regular",
   "year": 1828,
   "designer": "Individual engravers unidentified in the specimen",
@@ -260,6 +260,48 @@
       "file": "reference/bruce1828-hathi-p307.png",
       "rights": "1828 United States publication; historical artwork is public domain by age. New York Public Library copy digitized by Google, distributed by HathiTrust and mirrored by Circuitous Root. A faithful scan of the historical page, not a modern digital typeface.",
       "rights_url": "https://circuitousroot.com/artifice/letters/press/noncomptype/typography/bruce/index.html"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 13, archive leaf 13",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n13/mode/1up",
+      "file": "reference/howe1830-13.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 143, archive leaf 143",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n143/mode/1up",
+      "file": "reference/howe1830-143.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 145, archive leaf 145",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n145/mode/1up",
+      "file": "reference/howe1830-145.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 147, archive leaf 147",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n147/mode/1up",
+      "file": "reference/howe1830-147.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 214, archive leaf 214",
+      "url": "https://archive.org/details/specimenofprinti00jhow/page/n214/mode/1up",
+      "file": "reference/howe1830-214.jp2",
+      "rights": "1830 US publication, public domain by age. Library of Congress scan; the retained archive record states that the Library is unaware of copyright restrictions.",
+      "rights_url": "https://archive.org/details/specimenofprinti00jhow"
+    },
+    {
+      "title": "Boston Type and Stereotype Foundry specimen (1832), archive leaf 159",
+      "url": "https://archive.org/details/specimenofprinti00bost/page/n159/mode/1up",
+      "file": "reference/boston1832-159.jp2",
+      "rights": "1832 US publication, public domain by age. Library of Congress scan distributed through Internet Archive. The retained archive metadata states that the Library of Congress is unaware of any copyright restrictions for this item. No modern font or redrawing was traced. MIT applies to original project work.",
+      "rights_url": "https://archive.org/details/specimenofprinti00bost"
     }
   ],
   "icons": [
@@ -591,8 +633,8 @@
       "name": "Three interlinked loops on a bar",
       "specimen_number": "Long Primer 9",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 159,
+      "source_index": 40,
       "tags": [
         "ornament",
         "divider",
@@ -603,7 +645,8 @@
       ],
       "codepoint": "E011",
       "glyph": "uniE011",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Boston Type and Stereotype Foundry specimen (1832), archive leaf 159"
     },
     {
       "id": "bruce-1828-p171-long-primer-11",
@@ -701,41 +744,43 @@
     },
     {
       "id": "bruce-1828-p171-long-primer-17",
-      "name": "Ring in a diamond with open diamond ends",
-      "specimen_number": "Long Primer 17",
+      "name": "Long Primer dash 14",
+      "specimen_number": "long-primer-14",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 13,
+      "source_index": 35,
       "tags": [
-        "ornament",
-        "divider",
         "dash",
         "diamond",
+        "divider",
+        "open",
         "ring",
-        "open"
+        "rule"
       ],
       "codepoint": "E017",
       "glyph": "uniE017",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 13, archive leaf 13"
     },
     {
       "id": "bruce-1828-p171-long-primer-18",
-      "name": "Ring in a diamond with open teardrop ends",
-      "specimen_number": "Long Primer 18",
+      "name": "Long Primer dash 18",
+      "specimen_number": "long-primer-18",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 13,
+      "source_index": 35,
       "tags": [
-        "ornament",
-        "divider",
         "dash",
         "diamond",
+        "divider",
         "ring",
+        "rule",
         "teardrop"
       ],
       "codepoint": "E018",
       "glyph": "uniE018",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 13, archive leaf 13"
     },
     {
       "id": "bruce-1828-p171-long-primer-19",
@@ -916,41 +961,43 @@
     },
     {
       "id": "bruce-1828-p171-long-primer-30",
-      "name": "Double outlined hexagon with open diamond ends",
-      "specimen_number": "Long Primer 30",
+      "name": "Long Primer dash 13",
+      "specimen_number": "long-primer-13",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 13,
+      "source_index": 35,
       "tags": [
-        "ornament",
-        "divider",
         "dash",
+        "diamond",
+        "divider",
         "hexagon",
         "outline",
-        "diamond"
+        "rule"
       ],
       "codepoint": "E022",
       "glyph": "uniE022",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 13, archive leaf 13"
     },
     {
       "id": "bruce-1828-p171-long-primer-31",
-      "name": "Double outlined hexagon with open teardrop ends",
-      "specimen_number": "Long Primer 31",
+      "name": "Long Primer dash 17",
+      "specimen_number": "long-primer-17",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 13,
+      "source_index": 35,
       "tags": [
-        "ornament",
-        "divider",
         "dash",
+        "divider",
         "hexagon",
         "outline",
+        "rule",
         "teardrop"
       ],
       "codepoint": "E023",
       "glyph": "uniE023",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 13, archive leaf 13"
     },
     {
       "id": "bruce-1828-p171-pica-1",
@@ -976,8 +1023,8 @@
       "name": "Four petal rosette with wheels and spearheads",
       "specimen_number": "Pica 2",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 159,
+      "source_index": 40,
       "tags": [
         "ornament",
         "divider",
@@ -989,15 +1036,16 @@
       ],
       "codepoint": "E025",
       "glyph": "uniE025",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Boston Type and Stereotype Foundry specimen (1832), archive leaf 159"
     },
     {
       "id": "bruce-1828-p171-pica-3",
       "name": "Four spoke oval with open diamonds and arrows",
       "specimen_number": "Pica 3",
       "printed_page": null,
-      "pdf_page": 171,
-      "source_index": 1,
+      "pdf_page": 159,
+      "source_index": 40,
       "tags": [
         "ornament",
         "divider",
@@ -1008,7 +1056,8 @@
       ],
       "codepoint": "E026",
       "glyph": "uniE026",
-      "recommended_min_px": 64
+      "recommended_min_px": 64,
+      "source_label": "Boston Type and Stereotype Foundry specimen (1832), archive leaf 159"
     },
     {
       "id": "bruce-1828-p171-pica-4",
@@ -1110,24 +1159,24 @@
     {
       "id": "bruce-1828-p175-eight-line-pica-1-mask",
       "name": "Grinning theatrical mask with cap and ruff",
-      "specimen_number": "882",
+      "specimen_number": "214",
       "printed_page": null,
-      "pdf_page": 307,
-      "source_index": 34,
+      "pdf_page": 214,
+      "source_index": 39,
       "tags": [
-        "ornament",
-        "mask",
-        "theatre",
+        "cap",
         "face",
         "grin",
-        "cap",
+        "mask",
+        "masquerade",
         "ruff",
-        "theatrical",
-        "masquerade"
+        "theatre",
+        "theatrical"
       ],
       "codepoint": "E02C",
       "glyph": "uniE02C",
-      "recommended_min_px": 96
+      "recommended_min_px": 96,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 214, archive leaf 214"
     },
     {
       "id": "bruce-1828-p177-eleven-line-pica-1-repeat",
@@ -1413,20 +1462,21 @@
     },
     {
       "id": "bruce-1828-p187-four-line-pica-4-repeat",
-      "name": "Acanthus and flower garland",
-      "specimen_number": "Four Line Pica 4 repeat",
+      "name": "Flowing acanthus and flower repeat",
+      "specimen_number": "four-line-pica-1-repeat",
       "printed_page": null,
-      "pdf_page": 187,
-      "source_index": 9,
+      "pdf_page": 143,
+      "source_index": 36,
       "tags": [
-        "border",
-        "repeat",
         "acanthus",
-        "flower"
+        "border",
+        "flower",
+        "repeat"
       ],
       "codepoint": "E03E",
       "glyph": "uniE03E",
-      "recommended_min_px": 96
+      "recommended_min_px": 96,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 143, archive leaf 143"
     },
     {
       "id": "bruce-1828-p187-four-line-pica-4-corner",
@@ -2006,20 +2056,23 @@
     },
     {
       "id": "bruce-1828-p199-real-double-pica-1-repeat",
-      "name": "Flower disks and four curled scroll connectors",
-      "specimen_number": "Real Double Pica 1 repeat",
+      "name": "Beaded flower medallion with curled leafy terminals",
+      "specimen_number": "canon-2-repeat",
       "printed_page": null,
-      "pdf_page": 199,
-      "source_index": 15,
+      "pdf_page": 145,
+      "source_index": 37,
       "tags": [
         "border",
-        "repeat",
         "flower",
+        "foliage",
+        "lion",
+        "repeat",
         "scroll"
       ],
       "codepoint": "E063",
       "glyph": "uniE063",
-      "recommended_min_px": 96
+      "recommended_min_px": 96,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 145, archive leaf 145"
     },
     {
       "id": "bruce-1828-p199-real-double-pica-3-repeat",
@@ -2106,19 +2159,20 @@
     },
     {
       "id": "bruce-1828-p199-real-double-pica-7-motif",
-      "name": "Lozenge flower with curled loops",
-      "specimen_number": "Real Double Pica 7 motif",
+      "name": "Circular flower with four curled outer lobes",
+      "specimen_number": "border-1",
       "printed_page": null,
-      "pdf_page": 199,
-      "source_index": 15,
+      "pdf_page": 13,
+      "source_index": 35,
       "tags": [
         "border",
-        "motif",
-        "flower"
+        "flower",
+        "motif"
       ],
       "codepoint": "E069",
       "glyph": "uniE069",
-      "recommended_min_px": 96
+      "recommended_min_px": 96,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 13, archive leaf 13"
     },
     {
       "id": "bruce-1828-p201-double-small-pica-1-corner",
@@ -2237,33 +2291,37 @@
     },
     {
       "id": "bruce-1828-p201-double-small-pica-7-repeat",
-      "name": "Shaded zigzag ribbon",
-      "specimen_number": "Double Small Pica 7 repeat",
+      "name": "Folded ribbon with striped and solid sides",
+      "specimen_number": "two-lines-small-pica-2-repeat",
       "printed_page": null,
-      "pdf_page": 201,
-      "source_index": 16,
+      "pdf_page": 147,
+      "source_index": 38,
       "tags": [
         "border",
-        "repeat"
+        "repeat",
+        "ribbon"
       ],
       "codepoint": "E071",
       "glyph": "uniE071",
-      "recommended_min_px": 96
+      "recommended_min_px": 96,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 147, archive leaf 147"
     },
     {
       "id": "bruce-1828-p201-double-small-pica-7-corner",
-      "name": "Shaded zigzag ribbon corner",
-      "specimen_number": "Double Small Pica 7 corner",
+      "name": "Folded ribbon corner with dots and a loop",
+      "specimen_number": "two-lines-small-pica-2-corner",
       "printed_page": null,
-      "pdf_page": 201,
-      "source_index": 16,
+      "pdf_page": 147,
+      "source_index": 38,
       "tags": [
         "border",
-        "corner"
+        "corner",
+        "ribbon"
       ],
       "codepoint": "E072",
       "glyph": "uniE072",
-      "recommended_min_px": 96
+      "recommended_min_px": 96,
+      "source_label": "Specimen of printing types and ornaments, J. Howe & Co. (1830), unpaginated PDF page 147, archive leaf 147"
     },
     {
       "id": "bruce-1828-p203-paragon-1-repeat",
